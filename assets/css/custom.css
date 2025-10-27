@@ -1,0 +1,13 @@
+.md-main__inner.md-grid {
+    max-width: initial;
+}
+
+/* Collapse all left sidebar nav sections by default */
+.md-nav__submenu {
+    display: none;
+}
+
+/* Expand only the active page’s parent section */
+.md-nav__item--active > .md-nav__submenu {
+    display: block;
+}
