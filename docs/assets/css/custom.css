@@ -11,3 +11,69 @@
 .md-nav__item--active > .md-nav__submenu {
     display: block;
 }
+
+.md-nav--primary .md-nav__link[for=__toc] ~ .md-nav {
+    display: none;
+}
+
+/* Justify paragraphs and headings in the main content */
+.md-content, .md-typeset p {
+    text-align: justify;
+    text-justify: inter-word;  /* optional for better spacing */
+}
+
+/* Make all horizontal rules thicker */
+.md-typeset hr {
+    height: 1px;               /* thickness */
+    background-color: #3f51b5;    /* color */
+    margin: 0.5rem 0;            /* spacing above/below */
+}
+
+/* Remove grid centering from header */
+.md-header__inner.md-grid {
+    max-width: none;
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Align site name to top-left */
+.md-header__title {
+    margin-left: 0.5rem;
+    padding-left: 0;
+}
+
+/* Reduce logo spacing */
+.md-header__button.md-logo {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Optional: reduce padding around the header for tighter look */
+.md-header {
+    padding: 0;
+}
+
+.tabbed-content .md-typeset__table {
+    width: 100%;
+    max-width: 100%;
+}
+
+.tabbed-content table {
+    width: 100%;
+    table-layout: auto;
+    min-width: 100%;  /* Forces table to use at least full width */
+}
+
+/* Remove ALL borders from tabbed content tables */
+.tabbed-content table {
+    border: none !important;
+}
+
+.md-typeset__table {
+  width: 100%;
+}
+
+.md-typeset__table table:not([class]) {
+  display: table
+}

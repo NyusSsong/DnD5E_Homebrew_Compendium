@@ -9,14 +9,10 @@ theme:
   language: en
   palette:
     - scheme: default
-      primary: indigo
-      accent: amber
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -27,14 +23,13 @@ theme:
     - navigation.instant
     - navigation.sections
     - navigation.top
+    - navigation.path
     - search.suggest
     - search.highlight
     - search.share
     - content.code.copy
     - content.tabs.link
-    - header.autohide
     - tables.responsive
-    - toc.follow
 
 nav:
   - Home: index.md
@@ -52,14 +47,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-      combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
   - tables
   - toc:
-      permalink: true
-      toc_depth: 3
+      toc_depth: 0
 
 extra_css:
   - assets/css/custom.css
