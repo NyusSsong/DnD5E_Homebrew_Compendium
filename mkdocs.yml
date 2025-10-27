@@ -1,8 +1,8 @@
 site_name: DnD 5E Homebrew Compendium
 site_description: Homebrew classes and subclasses for 5E
 site_author: Song
-repo_url: https://github.com/YOURUSER/YOURREPO   # (replace later)
-edit_uri: edit/main/docs
+repo_url: https://github.com/NyusSsong/DnD5E_Homebrew_Compendium
+edit_uri: edit/master/docs
 
 theme:
   name: material
