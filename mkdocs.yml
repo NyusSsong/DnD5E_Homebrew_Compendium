@@ -1,0 +1,65 @@
+site_name: DnD 5E Homebrew Compendium
+site_description: Homebrew classes and subclasses for 5E
+site_author: Song
+repo_url: https://github.com/YOURUSER/YOURREPO   # (replace later)
+edit_uri: edit/main/docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - tables.responsive
+    - toc.follow
+
+nav:
+  - Home: index.md
+  - Classes:
+      - The Barbarian:
+        - Barbarian Class: barbarian/barbarian.md
+        - Barbarian Paths:
+          - Alternate Barbarian Paths:
+            - Alternate Path of Ancestral Guardian: barbarian/subclasses/alternate/alt_ancestral_guardian.md
+          - New Barbarian Paths:
+            - Path of the Ancestral: barbarian/subclasses/alternate/alt_ancestral_guardian.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra_css:
+  - assets/css/custom.css
