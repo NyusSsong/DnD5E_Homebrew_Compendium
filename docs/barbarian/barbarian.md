@@ -27,31 +27,6 @@ For some, their rage springs from a communion with fierce animal spirits. Others
     | 19th  | +6  | Ability Score Improvement                               | 6          | 5                 | 8               | d10           | 5              |
     | 20th  | +6  | Paragon of Rage                                         | Unlimited  | 5                 | 8               | d10           | 5              |   
 
-=== "Test"
-
-    | Level | PB | Features | Studies Known | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-    |:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-    | 1st | +2 | Arcane Recovery, Spellcasting | — | 3 | 2 | — | — | — | — | — | — | — | — | 
-    | 2nd | +2 | Arcane Tradition | — | 3 | 3 | — | — | — | — | — | — | — | — |
-    | 3rd | +2 | Scholarly Excelence | — | 3 | 4 | 2 | — | — | — | — | — | — | — |
-    | 4th | +2 | Ability Score Improvement, Elective Studies | 1 | 4 | 4 | 3 | ─ | ─ | ─ | — | — | — | — |
-    | 5th | +3 | Signature Spell (1st-level) | 1 | 4 | 4 | 3 | 2 | — | — | — | — | — | — | 
-    | 6th | +3 | Arcane Tradition Feature | 1 | 4 | 4 | 3 | 3 | — | — | — | — | — | — |
-    | 7th | +3 | Spell Study | 1 | 4 | 4 | 3 | 3 | 1 | — | — | — | — | — |
-    | 8th | +3 | Ability Score Improvement| 2 | 4 | 4 | 3 | 3 | 2 | ─ | — | — | — | — |
-    | 9th | +4 | Wizard's Flair | 2 | 4 | 4 | 3 | 3 | 3 | 1 | — | — | — | — | 
-    | 10th | +4 | Arcane Tradition Feature | 2 | 5 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
-    | 11th | +4 | Signature Spell (2nd-level) | 2 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
-    | 12th | +4 | Ability Score Improvement | 3 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
-    | 13th | +5 | Bestow Magics | 3 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — | 
-    | 14th | +5 | Arcane Tradition Feature | 3 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
-    | 15th | +5 | Arcane Defenses | 3 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
-    | 16th | +5 | Ability Score Improvement | 4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
-    | 17th | +6 | Signature Spell (3rd-level) | 4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 | 
-    | 18th | +6 | Swift Signature | 4 | 5 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
-    | 19th | +6 | Ability Score Improvement | 4 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
-    | 20th | +6 | Archmage | 4 | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
-
 === "Core Class Traits"
 
     #### Hit Points
@@ -62,40 +37,130 @@ For some, their rage springs from a communion with fierce animal spirits. Others
 
     <hr>
 
-    #### Proficiencies
+    #### Proficiencies  
+    
+    **Armor:** Light armor, medium armor, shields  
+    **Weapons:** Simple weapons, martial weapons  
+    **Tools:** None  
 
 === "Subclasses"
+
+    <p><strong>Choose a subclass:</strong></p>
+
+    <select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="alt-ancestral-guardian">Alternate Path of the Ancestral Guardian</option>
+    <option value="alt-battlerager">Alternate Path of the Battlerager</option>
+
+    </select>
+
+    <div class="subclass-content" data-subclass="alt-ancestral-guardian">
+
+    ## Alternate Path of the Ancestral Guardian
+
+    Not all Barbarians are savages who revel in bloodlust. Some walk a Path of spiritual connection. Those who walk the Path of the Ancestral Guardian form bonds with spirits who have passed from the mortal plane. Some stand as guardians of their ancestral tombs, others channel the power of legendary warriors, and others open themselves up to the power of any local spirit.
+
+    ### Level 3 - Conduit of Spirits
+
+    As a bonus action, you can expend a use of Rage to enter into a state of spiritual ecstasy and give control of your body over the spirits that you commune with. For the next 10 minutes, when you make an ability check that uses your Intelligence or Wisdom, you gain a bonus to your roll equal to your Constitution modifier (minimum of +1).
+
+    This state of spiritual ecstasy ends early if you enter a Rage, if you fall unconscious, or you use a bonus action on your turn to end it.
+
+    ### Level 3 - Spectral Warriors
+
+    When you Rage, the Spectral Warriors that you commune with come to your aid, and remain with you for the duration of your current Rage.
+
+    Once per turn when you hit a creature with a melee attack, you can send these Spectral Warriors to harry that creature. Until the start of your next turn, the Spectral Warriors swirl around that creature, and it has disadvantage on any attack roll that it makes against targets other than you, and if it hits a creature other than you with an attack, its target has resistance to the damage dealt by that attack.
+
+    These Spiritual Warriors return to you if their target dies, or if your Rage ends.
+
+    ### Level 6 - Spiritual Ward
+
+    You can call on your Spectral Warriors to protect your allies. When another creature that you can see within 30 feet takes damage while you are Raging, you can use a reaction to order your Spectral Warriors to intercept the attack, reducing the triggering damage by three rolls of your Exploit Die.
+
+    If your Spiritual Warriors are currently harrying an enemy when you use this reaction, the effects end for that creature.
+
+    ### Level 10 - Greater Conduit
+
+    Your ability to conduct spiritual power has grown. While you are in a state of ecstasy from Conduit of Spirits, you can cast *clairvoyance* or *commune* without expending a spell slot or material components. However, after you finish casting either of these spells, your state of spiritual ecstasy ends.
+
+    When you cast *clairvoyance* in this way, the spell summons an invisible spirit you are communed with, and when you cast *commune*, you consult your bonded spirits for information.
+
+    ### Level 14 - Vengeful Spirits
+
+    Your powerful connection to the spiritual world allows the long-dead warriors bound to you to once again strike at the living. When you use Spiritual Ward to reduce the damage of an attack, the attacker takes force damage equal to the amount of damage reduced by your Spiritual Ward.
+
+    <hr>
+
+    </div>
+
+    <div class="subclass-content" data-subclass="alt-battlerager">
+
+    ## Alternate Path of the Battlerager
+
+    Reveling in the chaos of battle, the Barbarians of this Primal Path don their signature spiked armor and charge headlong into combat. Learning to channel their Rage while wearing their signature armor, these savage warriors fight as if they have no regard for their own life, only the thrill of battle.
+
+    ### Level 3 - Savage Smith
+
+    You have learned the skills necessary to craft and maintain your spiked armor. You gain proficiency in smith's tools and heavy armor.
+
+    You can also Rage while you are wearing heavy armor.
+
+    ### Level 3 - Spiked Armor
+
+    Over the course of an hour, which can be during a short or long rest, you can use smith's tools to affix spikes to a set of non-magical armor, turning it into Spiked Armor. Spiked Armor has the following properties when worn by you:
+
+    - It is a martial melee weapon with a reach of 5 feet, and on hit, the armor deals piercing damage equal to one roll of your Exploit Die + your Strength modifier.
+    - While you are Raging, you can use a bonus action on your turn to make a single Spiked Armor attack.
+    - If you successfully grapple a creature it takes piercing damage equal to one roll of your Exploit Die.
+
+    ### Level 6 - Reckless Abandon
+
+    Your bloodlust propels you into battle. While Raging, the first time you make a Reckless attack on each of your turns you gain temporary hit points equal to your Constitution modifier. These temporary hit points vanish when your Rage ends.
+
+    In addition, you can turn magic armor into Spiked Armor.
+
+    ### Level 10 - Wild Charge
+
+    Your fury compels you to throw yourself headlong into battle. You learn the *Aggressive Sprint* exploit if you didn't know it already. While you are Raging, you can use it without expending an Exploit Die. However, the attack that you make as part of this Exploit must be a Spiked Armor attack.
+
+    ### Level 14 - Spiked Retribution
+
+    When a creature hits you with a melee attack while you are Raging and wearing your Spiked Armor, it instantly takes piercing damage equal to your Strength modifier.
+
+    If you are conscious, you can use your reaction to replace this damage with the damage of a Spiked Armor attack.
+
 
 === "Developed Talents"
 
     #### AGILE SPRINTER
     You are adept at traversing obstacles while running, able to efficiently and rapidly climb and leap between trees, vines, rooftops, and ropes. You gain advantage on Athletics and Acrobatics checks made to climb, run, and swing.
 
-    ### FLOCK STEP
+    #### FLOCK STEP
     You are adept at reading the flow of creatures grouped together and can effortlessly sync into a herd or crowd. You gain advantage on Stealth checks made to hide amongst or blend in with a group of 5 or more creatures.
 
-    ### LEAD THE PACK
+    #### LEAD THE PACK
     Your unfaltering actions inspire your teammates to greater efforts. You gain advantage on Athletics or Acrobatics checks made to climb, jump, run, and swim. When your party makes a group Athletics or Acrobatics check, you may apply the results of your roll to yourself and one ally. You can choose which ally to apply your result to after everyone has rolled, but must do so before the Narrator says whether you succeed or fail.
 
-    ### MARK OF THE WILDERNESS
+    #### MARK OF THE WILDERNESS
     You have traveled far and seen much, and those around you can tell. You gain proficiency on Intimidation checks. In addition, you may always choose to use Strength when rolling an Intimidation or Persuasion check.
 
-    ### NATURAL TRACKER
+    #### NATURAL TRACKER
     After making a connection with another creature, however tenuous, you make a connection that gives you an edge when pursuing it. After you spend at least 1 minute observing a creature, you gain advantage on checks made to track that specific creature.
 
-    ### PATH OF BLUSTERY AUTUMNS
+    #### PATH OF BLUSTERY AUTUMNS
     Instead of fighting the sharp winds you have learned from them. You gain a +5 foot increase to your Speed. Additionally, you can choose to ignore natural difficult terrain outside.
 
-    ### PATH OF DROWNING SPRINGS
+    #### PATH OF DROWNING SPRINGS
     The rains have taught you the ways of the overflowing rivers. You gain a swim speed equal to your Speed and can hold your breath for a number of minutes equal to 1 + twice your Constitution modifier. In addition, while swimming you can use a bonus action and spend one use of Rage to move your swim speed in a straight line.
 
-    ### PATH OF LEAN WINTERS
+    #### PATH OF LEAN WINTERS
     The lessons of the snows have put you beyond mere cold and hunger. You gain advantage on saving throws made to resist the effects of cold weather as though you were wearing cold weather gear, but without the disadvantages in hot weather. Additionally, you can go without food for a number of days equal to 3 + double your Constitution modifier (minimum 1) before suffering a level of exhaustion.
 
-    ### PATH OF SCORCHING SUMMERS
+    #### PATH OF SCORCHING SUMMERS
     By emulating the beasts of the desert you are above the concerns of heat and thirst. You gain advantage on saving throws made to resist the effects of hot weather as though you were wearing hot weather gear, but without the disadvantages in cold weather. You also gain advantage on saving throws made to resist the effects of thirst.
 
-    ### SHARPENED SENSES
+    #### SHARPENED SENSES
     Your time spent drawing on your rage has brought the world into sharp, relentless focus. You gain advantage on Investigation, Perception, or Survival checks made to follow a creature’s trail.
 
 

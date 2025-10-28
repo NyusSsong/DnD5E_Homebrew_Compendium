@@ -53,3 +53,5 @@ markdown_extensions:
 
 extra_css:
   - assets/css/custom.css
+extra_javascript:
+  - assets/js/subclass-filter.js
