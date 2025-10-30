@@ -34,13 +34,7 @@ theme:
 nav:
   - Home: index.md
   - Classes:
-      - The Barbarian:
-        - Barbarian Class: barbarian/barbarian.md
-        - Barbarian Paths:
-          - Alternate Barbarian Paths:
-            - Alternate Path of Ancestral Guardian: barbarian/subclasses/alternate/alt_ancestral_guardian.md
-          - New Barbarian Paths:
-            - Path of the Ancestral: barbarian/subclasses/alternate/alt_ancestral_guardian.md
+      - The Barbarian: classes/barbarian.md
 
 markdown_extensions:
   - admonition

@@ -109,9 +109,16 @@
 
 .md-typeset h5 {
   font-size: 1em;
-  font-weight: 700;
+  color: #000000; 
+  font-weight: 500;
   line-height: 1.5;
   margin: 0.4em 0 0.2em;
+  text-transform: none;  /* Prevents uppercase transformation */
+}
+
+/* For dark mode, keep it white */
+[data-md-color-scheme="slate"] .md-typeset h5 {
+  color: #ffffff;  /* White in dark mode */
 }
 
 .md-typeset h6 {
@@ -160,3 +167,4 @@ p strong {
   font-size: 0.7rem;
   font-weight: 700;
 }
+
