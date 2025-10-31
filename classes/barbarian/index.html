@@ -1,0 +1,1159 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.33">
+    
+    
+      
+        <title>The Barbarian - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Barbarian
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    The Barbarian
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="the-barbarian">The Barbarian</h1>
+<p>For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Barbarian Features</label><label for="__tabbed_1_3">Developed Talents</label><label for="__tabbed_1_4">Savage Exploits</label><label for="__tabbed_1_5">Subclasses</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Rages</th>
+<th style="text-align: center;">Developed Talents</th>
+<th style="text-align: center;">Exploits Known</th>
+<th style="text-align: center;">Exploit Die</th>
+<th style="text-align: center;">Exploit Dice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Developed Talents, Rage, Unarmored Defense</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Danger Sense, Reckless Attack, Savage Exploits</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Versatile Exploration, Primal Path</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Extra Attack, Fast Movement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Primal Path Feature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Feral Instincts</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Brutal Critical (19, 1 dice)</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Primal Path Feature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Critical Strike, Relentless Rage</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Brutal Critical (18, 2 dice)</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Path Feature</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Persistent Rage</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Brutal Critical (3 dice)</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Indomitable Might</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Paragon of Rage</td>
+<td style="text-align: center;">Unlimited</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d12 per Barbarian level<br />
+<strong>Hit Points at 1st level:</strong> 12 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d12 (7) + your Constitution modifier  </p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor, medium armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, martial weapons<br />
+<strong>Tools:</strong> None  </p>
+<p><strong>Saving Throws:</strong> Strength, Constitution<br />
+<strong>Skills:</strong> Two from Animal Handling, Athletics, Intimidation, Nature, Perception, Stealth and Survival  </p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li><em>(a)</em> a greataxe or <em>(b)</em> any martial melee weapon  </li>
+<li><em>(a)</em> two handaxes or <em>(b)</em> any simple weapon  </li>
+<li>An explorer's pack and four javelins  </li>
+</ul>
+<hr>
+<h4 id="level-1-developed-talents">Level 1 - Developed Talents</h4>
+<p>Whether in the ruins of an ancient civilization, the barren terrain of the hinterlands, or the back alleys of a prosperous city, Barbarians are adept at surviving and interacting with their environments.</p>
+<p>At 1st level you gain a developed talent of your choice. Your developed talents are detailed at the end of the class description. The Developed Talents column of the Barbarian table shows when you learn more developed talents.</p>
+<hr>
+<h4 id="level-1-rage">Level 1 - Rage</h4>
+<p>You fight with an unchecked primal ferocity in battle. Starting at 1st level, you can use a bonus action on your turn to enter a Rage. While your Rage lasts, you gain all the benefits listed below, so long as you aren't wearing heavy armor:</p>
+<ul>
+<li>You have advantage on any Constitution checks, Strength checks, and Strength saving throws that you make.</li>
+<li>Whenever you hit with a Strength-based weapon attack you deal a bonus damage of the weapon's type equal to your proficiency bonus.</li>
+<li>You resist all bludgeoning, piercing, and slashing damage.</li>
+<li>You cannot cast spells or concentrate on spells or effects.</li>
+<li>Your Rage lasts until the end of your next turn, but it ends early if you become unconscious. You can extend your Rage to the end of your next turn by attacking a creature, taking damage, making a Strength check, or using a bonus action to extend it. You can maintain your Rage for up to 1 minute.</li>
+</ul>
+<p>As you gain Barbarian levels, you can Rage additional times between each short or long rest, as shown in the Rages column on the Barbarian table.</p>
+<hr>
+<h4 id="level-1-unarmored-defense">Level 1 - Unarmored Defense</h4>
+<p>Also at 1st level, so long as you are not wearing armor, your Armor Class is equal to 10 + your Dexterity modifier + your Constitution modifier. You can use a shield with this feature.</p>
+<hr>
+<h4 id="level-2-danger-sense">Level 2 - Danger Sense</h4>
+<p>Starting at 2nd level, you have advantage on your initiative rolls. If you are surprised when you roll initiative you can
+act normally so long as you Rage as part of your first turn.</p>
+<hr>
+<h4 id="level-2-reckless-attack">Level 2 - Reckless Attack</h4>
+<p>Also at 2nd level, whenever you make a Strength-based attack on your turn, you can throw aside concern for your defense to make a Reckless Attack. When you do so, you have advantage on all Strength-based attacks and all attack rolls targeting you have advantage until the start of your next turn.</p>
+<hr>
+<h4 id="level-2-savage-exploits">Level 2 - Savage Exploits</h4>
+<p>Also at 2nd level, your lust for battle unlocks savage abilities that enhance your martial skill, both on and off the battlefield.</p>
+<h5 id="exploit-dice"><strong>Exploit Dice</strong></h5>
+<p>The Barbarian table shows how many Exploit Dice you have to perform any Exploits you know. Most Exploits require you to expend these Dice in order to use them. You can only use one Exploit per attack, ability check, or saving throw, and you regain all Exploit Dice when you finish a short or long rest.</p>
+<p>Your Exploit Dice begin as d4s and increase in size as you gain levels in this class, as indicated in the Barbarian table.</p>
+<h5 id="exploits-known"><strong>Exploits Known</strong></h5>
+<p>At 2nd level, you learn two Savage Exploits from the list
+at the end of this class. The Exploits Known column of the Barbarian table shows when you learn additional Exploits.
+To learn an Exploit you must meet any prerequisites that it may have, like a minimum ability score or Barbarian level.</p>
+<p>Each time you gain a Barbarian level, you can replace one of the Savage Exploits you know with another Exploit of your choice, so long as you meet that Exploit's prerequisites.</p>
+<h5 id="saving-throws"><strong>Saving Throws</strong></h5>
+<p>If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:</p>
+<ul>
+<li><strong>Exploit Save DC</strong> = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</li>
+</ul>
+<hr>
+<h4 id="level-3-versatile-exploration">Level 3 - Versatile Exploration</h4>
+<p>Beginning at 3rd level, whenever you learn a new developed talent or replace an existing one, you can instead choose from Fighter soldiering knacks.</p>
+<hr>
+<h4 id="level-3-primal-path">Level 3 - Primal Path</h4>
+<p>At 3rd level, you choose the Primal Path that best represents your Barbarian's style of combat and the source of your Rage. Your Primal Path grants you features at 3rd level, and again when you reach 6th, 10th, and 14th level in this class.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<hr>
+<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
+<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+<hr>
+<h4 id="level-5-fast-movement">Level 5 - Fast Movement</h4>
+<p>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</p>
+<hr>
+<h4 id="level-7-feral-instinct">Level 7 - Feral Instinct</h4>
+<p>The primal fury that fuels your Rage in battle also hones your senses. Upon reaching 7th level, you gain the benefits below:</p>
+<ul>
+<li>Your Rage lasts for its maximum duration, and only ends early if you become unconscious or you choose to end it.</li>
+<li>You have advantage on Dexterity saving throws against effects that you can see (such as traps and spells) so long as you are not, blinded, deafened, or incapacitated.</li>
+</ul>
+<hr>
+<h4 id="level-9-brutal-critical">Level 9 - Brutal Critical</h4>
+<p>Beginning at 9th level, while you are raging, your weapon attacks using Strength score a critical hit on a roll of 19 or 20 and you can roll one additional weapon damage die when determining the extra damage for a critical hit.</p>
+<p>This increases to a critical range of 18-20 and two additional dice at 13th level and three additional dice at 17th level.</p>
+<hr>
+<h4 id="level-11-critical-strike">Level 11 - Critical Strike</h4>
+<p>You ruthlessly exploit the weakness of your foes. Starting at 11th level, when you score a critical hit with a weapon attack while you are Raging, you can use a Savage Exploit you know as part of that attack without expending an Exploit Die.</p>
+<hr>
+<h4 id="level-11-relentless-rage">Level 11 - Relentless Rage</h4>
+<p>The white hot fury of your Rage burns ever brighter. Also at 11th level you gain the following benefits while Raging:</p>
+<ul>
+<li>If you drop to 0 hit points, but do not die outright, you can choose to end your Rage to make your hit points change to a number equal to twice your Barbarian level.</li>
+<li>When you are forced to make an Intelligence, Wisdom, or Charisma saving throw you gain a bonus to your roll equal to your Constitution modifier (minimum of +1).</li>
+</ul>
+<hr>
+<h4 id="level-15-persistent-rage">Level 15 - Persistent Rage</h4>
+<p>You have mastered your Rage, becoming one with your anger. Beginning at 15th level, when you Rage it lasts for 1 hour.</p>
+<hr>
+<h4 id="level-18-reliable-might">Level 18 - Reliable Might</h4>
+<p>Your physical power and stamina rival the heroes of legend. Starting at 18th level, if you make a Strength or Constitution check and the result of your roll is lower than your Strength score, you can use your Strength score in place of the result.</p>
+<hr>
+<h4 id="level-20-primal-champion">Level 20 - Primal Champion</h4>
+<p>You embody the raw power of the primal wilderness and have exceeded the physical limits of normal mortals. At 20th level, both your Strength and Constitution scores increase by 4, and your maximum for both of those scores is now 24.</p>
+<hr>
+</div>
+<div class="tabbed-block">
+<h4 id="agile-sprinter">Agile Sprinter</h4>
+<p>You are adept at traversing obstacles while running, able to efficiently and rapidly climb and leap between trees, vines, rooftops, and ropes. You gain advantage on Athletics and Acrobatics checks made to climb, run, and swing.</p>
+<h4 id="flock-step">Flock Step</h4>
+<p>You are adept at reading the flow of creatures grouped together and can effortlessly sync into a herd or crowd. You gain advantage on Stealth checks made to hide amongst or blend in with a group of 5 or more creatures.</p>
+<h4 id="lead-the-pack">Lead the Pack</h4>
+<p>Your unfaltering actions inspire your teammates to greater efforts. You gain advantage on Athletics or Acrobatics checks made to climb, jump, run, and swim. When your party makes a group Athletics or Acrobatics check, you may apply the results of your roll to yourself and one ally. You can choose which ally to apply your result to after everyone has rolled, but must do so before the Narrator says whether you succeed or fail.</p>
+<h4 id="mark-of-the-wilderness">Mark of the Wilderness</h4>
+<p>You have traveled far and seen much, and those around you can tell. You gain proficiency on Intimidation checks. In addition, you may always choose to use Strength when rolling an Intimidation or Persuasion check.</p>
+<h4 id="natural-tracker">Natural Tracker</h4>
+<p>After making a connection with another creature, however tenuous, you make a connection that gives you an edge when pursuing it. After you spend at least 1 minute observing a creature, you gain advantage on checks made to track that specific creature.</p>
+<h4 id="path-of-blustery-autumns">Path of Blustery Autumns</h4>
+<p>Instead of fighting the sharp winds you have learned from them. You gain a +5 foot increase to your Speed. Additionally, you can choose to ignore natural difficult terrain outside.</p>
+<h4 id="path-of-drowning-springs">Path of Drowning Springs</h4>
+<p>The rains have taught you the ways of the overflowing rivers. You gain a swim speed equal to your Speed and can hold your breath for a number of minutes equal to 1 + twice your Constitution modifier. In addition, while swimming you can use a bonus action and spend one use of Rage to move your swim speed in a straight line.</p>
+<h4 id="path-of-lean-winters">Path of Lean Winters</h4>
+<p>The lessons of the snows have put you beyond mere cold and hunger. You gain advantage on saving throws made to resist the effects of cold weather as though you were wearing cold weather gear, but without the disadvantages in hot weather. Additionally, you can go without food for a number of days equal to 3 + double your Constitution modifier (minimum 1) before suffering a level of exhaustion.</p>
+<h4 id="path-of-scorching-summers">Path of Scorching Summers</h4>
+<p>By emulating the beasts of the desert you are above the concerns of heat and thirst. You gain advantage on saving throws made to resist the effects of hot weather as though you were wearing hot weather gear, but without the disadvantages in cold weather. You also gain advantage on saving throws made to resist the effects of thirst.</p>
+<h4 id="sharpened-senses">Sharpened Senses</h4>
+<p>Your time spent drawing on your rage has brought the world into sharp, relentless focus. You gain advantage on Investigation, Perception, or Survival checks made to follow a creature’s trail.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose an exploit degree:</strong></p></p>
+<p><select id="exploit-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<option value="all">All</option>
+<option value="exploit_degree1">Degree 1 Exploits</option>
+<option value="exploit_degree2">Degree 2 Exploits</option>
+<option value="exploit_degree3">Degree 3 Exploits</option>
+<option value="exploit_degree4">Degree 4 Exploits</option>
+<option value="exploit_degree5">Degree 5 Exploits</option>
+</select></p>
+<div class="exploit-content" data-exploit="exploit_degree1">
+<h3 id="1st-degree-exploits">1st-Degree Exploits</h3>
+<p>Exploits of the 1st-degree are minor techniques slightly more complicated than swinging a weapon. They can be learned by warriors with modest training and have no level prerequisite.</p>
+<h4 id="bonebreaking-critical">Bonebreaking Critical</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>When you score a critical hit on a creature with a weapon attack, you can expend one Exploit Die to cripple the target. For 1 minute, that creature deals only half damage with any attacks it makes that use its Strength.</p>
+<p>The creature can make a Constitution saving throw at the end of each of its turns, ending this effect on a success.</p>
+<h4 id="breathless-critical">Breathless Critical</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>When you score a critical hit on a creature with a weapon attack, you can expend one Exploit Die to knock the air from your target's lungs. For 1 minute, that creature can speak only falteringly and its speed is halved.</p>
+<p>The creature can make a Constitution saving throw at the end of each of its turns, ending this effect on a success.</p>
+<h4 id="brace-up">Brace Up</h4>
+<p><em>Prerequisites: Constitution of 11</em></p>
+<p>You steel yourself for combat, preparing yourself to take a hit. As a bonus action, you can expend one Exploit Die and gain temporary hit points equal to your Exploit Die + your Constitution modifier.</p>
+<h4 id="commanding-presence">Commanding Presence</h4>
+<p><em>Prerequisites: Charisma or Strength of 11</em></p>
+<p>Whenever you make a Charisma (Persuasion) or Charisma (Intimidation) check you can expend one Exploit Die, roll it, and add the result to your ability check. You can do so after you roll the d20, but before you know if you succeed.</p>
+<p>Also, whenever you would make a Charisma (Intimidation) check, you can make a Strength (Intimidation) check instead.</p>
+<h4 id="crushing-grip">Crushing Grip</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>When you grapple a creature, you can expend one Exploit Die to enhance your grip. When you initiate this grapple, and at the start of each of the grappled creature's turns, it takes bludgeoning damage equal to one roll of your Exploit Die.</p>
+<h4 id="cunning-instinct">Cunning Instinct</h4>
+<p><em>Prerequisites: Wisdom of 11</em></p>
+<p>Whenever you make a Wisdom (Perception) or a Wisdom (Survival) check you can expend one Exploit Die, roll it, and add the result to your ability check. You can do so after you roll the d20, but before you know if you succeed or fail.</p>
+<h4 id="destructive-strike">Destructive Strike</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>When you hit a nonmagical object with an attack, you can expend an Exploit Die, add it to the damage roll, and cause that attack to deal maximum damage in place of rolling.</p>
+<h4 id="feat-of-strength">Feat of Strength</h4>
+<p><em>Prerequisites: Strength or Constitution of 11</em></p>
+<p>When you make a Strength or Constitution ability check you can expend Exploit Dice (up to your proficiency bonus), roll those dice, and add the result to your ability check. You can do so after you roll the d20, but before you know the result.</p>
+<h4 id="heroic-fortitude">Heroic Fortitude</h4>
+<p>Whenever you are forced to make a Strength, Dexterity, or Constitution saving throw you can expend an Exploit Die, roll it, and add the result to your saving throw. You can do so after you roll the d20, but before you know if you succeed or fail.</p>
+<h4 id="hurl">Hurl</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>In place of an attack, you can expend an Exploit Die to throw an object that you are holding at a target you can see within 60 feet. The target must succeed on a Dexterity saving throw or both the object and target take bludgeoning damage equal to one roll of your Exploit Die + your Strength modifier.</p>
+<p>At 11th level, the range of this Exploit becomes 120 feet.</p>
+<h4 id="lightstep">Lightstep</h4>
+<p><em>Prerequisites: Dexterity of 11</em></p>
+<p>When you make a Dexterity (Acrobatics) or a Dexterity (Stealth) check you can expend one Exploit Die, roll it, and add the result to your ability check. You can do so after you roll the d20, but before you know if you succeed or fail.</p>
+<h4 id="mighty-leap">Mighty Leap</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>When you move at least 10 feet immediately before you jump, you can expend Exploit Dice (up to your proficiency bonus) to increase the distance of your jump by 10 feet for each Exploit Die expended, even if this exceeds your remaining speed.</p>
+<h4 id="mighty-thrust">Mighty Thrust</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>In place of an attack, you can expend an Exploit Die to force a target you touch to make a Strength saving throw. On a failure, it is knocked back in a line number of feet equal to 5 times your Strength modifier. Targets that are more than one size larger than you have advantage on this saving throw.</p>
+<h4 id="rustic-intuition">Rustic Intuition</h4>
+<p><em>Prerequisites: Wisdom of 11</em></p>
+<p>When you make an Intelligence (Nature), Wisdom (Animal Handling), or Wisdom (Medicine) check you can expend an Exploit Die, roll it, and add the result to your ability check. You can do so after you roll, but before you know the result.</p>
+<h4 id="ruthless-strike">Ruthless Strike</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>When you hit a target with a melee weapon attack, you can expend Exploit Dice (up to your proficiency bonus), roll the dice, and add them to the damage roll of that attack.</p>
+<h4 id="savage-rebuke">Savage Rebuke</h4>
+<p>When a creature you can see hits you with a melee attack, you can use your reaction to expend one Exploit Die to make a melee weapon attack against that creature. On hit, you deal additional damage equal to one roll of your Exploit Die.</p>
+<h4 id="skilled-rider">Skilled Rider</h4>
+<p><em>Prerequisites: Wisdom of 11</em></p>
+<p>When your trained mount makes an ability check, attack roll, or saving throw, or you make a Wisdom (Animal Handling) check to control it, you can expend one Exploit Die, roll it, and add the result to your ability check. You can do so after you roll the d20, but before you know if you succeed or fail.</p>
+<h4 id="sweeping-strike">Sweeping Strike</h4>
+<p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die and force it to make a Dexterity saving throw. On a failure, it takes bludgeoning damage equal to one roll of your Exploit Die and falls prone. A creature more than one size larger than you has advantage on its saving throw.</p>
+<h4 id="take-down">Take Down</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>As a bonus action, you can expend one Exploit Die to touch a creature and attempt to Shove or Grapple it, and add one roll of your Exploit Die to your Strength (Athletics) check.</p>
+<h4 id="trampling-rush">Trampling Rush</h4>
+<p><em>Prerequisites: Strength of 11</em></p>
+<p>When you move at least 20 feet toward a creature and hit it with a melee weapon attack, you can expend an Exploit Die and attempt to trample the creature. It must succeed on a Strength saving throw, or it takes additional damage equal to one roll of your Exploit Die and is knocked prone.</p>
+</div>
+<div class="exploit-content" data-exploit="exploit_degree2">
+<h3 id="2nd-degree-exploits">2nd-Degree Exploits</h3>
+<p>Exploits of this degree represent the absolute peak of savage skill that is achievable without dedicated training. 2nd-degree Exploits can be learned by Barbarians of 5th level or higher.</p>
+<h4 id="aggressive-sprint">Aggressive Sprint</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>As a bonus action, you can expend one Exploit Die to move up to your walking speed toward a hostile creature that you can see and make a single melee weapon attack against it.</p>
+<h4 id="arresting-critical">Arresting Critical</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>When you score a critical hit on a creature with a weapon attack, you can expend one Exploit Die to critically disable its movement. For 1 minute, its speed is reduced to 0.</p>
+<p>The creature can make a Constitution saving throw at the start of each of its turns, ending this effect on a success.</p>
+<h4 id="bloodthirsty-critical">Bloodthirsty Critical</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>When you score a critical hit on a creature with a weapon attack, you can expend an Exploit Die to instantly make one additional weapon attack against that creature. On hit, you deal additional damage equal to one roll of your Exploit Die.</p>
+<p>If you score a critical hit with the attack granted by this Exploit, you cannot use this Exploit again to make another attack.</p>
+<h4 id="concussive-blow">Concussive Blow</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die to empower the attack and force it to make a Constitution saving throw. On a failed save, the target suffers the effects below until the beginning of your next turn:</p>
+<ul>
+<li>Its speed becomes 0.</li>
+<li>It can speak only falteringly.</li>
+<li>It has disadvantage on all attack rolls, ability checks, and Dexterity saving throws.</li>
+<li>Attack rolls against it have advantage.</li>
+</ul>
+<h4 id="feral-senses">Feral Senses</h4>
+<p><em>Prerequisites: 5th level, Constitution or Wisdom of 13</em></p>
+<p>As an action, you can expend an Exploit Die to temporarily heighten your senses. For 10 minutes, you gain a bonus to any Wisdom (Insight), Wisdom (Perception), or Wisdom (Survival) checks you make equal to one roll of your Exploit Die, so long as the checks rely on your sense of sight or smell.</p>
+<p>You can also smell the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you, and identify the kind of poison, poisonous creature, or disease.</p>
+<p>Your senses cannot detect anything behind full cover.</p>
+<h4 id="glancing-blow">Glancing Blow</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>When you make a melee weapon attack and miss, you can expend an Exploit Die to immediately repeat your attack against another target within the reach of your weapon.</p>
+<h4 id="greater-hurl">Greater Hurl</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>As an action, you can expend an Exploit Die to touch one creature at least one size smaller than you and attempt to throw it. It must succeed on a Strength saving throw or be thrown at a space that you can see within 30 feet. A creature can choose to fail.</p>
+<p>If the creature lands in an unoccupied space, it falls prone. If it hits another creature, that creature must succeed on a Dexterity saving throw or take bludgeoning damage equal to one roll of your Exploit Die + your Strength modifier.</p>
+<p>If a feature causes you to count as a size larger for your carrying capacity or the size of creatures you can grapple, you also count as one size larger for the creatures you can throw.</p>
+<h4 id="honor-duel">Honor Duel</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>As a bonus action, you can expend an Exploit Die and shout a challenge at a foe. One creature of your choice within 30 feet that can see or hear you must make a Wisdom saving throw. On a failed save, the creature has disadvantage on all attack rolls it makes against targets other than you for 1 minute.</p>
+<p>The creature can repeat this saving throw at the end of each of its turns, ending the effect on a success. This effect ends early if you attack a creature other than the target.</p>
+<h4 id="immovable-stance">Immovable Stance</h4>
+<p><em>Prerequisites: 5th level, Strength or Constitution of 13</em></p>
+<p>As a bonus action, you can expend an Exploit Die to enter an immovable stance that lasts until you move from the space. Each time a creature attempts to grapple you, move you against your will, or move through your space while you are in this stance, it must first succeed on a Strength saving throw. On a failed save, you can instantly grapple it or knock it prone.</p>
+<h4 id="intimidating-command">Intimidating Command</h4>
+<p><em>Prerequisites: 5th level, Charisma of 13</em></p>
+<p>As a bonus action, you can expend an Exploit Die to shout a one-word command at one creature that can hear you within 30 feet. It must succeed on a Wisdom saving throw, or it is compelled to obey your command to the best of its ability on its next turn unless its actions would be directly harmful to it.</p>
+<h4 id="menacing-shout">Menacing Shout</h4>
+<p><em>Prerequisites: 5th level, Constitution or Charisma of 13</em></p>
+<p>As a bonus action, you can expend one Exploit Die and force one creature within 30 feet that can see or hear you to make a Wisdom saving throw. On a failure, it is frightened of you until the end of your next turn and must use its action to move as far from you as possible without harming itself.</p>
+<h4 id="rending-strike">Rending Strike</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die to rend its armor. It must succeed on a Dexterity saving throw or take additional damage equal to one roll of your Exploit Die and its Armor Class is reduced by 1 until the damage is repaired, or it finishes a long rest.</p>
+<h4 id="ringing-critical">Ringing Critical</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>When you score a critical hit on a creature with a weapon attack, you can expend one Exploit Die to daze your target. For 1 minute, that creature must roll a d4 and subtract the result from any attack roll and saving throw it makes.</p>
+<p>The creature can make a Wisdom saving throw at the beginning of each of its turns, ending this effect on a success.</p>
+<h4 id="shattering-slam">Shattering Slam</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>In place of an attack, you can expend an Exploit Die to strike the ground at your feet with a melee weapon. All creatures within 5 feet of you must succeed on a Dexterity saving throw or take bludgeoning damage equal to one roll of your Exploit Die + your Strength modifier and fall prone. On a successful save, they take half as much damage and don't fall prone.</p>
+<p>Terrain in this area that is loose earth or stone becomes difficult terrain until a creature uses its action to clear it.</p>
+<h4 id="thunderous-blow">Thunderous Blow</h4>
+<p><em>Prerequisites: 5th level, Strength of 13</em></p>
+<p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die to empower your attack with immense force. The creature must succeed on a Strength saving throw or take additional damage equal to a roll of your Exploit Die and be knocked back in a straight line number of feet equal to 5 times your Strength modifier. A creature that is more than one size larger than you has advantage on its saving throw.</p>
+<h4 id="whirlwind-strike">Whirlwind Strike</h4>
+<p><em>Prerequisites: 5th level, Strength or Dexterity of 13</em></p>
+<p>In place of an attack, you can expend an Exploit Die and force each target within reach of a melee weapon you are wielding to make a Dexterity saving throw. Targets take damage equal to a roll of your Exploit Die + your Strength or Dexterity modifier (your choice) on a failed save, and half as much damage on a success.</p>
+</div>
+<div class="exploit-content" data-exploit="exploit_degree3">
+<h3 id="3rd-degree-exploits">3rd-Degree Exploits</h3>
+<p>These Exploits are masterful feats of savagery, and can only be learned by Barbarians of 9th level or higher. Each Exploit of 3rd-degree can only be used once per short or long rest.</p>
+<h4 id="adrenaline-rush">Adrenaline Rush</h4>
+<p><em>Prerequisites: 9th level, Strength or Constitution of 15</em></p>
+<p>As a bonus action on your turn, you can expend one Exploit Die to increase your speed, if only temporarily. For the next minute, you can take the Dash action as a bonus action on each of your turns, including as part of the bonus action that you use this Exploit.</p>
+<h4 id="confounding-critical">Confounding Critical</h4>
+<p><em>Prerequisites: 9th level, Strength of 15</em></p>
+<p>When you score a critical hit on a creature with a weapon attack, you can expend one Exploit Die to strike at the head, weakening its ability to think. For 1 minute, its thoughts are muddled and whenever it makes an attack roll, ability check, or Constitution saving throw to maintain its concentration, it must roll a d6 and subtract the result from its roll.</p>
+<p>The creature can make an Intelligence saving throw at the start of each of its turns, ending this effect on a success.</p>
+<h4 id="destructive-slam">Destructive Slam</h4>
+<p><em>Prerequisites: 9th level, Strength of 15</em></p>
+<p>In place of an attack, you can expend Exploit Dice (up to your proficiency bonus) and strike the ground at your feet, forcing all creatures in an adjacent 20-foot cube to make a Dexterity saving throw. On a failed save, they take bludgeoning damage equal to two rolls of your Exploit Die for each Exploit Die you spent + your Strength modifier and are knocked prone. On a success, they take half as much damage and don't fall prone. Objects in this area take the maximum amount of damage.</p>
+<p>Moreover, the area of the 20-foot cube becomes difficult terrain until a creature takes 1 minute to clear it.</p>
+<h4 id="disorienting-blow">Disorienting Blow</h4>
+<p><em>Prerequisites: 9th level, Strength of 15</em></p>
+<p>When you hit with a creature with a melee weapon attack, you can expend an Exploit Die to strike with overwhelming force, dealing additional damage equal to two rolls of your Exploit Die and it must succeed on a Wisdom saving throw or suffer the following effects for 1 minute:</p>
+<ul>
+<li>Its speed is halved and it cannot take reactions.</li>
+<li>Its Armor Class is reduced by 2.</li>
+<li>It has disadvantage on Dexterity saving throws.</li>
+<li>On its turn it can only take an action or a bonus action.</li>
+<li>It cannot make more than one attack during its turn.</li>
+</ul>
+<p>It can make a Wisdom saving throw at the end of each of its turns, ending these effects on a success. This Exploit's effects do not stack with the <em>slow</em> spell.</p>
+<h4 id="mythic-athleticism">Mythic Athleticism</h4>
+<p><em>Prerequisites: 9th level, Strength or Constitution of 15</em></p>
+<p>As a bonus action, you can expend Exploit Dice (up to your proficiency bonus) to enter a heightened state of physical performance which you must concentrate on as if you were concentrating on a spell. You gain the benefits listed below:</p>
+<ul>
+<li>Whenever you make a Strength or Constitution check, you can treat a roll of 9 or lower on the d20 as a 10.</li>
+<li>Your walking speed increases by a number of feet equal to 5 times your Strength modifier (minimum of 5 feet).</li>
+<li>You count as one size larger for the purposes of carrying capacity and the size of creatures that you can grapple.</li>
+<li>Both your long and high jump distances double, even if that distance would exceed your remaining movement.</li>
+</ul>
+<p>The effects last for 10 minutes for each Exploit Die spent as part of this Exploit, and end early if you are incapacitated.</p>
+<h4 id="mythic-resilience">Mythic Resilience</h4>
+<p><em>Prerequisites: 9th level, Constitution of 15</em></p>
+<p>When you take damage from an effect you can see, you can expend Exploit Dice (up to your proficiency bonus) to reduce the incoming damage. For each Exploit Die you expend, roll three Exploit Dice, adding your Constitution modifier to the total of all the dice. You reduce the damage by the total.</p>
+<p>If the total rolled exceeds the amount of damage, you gain temporary hit points equal to the remaining amount.</p>
+<h4 id="pack-tactics">Pack Tactics</h4>
+<p><em>Prerequisites: 9th level, Wisdom of 15</em></p>
+<p>As a bonus action, you can expend one Exploit Die to signal your allies to fight as a pack. Until the end of your next turn, creatures of your choice that can see or hear you within 30 feet have advantage on attack rolls, so long as a conscious allied creature is within 5 feet of their target.</p>
+<p>You can use a bonus action on your next turn to extend the effects of this Exploit to the end of the turn after that, though you do not need to expend an Exploit Die when you do so.</p>
+<p>You cannot maintain this Exploit longer than 1 minute.</p>
+<h4 id="primal-terror">Primal Terror</h4>
+<p><em>Prerequisite: 9th level</em></p>
+<p>As an action, you can expend one Exploit Die to attempt to drive a creature within 5 feet into a fit of primal fear, forcing it to make a Wisdom saving throw. On a failure, it loses the ability to distinguish friend from foe, regarding all creatures as enemies for the next minute. Each time it takes damage, it repeats the saving throw, ending this effect on a success.</p>
+<p>Whenever the affected creature chooses another creature as a target of an attack or spell, it must choose its target at random from among the creatures it can see within range.</p>
+<p>If a creature provokes an opportunity attack from the affected creature, it must make that attack if it is able to.</p>
+<h4 id="roar-of-triumph">Roar of Triumph</h4>
+<p><em>Prerequisites: 9th level</em></p>
+<p>When you score a critical hit, you can expend an Exploit Die to let out a cry that can be heard up to 300 feet away. You and a number of creatures of your choice who can hear you equal to your Constitution modifier (minimum of 1) gain temporary hit points equal to your level + your Constitution modifier.</p>
+<h4 id="savage-defiance">Savage Defiance</h4>
+<p><em>Prerequisites: 9th level</em></p>
+<p>As an action, you can expend an Exploit Die to issue a savage challenge. Creatures of your choice within 60 feet that can hear you have disadvantage on attacks against targets other than you for 1 minute, or until they hit you with an attack.</p>
+<h4 id="survey-wilderness">Survey Wilderness</h4>
+<p><em>Prerequisite: 9th level, Strength or Wisdom of 15</em></p>
+<p>You can expend an Exploit Die and spend 1 hour gathering information on up to 1 square mile of a wilderness that you currently occupy. At the end of the hour, you gain knowledge about three of the following as they relate to the area:</p>
+<ul>
+<li>Any settlements or camps with five or more occupants.</li>
+<li>Prominent natural formations, bodies of water, and ruins.</li>
+<li>Local plants, animals, weather, and ecosystems.</li>
+<li>Powerful (CR 1 or higher) creatures that reside within, or have passed through the area within the last 24 hours.</li>
+</ul>
+<p>Once you use this Exploit to survey an area of wilderness you must finish a long rest before you can use it there again.</p>
+<h4 id="war-cry">War Cry</h4>
+<p><em>Prerequisites: 9th level</em></p>
+<p>As an action, you can expend one Exploit Die and issue a mighty cry, forcing creatures of your choice that can hear you in an adjacent 30-foot cone to make a Wisdom saving throw. On a failed save, they drop whatever they are holding and are frightened of you for 1 minute. If a frightened creature ends its turn and does not have line of sight to you, it can repeat the saving throw, ending the effect on a success.</p>
+</div>
+<div class="exploit-content" data-exploit="exploit_degree4">
+<h3 id="4th-degree-exploits">4th-Degree Exploits</h3>
+<p>Exploits of this degree can only be learned by Barbarians of 13th level or higher, and each 4th-degree Exploit that you know can only be used once per short or long rest.</p>
+<h4 id="devastating-critical">Devastating Critical</h4>
+<p><em>Prerequisites: 13th level, Strength of 17</em></p>
+<p>When you score a critical hit on a creature with a weapon attack, you can expend one Exploit Die to shatter its focus. If it was concentrating on a spell or effect, it automatically loses concentration, and for 1 minute, it has disadvantage on all Intelligence, Wisdom, and Charisma saving throws, and any saving throws it makes to maintain concentration.</p>
+<p>The creature can make an Intelligence saving throw at the start of each of its turns, ending this effect on a success.</p>
+<h3 id="staggering-blow">Staggering Blow</h3>
+<p><em>#Prerequisites: 13th level, Strength of 17</em></p>
+<p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die to strike with near-supernatural power, dealing additional damage equal to three rolls of your Exploit Die. The target must succeed on a Wisdom saving throw, or for the next minute it has disadvantage on all ability checks and attack rolls and it cannot take reactions.</p>
+<p>The creature can make a Wisdom saving throw at the start of each of its turns, ending these effects on a success.</p>
+<h4 id="strength-of-the-colossus">Strength of the Colossus</h4>
+<p><em>Prerequisites: 13th level, Strength of 17</em></p>
+<p>As a bonus action you can expend Exploit Dice (up to your proficiency bonus) to enhance your strength to mythic levels, though you must concentrate on this Exploit's effect as if you were concentrating on a spell. For 10 minutes, or until you lose concentration, the amount of weight you can push, drag, pull, or lift is multiplied by the amount in the table below:</p>
+<table>
+<thead>
+<tr>
+<th>Exploit Dice</th>
+<th>Total Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>50 x Strength score</td>
+</tr>
+<tr>
+<td>2</td>
+<td>100 x Strength score</td>
+</tr>
+<tr>
+<td>3</td>
+<td>150 x Strength score</td>
+</tr>
+<tr>
+<td>4</td>
+<td>200 x Strength score</td>
+</tr>
+<tr>
+<td>5</td>
+<td>250 x Strength score</td>
+</tr>
+<tr>
+<td>6</td>
+<td>300 x Strength score</td>
+</tr>
+</tbody>
+</table>
+<p>For each size category you are above Medium, the amount of weight you can move as part of this Exploit is doubled.</p>
+<p>For example, a Medium-sized Barbarian with 20 Strength could expend 3 Exploit Dice to use this Exploit, multiplying their 20 Strength by 150, to lift up to 3,000 pounds. If they were Large, they would double this weight to 6,000 pounds.</p>
+<p>When this Exploit ends you must succeed on a DC 17 Constitution saving throw or suffer a number of levels of exhaustion equal to the number of Exploit Dice you spent.</p>
+<h4 id="subjugate-beast">Subjugate Beast</h4>
+<p><em>Prerequisites: 13th level</em></p>
+<p>As an action, you can expend one Exploit Die and attempt to intimidate one beast that can see or hear you within 30 feet, bending it to your will. The beast must succeed on a Wisdom saving throw or be considered charmed by you for 1 minute.</p>
+<p>While it is charmed, you can use a bonus action to issue it a command, which it does its best to obey. You can specify a simple and general course of action. If it doesn’t receive direction from you, it defends itself to the best of its ability.</p>
+<p>Each time the beast takes damage, it repeats the saving throw, ending the effects of this Exploit on a success.</p>
+<h4 id="sundering-strike">Sundering Strike</h4>
+<p><em>Prerequisites: 13th level, Strength of 17</em></p>
+<p>In place of an attack, you can expend an Exploit Die to strike a creation of magical force, such as a prismatic wall, resilient sphere, or forcecage with a melee weapon you are wielding. Any magical creations created with a spell slot of 3rd-level or lower are instantly destroyed by your strike.</p>
+<p>If the magical creation was created with a spell of 4th-level or higher, make a Strength check. The DC equals 10 + the level of the spell slot used to create it. On a successful check, the magical creation is instantly destroyed by your strike.</p>
+<h4 id="unbreakable">Unbreakable</h4>
+<p><em>Prerequisites: 13th level, Constitution of 17</em></p>
+<p>When you take damage that would reduce you to 0 hit points, even if that damage would kill you outright, you can spend Exploit Dice (up to your proficiency bonus) and fall to 1 hit point. For each Exploit Die you spent, you roll three Exploit Dice, and you gain temporary hit points equal to the total rolled.</p>
+</div>
+<div class="exploit-content" data-exploit="exploit_degree5">
+<h3 id="5th-degree-exploits">5th-Degree Exploits</h3>
+<p>Exploits of the fifth degree are feats of savage skill that rival those of great monsters. These Exploits can only be learned by Barbarians of 17th level or higher, and each 5th-degree Exploit can only be used once per long rest.</p>
+<h4 id="banishing-strike">Banishing Strike</h4>
+<p><em>Prerequisites: 17th level, Strength of 19</em></p>
+<p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die to strike with legendary power, dealing bonus force damage equal to four rolls of your Exploit Die. It must succeed on a Charisma saving throw, or be shunted to a harmless demiplane where it is incapacitated. At the start of your next turn it reappears in the unoccupied space nearest to the last space it occupied when you hit it with this attack.</p>
+<h4 id="cataclysmic-slam">Cataclysmic Slam</h4>
+<p><em>Prerequisites: 17th level, Strength of 19</em></p>
+<p>As an action on your turn, you can expend Exploit Dice (up to your proficiency bonus) to strike the ground with mythic power. A shockwave of thunderous force erupts from you, forcing all creatures within 30 feet to make a Constitution saving throw. On a failure, they take bludgeoning damage equal to two rolls of your Exploit Die for each Exploit Die you spent + your Strength modifier and are knocked prone, and on a success, they take half as much damage and don't fall prone. Objects in this area take maximum damage.</p>
+<p>The area becomes difficult terrain, and a creature can use its action to clear one 5-foot square of this difficult terrain.</p>
+<h4 id="vorpal-critical">Vorpal Critical</h4>
+<p><em>Prerequisites: 17th level, Strength of 19</em></p>
+<p>When you score a critical hit with a melee attack on a creature, you can expend one Exploit Die to strike with brutal legendary force and deal additional damage equal to three rolls of your Exploit Die.</p>
+<p>If the damage of this Exploit reduces the target's remaining hit points to 50 or fewer, you instantly cut off one of its heads. If it can't survive without that head, it is killed.</p>
+<p>Creatures can use Legendary Resistance to avoid being beheaded. Any creatures that don't have or don't need a head are immune to this Exploit's effects, but still take the additional damage on hit.</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Subclasses</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<option value="all">All</option>
+<option value="alt-ancestral-guardian">Alternate Path of the Ancestral Guardian</option>
+<option value="alt-battlerager">Alternate Path of the Battlerager</option>
+</select></p>
+<div class="subclass-content" data-subclass="alt-ancestral-guardian">
+<h2 id="alternate-path-of-the-ancestral-guardian">Alternate Path of the Ancestral Guardian</h2>
+<p>Not all Barbarians are savages who revel in bloodlust. Some walk a Path of spiritual connection. Those who walk the Path of the Ancestral Guardian form bonds with spirits who have passed from the mortal plane. Some stand as guardians of their ancestral tombs, others channel the power of legendary warriors, and others open themselves up to the power of any local spirit.</p>
+<h3 id="level-3-conduit-of-spirits">Level 3 - Conduit of Spirits</h3>
+<p>As a bonus action, you can expend a use of Rage to enter into a state of spiritual ecstasy and give control of your body over the spirits that you commune with. For the next 10 minutes, when you make an ability check that uses your Intelligence or Wisdom, you gain a bonus to your roll equal to your Constitution modifier (minimum of +1).</p>
+<p>This state of spiritual ecstasy ends early if you enter a Rage, if you fall unconscious, or you use a bonus action on your turn to end it.</p>
+<hr>
+<h3 id="level-3-spectral-warriors">Level 3 - Spectral Warriors</h3>
+<p>When you Rage, the Spectral Warriors that you commune with come to your aid, and remain with you for the duration of your current Rage.</p>
+<p>Once per turn when you hit a creature with a melee attack, you can send these Spectral Warriors to harry that creature. Until the start of your next turn, the Spectral Warriors swirl around that creature, and it has disadvantage on any attack roll that it makes against targets other than you, and if it hits a creature other than you with an attack, its target has resistance to the damage dealt by that attack.</p>
+<p>These Spiritual Warriors return to you if their target dies, or if your Rage ends.</p>
+<hr>
+<h3 id="level-6-spiritual-ward">Level 6 - Spiritual Ward</h3>
+<p>You can call on your Spectral Warriors to protect your allies. When another creature that you can see within 30 feet takes damage while you are Raging, you can use a reaction to order your Spectral Warriors to intercept the attack, reducing the triggering damage by three rolls of your Exploit Die.</p>
+<p>If your Spiritual Warriors are currently harrying an enemy when you use this reaction, the effects end for that creature.</p>
+<hr>
+<h3 id="level-10-greater-conduit">Level 10 - Greater Conduit</h3>
+<p>Your ability to conduct spiritual power has grown. While you are in a state of ecstasy from Conduit of Spirits, you can cast <em>clairvoyance</em> or <em>commune</em> without expending a spell slot or material components. However, after you finish casting either of these spells, your state of spiritual ecstasy ends.</p>
+<p>When you cast <em>clairvoyance</em> in this way, the spell summons an invisible spirit you are communed with, and when you cast <em>commune</em>, you consult your bonded spirits for information.</p>
+<hr>
+<h3 id="level-14-vengeful-spirits">Level 14 - Vengeful Spirits</h3>
+<p>Your powerful connection to the spiritual world allows the long-dead warriors bound to you to once again strike at the living. When you use Spiritual Ward to reduce the damage of an attack, the attacker takes force damage equal to the amount of damage reduced by your Spiritual Ward.</p>
+<hr>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="subclass-content" data-subclass="alt-battlerager">
+<h2 id="alternate-path-of-the-battlerager">Alternate Path of the Battlerager</h2>
+<p>Reveling in the chaos of battle, the Barbarians of this Primal Path don their signature spiked armor and charge headlong into combat. Learning to channel their Rage while wearing their signature armor, these savage warriors fight as if they have no regard for their own life, only the thrill of battle.</p>
+<h3 id="level-3-savage-smith">Level 3 - Savage Smith</h3>
+<p>You have learned the skills necessary to craft and maintain your spiked armor. You gain proficiency in smith's tools and heavy armor.</p>
+<p>You can also Rage while you are wearing heavy armor.</p>
+<hr>
+<h3 id="level-3-spiked-armor">Level 3 - Spiked Armor</h3>
+<p>Over the course of an hour, which can be during a short or long rest, you can use smith's tools to affix spikes to a set of non-magical armor, turning it into Spiked Armor. Spiked Armor has the following properties when worn by you:</p>
+<ul>
+<li>It is a martial melee weapon with a reach of 5 feet, and on hit, the armor deals piercing damage equal to one roll of your Exploit Die + your Strength modifier.</li>
+<li>While you are Raging, you can use a bonus action on your turn to make a single Spiked Armor attack.</li>
+<li>If you successfully grapple a creature it takes piercing damage equal to one roll of your Exploit Die.</li>
+</ul>
+<hr>
+<h3 id="level-6-reckless-abandon">Level 6 - Reckless Abandon</h3>
+<p>Your bloodlust propels you into battle. While Raging, the first time you make a Reckless attack on each of your turns you gain temporary hit points equal to your Constitution modifier. These temporary hit points vanish when your Rage ends.</p>
+<p>In addition, you can turn magic armor into Spiked Armor.</p>
+<hr>
+<h3 id="level-10-wild-charge">Level 10 - Wild Charge</h3>
+<p>Your fury compels you to throw yourself headlong into battle. You learn the <em>Aggressive Sprint</em> exploit if you didn't know it already. While you are Raging, you can use it without expending an Exploit Die. However, the attack that you make as part of this Exploit must be a Spiked Armor attack.</p>
+<hr>
+<h3 id="level-14-spiked-retribution">Level 14 - Spiked Retribution</h3>
+<p>When a creature hits you with a melee attack while you are Raging and wearing your Spiked Armor, it instantly takes piercing damage equal to your Strength modifier.</p>
+<p>If you are conscious, you can use your reaction to replace this damage with the damage of a Spiked Armor attack.</p>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      
+        <script src="../../assets/js/subclass-filter.js"></script>
+      
+        <script src="../../assets/js/exploit-filter.js"></script>
+      
+    
+  </body>
+</html>
