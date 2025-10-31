@@ -38,6 +38,8 @@ nav:
 
 markdown_extensions:
   - admonition
+  - pymdownx.snippets:
+      base_path: docs/snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -49,3 +51,4 @@ extra_css:
   - assets/css/custom.css
 extra_javascript:
   - assets/js/subclass-filter.js
+  - assets/js/exploit-filter.js
