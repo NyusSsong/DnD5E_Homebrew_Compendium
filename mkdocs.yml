@@ -50,5 +50,6 @@ markdown_extensions:
 extra_css:
   - assets/css/custom.css
 extra_javascript:
+  - assets/js/alt-subclass-filter.js
   - assets/js/subclass-filter.js
   - assets/js/exploit-filter.js

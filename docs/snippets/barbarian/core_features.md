@@ -141,13 +141,13 @@ This increases to a critical range of 18-20 and two additional dice at 13th leve
 
 #### Level 11 - Critical Strike
 
-You ruthlessly exploit the weakness of your foes. Starting at 11th level, when you score a critical hit with a weapon attack while you are Raging, you can use a Savage Exploit you know as part of that attack without expending an Exploit Die.
+You ruthlessly exploit the weakness of your foes. Starting at 11th level, when you score a critical hit with a weapon attack while you are raging, you can use a Savage Exploit you know as part of that attack without expending an Exploit Die.
 
 <hr>
 
 #### Level 11 - Relentless Rage
 
-The white hot fury of your Rage burns ever brighter. Also at 11th level you gain the following benefits while Raging:
+The white hot fury of your Rage burns ever brighter. Also at 11th level you gain the following benefits while raging:
 
 * If you drop to 0 hit points, but do not die outright, you can choose to end your Rage to make your hit points change to a number equal to twice your Barbarian level.
 * When you are forced to make an Intelligence, Wisdom, or Charisma saving throw you gain a bonus to your roll equal to your Constitution modifier (minimum of +1).
