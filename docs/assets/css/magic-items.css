@@ -1,0 +1,415 @@
+/* Magic Items Database Styles */
+.magic-items-db {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.magic-items-header {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #e9ecef;
+}
+
+.magic-items-header h2 {
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+    font-size: 1.8em;
+}
+
+.magic-items-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.magic-items-input,
+.magic-items-select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background: white;
+}
+
+.magic-items-input {
+    min-width: 200px;
+    flex: 1;
+}
+
+.magic-items-select {
+    min-width: 150px;
+}
+
+.magic-items-button {
+    padding: 8px 16px;
+    background: #007cba;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.magic-items-button:hover {
+    background: #005a87;
+}
+
+.magic-items-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.magic-items-table th {
+    background: #34495e;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.magic-items-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.magic-items-table tbody tr {
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.magic-items-table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.magic-items-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Modal Styles */
+.magic-items-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.magic-items-modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.magic-items-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.magic-items-close:hover {
+    color: #000;
+}
+
+.magic-items-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.magic-items-meta-item {
+    font-size: 14px;
+}
+
+.magic-items-description {
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+.magic-items-description ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.magic-items-description li {
+    margin: 5px 0;
+}
+
+/* Card Content Styles */
+.magic-items-card-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.magic-items-card-content h2 {
+    margin: 0 0 20px 0;
+    color: #2c3e50;
+}
+
+.magic-items-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.magic-items-card-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.magic-items-submit-btn {
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.magic-items-submit-btn:hover {
+    background: #219a52;
+}
+
+.magic-items-cancel-btn {
+    padding: 10px 20px;
+    background: #95a5a6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.magic-items-cancel-btn:hover {
+    background: #7f8c8d;
+}
+
+.magic-items-error {
+    color: #e74c3c;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .magic-items-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .magic-items-input,
+    .magic-items-select,
+    .magic-items-button {
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .magic-items-meta {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .magic-items-table {
+        font-size: 14px;
+    }
+    
+    .magic-items-table th,
+    .magic-items-table td {
+        padding: 8px 10px;
+    }
+}
+
+/* Force magic items database to expand to full width */
+.magic-items-db {
+    max-width: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px 0 !important; /* Remove horizontal padding */
+}
+
+/* Expand the header to full width */
+.magic-items-header {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+}
+
+/* Make controls span full width */
+.magic-items-controls {
+    width: 100% !important;
+}
+
+/* Expand table to full width */
+.magic-items-table {
+    width: 100% !important;
+    max-width: none !important;
+    border-radius: 0 !important;
+}
+
+/* Make sure table cells use available space */
+.magic-items-table th:first-child,
+.magic-items-table td:first-child {
+    width: 25%; /* Name column */
+}
+
+.magic-items-table th:nth-child(2),
+.magic-items-table td:nth-child(2) {
+    width: 25%; /* Type column */
+}
+
+.magic-items-table th:nth-child(3),
+.magic-items-table td:nth-child(3) {
+    width: 25%; /* Rarity column */
+}
+
+.magic-items-table th:nth-child(4),
+.magic-items-table td:nth-child(4) {
+    width: 25%; /* Attunement column */
+}
+
+/* Expand modals to be more full-width */
+.magic-items-modal-content {
+    width: 95% !important;
+    max-width: none !important;
+}
+
+.magic-items-card-content {
+    width: 95% !important;
+    max-width: none !important;
+}
+
+/* Ensure inputs and selects expand properly */
+.magic-items-input {
+    flex: 1 !important;
+    min-width: auto !important;
+}
+
+/* Remove any max-width constraints from parent containers */
+#magic-items-container {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+/* ===== COMPLETE DARK MODE FIX ===== */
+
+[data-md-color-scheme="slate"] .magic-items-db {
+    color: var(--md-typeset-color, #e8e8e8);
+}
+
+[data-md-color-scheme="slate"] .magic-items-header {
+    background: var(--md-default-bg-color, #1e1e1e);
+    border-color: var(--md-default-fg-color--light, #444);
+}
+
+[data-md-color-scheme="slate"] .magic-items-header h2 {
+    color: var(--md-typeset-color, #e8e8e8);
+}
+
+/* Table backgrounds */
+[data-md-color-scheme="slate"] .magic-items-table {
+    background: var(--md-default-bg-color, #1e1e1e);
+}
+
+[data-md-color-scheme="slate"] .magic-items-table th {
+    background: var(--md-code-bg-color, #2d2d2d);
+    color: var(--md-typeset-color, #e8e8e8);
+}
+
+[data-md-color-scheme="slate"] .magic-items-table td {
+    background: var(--md-default-bg-color, #1e1e1e);
+    color: var(--md-typeset-color, #e8e8e8);
+}
+
+[data-md-color-scheme="slate"] .magic-items-table tbody tr:hover {
+    background: var(--md-accent-fg-color--transparent, #2a2a2a);
+}
+
+/* Modal backgrounds */
+[data-md-color-scheme="slate"] .magic-items-modal-content,
+[data-md-color-scheme="slate"] .magic-items-card-content {
+    background: var(--md-default-bg-color, #1e1e1e);
+    color: var(--md-typeset-color, #e8e8e8);
+}
+
+[data-md-color-scheme="slate"] .magic-items-meta {
+    background: var(--md-code-bg-color, #2d2d2d);
+    color: var(--md-typeset-color, #e8e8e8);
+}
+
+/* Input backgrounds */
+[data-md-color-scheme="slate"] .magic-items-input,
+[data-md-color-scheme="slate"] .magic-items-select,
+[data-md-color-scheme="slate"] .magic-items-textarea {
+    background: var(--md-default-bg-color, #1e1e1e);
+    border-color: var(--md-default-fg-color--light, #444);
+    color: var(--md-typeset-color, #e8e8e8);
+}
+
+/* ===== DARK MODE LIST ITEMS IN MAGIC ITEMS DATABASE ===== */
+
+[data-md-color-scheme="slate"] .magic-items-description,
+[data-md-color-scheme="slate"] .magic-items-description * {
+    color: var(--md-typeset-color, #e8e8e8) !important;
+}
+
+/* Specifically target list items in descriptions */
+[data-md-color-scheme="slate"] .magic-items-description ul,
+[data-md-color-scheme="slate"] .magic-items-description ol {
+    color: var(--md-typeset-color, #e8e8e8) !important;
+}
+
+[data-md-color-scheme="slate"] .magic-items-description li {
+    color: var(--md-typeset-color, #e8e8e8) !important;
+}
+
+/* Ensure all text inside list items inherits the color */
+[data-md-color-scheme="slate"] .magic-items-description li * {
+    color: inherit !important;
+}
+
+/* Fix for any nested elements in lists */
+[data-md-color-scheme="slate"] .magic-items-description ul strong,
+[data-md-color-scheme="slate"] .magic-items-description ol strong,
+[data-md-color-scheme="slate"] .magic-items-description ul em,
+[data-md-color-scheme="slate"] .magic-items-description ol em {
+    color: inherit !important;
+}
