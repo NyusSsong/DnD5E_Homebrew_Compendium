@@ -88,7 +88,7 @@ Each time you gain a Barbarian level, you can replace one of the Savage Exploits
 
 If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
 
-* **Exploit Save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
+- **Exploit Save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
 
 <hr>
 
@@ -126,8 +126,8 @@ Starting at 5th level, your speed increases by 10 feet while you aren't wearing 
 
 The primal fury that fuels your Rage in battle also hones your senses. Upon reaching 7th level, you gain the benefits below:
 
-* Your Rage lasts for its maximum duration, and only ends early if you become unconscious or you choose to end it.
-* You have advantage on Dexterity saving throws against effects that you can see (such as traps and spells) so long as you are not, blinded, deafened, or incapacitated.
+- Your Rage lasts for its maximum duration, and only ends early if you become unconscious or you choose to end it.
+- You have advantage on Dexterity saving throws against effects that you can see (such as traps and spells) so long as you are not, blinded, deafened, or incapacitated.
 
 <hr>
 
@@ -149,8 +149,8 @@ You ruthlessly exploit the weakness of your foes. Starting at 11th level, when y
 
 The white hot fury of your Rage burns ever brighter. Also at 11th level you gain the following benefits while raging:
 
-* If you drop to 0 hit points, but do not die outright, you can choose to end your Rage to make your hit points change to a number equal to twice your Barbarian level.
-* When you are forced to make an Intelligence, Wisdom, or Charisma saving throw you gain a bonus to your roll equal to your Constitution modifier (minimum of +1).
+- If you drop to 0 hit points, but do not die outright, you can choose to end your Rage to make your hit points change to a number equal to twice your Barbarian level.
+- When you are forced to make an Intelligence, Wisdom, or Charisma saving throw you gain a bonus to your roll equal to your Constitution modifier (minimum of +1).
 
 <hr>
 

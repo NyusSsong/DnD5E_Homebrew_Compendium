@@ -22,6 +22,6 @@ For some, their rage springs from a communion with fierce animal spirits. Others
 
     -8<-- "barbarian/alternate_subclasses.md"
 
-=== "New Subclasses"
+=== "Subclasses"
 
-    -8<-- "barbarian/new_subclasses.md"
+    -8<-- "barbarian/subclasses.md"

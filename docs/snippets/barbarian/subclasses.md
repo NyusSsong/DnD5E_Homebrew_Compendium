@@ -1,15 +1,15 @@
 <p><strong>Choose a subclass:</strong></p>
 
 <select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="brute">Path of the Brute</option>
-<option value="champion">Path of the Champion</option>
-<option value="colossus">Path of the Colossus</option>
-<option value="deep">Path of the Deep</option>
-<option value="dreadnought">Path of the Dreadnought</option>
-<option value="favored">Path of the Favored</option>
-<option value="fell-blade">Path of the Fell Blade</option>
-<option value="fin">Path of the Fin</option>
+    <option value="all">All</option>
+    <option value="brute">Path of the Brute</option>
+    <option value="champion">Path of the Champion</option>
+    <option value="colossus">Path of the Colossus</option>
+    <option value="deep">Path of the Deep</option>
+    <option value="dreadnought">Path of the Dreadnought</option>
+    <option value="favored">Path of the Favored</option>
+    <option value="fell-blade">Path of the Fell Blade</option>
+    <option value="fin">Path of the Fin</option>
 </select>
 
 <div class="subclass-content" data-subclass="brute">

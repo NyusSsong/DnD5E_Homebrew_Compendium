@@ -176,7 +176,8 @@ class MagicItemsDB {
         typeFilter.querySelectorAll("option:not(:first-child)").forEach(n => n.remove());
         
         // Add types
-        const types = [...new Set(this.items.map(i => i.type || "").filter(Boolean))].sort();
+        const types = [...new Set(this.items.map(i => (i.type || "").replace(/\s*\(.*\)/, "")).filter(Boolean))].sort();
+        
         types.forEach(t => {
             const opt = document.createElement("option");
             opt.value = t;
@@ -192,8 +193,10 @@ class MagicItemsDB {
         const attuneVal = this.container.querySelector('#mi-filter-attunement').value || "";
 
         this.filteredItems = this.items.filter(i => {
-            const matchesSearch = (i.name || "").toLowerCase().includes(search);
-            const matchesType = typeVal === "" || (i.type || "") === typeVal;
+            const matchesSearch = search === "" || 
+                (i.name || "").toLowerCase().includes(search) ||
+                (i.type || "").toLowerCase().includes(search);
+            const matchesType = typeVal === "" || (i.type || "").toLowerCase().includes(typeVal.toLowerCase());
             const matchesRarity = rarityVal === "" || (i.rarity || "") === rarityVal;
             const matchesAttune = attuneVal === "" || (i.attunement || "") === attuneVal;
             return matchesSearch && matchesType && matchesRarity && matchesAttune;

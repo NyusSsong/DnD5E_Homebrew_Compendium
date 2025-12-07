@@ -34,8 +34,10 @@ nav:
   - Home: index.md
   - Classes:
       - Barbarian: classes/barbarian.md
+      - Kibbles Tasty:
+        - Psion: classes/kt_psion.md
+        - Warlord: classes/kt_warlord.md
   - Magic Items: magic-items.md
-
 
 markdown_extensions:
   - admonition
@@ -52,7 +54,5 @@ extra_css:
   - assets/css/custom.css
   - assets/css/magic-items.css
 extra_javascript:
-  - assets/js/alt-subclass-filter.js
-  - assets/js/subclass-filter.js
-  - assets/js/exploit-filter.js
+  - assets/js/filter-js
   - assets/js/magic-items.js
