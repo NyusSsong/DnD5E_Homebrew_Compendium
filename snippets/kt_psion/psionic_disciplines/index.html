@@ -20,7 +20,7 @@
     
     
       
-        <title>Core features - DnD 5E Homebrew Compendium</title>
+        <title>Psionic disciplines - DnD 5E Homebrew Compendium</title>
       
     
     
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Core features
+              Psionic disciplines
             
           </span>
         </div>
@@ -472,133 +472,68 @@
   
 
 
-  <h1>Core features</h1>
+  <h1>Psionic disciplines</h1>
 
-<h4 id="hit-points">Hit Points</h4>
-<p><strong>Hit Dice:</strong> 1d12 per Barbarian level<br />
-<strong>Hit Points at 1st level:</strong> 12 + your Constitution modifier<br />
-<strong>Hit Points at Higher Levels:</strong> 1d12 (7) + your Constitution modifier  </p>
-<hr>
+<p><strong>Choose a psionic discipline:</strong></p>
 
-<h4 id="proficiencies">Proficiencies</h4>
-<p><strong>Armor:</strong> Light armor, medium armor, shields<br />
-<strong>Weapons:</strong> Simple weapons, martial weapons<br />
-<strong>Tools:</strong> None  </p>
-<p><strong>Saving Throws:</strong> Strength, Constitution<br />
-<strong>Skills:</strong> Two from Animal Handling, Athletics, Intimidation, Nature, Perception, Stealth and Survival  </p>
-<hr>
+<p><select id="psiDiscipline-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="consumption">Consumption Discipline</option>
+    <option value="enhancement">Enhancement Discipline</option>
+    <option value="nullification">Nullification Discipline</option>
+    <option value="precognition">Precognition Discipline</option>
+    <option value="projection">Projection Discipline</option>
+    <option value="psychokinesis">Psychokinesis Discipline</option>
+    <option value="telekinesis">Telekinesis Discipline</option>
+    <option value="telepathy">Telepathy Discipline</option>
+    <option value="transposition">Transposition Discipline</option>
+</select></p>
+<div class="psiDiscipline-content" data-discipline="consumption">
 
-<h4 id="equipment">Equipment</h4>
-<ul>
-<li><em>(a)</em> a greataxe or <em>(b)</em> any martial melee weapon  </li>
-<li><em>(a)</em> two handaxes or <em>(b)</em> any simple weapon  </li>
-<li>An explorer's pack and four javelins  </li>
-</ul>
-<hr>
+### Consumption Discipline
 
-<h4 id="level-1-developed-talents">Level 1 - Developed Talents</h4>
-<p>Whether in the ruins of an ancient civilization, the barren terrain of the hinterlands, or the back alleys of a prosperous city, Barbarians are adept at surviving and interacting with their environments.</p>
-<p>At 1st level you gain a developed talent of your choice. Your developed talents are detailed at the end of the class description. The Developed Talents column of the Barbarian table shows when you learn more developed talents.</p>
-<hr>
+Your psychic powers are those of a predator, and your prey is the minds of others. Their thoughts, their feelings, their vital psionic energies are your food.
 
-<h4 id="level-1-rage">Level 1 - Rage</h4>
-<p>You fight with an unchecked primal ferocity in battle. Starting at 1st level, you can use a bonus action on your turn to enter a Rage. While your Rage lasts, you gain all the benefits listed below, so long as you aren't wearing heavy armor:</p>
-<ul>
-<li>You have advantage on any Constitution checks, Strength checks, and Strength saving throws that you make.</li>
-<li>Whenever you hit with a Strength-based weapon attack you deal a bonus damage of the weapon's type equal to your proficiency bonus.</li>
-<li>You resist all bludgeoning, piercing, and slashing damage.</li>
-<li>You cannot cast spells or concentrate on spells or effects.</li>
-<li>Your Rage lasts until the end of your next turn, but it ends early if you become unconscious. You can extend your Rage to the end of your next turn by attacking a creature, taking damage, making a Strength check, or using a bonus action to extend it. You can maintain your Rage for up to 1 minute.</li>
-</ul>
-<p>As you gain Barbarian levels, you can Rage additional times between each short or long rest, as shown in the Rages column on the Barbarian table.</p>
-<hr>
+#### Adaptive Hunter
 
-<h4 id="level-1-unarmored-defense">Level 1 - Unarmored Defense</h4>
-<p>Also at 1st level, so long as you are not wearing armor, your Armor Class is equal to 10 + your Dexterity modifier + your Constitution modifier. You can use a shield with this feature.</p>
-<hr>
+After using your Mind Leech on a target, you can gain one skill, tool, or language proficiency that creature has until the end of your next long rest. If you use this ability again, you lose the last proficiency or language to acquire the new one.
 
-<h4 id="level-2-danger-sense">Level 2 - Danger Sense</h4>
-<p>Starting at 2nd level, you have advantage on your initiative rolls. If you are surprised when you roll initiative you can
-act normally so long as you Rage as part of your first turn.</p>
-<hr>
+#### Mind Leech  
+*Psionic Power*
 
-<h4 id="level-2-reckless-attack">Level 2 - Reckless Attack</h4>
-<p>Also at 2nd level, whenever you make a Strength-based attack on your turn, you can throw aside concern for your defense to make a Reckless Attack. When you do so, you have advantage on all Strength-based attacks and all attack rolls targeting you have advantage until the start of your next turn.</p>
-<hr>
+**Casting Time:** 1 action  
+**Range:** 30 feet  
+**Components:** S  
+**Duration:** Instantaneous  
 
-<h4 id="level-2-savage-exploits">Level 2 - Savage Exploits</h4>
-<p>Also at 2nd level, your lust for battle unlocks savage abilities that enhance your martial skill, both on and off the battlefield.</p>
-<h5 id="exploit-dice"><strong>Exploit Dice</strong></h5>
-<p>The Barbarian table shows how many Exploit Dice you have to perform any Exploits you know. Most Exploits require you to expend these Dice in order to use them. You can only use one Exploit per attack, ability check, or saving throw, and you regain all Exploit Dice when you finish a short or long rest.</p>
-<p>Your Exploit Dice begin as d4s and increase in size as you gain levels in this class, as indicated in the Barbarian table.</p>
-<h5 id="exploits-known"><strong>Exploits Known</strong></h5>
-<p>At 2nd level, you learn two Savage Exploits from the list
-at the end of this class. The Exploits Known column of the Barbarian table shows when you learn additional Exploits.
-To learn an Exploit you must meet any prerequisites that it may have, like a minimum ability score or Barbarian level.</p>
-<p>Each time you gain a Barbarian level, you can replace one of the Savage Exploits you know with another Exploit of your choice, so long as you meet that Exploit's prerequisites.</p>
-<h5 id="saving-throws"><strong>Saving Throws</strong></h5>
-<p>If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:</p>
-<ul>
-<li><strong>Exploit Save DC</strong> = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</li>
-</ul>
-<hr>
+You assault the mind of a target you can see within range, rending and devouring its psionic energy. The target must succeed on a Charisma saving throw or take 1d6 psychic damage. If the target is frightened, charmed, stunned, restrained, grappled, or paralyzed, the psychic damage becomes 1d12 instead.
 
-<h4 id="level-3-versatile-exploration">Level 3 - Versatile Exploration</h4>
-<p>Beginning at 3rd level, whenever you learn a new developed talent or replace an existing one, you can instead choose from Fighter soldiering knacks.</p>
-<hr>
+On a failed save, you gain a psionic charge of consumed power until the end of your next turn. You can expend this charge when you deal damage to deal additional damage equal to your Intelligence modifier, or consume this charge at the end of your turn to gain temporary hit points equal to your Intelligence modifier. You can spend only one charge at a time.
 
-<h4 id="level-3-primal-path">Level 3 - Primal Path</h4>
-<p>At 3rd level, you choose the Primal Path that best represents your Barbarian's style of combat and the source of your Rage. Your Primal Path grants you features at 3rd level, and again when you reach 6th, 10th, and 14th level in this class.</p>
-<hr>
+You can target the corpse of a recently perished creature with this power, as long as the target has died within the last minute and not been previously leeched by this power.
 
-<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
-<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
-<hr>
+- **Devouring (2 psi points).** The range of Mind Leech becomes a radius of 5 feet, centered on you.  
+- **Nourishing (1 psi point).** On a failed saving throw, you gain an additional psionic charge.  
+- **Rending (1+ psi points).** The target takes an additional die of damage (1d6 or 1d12) per psi point spent on a failed save.  
+- **Shredding (1 psi point).** You reduce the target’s next saving throw before the end of your next turn by 1d4.  
+- **Stunning (3 psi points).** On a failed save, the target becomes stunned until the start of your next turn. If the power affects multiple targets, choose one.  
+- **Thieving (1 psi point).** On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell). You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.
 
-<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
-<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
-<hr>
+#### Alternate Effects
 
-<h4 id="level-5-fast-movement">Level 5 - Fast Movement</h4>
-<p>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</p>
-<hr>
+When you learn the Consumption Discipline, you can use your Psionics feature to cast the following spells:
 
-<h4 id="level-7-feral-instinct">Level 7 - Feral Instinct</h4>
-<p>The primal fury that fuels your Rage in battle also hones your senses. Upon reaching 7th level, you gain the benefits below:</p>
-<ul>
-<li>Your Rage lasts for its maximum duration, and only ends early if you become unconscious or you choose to end it.</li>
-<li>You have advantage on Dexterity saving throws against effects that you can see (such as traps and spells) so long as you are not, blinded, deafened, or incapacitated.</li>
-</ul>
-<hr>
+| Point Cost | Alternate Effect |
+|:------------:|:-------------------------:|
+| 1 | *inflict wounds* |
+| 2 | *psychic drain*ᴷ |
+| 3 | *vampiric touch* |
+| 4 | *blight* |
+| 5 | *devouring darkness*ᴷ |
 
-<h4 id="level-9-brutal-critical">Level 9 - Brutal Critical</h4>
-<p>Beginning at 9th level, while you are raging, your weapon attacks using Strength score a critical hit on a roll of 19 or 20 and you can roll one additional weapon damage die when determining the extra damage for a critical hit.</p>
-<p>This increases to a critical range of 18-20 and two additional dice at 13th level and three additional dice at 17th level.</p>
-<hr>
+If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.
 
-<h4 id="level-11-critical-strike">Level 11 - Critical Strike</h4>
-<p>You ruthlessly exploit the weakness of your foes. Starting at 11th level, when you score a critical hit with a weapon attack while you are raging, you can use a Savage Exploit you know as part of that attack without expending an Exploit Die.</p>
-<hr>
-
-<h4 id="level-11-relentless-rage">Level 11 - Relentless Rage</h4>
-<p>The white hot fury of your Rage burns ever brighter. Also at 11th level you gain the following benefits while raging:</p>
-<ul>
-<li>If you drop to 0 hit points, but do not die outright, you can choose to end your Rage to make your hit points change to a number equal to twice your Barbarian level.</li>
-<li>When you are forced to make an Intelligence, Wisdom, or Charisma saving throw you gain a bonus to your roll equal to your Constitution modifier (minimum of +1).</li>
-</ul>
-<hr>
-
-<h4 id="level-15-persistent-rage">Level 15 - Persistent Rage</h4>
-<p>You have mastered your Rage, becoming one with your anger. Beginning at 15th level, when you Rage it lasts for 1 hour.</p>
-<hr>
-
-<h4 id="level-18-reliable-might">Level 18 - Reliable Might</h4>
-<p>Your physical power and stamina rival the heroes of legend. Starting at 18th level, if you make a Strength or Constitution check and the result of your roll is lower than your Strength score, you can use your Strength score in place of the result.</p>
-<hr>
-
-<h4 id="level-20-primal-champion">Level 20 - Primal Champion</h4>
-<p>You embody the raw power of the primal wilderness and have exceeded the physical limits of normal mortals. At 20th level, both your Strength and Constitution scores increase by 4, and your maximum for both of those scores is now 24.</p>
-<hr>
+</div>
 
 
 
