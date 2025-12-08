@@ -730,7 +730,7 @@
 </div>
 <div class="tabbed-block">
 <p><p><strong>Choose a psionic discipline:</strong></p></p>
-<p><select id="psiDiscipline-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<p><select id="discipline-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
     <option value="all">All</option>
     <option value="consumption">Consumption Discipline</option>
     <option value="enhancement">Enhancement Discipline</option>
@@ -742,7 +742,7 @@
     <option value="telepathy">Telepathy Discipline</option>
     <option value="transposition">Transposition Discipline</option>
 </select></p>
-<div class="psiDiscipline-content" data-discipline="consumption">
+<div class="discipline-content" data-discipline="consumption">
 <h3 id="consumption-discipline">Consumption Discipline</h3>
 <p>Your psychic powers are those of a predator, and your prey is the minds of others. Their thoughts, their feelings, their vital psionic energies are your food.</p>
 <h4 id="adaptive-hunter">Adaptive Hunter</h4>
@@ -797,6 +797,507 @@
 </tbody>
 </table>
 <p>If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.</p>
+</div>
+<div class="discipline-content" data-discipline="enhancement">
+<h3 id="enhancement-discipline">Enhancement Discipline</h3>
+<p>Enhancement is the ability to interact with a creature’s nature and abilities with your psionic power.</p>
+<h4 id="enhancing-skill">Enhancing Skill</h4>
+<p>You can focus your psionics to enhance your abilities. Whenever you make an ability check using Strength or Dexterity, you can add 1d4 to the result.</p>
+<h4 id="enhancing-surge">Enhancing Surge</h4>
+<p><em>Psionic Power</em></p>
+<p><strong>Casting Time:</strong> 1 action<br />
+<strong>Range:</strong> 60 feet<br />
+<strong>Components:</strong> S<br />
+<strong>Duration:</strong> 1 round  </p>
+<p>You empower the body of a target creature you can see with your psionics. The target gains 1d6 temporary hit points and the next time the target deals damage, it deals 1d6 additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.</p>
+<p>You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p>
+<ul>
+<li><strong>Fortifying (1+ psi points).</strong> The target gains an extra 1d6 temporary hit points for each point spent.</li>
+<li><strong>Resilient (3 psi points).</strong> The target gains resistance to all damage until the start of your next turn.</li>
+<li><strong>Savage (1+ psi points).</strong> The target’s next weapon attack deals 1d6 additional damage for each point spent.</li>
+<li><strong>Swift (2 psi points).</strong> The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</li>
+</ul>
+<h4 id="alternate-effects_1">Alternate Effects</h4>
+<p>When you learn the Enhancement Discipline, you can use your Psionics feature to cast the following spells:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Point Cost</th>
+<th style="text-align: center;">Alternate Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>heroism</em>, <em>longstrider</em>, <em>unlocked potential</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>alter self</em>, <em>enlarge/reduce</em>, <em>lesser restoration</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>haste</em>, <em>protection from energy</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>freedom of movement</em>, <em>stoneskin</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>greater restoration</em>, <em>invested competency</em>ᴷ</td>
+</tr>
+</tbody>
+</table>
+<p>If a spell can be cast at a higher level, you can spend additional psi points to cast it at that level.</p>
+</div>
+<div class="discipline-content" data-discipline="nullification">
+<h3 id="nullification-discipline">Nullification Discipline</h3>
+<p>Nullification is the ability to interfere with the supernatural effects of the world, reverting reality back to its original state.</p>
+<h4 id="disruptive-touch">Disruptive Touch</h4>
+<p>When you gain this feature, you can create an aura of interference, wreathing yourself in the disruptive power that asserts reality. You can end minor magical or psionic effects (such as the result of cantrips or zero point psionic powers) by touching them, and have resistance to illusions or magical damage from things you touch (gaining advantage on the saving throw against them, if applicable).</p>
+<p>If you are grappling or otherwise touching a spellcasting or psionic creature, at the start of your turn you can expend 1 or more psi to interfere with their abilities until the start of your next turn. In order to cast a spell or use a psionic power, they must succeed on a saving throw of their spellcasting or psionic ability score against your psionics DC, unless they are casting a spell with a higher level or using a power with more psi points than the psi points spent on this feature.</p>
+<h4 id="denial">Denial</h4>
+<p><em>Psionic Power</em></p>
+<p><strong>Casting Time:</strong> 1 action<br />
+<strong>Range:</strong> 30 feet<br />
+<strong>Components:</strong> S<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You release a burst of raw psionic nullification at a creature you can see within range. The creature must make a Charisma saving throw. On failure, it takes 1d4 force damage as its existence is disrupted.</p>
+<p>If the target is an aberration, celestial, construct, elemental, fey, fiend, undead, or a creature with the ability to cast spells or use psionic powers, it takes an extra 1d4 force damage, and becomes disoriented; until the end of its next turn, it rolls a d4 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. A creature can choose to fail the saving throw.</p>
+<p>You can spend psi points up to your per-use limit to add the following modifiers to Denial (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p>
+<ul>
+<li><strong>Aura (3 psi points).</strong> Instead of targeting a creature, the power becomes an effect around you with a radius of 20 feet until the start of your next turn; any creature of your choice that enters or starts its turn in the area must make a saving throw against the power.</li>
+<li><strong>Existential (1+ psi points).</strong> You deal an additional 1d4 initial and bonus (if applicable) force damage to the target on a failed save.</li>
+<li><strong>Firm (2 psi points).</strong> The creature has disadvantage on the saving throw against this ability.</li>
+<li><strong>Lingering (1+ psi points).</strong> You can apply the effect of Disruptive Touch to an affected creature.</li>
+<li><strong>Supernatural (1+ psi points).</strong> A supernatural effect of or on the creature is ended; if the effect is a magical or psionic power, it ends only if the psi points spent on this modifier equals or exceeds the spell level or psi points spent on the effect. If the property is innate (of the target or affecting the target), it ends only if the psi points exceed the CR (or class levels) of the creature, and it returns at the end of that creature’s next turn. The supernatural effect cannot be its existence unless it has fewer than 10 hit points and otherwise qualifies.</li>
+</ul>
+<h4 id="alternate-effects_2">Alternate Effects</h4>
+<p>When you learn the Nullification Discipline, you can use your Psionics feature to cast the following spells:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Point Cost</th>
+<th style="text-align: center;">Alternate Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>protection from evil and good</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>nullify effect</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>counterspell</em>, <em>dispel magic</em>, <em>remove curse</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>banishment</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>dispel evil and good</em></td>
+</tr>
+</tbody>
+</table>
+<p>If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.</p>
+</div>
+<div class="discipline-content" data-discipline="precognition">
+<h3 id="precognition-discipline">Precognition Discipline</h3>
+<p>Precognition is the ability to see what lies ahead, piercing the veil of the future. Seeing things that most people cannot, a Psion with precognitive abilities can, to a limited extent, know the future; such a future is known by tracing its roots from the present, and grows more mysterious and cloudy as such roots grow distant.</p>
+<p>Such a future can be changed by the actions of the present, particularly by knowledge of said future and actions taken to prevent or alter it. This is the function most often leveraged by Precognitive Psions, peering into the future to steer around courses they seek to avoid or toward outcomes they hope to achieve.</p>
+<h4 id="prescience">Prescience</h4>
+<p>Your eyes wander to events before they happen. You can add your proficiency to Perception and initiative rolls; if you already add your proficiency to Perception, you can instead add twice your proficiency.</p>
+<p>If you concentrate on keeping an eye on the future (as if concentrating on a spell), you can use your Intelligence modifier for Wisdom (Perception) checks (instead of Wisdom) and initiative rolls (instead of Dexterity), and you make Intelligence saving throws in place of Dexterity saving throws. You can initiate this concentration at any time.</p>
+<h4 id="seeing">Seeing</h4>
+<p><em>Psionic Power</em></p>
+<p><strong>Casting Time:</strong> 1 action<br />
+<strong>Range:</strong> Self<br />
+<strong>Components:</strong> S<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You concentrate and peer into the stream of future possibilities, gaining insight into what will happen next. Choose one of the following:</p>
+<ul>
+<li>You can grant advantage to yourself or to a creature that can see or hear you on their next attack roll before the start of your next turn. If an attack that gained advantage from this feature hits, it deals an extra 1d6 damage.</li>
+<li>You can impose disadvantage on the next attack roll made against yourself or a creature that can see or hear you before the start of your next turn. If that attack hits despite the disadvantage, the damaged creature rolls 1d6 and subtracts the result from the damage taken.</li>
+<li>
+<p>You can spend psi points up to your per-use limit to add the following modifiers to Seeing (you can add multiple modifiers):</p>
+<ul>
+<li><strong>Omniscient (1 psi point).</strong> The beneficiary of your Seeing is under the effects of <em>bless</em> and <em>guidance</em> until the start of your next turn.  </li>
+<li><strong>Piercing (1+ psi points).</strong> You see through the target’s defenses when granting advantage, increasing the damage of the attack benefiting from advantage by 1d8 per psi point spent, if it hits.  </li>
+<li><strong>Positioning (1+ psi points).</strong> The beneficiary of your Seeing can immediately move 5 feet per psi point spent (up to their speed) without provoking opportunity attacks.  </li>
+<li><strong>Thwarting (2 psi points).</strong> The beneficiary of your Seeing has advantage on the next saving throw they make before the start of your next turn.  </li>
+<li><strong>Withheld (0 psi points).</strong> Rather than granting advantage or disadvantage on the next attack, you can grant advantage or impose disadvantage as a reaction to an attack being made until the start of your next turn.</li>
+</ul>
+</li>
+</ul>
+<h4 id="alternate-effects_3">Alternate Effects</h4>
+<p>When you learn the Precognition Discipline, you can use your Psionics feature to cast the following spells:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Point Cost</th>
+<th style="text-align: center;">Alternate Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>detect good and evil</em>, <em>future insight</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>augury</em>†, <em>glimpse the future</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>clairvoyance</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>death ward</em>†, <em>divination</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>scrying</em></td>
+</tr>
+</tbody>
+</table>
+<p>† <em>augury</em> has the same effect, but doesn’t consult a specific entity when cast in this way.<br />
+† <em>death ward</em> has the same effect, but gives a forewarning to a creature allowing them to avoid death when cast in this way.</p>
+</div>
+<div class="discipline-content" data-discipline="projection">
+<h3 id="projection-discipline">Projection Discipline</h3>
+<p>Projection is the ability to project what is in your mind into the outside world through psionic power, shaping tangible constructs from pure thought.</p>
+<h4 id="project-item">Project Item</h4>
+<p>As an action, you can project an inanimate object you imagine into your hands. It can’t be larger than 3 feet on any side or weigh more than 10 pounds, and it is clearly ethereal in nature, though it behaves as a solid object.<br />
+Weapons created with this feature deal force damage.</p>
+<p>Projected items fade after 1 minute, and you can have no more than 3 projected items at a time.</p>
+<h4 id="astral-construct">Astral Construct</h4>
+<p><em>Psionic Power</em></p>
+<p><strong>Casting Time:</strong> 1 action<br />
+<strong>Range:</strong> 60 feet<br />
+<strong>Components:</strong> S<br />
+<strong>Duration:</strong> Concentration, up to 1 minute  </p>
+<p>You project an ethereal creation from your mind at a space you can see within range, taking the shape of a Medium or smaller creature, weapon, or other object. This creation is clearly ethereal in nature.</p>
+<p>When you create it, and on subsequent turns using your action to mentally control it, you can move it up to 30 feet in any direction and attack with it, so long as it remains within range. To attack, make a melee spell attack. On a hit, the target takes 1d8 force damage. If the construct ever leaves the range, it fades away.</p>
+<p>While the Astral Construct is active, you can spend psi points up to your per-use limit to issue commands that affect and empower it. Commands require no action, but you cannot exceed your per-use psi point limit in total commands issued, and each command can only be issued once per turn.</p>
+<ul>
+<li><strong>Grab (1 psi point).</strong> Can only be used while your construct is Solidified. A creature within 5 feet of the construct and no more than one size larger must make a Strength saving throw or become restrained. It can repeat the save at the end of each of its turns. The effect ends if the construct becomes ethereal or becomes more than one size smaller than the target.  </li>
+<li><strong>Grow (1 psi point).</strong> The construct increases by one size, and its damage increases by one die (up to 2d8). It returns to normal size at the start of your next turn.  </li>
+<li><strong>Relocate (1 psi point).</strong> The construct disappears and reappears anywhere within 60 feet of you.  </li>
+<li><strong>Replicate (3 psi points).</strong> Functions as Relocate, except the original does not disappear. You temporarily control two constructs with the same action until the start of your next turn. Pick one construct to fade at the start of your next turn unless you use Sustain.  </li>
+<li><strong>Solidify (1 psi point).</strong> The construct becomes solid, blocking its space until the start of your next turn. It must occupy an unoccupied space. It has AC 16 and hit points equal to your Intelligence modifier + your Psion level. If reduced to 0 hit points, it becomes ethereal again.  </li>
+<li><strong>Strike (2 psi points).</strong> The construct makes an attack, even if it has already attacked this turn.  </li>
+<li><strong>Sustain (1+ psi points).</strong> At the start of your turn, you can sustain the effects of Solidify, Grow, or Replicate for an additional round. Sustaining Replicate applies to all replicated constructs. Each effect can only be sustained once per turn. Sustaining Solidify restores the construct to its maximum hit points.  </li>
+</ul>
+<h4 id="alternate-effects_4">Alternate Effects</h4>
+<p>When you learn the Projection Discipline, you can use your Psionics feature to cast the following spells:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Point Cost</th>
+<th style="text-align: center;">Alternate Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>floating disk</em>, <em>unseen servant</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>mirror image</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>phantom steed</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>arcane eye</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>creation</em></td>
+</tr>
+</tbody>
+</table>
+<p>If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.</p>
+</div>
+<div class="discipline-content" data-discipline="psychokinesis">
+<h3 id="psychokinesis-discipline">Psychokinesis Discipline</h3>
+<p>Psychokinesis is the mental art of spontaneously creating and
+controlling energy; sapping energy to freeze or spontaneously
+creating bursts of fire or arcs of lightning. Dangerous and
+destructive, it provides devastating power.</p>
+<h4 id="energy-manipulation">Energy Manipulation</h4>
+<p>When you gain this feature, you can manipulate energy in
+minor ways at will. As an action, you can cause a light that
+emits 30 feet of bright light and 30 feet of dim light, cause
+objects you touch to catch fire as if touched by a match, cause
+small arcs of electricity, or freeze or thaw up to 5-foot cube of
+water. Any ongoing effect you create lasts 1 minute. You can
+have a number of simultaneous effects active up your
+Intelligence modifier, after which creating another ends the
+oldest ongoing effect.</p>
+<h4 id="elemental-blast">Elemental Blast</h4>
+<p><em>Psionic Power</em></p>
+<p><strong>Casting Time:</strong> 1 action
+<strong>Range:</strong> 30 feet
+<strong>Components:</strong> S
+<strong>Duration:</strong> 1 round</p>
+<p>You can use your mind to create a burst of elemental power,
+blasting a target you can see within range. Make a ranged
+spell attack against the target. On a hit, the target takes 1d8
+cold, fire, force or lightning damage.
+For each die of cold damage dealt, the creature’s speed is</p>
+<p>reduced by 5 feet until the end of their next turn. For each die
+of fire damage dealt by the original attack, the creature takes
+1d4 fire damage at the start of its next turn. For each die of
+lightning damage dealt, an arc of lightning strikes another
+creature of your choice within 20 feet, dealing 1d4 lightning
+damage (multiple arcs may strike the same creature). Damage
+from these secondary effects doesn’t add any bonuses (such as
+Empowered Psionics).</p>
+<p>You can spend psi points up to your per use limit to add the
+following modifiers to (you can add multiple modifiers). The
+points must be spent when choosing the target of the power.</p>
+<ul>
+<li><strong>Amplified (1+ psi points).</strong> The target takes an extra 1d8 cold, fire, force or lightning damage on a hit for each additional point spent.</li>
+<li><strong>Lasting (1 psi point).</strong> Your Elemental Blast leaves a 5-foot-radius sphere of devastation behind where it strikes until the start of your next turn. Creatures that enter this zone for the first time or end their turn in it must make a Constitution saving throw or suffer the secondary effects (slow, burn, arc) of the blast as if they had been hit by it.</li>
+<li><strong>Massive (1–3 psi points).</strong> You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).</li>
+<li><strong>Overcharged (0 psi points).</strong> You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.</li>
+</ul>
+<h4 id="alternate-effects_5">Alternate Effects</h4>
+<p>Additionally, when you learn the Psychokinesis psionic
+discipline you can use your Psionics feature to cast the
+following spells as per the rules defined in the feature:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Point Cost</th>
+<th style="text-align: center;">Alternate Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>burning hands</em>, <em>lightning tendril</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>flaming sphere</em>, <em>scorching ray</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>aether lance</em>ᴷ, <em>fireball</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>jumping jolt</em>ᴷ, <em>wall of fire</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>aether storm</em>ᴷ, <em>cone of cold</em></td>
+</tr>
+</tbody>
+</table>
+<p>If a spell can be cast at a higher level, you can spend
+additional psi points to cast it at a level equal to the psi points
+spent.</p>
+</div>
+<div class="discipline-content" data-discipline="telekinesis">
+<h3 id="telekinesis-discipline">Telekinesis Discipline</h3>
+<p>Telekinesis is the ability to interact with physical objects and
+energy with your psionic powers.</p>
+<h4 id="telekinetic-hands">Telekinetic Hands</h4>
+<p>When you gain this feature, you can manipulate small objects
+within 30 feet with your mind as if using your hand to interact
+with it. You can use this power to manipulate an object, open
+an unlocked door or container, stow or retrieve an item from
+an open container, or pour the contents out of a vial. You can’t
+Attack, activate magical items, or carry more than 10 pounds
+in this manner. You can move an item you are controlling in
+this way up to 30 feet during your turn.</p>
+<p>You can spend 1 or more psi points to increase how much
+you can move this way by 100 pounds per psi point spent for 1
+turn.</p>
+<h4 id="telekinetic-force">Telekinetic Force</h4>
+<p><em>Psionic power</em></p>
+<p><strong>Casting Time:</strong> 1 action
+<strong>Range:</strong> 60 feet
+<strong>Components:</strong> S
+<strong>Duration:</strong> Instantaneous</p>
+<p>You smash a target creature or object you can see with your
+mental power. The target must succeed on a Strength saving
+throw or take 1d10 bludgeoning damage, and either be shoved
+5 feet in a direction of your choosing or be knocked prone.</p>
+<p>You can spend psi points up to your per use limit to add the
+following modifiers to Telekinetic Force (you can add multiple
+modifiers). The points must be spent when choosing the target
+of the power.</p>
+<ul>
+<li><strong>Crushing (2 psi points).</strong> The target is restrained until the end
+  of its next turn if it fails its saving throw.</li>
+<li><strong>Hammering (1+ psi points).</strong> The target takes 1d10
+  bludgeoning damage for each point spent if it fails its saving
+  throw.</li>
+<li><strong>Hurling (1–3 psi points).</strong> The target is shoved 10 feet in a
+  direction of your choosing for each point spent if it fails its
+  saving throw.</li>
+<li><strong>Zone of (1–3 psi points).</strong> You can target all creatures in a
+  5-foot radius of a point within range. The radius doubles for
+  each point spent (5 feet, 10 feet, 20 feet).</li>
+</ul>
+<h4 id="alternate-effects_6">Alternate Effects</h4>
+<p>Additionally, when you learn the Telekinesis psionic
+discipline you can use your Psionics feature to cast the
+following spells as per the rules defined in the feature:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Points Cost</th>
+<th style="text-align: center;">Alternate Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>jump</em>, <em>launch object</em>ᴷ, <em>thunderwave</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>fling</em>ᴷ, <em>levitate</em>, <em>shatter</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>fly</em>, <em>vortex blast</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>orbital stones</em>ᴷ, <em>resilient sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>shockwave</em>ᴷ, <em>telekinesis</em>, <em>wall of force</em></td>
+</tr>
+</tbody>
+</table>
+<p>If a spell can be cast at a higher level, you can spend
+additional psi points to cast it at a level equal to the psi points
+spent.</p>
+</div>
+<div class="discipline-content" data-discipline="telepathy">
+<h3 id="telepathy-discipline">Telepathy Discipline</h3>
+<p>Telepathy is the ability to interact with the minds of other creatures using your psionic abilities.</p>
+<h4 id="telepathic-communication">Telepathic Communication</h4>
+<p>When you gain this feature, you can communicate telepathically with any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Creatures you communicate with can reply in kind.</p>
+<h4 id="telepathic-intrusion">Telepathic Intrusion</h4>
+<p><em>Psionic power</em></p>
+<p><strong>Casting Time:</strong> 1 action<br />
+<strong>Range:</strong> 60 feet<br />
+<strong>Components:</strong> S<br />
+<strong>Duration:</strong> Instantaneous</p>
+<p>You assault the mind of a creature you can see directly. The target must succeed on a Wisdom saving throw, or take 1d8 psychic damage. If the target fails the saving throw, it has disadvantage on attacks made against you until the start of your next turn. You can choose to deal no damage to the creature when it fails its saving throw.</p>
+<p>You can spend Psi Points up to your per-use limit to add the following modifiers to Telepathic Intrusion (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p>
+<ul>
+<li><strong>Meddling (2 psi points).</strong> You make one creature invisible to the target creature or cause the creature to see something that is not there with the effect of minor illusion until the start of your next turn if it fails its saving throw.</li>
+<li><strong>Overwhelming (3 psi points).</strong> The target is stunned until the end of its next turn if it fails its saving throw.</li>
+<li><strong>Rending (1+ psi points).</strong> The target takes 1d8 psychic damage for each additional point spent on a failed save.</li>
+<li><strong>Terrifying (1 psi point).</strong> The target is frightened of you until the end of your next turn if it fails its saving throw.</li>
+</ul>
+<h4 id="alternate-effects_7">Alternate Effects</h4>
+<p>Additionally, when you learn the Telepathy psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Point Cost</th>
+<th style="text-align: center;">Alternate Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>compelled query</em>ᴷ, <em>command</em>, <em>frighten</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>detect thoughts</em>, <em>suggestion</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>delve mind</em>ᴷ, <em>fear</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>compulsion</em>, <em>confusion</em>, <em>dominate beast</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>dominate person</em>, <em>modify memory</em>, <em>telepathic bond</em></td>
+</tr>
+</tbody>
+</table>
+<p>If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.</p>
+</div>
+<div class="discipline-content" data-discipline="transposition">
+<h3 id="transposition-discipline">Transposition Discipline</h3>
+<p>Transposition is the ability to modify the properties of space and manipulate dimensional boundaries with your psionic powers.</p>
+<h4 id="flicker-step">Flicker Step</h4>
+<p>On your turn, you can replace your movement by teleporting 5 feet in any direction to a space you can see. You can pass through creatures but can’t pass through objects, buildings, or terrain more than 4 inches thick. This distance increases by 5 feet at 5th level (to 10 feet), at 11th level (to 15 feet), and becomes equal to your speed at 17th level. This replaces all movement for your turn when used.</p>
+<h4 id="phase-rift">Phase Rift</h4>
+<p><em>Psionic power</em></p>
+<p><strong>Casting Time:</strong> 1 action<br />
+<strong>Range:</strong> Self<br />
+<strong>Components:</strong> S<br />
+<strong>Duration:</strong> 1 round</p>
+<p>You step through space, traveling up to 10 feet in a straight line leaving a spatial tear behind. You can pass through creatures but can’t pass through objects, buildings, or terrain more than 4 inches thick. Any creature in the path of this tear must make a Dexterity saving throw or take 1d8 force damage.</p>
+<p>You can spend psi points up to your per-use limit to add the following modifiers to Phase Rift (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p>
+<ul>
+<li><strong>Blurring (1–3 psi points).</strong> You gain an illusory duplicate, as per the <em>mirror image</em> spell. You gain 1 duplicate per psi point spent (up to a maximum of 3). One remaining image fades at the start of each of your turns.  </li>
+<li><strong>Disruptive (1+ psi points).</strong> Each target that fails their saving throw takes an extra 1d8 force damage for each point spent.  </li>
+<li><strong>Echoing (2 psi points).</strong> You immediately use Phase Rift again with the same action.  </li>
+<li><strong>Ethereal (2 psi points).</strong> You can pass through solid objects, buildings, and terrain as long as you end your Phase Rift in a space you can occupy. If your Phase Rift would end inside a space you can’t occupy, the power fails.  </li>
+<li><strong>Long (1–3 psi points).</strong> You can travel an additional 10 feet for each point spent.  </li>
+</ul>
+<h4 id="alternate-effects_8">Alternate Effects</h4>
+<p>Additionally, when you learn the Transposition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Point Cost</th>
+<th style="text-align: center;">Alternate Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><em>expeditious retreat</em>, <em>flicker</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>blur</em>, <em>misty step</em>, <em>pass without a trace</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>blink</em>, <em>nondetection</em>, <em>turbulent warp</em>ᴷ</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><em>banishment</em>, <em>dimension cutter</em>ᴷ, <em>dimension door</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>flickering strikes</em>ᴷ, <em>spatial manipulation</em>ᴷ</td>
+</tr>
+</tbody>
+</table>
+<p>If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.</p>
 </div>
 </div>
 <div class="tabbed-block">
@@ -1034,7 +1535,7 @@ You can only target yourself when casting <em>polymorph</em> this way.</p>
 <p>When you manifest a construct, you can select two options from Boundless Imagination.</p>
 </div>
 <div class="talent-content" data-talent="psychokinesis">
-<h3 id="elemental-talents">Elemental Talents</h3>
+<h3 id="psychokinesis-talents">Psychokinesis Talents</h3>
 <h4 id="elemental-aegis">Elemental Aegis</h4>
 <p>As an action, you surround yourself with a swirling shield of fire, ice, or lightning. You gain temporary hit points equal to your Psion level + your Intelligence modifier. Creatures that strike you while you have these temporary hit points take 1d4 damage of the shield type chosen. Once you use this talent, you can’t use it again until you finish a short or long rest.</p>
 <h4 id="elemental-emotions">Elemental Emotions</h4>
@@ -1099,7 +1600,7 @@ You can only target yourself when casting <em>polymorph</em> this way.</p>
 <p><em>Prerequisite: 11th-level Psion</em></p>
 <p>Whenever you roll a d4 for flicker, you can teleport 5 feet after the attack resolves.</p>
 <h4 id="lingering-rifts">Lingering Rifts</h4>
-<p>When you use <em>Phase Rift</em>, you can choose to leave a 5-foot-wide tear in reality behind, forming a line between your starting location and ending location until the start of your next turn. Any creature that enters this area for the first time or ends their turn in it must make a saving throw against the effect of <em>Phase Rift</em> as if it passed through them. If a creature is in the area of multiple lingering rifts, they are affected only once.</p>
+<p>When you use Phase Rift, you can choose to leave a 5-foot-wide tear in reality behind, forming a line between your starting location and ending location until the start of your next turn. Any creature that enters this area for the first time or ends their turn in it must make a saving throw against the effect of Phase Rift as if it passed through them. If a creature is in the area of multiple lingering rifts, they are affected only once.</p>
 <h4 id="phase-shot">Phase Shot</h4>
 <p><em>Prerequisite: Rift Strike</em></p>
 <p>When you use your Phase Rift power, you can instead empower a piece of ammunition you touch, granting it the following special properties when you fire it:<br />

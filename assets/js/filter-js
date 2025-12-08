@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupFilter('subclass-select', 'subclass-content', 'subclass');
     setupFilter('exploit-select', 'exploit-content', 'exploit');
     
-    //// Kibbles filters
+    //// Kibbles Psion filters
     setupFilter('discipline-select', 'discipline-content', 'discipline');
     setupFilter('talent-select', 'talent-content', 'talent');
 });
