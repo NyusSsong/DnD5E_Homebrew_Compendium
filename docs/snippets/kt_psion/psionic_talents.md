@@ -339,7 +339,7 @@ When you manifest a construct, you can select two options from Boundless Imagina
 
 <div class="talent-content" data-talent="psychokinesis">
 
-### Elemental Talents
+### Psychokinesis Talents
 
 #### Elemental Aegis
 
@@ -456,7 +456,7 @@ Whenever you roll a d4 for flicker, you can teleport 5 feet after the attack res
 
 #### Lingering Rifts
 
-When you use *Phase Rift*, you can choose to leave a 5-foot-wide tear in reality behind, forming a line between your starting location and ending location until the start of your next turn. Any creature that enters this area for the first time or ends their turn in it must make a saving throw against the effect of *Phase Rift* as if it passed through them. If a creature is in the area of multiple lingering rifts, they are affected only once.
+When you use Phase Rift, you can choose to leave a 5-foot-wide tear in reality behind, forming a line between your starting location and ending location until the start of your next turn. Any creature that enters this area for the first time or ends their turn in it must make a saving throw against the effect of Phase Rift as if it passed through them. If a creature is in the area of multiple lingering rifts, they are affected only once.
 
 #### Phase Shot  
 *Prerequisite: Rift Strike*
