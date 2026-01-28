@@ -1,0 +1,2465 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../barbarian/">
+      
+      
+        <link rel="next" href="../kt_psion/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.33">
+    
+    
+      
+        <title>Ranger - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../assets/css/magic-items.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ranger
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barbarian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Barbarian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Ranger
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Kibbles Tasty
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Kibbles Tasty
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kt_psion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Psion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kt_warlord/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Warlord
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magic-items/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Magic Items
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="the-ranger">The Ranger</h1>
+<p>Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Ranger Features</label><label for="__tabbed_1_3">Knacks</label><label for="__tabbed_1_4">Animal Companion</label><label for="__tabbed_1_5">Alternate Subclasses</label><label for="__tabbed_1_6">Subclasses</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Class Features</th>
+<th style="text-align: center;">Knacks Known</th>
+<th style="text-align: center;">1st</th>
+<th style="text-align: center;">2nd</th>
+<th style="text-align: center;">3rd</th>
+<th style="text-align: center;">4th</th>
+<th style="text-align: center;">5th</th>
+<th style="text-align: center;">Quarry Die</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Exploration Knacks, Fighting Style, Wild Expertise</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ranger's Quarry, Spellcasting</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d4</td>
+</tr>
+<tr>
+<td style="text-align: left;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ranger Conclave</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d4</td>
+</tr>
+<tr>
+<td style="text-align: left;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d4</td>
+</tr>
+<tr>
+<td style="text-align: left;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Extra Attack, Feral Senses</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d4</td>
+</tr>
+<tr>
+<td style="text-align: left;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ranger's Quarry (8 hours)</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d6</td>
+</tr>
+<tr>
+<td style="text-align: left;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ranger Conclave Feature</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d6</td>
+</tr>
+<tr>
+<td style="text-align: left;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement, Explorer's Instinct</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d6</td>
+</tr>
+<tr>
+<td style="text-align: left;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Wild Expertise</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d6</td>
+</tr>
+<tr>
+<td style="text-align: left;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ranger's Quarry (24 hours)</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d8</td>
+</tr>
+<tr>
+<td style="text-align: left;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ranger Conclave Feature, Tireless</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d8</td>
+</tr>
+<tr>
+<td style="text-align: left;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d8</td>
+</tr>
+<tr>
+<td style="text-align: left;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d8</td>
+</tr>
+<tr>
+<td style="text-align: left;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ranger's Quarry (1 week)</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d10</td>
+</tr>
+<tr>
+<td style="text-align: left;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ranger Conclave Feature</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d10</td>
+</tr>
+<tr>
+<td style="text-align: left;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">d10</td>
+</tr>
+<tr>
+<td style="text-align: left;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">d10</td>
+</tr>
+<tr>
+<td style="text-align: left;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Feral Senses, Ranger's Quarry (Indefinite)</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">d12</td>
+</tr>
+<tr>
+<td style="text-align: left;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">d12</td>
+</tr>
+<tr>
+<td style="text-align: left;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Foe Slayer</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">d12</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d10 per Ranger level<br />
+<strong>Hit Points at 1st level:</strong> 10 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d10 (6) + your Constitution modifier  </p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor, medium armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, martial weapons<br />
+<strong>Tools:</strong> One from herbalism kit, navigator’s kit, poisoner’s kit, and a musical instrument  </p>
+<p><strong>Saving Throws:</strong> Strength, Dexterity<br />
+<strong>Skills:</strong> Three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival  </p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li><em>(a)</em> scale mail or <em>(b)</em> leather armor  </li>
+<li><em>(a)</em> two shortswords or <em>(b)</em> two simple melee weapons  </li>
+<li><em>(a)</em> a dungeoneer's pack or <em>(b)</em> an explorer's pack  </li>
+<li>A longbow and a quiver of 20 arrows  </li>
+</ul>
+<hr>
+<h4 id="level-1-fighting-style">Level 1 - Fighting Style</h4>
+<p>At 1st level, you adopt a Fighting Style that best reflects your training. You cannot select a Fighting Style more than once, even if a feature allows you to select another Fighting Style.</p>
+<ul>
+<li>
+<p><strong>Archery.</strong> You gain a +2 bonus to attack rolls you make
+with ranged weapons.</p>
+</li>
+<li>
+<p><strong>Blind Warrior.</strong> You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.</p>
+</li>
+<li>
+<p><strong>Brawler.</strong> Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.</p>
+</li>
+<li>
+<p><strong>Defense.</strong> So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.</p>
+</li>
+<li>
+<p><strong>Dueling.</strong> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.</p>
+</li>
+<li>
+<p><strong>Druidic Warrior.</strong> You learn two cantrips of your choice from the Druid spell list, and they count as Ranger spells for you. Whenever you gain a level, you can replace one of these Druid cantrips you know with another Druid cantrip of your choice.</p>
+</li>
+<li>
+<p><strong>Featherweight Training.</strong> While you are wielding only light weapons, and nothing else your Speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.</p>
+</li>
+<li>
+<p><strong>Mariner.</strong> So long as you are not wearing medium or heavy armor, or wielding a shield, you have a swimming speed equal to your walking speed, and a +1 bonus to Armor Class.</p>
+</li>
+<li>
+<p><strong>Mountaineer.</strong> So long as you are not wearing medium or heavy armor, or wielding a shield, you have a climbing speed equal to your walking speed, and you gain a +1 bonus to your Armor Class.</p>
+</li>
+<li>
+<p><strong>Melee Marksman.</strong> Having a hostile creature within 5 feet of you does not impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet. When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.</p>
+</li>
+<li>
+<p><strong>Mounted Combatant.</strong> While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.</p>
+</li>
+<li>
+<p><strong>Strongbow.</strong> You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.</p>
+</li>
+<li>
+<p><strong>Thrown Weapon Fighting.</strong> You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.</p>
+</li>
+<li>
+<p><strong>Two-Weapon Fighting.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.</p>
+</li>
+<li>
+<p><strong>Versatile Fighting.</strong> While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.</p>
+</li>
+</ul>
+<hr>
+<h4 id="level-1-exploration-knacks">Level 1 - Exploration Knacks</h4>
+<p>n the wild, you have learned bits of primal knowledge,
+known as Knacks, which bolster your hunting, survival,
+and tracking skills. At 1st level, you know one Knack of
+your choice from the list at the end of this class.</p>
+<p>Whenever you gain a Ranger level, you can replace one Knack you know with a Knack of your choice, so long as you meet the prerequisites for that Knack. You cannot replace a Knack that is a prerequisite for another Knack you know.</p>
+<p>At certain Ranger levels, you learn additional Knacks, as shown in the Knacks Known column of the Ranger table.</p>
+<hr>
+<h4 id="level-1-wild-expertise">Level 1 - Wild Expertise</h4>
+<p>Your skill at navigating the wilderness is without peer. Also at 1st level, choose one skill from the Ranger class skill list that you are proficient in. You add double your proficiency bonus to any ability checks you make with the chosen skill. You also learn one additional language of your choice, often one that is spoken by the creatures you hunt, or peoples you defend.</p>
+<p>When you reach 9th level in this class, you choose another skill from the Ranger class skill list that you are proficient in to gain this benefit and another language of your choice.</p>
+<hr>
+<h4 id="level-2-rangers-quarry">Level 2 - Ranger's Quarry</h4>
+<p>You focus your senses to hunt as a predator of the wild. Also at 2nd level, you can use a bonus action to mark one creature you can see as your Quarry, gaining the benefits below:</p>
+<ul>
+<li>Whenever you damage it with an attack, you deal bonus damage equal to a roll of your Quarry Die, which is a d4.</li>
+<li>Whenever you make an ability check to track or locate it, you can add one roll of your Quarry Die to your d20 roll.</li>
+<li>These benefits last for 1 hour but end early if your Quarry is slain or if you mark another creature as your Quarry. </li>
+</ul>
+<p>You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest. When you have no uses left, you can expend a spell slot to use this feature again. When you reach 6th, 10th, 14th, and 18th levels in this class, both the duration of Ranger's Quarry and the size of your Quarry Die increase, as indicated in the Ranger table.</p>
+<hr>
+<h4 id="level-2-spellcasting">Level 2 - Spellcasting</h4>
+<p>At 2nd level, you learn to draw upon the primal magic of the natural world to enhance your survival and combat skills:</p>
+<p><strong>Preparing and Casting Spells.</strong> The Ranger table above shows how many spell slots you have to cast spells. To cast a Ranger spell of 1st-level or higher, you must expend a slot of the spell's level or higher. You regain all of your expended spell slots when you finish a long rest. </p>
+<p>At the end of each long rest, you prepare a list of spells that are available for you to cast. Choose a number of spells equal to your Wisdom modifier + half your Ranger level, rounded down. Spells must all be from the Ranger spell list at the end of this class, and be of a level for which you have spell slots.</p>
+<p><strong>Spellcasting Ability.</strong> Your power is drawn from an intuitive knowledge of nature, so Wisdom is your spellcasting ability for Ranger spells. You use Wisdom when a spell refers to your spellcasting ability, your spell save DC, or when you make a spell attack roll.</p>
+<ul>
+<li><strong>Spell Save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier  </li>
+<li><strong>Spell Attack Modifier</strong> = your proficiency bonus + your Wisdom modifier</li>
+</ul>
+<p><strong>Spellcasting Focus</strong> You can use a druidic focus as the spellcasting focus for your Ranger spells. See the Player's Handbook for example foci.</p>
+<p><strong>Ritual Casting.</strong> Your knowledge of the natural world allows you to draw out its innate magic. You can cast any Ranger spell that you have prepared as a ritual so long as that spell has the ritual tag.</p>
+<hr>
+<h4 id="level-3-rangers-conclave">Level 3 - Ranger's Conclave</h4>
+<p>At 3rd level, you choose your Conclave, a loose association of Rangers that share similar abilities, each of which is detailed at the end of this class description.</p>
+<p>Your Ranger Conclave grants you features at 3rd level, and again at 7th, 11th, and 15th level in this class.</p>
+<p><strong>Conclave Spells.</strong> Each Ranger Conclave has a list of Conclave Spells that you always have prepared once you reach the Ranger levels noted in your Conclave's description. Your Conclave Spells count as Ranger spells for you, but they do not count against your total number of spells that you can prepare each day.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.</p>
+<hr>
+<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
+<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+<hr>
+<h4 id="level-5-feral-senses">Level 5 - Feral Senses</h4>
+<p>You hunt with the skills of an apex predator. At 5th level, you can't have disadvantage on attack rolls against your Quarry.</p>
+<p>When you reach 18th level, you cannot have disadvantage on attack rolls against any target within 30 feet of you.</p>
+<hr>
+<h4 id="level-8-explorers-instinct">Level 8 - Explorer's Instinct</h4>
+<p>At 8th level, whenever you learn a new Ranger Exploration Knack or replace an existing one, you can choose from Druid Secrets of Nature, Fighter Soldiering Knacks, or Rogue Skill Tricks.</p>
+<hr>
+<h4 id="level-11-tireless">Level 11 - Tireless</h4>
+<p>You are always ready for another hunt, never letting foes rest. Beginning at 11th level, you regain all of your expended uses of Ranger's Quarry whenever you finish a short or long rest.</p>
+<hr>
+<h4 id="level-20-foe-slayer">Level 20 - Foe Slayer</h4>
+<p>You are a Ranger of mythic skill, rivaling the great huntsmen of legend. At 20th level, whenever you hit your Quarry with a weapon attack, you can immediately end the mark and cause that attack to deal maximum damage instead of rolling. If the attack reduces the creature to 50 hit points or fewer it is instantly reduced to 0 hit points.</p>
+<hr>
+</div>
+<div class="tabbed-block">
+<h4 id="alpine-adept">Alpine Adept</h4>
+<p>You are amazingly surefooted. You gain a 30-foot climbing speed, and you can use your reaction to reduce any falling damage you take by an amount equal to your Ranger level. If you already have a climbing speed it increases by 10 feet.</p>
+<h4 id="animal-companion">Animal Companion</h4>
+<p>You create a bond with nature that takes the form of an animal companion. You must choose a beast with a Challenge Rating of 1/4 or lower. You can only have one animal companion at the same time.</p>
+<p>If your animal companion dies, you can link yourself to another beast after you spend a week meditating in the terrain where you can find the beast.</p>
+<p>Your animal companion obeys your orders (no action required) as best as it can. It has its own initiative as any other creature (unless you are riding it), but otherwise you determine its actions and choices.</p>
+<p>If you are incapacitated or for any reason are not able to command your animal companion, it focuses on protecting you and your companions. </p>
+<h4 id="aquatic-adept">Aquatic Adept</h4>
+<p>You can swim through the water like a native creature of the sea. You gain a 30-foot swimming speed, and while you are underwater, you can hold your breath for up to 1 hour. If you already have a swimming speed it increases by 10 feet.</p>
+<h4 id="arctic-adept">Arctic Adept</h4>
+<p>You have adapted to the frozen tundra. You gain resistance
+to cold damage. Also, you and creatures of your choice who travel with you (maximum 10), have advantage on saving throws to resist the negative effects of arctic environments.</p>
+<h4 id="desert-adept">Desert Adept</h4>
+<p>You have adapted to scorching deserts. You gain resistance to fire damage. Also, you and creatures of your choice who travel with you (maximum 10), have advantage on saving throws to resist the negative effects of desert environments.</p>
+<h4 id="fell-handed-i">Fell Handed I</h4>
+<p><em>Prerequisites: 6th-level Ranger</em></p>
+<p>When you score a critical hit with a weapon attack against a creature, you have advantage on the next attack you make against that creature before the end of your next turn.</p>
+<h4 id="fell-handed-ii">Fell Handed II</h4>
+<p><em>Prerequisites: 9th-level Ranger, Fell Handed I</em></p>
+<p>When you score a critical hit against a creature, your critical hit range for attack rolls against that creature expands by 1.</p>
+<p>For example, if you score a critical hit against a creature for the first time, you then score a critical hit on a roll of 19 or 20 when you make an attack roll against the creature.</p>
+<p>The critical hit range resets when you finish a short or long rest.</p>
+<h4 id="hedge-knight-i">Hedge Knight I</h4>
+<p>Though you live in the wilds you still have some military training. You gain proficiency in heavy armor.</p>
+<h4 id="hedge-knight-ii">Hedge Knight II</h4>
+<p><em>Prerequisites: 3rd-level Ranger, Hedge Knight I</em></p>
+<p>Though you are a wild wanderer you understand chivalry and politics. Whenever you make an Intelligence (History) or Charisma (Persuasion) check, you can use Wisdom in place of Intelligence or Charisma, respectively.</p>
+<h4 id="herbalist-i">Herbalist I</h4>
+<p>You have a deep knowledge of plants and their healing properties. You have advantage on Intelligence (Nature) checks to identify the medicinal properties of plants. You gain proficiency with herbalism kits, and you automatically succeed on your Wisdom (Medicine) checks to stabilize creatures at 0 hit points if you use a herbalism kit.</p>
+<h4 id="herbalist-ii">Herbalist II</h4>
+<p><em>Prerequisites: 3rd-level Ranger, Herbalist I</em></p>
+<p>You have learned to use natural plants and herbs to create healing salves. Over the course of a long rest, you can spend 1 hour using an herbalism kit to create one <em>potion of healing</em>. These potions retain their potency until the end of your next long rest, at which point they become inert.</p>
+<h4 id="herbalist-iii">Herbalist III</h4>
+<p><em>Prerequisites: 6th-level Ranger, Herbalist I, II</em></p>
+<p>When you use your herbalism kit to craft <em>potions of healing</em> during a long rest, you craft a number of potions equal to 1 + your Wisdom modifier (minimum of +1).</p>
+<h4 id="jungle-adept">Jungle Adept</h4>
+<p><em>Prerequisites: 6th-level Ranger</em></p>
+<p>You have adapted to the jungles. You gain resistance to poison damage. Also, you and creatures of your choice who travel with you (maximum 10) have advantage on saving throws to resist negative effects of jungle environments.</p>
+<h4 id="naturalist">Naturalist</h4>
+<p>You are an intuitive student of the wilderness. Whenever you would make an Intelligence (Nature) check in the wilderness, you can choose to make a Wisdom (Nature) check instead.</p>
+<p>Also, you have advantage when making Wisdom (Nature) checks to use the Study a Creature action regarding beasts or plants you see.</p>
+<h4 id="natural-regeneration">Natural Regeneration</h4>
+<p><em>Prerequisites: 3rd-level Ranger</em></p>
+<p>During a short rest, you can recover spell slots of a combined level equal to your Wisdom modifier. Once you do, you must finish a long rest before you can use this feature again.</p>
+<h4 id="rider-i">Rider I</h4>
+<p>Whenever you make a Wisdom (Animal Handling) check to control, train, or tame a mount, you can treat a roll of 7 or lower on a d20 as an 8. Also, dismounting from a trained mount only costs you 5 feet of your movement.</p>
+<h4 id="rider-ii">Rider II</h4>
+<p><em>Prerequisites: 3rd-level Ranger, Rider I</em></p>
+<p>You gain the Mounted Warrior Fighting Style, and you can ride trained mounts that are equal to you in size or larger.</p>
+<p>If you already know the Mounted Warrior Fighting Style you learn another Ranger Fighting Style of your choice.</p>
+<h4 id="rider-iii">Rider III</h4>
+<p><em>Prerequisites: 6th-level Ranger, Rider I, II</em></p>
+<p>You are a master of mounted combat. When you are riding mount and it is hit by an attack, you can use a reaction to become the target of that attack instead. Also, if your mount is forced to make a saving throw while you are riding it, you can use your reaction to grant it advantage on its roll.</p>
+<h4 id="slayer-i">Slayer I</h4>
+<p><em>Prerequisites: 3rd-level Ranger</em></p>
+<p>When you hit a creature with a weapon attack you can mark it as your Quarry as part of the attack, applying your Quarry damage bonus and other benefits to the damage roll.</p>
+<h4 id="slayer-ii">Slayer II</h4>
+<p><em>Prerequisites: 6th-level Ranger, Slayer I</em></p>
+<p>Your tracking abilities have become supernaturally accurate. You can mark a creature as your Quarry by studying signs of its passing, such as tracks, that were left within 24 hours.</p>
+<p>Moreover, whenever you make a Wisdom (Perception) or a Wisdom (Survival) check to locate or track your Quarry, you can treat a roll of 7 or lower on the d20 as an 8.</p>
+<h4 id="slayer-iii">Slayer III</h4>
+<p><em>Prerequisites: 14th-level Ranger, Slayer I, II</em></p>
+<p>When you hit a Quarry with a weapon attack, you can force it to make a Constitution saving throw against your spell save DC. On a failed save, it is blinded, cannot speak, deafened, or restrained (your choice) until the start of your next turn. You can only use this feature on your Quarry once per turn.</p>
+<h4 id="stalker-i">Stalker I</h4>
+<p>You are a master at remaining undetected in the wilderness. You have advantage on Dexterity (Stealth) checks you make to hide while you are in natural environments.</p>
+<h4 id="stalker-ii">Stalker II</h4>
+<p><em>Prerequisites: 3rd-level Ranger, Stalker I</em></p>
+<p>You have learned to hunt your prey while remaining unseen. You can take the Hide action as a bonus action on your turn.</p>
+<h4 id="stalker-iii">Stalker III</h4>
+<p><em>Prerequisites: 9th-level Ranger, Stalker I, II</em></p>
+<p>You cannot be tracked, even by magic. You are always under the effects of the <em>nondetection</em> spell, and you can't be tracked by divination magic or magical means unless you wish to be.</p>
+<h4 id="stalker-iv">Stalker IV</h4>
+<p><em>Prerequisites: 14th-level Ranger, Stalker I, II, III</em></p>
+<p>You can ward yourself to briefly disappear from sight. When you take the Hide action, you, along with anything you are wearing or carrying, become invisible until the start of your next turn. This ends early if you attack or cast a spell.</p>
+<h4 id="strider-i">Strider I</h4>
+<p>You ignore the effects of difficult terrain imposed by natural environments, such as undergrowth, snow, or swamp. You also can't become lost so long as you can see the night sky.</p>
+<p>Finally, you and up to 10 creatures who travel with you don't have your travel slowed by natural difficult terrain.</p>
+<h4 id="strider-ii">Strider II</h4>
+<p><em>Prerequisites: 3rd-level Ranger, Strider I</em></p>
+<p>Once in your sights, you pursue your enemies relentlessly. You can take the Dash action as a bonus action on your turn.</p>
+<h4 id="strider-iii">Strider III</h4>
+<p><em>Prerequisites: 6th-level Ranger, Strider I, II</em></p>
+<p>You can surmount almost any obstacle that would block your path. Your walking speed increases by 10 feet, and you ignore the effects of any difficult terrain imposed by spells, magical phenomena, or any other supernatural effect.</p>
+<h4 id="strider-iv">Strider IV</h4>
+<p><em>Prerequisites: 14th-level Ranger, Strider I, II, III</em></p>
+<p>You move through the world unhindered by even the most powerful magic and restraints. You are always under the effects of the <em>freedom of movement</em> spell while conscious.</p>
+<h4 id="survivor-i">Survivor I</h4>
+<p><em>Prerequisites: 6th-level Ranger</em></p>
+<p>Your time in the wilds has hardened your body. As a bonus action on your turn, you can grant yourself temporary hit points equal to your Constitution modifier (minimum of 1).</p>
+<h4 id="survivor-ii">Survivor II</h4>
+<p><em>Prerequisites: 9th-level Ranger, Survivor I</em></p>
+<p>Your body can rapidly recover from injury. When you expend a Hit Die to regain hit points, you regain additional hit points equal to your Wisdom modifier (minimum of 1 hit point).</p>
+<h4 id="survivor-iii">Survivor III</h4>
+<p><em>Prerequisites: 14th-level Ranger, Survivor I, II</em></p>
+<p>When you make a death saving throw, you add your Wisdom modifier to the roll (minimum of +1). If the result of your roll is 20 or higher, it is as if you had rolled a 20 on the d20.</p>
+<h4 id="trapper">Trapper</h4>
+<p>You can construct natural traps. Over the course of 10 minutes, which can be during a short or long rest, you can use a knife, natural materials, and expend 10 feet of rope to craft a trap.</p>
+<p>As an action, you can set one of these traps in an adjacent unoccupied 5-foot space. The first Large or smaller creature to move into that space must succeed on a Dexterity saving throw against your spell save DC or become restrained.</p>
+<p>As an action, the restrained creature, or another creature within 5 feet of it, can use an action to make a Strength check against your spell save DC, freeing the creature on a success.</p>
+<p>As an action (separate from setting the trap), you can hide the trap. If hidden, a successful Intelligence (Investigation) against your spell save DC is required to detect the trap.</p>
+<h4 id="underground-adept">Underground Adept</h4>
+<p>You are especially skilled at navigating the winding tunnels under the earth. You gain darkvision out to a range of 60 feet. If you already have darkvision its range increases by 30 feet.</p>
+<p>As an action you can close your eyes to gain tremorsense out to a 60-foot radius. In that radius, you can sense anything touching the ground. This special sense lasts for 1 minute, or until you open your eyes. Once you use this action you must finish a short or long rest before you can use it again.</p>
+<h4 id="wild-insight-i">Wild Insight I</h4>
+<p>You have a special insight into the mannerisms and sounds of wild animals. You can communicate with beasts as if you were always under the effect of a <em>speak with animals</em> spell.</p>
+<h4 id="wild-insight-ii">Wild Insight II</h4>
+<p><em>Prerequisites: 3rd-level Ranger, Wild Insight I</em></p>
+<p>You have bound yourself with a minor nature spirit. You learn the <em>find familiar</em> spell. It counts as a Ranger spell for you, you always have it prepared, but it doesn't count against the total number of spells you prepare each day. When you cast this spell your summoned familiar is always a fey creature.</p>
+<h4 id="wild-insight-iii">Wild Insight III</h4>
+<p><em>Prerequisites: 9th-level Ranger, Wild Insight I, II</em></p>
+<p>The power of your nature spirit grows. When you cast <em>find familiar</em>, it can take the form of any beast of CR 1/2 or lower.</p>
+<h4 id="woodsman-i">Woodsman I</h4>
+<p>You are familiar with forests, trees, and raw timber. You gain proficiency with woodcarver's tools, and you have advantage on ability checks to identify and construct things from wood.</p>
+<p>Also, at the end of each long rest, you can use woodcarver's tools and raw timber to craft a number of arrows, bolts, clubs, javelins, and quarterstaffs equal to your proficiency bonus.</p>
+<h4 id="woodsman-ii">Woodsman II</h4>
+<p><em>Prerequisites: 3rd-level Ranger, Woodsman I</em></p>
+<p>You can easily see the strengths and weak points of wooden objects and creatures. You gain the following benefits:</p>
+<ul>
+<li>You gain proficiency with carpenter's tools. Anything you construct from wood has twice as many hit points.</li>
+<li>If you hit a tree, raw timber, or a wooden structure with a melee weapon attack, it is an automatic critical hit.</li>
+<li>If you hit a plant or wood construct with a melee weapon attack, you score a critical hit on a roll of 18 through 20.</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<h2 id="animal-companion_1"><ins>Animal Companion</ins></h2>
+<h3 id="level-3-young-animal-companion">Level 3 - Young Animal Companion</h3>
+<p>The stat block of your animal companion is the same as the beast, but it has the following changes:</p>
+<ul>
+<li>At 1st level, you have a Young Animal Companion. As you gain levels in the Ranger class, your animal companion improves. Additionaly, when you get your animal companion, one of its abilities increases by +2.</li>
+<li>Your animal companion does not gain the Multiattack action.</li>
+<li>Your animal companion has a number of hit dice equal to your Ranger level, which are d10s, and it adds its Constitution modifier to each of them to calculate its hit points. Your animal companion can spend these dice as part of a short rest as usual.</li>
+<li>Unless it is already proficient, your animal companion gains proficiency in Perception, Survival, Acrobatics, Athletics and all saving throws. Unless it has an Intelligence score of 8 or higher, it cannot perform tasks that require of a higher intelligence.</li>
+<li>As long as you and your animal companion can see each other, you can establish non-verbal communication.</li>
+</ul>
+<p>Additionally, you learn the Wild Insight I Knack, but it doesn't count against your Knacks Known. If you already know it, you learn another Knack.</p>
+<hr>
+<h3 id="level-6-mature-animal-companion">Level 6 - Mature Animal Companion</h3>
+<p>At 6th level, your animal companion becomes a Mature Animal companion. It gains the following benefits:</p>
+<ul>
+<li>Its Strength, Dexterity, Constitution and Wisdom scores increase by +1. </li>
+<li>It gains an extra damage dice on its attacks.</li>
+<li>It gains the Extra Attack action.</li>
+<li>It gains expertise on Perception and becomes proficient in Intimidation and Stealth.</li>
+<li>If its size is Medium or lower, it increases by one step.</li>
+<li>Its attacks are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</li>
+</ul>
+<p>Additionally, your animal companion gains all benefits of your Ranger's Quarry, including any Knacks that enhance it.</p>
+<hr>
+<h3 id="level-10-incredible-animal-companion">Level 10 - Incredible Animal Companion</h3>
+<p>At 10th level, your animal companion continues growing and becomes an Incredible Animal Companion. You must choose one of the following subtypes, gaining their benefits:</p>
+<ul>
+<li><strong>Elemental Companion.</strong> The nature of the magic that surrounds your animal companion becomes elemental magic instead of primal. Its Wisdom score increases by +2 and its Strength, Dexterity and Constitution increase by +1. Additionally, you must choose the elemental subtype linked to your animal companion: djinn (lightning), efreet (fire), marid (cold) and dao (acid). The damage of your animal companion changes according to the elemental subtype. Your animal companion also gains resistance to the damage of the elemental subtype selected.</li>
+<li><strong>Indomitable Companion.</strong> Your animal companion becomes incredibly resilient. Its Constitution score increases by +2 and its Strength, Dexterity and Wisdom scores increase by +1. Its HD increase by one step and become d12. It gains an extra damage dice. Additionally, if its size is Medium or lower, it increases by one step. Your animal companion also gains a bonus to its AC equal to half your Wisdom modifier (rounded up).</li>
+<li><strong>Nimble Companion.</strong> Your animal companion becomes extremely agile and quick. Its Dexterity score increases by +2 and its Strength Constitution and Wisdom scores increase by +1. It gains an extra damage dice. Additionally, its movement speed increases by +10 and a +1 bonus to its AC. Your animal companion also gains the Evasion feature.</li>
+<li><strong>Wild Companion.</strong> Your animal companion becomes fierce and ferocious. Its Strength score increases by +2 and its Dexterity, Constitution and Wisdom scores increase by +1. It gains two extra damage dice. Additionally, if its size is Medium or lower, it increases by one step. Your animal companion also gains a bonus to its damage equal to half your Wisdom modifier (rounded up).</li>
+</ul>
+<hr>
+<h3 id="level-14-specialized-animal-companion">Level 14 - Specialized Animal Companion</h3>
+<p>At 14th level, the Intelligence of your animal companion improves and becomes a Specialized Animal Companion. Its Dexterity score increases by +2 and its Intelligence score increases by +4. It gains an extra damage dice. Additionally, you must choose one of the following specializations, gaining their benefits:</p>
+<ul>
+<li><strong>Ambusher.</strong> In its natural environment, your animal companion feels extremely comfortable. It gains expertise on Stealth and its Dexterity score increases by +1.</li>
+<li><strong>Bully.</strong> Your animal companion terrorizes foes with dominance displays and pushes them around the battlefield. It gains expertise on Athletics and Intimidation. Its Strength score increases by +1 and its Charisma score increases by +3.</li>
+<li><strong>Daredevil.</strong> Your animal companion joins the fray with graceful leaps and dives. It gains immunity to being flanked. It gains expertise on Acrobatics. Its Dexterity score increases by +1.</li>
+<li><strong>Deep Diver (prerequisite: Elemental Companion [Marid]).</strong> The cold energy of your animal companion grows stronger. It gains immunity to cold damage. It gains a swim speed of 30 feet or its swim speed increases by 30 feet if it already had one. It gains expertise on Athletics. Its Constitution score increases by +1.</li>
+<li><strong>Racer.</strong> Your animal companion becomes extremely fast. All the speeds of your animal companion increase by 10 feet. It gains expertise on Athletics. Its Constitution score increases by +1.</li>
+<li><strong>Steadfast Strider (prerequisite: Elemental Companion [Dao]).</strong> The earth energy of your animal companion grows stronger. It gains immunity to acid damage. It ignores difficult terrain and can move through quicksand, clay or similar elements as if it were solid ground. It gains expertise on Athletics. Its Strength score increases by +1.</li>
+<li><strong>Tracker.</strong> Your companion is an incredible tracker. It gains expertise on Survival. Its Wisdom score increases by +1.</li>
+<li><strong>Wildfire Scorcher (prerequisite: Elemental Companion [Efreet]).</strong> The fire energy of your animal companion grows stronger. It gains immunity to fire damage. Whenever a creature grapples your animal companion, is grappled by it or hits it with a melee attack, the creature takes 2d6 fire damage. Its Dexterity score increases by +1.</li>
+<li><strong>Wind Chaser (prerequisite: Elemental Companion [Djinn]).</strong> The wind energy of your animal companion grows stronger. It gains immunity to lightning damage. Its movement speed increases by 20 feet and it gains a flight speed of 20 feet. If it already has one, it increases by 20 feet. It gains expertise on Acrobatics. Its Dexterity score increases by +1.</li>
+<li><strong>Wrecker.</strong> Your companion smashes things. Its attacks deal 4d6 additional damages to objects. It gains expertise on Athletics. Its Strength score increases by +1.</li>
+</ul>
+<p>Additionally, the bond with your animal companion reaches its apex. When you cast a Ranger spell that targets yourself, the your animal companion also gains the benefits as long as it is within 30 feet of you.</p>
+<hr>
+</div>
+<div class="tabbed-block">
+<p><strong>Choose a subclass:</strong></p>
+<p><select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<option value="all">All</option>
+<option value="alt-hunter">Alternate Hunter Conclave</option>
+<option value="alt-drakewarden">Alternate Drakewarden Conclave</option>
+<option value="alt-fey-wanderer">Alternate Fey Wanderer Conclave</option>
+<option value="alt-gloom-stalker">Alternate Gloom Stalker Conclave</option>
+<option value="alt-horizon-walker">Alternate Horizon Walker Conclave</option>
+<option value="alt-monster-slayer">Alternate Monster Slayer Conclave</option>
+<option value="alt-swarm-keeper">Alternate Swarm Keeper Conclave</option>
+</select></p>
+<div class="subclass-content" data-subclass="alt-hunter">
+<h2 id="alternate-hunter-conclave"><ins>Alternate Hunter Conclave</ins></h2>
+<p>Hunters hold the line between civilization and the wilderness using their deadly tracking and hunting skills. In the shadows of every countryside town lurks a Hunter, silently taking care of any monster that threatens the peace. Hordes of orcs, vile trolls, great and terrible dragons, or great beasts of the wild, it matters not. A Hunter will always overcome their quarry.</p>
+<h3 id="level-3-conclave-spells">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Oath Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>expeditious retreat</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>locate creature</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>conjure volley</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>faithful hound</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>swift quiver</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-ambuscade">Level 3 - Ambuscade</h3>
+<p>You are always prepared to strike first, often getting the jump on your chosen prey. When you roll initiative, so long as you are not surprised, you can use your reaction to take the Hide action, the Attack action, or mark a creature as your Quarry.</p>
+<p>If you are surprised, you cannot take this special reaction, but you can act normally on your first turn of combat.</p>
+<hr>
+<h3 id="level-3-silent-steps">Level 3 - Silent Steps</h3>
+<p>You stalk your prey unseen until it is too late. You learn the <em>Stalker I</em> Knack, but it does not count against your Knacks Known. If you know this Knack you learn another of your choice.</p>
+<hr>
+<h3 id="level-7-cunning-parry">Level 7 - Cunning Parry</h3>
+<p>Your unyielding focus allows you to parry and counter foe's attacks. When your Quarry targets you with an attack you can see, you can use your reaction to add your Wisdom modifier (minimum of +1) to your Armor Class against that attack.</p>
+<p>If this causes the attack to miss, you can make one weapon attack against your Quarry as part of that same reaction.</p>
+<hr>
+<h3 id="level-7-relentless-hunter">Level 7 - Relentless Hunter</h3>
+<p>You are relentless, stalking your chosen foes until they are all eradicated. When your Quarry is slain, you can mark another creature you can see as your Quarry (no action required) without expending a use of Ranger's Quarry or a spell slot.</p>
+<hr>
+<h3 id="level-11-horde-breaker">Level 11 - Horde Breaker</h3>
+<p>You are able to cut your chosen prey down as blades of grass. You gain the features listed below, each of which can be used as an action on each of your turns. You must be wielding the correct weapon in order to use the corresponding feature:</p>
+<ul>
+<li>
+<p><strong>Volley.</strong> Choose a point you can see within the normal range of a ranged weapon you are wielding. You can make a ranged weapon attack against creatures of your choice within 10 feet of that point. You must have ammunition for each target, and you must make a separate attack roll for each as normal.</p>
+</li>
+<li>
+<p><strong>Whirlwind.</strong> You make a melee weapon attack against any number of creatures within the reach of a melee weapon you are wielding, making a separate attack roll for each creature.</p>
+</li>
+</ul>
+<hr>
+<h3 id="level-15-ruthless-focus">Level 15 - Ruthless Focus</h3>
+<p>Your deadly skills rival those of the great hunters of legend and myth. You add your Wisdom modifier (minimum of +1) to all weapon attack rolls you make against your Quarry.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="alt-drakewarden">
+<h2 id="alternate-drakewarden-conclave"><ins>Alternate Drakewarden Conclave</ins></h2>
+<p>Sometimes wandering Rangers enter into the service of great dragons and are gifted a portion of their power. Undergoing an ancient ritual, they are bound to a Draconic Companion, a powerful scion of an elder dragon. Known as Drakewardens, these Rangers fight alongside their Companions as powerful draconic servants, and can eventually become dragon riders.</p>
+<h3 id="level-3-conclave-spells_1">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>absorb elements</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>dragon's breath</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>elemental weapon</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>dominate beast</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>dominate person</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-draconic-companion">Level 3 - Draconic Companion</h3>
+<p>Your soul has been bound to that of a Draconic Companion. You gain the Animal Companion Knack, but it does not count against your total number of Knacks Known.</p>
+<p>You must choose a wyrmling dragon to become your companion, but the DM will modify the statblock to be in line with the typical Animal Companion limitations. Your draconic companion also loses its breath weapon.</p>
+<p>When your companion is reduced to 0 hit points, it makes death saving throws like a player character would. If it dies, you can perform a special 1-hour ritual, which can be during a short or long rest, that restores it to life with 1 hit point. As part of this ritual, it can expend hit dice to regain hit points.</p>
+<hr>
+<h3 id="level-3-wyrmsoul">Level 3 - Wyrmsoul</h3>
+<p>The magic that bonds you to your Companion has infused you with draconic power. You learn to speak, read, and write Draconic, and when you cast a Ranger spell that deals acid, cold, fire, lightning, or poison damage, you can cause it to deal the damage type of your companion's elemental instead.</p>
+<hr>
+<h3 id="level-7-greater-companion">Level 7 - Greater Companion</h3>
+<p>As your power increases, so does that of your Companion. If it hasn't, your companion becomes Medium in size, and can bear you as a rider so long as you are Medium or smaller. However, its flying speed is halved while you are riding it.</p>
+<hr>
+<h3 id="level-11-elemental-breath">Level 11 - Elemental Breath</h3>
+<p>You and your companion can directly channel the elemental power of its element. As an action, you, or your companion, can exhale a 30-foot cone of elemental breath. Creatures in that area must make a Dexterity saving throw against your Ranger spell save DC. Creatures take 8d6 elemental damage on a failed save, and half as much damage on a success.</p>
+<p>You and your companion can use this feature a combined number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest. When you have no uses left, you can expend a spell slot of 3rd-level or higher to use this feature again.</p>
+<hr>
+<h3 id="level-15-mythic-companion">Level 15 - Mythic Companion</h3>
+<p>Your bond with your companion has unlocked its true power. As an action, your companion can change its size, choosing to be Small, Medium, or Large. If it is Large in size, its flying speed is no longer halved while it bears you as its rider.</p>
+<p>Additionally, the damage of Elemental Breath increases to 12d6 damage.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="alt-fey-wanderer">
+<h2 id="alternate-fey-wanderer-conclave"><ins>Alternate Fey Wanderer Conclave</ins></h2>
+<p>In your wild wanderings you have acquired the magic of the Feywild, and use it to augment your Ranger abilities. Whether you are the chosen warden of a Fey crossroads, the favored servant of an Archfey, or you pilfered your power in a fey wager, you now wield the whimsical and terrifying powers common to the Feywild.</p>
+<h3 id="level-3-conclave-spells_2">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>charm person</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>misty step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>summon fey</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>dimension door</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>geas</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-beguiling-strikes">Level 3 - Beguiling Strikes</h3>
+<p>You can weave the wild and disorienting magic of the Feywild into your strikes, distracting and taunting your foes. You can choose for the bonus damage of your Ranger's Quarry feature to be psychic instead of your weapon's noraml damage type.</p>
+<p>If you deal psychic damage to your Quarry with a melee weapon attack, it has disadvantage on all attack rolls against creatures other than you until the start of your next turn.</p>
+<hr>
+<h3 id="level-3-otherworldly-mystique">Level 3 - Otherworldly Mystique</h3>
+<p>The magic of the Feywild has imbued you with a whimsical charm that makes others more likely to trust you, for good or ill. You gain proficiency in one of the following skills of your choice: Deception, Performance, or Persuasion.</p>
+<p>Also, whenever you make a Charisma check, you gain a bonus to the roll equal to your Wisdom modifier (minimum of +1).</p>
+<hr>
+<h3 id="level-7-whimsical-ward">Level 7 - Whimsical Ward</h3>
+<p>Your familiarity with the abilities of the fey grants you increased defenses against their power. You have advantage on saving throws to resist being charmed and frightened.</p>
+<p>Also, when a creature you can see within 30 feet makes a saving throw to resist the charmed or frightened condition, you can use a reaction to force another creature you can see within 60 feet to make a Wisdom saving throw against your Spell save DC. On a failure, it is either charmed or frightened of you (your choice) for 1 minute. The creature can repeat this saving at the end of each of its turns, ending this effect on a successful save.</p>
+<hr>
+<h3 id="level-11-faerie-guardian">Level 11 - Faerie Guardian</h3>
+<p>You can call support from the otherworldly courts of the fey. You can cast summon fey without its material components.</p>
+<p>Also, once per long rest, when you cast <em>summon fey</em>, you can cast it so that it does not require concentration. When you do, its duration is reduced from 1 hour to 1 minute.</p>
+<hr>
+<h3 id="level-15-mirthful-step">Level 15 - Mirthful Step</h3>
+<p>You can teleport through the Fey realm. You can cast <em>misty step</em> without expending a spell slot a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>
+<p>When you cast <em>misty step</em>, you can touch a willing creature within 5 feet and teleport it along with you. It reappears in an unoccupied space within 5 feet of where you reappear.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="alt-gloom-stalker">
+<h2 id="alternate-gloom-stalker-conclave"><ins>Alternate Gloom Stalker Conclave</ins></h2>
+<p>Deep beneath the earth where the light of the sun is a dream, nameless things dwell in the deep shadow. The Rangers who stand against these unspeakable terrors of the darkness are known as Gloom Stalkers. Though their skills were originally developed by denizens of the Underdark, Gloom Stalkers can be found guarding anywhere darkness lies heavy on the land.</p>
+<h3 id="level-3-conclave-spells_3">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>cause fear</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>darkness</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>nondetection</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>greater invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>seeming</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-umbral-sight">Level 3 - Umbral Sight</h3>
+<p>You have adapted to stalk your prey without light. You gain darkvision out to a range of 60 feet. If you already have darkvision from another feature, the range of your darkvision increases by 30 feet.</p>
+<hr>
+<h3 id="level-3-dread-ambusher">Level 3 - Dread Ambusher</h3>
+<p>You mimic the surprise tactics of the nameless creatures that dwell in the darkness. You gain a bonus to your initiative rolls equal to your Wisdom modifier (minimum of +1), so long as you are not surprised or incapacitated.</p>
+<p>Also, when you take the Attack action during your first turn in combat, you can make one additional attack as part of that action. On hit, it deals bonus damage equal to your level.</p>
+<hr>
+<h3 id="level-7-cloak-of-shadows">Level 7 - Cloak of Shadows</h3>
+<p>You have learned to conceal yourself even from the creatures native to the deep shadow. While you are in darkness, you are invisible to creatures that rely on darkvision to see you.</p>
+<hr>
+<h3 id="level-7-iron-mind">Level 7 - Iron Mind</h3>
+<p>You have trained your mind to resist the mental assaults that are common in the depths you stalk. You gain proficiency in Wisdom saving throws. If you are already proficient, you gain proficiency in either Intelligence or Charisma saving throws.</p>
+<hr>
+<h3 id="level-11-precise-strikes">Level 11 - Precise Strikes</h3>
+<p>In the unforgiving dark every strike could be the difference between life and death. Once per turn when you miss with a weapon attack, you can add one roll of your Quarry Die to your attack roll, possibly turning your miss into a hit.</p>
+<p>In addition, your darkvision has improved, and allows you to see through both magical and nonmagical darkness.</p>
+<hr>
+<h3 id="level-15-deadly-counter">Level 15 - Deadly Counter</h3>
+<p>You can manipulate the shadows to distract your foes. When a creature you can see targets you with an attack roll, you can use your reaction to cloak yourself in shadows and impose disadvantage on its attack roll.</p>
+<p>If this reaction causes the attack to miss, you can make a weapon attack against your attacker as part of the same reaction. If you are in dim light or darkness when you make this special attack, you have advantage on your attack roll.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="alt-horizon-walker">
+<h2 id="alternate-horizon-walker-conclave"><ins>Alternate Horizon Walker Conclave</ins></h2>
+<p>Horizon Walkers dedicate their lives to preserving the balance of the multiverse by defending their native plane of existence from otherworldly threats. Keeping watch over planar portals these esoteric warriors can draw on the power of the planes to destroy outsiders that would seek to invade their homes.</p>
+<h3 id="level-3-conclave-spells_4">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>protection from evil &amp; good</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>misty step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>banishment</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>planar binding</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-extraplanar-senses">Level 3 - Extraplanar Senses</h3>
+<p>As an action, you can detect the exact distance and direction of the nearest creature alien to your current plane or planar portal within 1 mile that isn't shielded from divination magic. As part of this action you can exclude targets of your choice.</p>
+<p>Once you use this feature you must finish a short or long rest before you can use it again. If you have no uses, you can expend a spell slot of 1st-level or higher to use this again.</p>
+<hr>
+<h3 id="level-3-planar-warrior">Level 3 - Planar Warrior</h3>
+<p>You can augment your strikes with extraplanar energies. You can choose for the additional damage of Ranger's Quarry to be force damage in place of your weapon's damage type.</p>
+<p>Moreover, you can mark any creatures not native to your current plane of existence as your Quarry without expending a use of Ranger's Quarry. For example, while you are on the material plane, you can use this feature to mark aberrations, celestials, elementals, fey, and fiends, as your Quarry.</p>
+<hr>
+<h3 id="level-7-ethereal-step">Level 7 - Ethereal Step</h3>
+<p>You can briefly move between planes to disorient your foes. When you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.</p>
+<p>Any distance you teleport with this feature counts against your total movement for your turn.</p>
+<hr>
+<h3 id="level-11-empowered-strikes">Level 11 - Empowered Strikes</h3>
+<p>Your ability to move between the planes has improved. If you use Ethereal Step and attack at least two different creatures with that action, you can make one additional attack as part of that Attack action against a third creature.</p>
+<p>In addition, when you use Ethereal Step and then make an attack, you can choose for your attack to deal force damage.</p>
+<hr>
+<h3 id="level-15-ethereal-defense">Level 15 - Ethereal Defense</h3>
+<p>You can partially phase out of your current plane to resist the assaults of your foes. When you take damage from an attack or spell that you can see, you can use your reaction to grant yourself resistance to the damage of that attack for this turn.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="alt-monster-slayer">
+<h2 id="alternate-monster-slayer-conclave"><ins>Alternate Monster Slayer Conclave</ins></h2>
+<p>Some Rangers are driven from civilized life by a deep hatred for monsters. Often victims of these terrible monsters in their youth, those that take up the mantle of Monster Slayer travel the world hunting for vile supernatural creatures that prey on innocent mortals and ruthlessly annihilate them. They track down vampires, evil fey, restless spirits, werewolves, and any other vile creature and destroy them without hesitation.</p>
+<h3 id="level-3-conclave-spells_5">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>bane</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>see invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>magic circle</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>banishment</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>hold monster</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-knowledge-of-the-hunt">Level 3 - Knowledge of the Hunt</h3>
+<p>You have dedicated yourself to the destruction of creatures of darkness, and study their weaknesses. You gain proficiency in your choice of Arcana, History, Nature, or Religion.</p>
+<p>You also have advantage when you take the Study a Creature action. Additionally, if you study your Quarry with this feature you can add one roll of your Quarry Die to your ability check.</p>
+<hr>
+<h3 id="level-3-slayers-cunning">Level 3 - Slayer's Cunning</h3>
+<p>You are always prepared to hunt. You gain the Slayer I Knack, but it does not count against your total number of Knacks Known.</p>
+<p>You can also use Ranger's Quarry once between each short or long rest without expending a use of it.</p>
+<hr>
+<h3 id="level-7-iron-focus">Level 7 - Iron Focus</h3>
+<p>You have trained your mind to better resist the supernatural assaults of your hated foes. Whenever your Quarry forces you to make an ability check or saving throw you gain a bonus to your roll equal to one roll of your Quarry Die.</p>
+<hr>
+<h3 id="level-11-monsters-nemesis">Level 11 - Monster's Nemesis</h3>
+<p>Your hatred for evil empowers your weapons. Your weapon attacks against your Quarry treat its damage immunities as resistances, and ignore any damage resistances it has.</p>
+<p>Moreover, when your Quarry misses you with an attack or you succeed on a saving throw it forced you to make, you can use your reaction to make a single weapon attack against it.</p>
+<hr>
+<h3 id="level-15-ruthless-counter">Level 15 - Ruthless Counter</h3>
+<p>You do everything in your power to prevent the monsters you hunt from harming the innocent. When you see your Quarry attempt to cast a spell, teleport, or use another supernatural or magical ability from its stat block, you can make a single weapon attack against it as a reaction. On hit, your Quarry must succeed on a Wisdom saving throw against your spell save DC, or its spell, teleport, or other ability is thwarted and fails to take effect.</p>
+<p>When you use this feature and your attack hits, you can choose to instantly end the effects of Ranger's Quarry to cause the creature to automatically fail its Wisdom saving throw.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="alt-swarm-keeper">
+<h2 id="alternate-swarm-keeper-conclave"><ins>Alternate Swarm Keeper Conclave</ins></h2>
+<p>Swarm Keepers enter symbiotic relationships with swarms of tiny creatures. Most often surrounded by a swarm of rodents, insects, birds, or other small animals, these strange Rangers see themselves as guardians of the smallest lives. Dwelling in the deep woods or underground caves, Swarm Keepers build communities that work together for the good of the swarm.</p>
+<h3 id="level-3-conclave-spells_6">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>entangle</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>spider climb</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>gaseous form</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>giant insect</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>insect plague</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-symbiotic-swarm">Level 3 - Symbiotic Swarm</h3>
+<p>You have become an integral part of a swarm of vermin. You know the <em>mage hand</em> cantrip, but when you cast <em>mage hand</em>, it manifests as part of your swarm which does your bidding.</p>
+<p>Also, you can use a bonus action on each of your turns to command your swarm in one of the following ways:</p>
+<ul>
+<li>
+<p><strong>Biting Assault.</strong> One creature of your choice within 30 feet must succeed on a Dexterity saving throw or take piercing or poison damage equal to two rolls of your Quarry Die.</p>
+</li>
+<li>
+<p><strong>Harrying Horde.</strong> One creature of your choice within 30 feet must succeed on a Strength saving throw or be moved up to 15 feet in a direction of your choice. Large and larger creatures have advantage on this Strength saving throw.</p>
+</li>
+<li>
+<p><strong>Swarm Step.</strong> You are moved up to 15 feet in a direction of your choice without provoking opportunity attacks.</p>
+</li>
+</ul>
+<hr>
+<h3 id="level-7-writhing-horde">Level 7 - Writhing Horde</h3>
+<p>You can compel your swarm to carry you in unnatural ways. You gain a climbing speed equal to your walking speed, and you can climb sheer surfaces and upside down on ceilings without having to make an ability check. While climbing in this way, you are surrounded by your swarm of vermin.</p>
+<p>Also, when you make a Strength (Athletics) check to shove or grapple, or to resist or end a grapple, you can call on your swarm and add one roll of your Quarry Die to your roll.</p>
+<hr>
+<h3 id="level-11-greater-swarm">Level 11 - Greater Swarm</h3>
+<p>Your swarm has grown vastly in both numbers and in power. Your Quarry has disadvantage on saving throws against your Symbiotic Swarm features. Your Symbiotic Swarm features also gain the following additional benefits:</p>
+<ul>
+<li>
+<p><strong>Biting Assault.</strong> On a failed save, the creature is poisoned until the start of your next turn in addition to the damage.</p>
+</li>
+<li>
+<p><strong>Harrying Horde.</strong> On a failed save, the creature is knocked prone at the end of this forced movement.</p>
+</li>
+<li>
+<p><strong>Swarm Step.</strong> After you move, you also gain the benefits of half cover until the beginning of your next turn.</p>
+</li>
+</ul>
+<hr>
+<h3 id="level-15-one-with-the-swarm">Level 15 - One with the Swarm</h3>
+<p>You can fade into your swarm to avoid danger. When you take damage from a source you can see, you can use your reaction to become one with your swarm and give yourself resistance to that instance of damage. You and your swarm then teleport to an unoccupied space you can see within 30 feet.</p>
+<p>You can use this special reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses left, you can expend a spell slot of 1st-level or higher to use this special reaction again.</p>
+<hr>
+<h3 id="level-15-swarm-master">Level 15 - Swarm Master</h3>
+<p>You have become one with your swarm, and can command it with only your mind. You can cast one of your Swarm Keeper Spells without expending a spell slot or requiring the normal components, instead relying on your swarm to produce it.</p>
+<p>Once you use this feature to cast a Swarm Keeper Spell in this way, you must finish a short or long rest before you can call on your swarm in this way again.</p>
+<hr>
+</div>
+</div>
+<div class="tabbed-block">
+<p><strong>Choose a subclass:</strong></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<option value="all">All</option>
+<option value="amazon">Amazon Conclave</option>
+<option value="apex-predator">Apex Predator Conclave</option>
+<option value="arcane-warden">Arcane Warden Conclave</option>
+<option value="fringe-warden">Fringe Warden Conclave</option>
+<option value="grim-warden">Grim Warden Conclave</option>
+<option value="guerilla">Guerilla Conclave</option>
+<option value="nomad">Nomad Conclave</option>
+<option value="nomad-north">Nomad of the North Conclave</option>
+<option value="spellbreaker">Spellbreaker Conclave</option>
+<option value="stargazer">Stargazer Conclave</option>
+<option value="stormcloak">Stormcloak Conclave</option>
+<option value="unicorn-knight">Unicorn Knight Conclave</option>
+<option value="wastelander">Wastelander Conclave</option>
+<option value="wayfinder">Wayfinder Conclave</option>
+<option value="windrunner">Windrunner Conclave</option>
+</select></p>
+<div class="subclass-content" data-subclass="amazon">
+<h2 id="amazon-conclave"><ins>Amazon Conclave</ins></h2>
+<p>Amazons are wild hunters who turn their deadly arts to the defense of others. Armed with uncanny instincts and unerring precision, they stand sentinel over their allies in battle and protect those who cannot protect themselves.</p>
+<h3 id="level-3-conclave-spells_7">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>guiding bolt</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>warding bond</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>death ward</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>telepathic bond</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-vigilance">Level 3 - Vigilance</h3>
+<p>When you choose this path at 3rd level, your protective instincts sharpen. If a creature you can see within range attacks an ally, you can use your reaction to attack that creature after the attack is rolled but before the triggering attack deals damage.</p>
+<hr>
+<h3 id="level-7-pinning-blows">Level 7 - Pinning Blows</h3>
+<p>Beginning at 7th level, you learn to harry foes with your attacks. When you damage a creature with a weapon attack, its next opportunity attack has disadvantage until the start of your next turn.</p>
+<hr>
+<h3 id="level-11-huntress-strike">Level 11 - Huntress' Strike</h3>
+<p>By 11th level, you can focus your skill into a single, perfect strike against a foe's most vulnerable points. As an action, you can make a weapon attack with advantage. On a hit, the target also has disadvantage on the next attack it makes before the start of your next turn.</p>
+<hr>
+<h3 id="level-15-quell">Level 15 - Quell</h3>
+<p>At 15th level, if a creature within range forces you to make a Dexterity saving throw, such as a dragon's fiery breath, you may use your reaction to immediately make one weapon attack against it. If your attack hits, in addition to its normal effects, you and all other creatures forced to make the Dexterity saving throw automatically succeed. You can make this special attack even if you have already used your reaction this round.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="apex-predator">
+<h2 id="apex-predator-conclave"><ins>Apex Predator Conclave</ins></h2>
+<p>You may not have been raised by beasts but you certainly act like it. An Apex Predator uses all weapons at their disposal, lashing out with their teeth and nails at any enemy foolish enough to fight them in melee. Their instinctual affinity for animals gives rise to spells that grant them control over beasts. Their emulation of predators gives them a heightened capacity for violence and intimidation.</p>
+<h3 id="level-3-conclave-spells_8">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>speak with animals</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>summon beast</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>speak with plants</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>dominate beast</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>hold monster</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-tooth-and-nail">Level 3 - Tooth and Nail</h3>
+<p>At 3rd level, you learn to fight with your teeth and nails, which you can use to make unarmed strikes. If you hit, you deal piercing damage equal to 1d4 + your Strength modifier if using your bite or slashing damage equal to 1d4 + your Strength modifier if using your nails. This damage is in place of the bludgeoning damage normal for unarmed strikes.</p>
+<p>Additionally, you can use a bonus action on your turn to make one unarmed strike.</p>
+<p>Starting at 7th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+<hr>
+<h3 id="level-7-ferocious-mien">Level 7 - Ferocious Mien</h3>
+<p>At 7th level, you gain proficiency in Intimidation if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses this proficiency.</p>
+<hr>
+<h3 id="level-11-bloodthirsty-assault">Level 11 - Bloodthirsty Assault</h3>
+<p>At 11th level, when you deal damage with a weapon or unarmed strike and roll a 1 on a damage die, you can reroll the die and must use the new roll, even if the new roll is a 1.</p>
+<hr>
+<h3 id="level-15-predators-counter">Level 15 - Predator's Counter</h3>
+<p>At 15th level, when a creature within 5 feet of you attacks you, you can use your reaction to lash out at them before they strike you. When you do, make an unarmed strike against the creature before determining whether its attack hits you.</p>
+<p>If your attack hits, the attack roll against you has disadvantage.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="arcane-warden">
+<h2 id="arcane-warden-conclave"><ins>Arcane Warden Conclave</ins></h2>
+<p>The Plane of Faerie was populated by a race of ancient elves, known as eladrin, that built great cities across the Feywild. They helped construct Mithrendane and Cendriane, among others, but their numbers have steadily dwindled over the centuries. The defense of these ancient elven sites and practices was placed in the hands of an order of rangers known as arcane wardens. Blending arcane magic with ranger practices, they were capable, determined, and gifted in the arts of sorcery and tracking.</p>
+<p>Few arcane wardens still patrol the Plane of Faerie, as they were hunted down by the foes of the eladrin, but some still wander the multiverse, using the tools of their trade to further the cause of their ancient elven benefactors.</p>
+<h3 id="level-3-conclave-spells_9">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>magic missile</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>lightning bolt</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>polymorph</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>cone of cold</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-spellstrike">Level 3 - Spellstrike</h3>
+<p>You learn to tap into the fabric of magic to strike at foes both near and far. As long as you have at least one spell slot available, you can use a bonus action to fire a bolt of magical energy at a creature you can see within 60 feet. The bolt strikes unerringly but can be blocked as if it were a <em>magic missile</em> spell. Your bolt inflicts 1d4+1 force damage. </p>
+<p>At 11th level you gain a second bolt that can target the same or different creature.</p>
+<hr>
+<h3 id="level-7-arcane-shield">Level 7 - Arcane Shield</h3>
+<p>You can raise an arcane shield to deflect incoming spell attacks. You can use your reaction when targeted by a spell to impose disadvantage on the spell attack roll, if any, and you gain resistance to force damage until the start of your next turn.</p>
+<p>You can use this feature a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-11-arcane-eyes">Level 11 - Arcane Eyes</h3>
+<p>You can use your action to increase your powers of perception, similar to a divination wizard. Choose one of the following benefits, which lasts until you are incapacitated or you take a long or short rest. </p>
+<p>You can't use the feature again until you finish a short or long rest.</p>
+<ul>
+<li><strong>Darkvision.</strong> You gain darkvision out to a range of 60 feet.</li>
+<li><strong>Ethereal Sight.</strong> You can see into the Ethereal Plane within 60 feet of you.</li>
+<li><strong>Greater Comprehension.</strong> You can read any language.</li>
+<li><strong>See Invisibility.</strong> You can see invisible creatures and objects within 10 feet of you that are within line of sight.</li>
+</ul>
+<hr>
+<h3 id="level-15-magic-resistance">Level 15 - Magic Resistance</h3>
+<p>Your affinity to magic grants you advantage on saving throws against spells and other magical effects.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="fringe-warden">
+<h2 id="fringe-warden-conclave"><ins>Fringe Warden Conclave</ins></h2>
+<p>Fringe wardens patrol distant frontiers, keeping watch for mundane or magical threats attempting to cross the stretches of border they are sworn to protect. These rangers are trained to survive alone in the wilderness for months at a time, stalking potential threats and gathering information to send back to civilization.</p>
+<p>Since fringe wardens primarily work alone, they rarely engage in direct combat, preferring stealth and sabotage. If a warden does come upon a serious threat, their primary mission is to survive long enough to carry warning back to civilization.</p>
+<h3 id="level-3-conclave-spells_10">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>find familiar</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>phantom steed</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>faithful hound</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>seeming</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-guerilla-tactics">Level 3 - Guerilla Tactics</h3>
+<p>When you choose this archetype at 3rd level, you know how to use mobility to your benefit. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have moved at least 10 feet on the same turn.</p>
+<p>The extra damage increases to 2d6 at 7th level, 3d6 at 11th level, and 4d6 at 15th level.</p>
+<hr>
+<h3 id="level-7-moving-target">Level 7 - Moving Target</h3>
+<p>Starting at 7th level, as long as there are no creatures within 5 feet of you, you can take the Dodge action as a bonus action.</p>
+<hr>
+<h3 id="level-11-cover-of-night">Level 11 - Cover of Night</h3>
+<p>Starting at 11th level, whenever you roll initiative while in dim light or darkness, you are automatically hidden from all creatures at least 10 feet away from you. You are no longer hidden if you attack or cast a spell.</p>
+<hr>
+<h3 id="level-15-escape-artist">Level 15 - Escape Artist</h3>
+<p>At 15th level, your movement no longer provokes opportunity attacks, and you are immune to any mundane or magical effects that would reduce your speed or cause you to be paralyzed or restrained. In addition, when a hostile creature you can see comes within 10 feet of you for the first time on a turn, you can use your reaction to move up to your movement speed.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="grim-warden">
+<h2 id="grim-warden-conclave"><ins>Grim Warden Conclave</ins></h2>
+<p>Sometimes it takes a monster to destroy a monster. Those who take up the mantle of Grim Warden undergo a sinister alchemical ritual, the Warden's Rite, which enhances their physical abilities. They sacrifice any chance they have at a normal life by mingling their blood with that of monsters, so they may gain unnatural power to destroy their foes.</p>
+<h3 id="level-3-conclave-spells_11">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>bane</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>shadow blade</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>bestow curse</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>blight</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>enervation</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-wardens-rite">Level 3 - Warden's Rite</h3>
+<p>You have passed through the Warden's Rite, an unholy alchemical ritual that suffuses your blood with the sinister power of monsters. You change in the ways listed below, which cannot be reversed:</p>
+<ul>
+<li>You gain proficiency with alchemist's supplies and in Religion. Whenever you make a check with either of these, you add one roll of your Quarry Die to your result.</li>
+<li>You count as a humanoid and monstrosity for magical purposes.</li>
+<li>Your hit point maximum increases by 3, and increases by 1 again each time you gain a level in this class.</li>
+</ul>
+<hr>
+<h3 id="level-3-crimson-mark">Level 3 - Crimson Mark</h3>
+<p>You can use your sinister blood magic to empower the mark on your foes. Whenever you mark a creature as your Quarry, you can make a blood sacrifice instead of expending a use of Ranger's Quarry. When you do, you reduce your current and maximum hit points by one roll of your Quarry Die.</p>
+<p>Any reductions to your maximum hit points by this feature are undone at the end of your next long rest.</p>
+<p>For the duration, you can choose for the bonus damage of Ranger's Quarry to be necrotic. Necrotic damage dealt in this way ignores resistance and treats immunity as resistance.</p>
+<p>Finally, when you deal necrotic damage to your Quarry in this way, it cannot regain hit points for the next minute.</p>
+<hr>
+<h3 id="level-7-dark-augmentation">Level 7 - Dark Augmentation</h3>
+<p>The sinister magic in enhances your physical capabilities. Your walking speed increases by 10 feet. Also, whenever you make a Strength, Dexterity, or Constitution ability check, you gain a bonus to your roll equal to one roll of your Quarry Die.</p>
+<hr>
+<h3 id="level-11-greater-crimson-brand">Level 11 - Greater Crimson Brand</h3>
+<p>Powerful blood magic infuses all of your strikes. Once per turn, when you hit a creature with a melee weapon attack, you can deal an additional 1d10 necrotic damage to it.</p>
+<hr>
+<h3 id="level-11-sinister-resilience">Level 11 - Sinister Resilience</h3>
+<p>The dark magic that flows in your blood grants you defenses against evil magicks. You gain resistance to necrotic damage, and when you reduce your hit points with Crimson Mark, you roll your Quarry Die twice and use the lower result.</p>
+<hr>
+<h3 id="level-15-sanguine-mastery">Level 15 - Sanguine Mastery</h3>
+<p>The magic of your Warden's Rite manifests its full potential. You have advantage on saving throws to resist the frightened condition, and you are always under the effects of <em>protection from good &amp; evil</em> while you are conscious.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="guerilla">
+<h2 id="guerilla-conclave"><ins>Guerilla Conclave</ins></h2>
+<p>Slipping through the darkness, the Guerilla is a master of silent movement, poisons, and hit-and-run tactics. As their knowledge grows, their poisons become more and more potent, until even the most resistant of beasts cannot help but fall prey. The Guerilla's ability to slip into shadows is legendary, as even the most junior of their order are exceedingly difficult to track.</p>
+<h3 id="level-3-conclave-spells_12">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>entangle</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>gaseous form</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>Evard's black tentacles</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>cloudkill</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-walk-unseen">Level 3 - Walk Unseen</h3>
+<p>At 3rd level, the shadows cloak and conceal you. You gain proficiency in the Stealth skill, and your proficiency bonus is doubled for any ability check you make that uses this skill.</p>
+<p>Additionally, when you are alone, you cannot be tracked by nonmagical means unless you choose to leave a trail. Beginning at 14th level, you cannot be tracked, even by magical means unless you wish to be.</p>
+<p>You also learn the Stalker I Knack, but it does not count against your Knacks Known. If you know this Knack you learn another of your choice.</p>
+<hr>
+<h3 id="level-3-master-of-poisons">Level 3 - Master of Poisons</h3>
+<p>At 3rd level, you know the secrets of toxic plants and animals and use them to envenom your blows. You gain proficiency with the poisoner's kit.</p>
+<p>In addition, as a bonus action, you can envenom your weapons. The next time you hit a creature on this turn with a weapon attack, it takes an additional 1d10 points of poison damage from the attack.</p>
+<p>When you reach 11th level in this class, the extra damage increases to 2d10.</p>
+<hr>
+<h3 id="level-7-hardy">Level 7 - Hardy</h3>
+<p>At 7th level, your body has toughened with long exposure to poisons. You have resistance to poison damage and are immune to the poisoned condition. Additionally, you gain proficiency in Constitution saves.</p>
+<hr>
+<h3 id="level-11-pernicious-toxins">Level 11 - Pernicious Toxins</h3>
+<p>At 11th level, your poisons are so deadly that not even the stoutest of creatures can resist them. When you deal poison damage to a living creature, it ignores resistance and immunity. In addition, any creature that you deal poison damage to cannot regain hit points until the start of your next turn.</p>
+<hr>
+<h3 id="level-15-fade-from-sight">Level 15 - Fade From Sight</h3>
+<p>At 15th level, you've mastered the art of disappearing from sight when wounded. As a reaction to taking damage, you become invisible, along with anything you are wearing or carrying, until the end of your next turn. Then you move up to your speed without provoking opportunity attacks.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="nomad">
+<h2 id="nomad-conclave"><ins>Nomad Conclave</ins></h2>
+<p>Whether by birth, happenstance, or a ritual, the mind of every Nomad has been connected to the mystical web of knowledge known as the Noosphere. This psionic link allows Nomads to access knowledge from far-off places and distant lives. These strange wanderers spend their lives collecting hidden lore to add to this web of information that connects every Nomad.</p>
+<p>Drawing on this network, these Rangers can use psionic abilities to slip through cracks in reality, assault the minds of their foes, and draw on the knowledge of other Nomads.</p>
+<h3 id="level-3-conclave-spells_13">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>comprehend languages</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>misty step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>tongues</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>dimension door</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>commune</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-expunging-strikes">Level 3 - Expunging Strikes</h3>
+<p>You can imbue your strikes with the psionic power of the Noosphere to disrupt your foe's mind. Once per turn when you hit your Quarry with a weapon attack, you can force it to make an Intelligence saving throw against your Ranger spell save DC. On a failure, all damage dealt by your attack becomes psychic damage, and your Quarry can't see, hear, or sense you in any way until the start of your next turn.</p>
+<hr>
+<h3 id="level-3-mystic-knowledge">Level 3 - Mystic Knowledge</h3>
+<p>You can use your connection to the Noosphere to draw knowledge from the Nomads of past and present. Each time you finish a long rest, you gain proficiency in one skill or tool, or learn to speak, read, and write a language of your choice. You retain the knowledge of this language or skill proficiency until the end of your next long rest.</p>
+<p>Beginning at 11th level in this class, you gain two proficiencies or languages of your choice through this feature at the end of a long rest, following these rules.</p>
+<hr>
+<h3 id="level-7-nomads-step">Level 7 - Nomad's Step</h3>
+<p>You can temporarily merge your consciousness with the Noosphere to avoid harm and move through the world in strange ways. You gain the two features below. You can use these features a combined number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>
+<p><strong>Phase Defense.</strong> When you are hit by an attack you can see, you can use a reaction to disappear into the Noosphere, causing that attack to miss. You then instantly reappear in an unoccupied space that you had occupied at some point since the beginning of your previous turn.</p>
+<p><strong>Psionic Jaunt.</strong> As a bonus action, you expend any amount of your remaining movement to instantly teleport a number of feet equal to the movement you expended, reappearing in an unoccupied space you can see within that range.</p>
+<hr>
+<h3 id="level-11-strange-movement">Level 11 - Strange Movement</h3>
+<p>Your connection to the Noosphere has grown. You regain all uses of Nomad's Step when you finish a short or long rest.</p>
+<hr>
+<h3 id="level-15-mystical-burst">Level 15 - Mystical Burst</h3>
+<p>When reappearing from the Noosphere you can assault your foes with the residual psionic power. When you teleport with a Nomad Spell or Nomad feature, you can force all creatures within 10 feet of the point you appear to make an Intelligence saving throw against your spell save DC. They take psychic damage equal to two rolls of your Quarry Die on a failed save, and half as much on a successful saving throw.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="nomad-north">
+<h2 id="nomad-of-the-north-conclave"><ins>Nomad of the North Conclave</ins></h2>
+<p>Few are those who dwell in the most desolate corners of the world. Even fewer are those who dare to call them their homeland. In these frozen wastes, the unforgiving cold claims the weak while the strong constantly fight for survival against the monstrous predators native to these environments. Those brave nomads employ an unwavering determination along with a set of uniquely cultivated skills in order to adapt to the terrain and overcome the looming threats posed by the daily life in those wilds, as the slightest of mistakes could prove fatal in an instant.</p>
+<h3 id="level-3-conclave-spells_14">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>ice knife</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>misty step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>sleet storm</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>locate creature</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>cone of cold</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-bitter-winds">Level 3 - Bitter Winds</h3>
+<p>Starting at 3rd level, you gain the ability to summon gales of northern winds to envelop you in a 30-foot radius centered at you for 1 minute, decreasing the temperature and hindering your foes' vision. You can summon or dismiss the winds as a bonus action, up to a number of times equal to your proficiency bonus before completing a long rest. </p>
+<p>Additionally, as a reaction, while these gales are summoned, you may extinguish any non-magical flames that are no bigger than a 5-foot cube within the effect's range, or douse flames off targets and items set ablaze. Ranged attacks against you are made with disadvantage.</p>
+<hr>
+<h3 id="level-7-permafrost">Level 7 - Permafrost</h3>
+<p>Starting at 7th level, while your Bitter Winds are active, you can conjure projectiles made of pure ice from thin air or coat your melee weapon with rime as part of your attack action. The conjured projectile or coated melee weapon deals additional damage equal to one roll of your Quarry Die.</p>
+<hr>
+<h3 id="level-7-cold-blooded">Level 7 - Cold Blooded</h3>
+<p>Additionally at 7th level, you gain advantage on saving throws made against spells and effects related to cold. You also learn the Arctic Adept Knack, but it does not count against your Knacks Known. If you know this Knack you learn another of your choice.</p>
+<hr>
+<h3 id="level-7-nomadic-trail">Level 7 - Nomadic Trail</h3>
+<p>Also at 7th level, you gain proficiency in Wisdom (Survival) checks. In addition, whenever you are about to suffer a level of exhaustion, you may use half of your maximum hit die to avoid the effect. Finally, while in an arctic environment, you can use the Hide action as a bonus action.</p>
+<hr>
+<h3 id="level-11-greater-bitter-winds">Level 11 - Greater Bitter Winds</h3>
+<p>At 11th level, your ability to summon the bitter winds becomes more potent. Summoning them grants you the following additional benefits:</p>
+<ul>
+<li>Creatures of your choice gain resistance to fire and cold damage for as long as they remain within the effect's radius.</li>
+<li>Enemy creatures that do not have resistance or immunity to cold damage take cold damage equal to one roll of your Quarry Die and must make a Constitution saving throw for every turn they start within the effect's radius. On a failure, their movement speed is reduced by 10 feet. Upon a second failure, their speed becomes halved. By failing again, their speed becomes 0. By succeeding at any point, they remove all applied effects and become immune to this effect of your Bitter Winds for the next 24 hours.</li>
+<li>You can use the Hide action without using any terrain elements other than the winds.</li>
+</ul>
+<hr>
+<h3 id="level-15-tundra-stalker">Level 15 - Tundra Stalker</h3>
+<p>Starting at 15th level, whenever you deal cold damage to a creature outside your turn, you can also make a weapon attack against it as a reaction.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="spellbreaker">
+<h2 id="spellbreaker-conclave"><ins>Spellbreaker Conclave</ins></h2>
+<p>Spellbreakers are a small but dedicated Conclave of Rangers that specialize in hunting mages who use their arcane power for evil. While most pursue the life of a Spellbreaker for noble reasons, there are some who seek to destroy anyone with the potential to use magic. Most Spellbreakers work in secrecy, only striking when success is a certainty. If a wrong move could end in disintegration, there is no room for error.</p>
+<h3 id="level-3-conclave-spells_15">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>detect magic</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>silence</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>counterspell</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>arcane eye</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>wall of force</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-mage-breaker">Level 3 - Mage Breaker</h3>
+<p>You ward your weapons with antimagic enchantments. When you hit your Quarry with a weapon attack, it has disadvantage on its subsequent Constitution saving throw to maintain concentration on spells.</p>
+<p>Also, whenever you see or hear a creature within your reach attempt to cast a spell, you can use your reaction to make an opportunity attack against it.</p>
+<hr>
+<h3 id="level-3-spellsight">Level 3 - Spellsight</h3>
+<p>You have learned to see the arcane potential of creatures. When you mark a creature as your Quarry, you instantly learn its spellcasting ability (if it has one) and the level of the highest level spell that it has the ability to cast.</p>
+<p>If your Quarry is hidden from divination magic, such as by a <em>nondetection</em> spell, it appears as if it cannot cast spells.</p>
+<hr>
+<h3 id="level-7-arcane-defense">Level 7 - Arcane Defense</h3>
+<p>You can steel yourself to better resist the magics of your foes. Whenever your Quarry forces you to make a saving throw to resist a spell or another magical effect, you gain a bonus to your roll equal to your Wisdom modifier (minimum of +1).</p>
+<p>Moreover, whenever your Quarry subjects you to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage on a success, and only half damage on a failed saving throw.</p>
+<hr>
+<h3 id="level-11-spellbane">Level 11 - Spellbane</h3>
+<p>You are an unparalleled hunter of mages. Whenever you hit your Quarry with a weapon attack, you can expend a spell slot of 1st-level or higher to deal bonus force damage equal to one roll of your Quarry Die per level of the spell slot.</p>
+<p>Also, whenever you cast <em>counterspell</em> or <em>dispel magic</em>, you can add a roll of your Quarry Die to the ability check.</p>
+<hr>
+<h3 id="level-15-mantle-of-the-master">Level 15 - Mantle of the Master</h3>
+<p>Your Spellbreaker training has reached its pinnacle. You are resistant to damage from spells and all other magical effects so long as you are not unconscious or incapacitated.</p>
+<hr>
+<h3 id="level-15-reflect-spell">Level 15 - Reflect Spell</h3>
+<p>Your training allows you to strike spells from the weave. You can cast <em>absorb elements</em> at will as if you cast it at 1st-level.</p>
+<p>After you cast <em>absorb elements</em>, if your next melee weapon attack is against the creature whose spell you absorbed, you treat the <em>absorb elements</em> damage as its maximum amount.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="stargazer">
+<h2 id="stargazer-conclave"><ins>Stargazer Conclave</ins></h2>
+<p>Since ancient times, mortals have looked to the stars of night for stories of the past, omens for the present, and portents of the future. The Rangers known as Stargazers dedicate their lives to the study of stars and constellations, and can draw on their radiant power to conjure celestial magic, vanquish their foes, and twist the threads of fate for those around them.</p>
+<h3 id="level-3-constellation-magic">Level 3 - Constellation Magic</h3>
+<p>You draw your power from the constellations of the night sky. Each time you finish a long rest, you attune yourself to one of the Constellations below. While attuned, you always have the corresponding Constellation spells, one cantrip and 1st-level spell, prepared. They become Ranger spells for you, but they don't count against the total number of spells you prepare. They also count as your Conclave Spells for 3rd level.</p>
+<p>You can cast your 1st-level Constellation spell once without expending a spell slot, at the level of your highest level slot as shown on the Ranger table for your level, and you regain the ability to do so when you finish a short or long rest.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Constellation</th>
+<th style="text-align: center;">Cantrip</th>
+<th style="text-align: center;">1st-level Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Adder</td>
+<td style="text-align: center;"><em>thorn whip</em></td>
+<td style="text-align: center;"><em>inflict wounds</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">Bear</td>
+<td style="text-align: center;"><em>resistance</em></td>
+<td style="text-align: center;"><em>wrathful smite</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">Elephant</td>
+<td style="text-align: center;"><em>guidance</em></td>
+<td style="text-align: center;"><em>bless</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">Snow Hare</td>
+<td style="text-align: center;"><em>minor illusion</em></td>
+<td style="text-align: center;"><em>armor of agathys</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">Stag</td>
+<td style="text-align: center;"><em>shillelagh</em></td>
+<td style="text-align: center;"><em>heroism</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">Wolf</td>
+<td style="text-align: center;"><em>true strike</em></td>
+<td style="text-align: center;"><em>guiding bolt</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-celestial-guidance">Level 3 - Celestial Guidance</h3>
+<p>The constellations of the night sky guide your steps. You gain proficiency in your choice of either cartographer's tools or navigator's tools. Also, whenever you make an ability check with either set of tools you add a roll of your Quarry Die to the result.</p>
+<p>Finally, you can't become lost, even by magical means, so long as you can see the stars of the night sky.</p>
+<hr>
+<h3 id="level-3-conclave-spells_16">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>Constellation Magic</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>moonbeam</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>beacon of hope</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>guardian of faith</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>wall of light</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-7-threads-of-fate">Level 7 - Threads of Fate</h3>
+<p>You can use the insights you gain from the stars to twist fate. When a creature you can see within 30 feet makes an ability check or saving throw, you can use your reaction to add your Wisdom modifier (minimum of +1) to the result of its roll. You must use this reaction before you know if it succeeds or fails.</p>
+<p>You can use this reaction a number of times equal to your Wisdom modifier (a minimum of once), and you regain all of your expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-11-starlight-strikes">Level 11 - Starlight Strikes</h3>
+<p>You infuse your weapons with the power of celestial starlight. Once per turn, when you hit a creature with a weapon attack or damage it with a Ranger spell, you deal additional radiant damage equal to one roll of your Quarry Die.</p>
+<hr>
+<h3 id="level-15-resplendent-soul">Level 15 - Resplendent Soul</h3>
+<p>When a creature you can see targets you with an attack, you can use a reaction to release a targeted flash of light toward it, forcing it to make a Constitution saving throw against your spell save DC. On a failure, it takes radiant damage equal to three rolls of your Quarry Die, and the attack misses you.</p>
+<p>You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all uses when you finish a long rest. If you have no uses left, you can expend a spell slot of 1st-level or higher to use this again.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="stormcloak">
+<h2 id="stormcloak-conclave"><ins>Stormcloak Conclave</ins></h2>
+<p>Rangers who emulate the ideal of the Stormcloak are drifters of the wild seas. These rangers make the dangers of the ocean into their own weapons. Stormcloaks wield lightning and thunder to a mighty effect, whether they favor melee weapons or ranged. The storms that rake the seas are a terror to sailors, but not the Stormcloaks. To the crews, a Stormcloak is a rare boon, a sign of good fortune for the voyage ahead.</p>
+<p>Some Stormcloak rangers wear a cloak or long coat that courses with lightning when they use their powers. For others, this is a more figurative sense of being cloaked in power.</p>
+<h3 id="level-3-conclave-spells_17">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Conclave Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>thunderwave</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>gust of wind</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>passwall</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-tempests-lash">Level 3 - Tempest's Lash</h3>
+<p>Also at 3rd level, when you hit a creature with a weapon attack, you can expend one ranger spell slot to deal lightning or thunder damage to the target, in addition to the weapon's damage. The extra damage is one roll of your Quarry Die per level of the spell slot. The damage increases by an additional roll of your Quarry Die if the target is made of metal or wearing predominantly-metal armor.</p>
+<p>When you are grappled or swallowed whole, you can spend spell slots as an action to deal the lightning or thunder damage specified above without making a weapon attack. The target can avoid this damage automatically by releasing you.</p>
+<hr>
+<h3 id="level-7-the-power-of-the-cloak">Level 7 - The Power of the Cloak</h3>
+<p>Starting at 7th level, you gain resistance to lightning damage and resistance to thunder damage. When you suffer damage of either type, you can spend your reaction to absorb some of its power into your weapons instead of grounding it out harmlessly. One weapon of your choice becomes empowered until the end of your next turn.</p>
+<p>The first time you deal damage with the empowered weapon, it deals an additional 2d6 points of lightning or thunder damage (whichever you absorbed). You can use Tempest's Lash on this strike as well. Furthermore, whenever you would suffer disadvantage on Wisdom (Perception) checks due to heavy rain, snow, or sleet, you do not suffer disadvantage and instead gain advantage.</p>
+<hr>
+<h3 id="level-11-stormwrack">Level 11 - Stormwrack</h3>
+<p>Starting at 11th level, the lightning and thunder that you command become all the more deadly when you strike twice. When you hit with two weapon attacks in a single turn, one target that you damaged in this round suffers an additional 3d6 thunder damage.</p>
+<hr>
+<h3 id="level-15-in-the-storm-i-rise">Level 15 - In the Storm I Rise</h3>
+<p>Beginning at 15th level, your cloak grants you flight, and you can protect your allies from lightning and absorb it. As an action, you gain a flying speed equal to your walking speed, and when you or a creature within 10 feet of you takes lightning damage, you can use your reaction to reduce that damage to 0. These benefits lasts for 1 minute.</p>
+<p>Once you use this feature, you can't do so again until you finish a short or long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="unicorn-knight">
+<h2 id="unicorn-knight-conclave"><ins>Unicorn Knight Conclave</ins></h2>
+<p>Unicorns are considered blessed celestial creatures by most who wander the wilderness. Witnessing one can be a life-altering experience on any plane, as they are reclusive and rare. In the Beastlands, a chance for such an encounter draws all manner of goodly people in search of a mystical grove on the plane's third layer, Karasuthra. There, the spirit of a powerful unicorn lingers and blesses those with goodness and kindness in their hearts. Many of those that bear witness to the spirit of the unicorn Arryn walk away with renewed purpose. They become Unicorn Knights.</p>
+<h3 id="level-3-conclave-spells_18">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>detect evil and good</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>pass without trace</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>beacon of hope</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>aura of life</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>dispel evil and good</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-healing-touch">Level 3 - Healing Touch</h3>
+<p>You learn the gift of healing that all unicorns possess. You have a pool of healing energy equal to your Ranger level x 3. The healing pool replenishes to maximum after you take a long rest.</p>
+<p>As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the amount remaining in your pool. The amount healed is subtracted from your pool.</p>
+<hr>
+<h3 id="level-3-unicorn-charge">Level 3 - Unicorn Charge</h3>
+<p>You can charge towards an opponent with a weapon poised to strike in a manner similar to a unicorn. If you move at least 20 feet towards a target and then hit it with a melee weapon attack on the same turn, the target takes an extra 1d10 damage. </p>
+<p>This feature can only be used once per round. When you reach 11th level in this class, the extra damage increases to 2d10.</p>
+<p>You also learn the Hedge Knight I Knack, but it does not count against your Knacks Known. If you know this Knack you learn another of your choice.</p>
+<hr>
+<h3 id="level-7-shimmering-shield">Level 7 - Shimmering Shield</h3>
+<p>At the end of your turn or the turn of another creature, you can use your reaction to summon a shimmering, magical field around yourself or another creature you can see within 60 feet. The next attack against the target suffers disadvantage.</p>
+<p>You can use this feature a number of times equal to your Wisdom modifier (minimum of 1), and you regain all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-11-unicorn-gallop">Level 11 - Unicorn Gallop</h3>
+<p>Your walking speed increases by 10 feet, and opportunity attacks against you suffer disadvantage.</p>
+<hr>
+<h3 id="level-15-teleport">Level 15 - Teleport</h3>
+<p>You have been blessed by the horn of a unicorn. You can harness that blessing to cast the <em>teleport</em> spell.</p>
+<p>You must finish a long rest before you can use this feature again.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="wastelander">
+<h2 id="wastelander-conclave"><ins>Wastelander Conclave</ins></h2>
+<p>While all Rangers have the skills to survive in the wilds, those known as Wastelanders are true masters of survival. Rugged wanderers, they have adapted to survive in the harshest lands imaginable; arid deserts, frozen tundra, great alpine heights, and magical wastelands. These survivalists combine a talent for illusion magic and protective gear to survive anywhere.</p>
+<h3 id="level-3-conclave-spells_19">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>absorb elements</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>mirror image</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>major image</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>hallucinatory terrain</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>commune with nature</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-wasteland-weaver">Level 3 - Wasteland Weaver</h3>
+<p>You have mastered an ancient pattern of enhancing clothing, that enables a supernatural level of survivability. You gain proficiency with weaver's tools, and you can add double your proficiency bonus to any check you make with these tools.</p>
+<p>At the end of each long rest, you can use weaver's tools to enhance one set of clothing or cloak. While a creature wears this enhanced garment it gains the following benefits:</p>
+<ul>
+<li>It gains a bonus to Dexterity (Stealth) checks to hide in wasteland and wilds equal to one roll of your Quarry Die.</li>
+<li>It requires one-quarter as much water in order to survive.</li>
+<li>It has advantage on saving throws to resist the effects of harsh environments and subsequent exhaustion levels.</li>
+</ul>
+<p>During each long rest, you must spend 1 hour maintaining any garments you have enhanced or they lose these beneficial properties. You can maintain a number of garments equal to your Wisdom modifier (a minimum of 1 set of garments).</p>
+<hr>
+<h3 id="level-3-wilderness-adept">Level 3 - Wilderness Adept</h3>
+<p>You are able to survive the most inhospitable environments. You learn one of the following Knacks of your choice: Alpine Adept, Aquatic Adept, Arctic Adept, Desert Adept, or Jungle Adept. You learn another at 7th, 11th, and 15th levels.</p>
+<p>The Knacks you gain this way do not count against your number of Knacks Known.</p>
+<hr>
+<h3 id="level-7-rugged-resilience">Level 7 - Rugged Resilience</h3>
+<p>You imbue the mystical weave of your enhanced garments with illusion magic. A creature wearing one of your enhanced garments can use a bonus action to cast <em>invisibility</em> on itself.</p>
+<p>It can do so three times, but when the last use is expended, the garment loses any beneficial properties. Your enhanced garments regain all uses of this feature when you spend time during a long rest maintaining your enhanced garments.</p>
+<hr>
+<h3 id="level-11-illusory-strikes">Level 11 - Illusory Strikes</h3>
+<p>You enhance your combat style with potent illusion magic. When you take the Attack action on your turn, you can use a bonus action to create an Illusory Duplicate of yourself in an unoccupied space you can see within 30 feet. It makes one attack with a duplicate of your weapon, which deals force damage in place of your weapon's damage and disappears.</p>
+<hr>
+<h3 id="level-15-mirage-transposition">Level 15 - Mirage Transposition</h3>
+<p>You can use a bonus action to create your Illusory Duplicate even if you do not take the Attack action. When you conjure an Illusory Duplicate, you can instantly switch places with it.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="wayfinder">
+<h2 id="wayfinder-conclave"><ins>Wayfinder Conclave</ins></h2>
+<p>The wayfinder rangers walk the many lands, both on and off the beaten paths. They are expert travelers, viewed by those outside of their conclave as brash and foolhardy, but the wise know them as the skilled folk of the outlands. Wayfinders travel confidently and with respect. They are the greatest and most diligent messengers, while also keen hunters. A wayfinder ranger travels fast through dangerous lands with ease. They can expedite a journey or lead to a careful search of a region far more skillfully than any other individual. They are great at losing pursuers and even better at apprehending prey.</p>
+<h3 id="level-3-journeyfolk">Level 3 - Journeyfolk</h3>
+<p>At 3rd level, you no longer suffer exhaustion when performing a forced march. Additionally, you learn two languages of your choice.</p>
+<hr>
+<h3 id="level-3-pathmaker">Level 3 - Pathmaker</h3>
+<p>At 3rd level, when you move along the ground, you can choose to leave behind a magical path, which lasts for up to 1 minute. An area containing the path cannot be considered difficult terrain and friendly creatures on the path are always considered in range of your ranger spells.</p>
+<hr>
+<h3 id="level-7-special-delivery">Level 7 - Special Delivery</h3>
+<p>At 7th level, on each of your turns you can perform the Use an Object action by expending 10 ft. of movement. Additionally, if you could use a magical item as an action, you can instead use it as a bonus action.</p>
+<hr>
+<h3 id="level-11-quickstep">Level 11 - Quickstep</h3>
+<p>At 11th level, on each of your turns you can take a bonus action to take both the Dash and Disengage actions simultaneously.</p>
+<hr>
+<h3 id="level-15-watched-roads">Level 15 - Watched Roads</h3>
+<p>At 15th level, when an enemy creature on the ground moves into an area containing the magical path created by your Pathmaker feature, the creature provokes an attack of opportunity from any creatures within reach of it.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="windrunner">
+<h2 id="windrunner-conclave"><ins>Windrunner Conclave</ins></h2>
+<p>Whether it's out in the open plain or across a dungeon floor, few creatures can match the windrunner ranger for sheer speed and agility. They move with the swiftness of a morning breeze, and many seem to catch and ride a wild wind as they blow past their opponents in a blur.</p>
+<h3 id="level-3-conclave-spells_20">Level 3 - Conclave Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ranger Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>zephyr strike</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>gust of wind</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>fly</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;"><em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;"><em>control winds</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-windrunning">Level 3 - Windrunning</h3>
+<p>You learn the art of windrunning, the secrets of which have been passed down from ranger to ranger for generations. You gain the following benefits when you are wearing light armor or no armor:</p>
+<ul>
+<li>Your base walking speed increases by 10 feet.</li>
+<li>While traveling at a fast pace, you do not suffer the usual penalty to your passive Wisdom (Perception) score.</li>
+<li>While traveling in a forced march, you only need to make the Constitution saving throw at every other hour (at hour ten, twelve, etc.), and the DC is affected in the same way (DC 11 at hour ten, DC 12 at hour twelve, etc.).</li>
+</ul>
+<hr>
+<h3 id="level-6-pathlore">Level 6 - Pathlore</h3>
+<p>You know the windrunner art of pathlore, which is the sense of direction allowing them to find the shortest route through terrain. When traveling in wilderness, you can take 10 minutes and make a Wisdom (Survival) check against a DC based on the terrain's size. On a success, you are able to find the shortest route through the terrain, cutting travel time in half for you and up to eight other traveling companions.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Terrain Size</th>
+<th style="text-align: center;">DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Small (&lt;25 mile radius)</td>
+<td style="text-align: center;">12</td>
+</tr>
+<tr>
+<td style="text-align: center;">Medium (25-50 mile radius)</td>
+<td style="text-align: center;">14</td>
+</tr>
+<tr>
+<td style="text-align: center;">Large (51-100 mile radius)</td>
+<td style="text-align: center;">16</td>
+</tr>
+<tr>
+<td style="text-align: center;">Huge (101-200 mile radius)</td>
+<td style="text-align: center;">18</td>
+</tr>
+<tr>
+<td style="text-align: center;">Enormous (&gt;200 mile radius)</td>
+<td style="text-align: center;">20</td>
+</tr>
+</tbody>
+</table>
+<p>Once you use this feature, you must complete a long rest before you can use it again. You can only attempt to use Pathlore on a specific stretch of terrain once in a 24-hour period.</p>
+<hr>
+<h3 id="level-11-burst-of-speed">Level 11 - Burst of Speed</h3>
+<p>You learn to focus the wind around you to move at an incredible pace for a short period. You can cast the <em>haste</em> spell as a bonus action without requiring material components, targeting only yourself.</p>
+<p>You must finish a long rest before you can use this feature again.</p>
+<hr>
+<h3 id="level-15-evasion">Level 15 - Evasion</h3>
+<p>You can dodge and weave out of certain area effects as effortless as a breeze. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      
+        <script src="../../assets/js/filter-js"></script>
+      
+        <script src="../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>
