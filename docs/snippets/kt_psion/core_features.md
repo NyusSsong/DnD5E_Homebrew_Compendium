@@ -51,8 +51,9 @@ Starting at 1st level, you gain Psi Points equal to your Psion level. You regain
 
 Your psionic powers, Psionic Talents, and psion-class spells use your psionic ability:
 
-* **Psionic Save DC** = 8 + your proficiency bonus + your Intelligence modifier  
-* **Psionic Attack Modifier** = your proficiency bonus + your Intelligence modifier
+**Psionic Save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+**Psionic Attack Modifier** = your proficiency bonus + your Intelligence modifier
 
 <hr>
 

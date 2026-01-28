@@ -92,8 +92,9 @@ At the end of each long rest, you prepare a list of spells that are available fo
 
 **Spellcasting Ability.** Your power is drawn from an intuitive knowledge of nature, so Wisdom is your spellcasting ability for Ranger spells. You use Wisdom when a spell refers to your spellcasting ability, your spell save DC, or when you make a spell attack roll.
 
-* **Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier  
-* **Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
+**Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+**Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
 
 **Spellcasting Focus** You can use a druidic focus as the spellcasting focus for your Ranger spells. See the Player's Handbook for example foci.
 

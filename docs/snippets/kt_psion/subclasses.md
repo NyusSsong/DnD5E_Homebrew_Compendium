@@ -23,6 +23,8 @@ Awakened Minds can be empathetic or cruel, good or evil. Their ability to percei
 
 At 1st level, your mind awakens to connect directly with the minds of others. You gain the psionic discipline of Telepathy.
 
+<hr>
+
 ### Level 1 - Mental Awareness
 
 Also at 1st level, you can use your Intelligence modifier instead of Wisdom when making Insight checks against creatures with an Intelligence score of 6 or higher.  
@@ -72,6 +74,8 @@ Their alignment frequently depends on the approach to their powers they have tak
 ### Level 1 – Unshackled Power
 
 At 1st level when you select this archetype, you gain the ability to unleash your mind to physically interact with the world around you, granting you the psionic discipline of Telekinesis.
+
+<hr>
 
 ### Level 1 - Overwhelming Power
 

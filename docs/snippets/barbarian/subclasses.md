@@ -835,7 +835,7 @@ The number of spells on your list increases as you gain Barbarian levels, as sho
 
 **Spell Save DC** = 8 + your proficiency bonus + your Intelligence modifier
 
-**Spell Attack Modifier** = your proficiency bonus + your Intelligence modifier
+**Spell Attack Modifier** = your proficiency bonus + your Intelligence modifier  
 
 **Spellcasting Focus.** You can use your painted and tattooed runes as a spellcasting focus for your Wizard spells.
 

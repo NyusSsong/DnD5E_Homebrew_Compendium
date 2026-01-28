@@ -85,7 +85,7 @@ Your battle die changes and more battle dice become available when you reach cer
 
 **Saving Throws.** Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
 
-Maneuver save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
+**Maneuver save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
 
 <hr>
 
@@ -185,13 +185,13 @@ Starting when you hear this call at 3rd level, you can channel your ancient insi
 
 **Spells Known of 1st-Level and Higher.** You know three 1st-level druid spells of your choice, two of which you must choose from the evocation or transmutation spells on the druid spell list.
 
-The Spells Known column of the Soulblood Shaman Spellcasting table shows when you learn more druid spells of 1st level or higher. Each of these spells must be an evocation or transmutation spell of your choice, and must be of a level for which you have spell slots.
-
-The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
-
-Whenever you gain a level in this class, you can replace one of the druid spells you know with another spell of your choice from the druid spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or transmutation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.
+The Spells Known column of the Soulblood Shaman Spellcasting table shows when you learn more druid spells of 1st level or higher. Each of these spells must be an evocation or transmutation spell of your choice, and must be of a level for which you have spell slots. The spells you learn at 8th, 14th, and 20th level can come from any school of magic. Whenever you gain a level in this class, you can replace one of the druid spells you know with another spell of your choice from the druid spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or transmutation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.
 
 **Spellcasting Ability.** Wisdom is your spellcasting ability for your druid spells, since you channel your magic through a connection to the great beyond. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
+
+**Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier  
+
+**Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
 
 | Warden Level | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -213,9 +213,6 @@ Whenever you gain a level in this class, you can replace one of the druid spells
 | 18th | 3 | 11 | 4 | 3 | 3 | — |
 | 19th | 3 | 12 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
-
-* **Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier  
-* **Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
 
 <hr>
 
