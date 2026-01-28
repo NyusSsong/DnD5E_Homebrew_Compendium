@@ -15,7 +15,7 @@
 
 <div class="discipline-content" data-discipline="consumption">
 
-### Consumption Discipline
+### ^^Consumption Discipline^^
 
 Your psychic powers are those of a predator, and your prey is the minds of others. Their thoughts, their feelings, their vital psionic energies are your food.
 
@@ -58,11 +58,13 @@ When you learn the Consumption Discipline, you can use your Psionics feature to 
 
 If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="enhancement">
 
-### Enhancement Discipline
+### ^^Enhancement Discipline^^
 
 Enhancement is the ability to interact with a creature’s nature and abilities with your psionic power.
 
@@ -101,11 +103,13 @@ When you learn the Enhancement Discipline, you can use your Psionics feature to 
 
 If a spell can be cast at a higher level, you can spend additional psi points to cast it at that level.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="nullification">
 
-### Nullification Discipline
+### ^^Nullification Discipline^^
 
 Nullification is the ability to interfere with the supernatural effects of the world, reverting reality back to its original state.
 
@@ -149,11 +153,13 @@ When you learn the Nullification Discipline, you can use your Psionics feature t
 
 If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="precognition">
 
-### Precognition Discipline
+### ^^Precognition Discipline^^
 
 Precognition is the ability to see what lies ahead, piercing the veil of the future. Seeing things that most people cannot, a Psion with precognitive abilities can, to a limited extent, know the future; such a future is known by tracing its roots from the present, and grows more mysterious and cloudy as such roots grow distant.
 
@@ -200,11 +206,13 @@ When you learn the Precognition Discipline, you can use your Psionics feature to
 † *augury* has the same effect, but doesn’t consult a specific entity when cast in this way.  
 † *death ward* has the same effect, but gives a forewarning to a creature allowing them to avoid death when cast in this way.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="projection">
 
-### Projection Discipline
+### ^^Projection Discipline^^
 
 Projection is the ability to project what is in your mind into the outside world through psionic power, shaping tangible constructs from pure thought.
 
@@ -251,11 +259,13 @@ When you learn the Projection Discipline, you can use your Psionics feature to c
 
 If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="psychokinesis">
 
-### Psychokinesis Discipline
+### ^^Psychokinesis Discipline^^
 
 Psychokinesis is the mental art of spontaneously creating and
 controlling energy; sapping energy to freeze or spontaneously
@@ -302,10 +312,10 @@ You can spend psi points up to your per use limit to add the
 following modifiers to (you can add multiple modifiers). The
 points must be spent when choosing the target of the power.
 
-* **Amplified (1+ psi points).** The target takes an extra 1d8 cold, fire, force or lightning damage on a hit for each additional point spent.
-* **Lasting (1 psi point).** Your Elemental Blast leaves a 5-foot-radius sphere of devastation behind where it strikes until the start of your next turn. Creatures that enter this zone for the first time or end their turn in it must make a Constitution saving throw or suffer the secondary effects (slow, burn, arc) of the blast as if they had been hit by it.
-* **Massive (1–3 psi points).** You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).
-* **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
+- **Amplified (1+ psi points).** The target takes an extra 1d8 cold, fire, force or lightning damage on a hit for each additional point spent.
+- **Lasting (1 psi point).** Your Elemental Blast leaves a 5-foot-radius sphere of devastation behind where it strikes until the start of your next turn. Creatures that enter this zone for the first time or end their turn in it must make a Constitution saving throw or suffer the secondary effects (slow, burn, arc) of the blast as if they had been hit by it.
+- **Massive (1–3 psi points).** You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).
+- **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
 
 #### Alternate Effects
 
@@ -326,11 +336,13 @@ If a spell can be cast at a higher level, you can spend
 additional psi points to cast it at a level equal to the psi points
 spent.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="telekinesis">
 
-### Telekinesis Discipline
+### ^^Telekinesis Discipline^^
 
 Telekinesis is the ability to interact with physical objects and
 energy with your psionic powers.
@@ -369,15 +381,15 @@ following modifiers to Telekinetic Force (you can add multiple
 modifiers). The points must be spent when choosing the target
 of the power.
 
-* **Crushing (2 psi points).** The target is restrained until the end
+- **Crushing (2 psi points).** The target is restrained until the end
   of its next turn if it fails its saving throw.
-* **Hammering (1+ psi points).** The target takes 1d10
+- **Hammering (1+ psi points).** The target takes 1d10
   bludgeoning damage for each point spent if it fails its saving
   throw.
-* **Hurling (1–3 psi points).** The target is shoved 10 feet in a
+- **Hurling (1–3 psi points).** The target is shoved 10 feet in a
   direction of your choosing for each point spent if it fails its
   saving throw.
-* **Zone of (1–3 psi points).** You can target all creatures in a
+- **Zone of (1–3 psi points).** You can target all creatures in a
   5-foot radius of a point within range. The radius doubles for
   each point spent (5 feet, 10 feet, 20 feet).
 
@@ -400,11 +412,13 @@ If a spell can be cast at a higher level, you can spend
 additional psi points to cast it at a level equal to the psi points
 spent.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="telepathy">
 
-### Telepathy Discipline
+### ^^Telepathy Discipline^^
 
 Telepathy is the ability to interact with the minds of other creatures using your psionic abilities.
 
@@ -443,11 +457,13 @@ Additionally, when you learn the Telepathy psionic discipline you can use your P
 
 If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
 
+<hr>
+
 </div>
 
 <div class="discipline-content" data-discipline="transposition">
 
-### Transposition Discipline
+### ^^Transposition Discipline^^
 
 Transposition is the ability to modify the properties of space and manipulate dimensional boundaries with your psionic powers.
 
@@ -486,5 +502,7 @@ Additionally, when you learn the Transposition psionic discipline you can use yo
 | 5 | *flickering strikes*ᴷ, *spatial manipulation*ᴷ |
 
 If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
+
+<hr>
 
 </div>

@@ -13,7 +13,7 @@
 
 <div class="subclass-content" data-subclass="awakened">
 
-## Awakened Mind
+## ^^Awakened Mind^^
 
 An Awakened Mind is a psion whose latent psionic power has been triggered by an extraordinary event. This awakening might come from a dream, a glimpse of another realm, a journey to the Feywild, or a sudden encounter with something beyond the mundane. The first power to manifest is often telepathy, one of the most feared and misunderstood psionic abilities.  
 
@@ -61,7 +61,7 @@ At 14th level, you can fully awaken your expanded mind for a brief period of hei
 
 <div class="subclass-content" data-subclass="unleashed">
 
-## Unleashed Mind
+## ^^Unleashed Mind^^
 
 An Unleashed Mind’s power is most often an innate force they struggle to understand or control, a reflection of their state of mind and mood projected onto the world around them, often to devastating results. The life of an Unleashed Psion is frequently their journey to control their unruly powers... or one of embracing the destructive powers fully.
 
@@ -116,7 +116,7 @@ You can expend 2 psi points to roll an additional rampage die, adding it to the 
 
 <div class="subclass-content" data-subclass="transcended">
 
-## Transcended Mind
+## ^^Transcended Mind^^
 
 A Transcended psion is most often one that has found their path to psionic powers through a mental epiphany, realizing the place of their mind within the multiverse and how it ties to everything else, seeing the keys and levers to the world laid out before them in their mind’s eye.
 
@@ -172,7 +172,7 @@ Additionally, when you roll a Death saving throw, you can expend 4 psi points be
 
 <div class="subclass-content" data-subclass="shaper">
 
-## Shaper’s Mind
+## ^^Shaper's Mind^^
 
 A Shaper is a Psion that specializes in the materialization of their imagination, projecting it out into the world. No mere conjurers borrowing the powers of other planes, a Shaper manifests things from nothing but their own mind, weaving their creations into existence through the exertion of raw psionic power and imagination.
 
@@ -231,7 +231,7 @@ Once you create an additional duplicate, you can’t do so again until you finis
 
 <div class="subclass-content" data-subclass="wandering">
 
-## Wandering Mind
+## ^^Wandering Mind^^
 
 A Wandering Mind is among the more mysterious incarnates of psions, these are individuals that just aren’t quite rooted in the same reality everyone else is... they find it more pliable and slippery, and prone to jumping right through it on occasion.  
 
@@ -299,7 +299,7 @@ Additionally at 14th level, your phase rift no longer has to go in a straight li
 
 <div class="subclass-content" data-subclass="elemental">
 
-## Elemental Mind
+## ^^Elemental Mind^^
 
 An Elemental Mind is a Psion that can manifest and control elements as an extension of their will.
 
@@ -363,7 +363,7 @@ Once you cast shapechange this way, you can’t do so until you finish a short o
 
 <div class="subclass-content" data-subclass="consuming">
 
-## Consuming Mind
+## ^^Consuming Mind^^
 
 A Consuming Mind is a master of a dangerous branch of psionics, born from the ability to sap energy from other creatures. This power can tear away thoughts, minds, and ultimately vitality for the psion’s own consumption.  
 

@@ -34,6 +34,7 @@ nav:
   - Home: index.md
   - Classes:
       - Barbarian: classes/barbarian.md
+      - Ranger: classes/ranger.md
       - Kibbles Tasty:
         - Psion: classes/kt_psion.md
         - Warlord: classes/kt_warlord.md
@@ -46,6 +47,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - tables
   - toc:
       toc_depth: 0

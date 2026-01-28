@@ -70,23 +70,12 @@ Also at 2nd level, whenever you make a Strength-based attack on your turn, you c
 
 Also at 2nd level, your lust for battle unlocks savage abilities that enhance your martial skill, both on and off the battlefield.
 
-##### **Exploit Dice**
+**Exploit Dice.** The Barbarian table shows how many Exploit Dice you have to perform any Exploits you know. Most Exploits require you to expend these Dice in order to use them. You can only use one Exploit per attack, ability check, or saving throw, and you regain all Exploit Dice when you finish a short or long rest. Your Exploit Dice begin as d4s and increase in size as you gain levels in this class, as indicated in the Barbarian table.
 
-The Barbarian table shows how many Exploit Dice you have to perform any Exploits you know. Most Exploits require you to expend these Dice in order to use them. You can only use one Exploit per attack, ability check, or saving throw, and you regain all Exploit Dice when you finish a short or long rest.
+**Exploits Known.** At 2nd level, you learn two Savage Exploits from the list
+at the end of this class. The Exploits Known column of the Barbarian table shows when you learn additional Exploits. To learn an Exploit you must meet any prerequisites that it may have, like a minimum ability score or Barbarian level. Each time you gain a Barbarian level, you can replace one of the Savage Exploits you know with another Exploit of your choice, so long as you meet that Exploit's prerequisites.
 
-Your Exploit Dice begin as d4s and increase in size as you gain levels in this class, as indicated in the Barbarian table.
-
-##### **Exploits Known**
-
-At 2nd level, you learn two Savage Exploits from the list
-at the end of this class. The Exploits Known column of the Barbarian table shows when you learn additional Exploits.
-To learn an Exploit you must meet any prerequisites that it may have, like a minimum ability score or Barbarian level.
-
-Each time you gain a Barbarian level, you can replace one of the Savage Exploits you know with another Exploit of your choice, so long as you meet that Exploit's prerequisites.
-
-##### **Saving Throws**
-
-If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
+**Saving Throws.** If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
 
 - **Exploit Save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
 

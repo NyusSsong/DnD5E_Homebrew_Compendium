@@ -321,7 +321,8 @@ You gain the ability to solidify some of your projections into real objects. You
 
 #### Projected Weaponry
 
-When you project a weapon with your Project Item feature, it gains the following benefits:  
+When you project a weapon with your Project Item feature, it gains the following benefits:
+
 - You can project it as a bonus action, and you can project up to 3 weapons or pieces of ammunition at the same time.  
 - You are proficient with any projected weapon.  
 - It is no longer restricted to a maximum of 3 feet when taking the form of a weapon (for a Medium creature).  
@@ -462,10 +463,12 @@ When you use Phase Rift, you can choose to leave a 5-foot-wide tear in reality b
 *Prerequisite: Rift Strike*
 
 When you use your Phase Rift power, you can instead empower a piece of ammunition you touch, granting it the following special properties when you fire it:  
+
 - It can be fired through all cover, including total cover, that is less than 4 inches thick.  
 - It deals 1d8 additional force damage.  
 
 Additionally, applying Phase Rift modifiers grants special effects on this attack:  
+
 - **Disruptive.** The attack deals an extra 1d8 force damage on hit.  
 - **Blurring.** You can roll an additional attack roll per psi point spent, selecting the highest roll.  
 - **Long.** The effective range of the attack is increased by 10 feet per point spent.  

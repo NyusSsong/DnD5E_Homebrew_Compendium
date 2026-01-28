@@ -14,7 +14,7 @@
 
 <div class="subclass-content" data-subclass="chieftain">
 
-## Chieftain's Presence
+## ^^Chieftain's Presence^^
 
 A chieftain is a Warlord who rules by the sheer force of their personality. Marked by their booming voice and fearless attitude, it is easy for their band to believe they are infallible while their chieftain stands.
 
@@ -82,7 +82,7 @@ You can use this reaction a number of times equal to your Charisma modifier, reg
 
 <div class="subclass-content" data-subclass="commander">
 
-## Commander's Presence
+## ^^Commander's Presence^^
 
 A Commander on the field can be many things — a trusted sergeant, a weary veteran, or merely a person with an uncommon degree of common sense and a particularly keen eye for how to win a fight.
 
@@ -140,7 +140,7 @@ Starting at 18th level, you can move up to your speed to get within 5 feet of a 
 
 <div class="subclass-content" data-subclass="dancer">
 
-## Dancer's Presence
+## ^^Dancer's Presence^^
 
 A unique presence on the battlefield, these graceful agents wind their way through death and destruction with a curious elegance, uplifting their allies and distracting their enemies. A dancer comes in many forms, be they prancing jesters or graceful enchanters, their presence seems supernaturally captivating to all who encounter them, for good or ill. Though they seem out of place in danger, confused onlookers will often find them as the last ones standing in the most dangerous of situations, always one step out of out the greatest danger.
 
@@ -212,7 +212,7 @@ Starting at 18th level, when a willing creature within 15 feet of you is the tar
 
 <div class="subclass-content" data-subclass="dreadlord">
 
-## Dreadlord's Presence
+## ^^Dreadlord's Presence^^
 
 A warlord that follows this path specializes in terror and fear, usually localized to their enemies. While other warlords look to boost and inspire their allies, a Dreadlord works to undermine and terrify their enemies, crushing their will to fight and leaving them as prey easily slaughtered.
 
@@ -292,7 +292,7 @@ Starting at 18th level, when a target becomes frightened of you, you can expend 
 
 <div class="subclass-content" data-subclass="noble">
 
-## Noble's Presence
+## ^^Noble's Presence^^
 
 A Warlord with a Noble Presence is not inherently one born to nobility, though many are. A Noble Presence Warlord is one who drives their retainers and companions to greater heights through sheer charisma, standing beside them as a shining beacon of what they fight for.
 
@@ -380,7 +380,7 @@ Once you cast *command* using this ability, you cannot do so again until you fin
 
 <div class="subclass-content" data-subclass="packleader">
 
-## Packleader's Presence
+## ^^Packleader's Presence^^
 
 While Warlords may specialize in controlling battles, a Packleader aims to win the fight *before* it becomes one. Through scouting, preparation, and stacking the odds, they do not fight fair — they fight to win, and seek to fight only when the battle is already theirs.
 
@@ -460,7 +460,7 @@ Whenever you expend Leadership Dice to cast a spell, you may take the Attack act
 
 <div class="subclass-content" data-subclass="paragon">
 
-## Paragon's Presence
+## ^^Paragon's Presence^^
 
 Legends tell of warriors that fight at the front of a legion, of the valor they display and the inspiration it gives their comrades. A Paragon before their army is a dauntless foe, and an army behind their Paragon is an unstoppable legion.
 
@@ -529,7 +529,7 @@ Once a creature benefits from this effect, they cannot benefit from it again unt
 
 <div class="subclass-content" data-subclass="tactician">
 
-## Tactician's Presence
+## ^^Tactician's Presence^^
 
 A Tactician may very well tell you they would just as soon not be close enough to the battle to be considered a combatant, preferring to win their fights before they even reach that stage, but one would be a fool to underestimate how dangerous they are once on the battlefield.
 
