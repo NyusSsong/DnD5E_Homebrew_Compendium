@@ -133,3 +133,4 @@ Starting at 17th level, you are immune to the frightened and charmed conditions.
 Starting at 20th level, you can roll d4s and use them instead of expending Leadership Dice for Rallying Mark, Urgent Orders, Helpful Word, or Prepare for Battle.
 
 <hr>
+

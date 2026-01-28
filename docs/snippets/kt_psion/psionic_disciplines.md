@@ -37,12 +37,12 @@ On a failed save, you gain a psionic charge of consumed power until the end of y
 
 You can target the corpse of a recently perished creature with this power, as long as the target has died within the last minute and not been previously leeched by this power.
 
-- **Devouring (2 psi points).** The range of Mind Leech becomes a radius of 5 feet, centered on you.  
-- **Nourishing (1 psi point).** On a failed saving throw, you gain an additional psionic charge.  
-- **Rending (1+ psi points).** The target takes an additional die of damage (1d6 or 1d12) per psi point spent on a failed save.  
-- **Shredding (1 psi point).** You reduce the target’s next saving throw before the end of your next turn by 1d4.  
-- **Stunning (3 psi points).** On a failed save, the target becomes stunned until the start of your next turn. If the power affects multiple targets, choose one.  
-- **Thieving (1 psi point).** On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell). You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.
+* **Devouring (2 psi points).** The range of Mind Leech becomes a radius of 5 feet, centered on you.  
+* **Nourishing (1 psi point).** On a failed saving throw, you gain an additional psionic charge.  
+* **Rending (1+ psi points).** The target takes an additional die of damage (1d6 or 1d12) per psi point spent on a failed save.  
+* **Shredding (1 psi point).** You reduce the target’s next saving throw before the end of your next turn by 1d4.  
+* **Stunning (3 psi points).** On a failed save, the target becomes stunned until the start of your next turn. If the power affects multiple targets, choose one.  
+* **Thieving (1 psi point).** On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell). You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.
 
 #### Alternate Effects
 
@@ -84,10 +84,10 @@ You empower the body of a target creature you can see with your psionics. The ta
 
 You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-- **Fortifying (1+ psi points).** The target gains an extra 1d6 temporary hit points for each point spent.
-- **Resilient (3 psi points).** The target gains resistance to all damage until the start of your next turn.
-- **Savage (1+ psi points).** The target’s next weapon attack deals 1d6 additional damage for each point spent.
-- **Swift (2 psi points).** The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
+* **Fortifying (1+ psi points).** The target gains an extra 1d6 temporary hit points for each point spent.
+* **Resilient (3 psi points).** The target gains resistance to all damage until the start of your next turn.
+* **Savage (1+ psi points).** The target’s next weapon attack deals 1d6 additional damage for each point spent.
+* **Swift (2 psi points).** The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
 
 #### Alternate Effects
 
@@ -133,11 +133,11 @@ If the target is an aberration, celestial, construct, elemental, fey, fiend, und
 
 You can spend psi points up to your per-use limit to add the following modifiers to Denial (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-- **Aura (3 psi points).** Instead of targeting a creature, the power becomes an effect around you with a radius of 20 feet until the start of your next turn; any creature of your choice that enters or starts its turn in the area must make a saving throw against the power.
-- **Existential (1+ psi points).** You deal an additional 1d4 initial and bonus (if applicable) force damage to the target on a failed save.
-- **Firm (2 psi points).** The creature has disadvantage on the saving throw against this ability.
-- **Lingering (1+ psi points).** You can apply the effect of Disruptive Touch to an affected creature.
-- **Supernatural (1+ psi points).** A supernatural effect of or on the creature is ended; if the effect is a magical or psionic power, it ends only if the psi points spent on this modifier equals or exceeds the spell level or psi points spent on the effect. If the property is innate (of the target or affecting the target), it ends only if the psi points exceed the CR (or class levels) of the creature, and it returns at the end of that creature’s next turn. The supernatural effect cannot be its existence unless it has fewer than 10 hit points and otherwise qualifies.
+* **Aura (3 psi points).** Instead of targeting a creature, the power becomes an effect around you with a radius of 20 feet until the start of your next turn; any creature of your choice that enters or starts its turn in the area must make a saving throw against the power.
+* **Existential (1+ psi points).** You deal an additional 1d4 initial and bonus (if applicable) force damage to the target on a failed save.
+* **Firm (2 psi points).** The creature has disadvantage on the saving throw against this ability.
+* **Lingering (1+ psi points).** You can apply the effect of Disruptive Touch to an affected creature.
+* **Supernatural (1+ psi points).** A supernatural effect of or on the creature is ended; if the effect is a magical or psionic power, it ends only if the psi points spent on this modifier equals or exceeds the spell level or psi points spent on the effect. If the property is innate (of the target or affecting the target), it ends only if the psi points exceed the CR (or class levels) of the creature, and it returns at the end of that creature’s next turn. The supernatural effect cannot be its existence unless it has fewer than 10 hit points and otherwise qualifies.
 
 #### Alternate Effects
 
@@ -181,15 +181,15 @@ If you concentrate on keeping an eye on the future (as if concentrating on a spe
 
 You concentrate and peer into the stream of future possibilities, gaining insight into what will happen next. Choose one of the following:
 
-- You can grant advantage to yourself or to a creature that can see or hear you on their next attack roll before the start of your next turn. If an attack that gained advantage from this feature hits, it deals an extra 1d6 damage.
-- You can impose disadvantage on the next attack roll made against yourself or a creature that can see or hear you before the start of your next turn. If that attack hits despite the disadvantage, the damaged creature rolls 1d6 and subtracts the result from the damage taken.
-- You can spend psi points up to your per-use limit to add the following modifiers to Seeing (you can add multiple modifiers):
+* You can grant advantage to yourself or to a creature that can see or hear you on their next attack roll before the start of your next turn. If an attack that gained advantage from this feature hits, it deals an extra 1d6 damage.
+* You can impose disadvantage on the next attack roll made against yourself or a creature that can see or hear you before the start of your next turn. If that attack hits despite the disadvantage, the damaged creature rolls 1d6 and subtracts the result from the damage taken.
+* You can spend psi points up to your per-use limit to add the following modifiers to Seeing (you can add multiple modifiers):
 
-    - **Omniscient (1 psi point).** The beneficiary of your Seeing is under the effects of *bless* and *guidance* until the start of your next turn.  
-    - **Piercing (1+ psi points).** You see through the target’s defenses when granting advantage, increasing the damage of the attack benefiting from advantage by 1d8 per psi point spent, if it hits.  
-    - **Positioning (1+ psi points).** The beneficiary of your Seeing can immediately move 5 feet per psi point spent (up to their speed) without provoking opportunity attacks.  
-    - **Thwarting (2 psi points).** The beneficiary of your Seeing has advantage on the next saving throw they make before the start of your next turn.  
-    - **Withheld (0 psi points).** Rather than granting advantage or disadvantage on the next attack, you can grant advantage or impose disadvantage as a reaction to an attack being made until the start of your next turn.
+    * **Omniscient (1 psi point).** The beneficiary of your Seeing is under the effects of *bless* and *guidance* until the start of your next turn.  
+    * **Piercing (1+ psi points).** You see through the target’s defenses when granting advantage, increasing the damage of the attack benefiting from advantage by 1d8 per psi point spent, if it hits.  
+    * **Positioning (1+ psi points).** The beneficiary of your Seeing can immediately move 5 feet per psi point spent (up to their speed) without provoking opportunity attacks.  
+    * **Thwarting (2 psi points).** The beneficiary of your Seeing has advantage on the next saving throw they make before the start of your next turn.  
+    * **Withheld (0 psi points).** Rather than granting advantage or disadvantage on the next attack, you can grant advantage or impose disadvantage as a reaction to an attack being made until the start of your next turn.
 
 #### Alternate Effects
 
@@ -237,13 +237,13 @@ When you create it, and on subsequent turns using your action to mentally contro
 
 While the Astral Construct is active, you can spend psi points up to your per-use limit to issue commands that affect and empower it. Commands require no action, but you cannot exceed your per-use psi point limit in total commands issued, and each command can only be issued once per turn.
 
-- **Grab (1 psi point).** Can only be used while your construct is Solidified. A creature within 5 feet of the construct and no more than one size larger must make a Strength saving throw or become restrained. It can repeat the save at the end of each of its turns. The effect ends if the construct becomes ethereal or becomes more than one size smaller than the target.  
-- **Grow (1 psi point).** The construct increases by one size, and its damage increases by one die (up to 2d8). It returns to normal size at the start of your next turn.  
-- **Relocate (1 psi point).** The construct disappears and reappears anywhere within 60 feet of you.  
-- **Replicate (3 psi points).** Functions as Relocate, except the original does not disappear. You temporarily control two constructs with the same action until the start of your next turn. Pick one construct to fade at the start of your next turn unless you use Sustain.  
-- **Solidify (1 psi point).** The construct becomes solid, blocking its space until the start of your next turn. It must occupy an unoccupied space. It has AC 16 and hit points equal to your Intelligence modifier + your Psion level. If reduced to 0 hit points, it becomes ethereal again.  
-- **Strike (2 psi points).** The construct makes an attack, even if it has already attacked this turn.  
-- **Sustain (1+ psi points).** At the start of your turn, you can sustain the effects of Solidify, Grow, or Replicate for an additional round. Sustaining Replicate applies to all replicated constructs. Each effect can only be sustained once per turn. Sustaining Solidify restores the construct to its maximum hit points.  
+* **Grab (1 psi point).** Can only be used while your construct is Solidified. A creature within 5 feet of the construct and no more than one size larger must make a Strength saving throw or become restrained. It can repeat the save at the end of each of its turns. The effect ends if the construct becomes ethereal or becomes more than one size smaller than the target.  
+* **Grow (1 psi point).** The construct increases by one size, and its damage increases by one die (up to 2d8). It returns to normal size at the start of your next turn.  
+* **Relocate (1 psi point).** The construct disappears and reappears anywhere within 60 feet of you.  
+* **Replicate (3 psi points).** Functions as Relocate, except the original does not disappear. You temporarily control two constructs with the same action until the start of your next turn. Pick one construct to fade at the start of your next turn unless you use Sustain.  
+* **Solidify (1 psi point).** The construct becomes solid, blocking its space until the start of your next turn. It must occupy an unoccupied space. It has AC 16 and hit points equal to your Intelligence modifier + your Psion level. If reduced to 0 hit points, it becomes ethereal again.  
+* **Strike (2 psi points).** The construct makes an attack, even if it has already attacked this turn.  
+* **Sustain (1+ psi points).** At the start of your turn, you can sustain the effects of Solidify, Grow, or Replicate for an additional round. Sustaining Replicate applies to all replicated constructs. Each effect can only be sustained once per turn. Sustaining Solidify restores the construct to its maximum hit points.  
 
 #### Alternate Effects
 
@@ -312,10 +312,10 @@ You can spend psi points up to your per use limit to add the
 following modifiers to (you can add multiple modifiers). The
 points must be spent when choosing the target of the power.
 
-- **Amplified (1+ psi points).** The target takes an extra 1d8 cold, fire, force or lightning damage on a hit for each additional point spent.
-- **Lasting (1 psi point).** Your Elemental Blast leaves a 5-foot-radius sphere of devastation behind where it strikes until the start of your next turn. Creatures that enter this zone for the first time or end their turn in it must make a Constitution saving throw or suffer the secondary effects (slow, burn, arc) of the blast as if they had been hit by it.
-- **Massive (1–3 psi points).** You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).
-- **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
+* **Amplified (1+ psi points).** The target takes an extra 1d8 cold, fire, force or lightning damage on a hit for each additional point spent.
+* **Lasting (1 psi point).** Your Elemental Blast leaves a 5-foot-radius sphere of devastation behind where it strikes until the start of your next turn. Creatures that enter this zone for the first time or end their turn in it must make a Constitution saving throw or suffer the secondary effects (slow, burn, arc) of the blast as if they had been hit by it.
+* **Massive (1–3 psi points).** You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).
+* **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
 
 #### Alternate Effects
 
@@ -381,15 +381,15 @@ following modifiers to Telekinetic Force (you can add multiple
 modifiers). The points must be spent when choosing the target
 of the power.
 
-- **Crushing (2 psi points).** The target is restrained until the end
+* **Crushing (2 psi points).** The target is restrained until the end
   of its next turn if it fails its saving throw.
-- **Hammering (1+ psi points).** The target takes 1d10
+* **Hammering (1+ psi points).** The target takes 1d10
   bludgeoning damage for each point spent if it fails its saving
   throw.
-- **Hurling (1–3 psi points).** The target is shoved 10 feet in a
+* **Hurling (1–3 psi points).** The target is shoved 10 feet in a
   direction of your choosing for each point spent if it fails its
   saving throw.
-- **Zone of (1–3 psi points).** You can target all creatures in a
+* **Zone of (1–3 psi points).** You can target all creatures in a
   5-foot radius of a point within range. The radius doubles for
   each point spent (5 feet, 10 feet, 20 feet).
 
@@ -438,10 +438,10 @@ You assault the mind of a creature you can see directly. The target must succeed
 
 You can spend Psi Points up to your per-use limit to add the following modifiers to Telepathic Intrusion (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-- **Meddling (2 psi points).** You make one creature invisible to the target creature or cause the creature to see something that is not there with the effect of minor illusion until the start of your next turn if it fails its saving throw.
-- **Overwhelming (3 psi points).** The target is stunned until the end of its next turn if it fails its saving throw.
-- **Rending (1+ psi points).** The target takes 1d8 psychic damage for each additional point spent on a failed save.
-- **Terrifying (1 psi point).** The target is frightened of you until the end of your next turn if it fails its saving throw.
+* **Meddling (2 psi points).** You make one creature invisible to the target creature or cause the creature to see something that is not there with the effect of minor illusion until the start of your next turn if it fails its saving throw.
+* **Overwhelming (3 psi points).** The target is stunned until the end of its next turn if it fails its saving throw.
+* **Rending (1+ psi points).** The target takes 1d8 psychic damage for each additional point spent on a failed save.
+* **Terrifying (1 psi point).** The target is frightened of you until the end of your next turn if it fails its saving throw.
 
 #### Alternate Effects
 
@@ -483,11 +483,11 @@ You step through space, traveling up to 10 feet in a straight line leaving a spa
 
 You can spend psi points up to your per-use limit to add the following modifiers to Phase Rift (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-- **Blurring (1–3 psi points).** You gain an illusory duplicate, as per the *mirror image* spell. You gain 1 duplicate per psi point spent (up to a maximum of 3). One remaining image fades at the start of each of your turns.  
-- **Disruptive (1+ psi points).** Each target that fails their saving throw takes an extra 1d8 force damage for each point spent.  
-- **Echoing (2 psi points).** You immediately use Phase Rift again with the same action.  
-- **Ethereal (2 psi points).** You can pass through solid objects, buildings, and terrain as long as you end your Phase Rift in a space you can occupy. If your Phase Rift would end inside a space you can’t occupy, the power fails.  
-- **Long (1–3 psi points).** You can travel an additional 10 feet for each point spent.  
+* **Blurring (1–3 psi points).** You gain an illusory duplicate, as per the *mirror image* spell. You gain 1 duplicate per psi point spent (up to a maximum of 3). One remaining image fades at the start of each of your turns.  
+* **Disruptive (1+ psi points).** Each target that fails their saving throw takes an extra 1d8 force damage for each point spent.  
+* **Echoing (2 psi points).** You immediately use Phase Rift again with the same action.  
+* **Ethereal (2 psi points).** You can pass through solid objects, buildings, and terrain as long as you end your Phase Rift in a space you can occupy. If your Phase Rift would end inside a space you can’t occupy, the power fails.  
+* **Long (1–3 psi points).** You can travel an additional 10 feet for each point spent.  
 
 #### Alternate Effects
 
@@ -506,3 +506,5 @@ If a spell can be cast at a higher level, you can spend additional psi points to
 <hr>
 
 </div>
+
+

@@ -77,8 +77,8 @@ At 1st level when you select this archetype, you gain the ability to unleash you
 
 Additionally at 1st level, you gain the ability to cast thaumaturgy with your psionic powers. When you cast it in this way, you have an additional options:
 
-- You cause up to 10 pounds of loose objects within 10 feet of you to start floating for 1 minute.  
-- You can force all targets within 5 feet to make a Strength saving throw, or be pushed 5 feet away from you.
+* You cause up to 10 pounds of loose objects within 10 feet of you to start floating for 1 minute.  
+* You can force all targets within 5 feet to make a Strength saving throw, or be pushed 5 feet away from you.
 
 <hr>
 
@@ -188,9 +188,9 @@ At 1st level when you select this Archetype, you gain the ability to will the co
 
 Additionally at 1st level, when you conjure your Astral Construct, you can apply one of the following powers to it:
 
-- **Devastating Weapons.** You imagine more deadly armaments—from a greatsword to vicious fangs—causing your Astral Construct to grow more deadly. The Astral Construct’s damage becomes 1d12  
-- **Psionic Conduit.** You can use your psionic powers, spells, talents through your Astral Construct, as if you were in its space.  
-- **Vivid Existence.** Your Astral Construct fully materializes and automatically uses Solidify at the start of your turn without requiring a command to do so.
+* **Devastating Weapons.** You imagine more deadly armaments—from a greatsword to vicious fangs—causing your Astral Construct to grow more deadly. The Astral Construct’s damage becomes 1d12  
+* **Psionic Conduit.** You can use your psionic powers, spells, talents through your Astral Construct, as if you were in its space.  
+* **Vivid Existence.** Your Astral Construct fully materializes and automatically uses Solidify at the start of your turn without requiring a command to do so.
 
 You can change which benefit you grant it for the duration of the effect as a bonus action.
 
@@ -313,9 +313,9 @@ At 1st level when you select this archetype, you gain a deep intrinsic tie to el
 
 Additionally at 1st level, as an action or when you deal fire, cold, or lightning damage (no action required), you take on an aspect of that element until the end of your next turn or until you take a new primordial aspect:
 
-- **Cold.** You gain an icy shell, reducing any nonmagical bludgeoning, piercing or slashing damage taken by your proficiency bonus.  
-- **Fire.** You gain a fiery aura. Once per turn, a creature within 5 feet that hits you with a melee attack takes fire damage equal to your proficiency bonus.  
-- **Lightning.** You flicker with lightning. Your walking speed is increased by 5 feet for the duration.  
+* **Cold.** You gain an icy shell, reducing any nonmagical bludgeoning, piercing or slashing damage taken by your proficiency bonus.  
+* **Fire.** You gain a fiery aura. Once per turn, a creature within 5 feet that hits you with a melee attack takes fire damage equal to your proficiency bonus.  
+* **Lightning.** You flicker with lightning. Your walking speed is increased by 5 feet for the duration.  
 
 You can additionally spend 1 psi point to gain resistance to the element until the start of your next turn. If you are specialized in an element, you can do this without spending a psi point for that element.
 
@@ -325,9 +325,9 @@ You can additionally spend 1 psi point to gain resistance to the element until t
 
 Starting at 3rd level, your powers become a living extension of your mind, weaving an extension of your will into reality, allowing you to manipulate your powers in more advanced ways. When you use a power or alternate effect of Psychokinetics, you can apply one of the following modifiers:
 
-- **Shaped Power.** When you use a power or spell that makes a ranged spell attack, you can convert it to a melee spell attack (such as forming it into a weapon shape), and when you would make an attack that would make a melee spell attack, you can instead form it into a shape and hurl it at a target within 15 feet, making a ranged spell attack.  
-- **Controlled Power.** When you use a spell or power that targets an area, you can select a number of creatures equal to the psi points spent in the area of effect for the spell or power to be ignored. The power passes harmlessly around these creatures, they automatically succeed on their saving throw against the effect, and they take no damage if they would normally take half damage on a successful save against the effect.  
-- **Raging Power.** When you use a spell or power, you can let it rage out of control. When you roll damage for the power or spell, you can reroll a number of dice up to 1 + the number of psi points spent. You must use the new roll.
+* **Shaped Power.** When you use a power or spell that makes a ranged spell attack, you can convert it to a melee spell attack (such as forming it into a weapon shape), and when you would make an attack that would make a melee spell attack, you can instead form it into a shape and hurl it at a target within 15 feet, making a ranged spell attack.  
+* **Controlled Power.** When you use a spell or power that targets an area, you can select a number of creatures equal to the psi points spent in the area of effect for the spell or power to be ignored. The power passes harmlessly around these creatures, they automatically succeed on their saving throw against the effect, and they take no damage if they would normally take half damage on a successful save against the effect.  
+* **Raging Power.** When you use a spell or power, you can let it rage out of control. When you roll damage for the power or spell, you can reroll a number of dice up to 1 + the number of psi points spent. You must use the new roll.
 
 <hr>
 
@@ -341,9 +341,9 @@ Starting at 6th level, when you deal damage with a psionic discipline power, you
 
 Starting at 10th level, when you enter a primordial aspect, you can expend 1 psi point to fully manifest that element, replacing the primordial aspect with the following effect. If you are specialized in that element, it doesn’t require a psi point to fully manifest the power:
 
-- **Cold.** Your speed becomes 0 until the end of your next turn, but you have resistance to all damage types except fire and force.  
-- **Fire.** Fire fills a 10-foot radius around you. When a creature enters the area for the first time on a turn or starts its turn there, it takes fire damage equal to 1d4 + your proficiency bonus.  
-- **Lightning.** You can use your movement to teleport a distance up to your speed for the duration.  
+* **Cold.** Your speed becomes 0 until the end of your next turn, but you have resistance to all damage types except fire and force.  
+* **Fire.** Fire fills a 10-foot radius around you. When a creature enters the area for the first time on a turn or starts its turn there, it takes fire damage equal to 1d4 + your proficiency bonus.  
+* **Lightning.** You can use your movement to teleport a distance up to your speed for the duration.  
 
 If you are not in a primordial aspect, you can fully manifest a power as a bonus action for 2 psi points (or 1 psi point if you are specialized in that power).
 
@@ -416,3 +416,5 @@ Further, you can use additional power to leave their mind further vulnerable. Yo
 <hr>
 
 </div>
+
+

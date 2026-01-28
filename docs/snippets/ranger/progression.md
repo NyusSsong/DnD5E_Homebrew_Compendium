@@ -20,3 +20,4 @@
 | 18th | +6 | Feral Senses, Ranger's Quarry (Indefinite) | 10 | 4 | 3 | 3 | 3 | 1 | d12 |
 | 19th | +6 | Ability Score Improvement | 11 | 4 | 3 | 3 | 3 | 2 | d12 |
 | 20th | +6 | Foe Slayer | 12 | 4 | 3 | 3 | 3 | 2 | d12 |
+

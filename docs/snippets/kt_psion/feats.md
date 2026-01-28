@@ -17,41 +17,41 @@ You tap deeper into your psionic potential, drawing out a new talent. You can se
 
 You have mastered utilizing psionics in the midst of combat, learning techniques that grant you the following benefits:
 
-- You have advantage on Constitution saving throws that you make to maintain your concentration on a psionic ability when you take damage.
-- You can perform the somatic components of psionic abilities even when you have weapons or a shield in one or both hands.
-- When a hostile creature’s movement provokes an opportunity attack from you, you can use your reaction to use a psionic discipline’s power or spell targeting the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.
+* You have advantage on Constitution saving throws that you make to maintain your concentration on a psionic ability when you take damage.
+* You can perform the somatic components of psionic abilities even when you have weapons or a shield in one or both hands.
+* When a hostile creature’s movement provokes an opportunity attack from you, you can use your reaction to use a psionic discipline’s power or spell targeting the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.
 
 #### Psionic Synthesis
 *Prerequisite: 4th-level Psion, 2 or more psionic disciplines known*
 
 You gain the ability to meld your Psionic abilities together to produce potent new effects. When you select this feat, you can select one fusion talent for free. You can only select fusion talents when you have all the Disciplines in their prerequisite. You can select fusion talent samples from below:  
 
-- ##### **Astral Rift**
+* ##### **Astral Rift**
 *Prerequisite: Psionic Synthesis, Transposition Discipline, Projection Discipline, Astral Swap Talent*
 
     As a bonus action, you can Phase Rift to where your Astral Construct is; this movement counts as a Phase Rift, and you can apply modifiers to it as normal. Your Astral Construct is moved to where you started this movement along the Phase Rift; during the movement you can command your Astral Construct to attack a creature it passes with its action.
 
-- ##### **Elemental Phasing**
+* ##### **Elemental Phasing**
 *Prerequisite: Psionic Synthesis, Psychokinetics Discipline, Transposition Discipline*
 
     As you step between planes, you can tap into the Elemental Planes, bringing their power into the material with you. You can use Psychokinetic modifiers on Phase Rift (excluding Massive). Additionally, whenever you deal damage to an area with a Psychokinetics ability that would include yourself, you can phase yourself out of reality to take no damage from the effect.
 
-- ##### **Kinetic Mastery**
+* ##### **Kinetic Mastery**
 *Prerequisite: Psionic Synthesis, Psychokinetics Discipline, Telekinesis Discipline*
 
     Your ability to manipulate energy becomes a single blended prowess, freely swapping between manipulating force and energy. You can apply Telekinetic Force modifiers to Kinetic Blast and Elemental Blast modifiers to Telekinetic Force (though you do not gain any benefits from a Specialization while doing so).
 
-- ##### **Parasitic Nightmare**
+* ##### **Parasitic Nightmare**
 *Prerequisite: Psionic Synthesis, Consumption Discipline, Telepathy Discipline*
 
     You gain the ability to add Telepathic Intrusion modifiers to *Mind Leech*. Additionally, when you deal psychic damage to a creature that is frightened of you, you can render yourself invisible to that creature until the start of your next turn; you can immediately (no action required) roll an Intelligence (Stealth) check affecting only creatures you are invisible from as a result of this talent. If you are hidden from a creature that is frightened of you, when it moves, you can use your reaction to teleport to an unoccupied space within 5 feet of that creature (at the completion of their movement).
 
-- ##### **Phantom Blade Barrage**
+* ##### **Phantom Blade Barrage**
 *Prerequisite: Psionic Synthesis, Projected Weaponry, Telekinetic Weapons*
 
     You can create a weapon with Projected Weapon as part of making an attack with it using Telekinetic Weapons, allowing you to project as many weapons in this manner as you make attacks (no additional action required). When you use weapons created by Projected Weaponry as the projectiles for your Telekinetic Weapons, the range you can fling the weapons is doubled. Additionally, if you expend 6 psi points on the Whirling modifier of Telekinetic Weapons, you can cast *blade barrier* instead of *cloud of daggers*, generating a much larger number of ethereal blades as part of the casting.
 
-- ##### **Physical Telekinesis**
+* ##### **Physical Telekinesis**
 *Prerequisite: Psionic Synthesis, Enhancement Discipline, Telekinesis Discipline*
 
     When you use an Enhancing Surge to empower a creature, you can expend a psi point to augment it with your Telekinesis to further assist them, optionally granting one of the following benefits:
@@ -62,7 +62,7 @@ You gain the ability to meld your Psionic abilities together to produce potent n
 
     Additionally, while under the effect of Enhancing Surge, the amount you can lift, drag, or carry is doubled with the assistance of your Telekinesis, and you can apply Telekinetic Force modifiers to your weapon attacks.
 
-- ##### **Reality Warper**
+* ##### **Reality Warper**
 *Prerequisite: Psionic Synthesis, Matter Made Real, Mental Image*
 
     You can bring the illusions you make people see to life. When you are concentrating on an illusion spell, as a bonus action you can expend psi points during your turn to bring aspects of the illusion into reality. For each psi point spent, you can bring a 5-foot-cube section of the illusion into reality until the start of your next turn, and it can have the following effects:
@@ -71,7 +71,9 @@ You gain the ability to meld your Psionic abilities together to produce potent n
     * If the effect would stop a creature, they can’t move through it. If the effect would restrain a creature, that creature must pass a Dexterity saving throw or become restrained until the start of your next turn.
     * Each 5-foot cube can affect only one creature that is either within it or adjacent to it. The GM may allow other effects at their discretion.
 
-- ##### **The Void**
+* ##### **The Void**
 *Prerequisite: Consumption Discipline, Nullification Discipline*
 
     You devour all supernatural effects near you. Whenever a creature (including yourself) within 5 feet of you takes damage from a magical source, you can expend 1 or more psi points to use your reaction to reduce the damage taken by 1d8 per psi point spent. You can divide this amount between multiple creatures within range if they take damage at the same time. Additionally, whenever you successfully cast *counterspell*, *dispel magic*, or *remove curse*, you regain hit points equal to the level of the spell stopped or ended.
+
+

@@ -78,9 +78,9 @@ You can also Rage while you are wearing heavy armor.
 
 Over the course of an hour, which can be during a short or long rest, you can use smith's tools to affix spikes to a set of non-magical armor, turning it into Spiked Armor. Spiked Armor has the following properties when worn by you:
 
-- It is a martial melee weapon with a reach of 5 feet, and on hit, the armor deals piercing damage equal to one roll of your Exploit Die + your Strength modifier.
-- While you are raging, you can use a bonus action on your turn to make a single Spiked Armor attack.
-- If you successfully grapple a creature it takes piercing damage equal to one roll of your Exploit Die.
+* It is a martial melee weapon with a reach of 5 feet, and on hit, the armor deals piercing damage equal to one roll of your Exploit Die + your Strength modifier.
+* While you are raging, you can use a bonus action on your turn to make a single Spiked Armor attack.
+* If you successfully grapple a creature it takes piercing damage equal to one roll of your Exploit Die.
 
 <hr>
 
@@ -118,11 +118,9 @@ Barbarians who walk the Path of the Beast draw their rage from a bestial spark b
 
 When you Rage, you manifest a portion of your bestial power in the form of one of the natural weapons listed below, which lasts for the duration of that Rage. These weapons all count as simple melee weapons which you are proficient with, and use your Strength modifier for their attack and damage rolls:
 
-- **Bite.** You grow fangs that deal 1d8 piercing damage on hit. Once per turn when you hit a creature with this Bite, you gain temporary hit points equal to your Constitution modifier.
-
-- **Claws.** Your hands elongate into savage claws that deal 1d6 slashing damage on hit. Whenever you take the Attack action on your turn and make only Claw attacks, you can make one additional Claw attack as part of that Attack action.
-
-- **Tail.** You sprout a long thick tail that deals 1d8 piercing damage on hit and has the reach property. When a creature within 10 feet that you can see targets you with a weapon attack, you can use your reaction to add one roll of your Exploit Die to your Armor Class against that attack.
+* **Bite.** You grow fangs that deal 1d8 piercing damage on hit. Once per turn when you hit a creature with this Bite, you gain temporary hit points equal to your Constitution modifier.
+* **Claws.** Your hands elongate into savage claws that deal 1d6 slashing damage on hit. Whenever you take the Attack action on your turn and make only Claw attacks, you can make one additional Claw attack as part of that Attack action.
+* **Tail.** You sprout a long thick tail that deals 1d8 piercing damage on hit and has the reach property. When a creature within 10 feet that you can see targets you with a weapon attack, you can use your reaction to add one roll of your Exploit Die to your Armor Class against that attack.
 
 <hr>
 
@@ -130,9 +128,9 @@ When you Rage, you manifest a portion of your bestial power in the form of one o
 
 The ancient curse that flows in your veins greatly increases your physical abilities. You gain the benefits listed below:
 
-- You gain a climbing speed equal to your walking speed.
-- You learn the *Cunning Instinct* and *Mighty Leap* exploits if you didn't know them already and you can use them at will without expending an Exploit Die (as if you spent 1 Die).
-- Your natural weapon attacks count as magical for overcoming resistances and immunities to non-magical attacks and damage.
+* You gain a climbing speed equal to your walking speed.
+* You learn the *Cunning Instinct* and *Mighty Leap* exploits if you didn't know them already and you can use them at will without expending an Exploit Die (as if you spent 1 Die).
+* Your natural weapon attacks count as magical for overcoming resistances and immunities to non-magical attacks and damage.
 
 <hr>
 
@@ -140,8 +138,8 @@ The ancient curse that flows in your veins greatly increases your physical abili
 
 When you hit a creature with a natural weapon attack while raging, you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw against your Exploit save DC or suffer one of the following effects of your choice:
 
-- The target must use its reaction to make a melee attack against another creature of your choice that you can see.
-- The target takes 2d12 psychic damage.
+* The target must use its reaction to make a melee attack against another creature of your choice that you can see.
+* The target takes 2d12 psychic damage.
 
 You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all uses each time you finish a long rest.
 
@@ -207,11 +205,9 @@ When you Rage, you emanate an Aura of primal power in a 10-foot radius, choosing
 
 When you gain a level in this class, you can change the effect of your Aura for another option from the list below:
 
-- **Blizzard.** Any creature of your choice that starts its turn within range has its speed halved until start of its next turn.
-
-- **Drought.** At the end of each of your turns, creatures of your choice within range take fire damage equal to your Constitution modifier (minimum of 1 damage).
-
-- **Hurricane.** At the end of each of your turns you can force one creature within range to make a Dexterity saving throw. It takes lightning damage equal to two rolls of your Exploit Die on a failed save, and half as much damage on a success.
+* **Blizzard.** Any creature of your choice that starts its turn within range has its speed halved until start of its next turn.
+* **Drought.** At the end of each of your turns, creatures of your choice within range take fire damage equal to your Constitution modifier (minimum of 1 damage).
+* **Hurricane.** At the end of each of your turns you can force one creature within range to make a Dexterity saving throw. It takes lightning damage equal to two rolls of your Exploit Die on a failed save, and half as much damage on a success.
 
 <hr>
 
@@ -219,11 +215,9 @@ When you gain a level in this class, you can change the effect of your Aura for 
 
 Your connection to the forces of nature deepens and grants you the benefits below associated with your Storm Aura:
 
-- **Blizzard.** You gain resistance to cold damage, and when you deal damage with a Savage Exploit, you can choose for it to deal cold damage in place of its normal damage type.
-
-- **Drought.** You gain resistance to fire damage, and you learn the *produce flame* cantrip. Constitution is your spellcasting modifier for it, and you can cast it even while you are raging.
-
-- **Hurricane.** You gain resistance to lightning and thunder damage, you gain a swimming speed equal to your walking speed, and you can breathe both air and water.
+* **Blizzard.** You gain resistance to cold damage, and when you deal damage with a Savage Exploit, you can choose for it to deal cold damage in place of its normal damage type.
+* **Drought.** You gain resistance to fire damage, and you learn the *produce flame* cantrip. Constitution is your spellcasting modifier for it, and you can cast it even while you are raging.
+* **Hurricane.** You gain resistance to lightning and thunder damage, you gain a swimming speed equal to your walking speed, and you can breathe both air and water.
 
 <hr>
 
@@ -237,11 +231,9 @@ Your primal power overflows and infuses your companions. While raging, creatures
 
 The elemental forces that fuel your Rage grows ever stronger. Your Storm Aura gains the following additional benefits:
 
-- **Blizzard.** When a creature begins its turn within your Storm Aura, you can use your reaction to force it to make a Strength saving throw. On a failed save, the creature's speed is reduced to 0 until the beginning of its next turn.
-
-- **Drought.** When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Dexterity saving throw. On a failed save, it takes fire damage equal to two rolls of your Exploit Die.
-
-- **Hurricane.** When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Strength saving throw. On a failed save, it is knocked back from you 10 feet in a straight line and falls prone.
+* **Blizzard.** When a creature begins its turn within your Storm Aura, you can use your reaction to force it to make a Strength saving throw. On a failed save, the creature's speed is reduced to 0 until the beginning of its next turn.
+* **Drought.** When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Dexterity saving throw. On a failed save, it takes fire damage equal to two rolls of your Exploit Die.
+* **Hurricane.** When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Strength saving throw. On a failed save, it is knocked back from you 10 feet in a straight line and falls prone.
 
 <hr>
 
@@ -263,15 +255,11 @@ Your connection to the primal spirits of nature allows you to communicate with w
 
 Choose one of the animal spirits from the list below to gain its benefits. Once selected, this choice cannot be changed:
 
-- **Bear.** The resilient spirit of the Bear increases your ability to take physical hits. While raging, you gain resistance to all types of damage except psychic damage.
-
-- **Eagle.** The fierce spirit of the Eagle grants you the ability to move fast as the wind. While raging, you can use a bonus action to gain the benefits of the Dash and Disengage action, including the bonus action that you use to enter a Rage.
-
-- **Elk.** The noble spirit of the Elk makes you extraordinarily swift. While raging, your walking speed increases by 15 feet.
-
-- **Tiger.** The ruthless spirit of the Tiger empowers your leaps in battle. You learn the *Mighty Leap* exploit if you didn't know it already. Once per turn while raging, you can use it at its lowest level without expending an Exploit Die.
-
-- **Wolf.** The cunning spirit of the Wolf enhances your ability to fight alongside your pack. While raging, allied creatures of your choice have advantage on any melee attack roll they make against hostile creatures within 10 feet of you.
+* **Bear.** The resilient spirit of the Bear increases your ability to take physical hits. While raging, you gain resistance to all types of damage except psychic damage.
+* **Eagle.** The fierce spirit of the Eagle grants you the ability to move fast as the wind. While raging, you can use a bonus action to gain the benefits of the Dash and Disengage action, including the bonus action that you use to enter a Rage.
+* **Elk.** The noble spirit of the Elk makes you extraordinarily swift. While raging, your walking speed increases by 15 feet.
+* **Tiger.** The ruthless spirit of the Tiger empowers your leaps in battle. You learn the *Mighty Leap* exploit if you didn't know it already. Once per turn while raging, you can use it at its lowest level without expending an Exploit Die.
+* **Wolf.** The cunning spirit of the Wolf enhances your ability to fight alongside your pack. While raging, allied creatures of your choice have advantage on any melee attack roll they make against hostile creatures within 10 feet of you.
 
 <hr>
 
@@ -279,11 +267,9 @@ Choose one of the animal spirits from the list below to gain its benefits. Once 
 
 You gain the benefits of a second animal spirit, choosing from the list below. Once selected, this choice cannot be changed:
 
-- **Elephant.** The spirit of the Elephant lends you its power. When you make a Strength (Athletics) or a Wisdom (Insight) check you can add your Constitution modifier to your roll.
-
-- **Owl.** The spirit of the Owl grants you its sight. When you make an Intelligence (Investigation) or Wisdom (Perception) check you can add your Constitution modifier to your roll.
-
-- **Panther.** The spirit of the Panther increases your cunning. When you make a Dexterity (Stealth) or Wisdom (Survival) check you can add your Constitution modifier to your roll.
+* **Elephant.** The spirit of the Elephant lends you its power. When you make a Strength (Athletics) or a Wisdom (Insight) check you can add your Constitution modifier to your roll.
+* **Owl.** The spirit of the Owl grants you its sight. When you make an Intelligence (Investigation) or Wisdom (Perception) check you can add your Constitution modifier to your roll.
+* **Panther.** The spirit of the Panther increases your cunning. When you make a Dexterity (Stealth) or Wisdom (Survival) check you can add your Constitution modifier to your roll.
 
 <hr>
 
@@ -299,11 +285,9 @@ Moreover, once per long rest, you can cast *commune with nature* and replace one
 
 You gain the benefits of a final animal spirit, completing your training as a Totem Warrior. Choose from the list below:
 
-- **Lion.** The spirit of the Lion imbues you with regal power. While raging, any hostile creatures within 5 feet of you have disadvantage on attack rolls against targets other than you.
-
-- **Falcon.** The spirit of the Falcon grants you its wings. While raging, you gain a flying speed equal to your walking speed.
-
-- **Rhino.** The spirit of the Rhino lends you its power. While raging, if you hit a creature that is one size larger than you or smaller with a Strength-based melee weapon attack, it must succeed on a Strength saving throw or be knocked prone.
+* **Lion.** The spirit of the Lion imbues you with regal power. While raging, any hostile creatures within 5 feet of you have disadvantage on attack rolls against targets other than you.
+* **Falcon.** The spirit of the Falcon grants you its wings. While raging, you gain a flying speed equal to your walking speed.
+* **Rhino.** The spirit of the Rhino lends you its power. While raging, if you hit a creature that is one size larger than you or smaller with a Strength-based melee weapon attack, it must succeed on a Strength saving throw or be knocked prone.
 
 <hr>
 
@@ -358,9 +342,9 @@ If a Wild Sorcery effect requires a saving throw, targets make their saving thro
 
 As an action, you can touch a creature, including yourself, and confer one of the following benefits to that creature:
 
-- Choose an ability score. For 10 minutes, when the target makes an ability check or saving throw with that ability score, it gains a bonus to its roll equal to your Exploit Die.
-- The creature gains temporary hit points equal to your level + your Exploit Die. For as long as the temporary hit points last, the target is immune to Wild Sorcery effects.
-- You touch a target and expend any number of Exploit Dice. The target regains an expended spell slot of a level equal to the number of Exploit Dice you expend.
+* Choose an ability score. For 10 minutes, when the target makes an ability check or saving throw with that ability score, it gains a bonus to its roll equal to your Exploit Die.
+* The creature gains temporary hit points equal to your level + your Exploit Die. For as long as the temporary hit points last, the target is immune to Wild Sorcery effects.
+* You touch a target and expend any number of Exploit Dice. The target regains an expended spell slot of a level equal to the number of Exploit Dice you expend.
 
 You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses each time you finish a long rest.
 
@@ -423,3 +407,4 @@ If your Rage ends and you still have 0 hit points, you fall unconscious. If you 
 <hr>
 
 </div>
+

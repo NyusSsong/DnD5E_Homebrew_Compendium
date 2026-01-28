@@ -20,3 +20,4 @@
 | 18th | +6 | Warlord Specialization Feature | d12 | 18 |
 | 19th | +6 | Ability Score Improvement | d12 | 19 |
 | 20th | +6 | Tireless Leader | d12 | 20 |
+

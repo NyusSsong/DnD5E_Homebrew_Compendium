@@ -97,9 +97,9 @@ Your power of conviction allows you to believe what you choose to. If you spend 
 
 Additionally, your psionic powers allow you to impose your will upon reality to a certain extent. When you expend 1 psi point, you can perform a minor alteration to reality:
 
-- You can conjure any Tiny object you can imagine that is worth 1 sp or less. This creates an object as you envision it, but doesn’t grant you knowledge you do not otherwise have (for example, you would be unable to conjure a key to a lock unless you had a perfect mental image of the correct key).
-- As an action, you can change the color or taste of a Small or smaller object within 10 feet. This change lasts for 1 minute.
-- As a reaction to a creature within 30 feet taking damage (including yourself), you can change the damage type they take.
+* You can conjure any Tiny object you can imagine that is worth 1 sp or less. This creates an object as you envision it, but doesn’t grant you knowledge you do not otherwise have (for example, you would be unable to conjure a key to a lock unless you had a perfect mental image of the correct key).
+* As an action, you can change the color or taste of a Small or smaller object within 10 feet. This change lasts for 1 minute.
+* As a reaction to a creature within 30 feet taking damage (including yourself), you can change the damage type they take.
 
 #### Potent Psionics
 
@@ -134,10 +134,10 @@ You gain the ability to impart part of your mind into crystal. You can expend 2 
 
 When you summon a Psi Crystal, you can store a fragment of your personality in it that you can release by shattering the crystal. Select one of the following:
 
-- **Courage.** When you make a saving throw against the frightened condition, you can use your reaction to shatter the crystal, releasing that emotion to gain advantage on the save.
-- **Cowardice.** When your Psi Crystal is within 30 feet of you and a creature comes within 5 feet of you, you can use your reaction to shatter the crystal, releasing that emotion and immediately moving up to your speed away from the creature without taking any opportunity attacks.
-- **Cruelty.** When your Psi Crystal is within 30 feet of a creature that takes damage, you can use your reaction to shatter the crystal, releasing that emotion and causing the creature to take additional damage equal to your psion level.
-- **Sympathy.** When your Psi Crystal is within 30 feet of you and another creature, if that creature takes damage, you can use your reaction to shatter the crystal, releasing that emotion and granting the creature resistance to that damage. You take an equal amount of damage.
+* **Courage.** When you make a saving throw against the frightened condition, you can use your reaction to shatter the crystal, releasing that emotion to gain advantage on the save.
+* **Cowardice.** When your Psi Crystal is within 30 feet of you and a creature comes within 5 feet of you, you can use your reaction to shatter the crystal, releasing that emotion and immediately moving up to your speed away from the creature without taking any opportunity attacks.
+* **Cruelty.** When your Psi Crystal is within 30 feet of a creature that takes damage, you can use your reaction to shatter the crystal, releasing that emotion and causing the creature to take additional damage equal to your psion level.
+* **Sympathy.** When your Psi Crystal is within 30 feet of you and another creature, if that creature takes damage, you can use your reaction to shatter the crystal, releasing that emotion and granting the creature resistance to that damage. You take an equal amount of damage.
 
 #### Psionic Defenses
 
@@ -154,7 +154,7 @@ At higher levels you can expend additional psi points to further enhance the Psi
 
 You gain an additional option for Boundless Imagination to apply to your Astral Construct:
 
-- **Horrifying Nightmare.** Creatures of your choice that start their turn within 5 feet of your Astral Construct must make a Wisdom saving throw against your Psionics DC or become frightened of your Astral Construct until the start of their next turn. On a successful save, they are immune to the effect for the next 24 hours or until you summon a new Astral Construct.
+* **Horrifying Nightmare.** Creatures of your choice that start their turn within 5 feet of your Astral Construct must make a Wisdom saving throw against your Psionics DC or become frightened of your Astral Construct until the start of their next turn. On a successful save, they are immune to the effect for the next 24 hours or until you summon a new Astral Construct.
 
 #### Propelled Bound
 *Prerequisite: Telekinesis or Psychokinesis*
@@ -323,13 +323,13 @@ You gain the ability to solidify some of your projections into real objects. You
 
 When you project a weapon with your Project Item feature, it gains the following benefits:
 
-- You can project it as a bonus action, and you can project up to 3 weapons or pieces of ammunition at the same time.  
-- You are proficient with any projected weapon.  
-- It is no longer restricted to a maximum of 3 feet when taking the form of a weapon (for a Medium creature).  
-- You can use your Intelligence modifier in place of your Strength or Dexterity modifier for attack and damage rolls with it.  
-- If it has the *thrown* property, its throwing range is doubled.  
-- If it doesn’t have the *thrown* property, it gains the *thrown* (10/30) property.  
-- You can apply the Astral Construct modifiers Grow and Sustain to Projected Weaponry. Grow adds 1d8 to the weapon’s damage dice. You can expend Psionic Mastery on these modifiers.
+* You can project it as a bonus action, and you can project up to 3 weapons or pieces of ammunition at the same time.  
+* You are proficient with any projected weapon.  
+* It is no longer restricted to a maximum of 3 feet when taking the form of a weapon (for a Medium creature).  
+* You can use your Intelligence modifier in place of your Strength or Dexterity modifier for attack and damage rolls with it.  
+* If it has the *thrown* property, its throwing range is doubled.  
+* If it doesn’t have the *thrown* property, it gains the *thrown* (10/30) property.  
+* You can apply the Astral Construct modifiers Grow and Sustain to Projected Weaponry. Grow adds 1d8 to the weapon’s damage dice. You can expend Psionic Mastery on these modifiers.
 
 #### Unlimited Imagination  
 *Prerequisite: Shaper’s Mind*
@@ -350,9 +350,9 @@ As an action, you surround yourself with a swirling shield of fire, ice, or ligh
 
 The powers you wield affect your state of mind, empowering you based on how you wield them. When you deal elemental damage, you gain the related mental property until the start of your next turn.
 
-- **Cold.** You can add 1d4 to Wisdom saving throws.  
-- **Fire.** You can add 1d4 to Constitution saving throws.  
-- **Lightning.** You can add 1d4 to Dexterity saving throws.  
+* **Cold.** You can add 1d4 to Wisdom saving throws.  
+* **Fire.** You can add 1d4 to Constitution saving throws.  
+* **Lightning.** You can add 1d4 to Dexterity saving throws.  
 
 If you are specialized in an element, you can instead add 1d6 to the related saving throw.
 
@@ -464,16 +464,16 @@ When you use Phase Rift, you can choose to leave a 5-foot-wide tear in reality b
 
 When you use your Phase Rift power, you can instead empower a piece of ammunition you touch, granting it the following special properties when you fire it:  
 
-- It can be fired through all cover, including total cover, that is less than 4 inches thick.  
-- It deals 1d8 additional force damage.  
+* It can be fired through all cover, including total cover, that is less than 4 inches thick.  
+* It deals 1d8 additional force damage.  
 
 Additionally, applying Phase Rift modifiers grants special effects on this attack:  
 
-- **Disruptive.** The attack deals an extra 1d8 force damage on hit.  
-- **Blurring.** You can roll an additional attack roll per psi point spent, selecting the highest roll.  
-- **Long.** The effective range of the attack is increased by 10 feet per point spent.  
-- **Echoing.** A second projectile is created on firing, using a separate attack roll. You may target any creature in range, including the same creature.  
-- **Ethereal.** The attack can travel through up to 10 feet of cover.
+* **Disruptive.** The attack deals an extra 1d8 force damage on hit.  
+* **Blurring.** You can roll an additional attack roll per psi point spent, selecting the highest roll.  
+* **Long.** The effective range of the attack is increased by 10 feet per point spent.  
+* **Echoing.** A second projectile is created on firing, using a separate attack roll. You may target any creature in range, including the same creature.  
+* **Ethereal.** The attack can travel through up to 10 feet of cover.
 
 #### Phase Slash  
 *Prerequisite: Rift Strike, 11th-level Psion*
@@ -485,4 +485,6 @@ You can expend 1 psi point to make a single melee weapon attack against any targ
 After using Phase Rift, you gain temporary hit points equal to your proficiency bonus plus the psi points spent on the power.
 
 </div>
+
+
 

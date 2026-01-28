@@ -20,3 +20,5 @@
 | 18th | +6 | Third Discipline | 18 | 9 | 8 |
 | 19th | +6 | Ability Score Improvement | 19 | 10 | 8 |
 | 20th | +6 | Ascension | 20 | 10 | 8 |
+
+

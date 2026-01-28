@@ -12,3 +12,5 @@
 | *Mind Blast* | | *Power Word Stun* | |
 
 You can check any spell marked with a ᴷ in the [Kibbles' Casting Compendium document](https://www.gmbinder.com/share/-MNCb8aGYVO_NBsP3v2Q).
+
+

@@ -448,9 +448,9 @@ Also at 7th level, you gain proficiency in Wisdom (Survival) checks. In addition
 
 At 11th level, your ability to summon the bitter winds becomes more potent. Summoning them grants you the following additional benefits:
 
-* Creatures of your choice gain resistance to fire and cold damage for as long as they remain within the effect's radius.
-* Enemy creatures that do not have resistance or immunity to cold damage take cold damage equal to one roll of your Quarry Die and must make a Constitution saving throw for every turn they start within the effect's radius. On a failure, their movement speed is reduced by 10 feet. Upon a second failure, their speed becomes halved. By failing again, their speed becomes 0. By succeeding at any point, they remove all applied effects and become immune to this effect of your Bitter Winds for the next 24 hours.
-* You can use the Hide action without using any terrain elements other than the winds.
+- Creatures of your choice gain resistance to fire and cold damage for as long as they remain within the effect's radius.
+- Enemy creatures that do not have resistance or immunity to cold damage take cold damage equal to one roll of your Quarry Die and must make a Constitution saving throw for every turn they start within the effect's radius. On a failure, their movement speed is reduced by 10 feet. Upon a second failure, their speed becomes halved. By failing again, their speed becomes 0. By succeeding at any point, they remove all applied effects and become immune to this effect of your Bitter Winds for the next 24 hours.
+- You can use the Hide action without using any terrain elements other than the winds.
 
 <hr>
 
@@ -731,9 +731,9 @@ You have mastered an ancient pattern of enhancing clothing, that enables a super
 
 At the end of each long rest, you can use weaver's tools to enhance one set of clothing or cloak. While a creature wears this enhanced garment it gains the following benefits:
 
-* It gains a bonus to Dexterity (Stealth) checks to hide in wasteland and wilds equal to one roll of your Quarry Die.
-* It requires one-quarter as much water in order to survive.
-* It has advantage on saving throws to resist the effects of harsh environments and subsequent exhaustion levels.
+- It gains a bonus to Dexterity (Stealth) checks to hide in wasteland and wilds equal to one roll of your Quarry Die.
+- It requires one-quarter as much water in order to survive.
+- It has advantage on saving throws to resist the effects of harsh environments and subsequent exhaustion levels.
 
 During each long rest, you must spend 1 hour maintaining any garments you have enhanced or they lose these beneficial properties. You can maintain a number of garments equal to your Wisdom modifier (a minimum of 1 set of garments).
 
@@ -866,3 +866,4 @@ You can dodge and weave out of certain area effects as effortless as a breeze. W
 <hr>
 
 </div>
+

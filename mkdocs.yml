@@ -37,6 +37,7 @@ nav:
       - Ranger: classes/ranger.md
       - Kibbles Tasty:
         - Psion: classes/kt_psion.md
+        - Warden: classes/kt_warden.md
         - Warlord: classes/kt_warlord.md
   - Magic Items: magic-items.md
 

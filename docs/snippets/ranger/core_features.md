@@ -32,33 +32,19 @@ At 1st level, you adopt a Fighting Style that best reflects your training. You c
 
 * **Archery.** You gain a +2 bonus to attack rolls you make
 with ranged weapons.
-
 * **Blind Warrior.** You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
-
 * **Brawler.** Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
-
 * **Defense.** So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
-
 * **Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
-
 * **Druidic Warrior.** You learn two cantrips of your choice from the Druid spell list, and they count as Ranger spells for you. Whenever you gain a level, you can replace one of these Druid cantrips you know with another Druid cantrip of your choice.
-
 * **Featherweight Training.** While you are wielding only light weapons, and nothing else your Speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.
-
 * **Mariner.** So long as you are not wearing medium or heavy armor, or wielding a shield, you have a swimming speed equal to your walking speed, and a +1 bonus to Armor Class.
-
 * **Mountaineer.** So long as you are not wearing medium or heavy armor, or wielding a shield, you have a climbing speed equal to your walking speed, and you gain a +1 bonus to your Armor Class.
-
 * **Melee Marksman.** Having a hostile creature within 5 feet of you does not impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet. When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
-
 * **Mounted Combatant.** While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
-
 * **Strongbow.** You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
-
 * **Thrown Weapon Fighting.** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.
-
 * **Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
-
 * **Versatile Fighting.** While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.
 
 <hr>
@@ -106,8 +92,8 @@ At the end of each long rest, you prepare a list of spells that are available fo
 
 **Spellcasting Ability.** Your power is drawn from an intuitive knowledge of nature, so Wisdom is your spellcasting ability for Ranger spells. You use Wisdom when a spell refers to your spellcasting ability, your spell save DC, or when you make a spell attack roll.
 
-- **Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier  
-- **Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
+* **Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier  
+* **Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
 
 **Spellcasting Focus** You can use a druidic focus as the spellcasting focus for your Ranger spells. See the Player's Handbook for example foci.
 

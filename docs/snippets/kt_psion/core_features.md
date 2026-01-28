@@ -19,9 +19,9 @@
 
 #### Equipment
 
-- *(a)* a quarterstaff, *(b)* a dagger, or *(c)* a martial weapon (if proficient)  
-- *(a)* leather armor or *(b)* scale mail (if proficient)  
-- *(a)* a scholar’s pack or *(b)* an explorer’s pack  
+* *(a)* a quarterstaff, *(b)* a dagger, or *(c)* a martial weapon (if proficient)  
+* *(a)* leather armor or *(b)* scale mail (if proficient)  
+* *(a)* a scholar’s pack or *(b)* an explorer’s pack  
 
 <hr>
 
@@ -51,8 +51,8 @@ Starting at 1st level, you gain Psi Points equal to your Psion level. You regain
 
 Your psionic powers, Psionic Talents, and psion-class spells use your psionic ability:
 
-- **Psionic Save DC** = 8 + your proficiency bonus + your Intelligence modifier  
-- **Psionic Attack Modifier** = your proficiency bonus + your Intelligence modifier
+* **Psionic Save DC** = 8 + your proficiency bonus + your Intelligence modifier  
+* **Psionic Attack Modifier** = your proficiency bonus + your Intelligence modifier
 
 <hr>
 
@@ -97,3 +97,5 @@ At 18th level, you gain a third psionic discipline, gaining all features associa
 At 20th level, when you die, you may become an incorporeal entity on the Border Ethereal at your death location in the Material Plane. This form has the physical abilities (Strength, Dexterity, Constitution) and ghostly abilities of a ghost, but retains your mental ability scores and Psion features. Your current and maximum hit points match the ghost form. If you have fewer than 10 Psi Points when assuming this form, you have 10. You cannot regain spent abilities while in this form, and if you exhaust all Psi Points or the ghost is destroyed, you die normally.
 
 <hr>
+
+

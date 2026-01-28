@@ -27,3 +27,4 @@ By emulating the beasts of the desert you are above the concerns of heat and thi
 
 #### Sharpened Senses
 Your time spent drawing on your rage has brought the world into sharp, relentless focus. You gain advantage on Investigation, Perception, or Survival checks made to follow a creature’s trail.
+

@@ -20,3 +20,5 @@
 | 18th | +6 | Indomitable Might | 6 | 5 | 8 | d10 | 5 |
 | 19th | +6 | Ability Score Improvement | 6 | 5 | 8 | d10 | 5 |
 | 20th | +6 | Paragon of Rage | Unlimited | 5 | 8 | d10 | 5 |
+
+
