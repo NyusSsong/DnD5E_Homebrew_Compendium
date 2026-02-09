@@ -4,12 +4,12 @@ The sole commonality is that a Warlord alone is but a man, while a Warlord with 
 
 === "Progression Table"
     
-    --8<-- "kt_warlord/progression.md"
+    --8<-- "kibbles/kt_warlord/progression.md"
 
 === "Core Warlord Features"
 
-    --8<-- "kt_warlord/core_features.md"
+    --8<-- "kibbles/kt_warlord/core_features.md"
 
 === "Subclasses"
 
-    -8<-- "kt_warlord/subclasses.md"
+    -8<-- "kibbles/kt_warlord/subclasses.md"

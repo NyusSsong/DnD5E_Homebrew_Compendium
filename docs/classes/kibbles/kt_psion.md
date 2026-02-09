@@ -4,28 +4,28 @@ Psions are those who have tapped into a special otherworldly force, with the abi
 
 === "Progression Table"
     
-    --8<-- "kt_psion/progression.md"
+    --8<-- "kibbles/kt_psion/progression.md"
 
 === "Core Psion Features"
 
-    --8<-- "kt_psion/core_features.md"
+    --8<-- "kibbles/kt_psion/core_features.md"
 
 === "Psionic Disciplines"
 
-    --8<-- "kt_psion/psionic_disciplines.md"
+    --8<-- "kibbles/kt_psion/psionic_disciplines.md"
 
 === "Psionic Talents"
 
-    --8<-- "kt_psion/psionic_talents.md"
+    --8<-- "kibbles/kt_psion/psionic_talents.md"
 
 === "Psion Spell List"
 
-    -8<-- "kt_psion/spell_list.md"
+    -8<-- "kibbles/kt_psion/spell_list.md"
 
 === "Psion Feats"
 
-    -8<-- "kt_psion/feats.md"
+    -8<-- "kibbles/kt_psion/feats.md"
 
 === "Subclasses"
 
-    -8<-- "kt_psion/subclasses.md"
+    -8<-- "kibbles/kt_psion/subclasses.md"

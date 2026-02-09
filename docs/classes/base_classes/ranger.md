@@ -4,24 +4,24 @@ Far from the bustle of cities and towns, past the hedges that shelter the most d
 
 === "Progression Table"
     
-    --8<-- "ranger/progression.md"
+    --8<-- "base_classes/ranger/progression.md"
 
 === "Core Ranger Features"
 
-    --8<-- "ranger/core_features.md"
+    --8<-- "base_classes/ranger/core_features.md"
 
 === "Knacks"
 
-    --8<-- "ranger/knacks.md"
+    --8<-- "base_classes/ranger/knacks.md"
 
 === "Animal Companion"
 
-    --8<-- "ranger/animal_companion.md"
+    --8<-- "base_classes/ranger/animal_companion.md"
 
 === "Alternate Subclasses"
 
-    --8<-- "ranger/alternate_subclasses.md"
+    --8<-- "base_classes/ranger/alternate_subclasses.md"
 
 === "Subclasses"
 
-    --8<-- "ranger/subclasses.md"
+    --8<-- "base_classes/ranger/subclasses.md"

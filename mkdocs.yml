@@ -33,12 +33,14 @@ theme:
 nav:
   - Home: index.md
   - Classes:
-      - Barbarian: classes/barbarian.md
-      - Ranger: classes/ranger.md
+      - Base Classes:
+        - Barbarian: classes/base_classes/barbarian.md
+        - Ranger: classes/base_classes/ranger.md
       - Kibbles Tasty:
-        - Psion: classes/kt_psion.md
-        - Warden: classes/kt_warden.md
-        - Warlord: classes/kt_warlord.md
+        - Psion: classes/kibbles/kt_psion.md
+        - Warlord: classes/kibbles/kt_warlord.md
+      - Valda:
+        - Warden: classes/valda/kt_warden.md
   - Magic Items: magic-items.md
 
 markdown_extensions:
