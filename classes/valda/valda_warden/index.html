@@ -1,0 +1,1284 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.33">
+    
+    
+      
+        <title>The Warden - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Warden
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Base Classes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Base Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Barbarian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranger
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Kibbles Tasty
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Kibbles Tasty
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Psion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Warlord
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Valda
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Valda
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kt_warden.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Warden
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Magic Items
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="the-warden">The Warden</h1>
+<p>Wardens are vigilant guardians, and unbreakable defenders of the weak. They are nature’s shield, and the watchers of the realms of men. When the world cries out for a champion, wardens heed the call.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Warden Features</label><label for="__tabbed_1_3">Subclasses</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Sentinel's Stand, Warden's Grasp</td>
+</tr>
+<tr>
+<td style="text-align: left;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Fighting Style, Warden's Mark</td>
+</tr>
+<tr>
+<td style="text-align: left;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Champion's Call, Warden's Resolve</td>
+</tr>
+<tr>
+<td style="text-align: left;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement, Font of Life</td>
+</tr>
+<tr>
+<td style="text-align: left;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Extra Attack</td>
+</tr>
+<tr>
+<td style="text-align: left;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Call feature</td>
+</tr>
+<tr>
+<td style="text-align: left;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Sentinel's Step</td>
+</tr>
+<tr>
+<td style="text-align: left;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Undying</td>
+</tr>
+<tr>
+<td style="text-align: left;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Interrupt</td>
+</tr>
+<tr>
+<td style="text-align: left;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Mark improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Call feature</td>
+</tr>
+<tr>
+<td style="text-align: left;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Grasp improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Font of Life improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Resolve improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Sentinel's Soul</td>
+</tr>
+<tr>
+<td style="text-align: left;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+</tr>
+<tr>
+<td style="text-align: left;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Call feature</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d10 per Warden level<br />
+<strong>Hit Points at 1st level:</strong> 10 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d10 (6) + your Constitution modifier  </p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor, medium armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, martial weapons<br />
+<strong>Tools:</strong> None  </p>
+<p><strong>Saving Throws:</strong> Strength, Constitution<br />
+<strong>Skills:</strong> Choose two from Animal Handling, Athletics, Nature, Perception, and Survival  </p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li>A shield and any martial weapon</li>
+<li><em>(a)</em> chain shirt, <em>(b)</em> leather armor and a spear, or <em>(c)</em> chain mail (if proficient)</li>
+<li><em>(a)</em> two light hammers or <em>(b)</em> any simple melee weapon</li>
+<li><em>(a)</em> a dungeoneer's pack or <em>(b)</em> an explorer's pack</li>
+</ul>
+<hr>
+<h4 id="level-1-sentinels-stand">Level 1 - Sentinel's Stand</h4>
+<p>Wardens are towers that cannot easily be felled. At 1st level, choose one of the following features.</p>
+<ul>
+<li><strong>Armor Proficiency.</strong> You gain proficiency with heavy armor.</li>
+<li><strong>Primal Toughness.</strong> Your hit point maximum increases by 1 + your Constitution modifier, and it increases by 1 every time you gain a level in this class.</li>
+<li><strong>Stalwart Spirit.</strong> You gain proficiency in one saving throw of your choice.</li>
+</ul>
+<hr>
+<h4 id="level-1-wardens-grasp">Level 1 - Warden's Grasp</h4>
+<p>At 1st level, as a bonus action, you can use the force of your daunting presence to ensnare nearby enemies into combat. Until the beginning of your next turn, you can't move, and each Large or smaller creature you choose within 5 feet can't willingly move away from you unless it first takes the Disengage action.</p>
+<p>At 14th level, the range of this ability increases to 10 feet.</p>
+<hr>
+<h4 id="level-2-fighting-style">Level 2 - Fighting Style</h4>
+<p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+<ul>
+<li><strong>Crippling.</strong> When you hit a creature with a melee weapon attack, its speed is reduced by 10 feet, to a minimum of 0, until the end of its next turn, and it can't take the Dash action until the end of its turn.</li>
+<li><strong>Great Weapon Fighting.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</li>
+<li><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a weapon or shield.</li>
+<li><strong>Titan Fighting.</strong> You gain a +2 bonus to melee weapon attack rolls you make against Large or larger creatures.</li>
+</ul>
+<hr>
+<h4 id="level-2-wardens-mark">Level 2 - Warden's Mark</h4>
+<p>At 2nd level, you can use your bonus action to mark a creature you can see within 30 feet. While a marked creature is within 5 feet of you, it has disadvantage on any attack roll that doesn't target you. The mark lasts for 1 minute, or until you mark another creature, become incapacitated, or die.</p>
+<p>At 11th level, whenever you take the Attack action on your turn, you can make an additional attack against a creature you have marked.</p>
+<hr>
+<h4 id="level-3-champions-call">Level 3 - Champion's Call</h4>
+<p>By the time you reach 3rd level, you feel the inexorable pull of an important duty or task that you assume as your own. No outside force compels your choice or enforces your conduct; if you fail in your charge, you alone are responsible.</p>
+<p>Your choice grants you features at 3rd level and again at 6th, 13th, and 20th level.</p>
+<hr>
+<h4 id="level-3-wardens-resolve">Level 3 - Warden's Resolve</h4>
+<p>Starting at 3rd level, whenever your hit points are less than half your maximum, you have resistance to bludgeoning, piercing, and slashing damage.</p>
+<p>Starting at 17th level, when your hit points are less than half your maximum, you have resistance to all damage except psychic.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<hr>
+<h4 id="level-4-font-of-life">Level 4 - Font of Life</h4>
+<p>By 4th level, you can use your action to end either one disease or one condition afflicting you. The condition can be blinded, charmed, deafened, frightened, paralyzed, or poisoned. You can use this action even if the condition you end would otherwise prevent it. Once you use this ability, you must finish a short or long rest before you can use it again.</p>
+<p>At 15th level, once per day when you use this ability, your hit points are also restored to half your maximum, if they were lower.</p>
+<hr>
+<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
+<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+<hr>
+<h4 id="level-7-sentinels-step">Level 7 - Sentinel's Step</h4>
+<p>Wardens are faultless trackers, which can navigate hazardous terrain with ease. At 7th level, select one of the following features.</p>
+<ul>
+<li><strong>Earthstrength.</strong> You possess the might of the earth itself. Your carrying capacity doubles, and you have advantage on ability checks and saving throws against being pushed against your will or knocked prone.</li>
+<li><strong>Thundering Charge.</strong> On your first round of combat, your speed increases by 30 feet and you have advantage on the first melee weapon attack you make.</li>
+<li><strong>Wildblood.</strong> Your reflexes have been honed by the perils of nature. You can't be surprised while you are conscious. Additionally, you have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.</li>
+</ul>
+<hr>
+<h4 id="level-9-undying">Level 9 - Undying</h4>
+<p>At 9th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+<h4 id="level-10-interrupt">Level 10 - Interrupt</h4>
+<p>Starting at 10th level, as a reaction when a creature within 5 feet of you makes a melee attack against you, you can punctuate its strikes. After that attack, the creature can make one fewer attack than normal on this turn.</p>
+<hr>
+<h4 id="level-18-sentinels-soul">Level 18 - Sentinel's Soul</h4>
+<p>Wardens are unshakable guardians that cannot be bowed. At 18th level, choose one of the following features:</p>
+<ul>
+<li><strong>Ageless Guardian.</strong> You are immune to poison and disease, no longer need food or water, suffer none of the frailty of old age, and can't be aged magically. You can still die of old age, however. Additionally, you have advantage on Dexterity saving throws.</li>
+<li><strong>Eyes of the Mountain.</strong> You gain tremorsense with a range of 15 feet, and can detect the presence of hidden or invisible creatures within 30 feet. Additionally, you have advantage on Constitution saving throws.</li>
+<li><strong>Impenetrable Mind.</strong> Your thoughts can't be read, and you can't be charmed or frightened. Additionally, you have advantage on Wisdom saving throws.</li>
+</ul>
+<hr>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="bloodwrath">Bloodwrath Guardian</option>
+    <option value="grey-watchman">Grey Watchman</option>
+    <option value="nightgaunt">Nightgaunt</option>
+    <option value="soulblood">Soulblood Shaman</option>
+    <option value="stoneheart">Stoneheart Defender</option>
+    <option value="storm">Storm Sentinel</option>
+    <option value="verdant">Verdant Protector</option>
+</select></p>
+<div class="subclass-content" data-subclass="bloodwrath">
+<h2 id="bloodwrath-guardian"><ins>Bloodwrath Guardian</ins></h2>
+<p>The primal power you wield has formed an intrinsic bond with the creatures of the wild, and you have taken up the task of defending them. Because you share in the beast's ferocity, tenacity, and animal instinct, you can summon a beast's primal strength from within yourself, and slay your enemies in an animalistic trance.</p>
+<p>While entranced, you can sense a connection to a greater being, the Primal Beast, the first predator, from which all hunters are descended. As your commitment to defending the wilds from corruption grows, you grow closer to the Primal Beast, until you can at last adopt its ancient form yourself, and allow it to hunt once again.</p>
+<h3 id="level-3-feral-trance">Level 3 - Feral Trance</h3>
+<p>Starting when you hear this call at 3rd level, you can fall into a primal battle trance as a bonus action. While in your trance, you gain the following benefits:</p>
+<ul>
+<li>You have advantage on Strength checks and Strength saving throws.</li>
+<li>Your base movement speed increases by 10 feet.</li>
+<li>You have advantage on all melee weapon attack rolls using Strength against a creature you have marked.</li>
+<li>Attacks against you have advantage.</li>
+</ul>
+<p>Your trance lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your trance on your turn as a bonus action.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-6-predators-scent">Level 6 - Predator's Scent</h3>
+<p>By 6th level, you hunt like an animal. A creature you have marked can remain marked for up to 24 hours, even if it moves out of your sight. Additionally, while this creature is marked, you can track it effortlessly; you know the direction and distance to the creature while it remains on the same plane of existence.</p>
+<hr>
+<h3 id="level-13-evasion">Level 13 - Evasion</h3>
+<p>Beginning at 13th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+<h3 id="level-20-form-of-the-primal-beast">Level 20 - Form of the Primal Beast</h3>
+<p>At 20th level, as an action, you can transform into a hunched thing of fur and shadow, an echo of the Primal Beast. For 1 minute, you gain the following features:</p>
+<ul>
+<li>You gain all the benefits of Feral Trance.</li>
+<li>You gain temporary HP equal to twice your level.</li>
+<li>When you hit a creature with a melee weapon attack, you can give the target a bleeding wound. Constructs, oozes, and undead can't get bleeding wounds. A creature loses 1d8 hit points at the start of each of its turns for each of its bleeding wounds unless it uses an action to staunch the bleeding. While a target is bleeding, it can't regain lost hit points. A creature can have a number of bleeding wounds up to your proficiency bonus.</li>
+</ul>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="grey-watchman">
+<h2 id="grey-watchman"><ins>Grey Watchman</ins></h2>
+<p>Ever vigilant and unceasing in your duties, you are a watcher of the realms of men, called to keep vigil over a keep or wall. As a grey watchman, trained in the arts of combat, you have honed your skills to a razor's edge to repel any invaders that might challenge your land. You need not keep watch over the same keep your entire life, but, wherever you travel, you are dedicated to keeping your land safe from invading armies, marauding monsters, and other external threats.</p>
+<h3 id="level-3-battle-tactics">Level 3 - Battle Tactics</h3>
+<p>When you hear this call at 3rd level, you learn maneuvers that are fueled by special dice called battle dice.</p>
+<p><strong>Battle Dice.</strong> You have two battle dice, which are d8s. A battle die is expended when you use it. You regain all of your battle dice when you take a short or long rest, or when you roll initiative.</p>
+<p>Your battle die changes and more battle dice become available when you reach certain levels in this class, as shown on the table below.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Warden Level</th>
+<th style="text-align: center;">Battle Dice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">2d8</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">3d8</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">3d10</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">4d10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Using Battle Dice.</strong> Once per turn, you can expend a battle die to perform a maneuver of your choice. Your maneuver options are detailed at the end of the subclass description.</p>
+<p><strong>Saving Throws.</strong> Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:</p>
+<p><strong>Maneuver save DC</strong> = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</p>
+<hr>
+<h3 id="level-3-hold-the-line">Level 3 - Hold the Line</h3>
+<p>At 3rd level, when you use your Warden's Grasp, any creature you choose other than yourself within the effect's area gains a +1 bonus to Armor Class and saving throws until the beginning of your next turn while it remains in the effect's area.</p>
+<hr>
+<h3 id="level-6-fortification-expert">Level 6 - Fortification Expert</h3>
+<p>By 6th level, your experience manning battlements and blockades has given you insight in how to raise and reinforce them. You have advantage on any ability check you make to erect defensive fortifications, examine walls and other defenses for weak points and entryways, or climb constructed walls. Additionally, you can treat three-quarters cover as full cover.</p>
+<hr>
+<h3 id="level-13-mettle">Level 13 - Mettle</h3>
+<p>Also at 13th level, your determination allows you to shrug off effects that would otherwise harm you. When you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+<h3 id="level-20-unbreakable-sentinel">Level 20 - Unbreakable Sentinel</h3>
+<p>Starting at 20th level, you can use your action to transform into a paragon of battle, an unstoppable sentinel, channeling the strength of every man, woman, and child beneath your charge. For the next minute, you gain the following benefits:</p>
+<ul>
+<li>You have a +2 bonus to Armor Class.</li>
+<li>Whenever you hit a creature you have marked, you regain an expended battle die.</li>
+<li>You can take an additional reaction during each round of combat. You can only take one reaction during each turn.</li>
+</ul>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="nightgaunt">
+<h2 id="nightgaunt"><ins>Nightgaunt</ins></h2>
+<p>Blood-drinkers, undead, and other creatures of the night are often feared and hunted, and few stand in their defense; except, of course, the grim and terrible nightgaunt. Tales of the nightgaunt are whispered of in fairy tales, casting them as things to be feared: hunters of clerics and goodly vampire slayers. Their appearance always presages long nights and great rises in hungry undead.</p>
+<p>You felt the calling of the moon bringing you to the graveside of living corpses. Though vampires, zombies, and skeletons are mighty, they are always outnumbered, hunted, and turned by clerics; never given a fair chance to live peacefully. They require an ally among the living to continue their ceaseless lives, and you have risen by moonlight to the task.</p>
+<h3 id="level-3-darkvision">Level 3 - Darkvision</h3>
+<p>Starting when you hear this call at 3rd level, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. If you already possess darkvision, its range increases by 30 feet.</p>
+<p>Starting at 13th level, you can see through magical, as well as nonmagical, darkness.</p>
+<hr>
+<h3 id="level-3-marked-for-death">Level 3 - Marked for Death</h3>
+<p>At 3rd level, your mark leaves a shadow of undeath on your target, beckoning it to die. If you deal damage to a creature you have marked with a melee weapon attack and its remaining hit points are lower than the damage you dealt to it with that attack, the marked creature instead drops to 0 hit points.</p>
+<hr>
+<h3 id="level-6-undead-empathy">Level 6 - Undead Empathy</h3>
+<p>By 6th level, you are a friend even to mindless undead. Whenever an undead tries to attack you, it must make a Wisdom saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier). On a failed save, its attack misses and, if its Intelligence is 4 or lower, it becomes friendly to you and your allies.</p>
+<hr>
+<h3 id="level-13-evasion_1">Level 13 - Evasion</h3>
+<p>Beginning at 13th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+<h3 id="level-20-gravelord">Level 20 - Gravelord</h3>
+<p>At 20th level, you can use your action to invite the necromantic energies of true undead into your body, divorcing yourself from life for the next minute and gaining the following benefits:</p>
+<ul>
+<li>You are immune to poison damage and being poisoned.</li>
+<li>You can use your Undying feature up to three times, even if you have already used it today.</li>
+<li>Once per turn, when you deal damage with a melee weapon attack, you can deal an extra 4d6 necrotic damage and gain temporary hit points, which last until the beginning of your next turn, equal to the necrotic damage dealt.</li>
+</ul>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="soulblood">
+<h2 id="soulblood-shaman"><ins>Soulblood Shaman</ins></h2>
+<p>The ancestral spirits called you by starlight to enact their will on the world, to protect their descendants, and to safeguard their resting places. You are a Soulblood Shaman, a manipulator of soul and ascetic of primal magic. Your community looks to you as a leader as well as a vital connection to the afterlife, for if you play your role, they too will join their ancestors in the great beyond.</p>
+<h3 id="level-3-spellcasting">Level 3 - Spellcasting</h3>
+<p>Starting when you hear this call at 3rd level, you can channel your ancient insights into magic.</p>
+<p><strong>Cantrips.</strong> You learn two cantrips of your choice from the druid spell list. You learn an additional druid cantrip of your choice at 10th level.</p>
+<p><strong>Spell Slots.</strong> The Soulblood Shaman Spellcasting table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+<p><strong>Spells Known of 1st-Level and Higher.</strong> You know three 1st-level druid spells of your choice, two of which you must choose from the evocation or transmutation spells on the druid spell list.</p>
+<p>The Spells Known column of the Soulblood Shaman Spellcasting table shows when you learn more druid spells of 1st level or higher. Each of these spells must be an evocation or transmutation spell of your choice, and must be of a level for which you have spell slots. The spells you learn at 8th, 14th, and 20th level can come from any school of magic. Whenever you gain a level in this class, you can replace one of the druid spells you know with another spell of your choice from the druid spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or transmutation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.</p>
+<p><strong>Spellcasting Ability.</strong> Wisdom is your spellcasting ability for your druid spells, since you channel your magic through a connection to the great beyond. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.</p>
+<p><strong>Spell Save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier  </p>
+<p><strong>Spell Attack Modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Warden Level</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">Spells Known</th>
+<th style="text-align: center;">1st</th>
+<th style="text-align: center;">2nd</th>
+<th style="text-align: center;">3rd</th>
+<th style="text-align: center;">4th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-soulblood">Level 3 - Soulblood</h3>
+<p>Also at 3rd level, as a reaction when a creature within 5 feet of you deals damage to you, you can mark that creature.</p>
+<hr>
+<h3 id="level-6-whispers-of-beyond">Level 6 - Whispers of Beyond</h3>
+<p>At 6th level, you can hear the small voices of ancient spirits when you need guidance. If you spend one minute in contemplation when you make an Intelligence or Wisdom check, you can consult the spirits to gain advantage on the roll. However, the GM can decline to give you advantage on this check if the spirits would not possess appropriate guidance or knowledge.</p>
+<hr>
+<h3 id="level-13-spell-resistance">Level 13 - Spell Resistance</h3>
+<p>Beginning at 13th level, you have advantage on saving throws you make against spells.</p>
+<hr>
+<h3 id="level-20-ethereal-watcher">Level 20 - Ethereal Watcher</h3>
+<p>At 20th level, as an action, you can shrug off your mortal form for a short time to become something spiritual and material, an ethereal watcher. For the next minute, you gain the following benefits:</p>
+<ul>
+<li>As a bonus action on your turn, you can become ethereal, as per the etherealness spell.</li>
+<li>You can return from being ethereal as a bonus action when you cast a spell, or when you use your Warden's Mark or your Warden's Grasp feature on your turn. When you return from being ethereal, each creature you choose within 10 feet of you takes 4d10 force damage, as they are pulled partially between the planes.</li>
+<li>You can cast 1st and 2nd-level druid spells you know without expending spell slots.</li>
+</ul>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="stoneheart">
+<h2 id="stoneheart-defender"><ins>Stoneheart Defender</ins></h2>
+<p>You heard the steadfast, unyielding call from the mountains, which dwarves and gnomes have felt for generations. The stones called to you, beckoning for a protector to defend the mountains from those that would despoil them, from both within and without. You might be a watchman of old dwarven walls, or a sentinel, patrolling the lookouts of high mountain peaks; regardless of where you stand, you are unmovable: a mountain in the shape of a man.</p>
+<p>You draw your power from the earth beneath your feet and can crush your enemies with the strength of stone.</p>
+<h3 id="level-3-roots-of-rock">Level 3 - Roots of Rock</h3>
+<p>Starting when you hear this call at 3rd level, when you use your Warden's Grasp ability, rocky roots sprout from your feet, anchoring you securely. Until the beginning of your next turn, you have a +2 bonus to your Armor Class.</p>
+<p>Additionally, until you move, you can't be shoved or pushed from wherever you are standing by hostile actions, spells, or effects, unless you choose to be. You have advantage on Strength saving throws against being knocked down, cannot slip or fall from ledges, and are immune to the spells fly, levitate, and telekinesis.</p>
+<hr>
+<h3 id="level-6-earthshatter">Level 6 - Earthshatter</h3>
+<p>Starting at 6th level, you can choose to use Warden's Grasp as an action, rather than a bonus action. When you do so, each creature affected must make a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</p>
+<p>You can use this ability a number of times equal to your Strength modifier, and regain all uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-13-mettle_1">Level 13 - Mettle</h3>
+<p>At 13th level, your determination allows you to shrug off effects that would otherwise harm you. When you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+<h3 id="level-20-immortal-mountain">Level 20 - Immortal Mountain</h3>
+<p>By 20th level, you can summon the power of true earth as an action, protecting yourself in an encasement of stone. For the next minute, you gain the following benefits:</p>
+<ul>
+<li>Bludgeoning, piercing, and slashing damage you take is reduced by 5.</li>
+<li>You gain the effects of your Roots of Rock ability for the entire duration.</li>
+<li>As you move, you can choose to upend the earth at your feet, leaving behind a 5-foot wide trail of difficult terrain behind you wherever you move.</li>
+</ul>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="storm">
+<h2 id="storm-sentinel"><ins>Storm Sentinel</ins></h2>
+<p>Your strength originates among furious storm clouds and flashes of lightning. As a storm sentinel, you are called to protect wayward sailors and coastal villages from the wrath of the tempests and the arrival of great waves that threaten them. You despise pirates and other enemies of coastal peoples, and will oppose them wherever they strike.</p>
+<p>From your fingertips, you can deliver the awe of lightning and the roar of thunder to devastate your foes. With practice and patience, you can harness the power of the storm itself to fly and rain thunderbolts from above.</p>
+<h3 id="level-3-flash-from-above">Level 3 - Flash from Above</h3>
+<p>Starting when you hear this call at 3rd level, whenever you are standing under the open sky, you can use your action to conjure a harmless, but impressive, bolt of lightning or peal of thunder. You can use this ability even when there are no clouds above you.</p>
+<hr>
+<h3 id="level-3-thunderblast">Level 3 - Thunderblast</h3>
+<p>At 3rd level, whenever you hit a creature you have marked with a melee weapon attack, each creature you choose within 5 feet of the target takes 1d8 lightning damage.</p>
+<hr>
+<h3 id="level-6-static-burst">Level 6 - Static Burst</h3>
+<p>Starting at 6th level, when you use Warden's Grasp as a bonus action, each creature affected can't take reactions until the beginning of your next turn.</p>
+<hr>
+<h3 id="level-13-evasion_2">Level 13 - Evasion</h3>
+<p>Beginning at 13th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+<h3 id="level-20-stormlord">Level 20 - Stormlord</h3>
+<p>Starting at 20th level, you have a flight speed equal to your movement speed.</p>
+<p>Additionally, you can use your action to summon a bolt of lightning to strike you, imbuing your body with the storm's fury. For 1 minute, you gain the following benefits:</p>
+<ul>
+<li>Your flight speed is doubled.</li>
+<li>You can cast the spell call lightning as a bonus action (DC equals 8 + your proficiency bonus + your Constitution modifier) without using a spell slot. You can call a bolt of lightning on subsequent turns as a bonus action.</li>
+</ul>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="verdant">
+<h2 id="verdant-protector"><ins>Verdant Protector</ins></h2>
+<p>You draw your strength from the trees of the forest and the loamy earth beneath your feet. As a Verdant Protector, you are the champion of the green things in nature, and defend them against those who would despoil the wilds. You easily find allies among druids, and others that understand the forest's sacred trees and ancient spirits.</p>
+<p>At your command, the plants of the earth sprout up to assist you in your duty. At the pinnacle of your power, you can assume the form of an elder tree guardian, which looks much like a treant, with tough, bark skin, and long, branchlike arms.</p>
+<h3 id="level-3-green-mark">Level 3 - Green Mark</h3>
+<p>Starting when you hear this call at 3rd level, when you mark a creature, the plants of the earth come alive to hinder its progress. While this creature is within 30 feet of you, the ground it walks on is difficult terrain.</p>
+<hr>
+<h3 id="level-6-verdant-skin">Level 6 - Verdant Skin</h3>
+<p>At 6th level, you gain proficiency in the Stealth skill, if you did not have it before. Additionally, you can use your action to draw a thick mass of vines and leaves to conceal you. Until you move, you have advantage on Dexterity (Stealth) checks you make to hide among vegetation.</p>
+<hr>
+<h3 id="level-13-mettle_2">Level 13 - Mettle</h3>
+<p>At 13th level, your determination allows you to shrug off effects that would otherwise harm you. When you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+<h3 id="level-20-form-of-the-oak-sentinel">Level 20 - Form of the Oak Sentinel</h3>
+<p>Starting at 20th level, you can use your action to transform into an oak sentinel, a bark-covered titan of the forest. For 1 minute, you gain the following features:</p>
+<ul>
+<li>Your AC becomes 20, if it was lower.</li>
+<li>Your attacks have Reach, if they did not have it before.</li>
+<li>You can use Warden's Grasp as an action, rather than a bonus action. When you do so, you can make an attack against each creature affected, with a separate attack roll for each target.</li>
+</ul>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      
+        <script src="../../../assets/js/filter-js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>
