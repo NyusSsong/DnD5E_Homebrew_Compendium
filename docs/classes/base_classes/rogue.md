@@ -1,6 +1,6 @@
 # The Rogue
 
-<div class="wide flavor subtitle">Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation, becoming the cornerstone of any successful adventuring party.</div>
+Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation, becoming the cornerstone of any successful adventuring party.
 
 === "Progression Table"
 

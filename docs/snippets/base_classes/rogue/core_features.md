@@ -26,9 +26,6 @@
 
 <hr>
 
-
-
-
 #### Level 1 - Expertise
 
 You master a signature set of skills and abilities. At 1st level, choose any two skill proficiencies, any two tool proficiencies, or one skill and one tool proficiency. If you were not already proficient, you gain proficiency with the two chosen skills or tools. If you were already proficient in those skills or tools, you can add double your proficiency bonus to any check you make with the chosen skills or tools.

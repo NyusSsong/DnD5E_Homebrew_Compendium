@@ -86,6 +86,8 @@ Beginning at 14th level, you can enhance your Ancient Form with druidic power. W
 
 You can cast *enlarge/reduce* in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-ash">
@@ -143,6 +145,8 @@ Beginning at 14th level, when you are reduced to 0 hit points, your body is cons
 At the end of your next turn, you reform from the ashes with all of your equipment and half your maximum hit points. You can choose whether or not you reform prone. If your ashes are moved before you reform, you reform in the space that contains the largest pile of your ashes or in the nearest unoccupied space. After you reform, you suffer one level of exhaustion.
 
 Once you use this feature, you can't use it again until you finish a long rest.
+
+<hr>
 
 </div>
 
@@ -554,6 +558,8 @@ Moreover, when you use Aberrant Form, the aberration gains two Aberrant Form tra
 
 Your Aberrant Forms have evolved to thrive in sunlight as well as darkness. When you Wild Shape into an aberration, it no longer gains the sunlight sensitivity feature, and it instead gains an additional Aberrant trait of your choice from the list (for a total of three traits).
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-dust">
@@ -611,6 +617,8 @@ Additionally, when you take damage from a spell, you can use your reaction to ab
 
 At 14th level, your Resonating Shroud now extends to the area within 30 feet of you, and your foes treat the area within your shroud as difficult terrain. A creature hostile to you that ends its turn in your shroud takes 1d8 force damage.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-the-fist">
@@ -659,6 +667,8 @@ Starting at 10th level, you can muster the power of nature in an instant. Whenev
 ### Level 14 - Nature's Wrath
 
 By 14th level, you can use your reaction when you lose all your temporary hit points from your Primal Infusion feature to either make two unarmed strikes against a creature you can see within your reach, or expend a use of your Wild Shape feature to use your Primal Infusion ability again.
+
+<hr>
 
 </div>
 
@@ -711,6 +721,8 @@ Additionally, you can now decide whether allied creatures (including yourself) i
 You and the grove are now one, and as long as it stands, so do you. At 14th level, if you are reduced to 0 hit points while in the area of your sacred grove, the grove withers and you gain hit points equal to your druid level. Once you use this feature, you can't use it again until you finish a long rest.
 
 If your body is destroyed completely, the grove withers, leaving a single acorn at its center. If this acorn is left undisturbed or is planted somewhere else, you regain a new body in 1d10 days, regain all your hit points, and become active again. Your new body appears within 5 feet of the acorn, which is destroyed as soon as you regain consciousness.
+
+<hr>
 
 </div>
 
@@ -773,6 +785,8 @@ Your body is completely suffused with elder druidic magic. When you transform in
 
 Finally, the duration of your Guardian Form transformation increases to 1 hour, and while you are in Guardian Form, you can speak to plants as if you were under the effects of the *speak with plants* spell, so long as you speak in Druidic.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-the-harvest">
@@ -822,6 +836,8 @@ Your desire to destroy the enemies of nature empowers your attacks. You add your
 
 Finally, your ancient magic grants you resistance to unnatural powers. You gain resistance to necrotic damage when you are in your Avenger Form.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-the-hunt">
@@ -861,6 +877,8 @@ You learn to cooperate with your allies to coordinate and maximize your attacks.
 ### Level 14 - Uncanny Dodge
 
 You learn to dodge out of harm's way in response to deadly attacks. When an attacker that you can see hits you with a melee attack, you can use your reaction to halve the attack's damage against you.
+
+<hr>
 
 </div>
 
@@ -911,6 +929,8 @@ Life energy flows through you continually, mimicking the powerful flow of the Ri
 
 Your ability to renew resources of allies around you increases. You can use the Renew Resources feature as an action rather than spending 1 minute.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-sacrifice">
@@ -957,6 +977,8 @@ Starting at 10th level, you are initiated into an ancient order of druidic judge
 Starting at 14th level, you have studied the stars and memorized the pathways that connect the material plane to the astral plane. Your sprigs of mistletoe increase to d8s. Additionally, you gain access to the *teleportation circle* spell and always have it prepared.
 
 **Stone Circle.** You know the ancient methods used to construct a circle of standing stones. You may spend 8 hours and 12,000 gp to construct a circle of twelve standing stones inscribed with druidic sigils, where each stone is 10 feet tall and weighs 1 ton. This stone circle may be used as a permanent anchor location for the *teleportation circle* spell.
+
+<hr>
 
 </div>
 
@@ -1017,6 +1039,8 @@ Immediately after you make a ranged attack roll with a weapon that has the Throw
 
 You can now infuse the power of the depths into your attacks. Whenever you hit a creature with a weapon attack, including when you hit a creature with your special Sidestep attack, you also deal an amount of cold damage equal to your Wisdom modifier.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-the-shapeless">
@@ -1071,6 +1095,8 @@ At 10th level, your ooze form becomes more powerful. When you use your Wild Shap
 At 14th level, while in your ooze form, instead of choosing one benefit from the Improved Ooze Form feature, you gain all of them.
 
 Additionally, the extra damage from the Acid Weapons and the Oozing Form features becomes 4d6 acid damage.
+
+<hr>
 
 </div>
 
@@ -1136,6 +1162,8 @@ You have an unparalleled command over plant life. You can cast *grasping vine* w
 
 When you cast *grasping vine*, you can conjure two vines at once in separate locations within range of the spell. You can direct both vines at once with the same bonus action.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-storms">
@@ -1194,6 +1222,8 @@ At 14th level, you have truly mastered the power of the storm. You gain immunity
 
 In addition, whenever you are subjected to lightning damage, you take no damage and instead gain a number of temporary hit points equal to the lightning damage that would have been dealt.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-the-sun">
@@ -1251,6 +1281,8 @@ As plants are nourished by the sun's light and warmth, so does your body use the
 
 Additionally, basking in sunlight for 10 minutes provides you enough nourishment to sustain you for one day.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-the-swarm">
@@ -1294,6 +1326,8 @@ After finishing a short or long rest, you gain information about the surrounding
 ### Level 14 - From Many, One
 
 When you are reduced to 0 hit points but not killed outright, you can expend a use of Wild Shape to transform into a swarm of beasts with a Challenge Rating of 1/2 or lower. You can immediately move up to the swarm's walking, flying, or climbing speed without provoking opportunity attacks. Once you use this feature, you must finish a long rest before you can use your Wild Shape in this way again.
+
+<hr>
 
 </div>
 
@@ -1346,6 +1380,8 @@ You can use druidic magic to transform into a minor version of the tempest you s
 You have become one with the destructive power of nature. You gain a flying speed equal to your walking speed.
 
 In addition, whenever you use Nature's Wrath, the spell deals maximum damage to every target, instead of just one.
+
+<hr>
 
 </div>
 
@@ -1405,6 +1441,8 @@ Your bond with the mystical waters has reached its apex. You can cast *control w
 
 Also, the radius of your Tidal Aura increases to 30 feet, and creatures of your choice treat the area of your Tidal Aura as difficult terrain even if they have a swimming speed.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="circle-of-vermin">
@@ -1448,6 +1486,8 @@ As a reaction when you take damage from a creature you can see within 5 feet of 
 ### Level 14 - Swarm Master
 
 Starting at 14th level, whenever you use your Lord of the Low feature to summon a swarm, you can summon two swarms instead of one.
+
+<hr>
 
 </div>
 
@@ -1496,5 +1536,7 @@ At 14th level, you are permanently attuned to the past, present, and future. Thr
 * You cannot be surprised so long as you are conscious.
 * Other creatures don't gain advantage on attack rolls against you as a result of being hidden from you.
 * Once per day you may cast *true seeing* without the use of a spell slot or material components. It counts as a druid spell for you and does not count against your list of prepared spells. You regain the use of this spell upon completion of a long rest.
+
+<hr>
 
 </div>

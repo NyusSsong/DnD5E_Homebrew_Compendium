@@ -123,6 +123,7 @@ Use `templates/class.md`. Structure:
 - Feature headers: `### Level [X] - [Feature Name]`
 - Feature levels come from the source text — never assume or invent them
 - `<hr>` between features within a subclass
+- `<hr>` after the last feature before the closing `</div>` of each subclass
 - Each subclass wrapped in `<div class="subclass-content" data-subclass="[slug]">`
 - Subclass slug: kebab-case, e.g. `ancestral-guardian`, `alt-berserker`
 
