@@ -1,0 +1,2931 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../bard/">
+      
+      
+        <link rel="next" href="../fighter/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Druid - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Druid
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Base Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-druid">The Druid</h1>
+<p>Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature's resilience, cunning, and fury.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Druid Features</label><label for="__tabbed_1_3">Secrets of Nature</label><label for="__tabbed_1_4">Animal Companion</label><label for="__tabbed_1_5">Alternate Subclasses</label><label for="__tabbed_1_6">Subclasses</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Secrets Known</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">1st</th>
+<th style="text-align: center;">2nd</th>
+<th style="text-align: center;">3rd</th>
+<th style="text-align: center;">4th</th>
+<th style="text-align: center;">5th</th>
+<th style="text-align: center;">6th</th>
+<th style="text-align: center;">7th</th>
+<th style="text-align: center;">8th</th>
+<th style="text-align: center;">9th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Druidic Training, Secrets of Nature, Spellcasting</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Druid Circle, Nature's Bond, Wild Shape</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Natural Instinct</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement, Wild Shape Improvement</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Wild Resurgence</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Druid Circle Feature</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Elemental Fury</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement, Wild Shape Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Druid Circle Feature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Improved Natural Bond</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Druid Circle Feature</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Improved Elemental Fury</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement, Wild Shape Improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Greater Natural Bond</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Beast Spells</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Archdruid, Wild Shape Improvement</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d8 per Druid level<br />
+<strong>Hit Points at 1st level:</strong> 8 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d8 (5) + your Constitution modifier  </p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)<br />
+<strong>Weapons:</strong> Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears<br />
+<strong>Tools:</strong> Herbalism kit  </p>
+<p><strong>Saving Throws:</strong> Intelligence, Wisdom<br />
+<strong>Skills:</strong> Two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival  </p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li><em>(a)</em> a wooden shield or <em>(b)</em> any simple weapon  </li>
+<li><em>(a)</em> a scimitar or <em>(b)</em> any simple melee weapon  </li>
+<li>Leather armor, an explorer's pack, and a druidic focus  </li>
+</ul>
+<hr>
+<h4 id="level-1-druidic-training">Level 1 - Druidic Training</h4>
+<p>All druids are taught to commune with nature, to become a conduit for natural power, and to maintain the secrets of their druid circle. Also at 1st level, you learn the <em>druidcraft</em> cantrip and you always have the <em>speak with animals</em> spell prepared. Both of these do not count against your number of cantrips known or spells prepared.</p>
+<p>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</p>
+<hr>
+<h4 id="level-1-secrets-of-nature">Level 1 - Secrets of Nature</h4>
+<p>During your druidic training and exploration of nature you pick up several methods of surviving in the wilderness. At 1st level you gain a secret of nature of your choice, detailed at the end of the class description. The Secrets Known column of the Druid table shows when you learn more secrets of nature.</p>
+<hr>
+<h4 id="level-1-spellcasting">Level 1 - Spellcasting</h4>
+<p>Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.</p>
+<p><strong>Cantrips.</strong> At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.</p>
+<p><strong>Preparing and Casting Spells.</strong> The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+<p>You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your Druid level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+<p>For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+<p><strong>Spellcasting Ability.</strong> Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.</p>
+<p><strong>Spell Save DC = 8 + your proficiency bonus + your Wisdom modifier</strong></p>
+<p><strong>Spell Attack Modifier = your proficiency bonus + your Wisdom modifier</strong></p>
+<p><strong>Ritual Casting.</strong> You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+<p><strong>Spellcasting Focus.</strong> You can use a druidic focus as a spellcasting focus for your druid spells.</p>
+<hr>
+<h4 id="level-2-druid-circle">Level 2 - Druid Circle</h4>
+<p>At 2nd level, you choose to identify with a circle of druids. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>
+<hr>
+<h4 id="level-2-natures-bond">Level 2 - Nature's Bond</h4>
+<p>Also at 2nd level, nature provides you with the ability to summon its minor spirits. As an action, you can expend a use of your Wild Shape feature to cast the <em>find familiar</em> spell, without material components.</p>
+<p>The familiar you summon is a fey instead of a beast, and it disappears after you finish a long rest.</p>
+<hr>
+<h4 id="level-2-wild-shape">Level 2 - Wild Shape</h4>
+<p>The power of nature infuses you, allowing you to assume the form of an animal or a plant. As a bonus action, you transform into a Beast or a Plant form that you have learned for this feature (see Known Forms below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a bonus action.</p>
+<p><strong>Known Forms.</strong> You know four forms, chosen from among Beast and Plant stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. You unlock two additional forms at higher levels (4th, 8th, 12th, 16th, and 20th). Whenever you finish a long rest, you can replace one of your known forms with another eligible form.</p>
+<p>When you gain certain Druid levels, the maximum Challenge Rating for your forms increases, as shown in the table below.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">Max CR</th>
+<th style="text-align: left;">Armor Class</th>
+<th style="text-align: center;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">1/2</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: center;">Ape</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: center;">Giant Eagle</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: center;">Awakened Tree</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: center;">Giant Scorpion</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">16</td>
+<td style="text-align: center;">Elephant</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: center;">Triceratops</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Number of Uses.</strong> You can use Wild Shape a number of times equal to your proficiency bonus. You regain one expended use when you finish a short rest, and you regain all expended uses when you finish a long rest.</p>
+<p><strong>Rules While Transformed.</strong> While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:</p>
+<ul>
+<li><strong>Game Statistics.</strong> Your game statistics are replaced by the statistics of the Beast, but you retain your Hit Points; Hit Dice; Intelligence, Wisdom, and Charisma scores; class features; languages (you can still speak); and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them. If you take the Multiattack action of a creature, you cannot make any further attacks that turn, even if another feature would normally allow you to do so.</li>
+<li><strong>Temporary Hit Points.</strong> When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level</li>
+<li><strong>Armor Class.</strong> While in a wild shape, your Armor Class equals 12 + 1/4 your Druid level (rounded down) as shown on the Wild Shapes table above. If the wild shape would have a higher AC, you may use that instead.</li>
+<li><strong>Spellcasting.</strong> While in a wild shape you may only cast spell with a range of Self or Touch. You can perform the verbal and somatic components of such spells while in a wild shape, and your wild shape itself acts as your spellcasting focus. Transforming doesn't break your concentration on a spell you've already cast, nor does it prevent you from taking actions that are part of a spell, such as <em>call lightning</em>, that you've already cast.</li>
+<li><strong>Other features.</strong> You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.</li>
+<li><strong>Objects.</strong> Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.</li>
+</ul>
+<hr>
+<h4 id="level-3-natural-instinct">Level 3 - Natural Instinct</h4>
+<p>At 3rd level, whenever you learn a new druid secret or replace an existing one, you can choose from ranger exploration knacks.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<hr>
+<h4 id="level-4-wild-shape-improvement">Level 4 - Wild Shape Improvement</h4>
+<p>At 4th level, and again at 8th, 12th, 16th, and 20th level, you learn two additional forms for your Wild Shape feature.</p>
+<hr>
+<h4 id="level-5-wild-resurgence">Level 5 - Wild Resurgence</h4>
+<p>If you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn.</p>
+<p>In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, and you can't do so again until you finish a Long Rest.</p>
+<hr>
+<h4 id="level-7-elemental-fury">Level 7 - Elemental Fury</h4>
+<p>The might of the elements flows through you. You gain one of the following options of your choice:</p>
+<p><strong>Potent Spellcasting.</strong> You add your Wisdom modifier to the damage you deal with any Druid cantrip.</p>
+<p><strong>Primal Strike.</strong> Once on each of your turns, when you hit a creature with an attack roll using a weapon or a wild shape's attack, you can cause the target to take an additional 1d8 damage. You choose the damage type when you hit: cold, fire, lightning, or thunder.</p>
+<hr>
+<h4 id="level-11-improved-natural-bond">Level 11 - Improved Natural Bond</h4>
+<p>At 11th level your bond has grown and you are able to summon forth far greater nature spirits. As an action, you can expend a use of Wild Shape to cast the <em>summon beast</em> spell as if you were using a 5th-level slot.</p>
+<hr>
+<h4 id="level-15-improved-elemental-fury">Level 15 - Improved Elemental Fury</h4>
+<p>The option you chose for Elemental Fury grows more powerful:</p>
+<p><strong>Greater Potent Spellcasting.</strong> When you cast a Druid cantrip with a range of 10 feet or greater, the cantrip's range increases by 300 feet.</p>
+<p><strong>Greater Primal Strike.</strong> The extra damage of your Primal Strike increases to 2d8.</p>
+<hr>
+<h4 id="level-17-greater-natural-bond">Level 17 - Greater Natural Bond</h4>
+<p>At 17th level your bond expands to encompass the feywild and you are able to summon any woodland beings. As an action, you can expend a use of Wild Shape to cast the <em>summon fey</em> spell as if you cast it using a 7th-level spell slot.</p>
+<hr>
+<h4 id="level-18-beast-spells">Level 18 - Beast Spells</h4>
+<p>While using Wild Shape, you can cast any Druid spell in those forms, including spells that have a material component with a cost specified or that consume their material component.</p>
+<hr>
+<h4 id="level-20-archdruid">Level 20 - Archdruid</h4>
+<p>The vitality of nature constantly blooms within you, granting you the following benefits:</p>
+<ul>
+<li><strong>Evergreen Wild Shape.</strong> Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.</li>
+<li><strong>Nature Magician.</strong> You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot.</li>
+<li><strong>Longevity.</strong> The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<h4 id="animal-companion">Animal Companion</h4>
+<p>You create a bond with nature that takes the form of an animal companion. You must choose a beast with a Challenge Rating of 1/4 or lower. You can only have one animal companion at the same time.</p>
+<p>If your animal companion dies, you can link yourself to another beast after you spend a week meditating in the terrain where you can find the beast.</p>
+<p>Your animal companion obeys your orders (no action required) as best as it can. It has its own initiative as any other creature (unless you are riding it), but otherwise you determine its actions and choices.</p>
+<p>If you are incapacitated or for any reason are not able to command your animal companion, it focuses on protecting you and your companions.</p>
+<p>You must check the next main section of this document to find the Animal Companion features.</p>
+<h4 id="aerial-surveyor">Aerial Surveyor</h4>
+<p>You are at home soaring at dizzying heights and peering towards the horizon. You can familiarize yourself with a 5-mile radius area around you by spending a minute studying your surroundings while flying or at great heights. Once you familiarize yourself with an area in this way, you gain advantage on any Perception or Survival checks you make while outdoors in that area for the next 24 hours, and you cannot familiarize yourself with another area until you finish a long rest.</p>
+<h4 id="aquatic-delver">Aquatic Delver</h4>
+<p>You are at home in the depths, able to control your breathing and attune to the subtle movements of the water. You gain a swimming speed equal to your Speed and you add your Wisdom modifier to the number of minutes you can hold your breath before suffocating. In addition, while fully submerged in water you gain blindsight out to a range of 10 feet.</p>
+<h4 id="cavern-skulker">Cavern Skulker</h4>
+<p>You've grown accustomed to the echoing solitude of vast caverns. You always know the actual direction of any sound you hear regardless of any echoes. In addition, while you are in complete darkness and not deafened you gain blindsight out to a range of 15 feet.</p>
+<h4 id="desert-dweller">Desert Dweller</h4>
+<p>Few choose to willingly live where the sun relentlessly burns overhead but you find tranquility amongst the sands. You are naturally acclimatized to hot weather and extremely high temperatures. In addition, you automatically succeed on concentration checks imposed by hot weather and ignore the effects imposed by resting in an extremely hot environment.</p>
+<h4 id="eldritch-surveyor">Eldritch Surveyor</h4>
+<p>You've grown to know the lands twisted by the fey, distorted by magical pollution, or places otherwise warped in unnatural ways. You gain proficiency in Survival. Additionally, you may make Survival checks in place of Arcana checks regarding magical environments, foodstuffs, and creatures.</p>
+<h4 id="marshland-guide">Marshland Guide</h4>
+<p>Bogs and swamps are unpleasant to most but are filled with natural beauty to you. Moving through swamps, bogs, or muddy difficult terrain costs you no extra movement and you cannot become naturally lost while traveling through marshlands. In addition, you ignore the effects of resting in wet or swampy environments.</p>
+<h4 id="mountain-climber">Mountain Climber</h4>
+<p>You gain a climbing speed equal to your Speed. You gain advantage on any Athletics checks made while climbing and you are also acclimated to high altitudes, including elevations above 20,000 feet. In addition, you ignore the effects of resting in rocky or uneven terrain.</p>
+<h4 id="tundra-explorer">Tundra Explorer</h4>
+<p>You embrace the cold of snowbound tundra. You are naturally acclimatized to cold weather and extremely low temperatures, you ignore the disadvantage to Perception checks imposed by blizzards, and you automatically succeed on concentration checks imposed by blizzards. In addition, you ignore the effects imposed by resting without warmth in environments of extreme cold.</p>
+</div>
+<div class="tabbed-block">
+<h4 id="level-3-young-animal-companion">Level 3 - Young Animal Companion</h4>
+<p>The stat block of your animal companion is the same as the beast, but it has the following changes:</p>
+<ul>
+<li>At 1st level, you have a Young Animal Companion. As you gain levels in the Druid class, your animal companion improves. Additionaly, when you get your animal companion, one of its abilities increases by +2.</li>
+<li>Your animal companion does not gain the Multiattack action.</li>
+<li>Your animal companion has a number of hit dice equal to your Druid level, which are d8s, and it adds its Constitution modifier to each of them to calculate its hit points. Your animal companion can spend these dice as part of a short rest as usual.</li>
+<li>Unless it is already proficient, your animal companion gains proficiency in Perception, Survival, Acrobatics, Athletics and all saving throws. Unless it has an Intelligence score of 8 or higher, it cannot perform tasks that require of a higher intelligence.</li>
+<li>As long as you and your animal companion can see each other, you can establish non-verbal communication.</li>
+</ul>
+<p>Additionally, you learn the Wild Insight I Ranger Knack, but it doesn't count against your Secrets of Nature known. If you already know it, you learn another Knack or Secret of Nature.</p>
+<hr>
+<h4 id="level-6-mature-animal-companion">Level 6 - Mature Animal Companion</h4>
+<p>At 6th level, your animal companion becomes a Mature Animal companion. It gains the following benefits:</p>
+<ul>
+<li>Its Strength, Dexterity, Constitution and Wisdom scores increase by +1.</li>
+<li>It gains an extra damage dice on its attacks.</li>
+<li>It gains the Extra Attack action.</li>
+<li>It gains expertise on Perception and becomes proficient in Intimidation and Stealth.</li>
+<li>If its size is Medium or lower, it increases by one step.</li>
+<li>Its attacks are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</li>
+</ul>
+<p>Additionally, your animal companion can expend 1 Wild Shape use as a bonus action to use wild shape as if it were a Druid with an effective level equal to half your Druid level.</p>
+<hr>
+<h4 id="level-10-incredible-animal-companion">Level 10 - Incredible Animal Companion</h4>
+<p>At 10th level, your animal companion continues growing and becomes an Incredible Animal Companion. You must choose one of the following subtypes, gaining their benefits:</p>
+<ul>
+<li><strong>Elemental Companion.</strong> The nature of the magic that surrounds your animal companion becomes elemental magic instead of primal. Its Wisdom score increases by +2 and its Strength, Dexterity and Constitution increase by +1. Additionally, you must choose the elemental subtype linked to your animal companion: djinn (lightning), efreet (fire), marid (cold) and dao (acid). The damage of your animal companion changes according to the elemental subtype. Your animal companion also gains resistance to the damage of the elemental subtype selected.</li>
+<li><strong>Indomitable Companion.</strong> Your animal companion becomes incredibly resilient. Its Constitution score increases by +2 and its Strength, Dexterity and Wisdom scores increase by +1. Its HD increase by one step and become d10. It gains an extra damage dice. Additionally, if its size is Medium or lower, it increases by one step. Your animal companion also gains a bonus to its AC equal to half your Wisdom modifier (rounded up).</li>
+<li><strong>Nimble Companion.</strong> Your animal companion becomes extremely agile and quick. Its Dexterity score increases by +2 and its Strength Constitution and Wisdom scores increase by +1. It gains an extra damage dice. Additionally, its movement speed increases by +10 and a +1 bonus to its AC. Your animal companion also gains the Evasion feature.</li>
+<li><strong>Wild Companion.</strong> Your animal companion becomes fierce and ferocious. Its Strength score increases by +2 and its Dexterity, Constitution and Wisdom scores increase by +1. It gains two extra damage dice. Additionally, if its size is Medium or lower, it increases by one step. Your animal companion also gains a bonus to its damage equal to half your Wisdom modifier (rounded up).</li>
+</ul>
+<hr>
+<h4 id="level-14-specialized-animal-companion">Level 14 - Specialized Animal Companion</h4>
+<p>At 14th level, the Intelligence of your animal companion improves and becomes a Specialized Animal Companion. Its Dexterity score increases by +2 and its Intelligence score increases by +4. It gains an extra damage dice. Additionally, you must choose one of the following specializations, gaining their benefits:</p>
+<ul>
+<li><strong>Ambusher.</strong> In its natural environment, your animal companion feels extremely comfortable. It gains expertise on Stealth and its Dexterity score increases by +1.</li>
+<li><strong>Bully.</strong> Your animal companion terrorizes foes with dominance displays and pushes them around the battlefield. It gains expertise on Athletics and Intimidation. Its Strength score increases by +1 and its Charisma score increases by +3.</li>
+<li><strong>Daredevil.</strong> Your animal companion joins the fray with graceful leaps and dives. It gains immunity to being flanked. It gains expertise on Acrobatics. Its Dexterity score increases by +1.</li>
+<li><strong>Deep Diver (prerequisite: Elemental Companion [Marid]).</strong> The cold energy of your animal companion grows stronger. It gains immunity to cold damage. It gains a swim speed of 30 feet or its swim speed increases by 30 feet if it already had one. It gains expertise on Athletics. Its Constitution score increases by +1.</li>
+<li><strong>Racer.</strong> Your animal companion becomes extremely fast. All the speeds of your animal companion increase by 10 feet. It gains expertise on Athletics. Its Constitution score increases by +1.</li>
+<li><strong>Steadfast Strider (prerequisite: Elemental Companion [Dao]).</strong> The earth energy of your animal companion grows stronger. It gains immunity to acid damage. It ignores difficult terrain and can move through quicksand, clay or similar elements as if it were solid ground. It gains expertise on Athletics. Its Strength score increases by +1.</li>
+<li><strong>Tracker.</strong> Your companion is an incredible tracker. It gains expertise on Survival. Its Wisdom score increases by +1.</li>
+<li><strong>Wildfire Scorcher (prerequisite: Elemental Companion [Efreet]).</strong> The fire energy of your animal companion grows stronger. It gains immunity to fire damage. Whenever a creature grapples your animal companion, is grappled by it or hits it with a melee attack, the creature takes 2d6 fire damage. Its Dexterity score increases by +1.</li>
+<li><strong>Wind Chaser (prerequisite: Elemental Companion [Djinn]).</strong> The wind energy of your animal companion grows stronger. It gains immunity to lightning damage. Its movement speed increases by 20 feet and it gains a flight speed of 20 feet. If it already has one, it increases by 20 feet. It gains expertise on Acrobatics. Its Dexterity score increases by +1.</li>
+<li><strong>Wrecker.</strong> Your companion smashes things. Its attacks deal 4d6 additional damages to objects. It gains expertise on Athletics. Its Strength score increases by +1.</li>
+</ul>
+<p>Additionally, the bond with your animal companion reaches its apex. Your animal companion can expend 2 Wild Shape uses as a bonus action to use wild shape as if it were a Druid with the same level as yours.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<option value="all">All</option>
+<option value="alt-circle-of-the-moon">Alternate Circle of the Moon</option>
+</select></p>
+<div class="subclass-content" data-subclass="alt-circle-of-the-moon">
+<h2 id="alternate-circle-of-the-moon"><ins>Alternate Circle of the Moon</ins></h2>
+<p>Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.</p>
+<h3 id="level-2-circle-spells">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>cure wounds</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>summon beast</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>tidal wave</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>guardian of nature</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>mass cure wounds</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-dire-shape">Level 2 - Dire Shape</h3>
+<p>At 2nd level, you learn to not merely adopt a creature's form, but to empower it with your own will. When you assume a wild shape form, you gain a number of temporary hit points equal to three times your druid level.</p>
+<p>Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.</p>
+<hr>
+<h3 id="level-2-natures-champion">Level 2 - Nature's Champion</h3>
+<p>You have learned ancient techniques that allow you to channel the magic of the moon to bolster yourself while using Wild Shape, granting you the following benefits:</p>
+<ul>
+<li>You are capable of taking on more strenuous forms than druids of other circles and find the change much easier. You may select wild shapes with a CR of 1 at 2nd level, and wild shapes with a CR no higher than 1/3 your druid level at later levels.</li>
+<li>When you assume a wild shape form, you add your Wisdom modifier to your AC as well.</li>
+<li>You always have the <em>moonbeam</em> spell prepared while in a wild shape form, and you can cast the spell in that form without material components.</li>
+</ul>
+<hr>
+<h3 id="level-6-rediscovered-self">Level 6 - Rediscovered Self</h3>
+<p>At 6th level, you discover a beast or plant form that resonates with you. When you first gain this feature, select a wild shape you know. Once per long rest, you may assume your chosen wild shape without expending a use of your Wild Shape feature.</p>
+<p>You may remain in your chosen wild shape indefinitely. You may also rest in your chosen wild shape and do not revert out of it when unconscious.</p>
+<p>Additionally, your attacks in wild shape count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+<hr>
+<h3 id="level-10-moonlight-step">Level 10 - Moonlight Step</h3>
+<p>While you are assuming a wild shape form, you may use your bonus action to teleport up to 30 feet to an unoccupied space you can see, and you have advantage on the next attack roll you make before the end of this turn, magically transporting yourself and reappearing amid a burst of moonlight. You can teleport this way a number of times equal to your Wisdom modifier, and regain expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-14-lunar-form">Level 14 - Lunar Form</h3>
+<p>The power of the moon suffuses you, granting you the following benefits while you are using your wild shape:</p>
+<ul>
+<li><strong>Movable Moonbeam.</strong> While your <em>moonbeam</em> is active, you don't need to maintain concentration on it and you can move it up to 60 feet at the start of each of your turns (no action required).</li>
+<li><strong>Lunar Radiance.</strong> Each of your attacks in a Wild Shape form deals an extra 1d10 radiant damage on a hit.</li>
+<li><strong>Shared Moonlight.</strong> Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space.</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<option value="all">All</option>
+<option value="circle-of-the-ancients">Circle of the Ancients</option>
+<option value="circle-of-ash">Circle of Ash</option>
+<option value="circle-of-avalon">Circle of Avalon</option>
+<option value="circle-of-bones">Circle of Bones</option>
+<option value="circle-of-the-branch">Circle of the Branch</option>
+<option value="circle-of-cataclysm">Circle of Cataclysm</option>
+<option value="circle-of-the-city">Circle of the City</option>
+<option value="circle-of-the-coven">Circle of the Coven</option>
+<option value="circle-of-crystals">Circle of Crystals</option>
+<option value="circle-of-the-depths">Circle of the Depths</option>
+<option value="circle-of-dust">Circle of Dust</option>
+<option value="circle-of-the-fist">Circle of the Fist</option>
+<option value="circle-of-the-grove">Circle of the Grove</option>
+<option value="circle-of-guardians">Circle of Guardians</option>
+<option value="circle-of-the-harvest">Circle of the Harvest</option>
+<option value="circle-of-the-hunt">Circle of the Hunt</option>
+<option value="circle-of-the-river">Circle of the River</option>
+<option value="circle-of-sacrifice">Circle of Sacrifice</option>
+<option value="circle-of-the-seafarers">Circle of the Seafarers</option>
+<option value="circle-of-the-shapeless">Circle of the Shapeless</option>
+<option value="circle-of-the-sower">Circle of the Sower</option>
+<option value="circle-of-storms">Circle of Storms</option>
+<option value="circle-of-the-sun">Circle of the Sun</option>
+<option value="circle-of-the-swarm">Circle of the Swarm</option>
+<option value="circle-of-the-tempest">Circle of the Tempest</option>
+<option value="circle-of-the-tides">Circle of the Tides</option>
+<option value="circle-of-vermin">Circle of Vermin</option>
+<option value="circle-of-wyrd">Circle of Wyrd</option>
+</select></p>
+<div class="subclass-content" data-subclass="circle-of-the-ancients">
+<h2 id="circle-of-the-ancients"><ins>Circle of the Ancients</ins></h2>
+<p>Deep in the unexplored jungles of the world, lizardfolk tribes are led by a fearsome Circle of Druids that worship ancient reptiles known as dinosaurs. Members of this Circle draw upon the memory of these ancient beasts that flows within their own blood to strike fear into the hearts of their foes.</p>
+<h3 id="level-2-circle-spells_1">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>cause fear</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>enlarge/reduce</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>fear</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>dominate beast</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>commune with nature</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-ancient-forms">Level 2 - Ancient Forms</h3>
+<p>Whether by heritage or ceremony, your bloodline now bears the memory of ancient dinosaurs. As a bonus action, you can expend a use of Wild Shape to take the form of a dinosaur or another reptilian beast with a Challenge Rating as high as 1, and other wild shapes with a CR no higher than 1/3 your druid level at later levels. You can ignore the Max. CR column of the Beast Shapes table, but you must abide by all other limitations.</p>
+<p>You do not need to have seen a dinosaur before to Wild Shape into it. However, you are limited to Wild Shaping only into dinosaurs and their descendants: birds and reptiles. Examples include velociraptors, crocodiles, and vultures.</p>
+<hr>
+<h3 id="level-2-primitive-adaptation">Level 2 - Primitive Adaptation</h3>
+<p>Your fingers elongate into savage claws which count as natural weapons and deal 1d6 slashing damage on hit. You also gain a climbing speed equal to your walking speed.</p>
+<hr>
+<h3 id="level-6-primal-strikes">Level 6 - Primal Strikes</h3>
+<p>At 6th level, you discover a beast or plant form that resonates with you. When you first gain this feature, select a wild shape you know. Once per long rest, you may assume your chosen wild shape without expending a use of your Wild Shape feature.</p>
+<p>You may remain in your chosen wild shape indefinitely. You may also rest in your chosen wild shape and do not revert out of it when unconscious.</p>
+<p>You also have learned to draw forth more of the ancient power in your blood. Your natural weapon attacks in your normal form and Ancient Form attacks count as magical for the sake of overcoming resistance and immunity to nonmagical attacks.</p>
+<hr>
+<h3 id="level-10-dreadful-wild-shape">Level 10 - Dreadful Wild Shape</h3>
+<p>Your connection with the great reptiles of ancient days grows stronger. As a bonus action, you can expend two uses of Wild Shape to transform into an Ancient Form with a Challenge Rating equal to your druid level divided by 2 (rounded down).</p>
+<hr>
+<h3 id="level-14-monstrous-form">Level 14 - Monstrous Form</h3>
+<p>Beginning at 14th level, you can enhance your Ancient Form with druidic power. While in Ancient Form, you can cast the enlarge portion of <em>enlarge/reduce</em>, targeting only yourself, without expending a spell slot or material components.</p>
+<p>You can cast <em>enlarge/reduce</em> in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-ash">
+<h2 id="circle-of-ash"><ins>Circle of Ash</ins></h2>
+<p>Druids of the Circle of Ash believe in the power of rebirth and resurrection, both physical and spiritual. The ash they take as their namesake is the result of burning and death, but it can fertilize the soil and help bring forth new life. For these druids, ash is the ultimate symbol of the elegant cycle of life and death that is the foundation of the natural world.</p>
+<p>Some such druids even use fresh ash to clean themselves, and the residue is often kept visible on their faces. Druids of this circle often use the phoenix as their symbol, an elemental creature that dies and is reborn from its own ashes. These druids aspire to the same purity and believe resurrection is possible if they are faithful to their beliefs.</p>
+<h3 id="level-2-ash-cloud">Level 2 - Ash Cloud</h3>
+<p>At 2nd level, you can expend one use of your Wild Shape and, rather than assuming a beast form, create a small, brief volcanic eruption beneath the ground, causing it to spew out an ash cloud. As an action, choose a point within 30 feet of you that you can see. Each creature within 5 feet of that point must make a Dexterity saving throw against your spell save DC, taking 2d8 bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+<p>This eruption creates a 20-foot-radius sphere of ash centered on the eruption point. The cloud spreads around corners, and its area is heavily obscured. When a creature enters the cloud for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw against your spell save DC or have disadvantage on ability checks and saving throws until the start of its next turn. Creatures that don't need to breathe or that are immune to poison automatically succeed on this saving throw.</p>
+<p>You automatically succeed on this saving throw while within the area of your ash cloud, but you don't automatically succeed if you are in another Circle of Ash druid's ash cloud.</p>
+<p>The cloud lasts for 1 minute, until you use a bonus action to dismiss it, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
+<hr>
+<h3 id="level-2-firesight">Level 2 - Firesight</h3>
+<p>Starting at 2nd level, your vision can't be obscured by ash, fire, smoke, fog, or the cloud created by your Ash Cloud feature, but it can still be obscured by other effects, such as dim light, dense foliage, or rain. In addition, you have advantage on saving throws against gas or cloud-based effects, such as from the <em>cloudkill</em> or <em>stinking cloud</em> spells, a gorgon's petrifying breath, or a kraken's ink cloud.</p>
+<hr>
+<h3 id="level-6-covered-in-ash">Level 6 - Covered in Ash</h3>
+<p>At 6th level, when a creature within 30 feet of you that you can see (including yourself) takes damage, you can use your reaction to cover the creature in magical ash, giving it temporary hit points equal to twice your proficiency bonus. The target gains the temporary hit points before it takes the damage. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p>
+<p>In addition, while your Ash Cloud feature is active and you are within 30 feet of it, you can use a bonus action to teleport to an unoccupied space you can see within the cloud. You can use this teleportation no more than once per minute.</p>
+<hr>
+<h3 id="level-10-feed-the-earth">Level 10 - Feed the Earth</h3>
+<p>At 10th level, your Ash Cloud feature becomes more potent. Instead of the normal eruption effect, when you first create the ash cloud, each creature within 10 feet of the point you chose must make a Dexterity saving throw against your spell save DC, taking 2d8 bludgeoning damage and 2d8 fire damage on a failed save, or half as much damage on a successful one.</p>
+<p>In addition, when a creature enters this more potent ash cloud for the first time on a turn or starts its turn there, that creature has disadvantage on ability checks and saving throws while it remains within the cloud. Creatures are affected even if they hold their breath or don't need to breathe, but creatures that are immune to poison are immune to this effect.</p>
+<p>If at least one creature takes damage from the ash cloud's eruption, you can use your reaction to siphon that destructive energy into the rapid growth of vegetation. The area within the cloud becomes difficult terrain that lasts while the cloud remains.</p>
+<p>You can't cause this growth in an area that can't accommodate natural plant growth, such as the deck of a ship or inside a building.</p>
+<p>The ash cloud now lasts for 10 minutes, until you use a bonus action to dismiss it, or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
+<hr>
+<h3 id="level-14-from-the-ashes">Level 14 - From the Ashes</h3>
+<p>Beginning at 14th level, when you are reduced to 0 hit points, your body is consumed in a fiery explosion. Each creature of your choice within 30 feet of you must make a Dexterity saving throw against your spell save DC, taking 6d6 fire damage on a failed save, or half as much damage on a successful one. After the explosion, your body becomes a pile of ashes.</p>
+<p>At the end of your next turn, you reform from the ashes with all of your equipment and half your maximum hit points. You can choose whether or not you reform prone. If your ashes are moved before you reform, you reform in the space that contains the largest pile of your ashes or in the nearest unoccupied space. After you reform, you suffer one level of exhaustion.</p>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-avalon">
+<h2 id="circle-of-avalon"><ins>Circle of Avalon</ins></h2>
+<p>You are a keeper of secrets. You keep hidden the paths that lead to it. You move through shadows as naturally as you walk the land. The Circle of Avalon values secrecy above all. It is their sworn duty to return those that have discovered Avalon to the soil. Their work is not grim, it is simply a part of life, a manner of protection. Only those chosen will be allowed on the path; only those chosen will survive the journey. You act as a judge of a creature's worth, only answering to your ancient masters.</p>
+<h3 id="level-2-bonus-proficiencies">Level 2 - Bonus Proficiencies</h3>
+<p>When you choose this Circle at 2nd level, you gain proficiency in Stealth. If you already have proficiency in this skill, you now add double your proficiency bonus to it instead.</p>
+<hr>
+<h3 id="level-2-grim-guardian">Level 2 - Grim Guardian</h3>
+<p>Starting at 2nd level, you have grown used to the natural shadows created by nature. When you are in a natural environment you can now take the Hide action as a bonus action. Once per turn, when you successfully strike a creature with a melee weapon, natural weapon created by your Wild Shape, or melee spell attack and you had advantage on the attack you may add an extra die of damage to that attack. This damage is the same type as the initial attack.</p>
+<p>This damage increases by 1 die of damage at 10th level, and at 14th level the first attack you make each turn causes this effect regardless of having advantage.</p>
+<hr>
+<h3 id="level-6-stalking-shape">Level 6 - Stalking Shape</h3>
+<p>Starting at 6th level, you have learned how to turn into a creature of pure shadow when you use your Wild Shape. As a bonus action when you use Wild Shape to turn into an animal and you are in dim light or darkness, you can emanate a darkening effect for up to 10 feet around you. You lower the light level from dim light to darkness, and when in complete darkness, you make the darkness magic as though you cast the <em>darkness</em> spell. This darkness effect moves with you, and if you ever step into a well-lit area, the ability is immediately canceled and you cannot use it for 1 minute. Also, in any form, you can see normally in darkness, both magical and nonmagical, to a distance of 60 feet.</p>
+<hr>
+<h3 id="level-10-avalonian-blood">Level 10 - Avalonian Blood</h3>
+<p>At 10th level, you are able to partake and share in the waters of Avalon. In a ritual lasting 1 minute, you may bless up to 4 pints of water held within a container to become infused with life force. When a creature drinks up to 1 pint of this water as an action, they regain hit points equal to their Constitution modifier at the start of each of their turns for the next minute. Additional pints of water only refresh the effect and do not add any extra potency to it. The blessing on the water lasts only 1 hour. You cannot use this feature again until you finish a long rest.</p>
+<hr>
+<h3 id="level-14-gateway-to-avalon">Level 14 - Gateway to Avalon</h3>
+<p>Beginning at 14th level, you can open a portal to Avalon for 6 seconds. Creatures who enter this portal gain the benefit of a short rest and reappear from the portal the following round on their turn. These creatures are unable to remember what happened while they were away and will only remember the rolling meadows and beautiful trees within their dreams. You can use this ability once and cannot use it again until you finish a long rest.</p>
+</div>
+<div class="subclass-content" data-subclass="circle-of-bones">
+<h2 id="circle-of-bones"><ins>Circle of Bones</ins></h2>
+<p>Druids of the Circle of the Bones consult with the ancient stones, fossils, and chance rocks. They believe that their power is derived by the sleeping stories of the earth found within the natural artifacts of forgotten ages. They are known as bone-readers: part archaeologist, part fortune teller, and all mysterious.</p>
+<p>These druids are intent on returning the world to its natural order. They are not fond of society, seeing it as but a footnote in the grand history of the realm. Many say the order is tied to the bones of the world itself, their fates and histories interwoven at every turn.</p>
+<h3 id="level-2-ageless-might">Level 2 - Ageless Might</h3>
+<p>At 2nd level, you can bestow the durability of the ancients to other creatures. You have a pool of bone dice represented by a number of d6s equal to your druid level.</p>
+<p>As a bonus action, you can choose one creature you can see within 120 feet of you and roll any number of your bone dice, adding the result of the dice together. The target gains a number of temporary hit points equal to the amount rolled, which last until either you or the target finishes a long rest (whichever comes first).</p>
+<p>You regain all expended bone dice when you finish a long rest.</p>
+<hr>
+<h3 id="level-6-fate-of-the-ancients">Level 6 - Fate of the Ancients</h3>
+<p>At 6th level, your pool of fortune may be used to manipulate the fate of your enemies. As a reaction, when a creature you can see within 120 ft. takes damage, you can roll a number of bone dice equal to half your druid level (rounded down), adding the dice rolled together. The target number takes additional necrotic damage equal to the amount rolled.</p>
+<hr>
+<h3 id="level-10-bones-of-old">Level 10 - Bones of Old</h3>
+<p>At 10th level, your bones are as powerful and durable as stone. You are immune to the paralyzed and petrified conditions.</p>
+<p>Additionally, when you are reduced to zero hit points and are on the ground, you can choose to instead be reduced to 1 hit point and sink beneath the earth for 1 hour. While in this state, you are suspended safely 10 ft. beneath the surface in a rocky cocoon and are incapacitated. At the end of the duration, you emerge onto the surface in the nearest unoccupied space.</p>
+<hr>
+<h3 id="level-14-invoke-the-stone">Level 14 - Invoke the Stone</h3>
+<p>At 14th level, as a bonus action on each of your turns you can expend a druid spell slot of 1st level or higher to generate additional bone dice, up to your bone dice maximum. You gain one bone die for a 1st-level spell slot, plus an additional bone die for each spell slot level higher than 1st.</p>
+<p>Once you have used this feature a number of times equal to your proficiency bonus, you cannot use it again until you finish a long rest.</p>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-branch">
+<h2 id="circle-of-the-branch"><ins>Circle of the Branch</ins></h2>
+<p>The Circle of the Branch is made up of sages and warriors who believe that the greatest wisdom is found in the stillness of plants, especially long-lived trees. Seeking to achieve a modicum of their groves' enlightenment, these druids magically fuse bark from sacred trees into their flesh, assuming arboreal forms that they use to protect and learn from the ancient forests of the multiverse.</p>
+<h3 id="level-2-sylvan-warrior">Level 2 - Sylvan Warrior</h3>
+<p>When you join this circle at 2nd level, you learn the <em>shillelagh</em> cantrip. If you already know it, you instead learn a different druid cantrip of your choice.</p>
+<p>Additionally, as a bonus action, you can grow thick bark on your forearms and shins. While you have this bark, your Armor Class can't be less than 13 + your Dexterity modifier, and you can use your bark-covered limbs as a natural weapon. You are proficient with this natural weapon, which is a melee weapon that deals 1d4 bludgeoning damage. Your natural weapon is a valid target for the <em>shillelagh</em> cantrip. You can revert your forearms and shins to their normal forms as an action on your turn.</p>
+<hr>
+<h3 id="level-2-primeval-guardian">Level 2 - Primeval Guardian</h3>
+<p>Starting at 2nd level, you can root yourself into the ground and assume a tree warrior form. As part of casting <em>shillelagh</em> targeting your natural weapon, you can expend a use of your Wild Shape to magically assume this form, which lasts for a number of hours equal to half your druid level rounded down.</p>
+<p>You then revert to your normal form unless you expend another use of your Wild Shape. The duration ends early, causing you to automatically revert, if you fall unconscious, drop to 0 hit points, die, or use your bonus action to end it.</p>
+<p>You undergo the following changes while in your tree warrior form; otherwise, all of your statistics remain the same:</p>
+<ul>
+<li>Your size becomes Large, unless it was already larger.</li>
+<li>Any speed you have becomes 5 feet, unless the speed was lower.</li>
+<li>Your reach increases to 15 feet.</li>
+<li>Your natural weapon attacks deal an extra 1d6 damage.</li>
+<li>You gain temporary hit points at the start of each of your turns equal to your Wisdom modifier. When you revert to your normal form, you lose any temporary hit points you have from it.</li>
+</ul>
+<hr>
+<h3 id="level-6-greenspeaker">Level 6 - Greenspeaker</h3>
+<p>At 6th level, you gain the ability to converse with plants. Plants can understand your speech, and you gain the ability to decipher their rustles and various pollen and oil excretions. Most plants lack the intelligence to convey or understand sophisticated concepts, but a friendly plant can relay what has happened near it recently, or where any edible fruits and vegetables could possibly be found within 1 mile of it. This ability doesn't grant you friendship with plants, though you can combine this ability with gifts or favors as you would any non-player character to encourage friendliness.</p>
+<hr>
+<h3 id="level-6-extra-attack">Level 6 - Extra Attack</h3>
+<p>Also starting at 6th level, you can attack twice, instead of once, whenever you take the <em>Attack</em> action on your turn.</p>
+<hr>
+<h3 id="level-10-ironwood-warrior">Level 10 - Ironwood Warrior</h3>
+<p>At 10th level, the bark you grow on your limbs becomes thicker and more resilient. While you have bark from your Sylvan Warrior, your Armor Class can't be less than 15 + your Dexterity modifier, and bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by your proficiency bonus.</p>
+<hr>
+<h3 id="level-14-primeval-champion">Level 14 - Primeval Champion</h3>
+<p>At 14th level, you can spend two uses of your Wild Shape when assuming your tree warrior form to flood it with primordial power. If you do, you gain the following additional benefits while in your tree warrior form for the duration:</p>
+<ul>
+<li>Your size becomes Huge, unless it was already larger. If there isn't enough room to accommodate the full size of your form, you become the maximum size possible in the space available.</li>
+<li>Your reach increases to 30 feet.</li>
+<li>Your natural weapon attacks deal a further 1d6 damage, to a total of 2d6 extra damage.</li>
+<li>When an ally starts its turn within 30 feet of you, it gains temporary hit points equal to your Wisdom modifier. A creature other than you must be below half its hit point maximum to benefit from this ability, and this ability has no effect on undead and constructs.</li>
+<li>The ground within 30 feet of you is difficult terrain for your enemies.</li>
+<li>Your weapon attacks deal double damage to objects and structures.</li>
+</ul>
+</div>
+<div class="subclass-content" data-subclass="circle-of-cataclysm">
+<h2 id="circle-of-cataclysm"><ins>Circle of Cataclysm</ins></h2>
+<p>Druids in the Circle of Cataclysm embody the most destructive manifestations of nature's power. Channeling the untamed might of natural catastrophes such as earthquakes, tsunamis, and volcanoes, these spellcasters destroy their enemies with none of the subtlety typical of druids. Members of this circle see themselves as agents of the end times, heralds of ruination, and deliverers of nature's judgment.</p>
+<h3 id="level-2-cataclysmic-font">Level 2 - Cataclysmic Font</h3>
+<p>When you choose this circle at 2nd level, you are infused with the terrible strength of nature. You are a font of destructive energy waiting to be unleashed. You have a pool of cataclysmic energy represented by a number of d4s equal to your druid level.</p>
+<p>When you cast a druid spell that deals damage, you can spend a number of these dice up to the level of the spell slot you expended casting the spell. When you do, roll the spent dice and add them to the initial damage dealt by the spell. You regain all of the expended dice when you finish a long rest.</p>
+<hr>
+<h3 id="level-6-rubble-and-ruin">Level 6 - Rubble and Ruin</h3>
+<p>Starting at 6th level, damage from your druid spells is doubled against inanimate objects and structures.</p>
+<hr>
+<h3 id="level-10-potent-cantrip">Level 10 - Potent Cantrip</h3>
+<p>At 10th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against one of your druid cantrips, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.</p>
+<hr>
+<h3 id="level-14-catastrophic-damage">Level 14 - Catastrophic Damage</h3>
+<p>At 14th level, when you roll damage for a druid spell, you can use your reaction and expend a use of your Wild Shape to reroll a number of the damage dice up to your Wisdom modifier (minimum 1). You must use the new rolls.</p>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-city">
+<h2 id="circle-of-the-city"><ins>Circle of the City</ins></h2>
+<p>The city lives; it has a pulse. Its skin is of walls and towering stone structures, its breath is of chimneys and rivers. While the city exists, it lives in harmony with its people, a delicate balance mediated by the urban druids. These urban druids belong to the Circle of the City and are a direct antithesis to the conventional idea of a druid; whereas a normal druid lives among majestic forests or breathtaking mountains and dresses in the greenery of the forest, an urban druid wears unassuming clothes and wanders the back alleys of a well-trodden city.</p>
+<h3 id="level-2-urban-arcana">Level 2 - Urban Arcana</h3>
+<p>Beginning when you choose this circle at 2nd level, your druid spells lose the aesthetic trappings of nature and instead appear inspired by the jungles of buildings, columns, and cobblestones. For example, <em>entangle</em> and <em>spike growth</em> might cause growths of metal wires and twisting pipes. <em>Barkskin</em> might grant you the appearance of pitted iron or brick.</p>
+<p>Additionally, you can wear armor and wield shields made of metal.</p>
+<hr>
+<h3 id="level-2-street-talk">Level 2 - Street Talk</h3>
+<p>At 2nd level, you have advantage on Intelligence (Investigation) checks to gather rumors or find a creature or location within an urban environment.</p>
+<p>Additionally, you learn thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</p>
+<hr>
+<h3 id="level-2-city-shape">Level 2 - City Shape</h3>
+<p>Starting at 2nd level, as an action, you can expend a use of your Wild Shape feature to warp the city around you. Choose one of the following effects:</p>
+<ul>
+<li><strong>Cobbleshift.</strong> You magically manipulate the components of a constructed floor—bricks, cobblestones, planks, and similar objects—within 60 feet. Each component can move up to 1 foot and doesn't cause instabilities in their structures. When you use this effect, you can cause any sections of floor that you choose within the area to become difficult terrain, and can cause any creature standing in one of those sections to make a Dexterity save against your spell save DC or fall prone. You are unaffected by this difficult terrain.</li>
+</ul>
+<p>Additionally, you can use your action on each of your turns to raise up to three low walls from the floor, each 2 and 1/2 feet high, 5 feet wide, and 1 foot deep. Such a wall can generally provide half cover for a Medium creature. These walls provide no instability in surrounding structures. This ability lasts for 1 minute. After this time, all components and walls magically revert to their original positions.</p>
+<ul>
+<li><strong>Passwall.</strong> You cast the spell <em>passwall</em> without expending a spell slot or material components.</li>
+<li><strong>Wall Warp.</strong> A wall that you can see within 30 feet magically shifts, grows, shrinks, or rotates. This wall must be a contiguous surface without corners, at most 1 foot thick, and must be made out of wood, plaster, stone, or must otherwise not be naturally occurring. The wall must remain vertical, but you can move it into any position you choose within a 60-foot radius of its previous position. Its new position can't include spaces occupied by creatures or objects. If you cause the wall to grow or shrink, you can only change its dimensions vertically. These changes to the wall create no instability in their structures. After 1 minute, the wall reverts to its original size and position.</li>
+</ul>
+<hr>
+<h3 id="level-6-whispers-of-walls">Level 6 - Whispers of Walls</h3>
+<p>Beginning at 6th level, the walls speak to you in a quiet tremor. You can use your action to touch a constructed part of a building, such as a wall, pillar, ceiling, or floor. You learn how many humanoid creatures are within that building and how many are within each room. If there are more than fifty humanoids in a building, you only detect the closest fifty.</p>
+<hr>
+<h3 id="level-10-breath-of-smog">Level 10 - Breath of Smog</h3>
+<p>Starting at 10th level, you can exhale a 10-foot radius sphere of toxic smoke, centered on yourself, as a reaction whenever you take damage. This area is heavily obscured. If a creature other than you is completely within the smog at the start of its turn, it must make a Constitution saving throw against your spell save DC or be poisoned until the start of its next turn, as it coughs uncontrollably.</p>
+<p>This smog dissipates after 1 minute. A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round. Once you use this ability, you can't use it again until you use your City Shape feature or you finish a short or long rest.</p>
+<hr>
+<h3 id="level-14-twisting-architecture">Level 14 - Twisting Architecture</h3>
+<p>By 14th level, you command total mastery of the city's architecture, warping to any shape you might imagine. You can expend two uses of your Wild Shape feature to activate any and all effects of your City Shape ability at one time.</p>
+<p>Additionally, when you use your City Shape feature, you can warp the gravity along any surfaces you choose within a 60-foot radius. For the next minute, creatures and objects within 15 feet of one of these surfaces fall toward it as if it were the ground. A creature can walk on this surface as if it were level ground, even if the surface is perpendicular to the ground or upside down. At the end of this duration, all creatures and objects fall from the affected surfaces.</p>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-coven">
+<h2 id="circle-of-the-coven"><ins>Circle of the Coven</ins></h2>
+<p>Druids are known amongst the masses for their secret groups, sacred locales, and sacramental rites. None fit this description more so than the druids that gather together in the spirit of cult sorority, where the whole is exponentially more powerful than the mere sum of its parts - which parts often consist of hags and other unseelie fey.</p>
+<p>These mystical magicians, while not known for infant-snatching like their namesake, do give more attention to the civilized world than the rest of their kind. Their skill with the cauldron, and their ability to take the form of humanoids in addition to beasts, allow them to closely observe and even infiltrate communities of all kinds. While the intentions of these druids are frequently debated amongst those who are familiar with them, their power is not.</p>
+<h3 id="level-2-toil-and-trouble">Level 2 - Toil and Trouble</h3>
+<p>You gain proficiency with alchemist's supplies and poisoner's kit. Additionally, the gold and time that you must spend to brew potions or poisons is halved.</p>
+<hr>
+<h3 id="level-2-double-double">Level 2 - Double, Double</h3>
+<p>As an action, you can expend a use of your Wild Shape to magically polymorph into a Small or Medium humanoid. Your statistics are the same in this form, and your equipment magically resizes to fit your new form.</p>
+<p>You can remain in this form for a number of hours equal to half your druid level rounded down (minimum of 1 hour) and can end it early as an action. You gain a number of temporary hit points equal to 4 times your druid level, and you revert to your normal form early if you lose all of these temporary hit points. All other standard Wild Shape rules still apply while you are transformed in this way.</p>
+<p>While you are transformed using your Wild Shape feature, whether into a beast or humanoid form, you gain a special action. While in your Wild Shape, you can use your action to briefly adopt a ghastly appearance, forcing all creatures within 30 feet that can see you to make a Wisdom saving throw. On a failed save, the creature is frightened of you for 1 minute. It can repeat this saving throw at the end of each of its turns, ending the effect on a success.</p>
+<p>If you model your appearance after a specific humanoid, a suspicious creature can make an Intelligence (Investigation) check against your spell save DC, realizing that you are an imposter on a success.</p>
+<hr>
+<h3 id="level-2-circle-spells_2">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>hold person</em> / <em>ray of enfeeblement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>bestow curse</em> / <em>counterspell</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>phantasmal killer</em> / <em>polymorph</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>contact other plane</em> / <em>scrying</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-witch-step">Level 6 - Witch Step</h3>
+<p>While you are in a humanoid Wild Shape, you can use your action to magically turn invisible until you attack, cast a spell, or until your humanoid Wild Shape ends. While invisible, you must concentrate as if you were concentrating on a spell, you leave no footprints, and any equipment that you chose to (or chose not to) alter to fit a humanoid Wild Shape is also invisible.</p>
+<hr>
+<h3 id="level-10-witching-hour">Level 10 - Witching Hour</h3>
+<p>When you are in a humanoid Wild Shape, your Strength score becomes 20 and you can make natural weapon attacks with either claws or a bite. These attacks deal 2d8 + your Strength modifier in either slashing damage (for claws) or piercing damage (for bite).</p>
+<p>The attacks are considered magical for the purposes of overcoming resistance and immunity. Additionally, while in a humanoid Wild Shape, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered.</p>
+<hr>
+<h3 id="level-14-shared-spellcasting">Level 14 - Shared Spellcasting</h3>
+<p>While you are within 30 feet of at least two other creatures that can cast spells of 1st-level or higher, spells you cast act as if they had been cast with a spell slot one level higher than the spell slot you used to cast them, but not beyond 9th-level.</p>
+</div>
+<div class="subclass-content" data-subclass="circle-of-crystals">
+<h2 id="circle-of-crystals"><ins>Circle of Crystals</ins></h2>
+<p>Druids of the Circle of Crystals have a deep connection to arcane crystals, which are magically infused crystals. To these druids, naturally occurring sources of such crystals are sacred, and they believe that they harbor the closest and deepest connection to the intrinsic magic of the world.</p>
+<h3 id="level-2-diamond-skin">Level 2 - Diamond Skin</h3>
+<p>Starting at 2nd level, your skin is covered by a sturdy layer of crystals. While you are not wearing any armor, your AC equals 12 + your Wisdom modifier. You can use a shield and still gain this benefit.</p>
+<hr>
+<h3 id="level-2-crystallize">Level 2 - Crystallize</h3>
+<p>At 2nd level, you gain the ability to transform latent magic into arcane crystals. As a bonus action, you can expend a use of your Wild Shape to conjure a chunk of crystals within 30 feet of you, rather than transforming into a beast. These crystals last for 1 minute, or until you lose your concentration (as if you were concentrating on a spell), at which point the crystals shatter and turn into a fine dust.</p>
+<p>The crystals have one of the following effects, which you choose when you conjure them:</p>
+<p><strong>Encasing Crystals.</strong> The crystals grow out of the body of a creature within range and restrict their movement. It must make a Strength saving throw or be stunned for the duration. At the end of each of its turns, the target can repeat the saving throw, ending the effect and destroying the crystals on a success.</p>
+<p><strong>Shielding Crystals.</strong> The crystals grow on the body or armor of a willing creature within range, which grants them resistance to bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine for the duration.</p>
+<p><strong>Refracting Crystals.</strong> The crystals appear out of the ground within range as a medium-sized object for the duration. Once per turn when you cast a spell with a range of 10 feet or more, you can cause the spell to refract through the crystals, provided they are within 30 feet of you and you can see them. If you do, the spell is cast through the crystals' space, and you can use the crystals' line of sight when casting the spell, potentially allowing you to target creatures behind corners or at an extended range. Also, you gain a 2d4 bonus to one roll of the spell, which must restore hit points or be a damage roll. If it is a damage roll for radiant damage, this bonus increases to 2d6.</p>
+<hr>
+<h3 id="level-2-circle-spells_3">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>blindness/deafness</em>, <em>spike growth</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>counterspell</em>, <em>meld into stone</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>stone shape</em>, <em>stoneskin</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>hold monster</em>, <em>wall of stone</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-crystal-beacon">Level 6 - Crystal Beacon</h3>
+<p>At 6th level, you can use your action to detach one of your crystals, placing it within the ground to be used as a beacon. You can have a number of these beacons active at any time equal to your Wisdom modifier (a minimum of 1). If you try to place more, the oldest one you placed shatters.</p>
+<p>You can always sense the direction to each of your individual beacons, provided you are on the same plane as them.</p>
+<hr>
+<h3 id="level-10-resistant-gems">Level 10 - Resistant Gems</h3>
+<p>Once you reach 10th level, you have advantage on saving throws against being paralyzed, petrified, poisoned, or stunned. In addition, you have resistance to poison and radiant damage.</p>
+<hr>
+<h3 id="level-14-reflect-attack">Level 14 - Reflect Attack</h3>
+<p>Starting at 14th level, when you are hit with an attack by a creature you can see, you can use your reaction to reflect it back to your attacker. You take no damage from the attack, then, you make a melee or ranged spell attack against the original attacker, based on the original attack. On a hit, they take the damage you would have taken, along with any additional effects that would have been inflicted by the attack.</p>
+<p>Alternatively, when you successfully interrupt a spell that would have targeted you with <em>counterspell</em>, you can change the target of the spell to the original caster instead of having the spell fail. If the spell had concentration, you must then concentrate on it.</p>
+<p>Once you use either option, you can't use this feature again until you finish a short or long rest.</p>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-depths">
+<h2 id="circle-of-the-depths"><ins>Circle of the Depths</ins></h2>
+<p>From the high mountain peaks to ancient forest groves, and to blistering deserts, Circles of Druids can be found in every environment. The strangest of these Druidic Circles is found in the darkest depths, where blind things gnaw at the roots of the world. Druids of the Depths spend their lives monitoring the strange ecosystems that exist in the deep and wield the aberrant powers that develop in the never-ending darkness.</p>
+<h3 id="level-2-aberrant-form">Level 2 - Aberrant Form</h3>
+<p>The dark power of your Circle allows you to adopt aberrant forms. As a bonus action, you can expend a use of Wild Shape to transform into an aberration with a Challenge Rating as high as 1. You can ignore the Max. CR column of the Beast Shapes table, but you must abide by all other limitations.</p>
+<p>You use the aberration's normal stat block, but it gains the sunlight sensitivity trait (as below), and one additional trait of your choice from the following list:</p>
+<p><strong>Sunlight Sensitivity.</strong> The aberration has disadvantage on Wisdom (Perception) checks and attack rolls that rely on sight when the beast, its target, or whatever it is attempting to perceive is in direct sunlight.</p>
+<p><strong>Amphibious Skin.</strong> The aberration's skin becomes completely translucent. It gains a swimming speed of 10 feet, and it can breathe air and water.</p>
+<p><strong>Arachnoid Grip.</strong> The aberration sprouts additional insectoid legs. It gains a 30-foot climbing speed, and it can climb difficult surfaces, including upside down, without needing to make an ability check.</p>
+<p><strong>Gnawing Hunger.</strong> The aberration grows serrated mouths at the end of each of its limbs. When it deals damage with a natural weapon attack, it gains temporary hit points equal to half the damage dealt.</p>
+<p><strong>Insectile Carapace.</strong> The aberration grows a chitinous shell or plates in place of its fur or scales. It gains a +2 bonus to its natural Armor Class.</p>
+<p><strong>Psionic Awakening.</strong> The aberration appears emaciated and its eyes become milky and white. You can cast your Circle of the Depths spells as normal while in this form.</p>
+<p><strong>Quivering Flesh.</strong> The aberration's flesh quivers as if it is made of slime or viscous ooze. It can move through gaps as narrow as 1 inch wide without having to squeeze or expend extra movement.</p>
+<p><strong>Unnatural Sight.</strong> The aberration has only empty sockets where its eyes would be. It cannot see normally or perceive things normally, but it gains blindsight out to a 10-foot radius.</p>
+<hr>
+<h3 id="level-2-circle-spells_4">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>mind sliver</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>mind whip</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>hunger of hadar</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>evard's black tentacles</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>telekinesis</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-alien-strikes">Level 6 - Alien Strikes</h3>
+<p>Eldritch energies empower your aberrant transformations. The natural weapon attacks of your Aberrant Forms count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.</p>
+<p>In addition, you can Wild Shape into any aberration you have seen before with a Challenge Rating as high as your druid level divided by 3 (rounded down).</p>
+<hr>
+<h3 id="level-10-abhorrent-wild-shape">Level 10 - Abhorrent Wild Shape</h3>
+<p>You have forged a strange connection with the unnatural and alien creatures of the depths. As a bonus action, you can expend two uses of Wild Shape at the same time to take the form of an aberration you have seen with a CR of 5 or lower.</p>
+<p>Moreover, when you use Aberrant Form, the aberration gains two Aberrant Form traits of your choice (in addition to sunlight sensitivity).</p>
+<hr>
+<h3 id="level-14-aberrant-evolution">Level 14 - Aberrant Evolution</h3>
+<p>Your Aberrant Forms have evolved to thrive in sunlight as well as darkness. When you Wild Shape into an aberration, it no longer gains the sunlight sensitivity feature, and it instead gains an additional Aberrant trait of your choice from the list (for a total of three traits).</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-dust">
+<h2 id="circle-of-dust"><ins>Circle of Dust</ins></h2>
+<p>Groups of goblin shamans, druids, ruin hunters, and explorers once banded together, united by their lives spent crawling the wastes. These canny survivors eked out a living among the dust and unpredictable magic as they searched out lost relics from empires long buried. The Circle of Dust is the result of their study. Today, most of the Circle of Dust are goblins, but druids of other races brave or foolish enough to venture into the wastes to earn the circle's trust have joined their ranks.</p>
+<p>Druids of the Circle of Dust align their magic with the unpredictable mystic nature of the wastes. They draw sustenance from it, protect against otherworldly creatures, and gather lost knowledge hidden beneath the ancient sands.</p>
+<h3 id="level-2-bonus-proficiencies_1">Level 2 - Bonus Proficiencies</h3>
+<p>At 2nd level, you can wear and use armor and shields made of metal.</p>
+<hr>
+<h3 id="level-2-resonating-shroud">Level 2 - Resonating Shroud</h3>
+<p>Starting at 2nd level, you gain the ability to create a field of magical energy around yourself that warps ambient magic. As an action, you can expend a use of Wild Shape to create an aura, which fills the area within 10 feet of you. While this aura is active, you gain the following benefits:</p>
+<ul>
+<li>Your melee weapon attacks deal an extra 1d6 force damage to any target they hit.</li>
+<li>Your AC increases by 2.</li>
+<li>When you cast spells with a range of touch, your reach extends to anywhere within your shroud. Other aspects of the spells are unchanged.</li>
+</ul>
+<p>The aura lasts for 1 hour or until you use your Wild Shape again.</p>
+<hr>
+<h3 id="level-2-circle-spells_5">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>levitate</em> / <em>locate object</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>create food and water</em> / <em>magic circle</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>banishment</em> / <em>death ward</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>hallow</em> / <em>legend lore</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-otherworldly-resonance">Level 6 - Otherworldly Resonance</h3>
+<p>At 6th level, your mind transforms due to the twisting energies of the wastes. While your Resonating Shroud is active, you can no longer be charmed or frightened, and aberrations must succeed on a Wisdom saving throw against your spell save DC to attack you. An aberration that fails this save can choose a new target, or it wastes the attack.</p>
+<hr>
+<h3 id="level-10-mystic-absorption">Level 10 - Mystic Absorption</h3>
+<p>At 10th level, you have advantage on saving throws against spells and other magical effects.</p>
+<p>Additionally, when you take damage from a spell, you can use your reaction to absorb some of the energy. You can expend Hit Dice to regain hit points as if you finished a short rest. The maximum number of hit dice you can expend is equal to half your druid level. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-14-shroud-disruption">Level 14 - Shroud Disruption</h3>
+<p>At 14th level, your Resonating Shroud now extends to the area within 30 feet of you, and your foes treat the area within your shroud as difficult terrain. A creature hostile to you that ends its turn in your shroud takes 1d8 force damage.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-fist">
+<h2 id="circle-of-the-fist"><ins>Circle of the Fist</ins></h2>
+<p>The defenders of the forests and champions of the trees, druids who join the Circle of the Fist take their charge as natural protectors seriously. Traditionally, all druid circles strive to protect the natural realm and maintain the world's balance, but only druids of this circle guard the woodlands with the vigilance and fervor of a territorial beast. Fists of the Forest, as they are called, lay low intruders to their realms with flurries of bare-fisted strikes, empowered by the natural world, before disappearing into the treetops. At the height of their expertise, these druids fight more like beasts of the forests than men, and are twice as deadly.</p>
+<p>Often, this druidic order safeguards sacred groves and permanent fey bridges, but sometimes, its members adopt quests of vengeance for misdeeds done to the forest, or quests of intervention, to ensure that a prophesied disaster does not come to pass.</p>
+<h3 id="level-2-untamed-fury">Level 2 - Untamed Fury</h3>
+<p>At 2nd level, you fight with the might of a feral beast. While you are unarmed and you aren't wearing armor or wielding a shield, you gain the following benefits:</p>
+<ul>
+<li>Your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</li>
+<li>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes.</li>
+<li>You can roll a d4 in place of the normal damage of your unarmed strike. This die increases to 1d6 at 5th level and 1d8 at 11th level. If the weapon die of your beast form is less than your Untamed Strike die, you can use this die instead while in your beast form.</li>
+<li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action. If you also expend a spell slot of 1st level or higher, you can make 2 unarmed strikes as a bonus action. If you expend a spell slot of 5th level or higher, you make 3 unarmed strikes.</li>
+</ul>
+<p>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+<hr>
+<h3 id="level-2-primal-infusion">Level 2 - Primal Infusion</h3>
+<p>Also at 2nd level, you can use your bonus action and expend a use of your Wild Shape feature to draw the raw power of nature into your body. You gain temporary hit points equal to 4 × your druid level + your Wisdom modifier. While you have these temporary hit points, your movement speed increases by 10 feet.</p>
+<hr>
+<h3 id="level-6-extra-attack_1">Level 6 - Extra Attack</h3>
+<p>Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn with an unarmed strike.</p>
+<hr>
+<h3 id="level-10-savage-instinct">Level 10 - Savage Instinct</h3>
+<p>Starting at 10th level, you can muster the power of nature in an instant. Whenever you roll initiative, you can choose to immediately expend a use of your Wild Shape feature to use your Primal Infusion ability. If you do so, you also gain one of the following benefits of your choice for up to 1 minute, while the hit points from your Primal Infusion ability remain:</p>
+<ul>
+<li><strong>Feral Agility.</strong> Whenever you hit a creature with an unarmed strike, you can move 10 feet without provoking opportunity attacks.</li>
+<li><strong>Mountain's Might.</strong> You have advantage on Strength checks and saving throws, and you have advantage on attack rolls against a creature you are grappling.</li>
+<li><strong>Trees' Resilience.</strong> When an attacker that you can see hits you with an attack, you can use your reaction to reduce the damage taken by your Wisdom modifier.</li>
+</ul>
+<hr>
+<h3 id="level-14-natures-wrath">Level 14 - Nature's Wrath</h3>
+<p>By 14th level, you can use your reaction when you lose all your temporary hit points from your Primal Infusion feature to either make two unarmed strikes against a creature you can see within your reach, or expend a use of your Wild Shape feature to use your Primal Infusion ability again.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-grove">
+<h2 id="circle-of-the-grove"><ins>Circle of the Grove</ins></h2>
+<p>Druids that belong to the Circle of the Grove revere plants and draw power from the vegetation around them. These druids preserve the places of the world yet unspoiled by civilization and work with communities to harmoniously integrate their lives with natural flora. Many druids of this circle draw their power from a particular place in the world.</p>
+<p>These sacred places, called "groves," are lovingly cultivated spaces where primordial magic grows free from the influence of people. These groves are typically watched over by a single elder druid called a "warden," but all druids tied to the circle are welcome to meet, meditate, or take shelter in these sacred spaces.</p>
+<h3 id="level-2-leaf-song">Level 2 - Leaf Song</h3>
+<p>At 2nd level when you choose this circle, you gain the ability to listen to plants and communicate with plant creatures. As long as you aren't engaged in strenuous activity, you can use an action to focus on a plant within 30 feet of you. You instantly learn what the plant is, what its properties are, and what (if anything) is ailing it.</p>
+<p>If you spend at least 1 minute focusing on the plant, you learn about events that have happened within 30 feet of the plant over the past day, such as information about creatures that have passed through, weather, and other circumstances. Additionally, plant creatures can understand your speech, and you gain the ability to decipher their noises and motions whether or not you share a language.</p>
+<hr>
+<h3 id="level-2-sacred-grove">Level 2 - Sacred Grove</h3>
+<p>When you choose this circle at 2nd level, you can imbue your surroundings with vitality to temporarily create a magical pocket grove. As an action, you can expend a use of your Wild Shape feature to transform the area around you rather than assuming a beast form. When you use this feature, vitality surges into the ground in a 30-foot radius centered on you. Normal plants in the affected area rapidly expand, and magical plants sprout from the ground. The sacred grove remains magical for 1 minute, until it withers, or until you fall unconscious, after which its magic fades, but normal plants remain healthy and overgrown. You can choose to end this effect early (no action required). You can maintain only one sacred grove at a time.</p>
+<p>Whenever you use this feature, choose one of the following magical properties the sacred grove demonstrates while active:</p>
+<ul>
+<li><strong>Tree Line.</strong> Saplings surge from the ground, creating a protective ring. All creatures (other than you) roll attacks with disadvantage against creatures inside the grove. If you would take damage from an attack or spell that targets only you (not an area of effect) while standing inside the grove, you can use your reaction to command the grove to intercept it. When you do so, the grove withers and you take no damage.</li>
+<li><strong>Tangle Weed.</strong> Creeping vines or brambles weave across the ground making the area difficult terrain. Whenever a creature attempts to move in, out, or through the grove you can use a reaction to command the vines to grab it. The target must succeed on a Strength saving throw versus your spell save DC or be restrained by the grasping plants for the sacred grove's duration. A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, the creature frees itself.</li>
+<li><strong>Wilde Flowers.</strong> Patches of magic-imbued flowers sharpen the senses. All creatures standing in the grove have advantage on Intelligence, Wisdom, and Charisma saving throws. As a bonus action, you can sacrifice the flowers' magic to end all conditions affecting one creature in the grove's area. When you do so, all creatures standing in the grove gain temporary hit points equal to your druid level, and the grove withers.</li>
+</ul>
+<hr>
+<h3 id="level-6-take-root">Level 6 - Take Root</h3>
+<p>At 6th level, while standing on the ground you can use a bonus action to root yourself in place. While you remain rooted, your speed is 0 and you cannot be forced to move or knocked prone by any means. You remain rooted until you choose to end the effect (no action required).</p>
+<p>If you are rooted when your turn begins, you can choose to spend one of your Hit Dice. When you do so, roll the die and regain hit points equal to the result plus your Constitution modifier.</p>
+<hr>
+<h3 id="level-10-grove-warden">Level 10 - Grove Warden</h3>
+<p>At 10th level, your bond to the sacred grove has deepened, allowing you more exact control over its behavior. When summoned, the grove now covers a 60-foot-radius circle centered on you.</p>
+<p>Additionally, you can now decide whether allied creatures (including yourself) inside the grove are immune to any effects it imposes.</p>
+<hr>
+<h3 id="level-14-heart-of-the-forest">Level 14 - Heart of the Forest</h3>
+<p>You and the grove are now one, and as long as it stands, so do you. At 14th level, if you are reduced to 0 hit points while in the area of your sacred grove, the grove withers and you gain hit points equal to your druid level. Once you use this feature, you can't use it again until you finish a long rest.</p>
+<p>If your body is destroyed completely, the grove withers, leaving a single acorn at its center. If this acorn is left undisturbed or is planted somewhere else, you regain a new body in 1d10 days, regain all your hit points, and become active again. Your new body appears within 5 feet of the acorn, which is destroyed as soon as you regain consciousness.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-guardians">
+<h2 id="circle-of-guardians"><ins>Circle of Guardians</ins></h2>
+<p>While all Druids forge a relationship with the natural world, those who join the Circle of Guardians dedicate their lives to protecting the elder forests and sacred groves that serve as sources of druidic magic. Known simply as Guardians, these Druids are as stalwart and resilient as the trees they defend.</p>
+<h3 id="level-2-elder-limbs">Level 2 - Elder Limbs</h3>
+<p>The magic of the elder forest you guard empowers your body with primeval power. Your unarmed strikes deal bludgeoning damage equal to 1d8 + your Strength modifier on hit.</p>
+<p>Moreover, when you hit a creature with an unarmed strike, you can expend a spell slot to cast <em>ensnaring strike</em> on your target as part of your unarmed strike attack.</p>
+<hr>
+<h3 id="level-2-circle-spells_6">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><em>compelled duel</em>, <em>ensnaring strike</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>earthbind</em>, <em>warding bond</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>erupting earth</em>, <em>plant growth</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>aura of life</em>, <em>grasping vine</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>tree stride</em>, <em>wrath of nature</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-guardian-form">Level 2 - Guardian Form</h3>
+<p>The primordial forests you protect can lend you their elder powers. As a bonus action, you can expend a use of Wild Shape and transform into a treelike Guardian Form, which grants you the following benefits for 10 minutes:</p>
+<ul>
+<li>Your flesh is covered in bark. Your Armor Class equals 10 + your Constitution modifier + your Wisdom modifier.</li>
+<li>As a bonus action, you can grant yourself temporary hit points equal to your Wisdom modifier (minimum of 1).</li>
+<li>The reach of your unarmed strikes increases by 5 feet.</li>
+<li>You can use your Wisdom, in place of Strength, for the attack and damage rolls for your unarmed strikes.</li>
+</ul>
+<p>Your Guardian Form transformation ends early if you are reduced to 0 hit points or you use a bonus action on your turn to revert to your normal form.</p>
+<hr>
+<h3 id="level-6-arboreal-strikes">Level 6 - Arboreal Strikes</h3>
+<p>The elder grove you defend enhances your combat abilities. You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your druid cantrips in place of one of those attacks.</p>
+<p>Also, your unarmed strikes count as magic for the sake of overcoming resistance and immunity to nonmagical attacks.</p>
+<hr>
+<h3 id="level-10-grasp-of-the-forest">Level 10 - Grasp of the Forest</h3>
+<p>Your elder magic stimulates wild growth. As an action, you can expend a use of Wild Shape to cast <em>plant growth</em>. When you do, you can choose a number of creatures equal to your Wisdom modifier (minimum of 1) that can ignore the difficult terrain created, as the plants move and allow them to pass by.</p>
+<hr>
+<h3 id="level-14-verdant-mastery">Level 14 - Verdant Mastery</h3>
+<p>Your body is completely suffused with elder druidic magic. When you transform into Guardian Form, you grow by one size category, for example from Medium to Large, and you resemble an ancient treant. You also gain resistance to all bludgeoning, piercing, poison, and slashing damage.</p>
+<p>Finally, the duration of your Guardian Form transformation increases to 1 hour, and while you are in Guardian Form, you can speak to plants as if you were under the effects of the <em>speak with plants</em> spell, so long as you speak in Druidic.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-harvest">
+<h2 id="circle-of-the-harvest"><ins>Circle of the Harvest</ins></h2>
+<p>The cyclical nature of life is a central belief of every druid, no matter their Circle. However, to members of the Circle of the Harvest, this cycle is of utmost importance. They stand as the protectors of natural law and look to destroy any who would violate the cycle of life with necromancy or other dark magic.</p>
+<h3 id="level-2-druidic-avenger">Level 2 - Druidic Avenger</h3>
+<p>You have taken up the ancient mantle of the Druidic Avenger. As a bonus action, you can expend a use of your Wild Shape to transform into your Avenger Form. While in this Form, you retain your game statistics, but you gain the benefits below:</p>
+<ul>
+<li>Your walking speed increases by 10 feet.</li>
+<li>So long as you are not wearing medium or heavy armor or wielding a shield, you gain a bonus to your Armor Class equal to your Wisdom modifier (minimum of +1).</li>
+<li>When you make a Constitution saving throw to maintain your concentration, you gain a bonus to your roll equal to your Wisdom modifier (minimum of +1).</li>
+</ul>
+<p>This Form lasts for 1 minute. It ends early if you are incapacitated or you end it as a bonus action.</p>
+<hr>
+<h3 id="level-2-harvest-scythe">Level 2 - Harvest Scythe</h3>
+<p>Over the course of 1 hour, which can be during a short or long rest, you can perform an ancient ritual to conjure a Harvest Scythe. It is a magic weapon with the finesse and versatile properties and deals 1d8 (1d10) slashing damage on hit. This Scythe can be used as a spellcasting focus by you, and you gain the following benefits while you wield it:</p>
+<ul>
+<li>You know <em>chill touch</em>. It counts as a druid spell for you, but it doesn't count against your Cantrips Known.</li>
+<li>You always have <em>inflict wounds</em> prepared. It counts as a druid spell for you, but it doesn't count against the total number of druid spells you can prepare each day.</li>
+<li>You can cast <em>inflict wounds</em> at 1st-level, without expending a spell slot a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</li>
+<li>If you lose your Scythe, you can perform a 1-hour ritual and conjure another, and the previous Scythe turns to ash.</li>
+</ul>
+<hr>
+<h3 id="level-6-extra-attack_2">Level 6 - Extra Attack</h3>
+<p>You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your druid cantrips in place of one of those attacks.</p>
+<hr>
+<h3 id="level-10-mantle-of-defense">Level 10 - Mantle of Defense</h3>
+<p>You can channel druidic magic to absorb incoming blows. As a reaction when you take damage in your Avenger Form, you can expend a spell slot to reduce the incoming damage by five times the level of the spell slot you expended.</p>
+<hr>
+<h3 id="level-14-cull-the-unnatural">Level 14 - Cull the Unnatural</h3>
+<p>Your desire to destroy the enemies of nature empowers your attacks. You add your Wisdom modifier (minimum of +1) to the damage of any attacks you make with your Harvest Scythe while you are in your Avenger Form.</p>
+<p>Finally, your ancient magic grants you resistance to unnatural powers. You gain resistance to necrotic damage when you are in your Avenger Form.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-hunt">
+<h2 id="circle-of-the-hunt"><ins>Circle of the Hunt</ins></h2>
+<p>The natural order dictates the strong prey on the weak. It is a pattern repeated in countless forms across countless planes, and to the druids who follow the Circle of the Hunt, it is a blueprint for life. These individuals tend towards a brash attitude bordering on arrogance, relying on their strength and skill to see them through challenges, with a nose for sniffing out weakness around them. They emulate the actions of the wolf, hawk, cougar, and lion, seeing these apex predators as the true pinnacle of life.</p>
+<h3 id="level-2-predator-claws">Level 2 - Predator Claws</h3>
+<p>When you choose this circle, you grow claws on your hands. Your unarmed strike inflicts 1d6 slashing damage and it is considered a finesse weapon. When you use your Wild Shape, any claw attack you gain inflicts damage equal to your Predator Claws or the claw damage of the beast, whichever is greater.</p>
+<p>Your claws increase in lethality as you gain levels. The damage increases to 1d8 at 6th level and 1d10 at 10th level.</p>
+<hr>
+<h3 id="level-2-bestial-ferocity">Level 2 - Bestial Ferocity</h3>
+<p>You learn to unleash a bestial ferocity, similar to the rage of a barbarian. As a bonus action, you enter into a ferocious state. You inflict bonus damage on melee attacks equal to your Wisdom modifier. This effect lasts for 1 minute.</p>
+<p>You must complete a long rest before you can use this feature again.</p>
+<hr>
+<h3 id="level-6-keen-senses">Level 6 - Keen Senses</h3>
+<p>Your predatory senses have been sharpened to pick out creatures around you. You have advantage on Wisdom (Perception) checks and you can detect invisible creatures within 10 feet of you.</p>
+<hr>
+<h3 id="level-10-pack-tactics">Level 10 - Pack Tactics</h3>
+<p>You learn to cooperate with your allies to coordinate and maximize your attacks. You have advantage on attack rolls against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+<hr>
+<h3 id="level-14-uncanny-dodge">Level 14 - Uncanny Dodge</h3>
+<p>You learn to dodge out of harm's way in response to deadly attacks. When an attacker that you can see hits you with a melee attack, you can use your reaction to halve the attack's damage against you.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-river">
+<h2 id="circle-of-the-river"><ins>Circle of the River</ins></h2>
+<p>The River Oceanus is a powerful if subtle force of hope and renewal, with its course running through several of the Upper Planes. It dominates the landscape of Elysium, where it is said a traveler on any layer is never out of sight of the majestic river. The River Oceanus is a source of rejuvenation and healing, and the druids of the Circle of the River recognize its importance and learn to harness its effects to renew themselves and their companions.</p>
+<h3 id="level-2-renew-resources">Level 2 - Renew Resources</h3>
+<p>You can call upon the natural energy of the River Oceanus to refresh the resources of an ally. You can spend 1 minute concentrating and then touch a creature other than yourself. The creature immediately gains the benefit of a short rest.</p>
+<p>You can use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-2-circle-spells_7">Level 2 - Circle Spells</h3>
+<p>Your connection to the River Oceanus grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells.</p>
+<p>Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>lesser restoration</em> / <em>prayer of healing</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>create food and water</em> / <em>mass healing word</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>aura of life</em> / <em>death ward</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>greater restoration</em> / <em>mass cure wounds</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-summon-the-river">Level 6 - Summon the River</h3>
+<p>You can call upon the majestic River Oceanus to manifest physically for a short period. You learn the <em>wall of water</em> spell if you did not know it already, and it does not count against the total number of druid spells you know. When you cast the wall of water spell using this feature it does not require concentration.</p>
+<p>You must complete a long rest before you can use this feature again.</p>
+<hr>
+<h3 id="level-10-abundant-life">Level 10 - Abundant Life</h3>
+<p>Life energy flows through you continually, mimicking the powerful flow of the River Oceanus. While you are completely submerged within natural water or water created by one of your spells, as long as you are above 0 hit points, at the start of your turn you regain 5 hit points, up to your maximum hit points.</p>
+<hr>
+<h3 id="level-14-greater-resource-renewal">Level 14 - Greater Resource Renewal</h3>
+<p>Your ability to renew resources of allies around you increases. You can use the Renew Resources feature as an action rather than spending 1 minute.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-sacrifice">
+<h2 id="circle-of-sacrifice"><ins>Circle of Sacrifice</ins></h2>
+<p>Druids of the Circle of Sacrifice believe that nature connects one to the entire universe, including the stars and the astral void between planes. They know that immutable laws have been set down by the great powers of the universe and that sacrifices must be made to these powers in order to keep the balance. Such sacrifices take the form of great bonfires, wherein fallen creatures are immolated.</p>
+<p>Druids who keep the Circle of Sacrifice are sometimes called the Keepers of the Old Ways, and they revere mistletoe as a sacred plant connected to the infinite power of the astral plane. Mistletoe must be harvested with extreme care, following rituals that ensure that the plant maintains its potency.</p>
+<h3 id="level-2-ritual-of-sacrifice">Level 2 - Ritual of Sacrifice</h3>
+<p>Starting at 2nd level, you learn how to perform a sacrificial ritual that pleases the gods. You know the <em>produce flame</em> cantrip. When you make an attack with <em>produce flame</em>, add your Wisdom modifier to the damage roll.</p>
+<p><strong>Immolation.</strong> Whenever you reduce a creature to 0 hit points, you may choose to immolate them as a sacrificial offering. As the creature is engulfed in fire, you and every ally within 60 feet of the immolated creature gain the effects of the <em>bless</em> spell for 1 minute. You may use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses after a long rest.</p>
+<hr>
+<h3 id="level-6-ritual-of-mistletoe">Level 6 - Ritual of Mistletoe</h3>
+<p>Starting at 6th level, you carry a pouch full of mistletoe that you've collected with your sickle. You have sprigs of mistletoe represented by a number of d4s equal to your druid level. On your turn, you may use a bonus action to expend one of the sprigs of mistletoe and perform one of the following effects:</p>
+<ul>
+<li><strong>Divining Ritual.</strong> You cast <em>detect magic</em> without using a spell slot.</li>
+<li><strong>Healing Ritual.</strong> You cast <em>cure wounds</em> as a 1st-level spell without using a spell slot.</li>
+<li><strong>Purification Ritual.</strong> You cast <em>purify food and drink</em> without using a spell slot.</li>
+<li><strong>Song of the Solstice.</strong> You cast <em>heroism</em> as a 1st-level spell without using a spell slot.</li>
+</ul>
+<p>Additionally, any time you cast a spell that restores hit points, you may expend any number of sprigs of mistletoe to roll those dice and add them to the number of hit points restored. You regain all expended sprigs of mistletoe after completing a long rest.</p>
+<hr>
+<h3 id="level-10-keeper-of-the-law">Level 10 - Keeper of the Law</h3>
+<p>Starting at 10th level, you are initiated into an ancient order of druidic judges who keep and enforce the laws of the cosmos. Your sprigs of mistletoe increase to d6s.</p>
+<p><strong>Sacrificial Offering.</strong> On your turn, you may use a bonus action to choose one creature that you can see. That creature is marked as a Sacrificial Offering for the next hour. Whenever any of your allies hit that creature with an attack, you may use a reaction to expend one of your sprigs of mistletoe to roll the die and add the result as fire damage. Additionally, whenever a Sacrificial Offering is reduced to 0 hit points, you may activate your Immolation feature on that creature.</p>
+<p><strong>Restoration Ritual.</strong> On your turn, you may use an action to expend two sprigs of mistletoe to cast the <em>lesser restoration</em> spell.</p>
+<hr>
+<h3 id="level-14-astrological-wisdom">Level 14 - Astrological Wisdom</h3>
+<p>Starting at 14th level, you have studied the stars and memorized the pathways that connect the material plane to the astral plane. Your sprigs of mistletoe increase to d8s. Additionally, you gain access to the <em>teleportation circle</em> spell and always have it prepared.</p>
+<p><strong>Stone Circle.</strong> You know the ancient methods used to construct a circle of standing stones. You may spend 8 hours and 12,000 gp to construct a circle of twelve standing stones inscribed with druidic sigils, where each stone is 10 feet tall and weighs 1 ton. This stone circle may be used as a permanent anchor location for the <em>teleportation circle</em> spell.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-seafarers">
+<h2 id="circle-of-the-seafarers"><ins>Circle of the Seafarers</ins></h2>
+<p>You follow an old tradition of sea-dwelling druids that protect the waters from creatures, and creatures from the waters. Your culture has developed unique fighting styles not found in other druidic sects, which make you excellent combatants in and around the seas.</p>
+<h3 id="level-2-unarmored-defense">Level 2 - Unarmored Defense</h3>
+<p>Water is not kind to leather armor. Because of this, your society has developed defensive measures that eschew armor of any type. With a heightened awareness of your immediate surroundings, when you are not wearing armor or shields, your Armor Class equals 10 + your Dexterity modifier + your Wisdom modifier.</p>
+<hr>
+<h3 id="level-2-sentinel-of-the-sea">Level 2 - Sentinel of the Sea</h3>
+<p>You are proficient with water vehicles, navigator's tools, and the signature weapons of seafarers: the net and trident. When you aren't wearing medium or heavy armor, you gain the following benefits:</p>
+<ul>
+<li>You can use Dexterity instead of Strength for the attack and damage rolls of tridents and spears, and the attack rolls of nets.</li>
+<li>You have a swimming speed equal to your walking speed.</li>
+</ul>
+<hr>
+<h3 id="level-2-handy">Level 2 - Handy</h3>
+<p>You are proficient in skill checks made to tie and untie knots, and you can spend 1 hour working on a damaged net to repair it to full capacity. This can be done as part of a short or long rest.</p>
+<p>You also gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Sleight of Hand, or Stealth.</p>
+<hr>
+<h3 id="level-2-sidestep">Level 2 - Sidestep</h3>
+<p>When you are wielding a trident or spear and a creature within 5 feet of you makes an attack against you, you can use your reaction to make a special melee attack against the creature. On a hit, instead of dealing damage you move 5 feet without provoking opportunity attacks, potentially causing the attack to miss if you move out of range.</p>
+<hr>
+<h3 id="level-6-extra-attack_3">Level 6 - Extra Attack</h3>
+<p>You can attack twice instead of once whenever you take the <em>Attack</em> action on your turn. Thanks to your specialized training, you ignore the net's restriction on the number of attacks you can make with an action, bonus action, or reaction.</p>
+<hr>
+<h3 id="level-10-amphibious">Level 10 - Amphibious</h3>
+<p>The magic of the water has changed your body. You can breathe both air and water, and you have resistance to cold damage.</p>
+<hr>
+<h3 id="level-10-spearfisher">Level 10 - Spearfisher</h3>
+<p>Immediately after you make a ranged attack roll with a weapon that has the Thrown property, you can choose to have it magically reappear in your hand. Additionally, attacking at long range with such a weapon does not impose disadvantage on your attack roll.</p>
+<hr>
+<h3 id="level-14-coastal-warrior">Level 14 - Coastal Warrior</h3>
+<p>You can now infuse the power of the depths into your attacks. Whenever you hit a creature with a weapon attack, including when you hit a creature with your special Sidestep attack, you also deal an amount of cold damage equal to your Wisdom modifier.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-shapeless">
+<h2 id="circle-of-the-shapeless"><ins>Circle of the Shapeless</ins></h2>
+<p>Druids of the Circle of the Shapeless believe that oozes, puddings, and jellies serve an important and integral role in the natural world, particularly in decomposition and in clearing detritus. Druids of this circle also admire the adaptability of these gelatinous creatures and study them to learn how to duplicate some of their abilities.</p>
+<p>The sworn enemies of Circle of the Shapeless druids are the so-called ooze lords and their servants who pervert the natural order by controlling and weaponizing such creatures.</p>
+<h3 id="level-2-circle-spells_8">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>enlarge/reduce</em> / <em>spider climb</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>iron gut</em> / <em>meld into stone</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>blight</em> / <em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>contagion</em> / <em>seeming</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-ooze-form">Level 2 - Ooze Form</h3>
+<p>Starting at 2nd level, you learn to adopt an ooze form. You can use a bonus action to expend one use of your Wild Shape feature to become an ooze rather than transforming into a beast or a plant.</p>
+<p>Otherwise, this follows all the rules regarding the Wild Shape druid feature.</p>
+<p>Additionally, you learn the <em>acid splash</em> cantrip.</p>
+<hr>
+<h3 id="level-6-slimy-pseudopod">Level 6 - Slimy Pseudopod</h3>
+<p>At 6th level, you can use a bonus action to cause an oozing pseudopod to erupt from your body for 1 minute or until you dismiss it as a bonus action. On the turn you activate this feature, and as a bonus action on each of your subsequent turns, you can make a melee spell attack with the pseudopod against a creature within 5 feet of you. On a hit, the target takes 1d6 acid damage.</p>
+<p>You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest. When you reach 10th level in this class, the acid damage dealt by your pseudopod increases to 2d6.</p>
+<hr>
+<h3 id="level-10-improved-ooze-form">Level 10 - Improved Ooze Form</h3>
+<p>At 10th level, your ooze form becomes more powerful. When you use your Wild Shape feature to become an ooze, you gain one of the following benefits:</p>
+<ul>
+<li><strong>Acid Weapons.</strong> Your melee weapon attacks deal an extra 2d6 acid damage on a hit.</li>
+<li><strong>Climber.</strong> The climbing speed of your ooze form doubles.</li>
+<li><strong>Oozing Form.</strong> When a creature touches you or hits you with a melee attack while within 5 feet of you, you can use your reaction to deal 2d6 acid damage to that creature.</li>
+</ul>
+<hr>
+<h3 id="level-14-superior-ooze-form">Level 14 - Superior Ooze Form</h3>
+<p>At 14th level, while in your ooze form, instead of choosing one benefit from the Improved Ooze Form feature, you gain all of them.</p>
+<p>Additionally, the extra damage from the Acid Weapons and the Oozing Form features becomes 4d6 acid damage.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-sower">
+<h2 id="circle-of-the-sower"><ins>Circle of the Sower</ins></h2>
+<p>The Druid Circle that is most revered by civilized peoples is that of the Sowers. Folktales tell of an ancient druidic sage that guided mortals to the discovery of agriculture. Drawing on their mystical knowledge of the natural world, this Druid led ancient peoples to establish the first farms and towns.</p>
+<p>Those who join the Circle of the Sower follow the example of that ancient sage. They wander the countryside and offer magical aid to farmers, gardeners, and all who till the soil.</p>
+<h3 id="level-2-wandering-sage">Level 2 - Wandering Sage</h3>
+<p>You gain a mystical understanding of the natural cycle of life, growth, and death. You gain proficiency in Nature. Whenever you make an Intelligence (Nature) check you gain a bonus to your roll equal to your Wisdom modifier (minimum of +1).</p>
+<hr>
+<h3 id="level-2-mystic-harvest">Level 2 - Mystic Harvest</h3>
+<p>When you join this Circle, you learn to use druidic magic to produce wondrous fruits. As a bonus action, you can expend a use of Wild Shape to produce one Mystical Fruit from the list below in your empty hand. The Fruit can be eaten as an action. Any uneaten Fruit spoils after 1 minute.</p>
+<p><strong>Invigorating Fruit:</strong> The creature that eats this Fruit regains hit points equal to your Wisdom modifier + your Druid level. Any hit points over its hit point maximum become temporary hit points.</p>
+<p><strong>Mystic Fruit:</strong> The creature that eats this Fruit regains a single expended spell slot of a level equal to your Wisdom modifier or lower. Once a creature benefits from this Fruit, it must complete a long rest before it can do so again.</p>
+<p><strong>Revitalizing Fruit:</strong> The creature that eats this Fruit is instantly cured of one of the following conditions: blinded, deafened, paralyzed, petrified, poisoned, a reduction to an ability score or its hit point maximum, or its exhaustion is reduced by 1.</p>
+<hr>
+<h3 id="level-2-circle-spells_9">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th>Druid Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2nd</td>
+<td><em>entangle</em> / <em>goodberry</em></td>
+</tr>
+<tr>
+<td>3rd</td>
+<td><em>lesser restoration</em> / <em>spike growth</em></td>
+</tr>
+<tr>
+<td>5th</td>
+<td><em>create food and water</em> / <em>plant growth</em></td>
+</tr>
+<tr>
+<td>7th</td>
+<td><em>aura of life</em> / <em>grasping vine</em></td>
+</tr>
+<tr>
+<td>9th</td>
+<td><em>greater restoration</em> / <em>tree stride</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-wild-growth">Level 6 - Wild Growth</h3>
+<p>You cause plants to blossom and thrive wherever you travel. When you take a short or long rest, the effects of the 8-hour casting of <em>plant growth</em> immediately take effect in the area around you, unless you choose to withhold them.</p>
+<p>Your connection with plant life also grants you immunity to poison damage, the poisoned condition, and natural poisons.</p>
+<hr>
+<h3 id="level-10-abundant-harvest">Level 10 - Abundant Harvest</h3>
+<p>You can use the magic of your Wild Shape to produce more potent produce. When you produce a Mystical Fruit you can choose from the following additional options:</p>
+<p><strong>Emboldening Fruit:</strong> The next time the creature that eats this Fruit rolls a d20, it can choose to substitute its d20 roll with your Druid level.</p>
+<p><strong>Primal Fruit:</strong> The creature that eats this Fruit is resistant to bludgeoning, piercing, and slashing damage for the next minute.</p>
+<hr>
+<h3 id="level-14-verdant-grasp">Level 14 - Verdant Grasp</h3>
+<p>You have an unparalleled command over plant life. You can cast <em>grasping vine</em> without expending a spell slot a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>
+<p>When you cast <em>grasping vine</em>, you can conjure two vines at once in separate locations within range of the spell. You can direct both vines at once with the same bonus action.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-storms">
+<h2 id="circle-of-storms"><ins>Circle of Storms</ins></h2>
+<p>Weather is a primal source of power, and no weather is more iconic than that of the howling winds of a tornado, the thunderous rebuke of a thunderstorm, or the torrential rainfall of a hurricane.</p>
+<h3 id="level-2-circle-spells_10">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>gust of wind</em> / <em>shatter</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>lightning bolt</em> / <em>thunder step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>ice storm</em> / <em>storm sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>destructive wave</em> / <em>maelstrom</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-skald-of-the-sea-and-sky">Level 2 - Skald of the Sea and Sky</h3>
+<p>Starting at 2nd level, you are the voice of the wind and rain, the scream wrenched forth from the heart of a hurricane. You gain proficiency in Performance and martial weapons, and you also learn the <em>shocking grasp</em> cantrip.</p>
+<hr>
+<h3 id="level-2-aspect-of-the-storm">Level 2 - Aspect of the Storm</h3>
+<p>At 2nd level, you channel the fury of the storm, wind whipping your hair and clothes while lightning crackles around you. As an action, you can expend one use of your Wild Shape feature to awaken the storm's power, rather than assuming a beast form. While this feature is active, you gain the following benefits:</p>
+<ul>
+<li>You deal an extra 1d8 lightning damage the first time you hit with a melee weapon attack on your turn.</li>
+<li>You have advantage on saving throws against being blinded or deafened.</li>
+</ul>
+<p>Starting at 8th level, when you use your Aspect of the Storm feature, you can expend one additional use of your Wild Shape (for a total of two) to deepen your connection to the storm. When you do so, you gain a magical flying speed of 60 feet, in addition to the benefits listed above.</p>
+<p>These benefits last for 10 minutes or until you use your Wild Shape again.</p>
+<hr>
+<h3 id="level-6-extra-attack_4">Level 6 - Extra Attack</h3>
+<p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+<hr>
+<h3 id="level-10-shield-of-the-wind">Level 10 - Shield of the Wind</h3>
+<p>Starting at 10th level, the wind shields you from harm. You can cast the <em>warding wind</em> spell with this feature without expending a spell slot. When you cast the spell in this manner, it does not require you to maintain concentration on the spell.</p>
+<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-14-lord-of-the-storm">Level 14 - Lord of the Storm</h3>
+<p>At 14th level, you have truly mastered the power of the storm. You gain immunity to lightning damage, resistance to thunder damage, and you are immune to being moved against your will or being knocked prone.</p>
+<p>In addition, whenever you are subjected to lightning damage, you take no damage and instead gain a number of temporary hit points equal to the lightning damage that would have been dealt.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-sun">
+<h2 id="circle-of-the-sun"><ins>Circle of the Sun</ins></h2>
+<p>Druids of the Circle of the Sun, like their counterparts of the Circle of the Moon, are fierce guardians of nature. However, unlike the latter, they establish their villages in much more open and accessible areas so that they may bask in that which is the namesake of their circle. As a result, they are much less isolated and are considered to be among the most sociable of the druids.</p>
+<p>In addition to the obvious partiality to fire and light, druids of the Circle of the Sun also have some affinity for plants, which likewise thrive under the sun's light. This affinity allows them to assume plant forms — an ability that truly sets them apart from their brethren.</p>
+<h3 id="level-2-botanic-forms">Level 2 - Botanic Forms</h3>
+<p>You gain the ability to use Wild Shape to magically assume the form of a plant. This transformation must abide by the limitations shown in the Beast Shapes table.</p>
+<hr>
+<h3 id="level-2-glareproof">Level 2 - Glareproof</h3>
+<p>As one who glimpses the sun in veneration, your eyes become resistant to effects that could diminish their acuity in any way. You learn the <em>light</em> cantrip. If you have the Sunlight Sensitivity trait, you lose it. You also have advantage on saving throws against being blinded.</p>
+<p>At 10th level, you become immune to being blinded.</p>
+<hr>
+<h3 id="level-2-circle-spells_11">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td><em>spike growth</em> / <em>scorching ray</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td><em>daylight</em> / <em>fireball</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td><em>fire shield</em> / <em>guardian of nature</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td><em>flame strike</em> / <em>wall of light</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-radiant-embrace">Level 6 - Radiant Embrace</h3>
+<p>The sun's radiance guides you during your bleakest moments. When you fail a saving throw while in bright light, you can reroll it and take the second result.</p>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+<h3 id="level-10-herald-of-the-dawn">Level 10 - Herald of the Dawn</h3>
+<p>Using your druidic powers, you call forth the majesty of the light to cut across even the darkest night. You can cast <em>dawn</em> without expending a spell slot or material components.</p>
+<p>Once you cast <em>dawn</em> in this way, you can't do so again until you finish a long rest.</p>
+<hr>
+<h3 id="level-14-synthesis">Level 14 - Synthesis</h3>
+<p>As plants are nourished by the sun's light and warmth, so does your body use the same energies to heal itself. When you expend a spell slot to cast a spell that includes a fire or radiant damage roll, you regain hit points equal to 1d8 + the slot's level.</p>
+<p>Additionally, basking in sunlight for 10 minutes provides you enough nourishment to sustain you for one day.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-swarm">
+<h2 id="circle-of-the-swarm"><ins>Circle of the Swarm</ins></h2>
+<p>Druids defend every life, no matter how small or unseemly it may be. Some take this call more seriously than others and join a Circle of the Swarm. Often centered around sewers of great settlements or among festering swamps, these Druids have an affinity for vermin with many legs or gnawing teeth.</p>
+<h3 id="level-2-swarmcaller">Level 2 - Swarmcaller</h3>
+<p>You learn the <em>infestation</em> cantrip, which doesn't count against your number of Cantrips Known. When you cast <em>infestation</em>, you can target two creatures within 5 feet of each other. When a creature fails its saving throw against this spell, you can choose which direction it moves.</p>
+<p>Moreover, as a bonus action, you can use Wild Shape to transform into a swarm of beasts, such as a swarm of rats. While in this form, the swarm gains bonus hit points equal to 1 + your Druid level, and it can add your Wisdom modifier to all ability checks, attack rolls, and saving throws.</p>
+<hr>
+<h3 id="level-2-circle-spells_12">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th>Druid Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2nd</td>
+<td><em>faerie fire</em> / <em>ray of sickness</em></td>
+</tr>
+<tr>
+<td>3rd</td>
+<td><em>blur</em> / <em>web</em></td>
+</tr>
+<tr>
+<td>5th</td>
+<td><em>gaseous form</em> / <em>slow</em></td>
+</tr>
+<tr>
+<td>7th</td>
+<td><em>arcane eye</em> / <em>giant insect</em></td>
+</tr>
+<tr>
+<td>9th</td>
+<td><em>commune with nature</em> / <em>insect plague</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-greater-swarm">Level 6 - Greater Swarm</h3>
+<p>While you are Wild Shaped into a swarm, you can cast <em>infestation</em> and your Circle Spells as normal, and their effects manifest as part of your swarm. Your attacks in swarm form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+<hr>
+<h3 id="level-10-eyes-of-the-swarm">Level 10 - Eyes of the Swarm</h3>
+<p>After finishing a short or long rest, you gain information about the surrounding area as if you had cast <em>commune with nature</em>. This works even in areas where nature has been replaced by construction, such as cities and towns.</p>
+<hr>
+<h3 id="level-14-from-many-one">Level 14 - From Many, One</h3>
+<p>When you are reduced to 0 hit points but not killed outright, you can expend a use of Wild Shape to transform into a swarm of beasts with a Challenge Rating of 1/2 or lower. You can immediately move up to the swarm's walking, flying, or climbing speed without provoking opportunity attacks. Once you use this feature, you must finish a long rest before you can use your Wild Shape in this way again.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-tempest">
+<h2 id="circle-of-the-tempest"><ins>Circle of the Tempest</ins></h2>
+<p>Drawn to the most destructive forces of the natural world, the Tempest Druids wield the power of storms. They often view themselves as great defenders of nature and use their power to strike back when civilization encroaches upon the wilds. Theirs is the power of lightning, thunder, ice, and wind, and woe to any who stand against these acolytes of destruction.</p>
+<h3 id="level-2-circle-spells_13">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th>Druid Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2nd</td>
+<td><em>fog cloud</em> / <em>thunderwave</em></td>
+</tr>
+<tr>
+<td>3rd</td>
+<td><em>shatter</em> / <em>warding wind</em></td>
+</tr>
+<tr>
+<td>5th</td>
+<td><em>lightning bolt</em> / <em>thunder step</em></td>
+</tr>
+<tr>
+<td>7th</td>
+<td><em>ice storm</em> / <em>storm sphere</em></td>
+</tr>
+<tr>
+<td>9th</td>
+<td><em>control winds</em> / <em>maelstrom</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-natures-wrath">Level 2 - Nature's Wrath</h3>
+<p>You can channel the destructive power of nature. When you cast a Druid spell that deals lightning or thunder damage, you can expend a use of Wild Shape to cause it to deal maximum damage to one target, instead of rolling.</p>
+<hr>
+<h3 id="level-2-tempestuous-rebuke">Level 2 - Tempestuous Rebuke</h3>
+<p>The elemental powers rebuke those who strike at you, their acolyte. When a creature within 5 feet that you can see hits you with an attack, you can use your reaction to force it to make a Dexterity saving throw. It takes 2d8 thunder damage on a failed save, and half as much on a successful save.</p>
+<p>You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all of your expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-6-thunderous-strike">Level 6 - Thunderous Strike</h3>
+<p>You carry the fury of the storm. Once per turn, when you hit a Large or smaller creature with a melee attack, you can also push it up to 10 feet away from you in a straight line.</p>
+<hr>
+<h3 id="level-10-tempestuous-form">Level 10 - Tempestuous Form</h3>
+<p>You can use druidic magic to transform into a minor version of the tempest you serve. As an action, you can expend two uses of Wild Shape to transform into an air elemental.</p>
+<hr>
+<h3 id="level-14-one-with-the-storm">Level 14 - One with the Storm</h3>
+<p>You have become one with the destructive power of nature. You gain a flying speed equal to your walking speed.</p>
+<p>In addition, whenever you use Nature's Wrath, the spell deals maximum damage to every target, instead of just one.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-the-tides">
+<h2 id="circle-of-the-tides"><ins>Circle of the Tides</ins></h2>
+<p>Few natural forces exert as much influence over mortals as the waters of the world. Rain for crops, raging storms, and winding rivers all influence the lives of mortals. Tidal Druids monitor the relationship between civilization and the waters of oceans, rivers, and lakes. They are often found using the innate magic found in the waters to heal the sick, provide rest to the weary, and nurture the crops of common folk.</p>
+<h3 id="level-2-disciple-of-the-sea">Level 2 - Disciple of the Sea</h3>
+<p>Your dedication to primal waters has changed you. When you join this Circle, you gain the ability to breathe both air and water, and you gain a swimming speed equal to your walking speed. You also learn the <em>shape water</em> cantrip.</p>
+<hr>
+<h3 id="level-2-circle-spells_14">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th>Druid Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2nd</td>
+<td><em>fog cloud</em> / <em>healing word</em></td>
+</tr>
+<tr>
+<td>3rd</td>
+<td><em>misty step</em> / <em>prayer of healing</em></td>
+</tr>
+<tr>
+<td>5th</td>
+<td><em>mass healing word</em> / <em>tidal wave</em></td>
+</tr>
+<tr>
+<td>7th</td>
+<td><em>control water</em> / <em>watery sphere</em></td>
+</tr>
+<tr>
+<td>9th</td>
+<td><em>maelstrom</em> / <em>raise dead</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-tidal-aura">Level 2 - Tidal Aura</h3>
+<p>As a bonus action, you can expend a use of Wild Shape to exude a mystical watery force in a 15-foot radius. Creatures of your choice within this Aura treat it as difficult terrain. If a creature has a swimming speed, it ignores this effect.</p>
+<p>Your Tidal Aura also enhances your healing powers. When you cast a spell that restores hit points to a creature within this Tidal Aura, one target within the Aura regains additional hit points equal to your Wisdom modifier (minimum of 1).</p>
+<p>Your Tidal Aura lasts for 1 minute. Its effects end early if you end it as a bonus action, or if you are incapacitated.</p>
+<hr>
+<h3 id="level-6-undertow">Level 6 - Undertow</h3>
+<p>Your Tidal magic has grown in power. When you cast a spell that forces a creature in your Tidal Aura to make a Strength, Dexterity, or Constitution saving throw, you can empower the spell. Any creature within your Tidal Aura makes their initial saving throw against the empowered spell at disadvantage.</p>
+<p>You can empower a spell in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-10-waters-of-life">Level 10 - Waters of Life</h3>
+<p>You can wield the magic of primal water to rejuvenate your allies as you hinder your foes. When you activate your Tidal Aura, you gain a pool of temporary hit points equal to your Druid level + your Wisdom modifier that you can distribute to creatures of your choice within your Tidal Aura.</p>
+<p>When your Tidal Aura ends, any remaining temporary hit points from this feature are immediately dispelled.</p>
+<hr>
+<h3 id="level-14-master-of-the-waves">Level 14 - Master of the Waves</h3>
+<p>Your bond with the mystical waters has reached its apex. You can cast <em>control water</em> at will, without expending a spell slot, so long as you target a body of water of sufficient size.</p>
+<p>Also, the radius of your Tidal Aura increases to 30 feet, and creatures of your choice treat the area of your Tidal Aura as difficult terrain even if they have a swimming speed.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-vermin">
+<h2 id="circle-of-vermin"><ins>Circle of Vermin</ins></h2>
+<p>Druids of the Circle of Vermin, sometimes known as Vermin Lords, find their source of power in the lowliest of creatures: insects, rats, spiders, and other pests. Unmistakably, your coming is signaled by the scrambling of little claws and the cawing of the crows. You hold legions of these creatures at your command, ready to swarm, bite, and claw, and you can become one of them, to walk among your innumerable children.</p>
+<h3 id="level-2-lord-of-the-low">Level 2 - Lord of the Low</h3>
+<p>Starting when you choose this circle at 2nd level, you can expend a use of your Wild Shape feature as an action to magically summon a swarm of rats in your space. The swarm vanishes after a number of hours equal to half your druid level (rounded down), if it drops to 0 hit points, or if you use this ability to summon a new swarm.</p>
+<p>The summoned swarm is friendly to you and your companions. Roll initiative for the summoned swarm, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to it, it defends itself from hostile creatures, but otherwise takes no actions.</p>
+<p>While the swarm is in your space, you have a +2 bonus to AC and, when you take damage, you can choose for the swarm to take damage instead of you.</p>
+<p>Starting at 6th level, you can summon a swarm of bats, swarm of insects, or swarm of ravens, and starting at 14th level, you can summon a swarm of poisonous snakes.</p>
+<hr>
+<h3 id="level-2-infested">Level 2 - Infested</h3>
+<p>At 2nd level, insects and rodents inhabit every nook and cranny of your clothes and gear. Whenever a creature within 5 feet of you hits you with an attack, these vermin retaliate, dealing 1d4 piercing damage to the attacker. Additionally, the creature subtracts the piercing damage dealt from the next attack roll it makes before the end of its turn.</p>
+<hr>
+<h3 id="level-6-tremorsense">Level 6 - Tremorsense</h3>
+<p>By 6th level, vibrations in the ground echo through its ants and earthworms, and by extension, you can sense them. You gain tremorsense, the ability to detect and pinpoint vibrations, with a range of 10 feet. To use this sense, you and the source of the vibrations must be in contact with the same ground or substance. This sense can't be used to detect flying or incorporeal creatures.</p>
+<hr>
+<h3 id="level-10-plague-carrier">Level 10 - Plague Carrier</h3>
+<p>Beginning at 10th level, your constant close proximity to disease-carrying creatures has not only inoculated you to their diseases, but also allowed you to act as a vector of plague. You are immune to diseases and being poisoned. Whenever you would normally make a Constitution saving throw to resist contracting a disease or being poisoned, you can instead become a carrier of that disease or poison. You can only be a carrier of one disease or poison at a time, and you can only carry it for up to seven days.</p>
+<p>As a reaction when you take damage from a creature you can see within 5 feet of you, you can transfer a disease or poison you are carrying to that creature, which must make a Constitution saving throw against your spell save DC. On a failure, the creature contracts the disease or poison, and you are no longer a carrier of it.</p>
+<hr>
+<h3 id="level-14-swarm-master">Level 14 - Swarm Master</h3>
+<p>Starting at 14th level, whenever you use your Lord of the Low feature to summon a swarm, you can summon two swarms instead of one.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="circle-of-wyrd">
+<h2 id="circle-of-wyrd"><ins>Circle of Wyrd</ins></h2>
+<p>The Wyrd, the warp of reality around the wodes and omens of the future, is connected to the power of place. Your attunement to nature grants you glimpses of fate, whether you will it or not. Druids of the Circle of Wyrd often isolate themselves in coastal caves or far from mankind to avoid the overwhelming cacophony of mortal fates.</p>
+<h3 id="level-2-omens">Level 2 - Omens</h3>
+<p>At 2nd level, when you join the Circle of Wyrd, you gain a pool of omen dice equal to your proficiency modifier. Whenever a creature you see makes an attack roll or saving throw, you may use your reaction to expend an omen die to either add it or subtract it from the roll. Your omen die is a d4 at 2nd level, and increases to d6 at 6th level, d8 at 10th level, and d10 at 14th level.</p>
+<p>You regain expended omen dice on a long rest.</p>
+<hr>
+<h3 id="level-2-circle-spells_15">Level 2 - Circle Spells</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Druid Level</th>
+<th style="text-align: center;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><em>augury</em> / <em>detect thoughts</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><em>clairvoyance</em> / <em>tongues</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><em>death ward</em> / <em>divination</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><em>hallow</em> / <em>telepathic bond</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-6-wyrd-sight">Level 6 - Wyrd-Sight</h3>
+<p>At 6th level, you see aspects of the Wyrd in all of nature. Whenever you cast a divination spell, you gain a number of omen dice equal to the spell's level.</p>
+<hr>
+<h3 id="level-10-wyrd-warp">Level 10 - Wyrd-Warp</h3>
+<p>At 10th level, you may call upon the Wyrd itself to power your spells. When casting a non-divination spell, you may spend a number of omen dice equal to the level of the spell instead of expending a spell slot.</p>
+<hr>
+<h3 id="level-14-warden-of-wyrd">Level 14 - Warden of Wyrd</h3>
+<p>At 14th level, you are permanently attuned to the past, present, and future. Through your supernatural awareness, you gain the following benefits:</p>
+<ul>
+<li>You add your proficiency bonus to initiative.</li>
+<li>You cannot be surprised so long as you are conscious.</li>
+<li>Other creatures don't gain advantage on attack rolls against you as a result of being hidden from you.</li>
+<li>Once per day you may cast <em>true seeing</em> without the use of a spell slot or material components. It counts as a druid spell for you and does not count against your list of prepared spells. You regain the use of this spell upon completion of a long rest.</li>
+</ul>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter-js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>
