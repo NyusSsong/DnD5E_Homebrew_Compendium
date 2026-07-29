@@ -39,6 +39,8 @@ nav:
         - Paladin: classes/base_classes/paladin.md
         - Ranger: classes/base_classes/ranger.md
         - Rogue: classes/base_classes/rogue.md
+        - Warlock: classes/base_classes/warlock.md
+        - Wizard: classes/base_classes/wizard.md
       - Kibbles Tasty:
         - Psion: classes/kibbles/kt_psion.md
         - Warlord: classes/kibbles/kt_warlord.md
