@@ -1,4 +1,5 @@
 input/*
 .replit
 main.py
-uv.lock 
+uv.lock
+pyproject.toml
