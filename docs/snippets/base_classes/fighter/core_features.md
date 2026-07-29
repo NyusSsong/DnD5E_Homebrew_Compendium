@@ -1,19 +1,19 @@
 #### Hit Points
 
-**Hit Dice:** 1d10 per Fighter level
-**Hit Points at 1st Level:** 10 + your Constitution modifier
-**Hit Points at Higher Levels:** 1d10 (6) + your Constitution modifier
+**Hit Dice:** 1d10 per Fighter level  
+**Hit Points at 1st Level:** 10 + your Constitution modifier  
+**Hit Points at Higher Levels:** 1d10 (6) + your Constitution modifier  
 
 <hr>
 
 #### Proficiencies
 
-**Armor:** All armor, shields
-**Weapons:** Simple weapons, martial weapons
-**Tools:** None
+**Armor:** All armor, shields  
+**Weapons:** Simple weapons, martial weapons  
+**Tools:** None  
 
-**Saving Throws:** Strength, Constitution
-**Skills:** Two from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
+**Saving Throws:** Strength, Constitution  
+**Skills:** Two from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival  
 
 <hr>
 

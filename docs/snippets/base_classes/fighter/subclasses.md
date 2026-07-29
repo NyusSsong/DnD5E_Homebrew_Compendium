@@ -1064,16 +1064,12 @@ Upon consumption, the creature chooses either Strength, Dexterity, or Constituti
 
 At 10th level, the duration of the effect increases to 1 hour.
 
-<hr>
-
 #### Invigorating Ration
 ***Prerequisite: 3rd-level Fighter (duration, instantaneous)***
 
 Upon consumption, the creature regains hit points equal to 1d10 + your Constitution modifier.
 
 At 10th level, this Ration restores an additional 1d10 hit points, and any hit points it regains that exceed its hit point maximum become temporary hit points.
-
-<hr>
 
 #### Revitalizing Ration
 ***Prerequisite: 3rd-level Fighter (duration, instantaneous)***
@@ -1082,16 +1078,12 @@ Upon consumption, the creature ends one of the following conditions currently af
 
 At 10th level, this Ration can also cure the charmed, frightened, paralyzed, and stunned conditions.
 
-<hr>
-
 #### Stimulating Ration
 ***Prerequisite: 3rd-level Fighter (duration, instantaneous)***
 
 This Ration must be consumed as part of a short rest. Upon consumption, the creature gains advantage on its rolls for all Hit Dice it chooses to expend during that short rest.
 
 At 10th level, consuming this Ration allows the creature to treat any Hit Dice it expends during that short rest as the maximum possible result instead of rolling.
-
-<hr>
 
 #### Limbering Ration
 ***Prerequisite: 5th-level Fighter (duration, 1 minute)***
@@ -1100,16 +1092,12 @@ Upon consumption, the creature's speed increases by 10 feet.
 
 At 10th level, in place of increasing the creature's speed, the creature can take the Dash action as a bonus action.
 
-<hr>
-
 #### Thickening Ration
 ***Prerequisite: 5th-level Fighter (duration, 1 minute)***
 
 Upon consumption, the creature gains resistance to either bludgeoning, piercing, or slashing damage (its choice).
 
 At 10th level, consuming this Ration grants it resistance to bludgeoning, piercing, and slashing damage.
-
-<hr>
 
 #### Engorging Ration
 ***Prerequisite: 7th-level Fighter (duration, 1 minute)***
@@ -1118,16 +1106,12 @@ Upon consumption, the creature grows by one size category, for example, from Med
 
 At 10th level, the duration of the effect becomes 1 hour.
 
-<hr>
-
 #### Heightening Ration
 ***Prerequisite: 7th-level Fighter (duration, 1 minute)***
 
 Upon consumption, the creature chooses either Intelligence, Wisdom, or Charisma. For the duration, the creature can add your Constitution modifier to any ability check or saving throw it makes with the chosen ability score.
 
 At 10th level, the duration of the effect increases to 1 hour.
-
-<hr>
 
 #### Warding Ration
 ****Prerequisite: 7th-level Fighter (duration, 1 minute)****
@@ -1136,8 +1120,6 @@ Upon consumption, the creature gains resistance to acid, cold, fire, poison, lig
 
 At 10th level, the duration of the effect increases to 1 hour, and the creature can choose from force, necrotic, psychic, or radiant damage in addition to the other damage types.
 
-<hr>
-
 #### Tenacious Ration
 ***Prerequisite: 10th-level Fighter (duration, 1 hour)***
 
@@ -1145,14 +1127,10 @@ Upon consumption, the creature gains immunity to one of the following conditions
 
 At 15th level, this Ration grants a creature immunity to two of the conditions from the list above (its choice).
 
-<hr>
-
 #### Berserk Ration
 ***Prerequisite: 15th level (duration, 1 hour)***
 
 Upon consumption, the creature does not fall unconscious when it is reduced to 0 hit points. However, it still makes death saving throws as normal, dying upon failing three.
-
-<hr>
 
 #### Rejuvenating Ration
 ***Prerequisite: 15th level (duration, instant)***
@@ -1160,8 +1138,6 @@ Upon consumption, the creature does not fall unconscious when it is reduced to 0
 Upon consumption, the creature gains all the benefits of a short rest, including the ability to expend its Hit Dice as part of consuming the Ration. At the end of its current turn, the creature gains 1 level of exhaustion.
 
 After a creature eats this Ration, it must finish a long rest before it can gain the benefits of any other Rations.
-
-<hr>
 
 </div>
 
@@ -1429,8 +1405,6 @@ A weapon modified by your Schematics gain a +1 bonus to its attack and damage ro
 
 Weapons and armor modified by your Schematics cannot gain a bonus greater than +3, regardless of any bonuses the item may have had before applying your Schematics.
 
-<hr>
-
 #### Schematics
 
 Below is the list of Schematics available to a Tinker Knight. If a Schematic has a Fighter level prerequisite, you can learn it at the same time that you meet its prerequisite level.
@@ -1439,67 +1413,55 @@ Below is the list of Schematics available to a Tinker Knight. If a Schematic has
 
 You modify the metallurgic makeup of an item, making it significantly lighter. The bearer of an object modified by this Schematic has its walking speed increased by 10 feet.
 
-**Heavy Armor.** The wearer ignores penalties to Dexterity (Stealth) checks or Strength requirements of this armor.
+* **Heavy Armor.** The wearer ignores penalties to Dexterity (Stealth) checks or Strength requirements of this armor.
 
-**Light Armor.** The wearer can subtract up to 100 feet from their fall distance when calculating fall damage and can move horizontally 2 feet for every 1 foot they fall.
+* **Light Armor.** The wearer can subtract up to 100 feet from their fall distance when calculating fall damage and can move horizontally 2 feet for every 1 foot they fall.
 
-**Weapon.** Any weapon with either the heavy and/or two-handed properties loses those properties, and any non-heavy weapon gains both the light and finesse properties.
-
-<hr>
+* **Weapon.** Any weapon with either the heavy and/or two-handed properties loses those properties, and any non-heavy weapon gains both the light and finesse properties.
 
 #### Intuitive Schematic
 
 You modify an item to enhance your investigative instincts. The bearer of an object modified by this Schematic gains proficiency in Investigation and adds double its proficiency bonus to any Intelligence (Investigation) checks they make.
 
-**Armor.** The wearer can use its Intelligence in place of Dexterity when calculating their Armor Class in this armor.
+* **Armor.** The wearer can use its Intelligence in place of Dexterity when calculating their Armor Class in this armor.
 
-**Weapon.** The wielder uses its Intelligence, in place of Strength, for attack and damage rolls with this weapon.
-
-<hr>
+* **Weapon.** The wielder uses its Intelligence, in place of Strength, for attack and damage rolls with this weapon.
 
 #### Radiant Schematic
 
 You imbue an item with radiant energy. The bearer of an object modified by this Schematic can use a bonus action to cause the object to emit (or extinguish) bright light in a 15-foot radius, and dim light 15 feet beyond that.
 
-**Armor.** As a reaction when the wearer is hit by an attack, it can force the attacker to make a Constitution saving throw. On a failed save, it is blinded for 1 minute. It can repeat the save at the end of each turn, ending the effect on a success. Once the wearer uses this reaction, it must finish a short or long rest before it can use the reaction again.
+* **Armor.** As a reaction when the wearer is hit by an attack, it can force the attacker to make a Constitution saving throw. On a failed save, it is blinded for 1 minute. It can repeat the save at the end of each turn, ending the effect on a success. Once the wearer uses this reaction, it must finish a short or long rest before it can use the reaction again.
 
-**Weapon.** If the wielder hits a creature with this weapon, it can force the target to make a Constitution saving throw. On a failure, it is blinded for 1 minute. It can repeat its save at the end of each turn, ending the effect on a success. Once the wielder uses this ability, it must finish a short or long rest before it can use the feature again.
-
-<hr>
+* **Weapon.** If the wielder hits a creature with this weapon, it can force the target to make a Constitution saving throw. On a failure, it is blinded for 1 minute. It can repeat its save at the end of each turn, ending the effect on a success. Once the wielder uses this ability, it must finish a short or long rest before it can use the feature again.
 
 #### Rebounding Schematic
 
 You modify an item so that it has elastic properties. The wearer or wielder of an object modified by this Schematic can use its reaction to add your Intelligence modifier to its Armor Class against one attack.
 
-**Armor.** As a reaction when the wearer of this armor is hit by an attack, it can reduce the damage by an amount equal to 1d10 + your Intelligence modifier. If the damage is reduced to 0, the attacker takes the full damage of the attack as if they had been the original target. Once the wearer uses this reaction it must finish a short or long rest before it can use the reaction again.
+* **Armor.** As a reaction when the wearer of this armor is hit by an attack, it can reduce the damage by an amount equal to 1d10 + your Intelligence modifier. If the damage is reduced to 0, the attacker takes the full damage of the attack as if they had been the original target. Once the wearer uses this reaction it must finish a short or long rest before it can use the reaction again.
 
-**Non-Heavy Weapon.** The weapon gains the Thrown property with a range of 20 feet. After making an attack with this weapon, it instantly returns to the wielder's hand.
-
-<hr>
+* **Non-Heavy Weapon.** The weapon gains the Thrown property with a range of 20 feet. After making an attack with this weapon, it instantly returns to the wielder's hand.
 
 #### Empowered Schematic
 ***Prerequisite: 7th-level Fighter***
 
 You modify an object with clockwork mechanics that improve both power and reflexes. The bearer of an object modified by this Schematic gains a bonus to its initiative rolls equal to your Intelligence modifier.
 
-**Heavy Armor.** The wearer of this armor can use your Intelligence score, in place of Strength, for any Strength-based ability checks or Strength saving throws it makes.
+* **Heavy Armor.** The wearer of this armor can use your Intelligence score, in place of Strength, for any Strength-based ability checks or Strength saving throws it makes.
 
-**Light Armor.** The wearer of this armor can use your Intelligence score, in place of Dexterity, for any Dexterity-based ability checks or Dexterity saving throws they make.
+* **Light Armor.** The wearer of this armor can use your Intelligence score, in place of Dexterity, for any Dexterity-based ability checks or Dexterity saving throws they make.
 
-**Weapon.** When applied, anytime the wielder rolls a 1 or 2 for a damage roll with this weapon, they can choose to re-roll the die, but you must use the new result even if it is a 1 or 2.
-
-<hr>
+* **Weapon.** When applied, anytime the wielder rolls a 1 or 2 for a damage roll with this weapon, they can choose to re-roll the die, but you must use the new result even if it is a 1 or 2.
 
 #### Resilient Schematic
 ***Prerequisite: 10th-level Fighter***
 
 You modify the metallurgical makeup of this item to make it more resilient. The wearer or wielder of an object modified by this Schematic has advantage on saving throws to resist being grappled or moved against its will.
 
-**Armor.** This armor grants its wearer resistance to all nonmagical bludgeoning, piercing, and slashing damage.
+* **Armor.** This armor grants its wearer resistance to all nonmagical bludgeoning, piercing, and slashing damage.
 
-**Weapon.** This weapon deals bonus damage equal to your Intelligence modifier + your Fighter level whenever the wielder scores a critical hit with this weapon.
-
-<hr>
+* **Weapon.** This weapon deals bonus damage equal to your Intelligence modifier + your Fighter level whenever the wielder scores a critical hit with this weapon.
 
 </div>
 
@@ -1557,8 +1519,6 @@ At 15th level, you can generate telekinetic power even in your natural state of 
 
 At 18th level, you can expend a use of your Telekinetic Combat feature to cast the spell *telekinesis* without the need for any components. Additionally, while you are under the effects of a *telekinesis* spell cast in this manner and are not unconscious or stunned, you gain a +3 bonus to your AC.
 
-<hr>
-
 #### Telekinetic Maneuvers
 
 Below is the list of Telekinetic Maneuvers available to a Warmind.
@@ -1567,19 +1527,13 @@ Below is the list of Telekinetic Maneuvers available to a Warmind.
 
 The target must succeed on a Constitution saving throw or become vulnerable to bludgeoning, piercing, and slashing damage until the start of its next turn. For each attack you forgo to increase the power of this maneuver, you may affect an additional target within range.
 
-<hr>
-
 #### Crush
 
 The target must succeed on a Constitution saving throw or have its speed reduced to 0 and suffer disadvantage on Strength, Dexterity, and Constitution saving throws until the end of its next turn. For each attack you forgo to increase to increase the power of this maneuver, you can increase the duration of the effect by 1 round.
 
-<hr>
-
 #### Disarm
 
 The target must succeed on a Strength saving throw or drop whatever it is holding. If you forgo two attacks to increase the power of this maneuver, you may also pull whatever it dropped to the nearest unoccupied space to you or into your free hand.
-
-<hr>
 
 #### Grip
 
@@ -1587,40 +1541,28 @@ The target must succeed on a Constitution saving throw or be unable to speak or 
 
 This effect ends early if you are ever more than 60 ft. away from you target(s). For each attack you forgo to increase the power of this maneuver, you may affect an additional target within range.
 
-<hr>
-
 #### Lift
 
 The target is held aloft by your telekinetic power and is suspended in the air. When this telekinetic maneuver effects a target, you must begin to concentrate (as though you were concentrating on a spell). An unwilling target can attempt a Strength saving throw to prevent the effect. At your discretion, a target held aloft is also restrained. These effects end early if you are ever more than 60 ft. away from you target(s).
 
 As a bonus action on each of your turns you can move any targets held aloft by this effect up to 15 ft. For each attack you forgo to increase the power of this maneuver, you can affect an additional target within range.
 
-<hr>
-
 #### Push / Pull
 
 The target is pushed or pulled up to 30 ft. in a straight line toward or away from you. If the target is an object weighing more than 2000 lbs or a Huge or larger creature, the distance it is pulled by this effect is halved. For each attack you forgo to increase the power of this maneuver, you may push or pull an affected target an additional 30 ft. or affect an additional target within range.
-
-<hr>
 
 #### Throw
 
 The target must succeed on a Dexterity saving throw or be thrown 50 ft. straight upward. For each attack you forgo to increase the power of this maneuver, you may increase the height the target is thrown by an additional 50 ft.
 
-<hr>
-
 #### Thrust
 
 You make a melee or ranged spell attack against the target, dealing 2d6 bludgeoning damage on a successful hit. For each attack you forgo to increase the power of this maneuver, you may increase the damage dealt on a hit by 2d6.
-
-<hr>
 
 #### Wield
 
 You telekinetically wield a one-handed weapon within range, which begins to float in the air, held aloft by your telekinetic power. When this maneuver effects a target, you must begin to concentrate (as though you were concentrating on a spell). This effect ends early if you are ever more than 60 ft. away from you target(s). When you would make an attack, you can instead make a melee spell attack with a weapon you are wielding telekinetically.
 
 As a bonus action on each of your turns you can move any weapons you wield with this effect up to 30 ft. For each attack you forgo to increase the power of this maneuver, you may wield an additional weapon within range.
-
-<hr>
 
 </div>
