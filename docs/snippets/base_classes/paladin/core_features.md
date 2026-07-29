@@ -1,27 +1,26 @@
 #### Hit Points
-<hr>
-* **Hit Dice:** 1d10 per Paladin level
-* **Hit Points at 1st Level:** 10 + your Constitution modifier
-* **Hit Points at Higher Levels:** 1d10 (6) + your Constitution modifier
+
+**Hit Dice:** 1d10 per Paladin level  
+**Hit Points at 1st Level:** 10 + your Constitution modifier  
+**Hit Points at Higher Levels:** 1d10 (6) + your Constitution modifier  
 
 <hr>
 
 #### Proficiencies
-<hr>
-* **Armor:** All armor, shields
-* **Weapons:** Simple weapons, martial weapons
-* **Tools:** None
 
-<hr>
-* **Saving Throws:** Wisdom, Charisma
-* **Skills:** Two from Athletics, Acrobatics, History, Insight, Intimidation, Medicine, Persuasion, and Religion
+**Armor:** All armor, shields  
+**Weapons:** Simple weapons, martial weapons  
+**Tools:** None  
+
+**Saving Throws:** Wisdom, Charisma  
+**Skills:** Two from Athletics, Acrobatics, History, Insight, Intimidation, Medicine, Persuasion, and Religion
 
 <hr>
 
 #### Equipment
-* *(a)* a martial weapon and a shield or *(b)* two martial weapons
-* *(a)* five javelins or *(b)* any simple melee weapon
-* *(a)* a priest’s pack or *(b)* an explorer’s pack
+* *(a)* a martial weapon and a shield or *(b)* two martial weapons  
+* *(a)* five javelins or *(b)* any simple melee weapon  
+* *(a)* a priest’s pack or *(b)* an explorer’s pack  
 * Chain mail and a holy symbol
 
 <hr>
@@ -30,15 +29,11 @@
 
 You have sworn a powerful Sacred Oath, which marks you as a paladin. At 1st level, you choose the Sacred Oath that best represents your paladin's convictions and creed. Your Sacred Oath grants features at 1st level, and again when you reach 3rd, 7th, 15th, and 20th level in this class.
 
-<hr>
-
 #### Sacred Tenets
 
 Each Sacred Oath has a set of Sacred Tenets which paladins of the Oath swear to uphold. Should a paladin knowingly and willingly violate a Tenet of their Oath, they cannot use Sacred Oath or Paladin class features, except those indicated until they spend 1 hour, which can be during a short or long rest, making reparations appropriate to their Oath.
 
 If a paladin consistently violates the Tenets of their Oath, they risk breaking it completely. Those who do may become Oathless Paladins, evil Blackguards, or may switch classes.
-
-<hr>
 
 #### Divine Fervor
 
@@ -68,87 +63,23 @@ This feature has no effect on undead and constructs.
 
 <hr>
 
-#### Nivel 2 - Fighting Style
+#### Level 2 - Fighting Style
 
 At 2nd level you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-<hr>
-
-#### Archery
-
-You gain a +2 bonus to attack rolls you make with ranged weapons.
-
-<hr>
-
-#### Blind Warrior
-
-You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
-
-<hr>
-
-#### Brawler
-
-Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
-
-<hr>
-
-#### Classical Swordplay
-
-While wielding a finesse weapon and no other weapons, you gain a +2 bonus to your attack rolls and a +1 to your Armor Class so long as you are not using heavy armor or a shield.
-
-<hr>
-
-#### Defense
-
-So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
-
-<hr>
-
-#### Dueling
-
-When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
-
-<hr>
-
-#### Great Weapon Fighting
-
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
-
-<hr>
-
-#### Mounted Combatant
-
-While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
-
-<hr>
-
-#### Protection
-
-When a creature you can see hits you, or a target within 5 feet, with a melee attack, you can use a reaction to add your proficiency bonus to the target's Armor Class against that attack. You must be wielding a shield or a melee weapon.
-
-<hr>
-
-#### Shield Warrior
-
-You gain proficiency with shields as a martial melee weapon, and on hit, your shield deals 2d4 bludgeoning damage. If you are wielding a shield and nothing else, you gain a +1 bonus to your shield attack rolls and to your Armor Class.
-
-<hr>
-
-#### Strongbow
-
-You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
-
-<hr>
-
-#### Two-Weapon Fighting
-
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
-
-<hr>
-
-#### Versatile Fighting
-
-While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action
+* **Archery.** You gain a +2 bonus to attack rolls you make with ranged weapons.
+* **Blind Warrior.** You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
+* **Brawler.** Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
+* **Classical Swordplay.** While wielding a finesse weapon and no other weapons, you gain a +2 bonus to your attack rolls and a +1 to your Armor Class so long as you are not using heavy armor or a shield.
+* **Defense.** So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
+* **Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
+* **Great Weapon Fighting.** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+* **Mounted Combatant.** While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
+* **Protection.** When a creature you can see hits you, or a target within 5 feet, with a melee attack, you can use a reaction to add your proficiency bonus to the target's Armor Class against that attack. You must be wielding a shield or a melee weapon.
+* **Shield Warrior.** You gain proficiency with shields as a martial melee weapon, and on hit, your shield deals 2d4 bludgeoning damage. If you are wielding a shield and nothing else, you gain a +1 bonus to your shield attack rolls and to your Armor Class.
+* **Strongbow.** You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
+* **Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
+* **Versatile Fighting.** While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.
 
 <hr>
 

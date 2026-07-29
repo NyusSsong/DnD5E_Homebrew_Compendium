@@ -36,6 +36,7 @@ nav:
   - Classes:
       - Base Classes:
         - Barbarian: classes/base_classes/barbarian.md
+        - Paladin: classes/base_classes/paladin.md
         - Ranger: classes/base_classes/ranger.md
       - Kibbles Tasty:
         - Psion: classes/kibbles/kt_psion.md

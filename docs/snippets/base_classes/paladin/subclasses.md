@@ -60,12 +60,6 @@ You can expend 1 Divine Fervor as an action to cloak yourself in a brilliant, sc
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Spells                  |
 | :-----------: | :--------------------------------------: |
 |       3       |          *chaos bolt* / *sleep*          |
@@ -74,7 +68,6 @@ You can expend 1 Divine Fervor as an action to cloak yourself in a brilliant, sc
 |      13       | *dimension door* / *freedom of movement* |
 |      17       |          *mislead* / *seeming*           |
 
-</div>
 
 <hr>
 
@@ -132,12 +125,6 @@ As an action, you can expend 1 Divine Fervor to surround yourself in an invisibl
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Oath Spells                  |
 | :-----------: | :-------------------------------------------: |
 |      2nd      |    *mage armor* / *purify food and drink*     |
@@ -146,7 +133,6 @@ As an action, you can expend 1 Divine Fervor to surround yourself in an invisibl
 |     13th      |   *aura of purity* / *freedom of movement*    |
 |     17th      |  *greater restoration* / *mass cure wounds*   |
 
-</div>
 
 <hr>
 
@@ -202,12 +188,6 @@ When you fail on a saving throw or miss with an attack roll, you can invoke your
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                Spells                |
 | :-----------: | :----------------------------------: |
 |       3       |          *bless* / *sleep*           |
@@ -216,7 +196,6 @@ When you fail on a saving throw or miss with an attack roll, you can invoke your
 |      13       | *death ward* / *freedom of movement* |
 |      17       |   *dispel evil and good* / *dream*   |
 
-</div>
 
 <hr>
 
@@ -271,12 +250,6 @@ As an action, you can expend 1 Divine Fervor to imbue heavy armor that you are w
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |              Oath Spells              |
 | :-----------: | :-----------------------------------: |
 |      2nd      |       *healing word* / *shield*       |
@@ -285,7 +258,6 @@ As an action, you can expend 1 Divine Fervor to imbue heavy armor that you are w
 |     13th      |   *guardian of faith* / *stoneskin*   |
 |     17th      |  *holy weapon* / *steel wind strike*  |
 
-</div>
 
 <hr>
 
@@ -332,12 +304,6 @@ As an action, you touch your holy symbol and expend 1 Divine Fervor to divinely 
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |              Spells              |
 | :-----------: | :------------------------------: |
 |       3       | *charm person* / *disguise self* |
@@ -346,7 +312,6 @@ As an action, you touch your holy symbol and expend 1 Divine Fervor to divinely 
 |      13       |  *charm monster* / *compulsion*  |
 |      17       |  *dominate person* / *seeming*   |
 
-</div>
 
 <hr>
 
@@ -413,12 +378,6 @@ As a bonus action, you can cause the blood within you to surge at a hyperactive 
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Spells                  |
 | :-----------: | :--------------------------------------: |
 |       3       |     *false life* / *inflict wounds*      |
@@ -427,7 +386,6 @@ As a bonus action, you can cause the blood within you to surge at a hyperactive 
 |      13       |     *death ward* / *locate creature*     |
 |      17       | *antilife shell* / *greater restoration* |
 
-</div>
 
 <hr>
 
@@ -497,12 +455,6 @@ As a bonus action, you can expend 1 Divine Fervor and speak a word of command to
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Spells                   |
 | :-----------: | :---------------------------------------: |
 |       3       |      *divine favor* / *faerie fire*       |
@@ -511,7 +463,6 @@ As a bonus action, you can expend 1 Divine Fervor and speak a word of command to
 |      13       | *freedom of movement* / *locate creature* |
 |      17       |     *commune* / *greater restoration*     |
 
-</div>
 
 <hr>
 
@@ -569,12 +520,6 @@ As an action, select a creature you can see within 30 feet of you and expend 1 D
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                 Spells                 |
 | :-----------: | :------------------------------------: |
 |       3       |   *expeditious retreat* / *identify*   |
@@ -583,7 +528,6 @@ As an action, select a creature you can see within 30 feet of you and expend 1 D
 |      13       |    *arcane eye* / *dimension door*     |
 |      17       | *legend lore* / *teleportation circle* |
 
-</div>
 
 <hr>
 
@@ -657,12 +601,6 @@ As a bonus action, you can expend 1 Divine Fervor to set your sights upon a sing
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                Oath Spells                 |
 | :-----------: | :----------------------------------------: |
 |      2nd      |          *feather fall* / *jump*           |
@@ -671,7 +609,6 @@ As a bonus action, you can expend 1 Divine Fervor to set your sights upon a sing
 |     13th      | *dominate monster* / *freedom of movement* |
 |     17th      |      *cone of cold* / *wall of force*      |
 
-</div>
 
 <hr>
 
@@ -759,12 +696,6 @@ the creature can use the Dodge action.
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                Spells                 |
 | :-----------: | :-----------------------------------: |
 |       3       |  *lightning Tendril* / *water blast*  |
@@ -773,7 +704,6 @@ the creature can use the Dodge action.
 |      13       | *vitriolic sphere* / *orbital stones* |
 |      17       |    *skyburst* / *ressurec cutter*     |
 
-</div>
 
 <hr>
 
@@ -906,12 +836,6 @@ You can expend 1 Divine Fervor as an action to share knowledge and experience wi
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                 Spells                  |
 | :-----------: | :-------------------------------------: |
 |       3       | *comprehend languages* / *guiding bolt* |
@@ -920,7 +844,6 @@ You can expend 1 Divine Fervor as an action to share knowledge and experience wi
 |      13       |     *dimension door* / *divination*     |
 |      17       |    *awaken* / *contact other plane*     |
 
-</div>
 
 <hr>
 
@@ -979,12 +902,6 @@ You can infuse others with the divine strength to continue moving on. As an acti
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |               Oath Spells               |
 | :-----------: | :-------------------------------------: |
 |      2nd      | *comprehend languages* / *silent image* |
@@ -993,7 +910,6 @@ You can infuse others with the divine strength to continue moving on. As an acti
 |     13th      |     *fabricate* / *private sanctum*     |
 |     17th      |           *geas* / *seeming*            |
 
-</div>
 
 <hr>
 
@@ -1061,12 +977,6 @@ as a bonus action to add another damage die.
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |               Oath Spells               |
 | :-----------: | :-------------------------------------: |
 |      2nd      |      *heroism* / *shield of faith*      |
@@ -1075,7 +985,6 @@ as a bonus action to add another damage die.
 |     13th      |  *death ward* / *freedom of movement*   |
 |     17th      | *dispel evil and good* / *hold monster* |
 
-</div>
 
 <hr>
 
@@ -1172,12 +1081,6 @@ As a bonus action, you can expend 1 Divine Fervor to create a 15-foot radius sph
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |               Oath Spells                |
 | :-----------: | :--------------------------------------: |
 |       3       |      *feather fall* / *longstrider*      |
@@ -1186,7 +1089,6 @@ As a bonus action, you can expend 1 Divine Fervor to create a 15-foot radius sph
 |      13       | *dimension door* / *freedom of movement* |
 |      17       |   *passwall* / *teleportation circle*    |
 
-</div>
 
 <hr>
 
@@ -1242,12 +1144,6 @@ As an action, you expend 1 Divine Fervor and speak words of heresy, profound sta
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                       Spells                        |
 | :-----------: | :-------------------------------------------------: |
 |       3       | *illusory script* / *protection from evil and good* |
@@ -1256,7 +1152,6 @@ As an action, you expend 1 Divine Fervor and speak words of heresy, profound sta
 |      13       |          *banishment* / *private sanctum*           |
 |      17       |       *dispel evil and good* / *legend lore*        |
 
-</div>
 
 <hr>
 
@@ -1313,12 +1208,6 @@ As a bonus action, you can expend 1 Divine Fervor imbue a weapon or armor with d
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                 Spells                  |
 | :-----------: | :-------------------------------------: |
 |       3       |          *alarm* / *identify*           |
@@ -1327,7 +1216,6 @@ As a bonus action, you can expend 1 Divine Fervor imbue a weapon or armor with d
 |      13       |       *fabricate* / *stone shape*       |
 |      17       | *animate objects* / *skill empowerment* |
 
-</div>
 
 <hr>
 
@@ -1384,12 +1272,6 @@ As an action, you can expend 1 Divine Fervor to present your holy symbol and tar
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Spells                   |
 | :-----------: | :---------------------------------------: |
 |       3       |     *detect magic* / *hunter's mark*      |
@@ -1398,7 +1280,6 @@ As an action, you can expend 1 Divine Fervor to present your holy symbol and tar
 |      13       | *locate creature* / *freedom of movement* |
 |      17       |        *modify memory* / *scrying*        |
 
-</div>
 
 <hr>
 
@@ -1451,12 +1332,6 @@ As a reaction when a creature deals damage to a creature within 30 feet, you can
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Spells                  |
 | :-----------: | :--------------------------------------: |
 |       3       |      *heroism* / *shield of faith*       |
@@ -1465,7 +1340,6 @@ As a reaction when a creature deals damage to a creature within 30 feet, you can
 |      13       | *aura of purity* / *freedom of movement* |
 |      17       | *mass cure wounds* / *skill empowerment* |
 
-</div>
 
 <hr>
 
@@ -1540,12 +1414,6 @@ as the creature would have taken.
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Oath Spells                  |
 | :-----------: | :-------------------------------------------: |
 |      2nd      |         *healing word* / *sanctuary*          |
@@ -1554,7 +1422,6 @@ as the creature would have taken.
 |     13th      |        *aura of purity* / *death ward*        |
 |     17th      |     *mass cure wounds* / *modify memory*      |
 
-</div>
 
 <hr>
 
@@ -1648,12 +1515,6 @@ the effect ends.
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                Oath Spells                |
 | :-----------: | :---------------------------------------: |
 |      2nd      |  *comprehend languages* / *healing word*  |
@@ -1662,7 +1523,6 @@ the effect ends.
 |     13th      |   *death ward* / *freedom of movement*    |
 |     17th      |   *holy weapon* / *greater restoration*   |
 
-</div>
 
 <hr>
 
@@ -1730,12 +1590,6 @@ An undead creature, creature native to the Shadowfell, and any creature harmed b
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                   Oath Spells                    |
 | :-----------: | :----------------------------------------------: |
 |      2nd      | *guiding bolt* / *protection from evil and good* |
@@ -1744,7 +1598,6 @@ An undead creature, creature native to the Shadowfell, and any creature harmed b
 |     13th      |          *aura of life* / *fire shield*          |
 |     17th      |    *banishing smite* / *greater restoration*     |
 
-</div>
 
 <hr>
 
@@ -1800,12 +1653,6 @@ As an action, you ignite a fire in creatures surrounding you and expending 1 Div
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                          Spells                          |
 | :-----------: | :------------------------------------------------------: |
 |       3       |               *disguise self* / *heroism*                |
@@ -1814,7 +1661,6 @@ As an action, you ignite a fire in creatures surrounding you and expending 1 Div
 |      13       | *freedom of movement* / *mordenkainen's private sanctum* |
 |      17       |                  *passwall* / *seeming*                  |
 
-</div>
 
 <hr>
 
@@ -1873,12 +1719,6 @@ As a reaction, you can expend 1 Divine Fervor to speak inspiration to an ally wi
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                    Spells                     |
 | :-----------: | :-------------------------------------------: |
 |       3       |         *healing word* / *sanctuary*          |
@@ -1887,7 +1727,6 @@ As a reaction, you can expend 1 Divine Fervor to speak inspiration to an ally wi
 |      13       |          *banishment* / *death ward*          |
 |      17       |  *dispel evil and good* / *mass cure wounds*  |
 
-</div>
 
 <hr>
 
@@ -1945,12 +1784,6 @@ As an action, you can expend 1 Divine Fervor to hold aloft your holy symbol and 
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                Spells                 |
 | :-----------: | :-----------------------------------: |
 |       3       | *absorb elements* / *shield of faith* |
@@ -1959,7 +1792,6 @@ As an action, you can expend 1 Divine Fervor to hold aloft your holy symbol and 
 |      13       |  *fire shield* / *resilient sphere*   |
 |      17       |  *circle of power* / *wall of stone*  |
 
-</div>
 
 <hr>
 
@@ -2016,12 +1848,6 @@ As an action, you can expend 1 Divine Fervor to begin radiating bright sunlight 
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |              Spells              |
 | :-----------: | :------------------------------: |
 |       3       | *burning hands* / *guiding bolt* |
@@ -2030,7 +1856,6 @@ As an action, you can expend 1 Divine Fervor to begin radiating bright sunlight 
 |      13       |  *fire shield* / *wall of fire*  |
 |      17       |    *flame strike* / *hallow*     |
 
-</div>
 
 <hr>
 
@@ -2084,12 +1909,6 @@ If the target is less than 60 feet from you, the line of lightning extends beyon
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                Spells                 |
 | :-----------: | :-----------------------------------: |
 |       3       |       *heroism* / *thunderwave*       |
@@ -2098,7 +1917,6 @@ If the target is less than 60 feet from you, the line of lightning extends beyon
 |      13       |  *freedom of movement* / *stoneskin*  |
 |      17       |   *conjure volley* / *swift quiver*   |
 
-</div>
 
 <hr>
 
@@ -2161,12 +1979,6 @@ As an action, you present your holy symbol and speak a prayer of warding, expend
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Spells                  |
 | :-----------: | :--------------------------------------: |
 |       3       |   *compelled duel* / *shield of faith*   |
@@ -2175,7 +1987,6 @@ As an action, you present your holy symbol and speak a prayer of warding, expend
 |      13       |    *guardian of faith* / *stoneskin*     |
 |      17       |        *hallow* / *wall of force*        |
 
-</div>
 
 <hr>
 
@@ -2266,12 +2077,6 @@ when used in this manner are d6s instead of d8s.
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |              Oath Spells               |
 | :-----------: | :------------------------------------: |
 |      2nd      |        *jump* / *hunter's mark*        |
@@ -2280,7 +2085,6 @@ when used in this manner are d6s instead of d8s.
 |     13th      |    *faithful hound* / *fire shield*    |
 |     17th      | *greater restoration* / *swift quiver* |
 
-</div>
 
 <hr>
 
@@ -2369,12 +2173,6 @@ As an action, you expend 1 Divine Fervor to call down the power of the White Fla
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                       Spells                       |
 | :-----------: | :------------------------------------------------: |
 |       3       | *protection from evil and good* / *wrathful smite* |
@@ -2383,7 +2181,6 @@ As an action, you expend 1 Divine Fervor to call down the power of the White Fla
 |      13       |          *banishment* / *locate creature*          |
 |      17       |     *banishing smite* / *dispel evil and good*     |
 
-</div>
 
 <hr>
 
@@ -2439,12 +2236,6 @@ As a bonus action, you can expend 1 Divine Fervor to wreath your armor in a thic
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                 Spells                  |
 | :-----------: | :-------------------------------------: |
 |       3       | *create or destroy water* / *fog cloud* |
@@ -2453,7 +2244,6 @@ As a bonus action, you can expend 1 Divine Fervor to wreath your armor in a thic
 |      13       |       *fire shield* / *ice storm*       |
 |      17       |     *cone of cold* / *hold monster*     |
 
-</div>
 
 <hr>
 
@@ -2512,12 +2302,6 @@ As a bonus action, choose a creature you can see within 30 feet and expend 1 Div
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                  Spells                  |
 | :-----------: | :--------------------------------------: |
 |       3       | *detect evil and good* / *hunter's mark* |
@@ -2526,7 +2310,6 @@ As a bonus action, choose a creature you can see within 30 feet and expend 1 Div
 |      13       |     *divination* / *locate creature*     |
 |      17       |       *insect plague* / *scrying*        |
 
-</div>
 
 <hr>
 
@@ -2585,10 +2368,6 @@ points equal to your Charisma modifier (minimum of 1).
 
 ### Level 2 - Blackguard Spells
 
-&nbsp;
-
-<div class='classTable'>
-
 ##### Blackguard Spells
 
 | Paladin Level |                Spells                 |
@@ -2599,7 +2378,6 @@ points equal to your Charisma modifier (minimum of 1).
 |      13       |  *accursed touch* / *shadow of moil*  |
 |      17       |   *contagion* / *infernal calling*    |
 
-</div>
 
 <hr>
 
@@ -2694,10 +2472,6 @@ Charisma modifier (minimum of +1) to your damage roll.
 
 ### Level 2 - Oathless Spells
 
-&nbsp;
-
-<div class='classTable'>
-
 ##### Oathless Spells
 
 | Paladin Level |                  Spells                  |
@@ -2708,7 +2482,6 @@ Charisma modifier (minimum of +1) to your damage roll.
 |      13       | *charm monster* / *greater invisibility* |
 |      17       |      *dominate person* / *passwall*      |
 
-</div>
 
 <hr>
 

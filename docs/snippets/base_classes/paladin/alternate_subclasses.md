@@ -30,12 +30,6 @@ You can also infuse others with the primal resilience of your Oath. As an action
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |                Oath Spells                |
 | :-----------: | :---------------------------------------: |
 |      2nd      |  *absorb elements* / *ensnaring strike*   |
@@ -43,8 +37,6 @@ You can also infuse others with the primal resilience of your Oath. As an action
 |      9th      | *plant growth* / *protection from energy* |
 |     13th      |  *grasping vine* / *guardian of nature*   |
 |     17th      |   *commune with nature* / *tree stride*   |
-
-</div>
 
 <hr>
 
@@ -105,12 +97,6 @@ In addition to the hit points pool of your Lay On Hands ability, you can also us
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |              Oath Spells               |
 | :-----------: | :------------------------------------: |
 |      2nd      |      *bless* / *shield of faith*       |
@@ -118,8 +104,6 @@ In addition to the hit points pool of your Lay On Hands ability, you can also us
 |      9th      |   *beacon of hope* / *remove curse*    |
 |     13th      |   *death ward* / *guardian of faith*   |
 |     17th      |    *dawn* / *dispel evil and good*     |
-
-</div>
 
 <hr>
 
@@ -179,12 +163,6 @@ If your Sworn Foe is completely eradicated, or when you gain a Paladin level, yo
 
 ### Level 2 - Oath Spells
 
-&nbsp;
-
-<div class='classTable'>
-
-##### Oath Spells
-
 | Paladin Level |           Oath Spells           |
 | :-----------: | :-----------------------------: |
 |      2nd      |    *bane* / *compelled duel*    |
@@ -192,8 +170,6 @@ If your Sworn Foe is completely eradicated, or when you gain a Paladin level, yo
 |      9th      |    *haste* / *nondetection*     |
 |     13th      | *banishment* / *dimension door* |
 |     17th      |   *far step* / *hold monster*   |
-
-</div>
 
 <hr>
 
