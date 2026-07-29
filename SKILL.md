@@ -206,8 +206,9 @@ No `<hr>` between individual items. `<hr>` only between category `<div>` blocks 
    - Feature levels for subclasses (from the text, never assumed)
 3. Create snippet files in `docs/snippets/[source_folder]/[classname]/`
 4. Create assembled page in `docs/classes/[source_folder]/[classname].md`
-5. Check `filter-js`: if any new filter IDs are needed, propose the addition to the user
-6. Check in similar files for other classes if some of the bullet points (especially in `core_features.md` files) have a double space at the end to account for the line-break spacing issue.
+5. Check if input material brings extra format in tables. Output tables do not use `<div>`, just pure Markdown.
+6. Check `filter-js`: if any new filter IDs are needed, propose the addition to the user
+7. Check in similar files for other classes if some of the bullet points (especially in `core_features.md` files) have a double space at the end to account for the line-break spacing issue.
 
 ## Workflow: Reformatting Existing Content
 

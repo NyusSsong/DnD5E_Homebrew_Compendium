@@ -90,3 +90,6 @@ When done, write a block with:
 - Publish templates from `./templates/` as site pages
 - Omit `^^` around subclass names in `##` headers
 - Use `-` instead of `*` for bullet points
+- Use `<div class='classTable'>` or any other `<div>` wrappers for tables (use pure Markdown tables)
+- Leave HTML spacing entities like `&nbsp;` in output files
+- Deviate from the exact markdown structure of the files in `./templates/`
