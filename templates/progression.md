@@ -1,0 +1,22 @@
+| Level |  PB   | Features   | [Class Column 1] | [Class Column 2] | [Class Column N] |
+| :---- | :---: | :--------- | :--------------: | :--------------: | :--------------: |
+| 1st   |  +2   | [Features] |     [value]      |     [value]      |     [value]      |
+| 2nd   |  +2   | [Features] |     [value]      |     [value]      |     [value]      |
+| 3rd   |  +2   | [Features] |     [value]      |     [value]      |     [value]      |
+| 4th   |  +2   | [Features] |     [value]      |     [value]      |     [value]      |
+| 5th   |  +3   | [Features] |     [value]      |     [value]      |     [value]      |
+| 6th   |  +3   | [Features] |     [value]      |     [value]      |     [value]      |
+| 7th   |  +3   | [Features] |     [value]      |     [value]      |     [value]      |
+| 8th   |  +3   | [Features] |     [value]      |     [value]      |     [value]      |
+| 9th   |  +4   | [Features] |     [value]      |     [value]      |     [value]      |
+| 10th  |  +4   | [Features] |     [value]      |     [value]      |     [value]      |
+| 11th  |  +4   | [Features] |     [value]      |     [value]      |     [value]      |
+| 12th  |  +4   | [Features] |     [value]      |     [value]      |     [value]      |
+| 13th  |  +5   | [Features] |     [value]      |     [value]      |     [value]      |
+| 14th  |  +5   | [Features] |     [value]      |     [value]      |     [value]      |
+| 15th  |  +5   | [Features] |     [value]      |     [value]      |     [value]      |
+| 16th  |  +5   | [Features] |     [value]      |     [value]      |     [value]      |
+| 17th  |  +6   | [Features] |     [value]      |     [value]      |     [value]      |
+| 18th  |  +6   | [Features] |     [value]      |     [value]      |     [value]      |
+| 19th  |  +6   | [Features] |     [value]      |     [value]      |     [value]      |
+| 20th  |  +6   | [Features] |     [value]      |     [value]      |     [value]      |

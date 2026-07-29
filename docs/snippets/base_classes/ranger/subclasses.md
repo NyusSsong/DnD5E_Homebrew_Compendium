@@ -27,13 +27,13 @@ Amazons are wild hunters who turn their deadly arts to the defense of others. Ar
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spell |
-|:---:|:-----------:|
-| 3rd | *guiding bolt* |
-| 5th | *warding bond* |
-| 9th | *haste* |
-| 13th | *death ward* |
-| 17th | *telepathic bond* |
+| Ranger Level |       Spell       |
+| :----------: | :---------------: |
+|     3rd      |  *guiding bolt*   |
+|     5th      |  *warding bond*   |
+|     9th      |      *haste*      |
+|     13th     |   *death ward*    |
+|     17th     | *telepathic bond* |
 
 <hr>
 
@@ -71,13 +71,13 @@ You may not have been raised by beasts but you certainly act like it. An Apex Pr
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spells |
-|:---:|:-----------:|
-| 3rd | *speak with animals* |
-| 5th | *summon beast* |
-| 9th | *speak with plants* |
-| 13th | *dominate beast* |
-| 17th | *hold monster* |
+| Ranger Level |        Spells        |
+| :----------: | :------------------: |
+|     3rd      | *speak with animals* |
+|     5th      |    *summon beast*    |
+|     9th      | *speak with plants*  |
+|     13th     |   *dominate beast*   |
+|     17th     |    *hold monster*    |
 
 <hr>
 
@@ -123,13 +123,13 @@ Few arcane wardens still patrol the Plane of Faerie, as they were hunted down by
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spells |
-|:---:|:-----------:|
-| 3rd | *magic missile* |
-| 5th | *invisibility* |
-| 9th | *lightning bolt* |
-| 13th | *polymorph* |
-| 17th | *cone of cold* |
+| Ranger Level |      Spells      |
+| :----------: | :--------------: |
+|     3rd      | *magic missile*  |
+|     5th      |  *invisibility*  |
+|     9th      | *lightning bolt* |
+|     13th     |   *polymorph*    |
+|     17th     |  *cone of cold*  |
 
 <hr>
 
@@ -180,13 +180,13 @@ Since fringe wardens primarily work alone, they rarely engage in direct combat, 
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spells |
-|:---:|:-----------:|
-| 3rd | *find familiar* |
-| 5th | *invisibility* |
-| 9th | *phantom steed* |
-| 13th | *faithful hound* |
-| 17th | *seeming* |
+| Ranger Level |      Spells      |
+| :----------: | :--------------: |
+|     3rd      | *find familiar*  |
+|     5th      |  *invisibility*  |
+|     9th      | *phantom steed*  |
+|     13th     | *faithful hound* |
+|     17th     |    *seeming*     |
 
 <hr>
 
@@ -226,13 +226,13 @@ Sometimes it takes a monster to destroy a monster. Those who take up the mantle 
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spell |
-|:---:|:-----------:|
-| 3rd | *bane* |
-| 5th | *shadow blade* |
-| 9th | *bestow curse* |
-| 13th | *blight* |
-| 17th | *enervation* |
+| Ranger Level |     Spell      |
+| :----------: | :------------: |
+|     3rd      |     *bane*     |
+|     5th      | *shadow blade* |
+|     9th      | *bestow curse* |
+|     13th     |    *blight*    |
+|     17th     |  *enervation*  |
 
 <hr>
 
@@ -292,13 +292,13 @@ Slipping through the darkness, the Guerilla is a master of silent movement, pois
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spells |
-|:---:|:-----------:|
-| 3rd | *entangle* |
-| 5th | *invisibility* |
-| 9th | *gaseous form* |
-| 13th | *Evard's black tentacles* |
-| 17th | *cloudkill* |
+| Ranger Level |          Spells           |
+| :----------: | :-----------------------: |
+|     3rd      |        *entangle*         |
+|     5th      |      *invisibility*       |
+|     9th      |      *gaseous form*       |
+|     13th     | *Evard's black tentacles* |
+|     17th     |        *cloudkill*        |
 
 <hr>
 
@@ -352,13 +352,13 @@ Drawing on this network, these Rangers can use psionic abilities to slip through
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spell |
-|:---:|:-----------:|
-| 3rd | *comprehend languages* |
-| 5th | *misty step* |
-| 9th | *tongues* |
-| 13th | *dimension door* |
-| 17th | *commune* |
+| Ranger Level |         Spell          |
+| :----------: | :--------------------: |
+|     3rd      | *comprehend languages* |
+|     5th      |      *misty step*      |
+|     9th      |       *tongues*        |
+|     13th     |    *dimension door*    |
+|     17th     |       *commune*        |
 
 <hr>
 
@@ -408,13 +408,13 @@ Few are those who dwell in the most desolate corners of the world. Even fewer ar
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spells |
-|:---:|:-----------:|
-| 3rd | *ice knife* |
-| 5th | *misty step* |
-| 9th | *sleet storm* |
-| 13th | *locate creature* |
-| 17th | *cone of cold* |
+| Ranger Level |      Spells       |
+| :----------: | :---------------: |
+|     3rd      |    *ice knife*    |
+|     5th      |   *misty step*    |
+|     9th      |   *sleet storm*   |
+|     13th     | *locate creature* |
+|     17th     |  *cone of cold*   |
 
 <hr>
 
@@ -470,13 +470,13 @@ Spellbreakers are a small but dedicated Conclave of Rangers that specialize in h
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spell |
-|:---:|:-----------:|
-| 3rd | *detect magic* |
-| 5th | *silence* |
-| 9th | *counterspell* |
-| 13th | *arcane eye* |
-| 17th | *wall of force* |
+| Ranger Level |      Spell      |
+| :----------: | :-------------: |
+|     3rd      | *detect magic*  |
+|     5th      |    *silence*    |
+|     9th      | *counterspell*  |
+|     13th     |  *arcane eye*   |
+|     17th     | *wall of force* |
 
 <hr>
 
@@ -540,14 +540,14 @@ You draw your power from the constellations of the night sky. Each time you fini
 
 You can cast your 1st-level Constellation spell once without expending a spell slot, at the level of your highest level slot as shown on the Ranger table for your level, and you regain the ability to do so when you finish a short or long rest.
 
-| Constellation | Cantrip | 1st-level Spell |
-|:---------------:|:---------------:|:-----:|
-| Adder | *thorn whip* | *inflict wounds* |
-| Bear | *resistance* | *wrathful smite* |
-| Elephant | *guidance* | *bless* |
-| Snow Hare | *minor illusion* | *armor of agathys* |
-| Stag | *shillelagh* | *heroism* |
-| Wolf | *true strike* | *guiding bolt* |
+| Constellation |     Cantrip      |  1st-level Spell   |
+| :-----------: | :--------------: | :----------------: |
+|     Adder     |   *thorn whip*   |  *inflict wounds*  |
+|     Bear      |   *resistance*   |  *wrathful smite*  |
+|   Elephant    |    *guidance*    |      *bless*       |
+|   Snow Hare   | *minor illusion* | *armor of agathys* |
+|     Stag      |   *shillelagh*   |     *heroism*      |
+|     Wolf      |  *true strike*   |   *guiding bolt*   |
 
 <hr>
 
@@ -561,13 +561,13 @@ Finally, you can't become lost, even by magical means, so long as you can see th
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spell |
-|:--------------:|:---:|
-| 3rd | *Constellation Magic* |
-| 5th | *moonbeam* |
-| 9th | *beacon of hope* |
-| 13th | *guardian of faith* |
-| 17th | *wall of light* |
+| Ranger Level |         Spell         |
+| :----------: | :-------------------: |
+|     3rd      | *Constellation Magic* |
+|     5th      |      *moonbeam*       |
+|     9th      |   *beacon of hope*    |
+|     13th     |  *guardian of faith*  |
+|     17th     |    *wall of light*    |
 
 <hr>
 
@@ -605,13 +605,13 @@ Some Stormcloak rangers wear a cloak or long coat that courses with lightning wh
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Conclave Spells |
-|:---:|:-----------:|
-| 3rd | *thunderwave* |
-| 5th | *gust of wind* |
-| 9th | *haste* |
-| 13th | *freedom of movement* |
-| 17th | *passwall* |
+| Ranger Level |    Conclave Spells    |
+| :----------: | :-------------------: |
+|     3rd      |     *thunderwave*     |
+|     5th      |    *gust of wind*     |
+|     9th      |        *haste*        |
+|     13th     | *freedom of movement* |
+|     17th     |      *passwall*       |
 
 <hr>
 
@@ -655,13 +655,13 @@ Unicorns are considered blessed celestial creatures by most who wander the wilde
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spells |
-|:---:|:-----------:|
-| 3rd | *detect evil and good* |
-| 5th | *pass without trace* |
-| 9th | *beacon of hope* |
-| 13th | *aura of life* |
-| 17th | *dispel evil and good* |
+| Ranger Level |         Spells         |
+| :----------: | :--------------------: |
+|     3rd      | *detect evil and good* |
+|     5th      |  *pass without trace*  |
+|     9th      |    *beacon of hope*    |
+|     13th     |     *aura of life*     |
+|     17th     | *dispel evil and good* |
 
 <hr>
 
@@ -715,13 +715,13 @@ While all Rangers have the skills to survive in the wilds, those known as Wastel
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spell |
-|:---:|:-----------:|
-| 3rd | *absorb elements* |
-| 5th | *mirror image* |
-| 9th | *major image* |
-| 13th | *hallucinatory terrain* |
-| 17th | *commune with nature* |
+| Ranger Level |          Spell          |
+| :----------: | :---------------------: |
+|     3rd      |    *absorb elements*    |
+|     5th      |     *mirror image*      |
+|     9th      |      *major image*      |
+|     13th     | *hallucinatory terrain* |
+|     17th     |  *commune with nature*  |
 
 <hr>
 
@@ -815,13 +815,13 @@ Whether it's out in the open plain or across a dungeon floor, few creatures can 
 
 ### Level 3 - Conclave Spells
 
-| Ranger Level | Spells |
-|:---:|:-----------:|
-| 3rd | *zephyr strike* |
-| 5th | *gust of wind* |
-| 9th | *fly* |
-| 13th | *freedom of movement* |
-| 17th | *control winds* |
+| Ranger Level |        Spells         |
+| :----------: | :-------------------: |
+|     3rd      |    *zephyr strike*    |
+|     5th      |    *gust of wind*     |
+|     9th      |         *fly*         |
+|     13th     | *freedom of movement* |
+|     17th     |    *control winds*    |
 
 <hr>
 
@@ -839,13 +839,13 @@ You learn the art of windrunning, the secrets of which have been passed down fro
 
 You know the windrunner art of pathlore, which is the sense of direction allowing them to find the shortest route through terrain. When traveling in wilderness, you can take 10 minutes and make a Wisdom (Survival) check against a DC based on the terrain's size. On a success, you are able to find the shortest route through the terrain, cutting travel time in half for you and up to eight other traveling companions.
 
-| Terrain Size | DC | 
-|:---:|:---:|
-| Small (<25 mile radius) | 12 | 
-| Medium (25-50 mile radius) | 14 | 
-| Large (51-100 mile radius) | 16 |
-| Huge (101-200 mile radius) | 18 |
-| Enormous (>200 mile radius) | 20 |
+|        Terrain Size         |  DC   |
+| :-------------------------: | :---: |
+|   Small (<25 mile radius)   |  12   |
+| Medium (25-50 mile radius)  |  14   |
+| Large (51-100 mile radius)  |  16   |
+| Huge (101-200 mile radius)  |  18   |
+| Enormous (>200 mile radius) |  20   |
 
 Once you use this feature, you must complete a long rest before you can use it again. You can only attempt to use Pathlore on a specific stretch of terrain once in a 24-hour period.
 

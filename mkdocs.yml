@@ -32,6 +32,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Rules: rules.md
   - Classes:
       - Base Classes:
         - Barbarian: classes/base_classes/barbarian.md
