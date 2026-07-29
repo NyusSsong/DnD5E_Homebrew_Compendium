@@ -1,0 +1,1179 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Eldritch invocations - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../../assets/css/magic-items.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Eldritch invocations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Eldritch invocations</h1>
+
+<h4 id="arcane-appropriation">Arcane Appropriation</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>You can attune to one magic item while ignoring any requirements related to alignment, background, class, level, or race.</p>
+<h4 id="arcane-secrets">Arcane Secrets</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>You have unearthed a fragment of powerful arcane lore. You learn one spell of your choice from the Warlock spell list of 4th-level or lower, and you can cast once, at its lowest level without expending a spell slot. Once you cast it in this way you must finish a long rest before you can do so again.</p>
+<p>You can gain this Invocation more than once, but you must select a new Warlock spell each time you do so, and you can only learn one Warlock spell per spell level in this way.</p>
+<h4 id="armor-of-shadows">Armor of Shadows</h4>
+<p>As an action, you can ward yourself (or dismiss) armor made from living shadow. So long as you are not wearing armor or wielding a shield, these shadows grant you an Armor Class equal to 13 + your spellcasting modifier (minimum of +0). You also have advantage on Dexterity (Stealth) checks.</p>
+<h4 id="ascendant-step">Ascendant Step</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>As a bonus action, you can grant yourself a temporary flying speed equal to your walking speed, which lasts until the end of your current turn, but you cannot hover. If you end your turn and are not secure then you fall to the ground.</p>
+<h4 id="aspect-of-the-moon">Aspect of the Moon</h4>
+<p>You no longer need to sleep and cannot be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as keeping watch.</p>
+<h4 id="beast-speech">Beast Speech</h4>
+<p>You are under the constant effects of the <em>speak with animals</em> spell. This effect does not emit a magical aura.</p>
+<h4 id="beguiling-influence">Beguiling Influence</h4>
+<p>You have become infused with an otherworldly charm and presence. You gain proficiency in two of the following skills: Deception, Insight, Intimidation, or Persuasion.</p>
+<p>Whenever you make an ability check with the skills from this Invocation, you can add your spellcasting modifier to your roll in place of the normal ability score associated with the skill.</p>
+<h4 id="bewitching-whispers">Bewitching Whispers</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>Whenever a target is charmed by you, you may give it a verbal command on your turn as an action. If the target can hear you, it must make a Wisdom saving throw or follow your instructions if it is possible while it is still charmed.</p>
+<h4 id="blasphemous-prayer">Blasphemous Prayer</h4>
+<p><em>Prerequisites: 5th level, Pact of the Tome feature</em></p>
+<p>A new page appears in your Eldritch Tome detailing a single Channel Divinity option of your choice from those available to any Cleric Divine Domain at 2nd level. You use your Warlock level in place of Cleric level and use your Spell save DC.</p>
+<p>You can invoke this Channel Divinity once, then you must finish a short or long rest before you can invoke it again.</p>
+<h4 id="chains-of-carceri">Chains of Carceri</h4>
+<p><em>Prerequisites: 15th level, Pact of the Chain feature</em></p>
+<p>You can bind a creature that you can see within 120 feet in magical chains of force as an action. When you do so, the target must make a Strength saving throw against your spell DC. If they fail, they are restrained.</p>
+<p>On their turn they may use their action to attempt to free themselves from the chains by making a Strength saving throw. The chains disappear when the creature breaks free, or after one minute has passed.</p>
+<p>Once you have used this feature, you must finish a short or long rest before you can use it again. You can also sacrifice one spell slot to regain the use of this feature.</p>
+<h4 id="cloak-of-flies">Cloak of Flies</h4>
+<p><em>Prerequisites: 3rd level</em></p>
+<p>As a bonus action, you conjure (or dispel) a swarm of infernal flies that surround you in a 5-foot radius. Creatures of your choice that start their turn in this area take piercing damage equal to your spellcasting modifier (minimum of 0).</p>
+<p>The flies grant you advantage on Charisma (Intimidation) checks, but disadvantage on all other Charisma checks.</p>
+<h4 id="commune-with-patron">Commune with Patron</h4>
+<p><em>Prerequisites: 9th level</em></p>
+<p>Your Pact advances, allowing you to communicate directly with your patron. You learn <em>contact other plane</em>. You can cast it without expending a spell slot to contact your Patron, and you automatically succeed on the spell's saving throw.</p>
+<p>Once you cast <em>contact other plane</em> in this way you must finish a long rest before you can cast it in this way again.</p>
+<h4 id="convulsions-of-the-world">Convulsions of the World</h4>
+<p><em>Prerequisites: 3rd level</em></p>
+<p>Your mind reaches deep into the ground and an elder voice answers. You can use an action to cause a localized tremor to shake the ground around you. Each creature other than yourself within 20 feet of you must succeed on a Dexterity saving throw or be knocked prone.</p>
+<p>You can choose a number of creatures equal to half your proficiency bonus to automatically succeed on this saving throw. You must finish a long rest before you can use this invocation again.</p>
+<h4 id="cosmic-armory">Cosmic Armory</h4>
+<p><em>Prerequisites: 17th level</em></p>
+<p>Your patron bestows you with a magic item worth no more than 25,000 gold. Your patron collects this item when you die or lose this invocation.</p>
+<h4 id="courts-of-the-outer-realms">Courts of the Outer Realms</h4>
+<p>Choose one creature type from the following: aberration, celestial, elemental, fey, fiend, or undead. You are familiar with the intricacies of society and politics among those creatures, and you have advantage on checks made to interact with them or recall lore about them.</p>
+<p>Additionally, you gain proficiency with your choice of either Arcana, History, or Religion. If you are already proficient in the chosen skill, you instead gain expertise instead.</p>
+<h4 id="cup-of-protection">Cup of Protection</h4>
+<p><em>Prerequisites: 7th level, Pact of the Chalice feature</em></p>
+<p>As an action, a creature of your choice can drink from your Pact Chalice, gaining the effects of <em>death ward</em>.</p>
+<h4 id="cup-of-recovery">Cup of Recovery</h4>
+<p><em>Prerequisites: 5th level, Pact of the Chalice feature</em></p>
+<p>Using your Pact Chalice as a spellcasting focus, you can use an action to cast <em>lesser restoration</em> without expending a spell slot.</p>
+<h4 id="deep-patronage">Deep Patronage</h4>
+<p><em>Prerequisites: 11th level</em></p>
+<p>Choose an additional patron expanded spell list. You learn all the spells on that list and they do not count against your spells known.</p>
+<h4 id="devils-sight">Devil's Sight</h4>
+<p>You can enhance your sight with the infernal magic of devils. You can see normally in dim light and darkness, both magical and nonmagical, out to a distance of 120 feet.</p>
+<h4 id="dreadful-word">Dreadful Word</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>You add the <em>confusion</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="eldritch-sight">Eldritch Sight</h4>
+<p>As an action you can awaken your senses to see the presence of magic within 30 feet of you. For 10 minutes, you can see a faint aura around any visible creature or object in that radius that bears magic, instantly learning its school of magic, if any. This sight is blocked by 1 foot of stone, 1 inch of metal, a thin sheet of lead, or 3 feet of wood or dirt. You must concentrate on this sense as if you were concentrating on a spell.</p>
+<h4 id="eldritch-smite">Eldritch Smite</h4>
+<p><em>Prerequisites: 7th level, Pact of the Blade</em></p>
+<p>Once per turn when you hit with an Eldritch Blade attack you deal bonus damage equal to one beam of your Eldritch Blast.</p>
+<p>If your Eldritch Blast imposes extra effects, such as the reduced speed of <em>lance of lethargy</em>, it suffers those as well.</p>
+<h4 id="eldritch-spear">Eldritch Spear</h4>
+<p><em>Prerequisites: 3rd level</em></p>
+<p>Whenever you use Eldritch Blast or cast a spell that requires you to make a ranged spell attack roll, the range is doubled.</p>
+<h4 id="eldritch-warrior">Eldritch Warrior</h4>
+<p>You gain proficiency with medium armor and martial weapons.</p>
+<h4 id="enspelled-blade">Enspelled Blade</h4>
+<p><em>Prerequisites: 7th level, Pact of the Blade feature</em></p>
+<p>You channel your eldritch magicks through your Pact Blade. Whenever you hit a creature with a weapon attack using your Pact Blade, it applies all the additional effects of your Eldritch Blast from Invocations and your Patron, other than its damage, on hit.</p>
+<h4 id="erupting-blast">Erupting Blast</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>When you damage a creature with Eldritch Blast you can use a bonus action to cause other creatures of your choice within 5 feet of the target to take damage of the type of your Eldritch Blast equal to your spellcasting modifier (minimum of 1 damage).</p>
+<h4 id="ethereal-sight">Ethereal Sight</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>As an action, you can enhance your vision with the ethereal energy of undeath, allowing you to see through solid objects within 30 feet. For 1 minute, you have darkvision if you did not already, and you perceive objects as ghostly, transparent shadows of themselves. You must concentrate on this sense as if you were concentrating on a spell.</p>
+<h4 id="eyes-of-the-rune-keeper">Eyes of the Rune Keeper</h4>
+<p>The irises of your eyes are ringed with glowing elder runes. You can read and understand any written words, symbols, or scripts as if they were written in your native tongue.</p>
+<h4 id="far-scribe">Far Scribe</h4>
+<p><em>Prerequisites: 5th level, Pact of the Tome feature</em></p>
+<p>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.</p>
+<p>You can cast the <em>sending</em> spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.</p>
+<p>As an action, you can magically erase a name on the page by touching it.</p>
+<h4 id="fiendish-vigor">Fiendish Vigor</h4>
+<p>You bolster yourself with a necromantic facsimile of life. As a bonus action, you can grant yourself temporary hit points equal to your spellcasting modifier (minimum of 1 hit point).</p>
+<h4 id="fog-dance">Fog Dance</h4>
+<p><em>Prerequisites: 13th level</em></p>
+<p>You can cast <em>misty step</em> at will, and if you do not move on your turn you can cast it without using a bonus action.</p>
+<h4 id="forest-trained">Forest Trained</h4>
+<p>You gain proficiency in the Nature and Survival skills. If you are already proficient in either of these skills, you can select the one which you are proficient in and gain expertise.</p>
+<h4 id="gaze-of-two-minds">Gaze of Two Minds</h4>
+<p>As an action, you can touch a willing humanoid and perceive through its senses until the end of your next turn. During this time, you benefit from all special senses the target possesses but you are blinded and deafened to your own surroundings.</p>
+<p>When you are both on the same plane of existence, you can use your action to extend this connection for one more turn.</p>
+<h4 id="ghostly-gaze">Ghostly Gaze</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don't already have it. This lasts for 1 minute or until your concentration ends. You perceive objects as ghostly, transparent images.</p>
+<p>Once you use this invocation, you can't use it again until you finish a short or long rest. You can also sacrifice one spell slot to regain the use of this feature.</p>
+<h4 id="gift-of-the-deep-ones">Gift of the Deep Ones</h4>
+<p>You manifest aquatic features. You can breathe underwater, and you gain a swimming speed equal to your walking speed.</p>
+<p>At 5th level, you learn the <em>water breathing</em> spell, and you can cast it once per long rest without expending a spell slot.</p>
+<h4 id="gift-of-the-ever-living-ones">Gift of the Ever-Living Ones</h4>
+<p><em>Prerequisites: 5th level, Pact of the Chain feature</em></p>
+<p>Whenever you or your Eldritch Familiar regain hit points while you are within 30 feet of each other you can treat any dice rolled to determine the hit points you or your Familiar regain as the maximum possible value, in place of rolling.</p>
+<h4 id="gift-of-the-protectors">Gift of the Protectors</h4>
+<p><em>Prerequisites: 9th level, Pact of the Tome feature</em></p>
+<p>A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.</p>
+<p>When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.</p>
+<p>As an action, you can erase a name on the page by touching it.</p>
+<h4 id="grasp-of-hadar">Grasp of Hadar</h4>
+<p><em>Prerequisites: 3rd level</em></p>
+<p>When you hit a creature with Eldritch Blast you can pull it up to 10 feet toward you in a line. The total distance you move a creature in one turn is halved for each size it is above Large.</p>
+<h4 id="improved-pact-weapon">Improved Pact Weapon</h4>
+<p><em>Prerequisites: Pact of the Blade feature</em></p>
+<p>Your pact weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.</p>
+<h4 id="inscrutability">Inscrutability</h4>
+<p><em>Prerequisites: 13th level</em></p>
+<p>You are under the constant effects of the <em>nondetection</em> spell.</p>
+<h4 id="investment-of-the-chain-master">Investment of the Chain Master</h4>
+<p><em>Prerequisites: 9th level, Pact of the Chain feature</em></p>
+<p>When you cast <em>find familiar</em>, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:</p>
+<ul>
+<li>Your familiar can use your spell attack bonus for its attack rolls.</li>
+<li>Your familiar adds your proficiency bonus to its Armor Class, saving throws, attack rolls and damage rolls.</li>
+<li>You add twice your Warlock level to your familiar's maximum hit points.</li>
+<li>Your familiar can take its turn immediately before or after your turn each round (your choice).</li>
+<li>You no longer need to forgo one of your attacks to allow your familiar to make its attack. Instead, they can use their action to attack.</li>
+<li>The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.</li>
+<li>If the familiar forces a creature to make a saving throw, it uses your spell save DC.</li>
+<li>When the familiar takes damage, you can use your reaction to grant it resistance against that damage.</li>
+</ul>
+<h4 id="knowledge-of-antiquity">Knowledge of Antiquity</h4>
+<p><em>Prerequisites: Path of the Hourglass feature</em></p>
+<p>When you make an Intelligence (History) check related to an event, in the place where that event took place, you see echoes of the past and treat a roll of 9 or lower on the d20 as a 10.</p>
+<h4 id="lance-of-lethargy">Lance of Lethargy</h4>
+<p><em>Prerequisites: 3rd level</em></p>
+<p>Whenever you damage a creature with Eldritch Blast you can halve its speed until the beginning of your next turn. You can only apply this effect to a creature once per turn.</p>
+<h4 id="lifedrinker">Lifedrinker</h4>
+<p><em>Prerequisites: 9th level, Pact of the Blade feature</em></p>
+<p>When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your spellcasting ability modifier (minimum 1). Additionally, the first time you deal necrotic damage with this invocation on each of your turns, you regain a number of hit points equal to the necrotic damage dealt.</p>
+<h4 id="maddening-hex">Maddening Hex</h4>
+<p><em>Prerequisites: 5th level, hex spell or a warlock feature that curses</em></p>
+<p>As a bonus action, you cause a psychic disturbance around the target cursed by your <em>hex</em> spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice within 5 feet of it.</p>
+<p>The psychic damage equals your spellcasting ability modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.</p>
+<h4 id="mask-of-many-faces">Mask of Many Faces</h4>
+<p>Strange and sinister magics have made your form fluid. As an action, you can change your physical appearance and voice to match that of a creature that you have seen before, so long as the new appearance has the same arrangement of limbs. You determine the specifics, including your race, coloration, sex, height, weight, and hair length, but you cannot change sizes. Transforming does not affect your clothing or game statistics.</p>
+<h4 id="master-of-myriad-forms">Master of Myriad Forms</h4>
+<p><em>Prerequisites: 15th level</em></p>
+<p>You can cast <em>alter self</em> at will, without expending a spell slot or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest.</p>
+<h4 id="minions-of-the-multiverse">Minions of the Multiverse</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>When you choose this invocation, choose one of the following spells, up to a spell level that you are capable of casting (maximum of 5th level): <em>summon aberration</em>, <em>summon beast</em>, <em>summon celestial</em>, <em>summon construct</em>, <em>summon draconic spirit</em>, <em>summon elemental</em>, <em>summon fey</em>, <em>summon fiend</em>, <em>summon shadowspawn</em>, or <em>summon undead</em>.</p>
+<p>You add the chosen spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="mire-the-mind">Mire the Mind</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>You add the <em>slow</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="misty-visions">Misty Visions</h4>
+<p>As an action, you shape otherworldly shadow into an illusory image of an object, creature, or a visible phenomenon that is no larger than a 15-foot cube in a spot you can see within 60 feet of. This image is purely visual; it cannot be accompanied by sound, smell, or other effects. It lasts for 10 minutes.</p>
+<p>As an action, you can cause this illusory image to move to another spot within 60 feet. When you do so, you can choose for it to move in a way that appears natural for the image.</p>
+<p>A creature that succeeds on an Intelligence (Investigation) check against your Spell save DC sees through the illusion. Conjuring a second illusion dispels any previous illusions.</p>
+<h4 id="noxious-invigoration">Noxious Invigoration</h4>
+<p>Whenever you gain temporary hit points, increase the amount you gain by your proficiency bonus.</p>
+<h4 id="one-with-shadows">One with Shadows</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>You learn the <em>invisibility</em> spell, and can cast it once per long rest targeting only yourself without expending a spell slot, so long as you are in an area of dim light or darkness.</p>
+<p>At 9th level, it is no longer limited to once per long rest.</p>
+<h4 id="otherworldly-leap">Otherworldly Leap</h4>
+<p>Your jump distance is tripled permanently. Additionally, you may touch a creature. The creature's jump distance is tripled for one minute. This effect does not emit a magical aura.</p>
+<h4 id="potent-witchcraft">Potent Witchcraft</h4>
+<p>Your Warlock cantrips deal extra damage equal to your spellcasting ability modifier.</p>
+<h4 id="primal-link">Primal Link</h4>
+<p>You can cast <em>animal friendship</em> at will, without expending a spell slot or material components.</p>
+<h4 id="reanimator">Reanimator</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>You add the <em>animate dead</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="repelling-blast">Repelling Blast</h4>
+<p>When you hit a creature with Eldritch Blast you can push it up to 10 feet away from you in a line. The total distance you move a target in a turn is halved for each size above Large.</p>
+<h4 id="sculptor-of-flesh">Sculptor of Flesh</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>You add the <em>polymorph</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="sign-of-ill-omen">Sign of Ill Omen</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>You add the <em>bestow curse</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="silent-stalker">Silent Stalker</h4>
+<p>You gain proficiency in the Stealth and Survival skills. If you are already proficient in either of these skills, you can select the one which you are proficient in and gain expertise.</p>
+<h4 id="spellbinding-contract">Spellbinding Contract</h4>
+<p><em>Prerequisites: 9th level</em></p>
+<p>You add the <em>geas</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<p>If the command of the geas is the stipulation of an agreement to which the target consents, the target automatically fails its saving throw against this spell.</p>
+<h4 id="sylvan-speech">Sylvan Speech</h4>
+<p>You learn to speak Sylvan, and while speaking in Sylvan you can comprehend and verbally communicate with beasts. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, they can give you information about nearby locations and monsters, including whatever they can perceive or have perceived in the past day.</p>
+<p>At 7th level, you can speak in Sylvan to communicate with plants as if you were under the effects of <em>speak with plants</em>.</p>
+<h4 id="thief-of-five-fates">Thief of Five Fates</h4>
+<p>As an action, you can force one creature you can see within 30 feet to make a Charisma saving throw. On a failed save, it must subtract 1d4 from any d20 roll it makes for 1 minute. You must concentrate on this feature to maintain the curse.</p>
+<p>It can repeat its saving throw at the end of each of its turns, ending the effect on a success. Creatures that succeed on this saving throw are immune to this effect until the next dawn.</p>
+<h4 id="time-dilation">Time Dilation</h4>
+<p><em>Prerequisites: 7th level, Pact of the Hourglass feature</em></p>
+<p>Once per long rest, you can cast <em>haste</em>, at a level equal to your Pact Magic spell slots, without expending a spell slot. You also add the spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="tines-of-wyrd">Tines of Wyrd</h4>
+<p><em>Prerequisites: 15th level</em></p>
+<p>When you fail a saving throw, you can sacrifice a spell slot to reroll it and take the second result.</p>
+<h4 id="tomb-of-levistus">Tomb of Levistus</h4>
+<p><em>Prerequisites: 5th level</em></p>
+<p>Whenever you take damage, you can use your reaction to instantaneously encase yourself in a crystal of ice. This ice has a number of hit points equal to ten times your Warlock level and an Armor Class of 10. The ice takes as much of the triggering damage as possible. You are incapacitated and restrained while the ice lasts, but you cannot be targeted and are immune to all damage. At the beginning of your turn, you can cause any remaining ice to melt, ending this effect.</p>
+<p>You can use this Invocation once between each short or long rest at no cost. When you have no uses remaining, you can expend a Pact Magic spell slot to use it again.</p>
+<h4 id="tricksters-escape">Trickster's Escape</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>You add the <em>freedom of movement</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+<h4 id="visions-of-distant-realms">Visions of Distant Realms</h4>
+<p><em>Prerequisites: 15th level</em></p>
+<p>You can cast <em>arcane eye</em> at will, without spending spell slots or material components.</p>
+<h4 id="whispers-of-the-grave">Whispers of the Grave</h4>
+<p><em>Prerequisites: 9th level</em></p>
+<p>You learn the <em>speak with dead</em> spell, and you can cast the spell at will, without expending a Pact Magic spell slot.</p>
+<h4 id="witch-sight">Witch Sight</h4>
+<p><em>Prerequisites: 9th level</em></p>
+<p>Your eyes glow with an unnatural pale green light. You have truesight out to a radius of 10 feet while you are conscious.</p>
+<p>At 15th level the radius of your truesight becomes 30 feet.</p>
+<h4 id="writhing-void">Writhing Void</h4>
+<p><em>Prerequisites: 7th level</em></p>
+<p>You add the <em>black tentacles</em> spell to your list of known spells and it doesn't count against the number of spells you know.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../../assets/js/filter-js"></script>
+      
+        <script src="../../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

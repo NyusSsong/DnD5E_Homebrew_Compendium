@@ -1,0 +1,2010 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../warlock/">
+      
+      
+        <link rel="next" href="../../kibbles/kt_psion/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Wizard - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Wizard
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Base Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-wizard">The Wizard</h1>
+<p>A scholar of the arcane, wielding study, ritual, and precision to bend the forces of magic to their will.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Wizard Features</label><label for="__tabbed_1_3">Elective Studies</label><label for="__tabbed_1_4">Subclasses</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Studies Known</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">1st</th>
+<th style="text-align: center;">2nd</th>
+<th style="text-align: center;">3rd</th>
+<th style="text-align: center;">4th</th>
+<th style="text-align: center;">5th</th>
+<th style="text-align: center;">6th</th>
+<th style="text-align: center;">7th</th>
+<th style="text-align: center;">8th</th>
+<th style="text-align: center;">9th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Arcane Recovery, Spellcasting</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Arcane Tradition</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Scholarly Experience</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement, Elective Studies</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Signature Spell (1st-level)</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Arcane Tradition Feature</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Spell Study</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Wizard's Flair</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Arcane Tradition Feature</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Signature Spell (2nd-level)</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Bestow Magics</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Arcane Tradition Feature</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Arcane Defenses</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Signature Spell (3rd-level)</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Swift Signature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Archmage</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d6 per Wizard level<br />
+<strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d6 (4) + your Constitution modifier  </p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> None<br />
+<strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows<br />
+<strong>Tools:</strong> None  </p>
+<p><strong>Saving Throws:</strong> Intelligence, Wisdom<br />
+<strong>Skills:</strong> Two from Arcana, History, Insight, Investigation, Medicine, and Religion  </p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li><em>(a)</em> a quarterstaff or <em>(b)</em> a dagger  </li>
+<li><em>(a)</em> a component pouch or <em>(b)</em> an arcane focus  </li>
+<li><em>(a)</em> a scholar's pack or <em>(b)</em> an explorer's pack  </li>
+<li>A spellbook  </li>
+</ul>
+<hr>
+<h4 id="level-1-arcane-recovery">Level 1 - Arcane Recovery</h4>
+<p>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.</p>
+<p>For example, if you're a 4th-level Wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
+<hr>
+<h4 id="level-1-spellcasting">Level 1 - Spellcasting</h4>
+<p>At 1st level you have a spellbook containing the written spells you study. You use your spellbook to cast your spells.</p>
+<p><strong>Cantrips.</strong> At 1st level, you know three cantrips of your choice from the Wizard spell list. You learn additional Wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard Spells table.</p>
+<p><strong>Spellbook.</strong> At 1st level, your spellbook contains six 1st-level Wizard spells of your choice. Your spellbook contains all of the wizard spells you know, except your cantrips, which you maintain in your memory.</p>
+<p><strong>Preparing and Casting Spells.</strong> The Wizard Spells table shows how many spell slots you have to cast your Wizard spells. To cast one of these Wizard spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+<p>You prepare the list of Wizard spells that are available for you to cast, choosing from the Wizard spell list. When you do so, choose a number of Wizard spells written in your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots. Casting spells doesn't remove them from your list of prepared spells.</p>
+<p>You can change your list of prepared spells whenever you finish a long rest by studying your spellbook for at least 1 minute per spell level for each spell on your list.</p>
+<p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Wizard spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a Wizard spell you cast and when making an attack roll with one.</p>
+<p><strong>Spell Save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+<p><strong>Spell Attack Modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+<p><strong>Ritual Casting.</strong> You can cast a Wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook.</p>
+<p><strong>Spellcasting Focus.</strong> You can use an arcane focus as a spellcasting focus for your Wizard spells.</p>
+<p><strong>Learning Spells of 1st-Level and Higher.</strong> Each time you gain a Wizard level, you can add two Wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard Spells table.</p>
+<p><strong>Your Spellbook.</strong> As you research magic and spells, you will add new spells to your spellbook. You might find spells during your adventures, such as spells from other spellcasters' spellbooks, or spells recorded on scrolls.</p>
+<p>When you find a Wizard spell of 1st-level or higher, you can add it to your spellbook if it is of a spell level that you can prepare, and if you take the time to decipher and copy it. Copying a spell into your spellbook involves reproducing the instructions of the spell, as well as deciphering any notation or cipher used by the wizard who wrote it. You must also practice the spell until you comprehend any words, sounds, gestures, or materials required to use the spell. Finally, you transcribe the spell into your own spellbook, with any notation or cipher you wish to write it with. For each level of the spell, the process takes 2 hours and costs 50 gold.</p>
+<p>You can copy a spell from your own spellbook into another book — to create a backup copy — following the same procedure but more quickly since you understand your own notation and already know how to cast the spell. You spend 1 hour and 10 gold per level of copying your own spells. If you lose your spellbook, you can use the same procedure to transcribe spells that you have prepared into a new spellbook.</p>
+<hr>
+<h4 id="level-3-scholarly-experience">Level 3 - Scholarly Experience</h4>
+<p>At 3rd level, you have a particular set of skills that sets you a cut above a novice mage. Choose one of the following:</p>
+<p><strong>Academic.</strong> You've got a whole lot of book smarts. Choose one from Arcana, History, Nature, and Religion. You gain proficiency in the chosen skill. In addition, when you use the chosen skill to make a point, rather than relying on charm and persuasion, you can make an Intelligence check with the chosen skill instead of a Charisma check.</p>
+<p><strong>Ritual Efficiency.</strong> When you cast a spell as a ritual, you only add 1 minute to the casting time (instead of 10 minutes).</p>
+<p><strong>Rote Memorization.</strong> Choose one cantrip which has a casting time of 1 action and doesn't deal damage. You can cast that cantrip as a bonus action without any seen or material components a number of times equal to your Intelligence modifier. You regain all expended uses of this feature when you finish a long rest, and can switch the cantrip associated with this feature each time you gain a Wizard level.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<hr>
+<h4 id="level-4-elective-studies">Level 4 - Elective Studies</h4>
+<p>Your study of magic has uncovered unique ways to explore the world. At 4th level you gain one elective study of your choice. Elective studies are detailed at the end of the class description. The Studies Known column of the Wizard table shows when you learn more elective studies. Unless otherwise noted, you can gain each study only once.</p>
+<hr>
+<h4 id="level-5-signature-spell">Level 5 - Signature Spell</h4>
+<p>Your research has led you to the discovery of a spell that is known only to you, a Signature Spell. At 5th level, choose one 1st-level spell in your Spellbook to become your Signature Spell.</p>
+<p>You can modify this spell in any number of the ways below, but you cannot modify it so that its spell level is greater than the level for which you have spell slots on the Wizard table. If the spell gains benefits from being cast at a higher level, the level at which they gain these benefits also increases.</p>
+<p>Once discovered, your Signature Spell is added as a new spell in your Spellbook. You also rename your new spell to reference you as its creator and its modified power. Another Wizard can copy your Signature Spell into their Spellbook following the normal rules for copying spells.</p>
+<p>At certain Wizard levels, your study results in additional Signature Spells: at 11th-level you create a new Signature Spell of 2nd-level or lower, and at 17th-level you gain a Signature Spell of 3rd-level or lower. Alternatively, whenever you create a new Signature Spell, you can select a previous Signature Spell and modify it again.</p>
+<ul>
+<li><strong>Casting Time.</strong> If the spell has a casting time of one action, it becomes one bonus action, but the spell level of this spell increases by 1.</li>
+<li><strong>Components.</strong> You remove components from the spell. It must have at least one remaining component. You cannot remove components that are consumed or have a gold cost. For each component you remove, the level of this spell increases by 1.</li>
+<li><strong>Concentration.</strong> The level of this spell increases by 1, but if you fail a saving throw to maintain your concentration on this spell you can use your reaction to automatically succeed instead.</li>
+<li><strong>Damage.</strong> You replace all the damage dealt by the spell with the type of damage dealt by another spell contained in your Spellbook.</li>
+<li><strong>Ritual.</strong> If the spell lacks the Ritual tag, it has a casting time of one action or one bonus action, and it does not have a material component with a gold cost, it becomes a ritual spell for you.</li>
+<li><strong>Shape.</strong> You modify the shape of a spell that normally targets a cone, cube, cylinder, line, or sphere to target an area of equivalent size (the same number of 5-foot cubes) but a new shape.</li>
+</ul>
+<hr>
+<h4 id="level-7-spell-study">Level 7 - Spell Study</h4>
+<p>At 7th level, you learn to hone your magic and spells to new power levels thanks to your dedicated studies. Choose one Spell Study that reflects what you have dedicated your arcane studies to:</p>
+<p><strong>Arcane Objects.</strong> When you touch a magic item, either willingly or when hit by it, you are immediately aware that it's magical. If you hold such an item in your hand, you can cast <em>identify</em> on it as an action without spending a spell slot, even if you don't have the spell prepared.</p>
+<p>In addition, when you cast <em>identify</em> using a spell slot or as a ritual, you also learn if the item is cursed, and the Narrator will give you a hint as to the curse's effects (which may be cryptic and vague, but must not be a lie).</p>
+<p><strong>Detective Spell Study.</strong> You are adept at sensing magic and its effects. If there are active magical effects near you, such as a spell effect on an object or a spell effect in an area, you automatically sense its presence. You don't know what spell effects there are or where they are, but you can automatically sense the effect of magic in a 20-foot radius around you.</p>
+<p>In addition, you have honed your detection spells. Add <em>detect magic</em> and <em>detect thoughts</em> to your spellbook if they weren't already there. Whenever you cast <em>detect magic</em>, the range that you can sense magic is increased to 60 feet. Whenever you cast <em>detect thoughts</em>, the range of creatures that you can read thoughts from is increased to 60 feet.</p>
+<p><strong>Fauna and Flora.</strong> Your research into plants, wildlife, and the natural workings of magic grants you superior insights into the magic of living creatures and flora. When a plant or beast makes a saving throw against a spell that you cast, it makes the saving throw with disadvantage.</p>
+<hr>
+<h4 id="level-9-wizards-flair">Level 9 - Wizard's Flair</h4>
+<p>At 9th level, you have created a flair that you use when casting spells. Choose a flair from the options below. When you finish a long rest, you may replace your flair with another.</p>
+<p>Whenever you cast a spell of 1st level or higher, you can choose to cast it with your flair. You can do so again when you finish a short or long rest.</p>
+<p><strong>Awe and Wonder.</strong> Choose one creature affected by the spell. It must succeed on a Wisdom saving throw or be charmed by you until the end of its next turn. While charmed in this way, it is incapacitated, has a movement speed of 0, and does nothing but stare blankly at the dazzling effects of your magic. If it takes any damage or is forced to make another saving throw, the charm effect ends.</p>
+<p><strong>Terror.</strong> Choose one creature within 30 feet that can see you when you cast the spell. It must succeed on a Wisdom saving throw or become frightened of you until the end of its next turn. While frightened in this way, it starts its turn by using its full movement to get away from you in the most direct manner possible, avoiding obvious hazards along the way.</p>
+<p><strong>Brilliance.</strong> Choose one creature within 30 feet that can see you when you cast the spell. It must succeed on a Constitution saving throw or be blinded until the end of its next turn.</p>
+<p><strong>Warding.</strong> After casting the spell, until the start of your next turn, a creature who attempts to attack you must make a Wisdom saving throw. On a failure, it must choose a new target or waste its attack.</p>
+<hr>
+<h4 id="level-13-bestow-magics">Level 13 - Bestow Magics</h4>
+<p>At 13th level, your understanding of magic is so thorough that you can even grant it to others. You can spend 1 minute touching a willing creature and concentrating, spending a spell slot of 3rd-level or lower. When you do, choose a spell you have prepared of that level or lower.</p>
+<p>The creature can cast the spell using the slot you expended, following its normal rules for casting time, spell components, range, and concentration, but using your spellcasting ability modifier, spell attack modifier, and spell save DC.</p>
+<p>You can only have one spell imbued at a time, and if you bestow a spell upon a different creature the previous spell dissipates, its magic unspent and the spell slot used to imbue it expended.</p>
+<hr>
+<h4 id="level-15-arcane-defenses">Level 15 - Arcane Defenses</h4>
+<p>At 15th level, your training has granted you certain protections against magic. Choose one of the following:</p>
+<p><strong>Mental Discipline.</strong> Your mind is sheltered from intrusion. When you fail an Intelligence, Wisdom, or Charisma saving throw, you can choose to succeed instead. You can't do so again until you finish a short or long rest.</p>
+<p><strong>Mystic Mantle.</strong> Magic layers upon you into a defensive ward that you can extend to even protect your allies. Creatures within 10 feet of you have resistance to the damage of spells.</p>
+<p><strong>Superior Countermagic.</strong> You add <em>counterspell</em> and <em>dispel magic</em> to your spellbook if they weren't already there. In addition, when you cast one of these spells, treat the spell slot level of the spell as one level higher than the actual slot you spent. The slot you use to cast the spell must still be at least 3rd-level.</p>
+<hr>
+<h4 id="level-18-swift-signature">Level 18 - Swift Signature</h4>
+<p>At 18th level, you're especially efficient with your Signature Spells. When you cast a spell that has a casting time of 1 action using your Signature Spell feature, you can cast it as a bonus action instead.</p>
+<hr>
+<h4 id="level-20-archmage">Level 20 - Archmage</h4>
+<p>At 20th level, you have achieved a rare level of achievement and prestige, gaining the following features.</p>
+<p><strong>Arcane Mastery.</strong> You are an unparalleled master of arcane arts who bends reality itself to their will. You are considered to always have every spell in your Spellbook prepared.</p>
+<p><strong>Superior Signature.</strong> You can cast your signature spells twice without spending a spell slot instead of once. Once you have cast them twice in this way, you must finish a short or long rest before you can do so again.</p>
+</div>
+<div class="tabbed-block">
+<h4 id="air-lift">Air Lift</h4>
+<p>You can use an action to increase your vertical jump distance to 15 feet until the end of your turn. When you jump in this way, you can also glide with the updraft, allowing you to move 10 feet horizontally for every 5 feet you descend vertically.</p>
+<h4 id="detect-magic-savant">Detect Magic Savant</h4>
+<p><em>Prerequisites: Able to cast detect magic</em></p>
+<p>Whenever you cast <em>detect magic</em>, you can choose one of the following benefits to amplify the spell.</p>
+<ul>
+<li><strong>Lengthened Detect Magic.</strong> The duration of <em>detect magic</em> is increased by 10 minutes.</li>
+<li><strong>Extended Detect Magic.</strong> The detection radius of <em>detect magic</em> is increased by 30 feet.</li>
+<li><strong>Penetrating Detect Magic.</strong> The spell can penetrate most barriers, and it is only blocked by 2 feet of stone, 2 inches of common metal, a 1-inch sheet of lead, or 6 feet of wood or dirt.</li>
+</ul>
+<h4 id="illusion-detective">Illusion Detective</h4>
+<p><em>Prerequisites: At least one illusion spell in your spellbook</em></p>
+<p>You have advantage on Investigation checks and Intelligence saving throws made against illusion. When you succeed on an ability check or saving throw to see through an illusion, all allies within 30 feet of you gain advantage on checks to see through that illusion for the next minute.</p>
+<h4 id="loremaster-of-creatures">Loremaster of Creatures</h4>
+<p>You are well-studied on naturally occurring creatures of the world. When you choose this study, choose one creature type: beasts, constructs, dragons, elementals, fey, fiends, giants, oozes, plants, or undead. This creature type becomes your Loremaster Creature Specialty. When you encounter a creature of the same type as your Loremaster Creature Specialty, you automatically know any history, legends, or myths related to it. You have advantage on History checks to recall information, myths, and legends that are related to that creature.</p>
+<h4 id="loremaster-of-travel">Loremaster of Travel</h4>
+<p>You are well-travelled and well-studied. You have advantage on History checks to recall information relating to myths and legends that are location-based. In addition, when you arrive at a settlement for the first time, choose one of the following subjects: culture, etiquette, government, or populace. The Narrator will give you a useful fact about that subject. You can take an expertise die on ability checks related to that subject in this settlement.</p>
+<h4 id="persistent-mending">Persistent Mending</h4>
+<p><em>Prerequisites: The ability to cast mending</em></p>
+<p>When you finish a long rest, choose up to 6 creatures who rested with you, including yourself. Choose one piece of their equipment to enchant with a persistent mending effect. The chosen item instantly fixes itself if it becomes damaged. If you choose an item from the following list, it also grants an additional benefit. This effect lasts for 12 hours.</p>
+<ul>
+<li><strong>Coat.</strong> Choose either hot or cold weather. The creature gains advantage on Constitution saving throws made to resist the effect of that kind of weather.</li>
+<li><strong>Goggles.</strong> The creature's vision can never be reduced to less than 20 feet due to inclement weather.</li>
+<li><strong>Shoes.</strong> The creature gains advantage on Constitution saving throws made to undertake a forced march.</li>
+</ul>
+<h4 id="presto-prestidigitation">Presto, Prestidigitation!</h4>
+<p><em>Prerequisites: The ability to cast prestidigitation</em></p>
+<p>If you are not actively casting <em>prestidigitation</em> or concentrating on a spell, the magic of <em>prestidigitation</em> is always keeping you, your clothes, and your gear sparkling clean.</p>
+<p>The following effects are added to the list of options you can choose from when you cast <em>prestidigitation</em>.</p>
+<ul>
+<li>You transmute a small piece of string in your hands into a sturdy 30-foot long rope. For the duration, it functions as a regular hempen rope.</li>
+<li>Using the heads side of a coin like a lens, you can hold the coin over one of your closed eyes and see through it. While looking through the coin in this way, you gain darkvision to a range of 30 feet. The coin's darkvision effect ends when the spell ends.</li>
+<li>A pebble becomes a sensor that you can use to see through. For the duration as long as the pebble is within 10 feet, you can use an action to see whatever is within 30 feet of the pebble. While seeing through the pebble, you are blinded and deafened with regard to your own senses.</li>
+<li>On a piece of parchment or paper, you can create an exact copy of another piece of parchment or paper, including any writing, drawings, or other markings that appear on the original. The paper does not change size to accommodate any differences in size between the two. The copy you create lasts for the duration of this spell, and disappears when the spell ends.</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="school-of-aeromancy">School of Aeromancy</option>
+    <option value="school-of-black-powder">School of Black Powder</option>
+    <option value="cantrip-adept">Cantrip Adept</option>
+    <option value="school-of-chronomancy">School of Chronomancy</option>
+    <option value="courser-mage">Courser Mage</option>
+    <option value="school-of-cryomancy">School of Cryomancy</option>
+    <option value="school-of-the-fool">School of the Fool</option>
+    <option value="school-of-geomancy">School of Geomancy</option>
+    <option value="school-of-kinetomancy">School of Kinetomancy</option>
+    <option value="school-of-mistwalking">School of Mistwalking</option>
+    <option value="school-of-philosophy">School of Philosophy</option>
+    <option value="plague-doctor">Plague Doctor</option>
+    <option value="school-of-pyromancy">School of Pyromancy</option>
+    <option value="school-of-reconstruction">School of Reconstruction</option>
+    <option value="school-of-riddlemancy">School of Riddlemancy</option>
+    <option value="the-grey-guild">The Grey Guild</option>
+    <option value="theurgy">Theurgy</option>
+    <option value="warden">Warden</option>
+</select></p>
+<div class="subclass-content" data-subclass="school-of-aeromancy">
+<h2 id="school-of-aeromancy"><ins>School of Aeromancy</ins></h2>
+<p>For the wizard, the element of air is a mystery to be unraveled. It is wild and chaotic, but bends to its own set of rules. It can be more malleable than water, more forceful than earth, and more unpredictable than fire, and its natural abundance makes research a breeze. Aeromancers are the wizards who dedicate their arcane pursuits to the full understanding of the air element.</p>
+<h3 id="level-2-gust">Level 2 - Gust</h3>
+<p>You learn the <em>gust</em> cantrip if you didn't have it already, and it does not count against the number of cantrips you know.</p>
+<hr>
+<h3 id="level-2-create-zephyr">Level 2 - Create Zephyr</h3>
+<p>You can use your mastery over elemental air to create a 5-foot sphere of swirling wind called a zephyr. Creating a zephyr is an action, and you can create it in any unoccupied space within 30 feet.</p>
+<p>A zephyr has an effective Strength score equal to your Intelligence and it can be used to push objects as if it were a creature. You can move the zephyr on your turn as a bonus action up to 30 feet, with a maximum range of 100 feet from your position. The zephyr lasts for as long as you are concentrating, up to 1 minute.</p>
+<p>You can also use the zephyr to strike Medium or smaller creatures by moving it into an occupied space. The zephyr ceases moving for the round and the target must make a Strength saving throw against your spell save DC. On a failure, you can choose to either knock the target prone or push the target up to 10 feet away.</p>
+<p>You must complete a long rest before you can use this feature again.</p>
+<hr>
+<h3 id="level-6-improved-flight">Level 6 - Improved Flight</h3>
+<p>You add the <em>fly</em> spell to your spellbook if it is not there already. When you cast <em>fly</em> it is considered to be using a spell slot one higher than the actual spell slot you are using, allowing you to target more willing creatures. In addition, targets affected by your <em>fly</em> have the following additional benefits:</p>
+<ul>
+<li>Advantage on Dexterity saving throws while flying.</li>
+<li>Gain the benefit of the <em>feather fall</em> spell once the <em>fly</em> spell ends if they are not on the ground.</li>
+</ul>
+<p>You can also cast <em>fly</em> without expending a spell slot (it counts as a 3rd-level spell slot for the purposes of this feature). You must complete a long rest before you can do so again.</p>
+<hr>
+<h3 id="level-10-controller-of-winds">Level 10 - Controller of Winds</h3>
+<p>You add the <em>control winds</em> spell to your spellbook if it is not there already. When you cast control winds you can switch between effects as a bonus action rather than an action. You can move the area of effect as an action up to 30 feet in any direction.</p>
+<p>You can also cast the <em>control winds</em> spell without using a spell slot. You must complete a long rest before you can do so again.</p>
+<hr>
+<h3 id="level-14-greater-zephyr">Level 14 - Greater Zephyr</h3>
+<p>You learn to create bigger and more effective zephyrs from the air around you. Zephyrs you create using the Create Zephyr feature are now 10-foot diameter spheres, and you can move them up to 40 feet per round as a bonus action.</p>
+<p>The greater zephyr can affect Large or smaller targets, and when it moves into a creature's space, you can choose one of the following effects to occur:</p>
+<ul>
+<li><strong>Restrain.</strong> The greater zephyr ceases all movement for the round and the target must make a Strength saving throw against your spell save DC. On a failure, the target is restrained. Restrained targets move with the greater zephyr, and there can be a maximum of 1 Large target or 4 Medium or Small targets in the greater zephyr. At the end of the restrained target's turn it can attempt a Strength saving throw against your spell save DC to escape. On a success, they enter an unoccupied adjacent space.</li>
+<li><strong>Knock Down.</strong> The target is knocked prone. The greater zephyr can continue moving, but the only effect it can perform for the rest of the round is Knock Down.</li>
+<li><strong>Defenestrate.</strong> The greater zephyr ceases all movement for the round and the Large or smaller target must make a Strength saving throw against your spell save DC. On a failure, the target is hurled 50 feet into the air and then comes back down, suffering 5d6 bludgeoning damage from the fall. If the target encounters a solid surface before reaching the 50 feet in height, it suffers 1d6 bludgeoning damage per 10 feet difference.</li>
+<li><strong>Push Back.</strong> The greater zephyr ceases all movement for the round and the Large or smaller target must make a Strength saving throw against your spell save DC. On a failure, the target is pushed back up to 20 feet and knocked prone.</li>
+</ul>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-black-powder">
+<h2 id="school-of-black-powder"><ins>School of Black Powder</ins></h2>
+<p>The school of black powder bridges magic and technology. Wizards of this school form a magical bond with a firearm, allowing them to channel their magic through the weapon to enhance its effects. Students go beyond simple offensive magics, using their black powder magic to great utility in aiding allies and hindering foes. Practitioners of this school refer to themselves as powdermancers.</p>
+<h3 id="level-2-gun-savant">Level 2 - Gun Savant</h3>
+<p>When you select this school at 2nd level, you gain proficiency with simple firearms and with the musket. When attacking with firearms, you can use your Intelligence modifier, instead of Dexterity, for the attack and damage rolls. You can use a firearm as a spellcasting focus. In addition, you gain proficiency with alchemist's supplies or gunsmith's tools (your choice).</p>
+<hr>
+<h3 id="level-2-arcane-arms">Level 2 - Arcane Arms</h3>
+<p>Starting at 2nd level, you can imbue your firearm with arcane power to create minor magical effects. As an action, you can invoke one of the following effects, provided you have a gun in your hand. The effects created by this feature don't cause the firearm to release an audible boom, but other attacks or effects from your firearm still create the sound. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p>
+<ul>
+<li><strong>Arcane Dusting.</strong> You shoot a 15-foot cone of magical dust from the barrel of your firearm. Each creature or object in the area that is currently being affected by a spell, such as mage armor, or that is magical glows until the end of your next turn, shedding dim light in a 5-foot radius.</li>
+<li><strong>Flare.</strong> You fire a bright ball of magical light from the barrel of your firearm. If fired into the air, the ball rises to a maximum height of 100 feet, hovers until the end of your next turn, then falls slowly, reaching the ground by the end of the next round. The flare can be seen up to 1 mile away in daylight or up to 5 miles in darkness. Alternatively, the flare can be fired up to 50 feet away in any other direction. Each creature within 5 feet of the path of the flare must succeed on a Dexterity saving throw against your spell save DC or have disadvantage on Wisdom (Perception) checks that rely on sight for 1 minute.</li>
+<li><strong>Lockbuster.</strong> You fire a magical shot from your firearm at a lock within the weapon's normal range. Make an attack roll with the firearm. If the result is equal to or exceeds the DC required to pick the lock, your shot destroys the lock. You have advantage on this attack roll if the lock is protected by magic, such as the arcane lock spell.</li>
+<li><strong>Smokescreen.</strong> A cloud of smoke billows from your firearm, creating a 10-foot-radius sphere of smoke centered on you. The sphere spreads around corners, and its area is heavily obscured. The cloud lasts until the end of your next turn or until a wind of moderate or greater speed disperses it. When you reach 6th level, the sphere's radius increases to 20 feet.</li>
+<li><strong>Starter's Gun.</strong> You discharge your firearm into the air. Each friendly creature of your choice within 30 feet of you has its speed increased by 10 feet until the start of your next turn. When you reach 10th level, each affected creature can also Dash as a bonus action on its turn.</li>
+<li><strong>Tracer Shot.</strong> You fire a ball of light at a creature you can see within 60 feet of you. Make a ranged attack with your firearm. On a hit, the attack deals damage as normal, and the target is outlined in light, as if affected by the faerie fire spell, until the start of your next turn. When you reach 10th level, the target is outlined in light for 1 minute.</li>
+</ul>
+<hr>
+<h3 id="level-6-spell-shot">Level 6 - Spell Shot</h3>
+<p>Starting at 6th level, when you cast a spell that requires a melee spell attack roll, you can instead project the spell through your firearm, using the firearm's normal range as the range of the spell. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</p>
+<p>In addition, your attacks with a firearm count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+<hr>
+<h3 id="level-10-improved-arcane-arms">Level 10 - Improved Arcane Arms</h3>
+<p>At 10th level, you are able to imbue your firearm with more powerful magical effects. When you use your Arcane Arms feature, you can choose one of the following effects instead. In addition, you can expend a spell slot of 2nd level or higher to regain a number of expended uses of your Arcane Arms feature equal to half the level of the spell slot.</p>
+<ul>
+<li><strong>False Shot.</strong> You fire an illusionary shot at a target within 30 feet. The target must make a Wisdom saving throw against your spell save DC. On a failed save, the target is paralyzed with fear until the start of your next turn. On a successful save, the target is frightened of you until the start of your next turn.</li>
+<li><strong>Invigorating Burst.</strong> You discharge your firearm into the air, dispersing a magical dust that settles around you. Each creature of your choice within 20 feet of you, including yourself, gains 2d4 temporary hit points for 1 hour.</li>
+<li><strong>Shot in the Arm.</strong> As a bonus action, you can fire a crackling bolt of energy from your firearm at a friendly creature you can see within 60 feet of you. If the target is suffering from exhaustion, its level of exhaustion is reduced by 1. If not, the target gains 5 temporary hit points for 1 hour and has advantage on its next ability check, attack roll, or saving throw.</li>
+<li><strong>Warning Shot.</strong> You fire a shot into the air, producing a magically enhanced, thunderous boom. Each creature of your choice that you can see within 30 feet of you becomes indifferent about creatures of your choice that it is hostile toward. This indifference lasts for 1 minute. It ends early if an affected target is attacked, is harmed by a spell, witnesses any of its allies being harmed, or if you use your firearm to invoke another Arcane Arms effect before the duration ends.</li>
+</ul>
+<hr>
+<h3 id="level-14-hand-cannon">Level 14 - Hand Cannon</h3>
+<p>At 14th level, when you make a ranged attack roll with a firearm, you can expend a spell slot of 1st level or higher to imbue the firearm with great arcane power. If you do, you gain a bonus on the attack roll equal to the spell's level. If you hit the target, the force of the shot continues in a 30-foot line that is 5 feet wide directly away from you and originating from the target. Each creature in that line must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes 2d6 force damage for each slot level of the spell expended. On a successful save, a creature takes half as much damage.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="cantrip-adept">
+<h2 id="cantrip-adept"><ins>Cantrip Adept</ins></h2>
+<p>It's easy to dismiss the humble cantrip as nothing more than an unsophisticated spell practiced by hedge wizards that proper mages need not focus on. But clever and cautious wizards sometimes specialize in such spells because while other mages fret when they're depleted of arcane resources, Cantrip Adepts hardly even notice.</p>
+<h3 id="level-2-cantrip-polymath">Level 2 - Cantrip Polymath</h3>
+<p>At 2nd level, you gain two cantrips of your choice from any spell list. For you, these cantrips count as wizard cantrips and don't count against the number of cantrips you know. In addition, any cantrip you learn or can cast from any other source, such as from a racial trait or feat, counts as a wizard cantrip for you.</p>
+<hr>
+<h3 id="level-2-arcane-alacrity">Level 2 - Arcane Alacrity</h3>
+<p>Also at 2nd level, whenever you cast a wizard cantrip that has a casting time of an action, you can change the casting time to a bonus action for that casting. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>
+<p>When you reach 10th level in this class, you regain all expended uses of this feature when you finish a short or long rest.</p>
+<hr>
+<h3 id="level-6-potent-spellcasting">Level 6 - Potent Spellcasting</h3>
+<p>Starting at 6th level, you can add your Intelligence modifier to one damage roll of any wizard cantrip you can cast.</p>
+<hr>
+<h3 id="level-10-adroit-caster">Level 10 - Adroit Caster</h3>
+<p>Starting at 10th level, if you cast a cantrip that doesn't deal damage or a cantrip that has an effect in addition to damage, such as the speed reduction of the <em>ray of frost</em> spell, that cantrip or effect has twice the normal duration.</p>
+<hr>
+<h3 id="level-14-empowered-cantrips">Level 14 - Empowered Cantrips</h3>
+<p>Starting at 14th level, once per turn, when you cast a wizard cantrip that deals damage, you can deal maximum damage with that spell.</p>
+<p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-chronomancy">
+<h2 id="school-of-chronomancy"><ins>School of Chronomancy</ins></h2>
+<p>If time is a river, then it can be tamed, or so believe the wizards of the school of Chronomancy. Members of this school seek to master one of the most dangerous and mysterious forces in reality: time. Their research transcends the petty manipulations of mere transmutation. Chronomancers seek to peel back the veil of time with their magic, dissecting it into usable elements they can safely wield.</p>
+<h3 id="level-2-temporal-magic">Level 2 - Temporal Magic</h3>
+<p>Beginning when you select this school at 2nd level, when you cast a wizard spell or archmage Epic spell with a duration of 1 minute or greater, you can expend a spell slot of the same level used to cast the spell to increase the duration, up to a maximum of 16 hours.</p>
+<hr>
+<h3 id="level-2-time-freeze">Level 2 - Time Freeze</h3>
+<p>Starting at 2nd level when you choose this school, you can freeze time in short bursts. As a bonus action on each of your turns, you can stop the flow of time for everyone but yourself. No time passes for other creatures while you take an additional turn immediately after your current one ends, during which time you use actions and move as normal. This effect ends early if one of the actions you use or any effects you create during this period affect another creature or an object being worn or carried by someone else. Additionally, immediately after the effect ends, you gain 1 level of exhaustion. You can use this feature a number of times equal to your Intelligence modifier, regaining all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-6-touch-of-aeons">Level 6 - Touch of Aeons</h3>
+<p>At 6th level, as an action you can touch an unattended object or structure and expend a wizard spell slot. When you do so, the target is magically aged 50 years if you expended a 4th or lower level spell slot, or 100 years if you expended a 5th level or higher spell slot. If you expend an Epic spell slot, the target is instead aged a number of years of your choice.</p>
+<hr>
+<h3 id="level-10-chronology">Level 10 - Chronology</h3>
+<p>At 10th level, when you roll for initiative and at the start of each round of combat, you can choose to have your turn occur on an initiative count of your choice, to a maximum of your highest possible initiative roll.</p>
+<hr>
+<h3 id="level-14-fast-forward">Level 14 - Fast Forward</h3>
+<p>At 14th level, you can move your body forward in time to restore your health. As an action, you can throw yourself or a friendly creature you can see within 60 ft. forward in time, immediately granting the target the benefits as though they had finished a short rest. Additionally, 1 hour of time instantly passes for the target and for any effects currently affecting the target (such as spell effects with a duration). Once you have used this feature, you must finish a long rest before you can use it again.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="courser-mage">
+<h2 id="courser-mage"><ins>Courser Mage</ins></h2>
+<p>A tradition more focused on stalking prey than reading dozens of books, courser mages generally choose more subtle spells that aid in finding or hiding from their enemies. They learn to imbue their arrows with spell energy to deliver more deadly shots.</p>
+<h3 id="level-2-stalking-savant">Level 2 - Stalking Savant</h3>
+<p>At 2nd level, you gain proficiency with longbows and shortbows, and you gain proficiency in the Stealth skill. In addition, you can still perform the somatic components of wizard spells even when you have a longbow or shortbow in one or both hands.</p>
+<hr>
+<h3 id="level-2-unseen-assailant">Level 2 - Unseen Assailant</h3>
+<p>Starting at 2nd level, as a bonus action, you can choose a target you can see within 60 feet of you and become invisible to that target until the start of your next turn. Once the effect ends, you can't use this feature on that target again until you finish a short or a long rest.</p>
+<hr>
+<h3 id="level-6-spell-arrow">Level 6 - Spell Arrow</h3>
+<p>Beginning at 6th level, you can imbue an arrow you fire from a longbow or shortbow with magical energy. As a bonus action, when you hit a creature with a ranged weapon attack using a longbow or a shortbow, you can expend a 1st-level spell slot to deal an extra 2d6 force damage to the target. If you expend a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</p>
+<hr>
+<h3 id="level-10-pinpoint-weakness">Level 10 - Pinpoint Weakness</h3>
+<p>At 10th level, when you hit a creature with an arrow imbued by your Spell Arrow feature, your next ranged weapon attack against that creature has advantage.</p>
+<hr>
+<h3 id="level-14-multitudinous-arrows">Level 14 - Multitudinous Arrows</h3>
+<p>Starting at 14th level, you can attack twice, instead of once, whenever you take the Attack action with a longbow or shortbow on your turn. If you use your Spell Arrow feature, you can imbue both arrows with arcane power by expending one spell slot. If you imbue two arrows with this feature, you can't cast spells other than cantrips until the end of your next turn.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-cryomancy">
+<h2 id="school-of-cryomancy"><ins>School of Cryomancy</ins></h2>
+<p>In the frozen north, wizards learn to harness the power of the world around them — snow, frost, ice, and cold. They manipulate these elements, learn to control them and bend them to their wills, but in doing so many of them lose touch with the world itself. The more powerful cryomancers grow distant and remote, shuttering themselves away in frozen towers and keeping the years at bay through constant study and focus on their art.</p>
+<h3 id="level-2-frozen-magic">Level 2 - Frozen Magic</h3>
+<p>Wizards who specialize in cryomancy learn to weave the power of frost and cold into all of their spells. Spells you cast ignore resistance to cold damage.</p>
+<p>In addition, whenever a creature is damaged by a spell you cast that deals cold damage or fails a saving throw against a spell you cast, you can choose to imbue the spell with a burst of cold energy. The creature's walking speed is reduced by 10 feet until the start of your next turn. Creatures immune to cold are immune to this ability.</p>
+<hr>
+<h3 id="level-6-ice-skin">Level 6 - Ice Skin</h3>
+<p>You have worked with cryomantic power long enough to be physically affected by its numbing powers. You have resistance to cold damage.</p>
+<hr>
+<h3 id="level-10-piercing-cold">Level 10 - Piercing Cold</h3>
+<p>You learn to tap into a source of unbelievably powerful cryomantic magic. Spells you cast that deal cold damage ignore cold immunity.</p>
+<p>In addition, when you roll damage for a spell you cast that deals cold damage, you add +1 to each die.</p>
+<hr>
+<h3 id="level-14-cryomancy-master">Level 14 - Cryomancy Master</h3>
+<p>You can increase the potency of your cryomancy spells. When you cast a spell that deals cold damage, you can impose disadvantage on a single target's saving throw affected by the spell. You can use this ability a number of times equal to your Intelligence modifier. You regain all spent uses after a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-the-fool">
+<h2 id="school-of-the-fool"><ins>School of the Fool</ins></h2>
+<p>Reality is but a concept we create for ourselves, based on our own perception of the world. Various Wizards have yearned to define what is true and what is false regarding the veiled mysteries of the universe, to a point where they deemed such a task to be futile. Others went mad, no longer able to tell the difference between the truth and a mere illusion of it. Rather than trying to determine reality itself, those arcanists have indulged themselves with the creation of alternate realities, studying the very methods that are capable of fooling the mortal senses.</p>
+<h3 id="level-2-flickering-image">Level 2 - Flickering Image</h3>
+<p>Starting at 2nd level, whenever you tap into the Weave, you can form an illusory visage of yourself to distract and confuse your foes. Whenever you cast a spell on your turn that is not a cantrip, you create a mirror image of yourself that functions as having a single active mirror image through means of the <em>mirror image</em> spell. You cannot have more than 3 active mirror images at a time, by any means.</p>
+<hr>
+<h3 id="level-6-wits-end">Level 6 - Wit's End</h3>
+<p>Starting at 6th level, upon targeting a creature with a spell attack, you can use your bonus action to force that creature to make a Wisdom saving throw against your spellcasting DC. On a failed save it suffers one of the following effects.</p>
+<ul>
+<li>The creature thinks it is surrounded by enemies and makes a melee weapon attack against a creature of your choice within its reach.</li>
+<li>The creature thinks all of its enemies have stopped fighting and lowers its guard. Its AC is reduced by a number equal to your Intelligence modifier until it is successfully hit by an attack or a spell.</li>
+<li>The creature stops perceiving the presence of another creature of your choice until that creature moves, attacks or forces another creature to make a saving throw.</li>
+<li>The creature suffers an attack on its mind. The next time the creature makes a Wisdom, Charisma or Intelligence saving throw (your choice upon deciding the effect) it does so with disadvantage.</li>
+</ul>
+<p>You can use this feature for a number of times equal to your Intelligence modifier before completing a long rest.</p>
+<hr>
+<h3 id="level-10-jack-in-a-box">Level 10 - Jack in a Box</h3>
+<p>Starting at level 10, you can attune yourself to a small, mundane box through a ritual that lasts 10 minutes, causing it to become magical for as long as you remain in attunement to it.</p>
+<p>The box's dimensions must be no more than 1 foot long and 1 foot wide, and it may weigh no more than 2 pounds. You can spend an action to store any spell that you are capable of casting within the box. The spell remains stored until expended, or until you choose to store a different spell. For as long as a spell is stored within the box, your available spells per day are decreased in the appropriate manner, as if you have already cast that spell.</p>
+<p>A stored spell becomes triggered in one of two different ways; either by spending a bonus action, or by having a creature to open the box. The spell's effect is always centered at the box's location and the box itself remains unaffected by any damage it may cause to its surroundings.</p>
+<hr>
+<h3 id="level-14-theater-of-ploy">Level 14 - Theater of Ploy</h3>
+<p>At level 14, for every mirror image of yours that is active, you gain a bonus +1 to your spellcasting DC when casting spells that belong to the school of illusion.</p>
+<p>In addition, upon casting a spell while having at least one active mirror image, you can make a Charisma (Deception) check against all creatures that can perceive you casting it. On a success, your spell cannot be counterspelled.</p>
+<p>If it is a spell that belongs to the school of illusion, any Intelligence (Investigation) checks made by other creatures to see through it are made with disadvantage.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-geomancy">
+<h2 id="school-of-geomancy"><ins>School of Geomancy</ins></h2>
+<p>Geomancers are wizards who study and learn to control the powers of elemental earth. They tend towards solitude, living in caves or deep below ground, surrounded by the comforts of stones and rocks. They are skilled at manipulating earth to do their bidding, including creating powerful sand storms and tremors to knock opponents off of their feet.</p>
+<h3 id="level-2-mold-earth">Level 2 - Mold Earth</h3>
+<p>You learn the <em>mold earth</em> cantrip if you didn't have it already, and it does not count against the number of cantrips you know.</p>
+<hr>
+<h3 id="level-2-disturb-earth">Level 2 - Disturb Earth</h3>
+<p>You gain the ability to disrupt earth and stone enough to make it difficult for people to travel on. As an action, you can choose a 30-foot square location within 120 feet that you can see made up of earthen or stone materials (natural or worked, it doesn't matter). The ground in the chosen area becomes difficult terrain. This effect lasts for 1 hour.</p>
+<p>You must complete a long rest before you can use this feature again.</p>
+<hr>
+<h3 id="level-6-improved-sand-wall">Level 6 - Improved Sand Wall</h3>
+<p>You add the <em>wall of sand</em> spell to your spellbook if it is not there already. When you cast <em>wall of sand</em>, you are immune to the effects of the wall while inside of it. In addition, you can choose one of the following additional effects to occur when you cast it:</p>
+<ul>
+<li>Creatures that start their turn inside the wall's space suffer 1d8 piercing damage from the shredding sand.</li>
+<li>You double the length, height, or thickness of your wall for the duration.</li>
+<li>You can change the shape of the spell to form a 20-foot radius cylinder, 20 feet high, centered on a point you choose within the spell's range.</li>
+</ul>
+<hr>
+<h3 id="level-10-tremor">Level 10 - Tremor</h3>
+<p>You learn to create vibrations in earth and rocks to localize small tremors. As a bonus action, you choose a point on the ground in sight within 60 feet. The ground begins to tremble violently in a 10-foot square centered on that point and any creature standing in the area must make a Strength saving throw against your spell save DC or fall prone. Concentrating creatures must make a concentration check against your spell save DC or lose their concentration. This tremor has a duration of instantaneous.</p>
+<p>You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses after you finish a long rest.</p>
+<hr>
+<h3 id="level-14-earth-shaper">Level 14 - Earth Shaper</h3>
+<p>You have learned to manipulate the earth quickly and decisively. You add the <em>move earth</em> spell to your spellbook if it is not there already. When you cast the <em>move earth</em> spell, the spell has the following changes and features:</p>
+<ul>
+<li>Changes to dirt, sand, or clay take 1 minute to complete rather than 10 minutes.</li>
+<li>You can change natural stone using the spell using the same restrictions as dirt, sand, or clay, but such changes require 1 hour to complete.</li>
+<li>You can trap creatures standing in dirt, sand, clay, or natural stone by making a sudden change to the area. Every creature standing in the affected area must make a Strength saving throw or be restrained. Using this ability immediately ends the spell but creatures stuck are restrained until they break themselves free using an action and a successful Strength saving throw.</li>
+</ul>
+<p>In addition, you can cast the <em>move earth</em> spell without expending a spell slot. You must complete a short rest before you can do so again.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-kinetomancy">
+<h2 id="school-of-kinetomancy"><ins>School of Kinetomancy</ins></h2>
+<p>Kinetomancers are a branch of wizards that focus on the dynamics of magic when it is pulled into existence. They study its physical consequences, how it pushes and pulls the area around it, and how to account for the sudden influx of forces upon casting it. Kinetic-focused magic comes with the potential to push reality beyond what's written in any spellbook, given the right calculations and timing.</p>
+<h3 id="level-2-kickback">Level 2 - Kickback</h3>
+<p>At 2nd level, you learn to amplify the influx of kinetic energy your magic creates. If you successfully hit a Large or smaller target with a spell attack, you can choose to push it up to 5 feet away from you. This movement does not provoke opportunity attacks.</p>
+<p>The kickback distance increases to 10 feet and can affect Huge or smaller targets when you reach 10th level. At 14th level, the kickback distance increases to 15 feet, and you can affect Gargantuan or smaller targets.</p>
+<hr>
+<h3 id="level-6-arcane-momentum">Level 6 - Arcane Momentum</h3>
+<p>By 6th level, you can tap into the energy of a spell in motion and redirect it before it dissipates. Whenever you fail to hit a creature with a ranged spell attack, you can use your reaction to attempt to redirect the spell toward a different target you can see within 30 feet of the original target. You must make a new spell attack roll for the new target.</p>
+<p>You can use this feature a number of times equal to your proficiency bonus. You regain uses of this feature when you complete a long rest.</p>
+<hr>
+<h3 id="level-10-reactive-force">Level 10 - Reactive Force</h3>
+<p>At 10th level, energy directed toward you can be collected and sent back in kind. Whenever a creature hits you with an attack, all creatures of your choice within 5 feet of you take 2d8 force damage.</p>
+<hr>
+<h3 id="level-14-kinetic-transfer">Level 14 - Kinetic Transfer</h3>
+<p>At 14th level, when you successfully hit a creature with a ranged spell attack, you can forgo your kickback to slam them with the full force of the spell's potential energy. Make an ability check with your spellcasting ability contested by the creature's Strength check.</p>
+<p>If you win the contest, you move the creature in a single direction up to a number of feet equal to the spell range minus the distance between you and the target. The target takes 1d6 force damage for every 10 feet it is pushed in this way, to a maximum of 20d6. If you lose the contest, the creature is moved half that distance and does not take force damage.</p>
+<p>Once you use this feature, you can't use it again until you finish a short or a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-mistwalking">
+<h2 id="school-of-mistwalking"><ins>School of Mistwalking</ins></h2>
+<p>Somewhere in the northern seas, there is an island shrouded in mists. Few ships find safety there, but those who have seen it and returned speak of a tower that is the source of the mist, called the Pernicious Citadel. An order of renegade wizards lives around the tower, studying its secrets and contending with its dangers. They practice magic that draws on these mists, confusing their enemies with illusions and enchantments.</p>
+<h3 id="level-2-mist-cloak">Level 2 - Mist-Cloak</h3>
+<p>Starting at 2nd level, you can draw a cloak of mist around yourself as a bonus action, as long as you don't already have one. The cloak lasts for 1 minute or until you choose to disperse it. While you have a cloak of mist, you gain advantage on Dexterity (Stealth) checks. You can create a cloak of mist in this way a number of times equal to your Intelligence modifier, and regain all expended uses when you finish a long rest.</p>
+<p>You can also draw a cloak of mist around yourself when you cast a spell of 1st level or higher from the schools of conjuration, enchantment, or illusion, if you don't already have one.</p>
+<hr>
+<h3 id="level-2-student-of-the-pernicious-citadel">Level 2 - Student of the Pernicious Citadel</h3>
+<p>Also at 2nd level, fog, mist, and smoke don't hinder your perception. You gain proficiency in the Stealth skill, if you don't already have it.</p>
+<p>You add the <em>fog cloud</em> spell to your spellbook if it is not there already. You can cast it once without expending a spell slot, and regain the ability to do so when you finish a long rest.</p>
+<hr>
+<h3 id="level-6-mistwalking">Level 6 - Mistwalking</h3>
+<p>Beginning at 6th level, when you are in an area that is lightly or heavily obscured by fog, mist, or smoke, and you have a cloak of mist, you can spend a bonus action to disperse your cloak of mist and teleport to any other space within 60 feet that is obscured by fog, mist, or smoke.</p>
+<p>Furthermore, you add the <em>gaseous form</em> spell to your spellbook if it is not there already, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</p>
+<hr>
+<h3 id="level-10-confounding-mist">Level 10 - Confounding Mist</h3>
+<p>Starting at 10th level, when a creature you can see makes an attack against you, you can use your reaction to disperse your cloak of mist, adding your proficiency bonus to your Armor Class against the triggering attack. You can choose to use this feature after the creature makes its roll, but before the GM determines whether the attack roll succeeds or fails. You can't use this feature if you are within the creature's area of blindsight or truesight.</p>
+<hr>
+<h3 id="level-14-out-of-the-gray">Level 14 - Out of the Gray</h3>
+<p>Beginning at 14th level, when you use your Confounding Mist and a creature misses you with its attack, you can also cast <em>confusion</em> or <em>phantasmal killer</em> as part of that reaction. Your spell only affects the triggering creature.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-philosophy">
+<h2 id="school-of-philosophy"><ins>School of Philosophy</ins></h2>
+<p>As a member of the School of Philosophy you are as much a theorist as you are a practitioner of arcane arts. A student of magic, you do not focus on a single school but seek to use logic and methodology to explore all mystical secrets. Other schools denounce the rhetoric of these so-called philosophers, often faulting them for sharing the esoteric teachings that most seek to keep to themselves.</p>
+<h3 id="level-2-masters-teachings">Level 2 - Master's Teachings</h3>
+<p>When you choose this school at 2nd level, you replace your spellbook with a magical scroll. The scroll acts as an arcane focus. When you prepare your spells each day, you can prepare an additional number of spells equal to your Intelligence modifier (minimum 1).</p>
+<hr>
+<h3 id="level-6-philosophers-rebuke">Level 6 - Philosopher's Rebuke</h3>
+<p>Starting at 6th level, your mastery of magical discourse allows you to efficiently counter hostile magic. Whenever you use <em>dispel magic</em> or <em>counterspell</em> to successfully end a spell, you regain one expended spell slot. The slot you regain must be of a lower level than the spell you cast and can't be higher than 5th level.</p>
+<hr>
+<h3 id="level-10-arcane-symposium">Level 10 - Arcane Symposium</h3>
+<p>Beginning at 10th level you gain the ability to share your arcane teachings with others. When you prepare a 1st level wizard spell during a long rest, you may choose a number of willing creatures who can hear and understand you, up to your Intelligence modifier (minimum 1). These creatures gain the ability to cast this spell once at its lowest level without expending a spell slot and requiring no material components. Intelligence is the spellcasting ability for spells cast in this way. Creatures lose the ability to cast the spell in this way 8 hours after the spell is prepared.</p>
+<hr>
+<h3 id="level-14-greatest-creation">Level 14 - Greatest Creation</h3>
+<p>By 14th level your scroll has become a masterwork of arcane philosophy. You gain the ability to cast a spell of 3rd level or lower with a casting time of one action as if it were your highest level spell slot. Casting a spell in this way does not expend a spell slot. You must complete a long rest before you can use this feature again.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="plague-doctor">
+<h2 id="plague-doctor"><ins>Plague Doctor</ins></h2>
+<p>Blending spellcasting with science, you distill your magic into concoctions that harm or heal. Plague Doctors often wear grotesque masks protecting them from toxic ingredients. Many regard the mask with fear as a sign of pestilence, making Plague Doctors a source of both hope and trepidation.</p>
+<h3 id="level-2-potion-craft">Level 2 - Potion Craft</h3>
+<p>Beginning when you select this arcane tradition at 2nd level, you gain proficiency in Medicine and with alchemist's supplies and herbalism kits.</p>
+<p>Additionally, you have learned to create magical concoctions. You can create any number of concoctions using your alchemist's supplies or herbalism kit for 10 minutes, expending a spell slot for each concoction created. When you do, for each concoction created, choose a spell from your wizard's spell book that targets only one creature. The chosen spell must be of an equal or lower level than the expended spell slot.</p>
+<p>When a creature consumes the concoction, it becomes the target of the spell as if you had just cast it. If the spell requires concentration, the creature that consumes the potion needs to concentrate on it. Concoctions created this way lose their magical effect at the end of your next long rest.</p>
+<hr>
+<h3 id="level-2-good-medicine">Level 2 - Good Medicine</h3>
+<p>Also at 2nd level, when you craft a concoction, you can choose to expend a spell slot without choosing a spell, instead creating good medicine. When a creature consumes your good medicine, you roll 1d8 per level of the spell slot expended casting the spell, and the creature regains an equal number of hit points. If you expended a spell slot of 3rd level or higher, you also end all diseases afflicting the creature.</p>
+<hr>
+<h3 id="level-6-bad-medicine">Level 6 - Bad Medicine</h3>
+<p>Starting at 6th level, when you craft a concoction you can choose to expend a spell slot without choosing a spell, instead crafting bad medicine. When you create a dose of bad medicine, choose one effect per level of spell slot expended:</p>
+<ul>
+<li>The creature is poisoned.</li>
+<li>The creature's movement speeds are halved.</li>
+<li>The creature takes an additional 1d4 necrotic damage the first time it takes damage each turn.</li>
+<li>The creature takes 1d6 poison damage each time it takes an action, bonus action, or reaction on a turn.</li>
+<li>The creature takes acid damage equal to the level of the spell slot expended at the start of each of its turns.</li>
+</ul>
+<p>As an action, you can hurl a dose of bad medicine at a point you can see within 30 feet. Creatures within 10 feet of that point must make a Constitution saving throw against your wizard spell save DC. On a failure, the creature suffers all of the chosen effects for the next minute. The affected creature can attempt another Constitution saving throw as an action to end any effects early.</p>
+<hr>
+<h3 id="level-10-breathe-it-in">Level 10 - Breathe It In</h3>
+<p>Beginning at 10th level, being persistently exposed to the most deadly ailments known has given you some small measure of resistance to them. After you take necrotic or poison damage, you gain temporary hit points equal to the damage. In addition, you are immune to disease and have advantage on saving throws against being poisoned.</p>
+<hr>
+<h3 id="level-14-medicinal-master">Level 14 - Medicinal Master</h3>
+<p>Starting at 14th level, when you heal with your Good Medicine or deal damage with your Bad Medicine, roll an additional 2d8 to determine the amount of hit points regained or necrotic damage dealt.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-pyromancy">
+<h2 id="school-of-pyromancy"><ins>School of Pyromancy</ins></h2>
+<p>As a pyromancer, you focus your energy on the element of fire. This versatile element is more than just a source of damage — it can be used to heal, illuminate, and create. You can often be mistaken for a simple evoker who harnesses fire energy for purely destructive purposes, but there is so much more to the element of fire that people don't understand.</p>
+<h3 id="level-2-produce-flame">Level 2 - Produce Flame</h3>
+<p>You learn the <em>produce flame</em> cantrip if you didn't have it already, and it does not count against the number of cantrips you know.</p>
+<hr>
+<h3 id="level-2-pyrotechnics">Level 2 - Pyrotechnics</h3>
+<p>You can utilize your knowledge of elemental fire to manipulate an existing flame. You can use a bonus action to create an effect that mimics the <em>pyrotechnics</em> spell. This does not count as casting a spell. The spell save DC for the effect is the same as your spellcasting spell save DC.</p>
+<p>You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses after you finish a long rest.</p>
+<hr>
+<h3 id="level-6-ignite-embers">Level 6 - Ignite Embers</h3>
+<p>You can cause embers from a previous fire to flare to life, damaging an opponent. You can use your reaction to target a creature within 60 feet that has suffered fire damage since the start of your last turn.</p>
+<p>The remnants of that fire damage ignite, dealing fire damage equal to your Intelligence modifier. You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-10-potent-flames">Level 10 - Potent Flames</h3>
+<p>You learn to tap into the primal power of the Plane of Fire with your spells. When you cast a spell that deals fire damage, targets who are immune to fire are instead resistant to fire. If a target was resistant to fire originally, they now suffer full damage from your fire spells.</p>
+<hr>
+<h3 id="level-14-shield-of-fire">Level 14 - Shield of Fire</h3>
+<p>You are able to quickly summon fire to protect you. You can use your reaction to cast the warm version of the <em>fire shield</em> spell. This does not use up a spell slot but otherwise functions as the spell.</p>
+<p>You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses after you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-reconstruction">
+<h2 id="school-of-reconstruction"><ins>School of Reconstruction</ins></h2>
+<p>You focus your study on manipulating magic in a way that turns the destructive power of arcane evocation into rejuvenating magic. For others, this gift manifests from faith, a pledge to a patron, or a deity's behest. Many arcane colleges have unlocked these regenerative powers from tireless hours poring over holy texts and alchemical manuals.</p>
+<h3 id="level-2-creation-savant">Level 2 - Creation Savant</h3>
+<p>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved.</p>
+<p>Additionally, you learn two cantrips and add one 1st-level spell to your spellbook from the cleric spell list. These spells are wizard spells for you, but other wizards can't copy cleric spells from your spellbook into their own spellbooks.</p>
+<hr>
+<h3 id="level-2-applied-reconstruction">Level 2 - Applied Reconstruction</h3>
+<p>Starting at 2nd level, you can reverse the destructive force of your evocation spells, transforming their power into healing energy. When you cast an evocation spell of 1st level or higher that targets only one creature, with an instantaneous duration, and doesn't require concentration, the target creature takes no damage and instead regains a number of hit points equal to half of the total.</p>
+<p>If the spell requires you to make an attack roll or requires a creature to make a saving throw, the creature can choose to be hit or fail the saving throw. The spell doesn't impose any status conditions. Undead and constructs can't regain hit points in this way.</p>
+<hr>
+<h3 id="level-6-prolonged-regeneration">Level 6 - Prolonged Regeneration</h3>
+<p>Beginning at 6th level, when you cast a wizard spell that restores hit points, living creatures affected by the spell continue to regenerate over the next 1d4 rounds. The creature regains hit points equal to your Intelligence modifier at the start of its turn, provided it has at least 1 hit point remaining. Additionally, while a creature regenerates in this way, it's immune to disease and poison. If the creature is currently diseased or poisoned, any effects are suspended for the duration of its regeneration.</p>
+<hr>
+<h3 id="level-10-blossom-of-life">Level 10 - Blossom of Life</h3>
+<p>Starting at 10th level, you can focus the healing energies around certain pockets within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level to impose an effect that uses your wizard's spell save DC.</p>
+<p>The chosen creatures automatically succeed on their saving throws and take no damage from the spell. They also regain hit points equal to half the damage the spell would have dealt. Undead and constructs can't regain hit points in this way.</p>
+<hr>
+<h3 id="level-14-overheal">Level 14 - Overheal</h3>
+<p>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 5th level or lower that restores hit points, you can maximize the healing power of that spell.</p>
+<p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 1d12 necrotic damage for each level of the spell, immediately after the healing effect occurs. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.</p>
+<p>Additionally, you choose four spells from the cleric spell list to add to your spellbook, one from each of the following levels: 2nd, 3rd, 4th, 5th. These spells are wizard spells for you, but other wizards can't copy cleric spells from your spellbook into their own spellbooks.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="school-of-riddlemancy">
+<h2 id="school-of-riddlemancy"><ins>School of Riddlemancy</ins></h2>
+<p>The School of Riddlemancy emphasizes cosmic conundrums that confound, befuddle, confuse, and bewilder. Riddlemancers are in possession of the gnosis: the secret knowledge and combinations that can best even the wise. As a riddlemancer you are often looked at as an expert problem solver, while also being a font of troubles for your adversaries.</p>
+<h3 id="level-2-labyrinthian-magic">Level 2 - Labyrinthian Magic</h3>
+<p>At 2nd level, when you affect a creature with a wizard spell of 1st level or higher that forces the target to attempt an Intelligence, Wisdom, or Charisma saving throw, you can expend a wizard spell slot of the same level or higher to imbue the spell with a magical puzzle that must be solved before the spell can be broken. When a creature would attempt an Intelligence, Wisdom, or Charisma saving throw against the spell, it must instead attempt two saving throws (each of which is made concurrently, the save DC remains the same). If an affected creature fails either saving throw, it suffers the effects of a failed saving throw from the spell.</p>
+<hr>
+<h3 id="level-6-kinematic-geometries">Level 6 - Kinematic Geometries</h3>
+<p>At 6th level, when you cast a spell which affects an area, you can twist the geometry of the area to bizarre, impossible proportions. Such a spell's effect passes through solid barriers, preventing any creatures in the area from having cover from the spell.</p>
+<hr>
+<h3 id="level-10-stroke-of-genius">Level 10 - Stroke of Genius</h3>
+<p>At 10th level, you can solve conundrums in an instant that would take others a lifetime to unravel. When you are presented with a problem that has a single correct solution (such as a math problem, a puzzle, or a legal case), you can take an action to solve the problem instantly. Once you have used this feature, you cannot use it again until 1 week has passed.</p>
+<hr>
+<h3 id="level-14-impossible-enigma">Level 14 - Impossible Enigma</h3>
+<p>At 14th level, you can wrap your identity in a nigh impossible mystery that few can solve. You magically erase the memory of your past and any knowledge of your existence from the minds, books, and lore, with the exception of deities, similarly powerful entities, or creatures of your choice. Additionally, to learn anything about you, a creature must first succeed on an Intelligence (Investigation) check versus your spell save DC, or the attempt fails.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="the-grey-guild">
+<h2 id="the-grey-guild"><ins>The Grey Guild</ins></h2>
+<p>Wizards of the Grey Guild arcane tradition eschew a focus on one specific school of magic in favor of an arcane specialty in duplicity and espionage. In some worlds, all wizards of this tradition belong to one organization with its own overarching goals and schemes while in others, the Grey Guild is a methodology used by individual wizards and arcane organizations in competition with one another.</p>
+<h3 id="level-2-grimoire-codex">Level 2 - Grimoire Codex</h3>
+<p>Beginning when you select this school at 2nd level, you translate your spellbook into a code only you can understand. When you add additional spells to your spellbook, they are encoded as well. Other wizards cannot copy spells from your spellbook unless you assist them by translating your writing out of this coded language.</p>
+<hr>
+<h3 id="level-2-bonus-proficiencies">Level 2 - Bonus Proficiencies</h3>
+<p>At 2nd level, you gain proficiency in two of the following skills of your choice: Deception, Insight, Investigation, Perception, Sleight of Hand, or Stealth.</p>
+<hr>
+<h3 id="level-2-encoded-speech">Level 2 - Encoded Speech</h3>
+<p>Also at 2nd level, you can use a bonus action on your turn to magically encode your speech for 10 minutes. When you do, choose a number of creatures you can see up to your Intelligence modifier + your wizard level. Chosen creatures understand the encoded messages within your speech. All other creatures hear you speaking about a subject of your choice and may make a Wisdom saving throw. On a success, they suspect you are speaking code but don't understand the message. On a failure, they are clueless to your subterfuge. Once you use this feature, you must finish a short or long rest to use it again.</p>
+<hr>
+<h3 id="level-6-arcane-occultation">Level 6 - Arcane Occultation</h3>
+<p>At 6th level, the Weave intervenes in the minds of others to obscure your comings and goings. When you interact with a humanoid for ten minutes or less, you can choose to force the creature to make an Intelligence saving throw against your spell save DC. Creatures who already know you personally have advantage on this saving throw. On a failure, the creature forgets all the details of the interaction as soon as it is over, including your identity and any of your identifying characteristics.</p>
+<hr>
+<h3 id="level-10-conspiracy-of-one">Level 10 - Conspiracy of One</h3>
+<p>At 10th level, you have learned to trust no one but yourself. As an action, you can expend a spell slot to create a number of conspirators equal to the level of the spell slot expended. Each conspirator appears in its own unoccupied space within 30 feet of you. Conspirators are indistinguishable from one another and from you.</p>
+<p>Each conspirator has your Armor Class, saving throw proficiencies, and other attributes but evaporates into shadows and spiderwebs when it takes any damage. It is immune to all conditions. When you take an action, you can choose to take it as if you occupied the same space as any one of your conspirators. While you have one or more conspirators, you can use a bonus action to swap places via teleportation with a conspirator of your choice who is on the same plane as you.</p>
+<p>As an action, you can sense through a chosen conspirator's senses indefinitely until you choose to end the ability or the conspirator is destroyed. While you are sensing through a conspirator, you are blind and deaf in regard to your own senses. After an hour, or 8 hours if you expended a spell slot of 6th level or higher to create your conspirators, all remaining conspirators are destroyed. Whenever a conspirator is destroyed or evaporates, you can use a reaction immediately after to teleport to the nearest unoccupied space closest to where the conspirator was.</p>
+<p>Once you use this feature, you must finish a long rest before you can do so again.</p>
+<hr>
+<h3 id="level-14-ethereal-infiltrator">Level 14 - Ethereal Infiltrator</h3>
+<p>Starting at 14th level, while you are in dim light or darkness you can move through creatures and objects. If you end your turn inside a creature or object, you take 1d10 force damage for each 5 feet between you and the nearest unoccupied space, then you teleport to that space.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="theurgy">
+<h2 id="theurgy"><ins>Theurgy</ins></h2>
+<p>You have a deep faith in the transcendent nature of the multiverse. Although you may honor a particular god or goddess, you recognize them as manifestations of a divinity that suffuses all reality. You feel most in touch with this divinity when working magic, which you view as a sacred act between the fabric of existence and all living beings.</p>
+<h3 id="level-2-arcane-apostle">Level 2 - Arcane Apostle</h3>
+<p>Beginning when you select this tradition at 2nd level, you can use a holy symbol as a spellcasting focus for your wizard spells. In addition, cleric cantrips count as wizard spells for you and when you prepare spells you can choose any combination of wizard spells in your spellbook and spells from the cleric spell list. Your wizard level determines the maximum spell level of cleric spells you can prepare in this way. These cleric spells count as wizard spells while you have them prepared, but you cannot copy them into your spellbook.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Wizard Level</th>
+<th style="text-align: center;">Cleric Spell Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">5th</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-2-channel-divinity">Level 2 - Channel Divinity</h3>
+<p>At 2nd level, you gain the ability to channel divine energy directly from the multiverse. You start with two such effects: Divine Arcana and Supernal Sight. When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.</p>
+<ul>
+<li><strong>Divine Arcana.</strong> As a bonus action, you speak a prayer to control the flow of magic around you. The next spell you cast gains a +2 bonus to its attack roll or saving throw DC, as appropriate.</li>
+<li><strong>Supernal Sight.</strong> As an action, you open your senses to the divine and arcane elements in the world, allowing you to detect their influence within 30 feet of you for the next minute. Within this range, you can sense the presence of magic and know if there is an aberration, celestial, elemental, fey, fiend, or undead (as well as where the creature is located). If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. In addition, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated. This ability can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</li>
+</ul>
+<hr>
+<h3 id="level-6-daily-devotion">Level 6 - Daily Devotion</h3>
+<p>At 6th level, choose three divine domains. As part of completing a long rest you can contemplate these facets of the divine, selecting one of the three chosen divine domains. Until you use this feature again, add the selected domain's 2nd level Channel Divinity effect to the options you can choose when using your Channel Divinity.</p>
+<hr>
+<h3 id="level-10-empyreal-resistance">Level 10 - Empyreal Resistance</h3>
+<p>Starting at 10th level, you have resistance to radiant damage.</p>
+<hr>
+<h3 id="level-14-radiant-countenance">Level 14 - Radiant Countenance</h3>
+<p>At 14th level, you can use an action to shed your mundane form for a radiant countenance for the next minute. While you have a radiant countenance, you gain the following benefits:</p>
+<ul>
+<li>You shed bright light out to 150 feet and dim light out 150 feet beyond that.</li>
+<li>Attacks made against you by creatures without blindsight have disadvantage.</li>
+<li>When you cast a spell that deals damage you can choose for the damage to be radiant instead of its normal damage type.</li>
+</ul>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="warden">
+<h2 id="warden"><ins>Warden</ins></h2>
+<p>Given the obscene havoc that can be wrought by rogue spellcasters, many organizations arise that dedicate themselves to policing — even eradicating — arcane magic. Those that would rather see jurisdiction in the hands of fellow magi train and employ wardens. These wizards are detectives, diviners, and abjurers charged with the responsibility of curtailing abuse and bringing magi to justice.</p>
+<h3 id="level-2-aura-detection">Level 2 - Aura Detection</h3>
+<p>At 2nd level, when you choose this Arcane Tradition, you add the <em>detect magic</em> spell to your spellbook. You always have it prepared and can cast it at will. It does not count against the number of wizard spells you've prepared.</p>
+<p>All spellcasters radiate a unique aura that's left behind in their spells — the "fingerprints" of their magic. Whenever you come across the trace of a spell cast within the last 24 hours, you can spend 1 minute analyzing and recording it in your spellbook. The aura does not reveal any information about the creature, such as its name or race, only if it was cast through divine magic (such as by paladins and clerics) or through arcane means (such as by wizards or warlocks).</p>
+<p>Once you learn a spellcaster's aura, you instantly recognize it again when you are capable of perceiving magic, such as through the <em>detect magic</em> spell, and can use it for divination spells such as <em>locate creature</em> and <em>scrying</em> (as if it were a possession or garment).</p>
+<hr>
+<h3 id="level-6-mirrored-aegis">Level 6 - Mirrored Aegis</h3>
+<p>At 6th level, when you would take damage from a spell that targets only one creature, you can use your reaction to instead reflect it onto those around you. All creatures within 10 feet take the damage you would have from the spell. If you must make a saving throw as part of the spell cast against you, you may choose to reflect it after your saving throw is made but before the outcome is determined.</p>
+<p>Once you use this feature you cannot again until you finish a long rest, or until you cast an abjuration spell of 1st level or higher.</p>
+<hr>
+<h3 id="level-10-spellbreaker">Level 10 - Spellbreaker</h3>
+<p>Starting at 10th level, you can use your action to cause a spell within 60 feet to malfunction, such as on an enchanted object or a spell afflicting a creature.</p>
+<ul>
+<li><strong>Creatures.</strong> Using your action, you can rupture a spell afflicting a creature within 30 feet. The creature must make an Intelligence saving throw; on a failure, it takes 6d6 psychic damage, and the spell ends. On a success, it takes half damage, but the spell survives.</li>
+<li><strong>Constructs.</strong> Creatures animated by magic, such as flying swords and stone golems, can be rendered temporarily inert. As an action, you focus on one construct within 30 feet, subjecting it to an Intelligence saving throw. On a failure, the construct is incapacitated until the start of its next turn, after which it can repeat this saving throw, ending this incapacitation on a success.</li>
+<li><strong>Objects.</strong> By inserting one mistake into a spell's design, you can cause its entirety to come to a screeching halt, even if only temporarily. As an action, you focus on one object within 30 feet, breaking any magic placed upon it. Examples include magic items, enchantments on doorways or traps, and spells of <em>glyph of warding</em> or <em>arcane lock</em>. Unless you concentrate on this effect, the magic resumes at the end of your next turn. If you instead concentrate on it, you can keep the spell paralyzed for a number of turns equal to your Intelligence modifier.</li>
+</ul>
+<p>Once you use this feature, you cannot again until you finish a long rest.</p>
+<hr>
+<h3 id="level-14-jailer-of-the-arcane">Level 14 - Jailer of the Arcane</h3>
+<p>At 14th level, you can jail a spellcaster for easy sentencing. As an action, you can force one spellcaster within 30 feet of you that you can see to make a Charisma saving throw. On a failure, the creature is paralyzed and whatever spell it was concentrating on, if any, ends. The creature remains paralyzed for up to 1 hour or until it takes 1 point of damage. During this time, the creature's connection to the Weave of Magic is severed, as if it were afflicted by a spell of <em>antimagic field</em>.</p>
+<p>Once you use this feature, you cannot again until you finish a long rest.</p>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter-js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>
