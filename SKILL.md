@@ -57,20 +57,20 @@ Each class is composed of snippet files included via `--8<--`. The templates liv
 
 ### Universal snippets (every class)
 
-| File | Template |
-|---|---|
-| `progression.md` | `templates/progression.md` |
+| File               | Template                     |
+| ------------------ | ---------------------------- |
+| `progression.md`   | `templates/progression.md`   |
 | `core_features.md` | `templates/core_features.md` |
-| `subclasses.md` | `templates/subclasses.md` |
+| `subclasses.md`    | `templates/subclasses.md`    |
 
 ### Optional snippets (add only if the class has them)
 
-| File | When to create |
-|---|---|
-| `alternate_subclasses.md` | Class has alternate/variant subclasses |
-| `[feature_list].md` | Class has a named list: exploits, knacks, talents, disciplines, etc. |
-| `animal_companion.md` | Class has an animal companion mechanic |
-| Any other named tab | Determined by the class content |
+| File                      | When to create                                                       |
+| ------------------------- | -------------------------------------------------------------------- |
+| `alternate_subclasses.md` | Class has alternate/variant subclasses                               |
+| `[feature_list].md`       | Class has a named list: exploits, knacks, talents, disciplines, etc. |
+| `animal_companion.md`     | Class has an animal companion mechanic                               |
+| Any other named tab       | Determined by the class content                                      |
 
 ---
 
@@ -164,11 +164,11 @@ Add a filter to a snippet when:
 
 ### Generic filter IDs (already registered in filter-js)
 
-| Filter ID | Content class | Data attribute | Use for |
-|---|---|---|---|
-| `subclass-select` | `subclass-content` | `subclass` | Subclasses |
-| `alt-subclass-select` | `subclass-content` | `subclass` | Alternate subclasses |
-| `exploit-select` | `exploit-content` | `exploit` | Exploit lists |
+| Filter ID             | Content class      | Data attribute | Use for              |
+| --------------------- | ------------------ | -------------- | -------------------- |
+| `subclass-select`     | `subclass-content` | `subclass`     | Subclasses           |
+| `alt-subclass-select` | `subclass-content` | `subclass`     | Alternate subclasses |
+| `exploit-select`      | `exploit-content`  | `exploit`      | Exploit lists        |
 
 ### Adding a new class-specific filter
 
@@ -207,6 +207,7 @@ No `<hr>` between individual items. `<hr>` only between category `<div>` blocks 
 3. Create snippet files in `docs/snippets/[source_folder]/[classname]/`
 4. Create assembled page in `docs/classes/[source_folder]/[classname].md`
 5. Check `filter-js`: if any new filter IDs are needed, propose the addition to the user
+6. Check in similar files for other classes if some of the bullet points (especially in `core_features.md` files) have a double space at the end to account for the line-break spacing issue.
 
 ## Workflow: Reformatting Existing Content
 
