@@ -36,6 +36,7 @@ nav:
   - Classes:
       - Base Classes:
         - Barbarian: classes/base_classes/barbarian.md
+        - Bard: classes/base_classes/bard.md
         - Paladin: classes/base_classes/paladin.md
         - Ranger: classes/base_classes/ranger.md
         - Rogue: classes/base_classes/rogue.md
