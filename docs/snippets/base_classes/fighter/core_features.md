@@ -30,85 +30,24 @@
 
 At 1st level you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-##### Archery
-
-You gain a +2 bonus to attack rolls you make with ranged weapons.
-
-##### Blind Warrior
-
-You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
-
-##### Brawler
-
-Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
-
-##### Classical Swordplay
-
-While wielding a finesse weapon and no other weapons, you gain a +2 bonus to your attack rolls and a +1 to your Armor Class so long as you are not using heavy armor or a shield.
-
-##### Defense
-
-So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
-
-##### Dueling
-
-When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
-
-##### Featherweight Training
-
-While you are wielding only light weapons, and nothing else your Speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.
-
-##### Great Weapon Fighting
-
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
-
-##### Heavyweight Training
-
-You can use your weight, and the weight of your weapon, to land devastating blows. While you are wielding a heavy weapon, you gain a +1 bonus to damage rolls and you have advantage on Strength (Athletics) checks made to Shove.
-
-##### Improvised Fighting
-
-You are proficient in improvised weapons. Once per turn, when you use an object to make an improvised weapon attack, you can choose to roll the damage die twice and take the higher damage roll.
-
-When you do so, the object used to make the improvised attack is destroyed and can not be used for further attacks. You can't use this feature to destroy magical objects.
-
-##### Melee Marksman
-
-Having a hostile creature within 5 feet of you does not impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet.
-
-When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
-
-##### Mounted Combatant
-
-While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
-
-##### Pit Fighting
-
-You have trained to fight with weapons typically associated with gladiators, granting you the following benefits:
-
-* For you, tridents deal 1d8 (1d10) piercing damage on hit.
-* When making an attack roll with a net against a creature within 5 feet, you do not have disadvantage on the roll.
-* When you take the Attack action on your turn, making an attack with a net only takes the place of one attack.
-
-##### Protection
-
-When a creature you can see hits you, or a target within 5 feet, with a melee attack, you can use a reaction to add your proficiency bonus to the target's Armor Class against that attack. You must be wielding a shield or a melee weapon.
-
-##### Shield Warrior
-
-You gain proficiency with shields as a martial melee weapon, and on hit, your shield deals 2d4 bludgeoning damage. If you are wielding a shield and nothing else, you gain a +1 bonus to your shield attack rolls and to your Armor Class.
-
-##### Strongbow
-
-You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
-
-##### Thrown Weapon Fighting
-
-You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.
-
-##### Two-Weapon Fighting
-
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
+* **Archery.** You gain a +2 bonus to attack rolls you make with ranged weapons.
+* **Blind Warrior.** You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
+* **Brawler.** Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
+* **Classical Swordplay.** While wielding a finesse weapon and no other weapons, you gain a +2 bonus to your attack rolls and a +1 to your Armor Class so long as you are not using heavy armor or a shield.
+* **Defense.** So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
+* **Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
+* **Featherweight Training.** While you are wielding only light weapons, and nothing else your Speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.
+* **Great Weapon Fighting.** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+* **Heavyweight Training.** You can use your weight, and the weight of your weapon, to land devastating blows. While you are wielding a heavy weapon, you gain a +1 bonus to damage rolls and you have advantage on Strength (Athletics) checks made to Shove.
+* **Improvised Fighting.** You are proficient in improvised weapons. Once per turn, when you use an object to make an improvised weapon attack, you can choose to roll the damage die twice and take the higher damage roll. When you do so, the object used to make the improvised attack is destroyed and can not be used for further attacks. You can't use this feature to destroy magical objects.
+* **Melee Marksman.** Having a hostile creature within 5 feet of you does not impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet. When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
+* **Mounted Combatant.** While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
+* **Pit Fighting.** You have trained to fight with weapons typically associated with gladiators, granting you the following benefits: For you, tridents deal 1d8 (1d10) piercing damage on hit. When making an attack roll with a net against a creature within 5 feet, you do not have disadvantage on the roll. When you take the Attack action on your turn, making an attack with a net only takes the place of one attack.
+* **Protection.** When a creature you can see hits you, or a target within 5 feet, with a melee attack, you can use a reaction to add your proficiency bonus to the target's Armor Class against that attack. You must be wielding a shield or a melee weapon.
+* **Shield Warrior.** You gain proficiency with shields as a martial melee weapon, and on hit, your shield deals 2d4 bludgeoning damage. If you are wielding a shield and nothing else, you gain a +1 bonus to your shield attack rolls and to your Armor Class.
+* **Strongbow.** You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
+* **Thrown Weapon Fighting.** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.
+* **Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
 
 <hr>
 
