@@ -24,6 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
     setupFilter('alt-subclass-select', 'subclass-content', 'subclass');
     setupFilter('subclass-select', 'subclass-content', 'subclass');
     setupFilter('exploit-select', 'exploit-content', 'exploit');
+
+    //// Base classes filters
+    setupFilter('technique-select', 'technique-content', 'technique')
     
     //// Kibbles Psion filters
     setupFilter('discipline-select', 'discipline-content', 'discipline');
