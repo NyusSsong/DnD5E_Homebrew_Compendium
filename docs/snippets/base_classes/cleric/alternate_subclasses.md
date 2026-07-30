@@ -1,0 +1,58 @@
+<p><strong>Choose a subclass:</strong></p>
+
+<select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<option value="all">All</option>
+<option value="alt-trickery-domain">Trickery Domain</option>
+</select>
+
+<div class="subclass-content" data-subclass="alt-trickery-domain">
+
+## ^^Trickery Domain^^
+
+The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, and theft rather than direct confrontation.
+
+### Level 1 - Domain Spells
+
+| Cleric Level  | Spells |
+|:---:|:-----------:|
+|  1st  | *charm person* / *disguise self* |
+|  3rd  | *mirror image* / *pass without trace* |
+|  5th  | *hypnotic pattern* / *nondetection* |
+|  7th  | *confusion* / *dimension door* |
+|  9th  | *mislead* / *modify memory* |
+
+<hr>
+
+### Level 1 - Blessing of the Trickster
+
+As an action, you can choose yourself or a willing creature within 30 feet of yourself to gain Advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.
+
+<hr>
+
+### Level 2 - Channel Divinity: Invoke Duplicity
+
+You can use your Channel Divinity to create an illusory duplicate of yourself.
+
+As a Bonus Action, you can expend one use of your Channel Divinity to teleport up to 30 feet to an unoccupied space you can see, and you create a perfect visual illusion of yourself in the space you left. The illusion lasts for 1 minute, but it ends early if you have the Incapacitated condition or dismiss it as a Bonus Action.
+
+While the illusion persists, you gain the following benefits:
+
+* **Cast Spells.** You can cast spells as though you were in the illusion’s space, but you must use your own senses.
+* **Distract.** When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, given how distracting the illusion is to the target.
+* **Move.** As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself, and you can then teleport, swapping places with the illusion.
+
+<hr>
+
+### Level 6 - Trickster's Magic
+
+If you cast a spell of the Illusion school using a spell slot, you can change the spell’s casting time to a Bonus Action for this casting, provided the spell’s casting time is normally an action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a Long Rest.
+
+<hr>
+
+### Level 17 - Improved Duplicity
+
+The illusion of your Invoke Duplicity has grown more powerful. When you create it, you can teleport up to 120 feet rather than 30 feet, and when you move it, you can move it up to 60 feet rather than 30 feet. In addition, when you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage. Finally, when the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level.
+
+<hr>
+
+</div>
