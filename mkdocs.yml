@@ -37,6 +37,7 @@ nav:
       - Base Classes:
         - Barbarian: classes/base_classes/barbarian.md
         - Bard: classes/base_classes/bard.md
+        - Cleric: classes/base_classes/cleric.md
         - Druid: classes/base_classes/druid.md
         - Fighter: classes/base_classes/fighter.md
         - Paladin: classes/base_classes/paladin.md
