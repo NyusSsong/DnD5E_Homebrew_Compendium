@@ -33,4 +33,5 @@ document.addEventListener('DOMContentLoaded', function() {
     //// Kibbles Psion filters
     setupFilter('discipline-select', 'discipline-content', 'discipline');
     setupFilter('talent-select', 'talent-content', 'talent');
+    setupFilter('manifestation-select', 'manifestation-content', 'manifestationTier');
 });
