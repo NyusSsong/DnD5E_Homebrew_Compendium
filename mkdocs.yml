@@ -40,9 +40,11 @@ nav:
         - Cleric: classes/base_classes/cleric.md
         - Druid: classes/base_classes/druid.md
         - Fighter: classes/base_classes/fighter.md
+        - Monk: classes/base_classes/monk.md
         - Paladin: classes/base_classes/paladin.md
         - Ranger: classes/base_classes/ranger.md
         - Rogue: classes/base_classes/rogue.md
+        - Sorcerer: classes/base_classes/sorcerer.md
         - Warlock: classes/base_classes/warlock.md
         - Wizard: classes/base_classes/wizard.md
       - Kibbles Tasty:

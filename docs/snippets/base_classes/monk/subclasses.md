@@ -144,6 +144,16 @@ At 3rd level, when you use Step of the Wind then hit with an attack, the attack 
 
 <hr>
 
+### Level 6 - Draconic Resilience
+
+Starting at 6th level, your body begins to take on the hardiness of the dragon you emulate. You gain the following benefits:
+
+Whenever you would take damage of the type associated with your Draconic Affiliation, you can use your reaction to spend 1 Ki point to halve that damage.
+Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+You gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 60 feet instead.
+
+<hr>
+
 ### Level 11 - Conquering Wyrm
 
 Beginning at 11th level, when you take the Attack action after using Step of the Wind in the same turn, you can spend an extra 2 Ki to replace your first attack with one unarmed strike against each creature within 5 feet of the space in which you end your movement. 

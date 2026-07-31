@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Initialize filters
+    //// Beware that content.dataset in dataAttribute uses camelCase
 
     //// Generic filters
     setupFilter('alt-subclass-select', 'subclass-content', 'subclass');
@@ -27,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //// Base classes filters
     setupFilter('technique-select', 'technique-content', 'technique')
+    setupFilter('metamagic-select', 'metamagic-content', 'metamagicCost')
     
     //// Kibbles Psion filters
     setupFilter('discipline-select', 'discipline-content', 'discipline');
