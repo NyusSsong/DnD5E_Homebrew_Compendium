@@ -16,186 +16,185 @@
 
 <div class="talent-content" data-talent="base">
 
-#### Astral Arms
+??? feature "Base Discipline"
 
-As a bonus action, you can expend 1 psi point to create psionic constructions serving as additional appendages. These arms last for 10 minutes. You determine the arms’ appearance, and they vanish early if you are incapacitated or die. You can use the astral arms to make unarmed strikes. The unarmed strikes you make with the arms use your Intelligence modifier in place of your Strength modifier for the attack and damage rolls. If you hit with one of them, you deal force damage equal to 1d6 + your Intelligence modifier, instead of the bludgeoning damage normal for an unarmed strike.
+    #### Astral Arms
 
-When you create them, or by spending 1 psi point as a bonus action while they are manifested, you can make a single unarmed strike with these arms as a bonus action. You can use Psionic Mastery points on this.
+    As a bonus action, you can expend 1 psi point to create psionic constructions serving as additional appendages. These arms last for 10 minutes. You determine the arms’ appearance, and they vanish early if you are incapacitated or die. You can use the astral arms to make unarmed strikes. The unarmed strikes you make with the arms use your Intelligence modifier in place of your Strength modifier for the attack and damage rolls. If you hit with one of them, you deal force damage equal to 1d6 + your Intelligence modifier, instead of the bludgeoning damage normal for an unarmed strike.
 
-#### Aura Sight
+    When you create them, or by spending 1 psi point as a bonus action while they are manifested, you can make a single unarmed strike with these arms as a bonus action. You can use Psionic Mastery points on this.
 
-As an action, you can spend 1 psi point to psionically see the aura of a creature of your choice within 30 feet. When you see the creature’s aura in this way, you can determine if there are any spells or magical effects affecting the creature, and you learn their schools of magic, if any. You can also determine if the creature is under the influence of psionics.
+    #### Aura Sight
 
-A shapeshifter or creature that is transformed or disguised by magical or nonmagical means must make a Charisma (*Deception*) check against your Psionics save DC. On a failure, you can perceive their original form in their aura.
+    As an action, you can spend 1 psi point to psionically see the aura of a creature of your choice within 30 feet. When you see the creature’s aura in this way, you can determine if there are any spells or magical effects affecting the creature, and you learn their schools of magic, if any. You can also determine if the creature is under the influence of psionics.
 
-#### Awaken Mind
-*Prerequisite: 9th-level Psion*
+    A shapeshifter or creature that is transformed or disguised by magical or nonmagical means must make a Charisma (*Deception*) check against your Psionics save DC. On a failure, you can perceive their original form in their aura.
 
-You can cast *awaken* once without expending a spell slot or psi points. You can’t do so again until you finish a long rest.
+    #### Awaken Mind
+    *Prerequisite: 9th-level Psion*
 
-#### Beam of Annihilation
-*Prerequisite: 11th-level Psion, Elemental Mind subclass*
+    You can cast *awaken* once without expending a spell slot or psi points. You can’t do so again until you finish a long rest.
 
-You gain the ability to cast *beam of annihilation* for 6 psi points. If you have a specialization of Psychokinesis, you can only select the related elemental damage type, but the beam’s damage ignores resistance to that damage type.
+    #### Beam of Annihilation
+    *Prerequisite: 11th-level Psion, Elemental Mind subclass*
 
-#### Controlled Power
+    You gain the ability to cast *beam of annihilation* for 6 psi points. If you have a specialization of Psychokinesis, you can only select the related elemental damage type, but the beam’s damage ignores resistance to that damage type.
 
-You gain the ability to suppress the glow and somatic component of your psionic powers. You can expend 2 psi points to use a power without a visual sign or somatic component. Each time you use this talent, the cost of doing so doubles until you finish a short or long rest.
+    #### Controlled Power
 
-#### Divided Mind
-*Prerequisite: 9th-level Psion*
+    You gain the ability to suppress the glow and somatic component of your psionic powers. You can expend 2 psi points to use a power without a visual sign or somatic component. Each time you use this talent, the cost of doing so doubles until you finish a short or long rest.
 
-You learn the *divide self* spell, and can cast it by expending 5 psi points. When you gain access to the Innate Psionics feature, you may expend a use of Innate Psionics to cast *divide self* at the level of the use of Innate Psionics expended. For example, if you choose the *teleport* spell for your Innate Psionics feature at 13th level, you could expend a casting of *teleport* to instead cast *divide self* as a 7th-level spell, and can’t cast *teleport* or *divide self* as a 7th-level spell in this way until you finish a long rest.
+    #### Divided Mind
+    *Prerequisite: 9th-level Psion*
 
-You do not require the material components of the spell when you cast it by expending psi points or a use of Innate Psionics.
+    You learn the *divide self* spell, and can cast it by expending 5 psi points. When you gain access to the Innate Psionics feature, you may expend a use of Innate Psionics to cast *divide self* at the level of the use of Innate Psionics expended. For example, if you choose the *teleport* spell for your Innate Psionics feature at 13th level, you could expend a casting of *teleport* to instead cast *divide self* as a 7th-level spell, and can’t cast *teleport* or *divide self* as a 7th-level spell in this way until you finish a long rest.
 
-#### Dreamwalker
-*Prerequisite: 9th-level Psion*
+    You do not require the material components of the spell when you cast it by expending psi points or a use of Innate Psionics.
 
-You gain the ability to cast *dream*. You can cast the spell without expending a spell slot, but once cast, you can’t cast it again until you finish a long rest.
+    #### Dreamwalker
+    *Prerequisite: 9th-level Psion*
 
-#### Elemental Penetration
-*Prerequisite: Elemental Mind subclass*
+    You gain the ability to cast *dream*. You can cast the spell without expending a spell slot, but once cast, you can’t cast it again until you finish a long rest.
 
-When you use a psionic power or spell that deals cold, fire, or lightning damage, you can expend 1 psi point to make the power ignore resistance to that elemental damage type.
+    #### Elemental Penetration
+    *Prerequisite: Elemental Mind subclass*
 
-If you have a specialization of Psychokinesis, and the target has immunity to the damage type chosen, this instead turns immunity into resistance for that power.
+    When you use a psionic power or spell that deals cold, fire, or lightning damage, you can expend 1 psi point to make the power ignore resistance to that elemental damage type.
 
-You can spend psi points granted by Psionic Mastery on this ability.
+    If you have a specialization of Psychokinesis, and the target has immunity to the damage type chosen, this instead turns immunity into resistance for that power.
 
-#### Empowered Strike
-*Prerequisite: Psychokinesis or Telekinetics Discipline*
+    You can spend psi points granted by Psionic Mastery on this ability.
 
-Once per turn, as part of making a weapon attack as part of the Attack action, you can empower a melee weapon you are holding with psionic power. When you hit a creature with a weapon, you can apply *Elemental Blast* or *Telekinetic Force* modifiers (you can only select a power you know) to the attack (you can use Psionic Mastery on this). This doesn’t deal the base damage of the power, but any added damage causes the additional effects of the power to occur.
+    #### Empowered Strike
+    *Prerequisite: Psychokinesis or Telekinetics Discipline*
 
-When applying a modifier that would make it target an area of effect, only the target takes the weapon damage, but other creatures in the radius become a target of the attack as if using the power normally.
+    Once per turn, as part of making a weapon attack as part of the Attack action, you can empower a melee weapon you are holding with psionic power. When you hit a creature with a weapon, you can apply *Elemental Blast* or *Telekinetic Force* modifiers (you can only select a power you know) to the attack (you can use Psionic Mastery on this). This doesn’t deal the base damage of the power, but any added damage causes the additional effects of the power to occur.
 
-#### Life Wielder
-*Prerequisite: Enhancement or Consumption Discipline*
+    When applying a modifier that would make it target an area of effect, only the target takes the weapon damage, but other creatures in the radius become a target of the attack as if using the power normally.
 
-You learn the *invest life* spell. You can spend Psionic Mastery points to cast this spell.
+    #### Life Wielder
+    *Prerequisite: Enhancement or Consumption Discipline*
 
-#### Mind Devourer
-*Prerequisite: 5th-level Psion*
+    You learn the *invest life* spell. You can spend Psionic Mastery points to cast this spell.
 
-You gain the ability to cast *psychic drain* for 2 psi points. Additionally, whenever a creature within 10 feet of you with an Intelligence score of 6 or higher dies, you can expend your reaction to draw in its psionic power, regaining 1d4 hit points and 1 expended psi point.
+    #### Mind Devourer
+    *Prerequisite: 5th-level Psion*
 
-#### Mind Rider
+    You gain the ability to cast *psychic drain* for 2 psi points. Additionally, whenever a creature within 10 feet of you with an Intelligence score of 6 or higher dies, you can expend your reaction to draw in its psionic power, regaining 1d4 hit points and 1 expended psi point.
 
-As an action, you can touch a willing creature to see through its eyes and hear what it hears for the next hour, gaining the benefits of any special senses that the creature has.
+    #### Mind Rider
 
-During this time, you are deaf and blind with regard to your own senses. You can end this effect at any time. While this is active, the creature has advantage on Intelligence, Wisdom, and Charisma saving throws.
+    As an action, you can touch a willing creature to see through its eyes and hear what it hears for the next hour, gaining the benefits of any special senses that the creature has.
 
-#### Perfect Focus
-*Prerequisite: 10th-level Psion*
+    During this time, you are deaf and blind with regard to your own senses. You can end this effect at any time. While this is active, the creature has advantage on Intelligence, Wisdom, and Charisma saving throws.
 
-You can enter a state of extreme focus. Your concentration is no longer interrupted by using a second ability that requires concentration, but your speed is reduced to 0 while concentrating on more than one effect; you have a −5 penalty to any Constitution saving throw to maintain concentration. If you move or fail a save to maintain concentration, one of the spells you are concentrating on ends. If you fail the saving throw to maintain concentration by 5 or more, you lose concentration on both spells.
+    #### Perfect Focus
+    *Prerequisite: 10th-level Psion*
 
-#### Personal Truth
+    You can enter a state of extreme focus. Your concentration is no longer interrupted by using a second ability that requires concentration, but your speed is reduced to 0 while concentrating on more than one effect; you have a −5 penalty to any Constitution saving throw to maintain concentration. If you move or fail a save to maintain concentration, one of the spells you are concentrating on ends. If you fail the saving throw to maintain concentration by 5 or more, you lose concentration on both spells.
 
-Your power of conviction allows you to believe what you choose to. If you spend at least one minute convincing yourself of something—no matter how absurd—spells and effects to determine if you are telling the truth will register that you believe what you have convinced yourself of.
+    #### Personal Truth
 
-Additionally, your psionic powers allow you to impose your will upon reality to a certain extent. When you expend 1 psi point, you can perform a minor alteration to reality:
+    Your power of conviction allows you to believe what you choose to. If you spend at least one minute convincing yourself of something—no matter how absurd—spells and effects to determine if you are telling the truth will register that you believe what you have convinced yourself of.
 
-* You can conjure any Tiny object you can imagine that is worth 1 sp or less. This creates an object as you envision it, but doesn’t grant you knowledge you do not otherwise have (for example, you would be unable to conjure a key to a lock unless you had a perfect mental image of the correct key).
-* As an action, you can change the color or taste of a Small or smaller object within 10 feet. This change lasts for 1 minute.
-* As a reaction to a creature within 30 feet taking damage (including yourself), you can change the damage type they take.
+    Additionally, your psionic powers allow you to impose your will upon reality to a certain extent. When you expend 1 psi point, you can perform a minor alteration to reality:
 
-#### Potent Psionics
+    * You can conjure any Tiny object you can imagine that is worth 1 sp or less. This creates an object as you envision it, but doesn’t grant you knowledge you do not otherwise have (for example, you would be unable to conjure a key to a lock unless you had a perfect mental image of the correct key).
+    * As an action, you can change the color or taste of a Small or smaller object within 10 feet. This change lasts for 1 minute.
+    * As a reaction to a creature within 30 feet taking damage (including yourself), you can change the damage type they take.
 
-When a target passes the saving throw against a damaging Psionic Power (granted by a psionic discipline), they still take half the damage, but suffer no other effects.
+    #### Potent Psionics
 
-#### Psi Crystal
+    When a target passes the saving throw against a damaging Psionic Power (granted by a psionic discipline), they still take half the damage, but suffer no other effects.
 
-You gain the ability to impart part of your mind into crystal. You can expend 2 psi points to cast the *find familiar* spell, but your familiar takes on the statistics of a Psi Crystal (below) and the material component required is a crystal worth 10 gp instead of the normal components. The Psi Crystal gains your Intelligence, Wisdom, and Charisma scores. You can use Psionic Disciplines with a range greater than self through your Psi Crystal as if you were standing in its location. If the Psi Crystal is destroyed, you gain its memories as your own. While you have a Psi Crystal active, as a bonus action, you can deactivate it to regain 2 expended psi points.
+    #### Psi Crystal
 
->##### Psi Crystal
->*Tiny construct, unaligned*
->
->
->* **Armor Class:** 20 (natural armor)
->* **Hit Points:** 2 (1d4)
->* **Speed:** 0 ft., fly 20 ft. (hover)
->
->---
->
->|   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA  |
->| :-----: | :-----: | :-----: | :-----: | :-----: | :----: |
->| 16 (+3) | 16 (+3) | 13 (+1) | 10 (+0) | 12 (+1) | 8 (-1) |
->
->---
->
->* **Skills:** Perception +4
->* **Damage Vulnerabilities:** bludgeoning
->* **Damage Resistances:** piercing, slashing
->* **Condition Immunities:** blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned
->* **Senses:** blindsight 60 ft. (blind beyond this radius), passive Perception 14
->* **Languages:** understands the languages of its creator but can’t speak
+    You gain the ability to impart part of your mind into crystal. You can expend 2 psi points to cast the *find familiar* spell, but your familiar takes on the statistics of a Psi Crystal (below) and the material component required is a crystal worth 10 gp instead of the normal components. The Psi Crystal gains your Intelligence, Wisdom, and Charisma scores. You can use Psionic Disciplines with a range greater than self through your Psi Crystal as if you were standing in its location. If the Psi Crystal is destroyed, you gain its memories as your own. While you have a Psi Crystal active, as a bonus action, you can deactivate it to regain 2 expended psi points.
 
-When you summon a Psi Crystal, you can store a fragment of your personality in it that you can release by shattering the crystal. Select one of the following:
+    ??? npc "Psi Cristal"
+        *Tiny construct, unaligned*
+        
+        
+        * **Armor Class:** 20 (natural armor)
+        * **Hit Points:** 2 (1d4)
+        * **Speed:** 0 ft., fly 20 ft. (hover)
+        
+        |   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA  |
+        | :-----: | :-----: | :-----: | :-----: | :-----: | :----: |
+        | 16 (+3) | 16 (+3) | 13 (+1) | 10 (+0) | 12 (+1) | 8 (-1) |
+        
+        * **Skills:** Perception +4
+        * **Damage Vulnerabilities:** bludgeoning
+        * **Damage Resistances:** piercing, slashing
+        * **Condition Immunities:** blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned
+        * **Senses:** blindsight 60 ft. (blind beyond this radius), passive Perception 14
+        * **Languages:** understands the languages of its creator but can’t speak
 
-* **Courage.** When you make a saving throw against the frightened condition, you can use your reaction to shatter the crystal, releasing that emotion to gain advantage on the save.
-* **Cowardice.** When your Psi Crystal is within 30 feet of you and a creature comes within 5 feet of you, you can use your reaction to shatter the crystal, releasing that emotion and immediately moving up to your speed away from the creature without taking any opportunity attacks.
-* **Cruelty.** When your Psi Crystal is within 30 feet of a creature that takes damage, you can use your reaction to shatter the crystal, releasing that emotion and causing the creature to take additional damage equal to your psion level.
-* **Sympathy.** When your Psi Crystal is within 30 feet of you and another creature, if that creature takes damage, you can use your reaction to shatter the crystal, releasing that emotion and granting the creature resistance to that damage. You take an equal amount of damage.
+        When you summon a Psi Crystal, you can store a fragment of your personality in it that you can release by shattering the crystal. Select one of the following:
 
-#### Psionic Defenses
+        * **Courage.** When you make a saving throw against the frightened condition, you can use your reaction to shatter the crystal, releasing that emotion to gain advantage on the save.
+        * **Cowardice.** When your Psi Crystal is within 30 feet of you and a creature comes within 5 feet of you, you can use your reaction to shatter the crystal, releasing that emotion and immediately moving up to your speed away from the creature without taking any opportunity attacks.
+        * **Cruelty.** When your Psi Crystal is within 30 feet of a creature that takes damage, you can use your reaction to shatter the crystal, releasing that emotion and causing the creature to take additional damage equal to your psion level.
+        * **Sympathy.** When your Psi Crystal is within 30 feet of you and another creature, if that creature takes damage, you can use your reaction to shatter the crystal, releasing that emotion and granting the creature resistance to that damage. You take an equal amount of damage.
 
-You gain a way to defend yourself using your psionic powers. While you are not wearing any armor or carrying a shield, your AC equals 13 + your Intelligence modifier.
+    #### Psionic Defenses
 
-#### Psionic Weapon
+    You gain a way to defend yourself using your psionic powers. While you are not wearing any armor or carrying a shield, your AC equals 13 + your Intelligence modifier.
 
-As a bonus action, you can expend 1 psi point to imbue a weapon you are holding with psionic energy. For 1 minute, once per turn when you deal damage with that weapon, you can deal an extra 1d6 psychic damage.
+    #### Psionic Weapon
 
-At higher levels you can expend additional psi points to further enhance the Psionic Weapon: 2 points to enhance it to 2d6 at 5th level, 3 points to enhance it to 3d6 at 11th level, and 4 points to enhance it to 4d6 at 17th level.
+    As a bonus action, you can expend 1 psi point to imbue a weapon you are holding with psionic energy. For 1 minute, once per turn when you deal damage with that weapon, you can deal an extra 1d6 psychic damage.
 
-#### Projected Nightmares
-*Prerequisite: Shaper’s Mind Subclass*
+    At higher levels you can expend additional psi points to further enhance the Psionic Weapon: 2 points to enhance it to 2d6 at 5th level, 3 points to enhance it to 3d6 at 11th level, and 4 points to enhance it to 4d6 at 17th level.
 
-You gain an additional option for Boundless Imagination to apply to your Astral Construct:
+    #### Projected Nightmares
+    *Prerequisite: Shaper’s Mind Subclass*
 
-* **Horrifying Nightmare.** Creatures of your choice that start their turn within 5 feet of your Astral Construct must make a Wisdom saving throw against your Psionics DC or become frightened of your Astral Construct until the start of their next turn. On a successful save, they are immune to the effect for the next 24 hours or until you summon a new Astral Construct.
+    You gain an additional option for Boundless Imagination to apply to your Astral Construct:
 
-#### Propelled Bound
-*Prerequisite: Telekinesis or Psychokinesis*
+    * **Horrifying Nightmare.** Creatures of your choice that start their turn within 5 feet of your Astral Construct must make a Wisdom saving throw against your Psionics DC or become frightened of your Astral Construct until the start of their next turn. On a successful save, they are immune to the effect for the next 24 hours or until you summon a new Astral Construct.
 
-When you move on your turn, you can expend movement, up to your speed, in a single bounding leap, propelled by telekinetic power or psychokinetic force.
+    #### Propelled Bound
+    *Prerequisite: Telekinesis or Psychokinesis*
 
-#### Schism
-*Prerequisite: 5th-level Psion*
+    When you move on your turn, you can expend movement, up to your speed, in a single bounding leap, propelled by telekinetic power or psychokinetic force.
 
-You can spend 1 psi point to temporarily divide your mind to do two things at once until the end of your turn. While dividing your mind, if you use your action on a psionic power or spell granted by a Psionic Discipline, you can use your bonus action to use a psionic power that would normally take an action.
+    #### Schism
+    *Prerequisite: 5th-level Psion*
 
-The two powers share your per-use psi point limit between them.
+    You can spend 1 psi point to temporarily divide your mind to do two things at once until the end of your turn. While dividing your mind, if you use your action on a psionic power or spell granted by a Psionic Discipline, you can use your bonus action to use a psionic power that would normally take an action.
 
-#### Tantrum
+    The two powers share your per-use psi point limit between them.
 
-*Prerequisite: Unleashed Mind subclass*
+    #### Tantrum
+    *Prerequisite: Unleashed Mind subclass*
 
-Your anger boils just beneath the surface. When you roll initiative, you can instantly increase your rampage die by one step (from a d4 to a d6, for example). Additionally, if you take damage while your rampage die is a d6 or lower, your rampage die increases by one step.
+    Your anger boils just beneath the surface. When you roll initiative, you can instantly increase your rampage die by one step (from a d4 to a d6, for example). Additionally, if you take damage while your rampage die is a d6 or lower, your rampage die increases by one step.
 
-### Special Psionic Powers 
+    #### Special Psionic Powers
 
-#### Telekinetic Weapons
-*Psionic Power*
+    ??? spell_block "Telekinetic Weapons"
+        *Psionic Power*
 
-**Casting Time:** 1 action  
-**Range:** 30 feet  
-**Components:** S  
-**Duration:** Instantaneous  
+        **Casting Time:** 1 action  
+        **Range:** 30 feet  
+        **Components:** S  
+        **Duration:** Instantaneous  
 
-You telekinetically fling a weapon at a creature or object. Choose a weapon within 15 feet that isn’t being worn or carried, or choose a weapon under your control. Make a ranged spell attack. On hit the target takes damage equal to the weapon’s damage dice. The range of the attack decreases to 15 feet if the weapon has the heavy or special property, and increases to 60 feet if the weapon has the light property. You can use Psionic Mastery points on this power, and this power counts as a Discipline Power of the Telekinetics Discipline (for example, for the purpose of Empowered Psionics).
+        You telekinetically fling a weapon at a creature or object. Choose a weapon within 15 feet that isn’t being worn or carried, or choose a weapon under your control. Make a ranged spell attack. On hit the target takes damage equal to the weapon’s damage dice. The range of the attack decreases to 15 feet if the weapon has the heavy or special property, and increases to 60 feet if the weapon has the light property. You can use Psionic Mastery points on this power, and this power counts as a Discipline Power of the Telekinetics Discipline (for example, for the purpose of Empowered Psionics).
 
-You can spend psi points up to your per use limit to add the following modifiers to Telekinetic Weapons (you can add multiple modifiers). The points must be spent when choosing the target of the power.
+        You can spend psi points up to your per use limit to add the following modifiers to Telekinetic Weapons (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-* **Multiple (1+ psi points).** For each additional psi point spent, you can fling an additional weapon, making a separate attack and damage roll for each weapon flung.
-* **Whirling (2+ psi points).** You can replace one throwing of a weapon with casting *cloud of daggers*. It is cast at a level equal to the psi points spent.
+        * **Multiple (1+ psi points).** For each additional psi point spent, you can fling an additional weapon, making a separate attack and damage roll for each weapon flung.
+        * **Whirling (2+ psi points).** You can replace one throwing of a weapon with casting *cloud of daggers*. It is cast at a level equal to the psi points spent.
+
+<hr>
 
 </div>
 
 <div class="talent-content" data-talent="consumption">
 
-### Consumption Talents
+### ^^Consumption Talents^^
 
 #### Consumed Strength 
 

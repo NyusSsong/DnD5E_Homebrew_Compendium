@@ -223,41 +223,41 @@ Weapons created with this feature deal force damage.
 
 Projected items fade after 1 minute, and you can have no more than 3 projected items at a time.
 
-#### Astral Construct  
-*Psionic Power*
+??? spell_block "Astral Construct"  
+    *Psionic Power*
 
-**Casting Time:** 1 action  
-**Range:** 60 feet  
-**Components:** S  
-**Duration:** Concentration, up to 1 minute  
+    **Casting Time:** 1 action  
+    **Range:** 60 feet  
+    **Components:** S  
+    **Duration:** Concentration, up to 1 minute  
 
-You project an ethereal creation from your mind at a space you can see within range, taking the shape of a Medium or smaller creature, weapon, or other object. This creation is clearly ethereal in nature.
+    You project an ethereal creation from your mind at a space you can see within range, taking the shape of a Medium or smaller creature, weapon, or other object. This creation is clearly ethereal in nature.
 
-When you create it, and on subsequent turns using your action to mentally control it, you can move it up to 30 feet in any direction and attack with it, so long as it remains within range. To attack, make a melee spell attack. On a hit, the target takes 1d8 force damage. If the construct ever leaves the range, it fades away.
+    When you create it, and on subsequent turns using your action to mentally control it, you can move it up to 30 feet in any direction and attack with it, so long as it remains within range. To attack, make a melee spell attack. On a hit, the target takes 1d8 force damage. If the construct ever leaves the range, it fades away.
 
-While the Astral Construct is active, you can spend psi points up to your per-use limit to issue commands that affect and empower it. Commands require no action, but you cannot exceed your per-use psi point limit in total commands issued, and each command can only be issued once per turn.
+    While the Astral Construct is active, you can spend psi points up to your per-use limit to issue commands that affect and empower it. Commands require no action, but you cannot exceed your per-use psi point limit in total commands issued, and each command can only be issued once per turn.
 
-* **Grab (1 psi point).** Can only be used while your construct is Solidified. A creature within 5 feet of the construct and no more than one size larger must make a Strength saving throw or become restrained. It can repeat the save at the end of each of its turns. The effect ends if the construct becomes ethereal or becomes more than one size smaller than the target.  
-* **Grow (1 psi point).** The construct increases by one size, and its damage increases by one die (up to 2d8). It returns to normal size at the start of your next turn.  
-* **Relocate (1 psi point).** The construct disappears and reappears anywhere within 60 feet of you.  
-* **Replicate (3 psi points).** Functions as Relocate, except the original does not disappear. You temporarily control two constructs with the same action until the start of your next turn. Pick one construct to fade at the start of your next turn unless you use Sustain.  
-* **Solidify (1 psi point).** The construct becomes solid, blocking its space until the start of your next turn. It must occupy an unoccupied space. It has AC 16 and hit points equal to your Intelligence modifier + your Psion level. If reduced to 0 hit points, it becomes ethereal again.  
-* **Strike (2 psi points).** The construct makes an attack, even if it has already attacked this turn.  
-* **Sustain (1+ psi points).** At the start of your turn, you can sustain the effects of Solidify, Grow, or Replicate for an additional round. Sustaining Replicate applies to all replicated constructs. Each effect can only be sustained once per turn. Sustaining Solidify restores the construct to its maximum hit points.  
+    * **Grab (1 psi point).** Can only be used while your construct is Solidified. A creature within 5 feet of the construct and no more than one size larger must make a Strength saving throw or become restrained. It can repeat the save at the end of each of its turns. The effect ends if the construct becomes ethereal or becomes more than one size smaller than the target.  
+    * **Grow (1 psi point).** The construct increases by one size, and its damage increases by one die (up to 2d8). It returns to normal size at the start of your next turn.  
+    * **Relocate (1 psi point).** The construct disappears and reappears anywhere within 60 feet of you.  
+    * **Replicate (3 psi points).** Functions as Relocate, except the original does not disappear. You temporarily control two constructs with the same action until the start of your next turn. Pick one construct to fade at the start of your next turn unless you use Sustain.  
+    * **Solidify (1 psi point).** The construct becomes solid, blocking its space until the start of your next turn. It must occupy an unoccupied space. It has AC 16 and hit points equal to your Intelligence modifier + your Psion level. If reduced to 0 hit points, it becomes ethereal again.  
+    * **Strike (2 psi points).** The construct makes an attack, even if it has already attacked this turn.  
+    * **Sustain (1+ psi points).** At the start of your turn, you can sustain the effects of Solidify, Grow, or Replicate for an additional round. Sustaining Replicate applies to all replicated constructs. Each effect can only be sustained once per turn. Sustaining Solidify restores the construct to its maximum hit points.  
 
-#### Alternate Effects
+??? generic_magic "Alternate Effects"
 
-When you learn the Projection Discipline, you can use your Psionics feature to cast the following spells:
+    When you learn the Projection Discipline, you can use your Psionics feature to cast the following spells:
 
-| Point Cost | Alternate Effect |
-|:----------:|:----------------:|
-| 1 | *floating disk*, *unseen servant* |
-| 2 | *mirror image* |
-| 3 | *phantom steed* |
-| 4 | *arcane eye* |
-| 5 | *creation* |
+    | Point Cost | Alternate Effect |
+    |:----------:|:----------------:|
+    | 1 | *floating disk*, *unseen servant* |
+    | 2 | *mirror image* |
+    | 3 | *phantom steed* |
+    | 4 | *arcane eye* |
+    | 5 | *creation* |
 
-If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
+    If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
 
 <hr>
 
@@ -284,57 +284,54 @@ have a number of simultaneous effects active up your
 Intelligence modifier, after which creating another ends the
 oldest ongoing effect.
 
-#### Elemental Blast
+??? spell_block "Elemental Blast"
+    *Psionic Power*
 
-*Psionic Power*
+    **Casting Time:** 1 action
+    **Range:** 30 feet
+    **Components:** S
+    **Duration:** 1 round
 
-**Casting Time:** 1 action
-**Range:** 30 feet
-**Components:** S
-**Duration:** 1 round
+    You can use your mind to create a burst of elemental power,
+    blasting a target you can see within range. Make a ranged
+    spell attack against the target. On a hit, the target takes 1d8
+    cold, fire, force or lightning damage.
+    For each die of cold damage dealt, the creature’s speed is
+    reduced by 5 feet until the end of their next turn. For each die
+    of fire damage dealt by the original attack, the creature takes
+    1d4 fire damage at the start of its next turn. For each die of
+    lightning damage dealt, an arc of lightning strikes another
+    creature of your choice within 20 feet, dealing 1d4 lightning
+    damage (multiple arcs may strike the same creature). Damage
+    from these secondary effects doesn’t add any bonuses (such as
+    Empowered Psionics).
 
-You can use your mind to create a burst of elemental power,
-blasting a target you can see within range. Make a ranged
-spell attack against the target. On a hit, the target takes 1d8
-cold, fire, force or lightning damage.
-For each die of cold damage dealt, the creature’s speed is
+    You can spend psi points up to your per use limit to add the
+    following modifiers to (you can add multiple modifiers). The
+    points must be spent when choosing the target of the power.
 
-reduced by 5 feet until the end of their next turn. For each die
-of fire damage dealt by the original attack, the creature takes
-1d4 fire damage at the start of its next turn. For each die of
-lightning damage dealt, an arc of lightning strikes another
-creature of your choice within 20 feet, dealing 1d4 lightning
-damage (multiple arcs may strike the same creature). Damage
-from these secondary effects doesn’t add any bonuses (such as
-Empowered Psionics).
+    * **Amplified (1+ psi points).** The target takes an extra 1d8 cold, fire, force or lightning damage on a hit for each additional point spent.
+    * **Lasting (1 psi point).** Your Elemental Blast leaves a 5-foot-radius sphere of devastation behind where it strikes until the start of your next turn. Creatures that enter this zone for the first time or end their turn in it must make a Constitution saving throw or suffer the secondary effects (slow, burn, arc) of the blast as if they had been hit by it.
+    * **Massive (1–3 psi points).** You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).
+    * **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
 
-You can spend psi points up to your per use limit to add the
-following modifiers to (you can add multiple modifiers). The
-points must be spent when choosing the target of the power.
+??? generic_magic "Alternate Effects"
 
-* **Amplified (1+ psi points).** The target takes an extra 1d8 cold, fire, force or lightning damage on a hit for each additional point spent.
-* **Lasting (1 psi point).** Your Elemental Blast leaves a 5-foot-radius sphere of devastation behind where it strikes until the start of your next turn. Creatures that enter this zone for the first time or end their turn in it must make a Constitution saving throw or suffer the secondary effects (slow, burn, arc) of the blast as if they had been hit by it.
-* **Massive (1–3 psi points).** You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).
-* **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
+    Wwhen you learn the Psychokinesis psionic
+    discipline you can use your Psionics feature to cast the
+    following spells:
 
-#### Alternate Effects
+    | Point Cost | Alternate Effect |
+    |:----------:|:----------------:|
+    | 1 | *burning hands*, *lightning tendril*ᴷ |
+    | 2 | *flaming sphere*, *scorching ray* |
+    | 3 | *aether lance*ᴷ, *fireball* |
+    | 4 | *jumping jolt*ᴷ, *wall of fire* |
+    | 5 | *aether storm*ᴷ, *cone of cold* |
 
-Additionally, when you learn the Psychokinesis psionic
-discipline you can use your Psionics feature to cast the
-following spells as per the rules defined in the feature:
-
-| Point Cost | Alternate Effect |
-|:----------:|:----------------:|
-| 1 | *burning hands*, *lightning tendril*ᴷ |
-| 2 | *flaming sphere*, *scorching ray* |
-| 3 | *aether lance*ᴷ, *fireball* |
-| 4 | *jumping jolt*ᴷ, *wall of fire* |
-| 5 | *aether storm*ᴷ, *cone of cold* |
-
-
-If a spell can be cast at a higher level, you can spend
-additional psi points to cast it at a level equal to the psi points
-spent.
+    If a spell can be cast at a higher level, you can spend
+    additional psi points to cast it at a level equal to the psi points
+    spent.
 
 <hr>
 
@@ -362,55 +359,54 @@ You can spend 1 or more psi points to increase how much
 you can move this way by 100 pounds per psi point spent for 1
 turn.
 
-#### Telekinetic Force
+??? spell_block "Telekinetic Force"
+    *Psionic power*
 
-*Psionic power*
+    **Casting Time:** 1 action
+    **Range:** 60 feet
+    **Components:** S
+    **Duration:** Instantaneous
 
-**Casting Time:** 1 action
-**Range:** 60 feet
-**Components:** S
-**Duration:** Instantaneous
+    You smash a target creature or object you can see with your
+    mental power. The target must succeed on a Strength saving
+    throw or take 1d10 bludgeoning damage, and either be shoved
+    5 feet in a direction of your choosing or be knocked prone.
 
-You smash a target creature or object you can see with your
-mental power. The target must succeed on a Strength saving
-throw or take 1d10 bludgeoning damage, and either be shoved
-5 feet in a direction of your choosing or be knocked prone.
+    You can spend psi points up to your per use limit to add the
+    following modifiers to Telekinetic Force (you can add multiple
+    modifiers). The points must be spent when choosing the target
+    of the power.
 
-You can spend psi points up to your per use limit to add the
-following modifiers to Telekinetic Force (you can add multiple
-modifiers). The points must be spent when choosing the target
-of the power.
+    * **Crushing (2 psi points).** The target is restrained until the end
+    of its next turn if it fails its saving throw.
+    * **Hammering (1+ psi points).** The target takes 1d10
+    bludgeoning damage for each point spent if it fails its saving
+    throw.
+    * **Hurling (1–3 psi points).** The target is shoved 10 feet in a
+    direction of your choosing for each point spent if it fails its
+    saving throw.
+    * **Zone of (1–3 psi points).** You can target all creatures in a
+    5-foot radius of a point within range. The radius doubles for
+    each point spent (5 feet, 10 feet, 20 feet).
 
-* **Crushing (2 psi points).** The target is restrained until the end
-  of its next turn if it fails its saving throw.
-* **Hammering (1+ psi points).** The target takes 1d10
-  bludgeoning damage for each point spent if it fails its saving
-  throw.
-* **Hurling (1–3 psi points).** The target is shoved 10 feet in a
-  direction of your choosing for each point spent if it fails its
-  saving throw.
-* **Zone of (1–3 psi points).** You can target all creatures in a
-  5-foot radius of a point within range. The radius doubles for
-  each point spent (5 feet, 10 feet, 20 feet).
+??? generic_magic "Alternate Effects"
 
-#### Alternate Effects
+    Additionally, when you learn the Telekinesis psionic
+    discipline you can use your Psionics feature to cast the
+    following spells as per the rules defined in the feature:
 
-Additionally, when you learn the Telekinesis psionic
-discipline you can use your Psionics feature to cast the
-following spells as per the rules defined in the feature:
-
-| Points Cost | Alternate Effects |
-|:----------:|:----------------:|
-| 1 | *jump*, *launch object*ᴷ, *thunderwave* |
-| 2 | *fling*ᴷ, *levitate*, *shatter* |
-| 3 | *fly*, *vortex blast*ᴷ |
-| 4 | *orbital stones*ᴷ, *resilient sphere* |
-| 5 | *shockwave*ᴷ, *telekinesis*, *wall of force* |
+    | Points Cost | Alternate Effects |
+    |:----------:|:----------------:|
+    | 1 | *jump*, *launch object*ᴷ, *thunderwave* |
+    | 2 | *fling*ᴷ, *levitate*, *shatter* |
+    | 3 | *fly*, *vortex blast*ᴷ |
+    | 4 | *orbital stones*ᴷ, *resilient sphere* |
+    | 5 | *shockwave*ᴷ, *telekinesis*, *wall of force* |
 
 
-If a spell can be cast at a higher level, you can spend
-additional psi points to cast it at a level equal to the psi points
-spent.
+    If a spell can be cast at a higher level, you can spend
+    additional psi points to cast it at a level equal to the psi points
+    spent.
 
 <hr>
 
@@ -426,36 +422,36 @@ Telepathy is the ability to interact with the minds of other creatures using you
 
 When you gain this feature, you can communicate telepathically with any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Creatures you communicate with can reply in kind.
 
-#### Telepathic Intrusion
-*Psionic power*
+??? spell_block "Telepathic Intrusion"
+    *Psionic power*
 
-**Casting Time:** 1 action  
-**Range:** 60 feet  
-**Components:** S  
-**Duration:** Instantaneous
+    **Casting Time:** 1 action  
+    **Range:** 60 feet  
+    **Components:** S  
+    **Duration:** Instantaneous
 
-You assault the mind of a creature you can see directly. The target must succeed on a Wisdom saving throw, or take 1d8 psychic damage. If the target fails the saving throw, it has disadvantage on attacks made against you until the start of your next turn. You can choose to deal no damage to the creature when it fails its saving throw.
+    You assault the mind of a creature you can see directly. The target must succeed on a Wisdom saving throw, or take 1d8 psychic damage. If the target fails the saving throw, it has disadvantage on attacks made against you until the start of your next turn. You can choose to deal no damage to the creature when it fails its saving throw.
 
-You can spend Psi Points up to your per-use limit to add the following modifiers to Telepathic Intrusion (you can add multiple modifiers). The points must be spent when choosing the target of the power.
+    You can spend Psi Points up to your per-use limit to add the following modifiers to Telepathic Intrusion (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-* **Meddling (2 psi points).** You make one creature invisible to the target creature or cause the creature to see something that is not there with the effect of minor illusion until the start of your next turn if it fails its saving throw.
-* **Overwhelming (3 psi points).** The target is stunned until the end of its next turn if it fails its saving throw.
-* **Rending (1+ psi points).** The target takes 1d8 psychic damage for each additional point spent on a failed save.
-* **Terrifying (1 psi point).** The target is frightened of you until the end of your next turn if it fails its saving throw.
+    * **Meddling (2 psi points).** You make one creature invisible to the target creature or cause the creature to see something that is not there with the effect of minor illusion until the start of your next turn if it fails its saving throw.
+    * **Overwhelming (3 psi points).** The target is stunned until the end of its next turn if it fails its saving throw.
+    * **Rending (1+ psi points).** The target takes 1d8 psychic damage for each additional point spent on a failed save.
+    * **Terrifying (1 psi point).** The target is frightened of you until the end of your next turn if it fails its saving throw.
 
-#### Alternate Effects
+??? generic_magic "Alternate Effects"
 
-Additionally, when you learn the Telepathy psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
+    Additionally, when you learn the Telepathy psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
 
-| Point Cost | Alternate Effects |
-|:----------:|:----------------:|
-| 1 | *compelled query*ᴷ, *command*, *frighten*ᴷ |
-| 2 | *detect thoughts*, *suggestion* |
-| 3 | *delve mind*ᴷ, *fear* |
-| 4 | *compulsion*, *confusion*, *dominate beast* |
-| 5 | *dominate person*, *modify memory*, *telepathic bond* |
+    | Point Cost | Alternate Effects |
+    |:----------:|:----------------:|
+    | 1 | *compelled query*ᴷ, *command*, *frighten*ᴷ |
+    | 2 | *detect thoughts*, *suggestion* |
+    | 3 | *delve mind*ᴷ, *fear* |
+    | 4 | *compulsion*, *confusion*, *dominate beast* |
+    | 5 | *dominate person*, *modify memory*, *telepathic bond* |
 
-If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
+    If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
 
 <hr>
 
@@ -471,37 +467,37 @@ Transposition is the ability to modify the properties of space and manipulate di
 
 On your turn, you can replace your movement by teleporting 5 feet in any direction to a space you can see. You can pass through creatures but can’t pass through objects, buildings, or terrain more than 4 inches thick. This distance increases by 5 feet at 5th level (to 10 feet), at 11th level (to 15 feet), and becomes equal to your speed at 17th level. This replaces all movement for your turn when used.
 
-#### Phase Rift
-*Psionic power*
+??? spell_block "Phase Rift"
+    *Psionic power*
 
-**Casting Time:** 1 action  
-**Range:** Self  
-**Components:** S  
-**Duration:** 1 round
+    **Casting Time:** 1 action  
+    **Range:** Self  
+    **Components:** S  
+    **Duration:** 1 round
 
-You step through space, traveling up to 10 feet in a straight line leaving a spatial tear behind. You can pass through creatures but can’t pass through objects, buildings, or terrain more than 4 inches thick. Any creature in the path of this tear must make a Dexterity saving throw or take 1d8 force damage.
+    You step through space, traveling up to 10 feet in a straight line leaving a spatial tear behind. You can pass through creatures but can’t pass through objects, buildings, or terrain more than 4 inches thick. Any creature in the path of this tear must make a Dexterity saving throw or take 1d8 force damage.
 
-You can spend psi points up to your per-use limit to add the following modifiers to Phase Rift (you can add multiple modifiers). The points must be spent when choosing the target of the power.
+    You can spend psi points up to your per-use limit to add the following modifiers to Phase Rift (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-* **Blurring (1–3 psi points).** You gain an illusory duplicate, as per the *mirror image* spell. You gain 1 duplicate per psi point spent (up to a maximum of 3). One remaining image fades at the start of each of your turns.  
-* **Disruptive (1+ psi points).** Each target that fails their saving throw takes an extra 1d8 force damage for each point spent.  
-* **Echoing (2 psi points).** You immediately use Phase Rift again with the same action.  
-* **Ethereal (2 psi points).** You can pass through solid objects, buildings, and terrain as long as you end your Phase Rift in a space you can occupy. If your Phase Rift would end inside a space you can’t occupy, the power fails.  
-* **Long (1–3 psi points).** You can travel an additional 10 feet for each point spent.  
+    * **Blurring (1–3 psi points).** You gain an illusory duplicate, as per the *mirror image* spell. You gain 1 duplicate per psi point spent (up to a maximum of 3). One remaining image fades at the start of each of your turns.  
+    * **Disruptive (1+ psi points).** Each target that fails their saving throw takes an extra 1d8 force damage for each point spent.  
+    * **Echoing (2 psi points).** You immediately use Phase Rift again with the same action.  
+    * **Ethereal (2 psi points).** You can pass through solid objects, buildings, and terrain as long as you end your Phase Rift in a space you can occupy. If your Phase Rift would end inside a space you can’t occupy, the power fails.  
+    * **Long (1–3 psi points).** You can travel an additional 10 feet for each point spent.  
 
-#### Alternate Effects
+??? generic_magic "Alternate Effects"
 
-Additionally, when you learn the Transposition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
+    Additionally, when you learn the Transposition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
 
-| Point Cost | Alternate Effects |
-|:----------:|:----------------:|
-| 1 | *expeditious retreat*, *flicker*ᴷ |
-| 2 | *blur*, *misty step*, *pass without a trace* |
-| 3 | *blink*, *nondetection*, *turbulent warp*ᴷ |
-| 4 | *banishment*, *dimension cutter*ᴷ, *dimension door* |
-| 5 | *flickering strikes*ᴷ, *spatial manipulation*ᴷ |
+    | Point Cost | Alternate Effects |
+    |:----------:|:----------------:|
+    | 1 | *expeditious retreat*, *flicker*ᴷ |
+    | 2 | *blur*, *misty step*, *pass without a trace* |
+    | 3 | *blink*, *nondetection*, *turbulent warp*ᴷ |
+    | 4 | *banishment*, *dimension cutter*ᴷ, *dimension door* |
+    | 5 | *flickering strikes*ᴷ, *spatial manipulation*ᴷ |
 
-If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
+    If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.
 
 <hr>
 
