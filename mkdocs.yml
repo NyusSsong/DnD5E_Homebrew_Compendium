@@ -52,6 +52,7 @@ nav:
         - Warden: classes/kibbles/kt_warden.md
         - Warlord: classes/kibbles/kt_warlord.md
       - Valda:
+        - Martyr: classes/valda/valda_martyr.md
         - Warden: classes/valda/valda_warden.md
   - Magic Items: magic-items.md
 
