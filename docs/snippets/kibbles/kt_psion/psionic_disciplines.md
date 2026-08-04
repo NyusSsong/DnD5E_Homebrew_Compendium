@@ -23,40 +23,40 @@ Your psychic powers are those of a predator, and your prey is the minds of other
 
 After using your Mind Leech on a target, you can gain one skill, tool, or language proficiency that creature has until the end of your next long rest. If you use this ability again, you lose the last proficiency or language to acquire the new one.
 
-#### Mind Leech  
-*Psionic Power*
+??? spell_block "Mind Leech"
+    *Psionic Power*
 
-**Casting Time:** 1 action  
-**Range:** 30 feet  
-**Components:** S  
-**Duration:** Instantaneous  
+    **Casting Time:** 1 action  
+    **Range:** 30 feet  
+    **Components:** S  
+    **Duration:** Instantaneous  
 
-You assault the mind of a target you can see within range, rending and devouring its psionic energy. The target must succeed on a Charisma saving throw or take 1d6 psychic damage. If the target is frightened, charmed, stunned, restrained, grappled, or paralyzed, the psychic damage becomes 1d12 instead.
+    You assault the mind of a target you can see within range, rending and devouring its psionic energy. The target must succeed on a Charisma saving throw or take 1d6 psychic damage. If the target is frightened, charmed, stunned, restrained, grappled, or paralyzed, the psychic damage becomes 1d12 instead.
 
-On a failed save, you gain a psionic charge of consumed power until the end of your next turn. You can expend this charge when you deal damage to deal additional damage equal to your Intelligence modifier, or consume this charge at the end of your turn to gain temporary hit points equal to your Intelligence modifier. You can spend only one charge at a time.
+    On a failed save, you gain a psionic charge of consumed power until the end of your next turn. You can expend this charge when you deal damage to deal additional damage equal to your Intelligence modifier, or consume this charge at the end of your turn to gain temporary hit points equal to your Intelligence modifier. You can spend only one charge at a time.
 
-You can target the corpse of a recently perished creature with this power, as long as the target has died within the last minute and not been previously leeched by this power.
+    You can target the corpse of a recently perished creature with this power, as long as the target has died within the last minute and not been previously leeched by this power.
 
-* **Devouring (2 psi points).** The range of Mind Leech becomes a radius of 5 feet, centered on you.  
-* **Nourishing (1 psi point).** On a failed saving throw, you gain an additional psionic charge.  
-* **Rending (1+ psi points).** The target takes an additional die of damage (1d6 or 1d12) per psi point spent on a failed save.  
-* **Shredding (1 psi point).** You reduce the target’s next saving throw before the end of your next turn by 1d4.  
-* **Stunning (3 psi points).** On a failed save, the target becomes stunned until the start of your next turn. If the power affects multiple targets, choose one.  
-* **Thieving (1 psi point).** On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell). You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.
+    * **Devouring (2 psi points).** The range of Mind Leech becomes a radius of 5 feet, centered on you.  
+    * **Nourishing (1 psi point).** On a failed saving throw, you gain an additional psionic charge.  
+    * **Rending (1+ psi points).** The target takes an additional die of damage (1d6 or 1d12) per psi point spent on a failed save.  
+    * **Shredding (1 psi point).** You reduce the target’s next saving throw before the end of your next turn by 1d4.  
+    * **Stunning (3 psi points).** On a failed save, the target becomes stunned until the start of your next turn. If the power affects multiple targets, choose one.  
+    * **Thieving (1 psi point).** On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell). You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.
 
-#### Alternate Effects
+??? generic_magic "Alternate Effects"
 
-When you learn the Consumption Discipline, you can use your Psionics feature to cast the following spells:
+    When you learn the Consumption Discipline, you can use your Psionics feature to cast the following spells:
 
-| Point Cost | Alternate Effect |
-|:------------:|:-------------------------:|
-| 1 | *inflict wounds* |
-| 2 | *psychic drain*ᴷ |
-| 3 | *vampiric touch* |
-| 4 | *blight* |
-| 5 | *devouring darkness*ᴷ |
+    | Point Cost | Alternate Effect |
+    |:------------:|:-------------------------:|
+    | 1 | *inflict wounds* |
+    | 2 | *psychic drain*ᴷ |
+    | 3 | *vampiric touch* |
+    | 4 | *blight* |
+    | 5 | *devouring darkness*ᴷ |
 
-If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.
+    If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.
 
 <hr>
 
@@ -72,36 +72,36 @@ Enhancement is the ability to interact with a creature’s nature and abilities 
 
 You can focus your psionics to enhance your abilities. Whenever you make an ability check using Strength or Dexterity, you can add 1d4 to the result.
 
-#### Enhancing Surge
-*Psionic Power*
+??? spell_block "Enhancing Surge"
+    *Psionic Power*
 
-**Casting Time:** 1 action  
-**Range:** 60 feet  
-**Components:** S  
-**Duration:** 1 round  
+    **Casting Time:** 1 action  
+    **Range:** 60 feet  
+    **Components:** S  
+    **Duration:** 1 round  
 
-You empower the body of a target creature you can see with your psionics. The target gains 1d6 temporary hit points and the next time the target deals damage, it deals 1d6 additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.
+    You empower the body of a target creature you can see with your psionics. The target gains 1d6 temporary hit points and the next time the target deals damage, it deals 1d6 additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.
 
-You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.
+    You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-* **Fortifying (1+ psi points).** The target gains an extra 1d6 temporary hit points for each point spent.
-* **Resilient (3 psi points).** The target gains resistance to all damage until the start of your next turn.
-* **Savage (1+ psi points).** The target’s next weapon attack deals 1d6 additional damage for each point spent.
-* **Swift (2 psi points).** The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
+    * **Fortifying (1+ psi points).** The target gains an extra 1d6 temporary hit points for each point spent.
+    * **Resilient (3 psi points).** The target gains resistance to all damage until the start of your next turn.
+    * **Savage (1+ psi points).** The target’s next weapon attack deals 1d6 additional damage for each point spent.
+    * **Swift (2 psi points).** The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
 
-#### Alternate Effects
+??? generic_magic "Alternate Effects"
 
-When you learn the Enhancement Discipline, you can use your Psionics feature to cast the following spells:
+    When you learn the Enhancement Discipline, you can use your Psionics feature to cast the following spells:
 
-| Point Cost | Alternate Effect |
-|:----------:|:----------------:|
-| 1 | *heroism*, *longstrider*, *unlocked potential*ᴷ |
-| 2 | *alter self*, *enlarge/reduce*, *lesser restoration* |
-| 3 | *haste*, *protection from energy* |
-| 4 | *freedom of movement*, *stoneskin* |
-| 5 | *greater restoration*, *invested competency*ᴷ |
+    | Point Cost | Alternate Effect |
+    |:----------:|:----------------:|
+    | 1 | *heroism*, *longstrider*, *unlocked potential*ᴷ |
+    | 2 | *alter self*, *enlarge/reduce*, *lesser restoration* |
+    | 3 | *haste*, *protection from energy* |
+    | 4 | *freedom of movement*, *stoneskin* |
+    | 5 | *greater restoration*, *invested competency*ᴷ |
 
-If a spell can be cast at a higher level, you can spend additional psi points to cast it at that level.
+    If a spell can be cast at a higher level, you can spend additional psi points to cast it at that level.
 
 <hr>
 
@@ -119,39 +119,39 @@ When you gain this feature, you can create an aura of interference, wreathing yo
 
 If you are grappling or otherwise touching a spellcasting or psionic creature, at the start of your turn you can expend 1 or more psi to interfere with their abilities until the start of your next turn. In order to cast a spell or use a psionic power, they must succeed on a saving throw of their spellcasting or psionic ability score against your psionics DC, unless they are casting a spell with a higher level or using a power with more psi points than the psi points spent on this feature.
 
-#### Denial
-*Psionic Power*
+??? spell_block "Denial"
+    *Psionic Power*
 
-**Casting Time:** 1 action  
-**Range:** 30 feet  
-**Components:** S  
-**Duration:** Instantaneous  
+    **Casting Time:** 1 action  
+    **Range:** 30 feet  
+    **Components:** S  
+    **Duration:** Instantaneous  
 
-You release a burst of raw psionic nullification at a creature you can see within range. The creature must make a Charisma saving throw. On failure, it takes 1d4 force damage as its existence is disrupted.
+    You release a burst of raw psionic nullification at a creature you can see within range. The creature must make a Charisma saving throw. On failure, it takes 1d4 force damage as its existence is disrupted.
 
-If the target is an aberration, celestial, construct, elemental, fey, fiend, undead, or a creature with the ability to cast spells or use psionic powers, it takes an extra 1d4 force damage, and becomes disoriented; until the end of its next turn, it rolls a d4 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. A creature can choose to fail the saving throw.
+    If the target is an aberration, celestial, construct, elemental, fey, fiend, undead, or a creature with the ability to cast spells or use psionic powers, it takes an extra 1d4 force damage, and becomes disoriented; until the end of its next turn, it rolls a d4 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. A creature can choose to fail the saving throw.
 
-You can spend psi points up to your per-use limit to add the following modifiers to Denial (you can add multiple modifiers). The points must be spent when choosing the target of the power.
+    You can spend psi points up to your per-use limit to add the following modifiers to Denial (you can add multiple modifiers). The points must be spent when choosing the target of the power.
 
-* **Aura (3 psi points).** Instead of targeting a creature, the power becomes an effect around you with a radius of 20 feet until the start of your next turn; any creature of your choice that enters or starts its turn in the area must make a saving throw against the power.
-* **Existential (1+ psi points).** You deal an additional 1d4 initial and bonus (if applicable) force damage to the target on a failed save.
-* **Firm (2 psi points).** The creature has disadvantage on the saving throw against this ability.
-* **Lingering (1+ psi points).** You can apply the effect of Disruptive Touch to an affected creature.
-* **Supernatural (1+ psi points).** A supernatural effect of or on the creature is ended; if the effect is a magical or psionic power, it ends only if the psi points spent on this modifier equals or exceeds the spell level or psi points spent on the effect. If the property is innate (of the target or affecting the target), it ends only if the psi points exceed the CR (or class levels) of the creature, and it returns at the end of that creature’s next turn. The supernatural effect cannot be its existence unless it has fewer than 10 hit points and otherwise qualifies.
+    * **Aura (3 psi points).** Instead of targeting a creature, the power becomes an effect around you with a radius of 20 feet until the start of your next turn; any creature of your choice that enters or starts its turn in the area must make a saving throw against the power.
+    * **Existential (1+ psi points).** You deal an additional 1d4 initial and bonus (if applicable) force damage to the target on a failed save.
+    * **Firm (2 psi points).** The creature has disadvantage on the saving throw against this ability.
+    * **Lingering (1+ psi points).** You can apply the effect of Disruptive Touch to an affected creature.
+    * **Supernatural (1+ psi points).** A supernatural effect of or on the creature is ended; if the effect is a magical or psionic power, it ends only if the psi points spent on this modifier equals or exceeds the spell level or psi points spent on the effect. If the property is innate (of the target or affecting the target), it ends only if the psi points exceed the CR (or class levels) of the creature, and it returns at the end of that creature’s next turn. The supernatural effect cannot be its existence unless it has fewer than 10 hit points and otherwise qualifies.
 
-#### Alternate Effects
+??? generic_magic "Alternate Effects"
 
-When you learn the Nullification Discipline, you can use your Psionics feature to cast the following spells:
+    When you learn the Nullification Discipline, you can use your Psionics feature to cast the following spells:
 
-| Point Cost | Alternate Effect |
-|:----------:|:----------------:|
-| 1 | *protection from evil and good* |
-| 2 | *nullify effect*ᴷ |
-| 3 | *counterspell*, *dispel magic*, *remove curse* |
-| 4 | *banishment* |
-| 5 | *dispel evil and good* |
+    | Point Cost | Alternate Effect |
+    |:----------:|:----------------:|
+    | 1 | *protection from evil and good* |
+    | 2 | *nullify effect*ᴷ |
+    | 3 | *counterspell*, *dispel magic*, *remove curse* |
+    | 4 | *banishment* |
+    | 5 | *dispel evil and good* |
 
-If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.
+    If a spell can be cast at a higher level, you can spend an additional psi point to cast it at that level.
 
 <hr>
 
@@ -171,40 +171,40 @@ Your eyes wander to events before they happen. You can add your proficiency to P
 
 If you concentrate on keeping an eye on the future (as if concentrating on a spell), you can use your Intelligence modifier for Wisdom (Perception) checks (instead of Wisdom) and initiative rolls (instead of Dexterity), and you make Intelligence saving throws in place of Dexterity saving throws. You can initiate this concentration at any time.
 
-#### Seeing
-*Psionic Power*
+??? spell_block "Seeing"
+    *Psionic Power*
 
-**Casting Time:** 1 action  
-**Range:** Self  
-**Components:** S  
-**Duration:** Instantaneous  
+    **Casting Time:** 1 action  
+    **Range:** Self  
+    **Components:** S  
+    **Duration:** Instantaneous  
 
-You concentrate and peer into the stream of future possibilities, gaining insight into what will happen next. Choose one of the following:
+    You concentrate and peer into the stream of future possibilities, gaining insight into what will happen next. Choose one of the following:
 
-* You can grant advantage to yourself or to a creature that can see or hear you on their next attack roll before the start of your next turn. If an attack that gained advantage from this feature hits, it deals an extra 1d6 damage.
-* You can impose disadvantage on the next attack roll made against yourself or a creature that can see or hear you before the start of your next turn. If that attack hits despite the disadvantage, the damaged creature rolls 1d6 and subtracts the result from the damage taken.
-* You can spend psi points up to your per-use limit to add the following modifiers to Seeing (you can add multiple modifiers):
+    * You can grant advantage to yourself or to a creature that can see or hear you on their next attack roll before the start of your next turn. If an attack that gained advantage from this feature hits, it deals an extra 1d6 damage.
+    * You can impose disadvantage on the next attack roll made against yourself or a creature that can see or hear you before the start of your next turn. If that attack hits despite the disadvantage, the damaged creature rolls 1d6 and subtracts the result from the damage taken.
+    * You can spend psi points up to your per-use limit to add the following modifiers to Seeing (you can add multiple modifiers):
 
-    * **Omniscient (1 psi point).** The beneficiary of your Seeing is under the effects of *bless* and *guidance* until the start of your next turn.  
-    * **Piercing (1+ psi points).** You see through the target’s defenses when granting advantage, increasing the damage of the attack benefiting from advantage by 1d8 per psi point spent, if it hits.  
-    * **Positioning (1+ psi points).** The beneficiary of your Seeing can immediately move 5 feet per psi point spent (up to their speed) without provoking opportunity attacks.  
-    * **Thwarting (2 psi points).** The beneficiary of your Seeing has advantage on the next saving throw they make before the start of your next turn.  
-    * **Withheld (0 psi points).** Rather than granting advantage or disadvantage on the next attack, you can grant advantage or impose disadvantage as a reaction to an attack being made until the start of your next turn.
+        * **Omniscient (1 psi point).** The beneficiary of your Seeing is under the effects of *bless* and *guidance* until the start of your next turn.  
+        * **Piercing (1+ psi points).** You see through the target’s defenses when granting advantage, increasing the damage of the attack benefiting from advantage by 1d8 per psi point spent, if it hits.  
+        * **Positioning (1+ psi points).** The beneficiary of your Seeing can immediately move 5 feet per psi point spent (up to their speed) without provoking opportunity attacks.  
+        * **Thwarting (2 psi points).** The beneficiary of your Seeing has advantage on the next saving throw they make before the start of your next turn.  
+        * **Withheld (0 psi points).** Rather than granting advantage or disadvantage on the next attack, you can grant advantage or impose disadvantage as a reaction to an attack being made until the start of your next turn.
 
-#### Alternate Effects
+??? generic_magic "Alternate Effects"
 
-When you learn the Precognition Discipline, you can use your Psionics feature to cast the following spells:
+    When you learn the Precognition Discipline, you can use your Psionics feature to cast the following spells:
 
-| Point Cost | Alternate Effect |
-|:----------:|:----------------:|
-| 1 | *detect good and evil*, *future insight*ᴷ |
-| 2 | *augury*†, *glimpse the future*ᴷ |
-| 3 | *clairvoyance* |
-| 4 | *death ward*†, *divination* |
-| 5 | *scrying* |
+    | Point Cost | Alternate Effect |
+    |:----------:|:----------------:|
+    | 1 | *detect good and evil*, *future insight*ᴷ |
+    | 2 | *augury*†, *glimpse the future*ᴷ |
+    | 3 | *clairvoyance* |
+    | 4 | *death ward*†, *divination* |
+    | 5 | *scrying* |
 
-† *augury* has the same effect, but doesn’t consult a specific entity when cast in this way.  
-† *death ward* has the same effect, but gives a forewarning to a creature allowing them to avoid death when cast in this way.
+    † *augury* has the same effect, but doesn’t consult a specific entity when cast in this way.  
+    † *death ward* has the same effect, but gives a forewarning to a creature allowing them to avoid death when cast in this way.
 
 <hr>
 

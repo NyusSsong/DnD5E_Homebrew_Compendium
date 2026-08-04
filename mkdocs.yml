@@ -48,6 +48,7 @@ nav:
         - Warlock: classes/base_classes/warlock.md
         - Wizard: classes/base_classes/wizard.md
       - Kibbles Tasty:
+        - Inventor: classes/kibbles/kt_inventor.md
         - Psion: classes/kibbles/kt_psion.md
         - Warden: classes/kibbles/kt_warden.md
         - Warlord: classes/kibbles/kt_warlord.md
@@ -61,6 +62,7 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: docs/snippets
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.caret
@@ -73,6 +75,7 @@ markdown_extensions:
 extra_css:
   - assets/css/custom.css
   - assets/css/magic-items.css
+  - assets/css/admonition.css
 extra_javascript:
   - assets/js/filter-js
   - assets/js/magic-items.js
