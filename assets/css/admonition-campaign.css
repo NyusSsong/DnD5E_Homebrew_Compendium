@@ -1,0 +1,234 @@
+/* ============================================================
+   ADMONITIONS — CAMPAIGN
+   ============================================================ */
+
+:root {
+  --md-admonition-icon--character: url("../icons/svg/campaign/character.svg");
+  --md-admonition-icon--explore: url("../icons/svg/campaign/explore.svg");
+  --md-admonition-icon--feature: url("../icons/svg/campaign/feature.svg");
+  --md-admonition-icon--hazard: url("../icons/svg/campaign/hazard.svg");
+  --md-admonition-icon--lock: url("../icons/svg/campaign/lock.svg");
+  --md-admonition-icon--monster: url("../icons/svg/campaign/monster.svg");
+  --md-admonition-icon--party: url("../icons/svg/campaign/party.svg");
+  --md-admonition-icon--puzzle: url("../icons/svg/campaign/puzzle.svg");
+  --md-admonition-icon--rest: url("../icons/svg/campaign/rest.svg");
+  --md-admonition-icon--social: url("../icons/svg/campaign/social.svg");
+  --md-admonition-icon--source-book: url("../icons/svg/campaign/source-book.svg");
+  --md-admonition-icon--spell: url("../icons/svg/campaign/spell.svg");
+  --md-admonition-icon--subclass: url("../icons/svg/campaign/subclass.svg");
+  --md-admonition-icon--trap: url("../icons/svg/campaign/trap.svg");
+}
+
+/* ============================================================
+   ADMONITIONS — CAMPAIGN - TYPESETS
+   ============================================================ */
+
+.md-typeset .admonition.character,
+.md-typeset details.character {
+  border-color: rgb(80, 120, 200);
+}
+.md-typeset .character > .admonition-title,
+.md-typeset .character > summary {
+  background-color: rgba(80, 120, 200, 0.1);
+}
+.md-typeset .character > .admonition-title::before,
+.md-typeset .character > summary::before {
+  background-color: rgb(80, 120, 200);
+  -webkit-mask-image: var(--md-admonition-icon--character);
+          mask-image: var(--md-admonition-icon--character);
+}
+
+.md-typeset .admonition.explore,
+.md-typeset details.explore {
+  border-color: rgb(100, 160, 100);
+}
+.md-typeset .explore > .admonition-title,
+.md-typeset .explore > summary {
+  background-color: rgba(100, 160, 100, 0.1);
+}
+.md-typeset .explore > .admonition-title::before,
+.md-typeset .explore > summary::before {
+  background-color: rgb(100, 160, 100);
+  -webkit-mask-image: var(--md-admonition-icon--explore);
+          mask-image: var(--md-admonition-icon--explore);
+}
+
+.md-typeset .admonition.feature,
+.md-typeset details.feature {
+  border-color: rgb(230, 180, 30);
+}
+.md-typeset .feature > .admonition-title,
+.md-typeset .feature > summary {
+  background-color: rgba(230, 180, 30, 0.1);
+}
+.md-typeset .feature > .admonition-title::before,
+.md-typeset .feature > summary::before {
+  background-color: rgb(230, 180, 30);
+  -webkit-mask-image: var(--md-admonition-icon--feature);
+          mask-image: var(--md-admonition-icon--feature);
+}
+
+.md-typeset .admonition.hazard,
+.md-typeset details.hazard {
+  border-color: rgb(210, 120, 60);
+}
+.md-typeset .hazard > .admonition-title,
+.md-typeset .hazard > summary {
+  background-color: rgba(210, 120, 60, 0.1);
+}
+.md-typeset .hazard > .admonition-title::before,
+.md-typeset .hazard > summary::before {
+  background-color: rgb(210, 120, 60);
+  -webkit-mask-image: var(--md-admonition-icon--hazard);
+          mask-image: var(--md-admonition-icon--hazard);
+}
+
+.md-typeset .admonition.lock,
+.md-typeset details.lock {
+  border-color: rgb(140, 140, 140);
+}
+.md-typeset .lock > .admonition-title,
+.md-typeset .lock > summary {
+  background-color: rgba(140, 140, 140, 0.1);
+}
+.md-typeset .lock > .admonition-title::before,
+.md-typeset .lock > summary::before {
+  background-color: rgb(140, 140, 140);
+  -webkit-mask-image: var(--md-admonition-icon--lock);
+          mask-image: var(--md-admonition-icon--lock);
+}
+
+.md-typeset .admonition.monster,
+.md-typeset details.monster {
+  border-color: rgb(180, 60, 60);
+}
+.md-typeset .monster > .admonition-title,
+.md-typeset .monster > summary {
+  background-color: rgba(180, 60, 60, 0.1);
+}
+.md-typeset .monster > .admonition-title::before,
+.md-typeset .monster > summary::before {
+  background-color: rgb(180, 60, 60);
+  -webkit-mask-image: var(--md-admonition-icon--monster);
+          mask-image: var(--md-admonition-icon--monster);
+}
+
+.md-typeset .admonition.party,
+.md-typeset details.party {
+  border-color: rgb(150, 90, 200);
+}
+.md-typeset .party > .admonition-title,
+.md-typeset .party > summary {
+  background-color: rgba(150, 90, 200, 0.1);
+}
+.md-typeset .party > .admonition-title::before,
+.md-typeset .party > summary::before {
+  background-color: rgb(150, 90, 200);
+  -webkit-mask-image: var(--md-admonition-icon--party);
+          mask-image: var(--md-admonition-icon--party);
+}
+
+.md-typeset .admonition.puzzle,
+.md-typeset details.puzzle {
+  border-color: rgb(220, 180, 60);
+}
+.md-typeset .puzzle > .admonition-title,
+.md-typeset .puzzle > summary {
+  background-color: rgba(220, 180, 60, 0.1);
+}
+.md-typeset .puzzle > .admonition-title::before,
+.md-typeset .puzzle > summary::before {
+  background-color: rgb(220, 180, 60);
+  -webkit-mask-image: var(--md-admonition-icon--puzzle);
+          mask-image: var(--md-admonition-icon--puzzle);
+}
+
+.md-typeset .admonition.rest,
+.md-typeset details.rest {
+  border-color: rgb(90, 140, 180);
+}
+.md-typeset .rest > .admonition-title,
+.md-typeset .rest > summary {
+  background-color: rgba(90, 140, 180, 0.1);
+}
+.md-typeset .rest > .admonition-title::before,
+.md-typeset .rest > summary::before {
+  background-color: rgb(90, 140, 180);
+  -webkit-mask-image: var(--md-admonition-icon--rest);
+          mask-image: var(--md-admonition-icon--rest);
+}
+
+.md-typeset .admonition.social,
+.md-typeset details.social {
+  border-color: rgb(200, 120, 160);
+}
+.md-typeset .social > .admonition-title,
+.md-typeset .social > summary {
+  background-color: rgba(200, 120, 160, 0.1);
+}
+.md-typeset .social > .admonition-title::before,
+.md-typeset .social > summary::before {
+  background-color: rgb(200, 120, 160);
+  -webkit-mask-image: var(--md-admonition-icon--social);
+          mask-image: var(--md-admonition-icon--social);
+}
+
+.md-typeset .admonition.source-book,
+.md-typeset details.source-book {
+  border-color: rgb(200, 180, 140);
+}
+.md-typeset .source-book > .admonition-title,
+.md-typeset .source-book > summary {
+  background-color: rgba(200, 180, 140, 0.1);
+}
+.md-typeset .source-book > .admonition-title::before,
+.md-typeset .source-book > summary::before {
+  background-color: rgb(200, 180, 140);
+  -webkit-mask-image: var(--md-admonition-icon--source-book);
+          mask-image: var(--md-admonition-icon--source-book);
+}
+
+.md-typeset .admonition.subclass,
+.md-typeset details.subclass {
+  border-color: rgb(150, 90, 200);
+}
+.md-typeset .subclass > .admonition-title,
+.md-typeset .subclass > summary {
+  background-color: rgba(150, 90, 200, 0.1);
+}
+.md-typeset .subclass > .admonition-title::before,
+.md-typeset .subclass > summary::before {
+  background-color: rgb(150, 90, 200);
+  -webkit-mask-image: var(--md-admonition-icon--subclass);
+          mask-image: var(--md-admonition-icon--subclass);
+}
+
+.md-typeset .admonition.spell,
+.md-typeset details.spell {
+  border-color: rgb(100, 140, 220);
+}
+.md-typeset .spell > .admonition-title,
+.md-typeset .spell > summary {
+  background-color: rgba(100, 140, 220, 0.1);
+}
+.md-typeset .spell > .admonition-title::before,
+.md-typeset .spell > summary::before {
+  background-color: rgb(100, 140, 220);
+  -webkit-mask-image: var(--md-admonition-icon--spell);
+          mask-image: var(--md-admonition-icon--spell);
+}
+
+.md-typeset .admonition.trap,
+.md-typeset details.trap {
+  border-color: rgb(200, 80, 80);
+}
+.md-typeset .trap > .admonition-title,
+.md-typeset .trap > summary {
+  background-color: rgba(200, 80, 80, 0.1);
+}
+.md-typeset .trap > .admonition-title::before,
+.md-typeset .trap > summary::before {
+  background-color: rgb(200, 80, 80);
+  -webkit-mask-image: var(--md-admonition-icon--trap);
+          mask-image: var(--md-admonition-icon--trap);
+}

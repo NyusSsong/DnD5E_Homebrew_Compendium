@@ -57,6 +57,14 @@
     
       <link rel="stylesheet" href="../../../assets/css/magic-items.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -817,6 +825,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../kibbles/kt_psion/" class="md-nav__link">
         
   
@@ -948,6 +984,34 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1483,7 +1547,8 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <option value="exploit_degree5">Degree 5 Exploits</option>
 </select></p>
 <div class="exploit-content" data-exploit="exploit_degree1">
-<h3 id="1st-degree-exploits"><ins>1st-Degree Exploits</ins></h3>
+<details class="feature">
+<summary>1st-Degree Exploits</summary>
 <p>Exploits of the 1st-degree are minor techniques slightly more complicated than swinging a weapon. They can be learned by warriors with modest training and have no level prerequisite.</p>
 <h4 id="bonebreaking-critical">Bonebreaking Critical</h4>
 <p><em>Prerequisites: Strength of 11</em></p>
@@ -1546,9 +1611,11 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <h4 id="trampling-rush">Trampling Rush</h4>
 <p><em>Prerequisites: Strength of 11</em></p>
 <p>When you move at least 20 feet toward a creature and hit it with a melee weapon attack, you can expend an Exploit Die and attempt to trample the creature. It must succeed on a Strength saving throw, or it takes additional damage equal to one roll of your Exploit Die and is knocked prone.</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="exploit_degree2">
-<h3 id="2nd-degree-exploits"><ins>2nd-Degree Exploits</ins></h3>
+<details class="feature">
+<summary>2nd-Degree Exploits</summary>
 <p>Exploits of this degree represent the absolute peak of savage skill that is achievable without dedicated training. 2nd-degree Exploits can be learned by Barbarians of 5th level or higher.</p>
 <h4 id="aggressive-sprint">Aggressive Sprint</h4>
 <p><em>Prerequisites: 5th level</em></p>
@@ -1613,9 +1680,11 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <h4 id="whirlwind-strike">Whirlwind Strike</h4>
 <p><em>Prerequisites: 5th level, Strength or Dexterity of 13</em></p>
 <p>In place of an attack, you can expend an Exploit Die and force each target within reach of a melee weapon you are wielding to make a Dexterity saving throw. Targets take damage equal to a roll of your Exploit Die + your Strength or Dexterity modifier (your choice) on a failed save, and half as much damage on a success.</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="exploit_degree3">
-<h3 id="3rd-degree-exploits"><ins>3rd-Degree Exploits</ins></h3>
+<details class="feature">
+<summary>3rd-Degree Exploits</summary>
 <p>These Exploits are masterful feats of savagery, and can only be learned by Barbarians of 9th level or higher. Each Exploit of 3rd-degree can only be used once per short or long rest.</p>
 <h4 id="adrenaline-rush">Adrenaline Rush</h4>
 <p><em>Prerequisites: 9th level, Strength or Constitution of 15</em></p>
@@ -1682,9 +1751,11 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <h4 id="war-cry">War Cry</h4>
 <p><em>Prerequisites: 9th level</em></p>
 <p>As an action, you can expend one Exploit Die and issue a mighty cry, forcing creatures of your choice that can hear you in an adjacent 30-foot cone to make a Wisdom saving throw. On a failed save, they drop whatever they are holding and are frightened of you for 1 minute. If a frightened creature ends its turn and does not have line of sight to you, it can repeat the saving throw, ending the effect on a success.</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="exploit_degree4">
-<h3 id="4th-degree-exploits"><ins>4th-Degree Exploits</ins></h3>
+<details class="feature">
+<summary>4th-Degree Exploits</summary>
 <p>Exploits of this degree can only be learned by Barbarians of 13th level or higher, and each 4th-degree Exploit that you know can only be used once per short or long rest.</p>
 <h4 id="devastating-critical">Devastating Critical</h4>
 <p><em>Prerequisites: 13th level, Strength of 17</em></p>
@@ -1746,9 +1817,11 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <h4 id="unbreakable">Unbreakable</h4>
 <p><em>Prerequisites: 13th level, Constitution of 17</em></p>
 <p>When you take damage that would reduce you to 0 hit points, even if that damage would kill you outright, you can spend Exploit Dice (up to your proficiency bonus) and fall to 1 hit point. For each Exploit Die you spent, you roll three Exploit Dice, and you gain temporary hit points equal to the total rolled.</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="exploit_degree5">
-<h3 id="5th-degree-exploits"><ins>5th-Degree Exploits</ins></h3>
+<details class="feature">
+<summary>5th-Degree Exploits</summary>
 <p>Exploits of the fifth degree are feats of savage skill that rival those of great monsters. These Exploits can only be learned by Barbarians of 17th level or higher, and each 5th-degree Exploit can only be used once per long rest.</p>
 <h4 id="banishing-strike">Banishing Strike</h4>
 <p><em>Prerequisites: 17th level, Strength of 19</em></p>
@@ -1762,6 +1835,7 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <p>When you score a critical hit with a melee attack on a creature, you can expend one Exploit Die to strike with brutal legendary force and deal additional damage equal to three rolls of your Exploit Die.</p>
 <p>If the damage of this Exploit reduces the target's remaining hit points to 50 or fewer, you instantly cut off one of its heads. If it can't survive without that head, it is killed.</p>
 <p>Creatures can use Legendary Resistance to avoid being beheaded. Any creatures that don't have or don't need a head are immune to this Exploit's effects, but still take the additional damage on hit.</p>
+</details>
 </div>
 </div>
 <div class="tabbed-block">
