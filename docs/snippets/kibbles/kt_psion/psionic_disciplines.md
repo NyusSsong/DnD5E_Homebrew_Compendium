@@ -23,7 +23,7 @@ Your psychic powers are those of a predator, and your prey is the minds of other
 
 After using your Mind Leech on a target, you can gain one skill, tool, or language proficiency that creature has until the end of your next long rest. If you use this ability again, you lose the last proficiency or language to acquire the new one.
 
-??? spell_block "Mind Leech"
+??? spell "Mind Leech"
     *Psionic Power*
 
     **Casting Time:** 1 action  
@@ -44,7 +44,7 @@ After using your Mind Leech on a target, you can gain one skill, tool, or langua
     * **Stunning (3 psi points).** On a failed save, the target becomes stunned until the start of your next turn. If the power affects multiple targets, choose one.  
     * **Thieving (1 psi point).** On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell). You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     When you learn the Consumption Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -72,7 +72,7 @@ Enhancement is the ability to interact with a creature’s nature and abilities 
 
 You can focus your psionics to enhance your abilities. Whenever you make an ability check using Strength or Dexterity, you can add 1d4 to the result.
 
-??? spell_block "Enhancing Surge"
+??? spell "Enhancing Surge"
     *Psionic Power*
 
     **Casting Time:** 1 action  
@@ -89,7 +89,7 @@ You can focus your psionics to enhance your abilities. Whenever you make an abil
     * **Savage (1+ psi points).** The target’s next weapon attack deals 1d6 additional damage for each point spent.
     * **Swift (2 psi points).** The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     When you learn the Enhancement Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -119,7 +119,7 @@ When you gain this feature, you can create an aura of interference, wreathing yo
 
 If you are grappling or otherwise touching a spellcasting or psionic creature, at the start of your turn you can expend 1 or more psi to interfere with their abilities until the start of your next turn. In order to cast a spell or use a psionic power, they must succeed on a saving throw of their spellcasting or psionic ability score against your psionics DC, unless they are casting a spell with a higher level or using a power with more psi points than the psi points spent on this feature.
 
-??? spell_block "Denial"
+??? spell "Denial"
     *Psionic Power*
 
     **Casting Time:** 1 action  
@@ -139,7 +139,7 @@ If you are grappling or otherwise touching a spellcasting or psionic creature, a
     * **Lingering (1+ psi points).** You can apply the effect of Disruptive Touch to an affected creature.
     * **Supernatural (1+ psi points).** A supernatural effect of or on the creature is ended; if the effect is a magical or psionic power, it ends only if the psi points spent on this modifier equals or exceeds the spell level or psi points spent on the effect. If the property is innate (of the target or affecting the target), it ends only if the psi points exceed the CR (or class levels) of the creature, and it returns at the end of that creature’s next turn. The supernatural effect cannot be its existence unless it has fewer than 10 hit points and otherwise qualifies.
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     When you learn the Nullification Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -171,7 +171,7 @@ Your eyes wander to events before they happen. You can add your proficiency to P
 
 If you concentrate on keeping an eye on the future (as if concentrating on a spell), you can use your Intelligence modifier for Wisdom (Perception) checks (instead of Wisdom) and initiative rolls (instead of Dexterity), and you make Intelligence saving throws in place of Dexterity saving throws. You can initiate this concentration at any time.
 
-??? spell_block "Seeing"
+??? spell "Seeing"
     *Psionic Power*
 
     **Casting Time:** 1 action  
@@ -191,7 +191,7 @@ If you concentrate on keeping an eye on the future (as if concentrating on a spe
         * **Thwarting (2 psi points).** The beneficiary of your Seeing has advantage on the next saving throw they make before the start of your next turn.  
         * **Withheld (0 psi points).** Rather than granting advantage or disadvantage on the next attack, you can grant advantage or impose disadvantage as a reaction to an attack being made until the start of your next turn.
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     When you learn the Precognition Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -223,7 +223,7 @@ Weapons created with this feature deal force damage.
 
 Projected items fade after 1 minute, and you can have no more than 3 projected items at a time.
 
-??? spell_block "Astral Construct"  
+??? spell "Astral Construct"  
     *Psionic Power*
 
     **Casting Time:** 1 action  
@@ -245,7 +245,7 @@ Projected items fade after 1 minute, and you can have no more than 3 projected i
     * **Strike (2 psi points).** The construct makes an attack, even if it has already attacked this turn.  
     * **Sustain (1+ psi points).** At the start of your turn, you can sustain the effects of Solidify, Grow, or Replicate for an additional round. Sustaining Replicate applies to all replicated constructs. Each effect can only be sustained once per turn. Sustaining Solidify restores the construct to its maximum hit points.  
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     When you learn the Projection Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -284,7 +284,7 @@ have a number of simultaneous effects active up your
 Intelligence modifier, after which creating another ends the
 oldest ongoing effect.
 
-??? spell_block "Elemental Blast"
+??? spell "Elemental Blast"
     *Psionic Power*
 
     **Casting Time:** 1 action
@@ -315,9 +315,9 @@ oldest ongoing effect.
     * **Massive (1–3 psi points).** You unleash a massive blast; rather than making an attack roll, all creatures within a 15-foot cone must make a Dexterity Saving throw. On failure, they take the effect as if hit by the Elemental Blast. The size of the cone is doubled for each point up to 3 spent (2 points for 30 feet, 3 points for 60 feet).
     * **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
-    Wwhen you learn the Psychokinesis psionic
+    When you learn the Psychokinesis psionic
     discipline you can use your Psionics feature to cast the
     following spells:
 
@@ -359,7 +359,7 @@ You can spend 1 or more psi points to increase how much
 you can move this way by 100 pounds per psi point spent for 1
 turn.
 
-??? spell_block "Telekinetic Force"
+??? spell "Telekinetic Force"
     *Psionic power*
 
     **Casting Time:** 1 action
@@ -389,7 +389,7 @@ turn.
     5-foot radius of a point within range. The radius doubles for
     each point spent (5 feet, 10 feet, 20 feet).
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     Additionally, when you learn the Telekinesis psionic
     discipline you can use your Psionics feature to cast the
@@ -422,7 +422,7 @@ Telepathy is the ability to interact with the minds of other creatures using you
 
 When you gain this feature, you can communicate telepathically with any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Creatures you communicate with can reply in kind.
 
-??? spell_block "Telepathic Intrusion"
+??? spell "Telepathic Intrusion"
     *Psionic power*
 
     **Casting Time:** 1 action  
@@ -439,7 +439,7 @@ When you gain this feature, you can communicate telepathically with any creature
     * **Rending (1+ psi points).** The target takes 1d8 psychic damage for each additional point spent on a failed save.
     * **Terrifying (1 psi point).** The target is frightened of you until the end of your next turn if it fails its saving throw.
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     Additionally, when you learn the Telepathy psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
 
@@ -467,7 +467,7 @@ Transposition is the ability to modify the properties of space and manipulate di
 
 On your turn, you can replace your movement by teleporting 5 feet in any direction to a space you can see. You can pass through creatures but can’t pass through objects, buildings, or terrain more than 4 inches thick. This distance increases by 5 feet at 5th level (to 10 feet), at 11th level (to 15 feet), and becomes equal to your speed at 17th level. This replaces all movement for your turn when used.
 
-??? spell_block "Phase Rift"
+??? spell "Phase Rift"
     *Psionic power*
 
     **Casting Time:** 1 action  
@@ -485,7 +485,7 @@ On your turn, you can replace your movement by teleporting 5 feet in any directi
     * **Ethereal (2 psi points).** You can pass through solid objects, buildings, and terrain as long as you end your Phase Rift in a space you can occupy. If your Phase Rift would end inside a space you can’t occupy, the power fails.  
     * **Long (1–3 psi points).** You can travel an additional 10 feet for each point spent.  
 
-??? generic_magic "Alternate Effects"
+??? spellbook "Alternate Effects"
 
     Additionally, when you learn the Transposition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
 

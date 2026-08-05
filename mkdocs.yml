@@ -75,7 +75,10 @@ markdown_extensions:
 extra_css:
   - assets/css/custom.css
   - assets/css/magic-items.css
-  - assets/css/admonition.css
+  - assets/css/admonition-combat.css
+  - assets/css/admonition-entity.css
+  - assets/css/admonition-campaign.css
+  - assets/css/admonition-creature.css
 extra_javascript:
   - assets/js/filter-js
   - assets/js/magic-items.js
