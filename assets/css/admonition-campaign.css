@@ -16,6 +16,7 @@
   --md-admonition-icon--source-book: url("../icons/svg/campaign/source-book.svg");
   --md-admonition-icon--spell: url("../icons/svg/campaign/spell.svg");
   --md-admonition-icon--subclass: url("../icons/svg/campaign/subclass.svg");
+  --md-admonition-icon--table: url("../icons/svg/campaign/table.svg");
   --md-admonition-icon--trap: url("../icons/svg/campaign/trap.svg");
 }
 
@@ -216,6 +217,23 @@
   background-color: rgb(100, 140, 220);
   -webkit-mask-image: var(--md-admonition-icon--spell);
           mask-image: var(--md-admonition-icon--spell);
+}
+
+.md-typeset .admonition.table,
+.md-typeset details.table {
+  border-color: rgb(100, 130, 160);
+}
+
+.md-typeset .table > .admonition-title,
+.md-typeset .table > summary {
+  background-color: rgba(100, 130, 160, 0.1);
+}
+
+.md-typeset .table > .admonition-title::before,
+.md-typeset .table > summary::before {
+  background-color: rgb(100, 130, 160);
+  -webkit-mask-image: var(--md-admonition-icon--table);
+          mask-image: var(--md-admonition-icon--table);
 }
 
 .md-typeset .admonition.trap,
