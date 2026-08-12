@@ -1,0 +1,193 @@
+project:
+  name: DnD 5E Homebrew Compendium
+  description: Homebrew classes and subclasses for Dungeons & Dragons 5th Edition
+  root: .
+  mkdocs_config: mkdocs.yml
+  generated_on: 2026-08-13
+
+sources:
+  - id: base_classes
+    label: Base Classes
+    page_root: docs/classes/base_classes
+    snippet_root: docs/snippets/base_classes
+    items:
+      - class_name: Barbarian
+        slug: barbarian
+        page: docs/classes/base_classes/barbarian.md
+        snippets:
+          - docs/snippets/base_classes/barbarian/progression.md
+          - docs/snippets/base_classes/barbarian/core_features.md
+          - docs/snippets/base_classes/barbarian/developed_talents.md
+          - docs/snippets/base_classes/barbarian/savage_exploits.md
+          - docs/snippets/base_classes/barbarian/alternate_subclasses.md
+          - docs/snippets/base_classes/barbarian/subclasses.md
+      - class_name: Bard
+        slug: bard
+        page: docs/classes/base_classes/bard.md
+        snippets:
+          - docs/snippets/base_classes/bard/progression.md
+          - docs/snippets/base_classes/bard/core_features.md
+          - docs/snippets/base_classes/bard/subclasses.md
+      - class_name: Cleric
+        slug: cleric
+        page: docs/classes/base_classes/cleric.md
+        snippets:
+          - docs/snippets/base_classes/cleric/progression.md
+          - docs/snippets/base_classes/cleric/core_features.md
+          - docs/snippets/base_classes/cleric/signs_of_faith.md
+          - docs/snippets/base_classes/cleric/alternate_subclasses.md
+          - docs/snippets/base_classes/cleric/subclasses.md
+      - class_name: Druid
+        slug: druid
+        page: docs/classes/base_classes/druid.md
+        snippets:
+          - docs/snippets/base_classes/druid/progression.md
+          - docs/snippets/base_classes/druid/core_features.md
+          - docs/snippets/base_classes/druid/secrets_of_nature.md
+          - docs/snippets/base_classes/druid/animal_companion.md
+          - docs/snippets/base_classes/druid/alternate_subclasses.md
+          - docs/snippets/base_classes/druid/subclasses.md
+      - class_name: Fighter
+        slug: fighter
+        page: docs/classes/base_classes/fighter.md
+        snippets:
+          - docs/snippets/base_classes/fighter/progression.md
+          - docs/snippets/base_classes/fighter/core_features.md
+          - docs/snippets/base_classes/fighter/soldiering_knacks.md
+          - docs/snippets/base_classes/fighter/martial_exploits.md
+          - docs/snippets/base_classes/fighter/alternate_subclasses.md
+          - docs/snippets/base_classes/fighter/subclasses.md
+      - class_name: Monk
+        slug: monk
+        page: docs/classes/base_classes/monk.md
+        snippets:
+          - docs/snippets/base_classes/monk/progression.md
+          - docs/snippets/base_classes/monk/core_features.md
+          - docs/snippets/base_classes/monk/techniques.md
+          - docs/snippets/base_classes/monk/alternate_subclasses.md
+          - docs/snippets/base_classes/monk/subclasses.md
+      - class_name: Paladin
+        slug: paladin
+        page: docs/classes/base_classes/paladin.md
+        snippets:
+          - docs/snippets/base_classes/paladin/progression.md
+          - docs/snippets/base_classes/paladin/core_features.md
+          - docs/snippets/base_classes/paladin/divine_lessons.md
+          - docs/snippets/base_classes/paladin/alternate_subclasses.md
+          - docs/snippets/base_classes/paladin/subclasses.md
+      - class_name: Ranger
+        slug: ranger
+        page: docs/classes/base_classes/ranger.md
+        snippets:
+          - docs/snippets/base_classes/ranger/progression.md
+          - docs/snippets/base_classes/ranger/core_features.md
+          - docs/snippets/base_classes/ranger/knacks.md
+          - docs/snippets/base_classes/ranger/animal_companion.md
+          - docs/snippets/base_classes/ranger/alternate_subclasses.md
+          - docs/snippets/base_classes/ranger/subclasses.md
+      - class_name: Rogue
+        slug: rogue
+        page: docs/classes/base_classes/rogue.md
+        snippets:
+          - docs/snippets/base_classes/rogue/progression.md
+          - docs/snippets/base_classes/rogue/core_features.md
+          - docs/snippets/base_classes/rogue/skill_tricks.md
+          - docs/snippets/base_classes/rogue/devious_exploits.md
+          - docs/snippets/base_classes/rogue/alternate_subclasses.md
+          - docs/snippets/base_classes/rogue/subclasses.md
+      - class_name: Sorcerer
+        slug: sorcerer
+        page: docs/classes/base_classes/sorcerer.md
+        snippets:
+          - docs/snippets/base_classes/sorcerer/progression.md
+          - docs/snippets/base_classes/sorcerer/core_features.md
+          - docs/snippets/base_classes/sorcerer/metamagic.md
+          - docs/snippets/base_classes/sorcerer/arcane_innovations.md
+          - docs/snippets/base_classes/sorcerer/alternate_subclasses.md
+          - docs/snippets/base_classes/sorcerer/subclasses.md
+      - class_name: Warlock
+        slug: warlock
+        page: docs/classes/base_classes/warlock.md
+        snippets:
+          - docs/snippets/base_classes/warlock/progression.md
+          - docs/snippets/base_classes/warlock/core_features.md
+          - docs/snippets/base_classes/warlock/eldritch_invocations.md
+          - docs/snippets/base_classes/warlock/elder_arcanum.md
+          - docs/snippets/base_classes/warlock/alternate_subclasses.md
+          - docs/snippets/base_classes/warlock/subclasses.md
+      - class_name: Wizard
+        slug: wizard
+        page: docs/classes/base_classes/wizard.md
+        snippets:
+          - docs/snippets/base_classes/wizard/progression.md
+          - docs/snippets/base_classes/wizard/core_features.md
+          - docs/snippets/base_classes/wizard/elective_studies.md
+          - docs/snippets/base_classes/wizard/subclasses.md
+
+  - id: kibbles
+    label: Kibbles Tasty
+    page_root: docs/classes/kibbles
+    snippet_root: docs/snippets/kibbles
+    items:
+      - class_name: Inventor
+        slug: kt_inventor
+        page: docs/classes/kibbles/kt_inventor.md
+        snippets:
+          - docs/snippets/kibbles/kt_inventor/progression.md
+          - docs/snippets/kibbles/kt_inventor/core_features.md
+          - docs/snippets/kibbles/kt_inventor/subclasses.md
+      - class_name: Psion
+        slug: kt_psion
+        page: docs/classes/kibbles/kt_psion.md
+        snippets:
+          - docs/snippets/kibbles/kt_psion/progression.md
+          - docs/snippets/kibbles/kt_psion/core_features.md
+          - docs/snippets/kibbles/kt_psion/subclasses.md
+      - class_name: Warden
+        slug: kt_warden
+        page: docs/classes/kibbles/kt_warden.md
+        snippets:
+          - docs/snippets/kibbles/kt_warden/progression.md
+          - docs/snippets/kibbles/kt_warden/core_features.md
+          - docs/snippets/kibbles/kt_warden/subclasses.md
+      - class_name: Warlord
+        slug: kt_warlord
+        page: docs/classes/kibbles/kt_warlord.md
+        snippets:
+          - docs/snippets/kibbles/kt_warlord/progression.md
+          - docs/snippets/kibbles/kt_warlord/core_features.md
+          - docs/snippets/kibbles/kt_warlord/subclasses.md
+
+  - id: valda
+    label: Valda
+    page_root: docs/classes/valda
+    snippet_root: docs/snippets/valda
+    items:
+      - class_name: Martyr
+        slug: valda_martyr
+        page: docs/classes/valda/valda_martyr.md
+        snippets:
+          - docs/snippets/valda/valda_martyr/progression.md
+          - docs/snippets/valda/valda_martyr/core_features.md
+          - docs/snippets/valda/valda_martyr/subclasses.md
+      - class_name: Warden
+        slug: valda_warden
+        page: docs/classes/valda/valda_warden.md
+        snippets:
+          - docs/snippets/valda/valda_warden/progression.md
+          - docs/snippets/valda/valda_warden/core_features.md
+          - docs/snippets/valda/valda_warden/subclasses.md
+
+site_pages:
+  - path: docs/index.md
+    label: Home
+  - path: docs/rules.md
+    label: Rules
+  - path: docs/magic-items.md
+    label: Magic Items
+
+summary:
+  total_class_pages: 17
+  base_classes: 12
+  kibbles_tasty: 4
+  valda: 2
