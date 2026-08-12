@@ -19,11 +19,11 @@
 
 #### Equipment
 
-* *(a)* a mace or *(b)* a warhammer (if proficient)
-* *(a)* scale mail, *(b)* leather armor, or *(c)* chain mail (if proficient)
-* *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
-* *(a)* a priest's pack or *(b)* an explorer's pack
-* A shield (if proficient) and a holy symbol
+- *(a)* a mace or *(b)* a warhammer (if proficient)
+- *(a)* scale mail, *(b)* leather armor, or *(c)* chain mail (if proficient)
+- *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
+- *(a)* a priest's pack or *(b)* an explorer's pack
+- A shield and a holy symbol
 
 <hr>
 
@@ -33,11 +33,13 @@ Starting at 1st level, the high powers which guide
 you bestow a modicum of protection for your
 journey. Choose one of the following options:
 
-**Scholar.** Studying and teaching about lore of the gods and the multiverse, you gain proficiency in two of the following skills of your choice: *Arcana*, *History*, *Nature*, *Persuasion*, *Religion*. Whenever you make an ability check using either skill, you can use Wisdom instead of their normal ability. Additionally, you can prepare two extra cantrips from the Cleric spell list.
+**Scholar.** You dedicate your mind in service of the divine. You learn to speak, read and write Celestial, and you gain proficiency in two of the following skills of your choice: Arcana, History, Nature, Persuasion, Religion. Whenever you make an ability check using either skill, you can use Wisdom instead of their normal ability. Additionally, you can prepare two extra cantrips from the Cleric spell list.
 
-**Priest.** While you are not wearing any armor or wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. Also, in addition to the spells you normally prepare, you always have *shield of faith* prepared.
+**Priest.** You have forgone wordly pleasure to better connect with the divine. You gain proficiency with one set of Artisan's Tools of your choice and either Insight, Medicine or Perception. 
 
-**Protector.** Trained for battle, you gain proficiency with heavy armor and martial weapons.
+Additionally, so long as you are not wearing any armor or wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. Also, in addition to the spells you normally prepare, you always have *shield of faith* prepared.
+
+**Protector.** You have trained to serve the divine on the field of battle. You gain proficiency with heavy armor and martial weapons.
 
 <hr>
 
@@ -57,25 +59,15 @@ You can change your list of prepared spells when you finish a long rest. Prepari
 
 **Spellcasting Ability.** Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
 
-<div class="smallsidebar">
-
 **Spell Save DC = 8 + your proficiency bonus + your Wisdom modifier**
 
-</div>
-
-<div class="smallsidebar">
-
 **Spell Attack Modifier = your proficiency bonus + your Wisdom modifier**
-
-</div>
 
 **Ritual Casting.** You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 
 **Spellcasting Focus.** You can use a holy symbol as a spellcasting focus for your cleric spells.
 
-**Domain Spells.**  Each domain has a list of spells, domain spells that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.
-
-If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.
+**Domain Spells.**  Each domain has a list of spells, domain spells that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you.
 
 <hr>
 
@@ -87,14 +79,9 @@ When you use your Channel Divinity, you choose which effect to create. Some Chan
 
 You can use Channel Divinity a number of times equal to your proficiency bonus. You regain one expended use when you finish a short rest, and you regain all expended uses when you finish a long rest.
 
-**Channel Divinity: Turn Undead.** As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+**Channel Divinity: Turn Undead.** As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
-
-
-**Channel Divinity: Divine Spark.** As an action, you point your holy symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll a number of d8s equal to your proficiency bonus and add your Wisdom modifier.
-
-You either restore hit points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes necrotic, thunder or radiant (your choice) damage equal to that total. On a successful save, the creature takes half as a much damage.
+**Channel Divinity: Divine Spark.** As an action, you point your holy symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll a number of d8s equal to your proficiency bonus and add your Wisdom modifier. You either restore hit points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes necrotic, thunder or radiant (your choice) damage equal to that total. On a successful save, the creature takes half as a much damage.
 
 <hr>
 
@@ -148,7 +135,6 @@ radiant damage equal to the roll's total. This
 feature also applies to creatures types you have
 selected with the Turn Supernatural feature.
 
-
 **Channel Smite.** After you hit a creature with a weapon attack, you can
 choose to spend one use of your Channel Divinity. Roll
 a number of d8s equal to your proficiency bonus and
@@ -167,8 +153,7 @@ Spark basic feature, the roll's total is halved.
 
 **Cleansing Spark.** When you use your Divine Spark basic Channel Divinity
 feature to restore hit points to a creature, you can
-also remove one of the following conditions: *blinded*,
-*deafened*, *poisoned*, *paralyzed*.
+also remove one of the following conditions: blinded, deafened, poisoned, paralyzed.
 
 **Reactive Spark.** When you or a creature you can see within the normal
 range of your Divine Spark basic Channel Divinity
@@ -195,12 +180,6 @@ In the past, you have reached the divine source of your power through prayer. No
 
 <hr>
 
-#### Level 9 - Defensive Blessing
-
-Your sacred duties have expanded, allowing you to choose a second option from the Defensive Blessing feature.
-
-<hr>
-
 #### Level 10 - Divine Intervention
 
 You can all on your deity or pantheon to intervene on your behalf when your need is great. As an action, choose any spell of 5th level or lower that doesn't require a reaction to cast and that is part of your deity or pantheon's portfolio. As part of the same action, you can cast the spell without expending a spell slot or needing material components. Once you use this feature, you cannot use it again until you finish a long rest.
@@ -209,18 +188,16 @@ At 20th level, you can choose *wish* when you select a spell. If you do so, you 
 
 <hr>
 
+#### Level 11 - Greater Defensive Blessing
+
+Your sacred duties have expanded, allowing you to choose a second option from the Defensive Blessing feature.
+
+<hr>
+
 #### Level 20 - Avatar of Faith
 
 At 20th level, your secret inner divinity is finally revealed. You can use your Channel Divinity to become a conduit of the divine, flooding the world around you with the unfettered power of the Moral Planes. Once you have used either of these options, you cannot use that option again until you finish a long rest.
 
-**Channel Negative Energy.** You can use an action to evoke baleful energy from the Lower Planes to harm creatures you are able to see. You choose the creatures. Each creature makes a Charisma saving throw or takes 10d10 damage force damage and 10d10 necrotic damage, or half damage on a success.
+**Channel Negative Energy.** You can use an action to evoke baleful energy from the Lower Planes to harm creatures you are able to see. You choose the creatures. Each creature makes a Charisma saving throw or takes 10d10 damage force damage and 10d10 necrotic damage, or half damage on a success. When you use this feature, you also choose one of the following conditions: blinded, confused, deafened, frightened or poisoned. A creature that failed its saving throw also gains the chosen condition. At the end of each of its turns, a creature can repeat the saving throw to end the effect on itself.
 
-When you use this feature, you also choose one of the following conditions: blinded, confused, deafened, frightened or poisoned.
-
-A creature that failed its saving throw also gains the chosen condition. At the end of each of its turns, a creature can repeat the saving throw to end the effect on itself.
-
-**Channel Positive Energy.** You can use an action to evoke energy from the Upper Planes to heal creatures you are able to see. You choose the creatures and divide 200 hit points of healing among them.
-
-A creature that regains hit points from this feature is also healed of one level of exhaustion and one level of strife, and if it is blinded, charmed, confused, deafened, frightened, paralyzed, petrified, poisoned, or stunned those conditions end for it.
-
-This feature cannot be used on undead or constructs.
+**Channel Positive Energy.** You can use an action to evoke energy from the Upper Planes to heal creatures you are able to see. You choose the creatures and divide 200 hit points of healing among them. A creature that regains hit points from this feature is also healed of one level of exhaustion and one level of strife, and if it is blinded, charmed, confused, deafened, frightened, paralyzed, petrified, poisoned, or stunned those conditions end for it. This feature cannot be used on undead or constructs.

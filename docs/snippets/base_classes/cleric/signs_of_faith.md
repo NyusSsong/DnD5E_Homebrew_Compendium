@@ -57,10 +57,10 @@ You have the ability to interpret messages sent to you
 in dreams or visions by your greater entity. After each
 long rest you know either:
 
-* a piece of information that will help you in
+- a piece of information that will help you in
 your endeavours before the end of your next
 long rest,
-* or, how one action will play out before the
+- or, how one action will play out before the
 end of your next long rest. Roll a d20. Before
 the end of your next long rest, you may choose
 to replace any roll made by a creature that you

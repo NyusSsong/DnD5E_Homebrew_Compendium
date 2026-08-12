@@ -8,9 +8,9 @@
 | 6th | +3 | Channel Divinity (II), Divine Domain Feature | 3 | 4 | 4 | 3 | 3 | — | — | — | — | — | — |
 | 7th | +3 | Divine Strength | 3 | 4 | 4 | 3 | 3 | 1 | — | — | — | — | — |
 | 8th | +3 | Ability Score Improvement, Empowered Channeling (II) | 3 | 4 | 4 | 3 | 3 | 2 | — | — | — | — | — |
-| 9th | +4 | Commune, Defensive Blessing | 4 | 4 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 9th | +4 | Commune | 4 | 4 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
 | 10th | +4 | Divine Intervention | 4 | 5 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
-| 11th | +4 | Empowered Channeling (III) | 4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 11th | +4 | Empowered Channeling (III), Greater Defensive Blessing | 4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
 | 12th | +4 | Ability Score Improvement | 4 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
 | 13th | +5 | — | 5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
 | 14th | +5 | Empowered Channeling (IV) | 5 | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |

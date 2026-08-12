@@ -8,15 +8,15 @@
 
 <div class="subclass-content" data-subclass="[subclass-slug]">
 
-## ^^[Subclass Full Name]^^
+??? subclass "[Subclass Full Name]"
 
-[One or two sentences of flavour text describing the subclass fantasy.]
+    [One or two sentences of flavour text describing the subclass fantasy.]
 
-### Level [X] - [Feature Name]
+    ### Level [X] - [Feature Name]
 
-[Feature description.]
+    [Feature description.]
 
-<hr>
+    <hr>
 
 </div>
 

@@ -88,7 +88,9 @@ When done, write a block with:
 - Invent feature levels that do not appear in the source text
 - Alter mechanical text (damage, distances, conditions, saving throws, etc.)
 - Publish templates from `./templates/` as site pages
-- Omit `^^` around subclass names in `##` headers
+- Produce subclass names as a `##`/`##` heading instead of a `??? subclass "Name"`
+  admonition title — this includes leaving legacy `## ^^Name^^` files untouched when
+  you're already editing them; convert them to `??? subclass` as part of that edit
 - Use `-` instead of `*` for bullet points
 - Use `<div class='classTable'>` or any other `<div>` wrappers for tables (use pure Markdown tables)
 - Leave HTML spacing entities like `&nbsp;` in output files

@@ -19,9 +19,9 @@
 
 #### Equipment
 
-* *(a)* a wooden shield or *(b)* any simple weapon  
-* *(a)* a scimitar or *(b)* any simple melee weapon  
-* Leather armor, an explorer's pack, and a druidic focus  
+- *(a)* a wooden shield or *(b)* any simple weapon  
+- *(a)* a scimitar or *(b)* any simple melee weapon  
+- Leather armor, an explorer's pack, and a druidic focus  
 
 <hr>
 
@@ -85,25 +85,32 @@ The power of nature infuses you, allowing you to assume the form of an animal or
 
 When you gain certain Druid levels, the maximum Challenge Rating for your forms increases, as shown in the table below.
 
-| Level | Max CR | Armor Class | Example |
-|:---:|:---:|:---|:---:|
-| 2nd | 1/2 | 12 | Ape |
-| 4th | 1 | 13 | Giant Eagle |
-| 8th | 2 | 14 | Awakened Tree |
-| 12th | 3 | 15 | Giant Scorpion |
-| 16th | 4 | 16 | Elephant |
-| 20th | 5 | 17 | Triceratops |
+??? table "Wild Shape Max CR
+
+    | Level | Max CR | Armor Class | Example |
+    |:---:|:---:|:---|:---:|
+    | 2nd | 1/2 | 12 | Ape |
+    | 4th | 1 | 13 | Giant Eagle |
+    | 8th | 2 | 14 | Awakened Tree |
+    | 12th | 3 | 15 | Giant Scorpion |
+    | 16th | 4 | 16 | Elephant |
+    | 20th | 5 | 17 | Triceratops |
 
 **Number of Uses.** You can use Wild Shape a number of times equal to your proficiency bonus. You regain one expended use when you finish a short rest, and you regain all expended uses when you finish a long rest.
 
 **Rules While Transformed.** While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:
 
-* **Game Statistics.** Your game statistics are replaced by the statistics of the Beast, but you retain your Hit Points; Hit Dice; Intelligence, Wisdom, and Charisma scores; class features; languages (you can still speak); and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them. If you take the Multiattack action of a creature, you cannot make any further attacks that turn, even if another feature would normally allow you to do so.
-* **Temporary Hit Points.** When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level
-* **Armor Class.** While in a wild shape, your Armor Class equals 12 + 1/4 your Druid level (rounded down) as shown on the Wild Shapes table above. If the wild shape would have a higher AC, you may use that instead.
-* **Spellcasting.** While in a wild shape you may only cast spell with a range of Self or Touch. You can perform the verbal and somatic components of such spells while in a wild shape, and your wild shape itself acts as your spellcasting focus. Transforming doesn't break your concentration on a spell you've already cast, nor does it prevent you from taking actions that are part of a spell, such as *call lightning*, that you've already cast.
-* **Other features.** You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
-* **Objects.** Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
+**Game Statistics.** Your game statistics are replaced by the statistics of the Beast, but you retain your Hit Points; Hit Dice; Intelligence, Wisdom, and Charisma scores; class features; languages (you can still speak); and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them. If you take the Multiattack action of a creature, you cannot make any further attacks that turn, even if another feature would normally allow you to do so.
+
+**Temporary Hit Points.** When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level
+
+**Armor Class.** While in a wild shape, your Armor Class equals 12 + 1/4 your Druid level (rounded down) as shown on the Wild Shapes table above. If the wild shape would have a higher AC, you may use that instead.
+
+**Spellcasting.** While in a wild shape you may only cast spell with a range of Self or Touch. You can perform the verbal and somatic components of such spells while in a wild shape, and your wild shape itself acts as your spellcasting focus. Transforming doesn't break your concentration on a spell you've already cast, nor does it prevent you from taking actions that are part of a spell, such as *call lightning*, that you've already cast.
+
+**Other features.** You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
+
+**Objects.** Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
 
 <hr>
 
@@ -175,6 +182,8 @@ While using Wild Shape, you can cast any Druid spell in those forms, including s
 
 The vitality of nature constantly blooms within you, granting you the following benefits:
 
-* **Evergreen Wild Shape.** Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.
-* **Nature Magician.** You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot.
-* **Longevity.** The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.
+**Evergreen Wild Shape.** Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.
+
+**Nature Magician.** You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot.
+
+**Longevity.** The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.

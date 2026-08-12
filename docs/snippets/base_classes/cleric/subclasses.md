@@ -40,2169 +40,2050 @@
 
 <div class="subclass-content" data-subclass="air-domain">
 
-## ^^Air Domain^^
+??? subclass "Air Domain"
 
-The wind and the sky are the province of the Air domain. The powers of this domain are granted by gods who claim the boundless skies as their dominion, and for many worshipers of these gods the Air domain serves as the more placid counterpart to the raging Tempest domain. While the wind does sometimes surge into a gusting gale, the domain of Air also represents the tranquil calm of a still night, or the soothing breeze that sends ripples across the pond. It is the wind that lifts birds to soaring heights, and in every swooping eagle clerics of the Air domain see the hands of their gods at work.
+    The wind and the sky are the province of the Air domain. The powers of this domain are granted by gods who claim the boundless skies as their dominion, and for many worshipers of these gods the Air domain serves as the more placid counterpart to the raging Tempest domain. While the wind does sometimes surge into a gusting gale, the domain of Air also represents the tranquil calm of a still night, or the soothing breeze that sends ripples across the pond. It is the wind that lifts birds to soaring heights, and in every swooping eagle clerics of the Air domain see the hands of their gods at work.
 
-### Level 1 - Domain Spells
+    ### Level 1 - Domain Spells
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *feather fall* / *gale bolt* |
-|  3rd  | *gust of wind* / *hurricane slash* |
-|  5th  | *fly* / *vortex blast* |
-|  7th  | *summon elemental* / *aero barrage* |
-|  9th  | *control winds* / *tornado* |
+    ??? table "Domain Spells"
 
-<hr>
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *feather fall* / *gale bolt* |
+        |  3rd  | *gust of wind* / *hurricane slash* |
+        |  5th  | *fly* / *vortex blast* |
+        |  7th  | *summon elemental* / *aero barrage* |
+        |  9th  | *control winds* / *tornado* |
 
-### Level 1 - Bonus Cantrip
+    <hr>
 
-When you choose this domain at 1st level, you gain the *fist of air* cantrip.
+    ### Level 1 - Bonus Cantrip
 
-<hr>
+    When you choose this domain at 1st level, you gain the *fist of air* cantrip.
 
-### Level 1 - Reed in the Wind
+    <hr>
 
-Also starting at 1st level, you can surrender your motion to the divine winds, flowing out of the way of incoming harm. When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you, provided you are not restrained or prone.
+    ### Level 1 - Reed in the Wind
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+    Also starting at 1st level, you can surrender your motion to the divine winds, flowing out of the way of incoming harm. When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you, provided you are not restrained or prone.
 
-<hr>
+    You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
-### Level 2 - Channel Divinity: Eye of the Storm
+    <hr>
 
-Starting at 2nd level, you can use your Channel Divinity to create a swirling vortex of air that encircles you, yet leaves you unruffled at the center of the tornado.
+    ### Level 2 - Channel Divinity: Eye of the Storm
 
-As an action, you present your holy symbol, and you become surrounded by swirling air that lasts for 1 minute. During that time, you become immune to inhaled poisons and any spells whose effects can be dispersed by a strong wind.
+    Starting at 2nd level, you can use your Channel Divinity to create a swirling vortex of air that encircles you, yet leaves you unruffled at the center of the tornado.
 
-Additionally, the vortex has a number of charges of divine power equal to your Wisdom modifier (minimum one charge). When you or a creature that you can see within 30 feet of you is attacked by a creature that you can see with a ranged weapon, you can expend 1 of these charges as a reaction to impose disadvantage on the attack roll, using a gust of wind to bat the weapon aside.
+    As an action, you present your holy symbol, and you become surrounded by swirling air that lasts for 1 minute. During that time, you become immune to inhaled poisons and any spells whose effects can be dispersed by a strong wind.
 
-Alternatively, when you cast *fist of air*, you can expend 1 of these charges to add 1d6 to the damage dealt by the cantrip.
+    Additionally, the vortex has a number of charges of divine power equal to your Wisdom modifier (minimum one charge). When you or a creature that you can see within 30 feet of you is attacked by a creature that you can see with a ranged weapon, you can expend 1 of these charges as a reaction to impose disadvantage on the attack roll, using a gust of wind to bat the weapon aside.
 
-<hr>
+    Alternatively, when you cast *fist of air*, you can expend 1 of these charges to add 1d6 to the damage dealt by the cantrip.
 
-### Level 6 - One With the Wind
+    <hr>
 
-Beginning at 6th level, you can use your action to cast gaseous form, targeting only yourself. When affected by gaseous form, your flying speed is equal to your normal base speed and you can talk.
+    ### Level 6 - One With the Wind
 
-Once you use this feature, you cannot use it again until you complete a long rest.
+    Beginning at 6th level, you can use your action to cast gaseous form, targeting only yourself. When affected by gaseous form, your flying speed is equal to your normal base speed and you can talk.
 
-<hr>
+    Once you use this feature, you cannot use it again until you complete a long rest.
 
-### Level 17 - Reed in the Storm
+    <hr>
 
-Starting at 17th level, when you use your Reed in the Wind feature, instead of halving the attack’s damage, you take no damage from that attack.
+    ### Level 17 - Reed in the Storm
 
-<hr>
+    Starting at 17th level, when you use your Reed in the Wind feature, instead of halving the attack’s damage, you take no damage from that attack.
+
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="apocalypse-domain">
 
-## ^^Apocalypse Domain^^
+??? subclass "Apocalypse Domain"
 
-Gods with the Apocalypse domain promote fear, judgment, punishment, and the end of all things. Their priesthoods often consider themselves the messengers of that doom, and they work to spread word of the coming end. Their gloomy, often frightening message makes them unwelcome in many—but not all—civilized places.
+    Gods with the Apocalypse domain promote fear, judgment, punishment, and the end of all things. Their priesthoods often consider themselves the messengers of that doom, and they work to spread word of the coming end. Their gloomy, often frightening message makes them unwelcome in many—but not all—civilized places.
 
-### Level 1 - Domain Spells
+    ### Level 1 - Domain Spells
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *dissonant whispers* / *hellish rebuke* |
-|  3rd  | *enthrall* / *magic mouth* |
-|  5th  | *fear* / *stinking cloud* |
-|  7th  | *blight* / *phantasmal killer* |
-|  9th  | *contact other plane* / *telekinesis* |
+    ??? table "Domain Spells"
 
-<hr>
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *dissonant whispers* / *hellish rebuke* |
+        |  3rd  | *enthrall* / *magic mouth* |
+        |  5th  | *fear* / *stinking cloud* |
+        |  7th  | *blight* / *phantasmal killer* |
+        |  9th  | *contact other plane* / *telekinesis* |
 
-### Level 1 - Bonus Features
+    ### Level 2 - Channel Divinity: Damnation
 
-When you choose this domain at 1st level, you learn the *vicious mockery* cantrip. You also gain proficiency in either Arcana or Survival (your choice).
+    Starting at 2nd level, you can use your Channel Divinity to lash out at those who defy your deity's messenger. As an action, you present your holy symbol while pronouncing doom to unbelievers. Each hostile creature that can see you and is within 30 feet of you takes 3d6 + your cleric level necrotic damage, or half damage with a successful Wisdom saving throw. A creature that has total cover from you is not affected.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Damnation
+    ### Level 6 - Channel Divinity: Weight of Guilt
 
-Starting at 2nd level, you can use your Channel Divinity to lash out at those who defy your deity's messenger. As an action, you present your holy symbol while pronouncing doom to unbelievers. Each hostile creature that can see you and is within 30 feet of you takes 3d6 + your cleric level necrotic damage, or half damage with a successful Wisdom saving throw. A creature that has total cover from you is not affected.
+    At 6th level, you can use your Channel Divinity to manipulate a creature's thoughts. You can then use your access to the creature's mind as leverage to interrogate it. As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the saving throw is successful, you can't use this feature on it again until you finish a long rest.
 
-<hr>
+    If the saving throw fails, you can bring the creature's guiltiest knowledge to the surface of its mind and fill it with fear that it will confess that knowledge. You get no hints to what this knowledge is. The effect lasts 1 minute, during which you can use your action to cast zone of truth on the creature without expending a spell slot. Only the target of weight of guilt is affected by the spell, and that target's saving throw against the spell fails automatically.
 
-### Level 6 - Channel Divinity: Weight of Guilt
+    <hr>
 
-At 6th level, you can use your Channel Divinity to manipulate a creature's thoughts. You can then use your access to the creature's mind as leverage to interrogate it. As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the saving throw is successful, you can't use this feature on it again until you finish a long rest.
+    ### Level 17 - Herald of the Apocalypse
 
-If the saving throw fails, you can bring the creature's guiltiest knowledge to the surface of its mind and fill it with fear that it will confess that knowledge. You get no hints to what this knowledge is. The effect lasts 1 minute, during which you can use your action to cast zone of truth on the creature without expending a spell slot. Only the target of weight of guilt is affected by the spell, and that target's saving throw against the spell fails automatically.
+    At 17th level, you become the herald of the end of all things and you gain resistance to acid, fire, and poison damage.
 
-<hr>
-
-### Level 17 - Herald of the Apocalypse
-
-At 17th level, you become the herald of the end of all things and you gain resistance to acid, fire, and poison damage.
-
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="ascension-domain">
 
-## ^^Ascension Domain^^
+??? subclass "Ascension Domain"
 
-Ascension Domain clerics are those that have achieved a special divine connection that grants the cleric the ability to shape the deific remnant of the forgotten cosmology that once held power over the realm. The domain also holds the key to creating new gods, aiding original deific powers to manifest across the realm. Ascension domain clerics understand the divine potential that exists in the atmosphere of the earth around them. Their purpose is to serve the new gods, aiding in establishing new domains and portfolios.
+    Ascension Domain clerics are those that have achieved a special divine connection that grants the cleric the ability to shape the deific remnant of the forgotten cosmology that once held power over the realm. The domain also holds the key to creating new gods, aiding original deific powers to manifest across the realm. Ascension domain clerics understand the divine potential that exists in the atmosphere of the earth around them. Their purpose is to serve the new gods, aiding in establishing new domains and portfolios.
 
-Theirs is the unseen hand shaping the future of countless peoples. Such a journey is long and winding, leading these clerics to adventure in search of the next god to birth.
+    Theirs is the unseen hand shaping the future of countless peoples. Such a journey is long and winding, leading these clerics to adventure in search of the next god to birth.
 
-### Level 1 - Domain Spells
+    ### Level 1 - Domain Spells
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *identify* / *unseen servant* |
-|  3rd  | *knock* / *phantasmal force* |
-|  5th  | *glyph of warding* / *magic circle* |
-|  7th  | *banishment* / *locate creature* |
-|  9th  | *creation* / *scrying* |
+    ??? table "Domain Spells"
 
-<hr>
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *identify* / *unseen servant* |
+        |  3rd  | *knock* / *phantasmal force* |
+        |  5th  | *glyph of warding* / *magic circle* |
+        |  7th  | *banishment* / *locate creature* |
+        |  9th  | *creation* / *scrying* |
 
-### Level 1 - Bonus Proficiencies
+    <hr>
 
-At 1st level, you gain proficiency with Religion. Additionally, you gain proficiency in your choice of either Performance or History.
+    ### Level 1 - Bonus Proficiencies
 
-<hr>
+    At 1st level, you gain proficiency with Religion. Additionally, you gain proficiency in your choice of either Performance or History.
 
-### Level 1 - Divine Message
+    <hr>
 
-At 1st level, you can invoke the power of Ascension to learn the *message* cantrip, which does not count against your total cantrips known.
+    ### Level 1 - Divine Message
 
-<hr>
+    At 1st level, you can invoke the power of Ascension to learn the *message* cantrip, which does not count against your total cantrips known.
 
-### Level 2 - Channel Divinity: Godspark
+    <hr>
 
-At 2nd level, as an action you can touch a creature with your holy symbol and use your Channel Divinity to instill the spark of divinity within the target. The target gains divine empowerment in an ability score of your choice for 1 minute. During this time, when the target would roll a 9 or lower using the chosen ability score, it instead rolls a 10.
+    ### Level 2 - Channel Divinity: Godspark
 
-<hr>
+    At 2nd level, as an action you can touch a creature with your holy symbol and use your Channel Divinity to instill the spark of divinity within the target. The target gains divine empowerment in an ability score of your choice for 1 minute. During this time, when the target would roll a 9 or lower using the chosen ability score, it instead rolls a 10.
 
-### Level 6 - Divine Agent
+    <hr>
 
-At 6th level, your connection to the divine becomes more acute, granting you the ability to prolong your magic. When you cast a cleric spell with a duration greater than instantaneous that requires concentration, you can expend an additional cleric spell slot equal to the spell’s level to increase the duration of the spell concentration up to 24 hours.
+    ### Level 6 - Divine Agent
 
-<hr>
+    At 6th level, your connection to the divine becomes more acute, granting you the ability to prolong your magic. When you cast a cleric spell with a duration greater than instantaneous that requires concentration, you can expend an additional cleric spell slot equal to the spell’s level to increase the duration of the spell concentration up to 24 hours.
 
-### Level 17 - Herald of a Thousand Gods
+    <hr>
 
-At 17th level, you gain a flying speed equal to your walking speed whenever you are not underground or indoors.
+    ### Level 17 - Herald of a Thousand Gods
 
-<hr>
+    At 17th level, you gain a flying speed equal to your walking speed whenever you are not underground or indoors.
+
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="balance-domain">
 
-## ^^Balance Domain^^
+??? subclass "Balance Domain"
 
-There cannot be good without evil, law without chaos,
-light without dark. These forces act in the cosmos, striving
-for dominance, but always checked by their opposite.
-Their conflict creates stability in the universe—a stability
-that must be preserved so existence can continue. Gods of
-balance preserve the delicate equilibrium between cosmic
-forces to ensure all things work as they should. They tend
-to be impartial gods, moved to action only when the scales
-tip toward one side or the other. They then throw their
-weight behind the weaker force until balance is restored.
-Most gods of balance focus on one of good versus evil or
-law versus chaos.
+    There cannot be good without evil, law without chaos,
+    light without dark. These forces act in the cosmos, striving
+    for dominance, but always checked by their opposite.
+    Their conflict creates stability in the universe—a stability
+    that must be preserved so existence can continue. Gods of
+    balance preserve the delicate equilibrium between cosmic
+    forces to ensure all things work as they should. They tend
+    to be impartial gods, moved to action only when the scales
+    tip toward one side or the other. They then throw their
+    weight behind the weaker force until balance is restored.
+    Most gods of balance focus on one of good versus evil or
+    law versus chaos.
 
-### Level 1 - Domain Spells
+    ### Level 1 - Domain Spells
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *detect evil and good* / *sanctuary* |
-|  3rd  | *calm emotions* / *warding bond* |
-|  5th  | *dispel magic* / *tongues* |
-|  7th  | *banishment* / *freedom of movement* |
-|  9th  | *dispel evil and good* / *geas* |
+    ??? table "Domain Spells"
 
-<hr>
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *detect evil and good* / *sanctuary* |
+        |  3rd  | *calm emotions* / *warding bond* |
+        |  5th  | *dispel magic* / *tongues* |
+        |  7th  | *banishment* / *freedom of movement* |
+        |  9th  | *dispel evil and good* / *geas* |
 
-### Level 1 - Bonus Proficiencies
+    <hr>
 
-When you choose this domain at 1st level, you gain proficiency
-with Insight. Your proficiency bonus is doubled for any ability
-check you make that uses this skill.
+    ### Level 1 - Bonus Proficiencies
 
-<hr>
+    When you choose this domain at 1st level, you gain proficiency
+    with Insight. Your proficiency bonus is doubled for any ability
+    check you make that uses this skill.
 
-### Level 1 - Servant of Balance
+    <hr>
 
-Also starting at 1st level, you can use your action to touch
-a willing creature other than yourself and spend 1 Hit
-Die. Roll the die and the creature touched regains hit
-points equal to the number rolled.
+    ### Level 1 - Servant of Balance
 
-<hr>
+    Also starting at 1st level, you can use your action to touch
+    a willing creature other than yourself and spend 1 Hit
+    Die. Roll the die and the creature touched regains hit
+    points equal to the number rolled.
 
-### Level 2 - Channel Divinity: Divine Retribution
+    <hr>
 
-Beginning at 2nd level, you can use your Channel Divinity
-to restore balance on the battlefield.
-When a creature other than you hits you or a creature
-within your reach, you can use a reaction to make one
-weapon attack with advantage.
+    ### Level 2 - Channel Divinity: Divine Retribution
 
-<hr>
+    Beginning at 2nd level, you can use your Channel Divinity
+    to restore balance on the battlefield.
+    When a creature other than you hits you or a creature
+    within your reach, you can use a reaction to make one
+    weapon attack with advantage.
 
-### Level 6 - Channel Divinity: Even the Field
+    <hr>
 
-Starting at 6th level, when a creature within 30 feet of you
-becomes blinded, charmed, deafened, frightened, invisible,
-paralyzed, poisoned, restrained, or stunned, you can
-use your reaction and use your Channel Divinity to force
-one creature you can see within 30 feet of you to make a
-Wisdom saving throw. On a failed save, you bestow the
-same condition on that creature. The condition lasts until
-the triggering condition is removed.
+    ### Level 6 - Channel Divinity: Even the Field
 
-<hr>
+    Starting at 6th level, when a creature within 30 feet of you
+    becomes blinded, charmed, deafened, frightened, invisible,
+    paralyzed, poisoned, restrained, or stunned, you can
+    use your reaction and use your Channel Divinity to force
+    one creature you can see within 30 feet of you to make a
+    Wisdom saving throw. On a failed save, you bestow the
+    same condition on that creature. The condition lasts until
+    the triggering condition is removed.
 
-### Level 17 - Paragon of Balance
+    <hr>
 
-Beginning at 17th level, you cannot be charmed or
-frightened. In addition, once per round, when you take
-damage, a creature you choose within 30 feet of you must
-succeed on a Wisdom saving throw against your spell
-save DC or take psychic damage equal to the amount of
-damage you took.
+    ### Level 17 - Paragon of Balance
 
-<hr>
+    Beginning at 17th level, you cannot be charmed or
+    frightened. In addition, once per round, when you take
+    damage, a creature you choose within 30 feet of you must
+    succeed on a Wisdom saving throw against your spell
+    save DC or take psychic damage equal to the amount of
+    damage you took.
+
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="beauty-domain">
 
-## ^^Beauty Domain^^
+??? subclass "Beauty Domain"
 
-Gods of beauty embody all that is lovely, charming, and
-beautiful in the world, from the qualities of attractiveness
-to the profound beauty of nature. They are often gods of
-love, lust, or sexuality as well, although some are more
-focused on purely aesthetic beauty, or patrons of the arts
-or performance. Although usually kind and good, deities
-of beauty can sometimes be vain and petty, especially
-in contests of skill or attractiveness. Beauty can also be
-deceptive, and not all gods associated with this domain
-are as pleasant as they seem.
+    Gods of beauty embody all that is lovely, charming, and
+    beautiful in the world, from the qualities of attractiveness
+    to the profound beauty of nature. They are often gods of
+    love, lust, or sexuality as well, although some are more
+    focused on purely aesthetic beauty, or patrons of the arts
+    or performance. Although usually kind and good, deities
+    of beauty can sometimes be vain and petty, especially
+    in contests of skill or attractiveness. Beauty can also be
+    deceptive, and not all gods associated with this domain
+    are as pleasant as they seem.
 
-### Level 1 - Domain Spells
+    ### Level 1 - Domain Spells
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *charm person* / *heroism* |
-|  3rd  | *enthrall* / *suggestion* |
-|  5th  | *bestow curse* / *remove curse* |
-|  7th  | *compulsion* / *confusion* |
-|  9th  | *dominate person* / *geas* |
+    ??? table "Domain Spells"
 
-<hr>
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *charm person* / *heroism* |
+        |  3rd  | *enthrall* / *suggestion* |
+        |  5th  | *bestow curse* / *remove curse* |
+        |  7th  | *compulsion* / *confusion* |
+        |  9th  | *dominate person* / *geas* |
 
-### Level 1 - Bonus Cantrip
+    <hr>
 
-When you choose this domain at 1st level, you gain the *friends* cantrip.
+    ### Level 1 - Bonus Cantrip
 
-<hr>
+    When you choose this domain at 1st level, you gain the *friends* cantrip.
 
-### Level 1 - Alluring Presence
+    <hr>
 
-You become proficient in Deception or Persuasion. Your
-proficiency bonus is doubled for any ability check you
-make using the skill you chose.
+    ### Level 1 - Alluring Presence
 
-<hr>
+    You become proficient in Deception or Persuasion. Your
+    proficiency bonus is doubled for any ability check you
+    make using the skill you chose.
 
-### Level 2 - Channel Divinity: Beguiling Beauty
+    <hr>
 
-Starting at 2nd level, you can use your Channel Divinity
-to infuse your appearance with the power from your god
-to ensnare a creature with your beauty.
+    ### Level 2 - Channel Divinity: Beguiling Beauty
 
-As an action, you present your holy symbol and one creature within 30 feet that can see you must make a Wisdom saving throw (with advantage if you or your allies are already fighting it). On a failure, it becomes charmed for 1 minute or until you or an ally do anything harmful to it. When the effect ends, the creature realizes you charmed it.
+    Starting at 2nd level, you can use your Channel Divinity
+    to infuse your appearance with the power from your god
+    to ensnare a creature with your beauty.
 
-<hr>
+    As an action, you present your holy symbol and one creature within 30 feet that can see you must make a Wisdom saving throw (with advantage if you or your allies are already fighting it). On a failure, it becomes charmed for 1 minute or until you or an ally do anything harmful to it. When the effect ends, the creature realizes you charmed it.
 
-### Level 6 - Channel Divinity: Blinding Beauty
+    <hr>
 
-Starting at 6th level, you can use your Channel Divinity
-to become a vision of divine beauty so profound it causes
-those around you to become blinded by weeping.
+    ### Level 6 - Channel Divinity: Blinding Beauty
 
-As an action, you present your holy symbol and become enveloped in a vision of divine beauty; all creatures within 30 feet that can see you must make a Wisdom saving throw (this has no effect on creatures immune to being blinded or charmed). On a failure, they are blinded for 1 minute, and can repeat the saving throw at the end of each of their turns to end the effect.
+    Starting at 6th level, you can use your Channel Divinity
+    to become a vision of divine beauty so profound it causes
+    those around you to become blinded by weeping.
 
-<hr>
+    As an action, you present your holy symbol and become enveloped in a vision of divine beauty; all creatures within 30 feet that can see you must make a Wisdom saving throw (this has no effect on creatures immune to being blinded or charmed). On a failure, they are blinded for 1 minute, and can repeat the saving throw at the end of each of their turns to end the effect.
 
-### Level 17 - Perfect Beauty
+    <hr>
 
-Starting at 17th level, you become transformed into a vision
-of perfect beauty. A creature charmed by your Beguiling
-Beauty remains so until you or one of your companions
-does anything harmful to it or you use Beguiling Beauty
-again. When the creature is no longer charmed in this
-way, it becomes hostile toward you and might attack you,
-depending on its nature as the GM decides.
+    ### Level 17 - Perfect Beauty
 
-<hr>
+    Starting at 17th level, you become transformed into a vision
+    of perfect beauty. A creature charmed by your Beguiling
+    Beauty remains so until you or one of your companions
+    does anything harmful to it or you use Beguiling Beauty
+    again. When the creature is no longer charmed in this
+    way, it becomes hostile toward you and might attack you,
+    depending on its nature as the GM decides.
 
-</div>
-
-<div class="subclass-content" data-subclass="change-domain">
-
-## ^^Change Domain^^
-
-What is life but a series of changes, one after another? Clerics of
-change believe that the current moment could be the thing to
-change everything, the first step on the journey of a lifetime, the
-single spark that starts a revolution. Most serve gods of chaos,
-skilled trades, and travel, especially the Traveler. However,
-anyone seeking inspiration or pursuing change could find value
-in it, whether an adept of Onatar pursuing magical innovation
-or a skilled con artist with utter confidence in their skills.
-
-### Level 1 - Domain Spells
-
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *chaos bolt* / *Tasha's hideous laughter* |
-|  3rd  | *misty step* / *Nystul's magic aura* |
-|  5th  | *bestow curse* / *hypnotic pattern* |
-|  7th  | *confusion* / *vitriolic sphere* |
-|  9th  | *animate objects* / *passwall* |
-
-<hr>
-
-### Level 1 - Hearts and Minds
-
-At 1st level, you embrace that society is fluid and ever-changing;
-you've not only learned how to compensate, but to exult in the
-flux. You gain one cantrip of your choice from the bard spell list.
-For you, this cantrip counts as a cleric cantrip.
-
-You also become proficient in your choice of two of the
-following skills: Deception, Insight, Intimidation, or Persuasion.
-Your proficiency bonus is doubled for any ability check you make
-that uses the chosen skills.
-
-<hr>
-
-### Level 2 - Channel Divinity: Chaos of Battle
-
-Starting at 2nd level, you can use your Channel Divinity to force
-foes to redirect their attacks. When a creature you can see
-within 30 feet of you makes an attack roll against you or casts a
-spell that targets only you, you can use your reaction to brandish
-your holy symbol and cause the creature to make a Wisdom
-saving throw against your cleric spell save DC.
-
-On a failed save, the creature must instead target another creature
-of your choice that is within range of the attack or spell. If there is
-not another creature within range, this ability fails.
-
-You must choose to use this feature before you know whether
-the attack against you hits or misses.
-
-<hr>
-
-### Level 6 - Anarchic Grace
-
-At 6th level, you can draw upon chaotic energy to shield yourself
-with but a thought. As a reaction when you are attacked or you
-make a saving throw, you can impose disadvantage on all attack
-rolls against you, and you have advantage on all saving throws.
-This effect lasts until the end of your next turn.
-
-You can use this feature a number of times equal to your
-Wisdom modifier (a minimum of once). You regain all
-expended uses when you finish a long rest.
-
-<hr>
-
-### Level 17 - Unbridled Chaos
-
-At 17th level, you add the following to your list of domain spells:
-*maze*, *prismatic spray*, *scatter*, and *true polymorph*. As domain
-spells, they are always prepared and count as cleric spells for you.
-
-<hr>
+    <hr>
 
 </div>
 
-<div class="subclass-content" data-subclass="chaos-domain">
+??? subclass "Commerce Domain"
 
-## ^^Chaos Domain^^
+    The Commerce domain values trade, proper management of resources, and entrepreneurship above all else, believing a healthy economy is the best path to create a more perfect world. Gods of commerce and trade – including Gond, Kol Korran, and Waukeen – promote enterprise and the development of marketable crafts and skills. Some clerics of this domain, however, eschew the worship of gods to instead focus their faith on the almighty coin, believing that wealth is the best resource for enacting lasting change and living long, happy, and healthy lives.
 
-Only worshiped by the most unhinged devotees, or believers in pure anarchy, gods (and other entities) of Chaos care little for the well-being of their followers. Their desires are often incomprehensible to mortals, and for the clerics who access the power that comes from the Chaos Domain, it is only a matter of time before they are overtaken by insanity.
+    ??? table "Domain Spells"
 
-### Level 1 - Domain Spells
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *comprehend languages* / *identify* |
+        |  3rd  | *locate object* / *zone of truth* |
+        |  5th  | *remove curse* / *tongues* |
+        |  7th  | *leomund's secret chest* / *locate creature* |
+        |  9th  | *greater restoration* / *raise dead* |
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *dissonant whispers* / *hideous laughter* |
-|  3rd  | *crown of madness* / *phantasmal force* |
-|  5th  | *bestow curse* / *fear* |
-|  7th  | *confusion* / *hallucinatory terrain* |
-|  9th  | *antilife shell* / *synaptic static* |
+    <hr>
 
-<hr>
+    ### Level 1 - Blessings of Commerce
 
-### Level 1 - Words of Chaos
+    When you choose this domain at 1st level, you gain the *mending* cantrip if you don’t already know it, and you can use a money pouch or coin purse as a holy symbol.
 
-You can project the chaos within your mind into the world through your twisted words. You learn the *vicious mockery* cantrip. It counts as a cleric spell for you, but it does not count against your total number of Cantrips Known.
+    <hr>
 
-<hr>
+    ### Level 1 - Instant Gratification
 
-### Level 1 - Shattered Mind
+    Also starting at 1st level, you can bypass the lengthy process of haggling for mundane items and wealth by converting goods to coins and vice versa. As an action, you can use this feature for one of the following effects:
 
-At the end of each long rest, you can choose to roll on the Indefinite Madness table from the Dungeon Master's Guide. Until the end of your next long rest, you gain the Madness effect, but you also gain resistance to psychic damage and immunity to having your thoughts read unless you allow it.
+    - You magically transform a nonmagical object you're touching into its monetary worth in coins. For example, a mundane longsword you transform this way becomes 15 gp.
+    - You magically transform a number of coins you're touching into a nonmagical object worth an amount equal to or less than the net value of the coins you transform. For example, you can transform 2 or more cp into an ink pen, or at least 1,500 gp into a set of plate mail.
 
-<hr>
+    This feature has no effect on objects or coins belonging to an unwilling creature.
 
-### Level 2 - Channel Divinity: Touch of Madness
+    You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
-As an action on your turn, you can grasp your holy symbol and force a creature that can hear you within 30 feet to make a Wisdom saving throw. On a failed save, the madness of your god infects its mind, and it is incapacitated for 1 minute. While incapacitated, the creature babbles incoherently and uses its full movement to move in a random direction. At the end of each turn, the creature can repeat the saving throw, ending this effect on a successful save.
+    <hr>
 
-<hr>
+    ### Level 2 - Channel Divinity: Irrefusable Offer
 
-### Level 6 - Channel Divinity: Discordia
+    Beginning at 2nd level, you can use your Channel Divinity to bribe a creature into changing the way it attacks. When a hostile creature you can see within 30 feet of you makes an attack against you or one of your allies, you can use your reaction to cause 5 gp to appear at the creature’s feet. If the creature can see the gold, it changes the target of the attack to another target of your choice within range of the attack, other than itself. If there are no other valid targets within range, the creature loses the attack.
 
-When you are forced to make an Intelligence, Wisdom, or Charisma saving throw, you can use your reaction to invoke this Channel Divinity, forcing a creature of your choice within 30 feet to make the saving throw in your place, becoming the target of the spell in your place.
+    This feature has no effect on creatures that are immune to the charmed condition, or that place no value in gold or money, such as creatures of Intelligence 4 or lower.
 
-<hr>
+    <hr>
 
-### Level 17 - Mantle of Insanity
+    ### Level 6 - Liquid Assets
 
-You are a conduit for Chaos to enter the world. When a creature you can see within 60 feet targets you with an attack, you can use your reaction to force it to make a Wisdom saving throw. On a failed save, it attacks a target of your choice within its attack's range. You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+    Once you reach 6th level, whenever you cast a spell requiring a specific material component with an indicated cost, you can expend a number of coins you possess with net worth equal to half the indicated cost, instead of presenting the component.
 
-<hr>
+    <hr>
 
-</div>
+    ### Level 17 - Adventure Capitalist
 
-<div class="subclass-content" data-subclass="commerce-domain">
+    Beginning at 17th level, you can use your Instant Gratification an unlimited number of times.
 
-## ^^Commerce Domain^^
+    Additionally, as an action, you can magically transform a number of coins you're touching into a potion you've tasted worth an amount equal to or less than the net worth of the coins you transform.
 
-The Commerce domain values trade, proper management of resources, and entrepreneurship above all else, believing a healthy economy is the best path to create a more perfect world. Gods of commerce and trade – including Gond, Kol Korran, and Waukeen – promote enterprise and the development of marketable crafts and skills. Some clerics of this domain, however, eschew the worship of gods to instead focus their faith on the almighty coin, believing that wealth is the best resource for enacting lasting change and living long, happy, and healthy lives.
+    This feature has no effect on objects or coins belonging to an unwilling creature.
 
-### Level 1 - Domain Spells
+    The number of existing potions you created with this feature cannot exceed your Wisdom modifier (minimum 1). If you create a potion beyond this number, another potion of your choice that you created this way expires and becomes inert.
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *comprehend languages* / *identify* |
-|  3rd  | *locate object* / *zone of truth* |
-|  5th  | *remove curse* / *tongues* |
-|  7th  | *leomund's secret chest* / *locate creature* |
-|  9th  | *greater restoration* / *raise dead* |
-
-<hr>
-
-### Level 1 - Blessings of Commerce
-
-When you choose this domain at 1st level, you gain the *mending* cantrip if you don’t already know it, and you can use a money pouch or coin purse as a holy symbol.
-
-<hr>
-
-### Level 1 - Instant Gratification
-
-Also starting at 1st level, you can bypass the lengthy process of haggling for mundane items and wealth by converting goods to coins and vice versa. As an action, you can use this feature for one of the following effects:
-
-* You magically transform a nonmagical object you're touching into its monetary worth in coins. For example, a mundane longsword you transform this way becomes 15 gp.
-* You magically transform a number of coins you're touching into a nonmagical object worth an amount equal to or less than the net value of the coins you transform. For example, you can transform 2 or more cp into an ink pen, or at least 1,500 gp into a set of plate mail.
-
-This feature has no effect on objects or coins belonging to an unwilling creature.
-
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
-
-<hr>
-
-### Level 2 - Channel Divinity: Irrefusable Offer
-
-Beginning at 2nd level, you can use your Channel Divinity to bribe a creature into changing the way it attacks. When a hostile creature you can see within 30 feet of you makes an attack against you or one of your allies, you can use your reaction to cause 5 gp to appear at the creature’s feet. If the creature can see the gold, it changes the target of the attack to another target of your choice within range of the attack, other than itself. If there are no other valid targets within range, the creature loses the attack.
-
-This feature has no effect on creatures that are immune to the charmed condition, or that place no value in gold or money, such as creatures of Intelligence 4 or lower.
-
-<hr>
-
-### Level 6 - Liquid Assets
-
-Once you reach 6th level, whenever you cast a spell requiring a specific material component with an indicated cost, you can expend a number of coins you possess with net worth equal to half the indicated cost, instead of presenting the component.
-
-<hr>
-
-### Level 17 - Adventure Capitalist
-
-Beginning at 17th level, you can use your Instant Gratification an unlimited number of times.
-
-Additionally, as an action, you can magically transform a number of coins you're touching into a potion you've tasted worth an amount equal to or less than the net worth of the coins you transform.
-
-This feature has no effect on objects or coins belonging to an unwilling creature.
-
-The number of existing potions you created with this feature cannot exceed your Wisdom modifier (minimum 1). If you create a potion beyond this number, another potion of your choice that you created this way expires and becomes inert.
-
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="darkness-domain">
 
-## ^^Darkness Domain^^
+??? subclass "Darkness Domain"
 
-Gods of darkness and shadow - such as Set, Shar, and the Raven Queen - are not often depicted in the best light, being associated with terror, desolation, and unending night. Dwelling in their gloomy, often lightless realms, these deities don't tend to attract many followers. So when a cleric chooses to devote their life to the service of one of these gods, they are imbued with great power over the shadows, becoming able to cause fear in the hearts of mortals. These gods teach their followers to think like the forces of evil in order to slay and conquer them, countering dark powers with their own black gifts.
+    Gods of darkness and shadow - such as Set, Shar, and the Raven Queen - are not often depicted in the best light, being associated with terror, desolation, and unending night. Dwelling in their gloomy, often lightless realms, these deities don't tend to attract many followers. So when a cleric chooses to devote their life to the service of one of these gods, they are imbued with great power over the shadows, becoming able to cause fear in the hearts of mortals. These gods teach their followers to think like the forces of evil in order to slay and conquer them, countering dark powers with their own black gifts.
 
-While some clerics of the Darkness Domain are evil fearmongers, most instead make it their mission to rehabilitate the image of their deity through acts of heroism using their shadowy powers, becoming dark champions that bring comfort to innocents in the darkest of nights.
+    While some clerics of the Darkness Domain are evil fearmongers, most instead make it their mission to rehabilitate the image of their deity through acts of heroism using their shadowy powers, becoming dark champions that bring comfort to innocents in the darkest of nights.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *arms of Hadar* / *cause fear* |
-|  3rd  | *darkness* / *shadow blade* |
-|  5th  | *fear* / *hunger of Hadar* |
-|  7th  | *Evard's black tentacles* / *shadow of Moil* |
-|  9th  | *creation* / *enervation* |
+    | Cleric Level  | Spells |
+    |:---:|:-----------:|
+    |  1st  | *arms of Hadar* / *cause fear* |
+    |  3rd  | *darkness* / *shadow blade* |
+    |  5th  | *fear* / *hunger of Hadar* |
+    |  7th  | *Evard's black tentacles* / *shadow of Moil* |
+    |  9th  | *creation* / *enervation* |
 
-<hr>
+    <hr>
 
-### Level 1 - Umbral Vision
+    ### Level 1 - Umbral Vision
 
-When you choose this domain at 1st level, you gain darkvision out to a range of 60 feet. If you already have darkvision, the range of your darkvision instead increases by 30 feet.
+    When you choose this domain at 1st level, you gain darkvision out to a range of 60 feet. If you already have darkvision, the range of your darkvision instead increases by 30 feet.
 
-Once you reach 6th level in this class, magical darkness no longer impedes your darkvision.
+    Once you reach 6th level in this class, magical darkness no longer impedes your darkvision.
 
-<hr>
+    <hr>
 
-### Level 1 - Tendril of Darkness
+    ### Level 1 - Tendril of Darkness
 
-Also at 1st level, you gain the ability to use your shadow as a weapon, channeling fear and despair into those you strike with it. This shadow whip counts as a simple melee weapon, though only you can use it. It has the finesse and light properties, as well as 15 feet of reach. It deals 1d8 psychic damage on a hit, including your Strength or Dexterity modifier as normal. You must have a free hand to make attacks using your shadow whip.
+    Also at 1st level, you gain the ability to use your shadow as a weapon, channeling fear and despair into those you strike with it. This shadow whip counts as a simple melee weapon, though only you can use it. It has the finesse and light properties, as well as 15 feet of reach. It deals 1d8 psychic damage on a hit, including your Strength or Dexterity modifier as normal. You must have a free hand to make attacks using your shadow whip.
 
-When you hit a Large or smaller creature with an attack using your shadow whip, you can attempt to drag the target toward you. The creature must succeed on a Strength saving throw against your spell save DC or be pulled to the nearest unoccupied space to you.
+    When you hit a Large or smaller creature with an attack using your shadow whip, you can attempt to drag the target toward you. The creature must succeed on a Strength saving throw against your spell save DC or be pulled to the nearest unoccupied space to you.
 
-You can attempt to pull a creature this way a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+    You can attempt to pull a creature this way a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Grasping Shadows
+    ### Level 2 - Channel Divinity: Grasping Shadows
 
-Starting at 2nd level, you can summon shadow energies that constrict a creature, using your Channel Divinity. As an action, choose a creature you can see within 60 feet. That creature must succeed on a Strength saving throw or become restrained for 1 minute. The target makes the initial saving throw with disadvantage if it’s within an area of dim light or darkness. As an action during each of its turns, an affected creature can repeat the saving throw, freeing itself on a successful save.
+    Starting at 2nd level, you can summon shadow energies that constrict a creature, using your Channel Divinity. As an action, choose a creature you can see within 60 feet. That creature must succeed on a Strength saving throw or become restrained for 1 minute. The target makes the initial saving throw with disadvantage if it’s within an area of dim light or darkness. As an action during each of its turns, an affected creature can repeat the saving throw, freeing itself on a successful save.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: Torrent of Gloom
+    ### Level 6 - Channel Divinity: Torrent of Gloom
 
-Starting at 6th level, you can use your Channel Divinity to dim the world around you.
+    Starting at 6th level, you can use your Channel Divinity to dim the world around you.
 
-As a bonus action, you present your holy symbol, coating a 30-foot radius sphere centered on you with shadow for 1 minute. The sphere stays centered on you as you move. Within the sphere, areas of normally bright light become dim light, areas of normally dim light become darkness, and areas of normally darkness become magical darkness.
+    As a bonus action, you present your holy symbol, coating a 30-foot radius sphere centered on you with shadow for 1 minute. The sphere stays centered on you as you move. Within the sphere, areas of normally bright light become dim light, areas of normally dim light become darkness, and areas of normally darkness become magical darkness.
 
-You can dismiss the sphere early by using a bonus action on your turn.
+    You can dismiss the sphere early by using a bonus action on your turn.
 
-<hr>
+    <hr>
 
-### Level 17 - Champion of the Void
+    ### Level 17 - Champion of the Void
 
-At 17th level, *maddening darkness* is added to the cleric spell list for you, and surrounding shadows twist and quiver around you, creating a terrifying visage for your enemies to behold.
+    At 17th level, *maddening darkness* is added to the cleric spell list for you, and surrounding shadows twist and quiver around you, creating a terrifying visage for your enemies to behold.
 
-When a creature other than one of your allies starts its turn within 5 feet of you, it must succeed on a Wisdom saving throw against your spell save DC or become frightened of you until the end of its turn. A creature has disadvantage on this saving throw if you're within an area of dim light or darkness.
+    When a creature other than one of your allies starts its turn within 5 feet of you, it must succeed on a Wisdom saving throw against your spell save DC or become frightened of you until the end of its turn. A creature has disadvantage on this saving throw if you're within an area of dim light or darkness.
 
-A creature that succeeds on this saving throw is immune to this feature for 24 hours.
+    A creature that succeeds on this saving throw is immune to this feature for 24 hours.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="dragon-domain">
 
-## ^^Dragon Domain^^
+??? subclass "Dragon Domain"
 
-It is rare that a non-dragon chooses to worship a draconic
-god, and rarer still that the believer has such faith that he can
-draw power from that god. Often clerics of this domain are at
-the head of a draconic cult, but they can also be seen holding
-aloft Bahamut's holy symbol, driving evil out of the dark
-corners of the world; for this reason, the common folk aren't
-sure what to make of these worshippers.
+    It is rare that a non-dragon chooses to worship a draconic
+    god, and rarer still that the believer has such faith that he can
+    draw power from that god. Often clerics of this domain are at
+    the head of a draconic cult, but they can also be seen holding
+    aloft Bahamut's holy symbol, driving evil out of the dark
+    corners of the world; for this reason, the common folk aren't
+    sure what to make of these worshippers.
 
-### Level 1 - Domain Spells
+    ### Level 1 - Domain Spells
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *absorb elements* / *identify* |
-|  3rd  | *locate object* / *dragon's breath* |
-|  5th  | *elemental weapon* / *fear* |
-|  7th  | *elemental bane* / *leomund's secret chest* |
-|  9th  | *scrying* / *skill empowerment* |
+    ??? table "Domain Spells"
 
-<hr>
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *absorb elements* / *identify* |
+        |  3rd  | *locate object* / *dragon's breath* |
+        |  5th  | *elemental weapon* / *fear* |
+        |  7th  | *elemental bane* / *leomund's secret chest* |
+        |  9th  | *scrying* / *skill empowerment* |
 
-### Level 1 - Draconic Knowledge
+    <hr>
 
-At 1st level, you learn Draconic if you don't know it already. If
-you already know Draconic, you learn a different language of
-your choice. You also gain proficiency in your choice of one
-of the following skills: Arcana, History, or Nature. Your
-proficiency bonus is doubled for any skill checks you make
-using that skill.
+    ### Level 1 - Draconic Knowledge
 
-Additionally, if you spend at least one minute studying a
-gem or object, you can determine the item's exact value.
+    At 1st level, you learn Draconic if you don't know it already. If
+    you already know Draconic, you learn a different language of
+    your choice. You also gain proficiency in your choice of one
+    of the following skills: Arcana, History, or Nature. Your
+    proficiency bonus is doubled for any skill checks you make
+    using that skill.
 
-<hr>
+    Additionally, if you spend at least one minute studying a
+    gem or object, you can determine the item's exact value.
 
-### Level 2 - Channel Divinity: Frightful Presence
+    <hr>
 
-At 2nd level, you can use your Channel Divinity to magically
-make yourself appear more draconic and menacing in nature.
+    ### Level 2 - Channel Divinity: Frightful Presence
 
-As an action, choose a number of creatures up to your
-Wisdom modifier (minimum 1) that are within 30 feet of you.
-These creatures must succeed on a Wisdom saving throw or
-be frightened of you for one minute. A creature that fails its
-saving throw can attempt it again at the end of each of its
-turns, ending the effect on itself on a success.
+    At 2nd level, you can use your Channel Divinity to magically
+    make yourself appear more draconic and menacing in nature.
 
-<hr>
+    As an action, choose a number of creatures up to your
+    Wisdom modifier (minimum 1) that are within 30 feet of you.
+    These creatures must succeed on a Wisdom saving throw or
+    be frightened of you for one minute. A creature that fails its
+    saving throw can attempt it again at the end of each of its
+    turns, ending the effect on itself on a success.
 
-### Level 6 - Draconic Resistance
+    <hr>
 
-At 6th level, you gain resistance to a damage type of your
-choice: acid, cold, fire, lightning, or poison. This choice
-cannot be changed.
+    ### Level 6 - Draconic Resistance
 
-Additionally, if a creature within 20 feet of you takes acid,
-cold, fire, or lightning damage from an effect that you can see,
-you can use your reaction to grant resistance to the creature
-against that instance of the damage.
+    At 6th level, you gain resistance to a damage type of your
+    choice: acid, cold, fire, lightning, or poison. This choice
+    cannot be changed.
 
-<hr>
+    Additionally, if a creature within 20 feet of you takes acid,
+    cold, fire, or lightning damage from an effect that you can see,
+    you can use your reaction to grant resistance to the creature
+    against that instance of the damage.
 
-### Level 17 - Draconic Immunity
+    <hr>
 
-At 17th level, you become immune to the damage type that
-you chose for your Draconic Resistance class feature.
-Additionally, you become immune to being charmed, and
-magic can't put you to sleep.
+    ### Level 17 - Draconic Immunity
 
-<hr>
+    At 17th level, you become immune to the damage type that
+    you chose for your Draconic Resistance class feature.
+    Additionally, you become immune to being charmed, and
+    magic can't put you to sleep.
+
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="dream-domain">
 
-## ^^Dream Domain^^
+??? subclass "Dream Domain"
 
-The Dream domain focuses on altered consciousness,
-often in forms that others perceive as horrific madness,
-though more placid dream-seekers might also choose
-this domain. It is chosen chiefly by clerics who worship
-Azathoth, as well as by those who follow several Great Old
-Ones (including Byatis, Cthugha, Great Cthulhu, Gobogeg,
-Hastur, the King in Yellow, Nyogtha, and Rhan-Tegoth).
+    The Dream domain focuses on altered consciousness,
+    often in forms that others perceive as horrific madness,
+    though more placid dream-seekers might also choose
+    this domain. It is chosen chiefly by clerics who worship
+    Azathoth, as well as by those who follow several Great Old
+    Ones (including Byatis, Cthugha, Great Cthulhu, Gobogeg,
+    Hastur, the King in Yellow, Nyogtha, and Rhan-Tegoth).
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *hideous laughter* / *sleep* |
-|  3rd  | *phantasmal force* / *suggestion* |
-|  5th  | *hypnotic pattern* / *major image* |
-|  7th  | *confusion* / *phantasmal killer* |
-|  9th  | *dream* / *modify memory* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *hideous laughter* / *sleep* |
+        |  3rd  | *phantasmal force* / *suggestion* |
+        |  5th  | *hypnotic pattern* / *major image* |
+        |  7th  | *confusion* / *phantasmal killer* |
+        |  9th  | *dream* / *modify memory* |
 
-<hr>
+    <hr>
 
-### Level 1 - Mad Insight
+    ### Level 1 - Mad Insight
 
-When you choose this domain at 1st level, you gain proficiency in Arcana. If you already have proficiency in this skill, instead choose any other skill.
+    When you choose this domain at 1st level, you gain proficiency in Arcana. If you already have proficiency in this skill, instead choose any other skill.
 
-Additionally, when you make an attack roll, saving throw, or ability check, you can choose to roll a d4 after rolling the d20 and add it to the result. If you do, whenever you roll an attack roll, saving throw, or ability check before the end of your next turn, you roll a d4 and subtract it from the result.
+    Additionally, when you make an attack roll, saving throw, or ability check, you can choose to roll a d4 after rolling the d20 and add it to the result. If you do, whenever you roll an attack roll, saving throw, or ability check before the end of your next turn, you roll a d4 and subtract it from the result.
 
-Once you use this feature, you can’t use it again until you finish a short or long rest.
+    Once you use this feature, you can’t use it again until you finish a short or long rest.
 
-<hr>
+    <hr>
 
-### Level 1 - Figment Out of Dreams
+    ### Level 1 - Figment Out of Dreams
 
-Also at 1st level, you learn your choice of *dancing lights* or *minor illusion*, which doesn't count against the number of cleric cantrips you know. It is a cleric spell for you.
+    Also at 1st level, you learn your choice of *dancing lights* or *minor illusion*, which doesn't count against the number of cleric cantrips you know. It is a cleric spell for you.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Focused Reverie
+    ### Level 2 - Channel Divinity: Focused Reverie
 
-Starting at 2nd level, you can use your Channel Divinity to hide inside your mind.
+    Starting at 2nd level, you can use your Channel Divinity to hide inside your mind.
 
-As an action, you present your holy symbol and invoke your deity's guidance to gain advantage on Constitution, Intelligence, Wisdom, and Charisma saving throws for as long as you concentrate, as if concentrating on a spell, up to 1 minute. You can cast any Dream domain spell with a casting time of 1 action as a bonus action while you maintain concentration, though if it breaks your concentration (such as if you cast a new spell requiring concentration), it ends the Focused Reverie.
+    As an action, you present your holy symbol and invoke your deity's guidance to gain advantage on Constitution, Intelligence, Wisdom, and Charisma saving throws for as long as you concentrate, as if concentrating on a spell, up to 1 minute. You can cast any Dream domain spell with a casting time of 1 action as a bonus action while you maintain concentration, though if it breaks your concentration (such as if you cast a new spell requiring concentration), it ends the Focused Reverie.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: Forgetfulness
+    ### Level 6 - Channel Divinity: Forgetfulness
 
-Starting at 6th level, you can use your Channel Divinity to wipe away memories as if they were dreams.
+    Starting at 6th level, you can use your Channel Divinity to wipe away memories as if they were dreams.
 
-As an action, you present your holy symbol and evoke the gentle lull of awakening from sleep. Choose up to three creatures you can see within 60 feet. Each creature must succeed on an Intelligence saving throw against your spell save DC or forget the past 1 minute until *greater restoration*, *remove curse*, or similar magic is cast upon the creature.
+    As an action, you present your holy symbol and evoke the gentle lull of awakening from sleep. Choose up to three creatures you can see within 60 feet. Each creature must succeed on an Intelligence saving throw against your spell save DC or forget the past 1 minute until *greater restoration*, *remove curse*, or similar magic is cast upon the creature.
 
-If combat began in the past minute and is still ongoing, those creatures roll initiative again. They effectively haven't acted until their new initiative count. On a failed save, the creatures can make one new saving throw to recall the information when they next finish a long rest, but if they fail again the information remains forgotten indefinitely.
+    If combat began in the past minute and is still ongoing, those creatures roll initiative again. They effectively haven't acted until their new initiative count. On a failed save, the creatures can make one new saving throw to recall the information when they next finish a long rest, but if they fail again the information remains forgotten indefinitely.
 
-If pressed on the topic, the creatures are aware they are forgetting something, but not necessarily what manner of information or that you erased the memory. If the targets are asleep, you can choose any 1-minute period since they last awakened for them to forget.
+    If pressed on the topic, the creatures are aware they are forgetting something, but not necessarily what manner of information or that you erased the memory. If the targets are asleep, you can choose any 1-minute period since they last awakened for them to forget.
 
-<hr>
+    <hr>
 
-### Level 14 - Advanced Domain Spells
+    ### Level 14 - Advanced Domain Spells
 
-Starting at 14th level, you always have the following spells prepared, without counting against your number of spells prepared, as long as you can prepare spells of the spell’s level: *programmed illusion*, *mirage arcane*, *feeblemind*, and *weird*. They are cleric spells for you.
+    Starting at 14th level, you always have the following spells prepared, without counting against your number of spells prepared, as long as you can prepare spells of the spell’s level: *programmed illusion*, *mirage arcane*, *feeblemind*, and *weird*. They are cleric spells for you.
 
-<hr>
+    <hr>
 
-### Level 17 - Psychic Awakening
+    ### Level 17 - Psychic Awakening
 
-Starting at 17th level, you can cast spells without providing verbal or somatic components, even if you are paralyzed or unconscious, as long as you have at least 1 hit point and nothing else is preventing you from seeing a target or taking an action.
+    Starting at 17th level, you can cast spells without providing verbal or somatic components, even if you are paralyzed or unconscious, as long as you have at least 1 hit point and nothing else is preventing you from seeing a target or taking an action.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="earth-domain">
 
-## ^^Earth Domain^^
+??? subclass "Earth Domain"
 
-The gods of the earth have dominion over the solid foundations
-upon which the world is built. These gods not
-only command stones and move mountains, but also hold
-sway over the fertile soil in which plants grow, the precious
-gems and metals mortal races draw from mines deep
-beneath the ground, and the deep caverns and subterranean
-realms that form the pillars upon which the surface
-world rests.
+    The gods of the earth have dominion over the solid foundations
+    upon which the world is built. These gods not
+    only command stones and move mountains, but also hold
+    sway over the fertile soil in which plants grow, the precious
+    gems and metals mortal races draw from mines deep
+    beneath the ground, and the deep caverns and subterranean
+    realms that form the pillars upon which the surface
+    world rests.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *earth tremor* / *stone fist* |
-|  3rd  | *earth bind* / *earth ripple* |
-|  5th  | *meld into stone* / *plant growth* |
-|  7th  | *summon elemental* / *orbital stones* |
-|  9th  | *wall of stone* / *fissure* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *earth tremor* / *stone fist* |
+        |  3rd  | *earth bind* / *earth ripple* |
+        |  5th  | *meld into stone* / *plant growth* |
+        |  7th  | *summon elemental* / *orbital stones* |
+        |  9th  | *wall of stone* / *fissure* |
 
-<hr>
+    <hr>
 
-### Level 1 - Strength of the Mountain
+    ### Level 1 - Strength of the Mountain
 
-Starting at 1st level, you gain advantage on Strength saving throws.
+    Starting at 1st level, you gain advantage on Strength saving throws.
 
-<hr>
+    <hr>
 
-### Level 1 - Endurance of Stone
+    ### Level 1 - Endurance of Stone
 
-Starting at 1st level, your hit point maximum increases by 1, and increases by 1 again whenever you gain a level in this class.
+    Starting at 1st level, your hit point maximum increases by 1, and increases by 1 again whenever you gain a level in this class.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Shelter of the Land
+    ### Level 2 - Channel Divinity: Shelter of the Land
 
-Starting at 2nd level, you can use your Channel Divinity to shield your allies against harm. As an action, you present your holy symbol and call upon the strength of stone and soil. Choose a number of creatures you can see within 30 feet of you, up to a number equal to your Wisdom modifier (minimum of one). Each of them gains temporary hit points equal to 1d10 + your cleric level.
+    Starting at 2nd level, you can use your Channel Divinity to shield your allies against harm. As an action, you present your holy symbol and call upon the strength of stone and soil. Choose a number of creatures you can see within 30 feet of you, up to a number equal to your Wisdom modifier (minimum of one). Each of them gains temporary hit points equal to 1d10 + your cleric level.
 
-While a creature has these temporary hit points, its speed can't be reduced, and it can't be knocked prone against its will.
+    While a creature has these temporary hit points, its speed can't be reduced, and it can't be knocked prone against its will.
 
-<hr>
+    <hr>
 
-### Level 6 - Potency of the Soil
+    ### Level 6 - Potency of the Soil
 
-Starting at 6th level, when you cast a spell that targets only one creature and doesn’t have a range of self, if that spell causes the target to regain hit points, you can choose for a different creature in range to also regain the same number of hit points.
+    Starting at 6th level, when you cast a spell that targets only one creature and doesn’t have a range of self, if that spell causes the target to regain hit points, you can choose for a different creature in range to also regain the same number of hit points.
 
-<hr>
+    <hr>
 
-### Level 17 - Foundations of the Deep Earth
+    ### Level 17 - Foundations of the Deep Earth
 
-Starting at 17th level, you become immune to petrification and, if you are not incapacitated, you cannot be moved against your will.
+    Starting at 17th level, you become immune to petrification and, if you are not incapacitated, you cannot be moved against your will.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="emptiness-domain">
 
-## ^^Emptiness Domain^^
+??? subclass "Emptiness Domain"
 
-The Emptiness domain represents darkness and distance,
-unknowable motes beyond reach, and subtle cosmic
-forces of unfathomable scale. It is chosen by clerics who
-worship Azathoth and Yog-Sothoth, and by those who
-follow several Great Old Ones (including Cthugha, Great
-Cthulhu, Gobogeg, and Hastur).
+    The Emptiness domain represents darkness and distance,
+    unknowable motes beyond reach, and subtle cosmic
+    forces of unfathomable scale. It is chosen by clerics who
+    worship Azathoth and Yog-Sothoth, and by those who
+    follow several Great Old Ones (including Cthugha, Great
+    Cthulhu, Gobogeg, and Hastur).
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *color spray* / *feather fall* |
-|  3rd  | *darkness* / *misty step* |
-|  5th  | *fly* / *hypnotic pattern* |
-|  7th  | *banishment* / *dimension door* |
-|  9th  | *contact other plane* / *teleportation circle* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *color spray* / *feather fall* |
+        |  3rd  | *darkness* / *misty step* |
+        |  5th  | *fly* / *hypnotic pattern* |
+        |  7th  | *banishment* / *dimension door* |
+        |  9th  | *contact other plane* / *teleportation circle* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Proficiencies
+    ### Level 1 - Bonus Proficiencies
 
-When you choose this domain at 1st level, you gain proficiency in two skills of your choice: Arcana, Perception, or Stealth.
+    When you choose this domain at 1st level, you gain proficiency in two skills of your choice: Arcana, Perception, or Stealth.
 
-<hr>
+    <hr>
 
-### Level 1 - Vanish Into Darkness
+    ### Level 1 - Vanish Into Darkness
 
-Starting at 1st level, when you are hit by an attack, you can use your reaction to take the Hide action if you are in dim light or darkness or if you have anything to hide behind. If you successfully hide from the target’s passive Perception check, the attack misses. Once you use this feature, you can’t use it again until you finish a short or long rest.
+    Starting at 1st level, when you are hit by an attack, you can use your reaction to take the Hide action if you are in dim light or darkness or if you have anything to hide behind. If you successfully hide from the target’s passive Perception check, the attack misses. Once you use this feature, you can’t use it again until you finish a short or long rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Twist Space
+    ### Level 2 - Channel Divinity: Twist Space
 
-Starting at 2nd level, you can use your Channel Divinity to distort physical laws nearby.
+    Starting at 2nd level, you can use your Channel Divinity to distort physical laws nearby.
 
-As an action, you present your holy symbol and invoke your deity's influence from beyond to visibly twist space in a 10-foot cube either adjacent to you or centered on a point you can see within 30 feet. The cube lasts for 10 minutes or until you dismiss it as an action. The faces of the cube provide half cover and produce visual distortions large enough for Medium creatures to hide behind. Moving through one of its faces costs 5 additional feet of movement.
+    As an action, you present your holy symbol and invoke your deity's influence from beyond to visibly twist space in a 10-foot cube either adjacent to you or centered on a point you can see within 30 feet. The cube lasts for 10 minutes or until you dismiss it as an action. The faces of the cube provide half cover and produce visual distortions large enough for Medium creatures to hide behind. Moving through one of its faces costs 5 additional feet of movement.
 
-<hr>
+    <hr>
 
-### Level 6 - Extradimensional Conduit
+    ### Level 6 - Extradimensional Conduit
 
-Starting at 6th level, you can choose to produce a second cube when you use your Twist Space feature. The second cube appears either adjacent to you or centered on a point you can see within 90 feet.
+    Starting at 6th level, you can choose to produce a second cube when you use your Twist Space feature. The second cube appears either adjacent to you or centered on a point you can see within 90 feet.
 
-Whenever a creature you can see moves through a face of either cube, you can use your reaction to teleport it to an unoccupied space you can see within 5 feet of the other cube. The creature can resist being moved by succeeding on a Dexterity saving throw against your spell save DC. You can dismiss the cubes as a bonus action. When you dismiss one cube, the other vanishes as well.
+    Whenever a creature you can see moves through a face of either cube, you can use your reaction to teleport it to an unoccupied space you can see within 5 feet of the other cube. The creature can resist being moved by succeeding on a Dexterity saving throw against your spell save DC. You can dismiss the cubes as a bonus action. When you dismiss one cube, the other vanishes as well.
 
-<hr>
+    <hr>
 
-### Level 17 - Rip Space
+    ### Level 17 - Rip Space
 
-Starting at 17th level, when you dismiss the cubes from Twist Space as an action, one cube of your choice collapses a moment before vanishing. Each creature in that cube teleports to a point of your choice that you can see within 5 feet of the other cube. It can avoid being teleported by succeeding on a Dexterity saving throw against your spell save DC.
+    Starting at 17th level, when you dismiss the cubes from Twist Space as an action, one cube of your choice collapses a moment before vanishing. Each creature in that cube teleports to a point of your choice that you can see within 5 feet of the other cube. It can avoid being teleported by succeeding on a Dexterity saving throw against your spell save DC.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="entropy-domain">
 
-## ^^Entropy Domain^^
+??? subclass "Entropy Domain"
 
-The Entropy domain is centered around the void at the universe's core, a necrotic energy called "Entropy" that consumes the Weave. Clerics of this domain harness this potent force to shield themselves from magic and dismantle arcane casters. The chained god Tharizdun claims dominion over this domain, and its wielders are known by various names: thaumatoclasts, entropomancers, or entropists.
+    The Entropy domain is centered around the void at the universe's core, a necrotic energy called "Entropy" that consumes the Weave. Clerics of this domain harness this potent force to shield themselves from magic and dismantle arcane casters. The chained god Tharizdun claims dominion over this domain, and its wielders are known by various names: thaumatoclasts, entropomancers, or entropists.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *detect magic* / *inflict wounds* |
-|  3rd  | *gentle repose* / *spiritual weapon* |
-|  5th  | *dispel magic* / *protection from energy* |
-|  7th  | *blight* / *death ward* |
-|  9th  | *circle of power* / *hallow* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *detect magic* / *inflict wounds* |
+        |  3rd  | *gentle repose* / *spiritual weapon* |
+        |  5th  | *dispel magic* / *protection from energy* |
+        |  7th  | *blight* / *death ward* |
+        |  9th  | *circle of power* / *hallow* |
 
-<hr>
+    <hr>
 
-### Level 1 - Sanctity of Body
+    ### Level 1 - Sanctity of Body
 
-When you choose this domain at 1st level, you perform a ritual to anchor your soul to the Material Plane. You have advantage on death saving throws.
+    When you choose this domain at 1st level, you perform a ritual to anchor your soul to the Material Plane. You have advantage on death saving throws.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Arcane Disruption
+    ### Level 2 - Channel Divinity: Arcane Disruption
 
-Starting at 2nd level, you can use your Channel Divinity to disrupt the flow of magic in your vicinity.
+    Starting at 2nd level, you can use your Channel Divinity to disrupt the flow of magic in your vicinity.
 
-As an action, you conjure an aura of disruptive energy that radiates from you in a 15-foot radius. The aura lasts until the end of your next turn, and moves with you, centered on you. While inside the aura, any creature that attempts to cast a spell must first succeed on a Constitution saving throw. If they fail the save, their spell fails to cast and the spell slot is wasted.
+    As an action, you conjure an aura of disruptive energy that radiates from you in a 15-foot radius. The aura lasts until the end of your next turn, and moves with you, centered on you. While inside the aura, any creature that attempts to cast a spell must first succeed on a Constitution saving throw. If they fail the save, their spell fails to cast and the spell slot is wasted.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: Entropic Retaliation
+    ### Level 6 - Channel Divinity: Entropic Retaliation
 
-At 6th level, you can use your Channel Divinity to drain a caster’s magical power. When you succeed on a saving throw against a spell or successfully disrupt a spell using Arcane Disruption, you can force the caster to make a Constitution saving throw against your spell save DC. On a failure, the caster loses an additional spell slot of the same level. If they possess no more slots of that level, they instead gain a level of exhaustion.
+    At 6th level, you can use your Channel Divinity to drain a caster’s magical power. When you succeed on a saving throw against a spell or successfully disrupt a spell using Arcane Disruption, you can force the caster to make a Constitution saving throw against your spell save DC. On a failure, the caster loses an additional spell slot of the same level. If they possess no more slots of that level, they instead gain a level of exhaustion.
 
-<hr>
+    <hr>
 
-### Level 17 - Emissary of Entropy
+    ### Level 17 - Emissary of Entropy
 
-At 17th level, you have advantage on saving throws against spells. In addition, when you succeed on a saving throw against a spell, you gain 5 temporary hit points for each slot level of the spell.
+    At 17th level, you have advantage on saving throws against spells. In addition, when you succeed on a saving throw against a spell, you gain 5 temporary hit points for each slot level of the spell.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="fate-domain">
 
-## ^^Fate Domain^^
+??? subclass "Fate Domain"
 
-Gods of fate are occupied with ensuring the tapestry of destiny is preserved and events unfold according to their interpretation of the cosmic plan. In pursuit of order, these beings invoke misery, suffering, comfort, or joy in accordance with the calculations made on behalf of the greater good. To these deities, the fate of mortals is of utmost interest, and they exert their influence in the mortal realm by sharing their power with oracles, seers, fortune-tellers, sibyls, and others gifted with precognitive powers.
+    Gods of fate are occupied with ensuring the tapestry of destiny is preserved and events unfold according to their interpretation of the cosmic plan. In pursuit of order, these beings invoke misery, suffering, comfort, or joy in accordance with the calculations made on behalf of the greater good. To these deities, the fate of mortals is of utmost interest, and they exert their influence in the mortal realm by sharing their power with oracles, seers, fortune-tellers, sibyls, and others gifted with precognitive powers.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *bane* / *divine favor* |
-|  3rd  | *augury* / *warding bond* |
-|  5th  | *bestow curse* / *remove curse* |
-|  7th  | *death ward* / *divination* |
-|  9th  | *geas* / *scrying* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *bane* / *divine favor* |
+        |  3rd  | *augury* / *warding bond* |
+        |  5th  | *bestow curse* / *remove curse* |
+        |  7th  | *death ward* / *divination* |
+        |  9th  | *geas* / *scrying* |
 
-<hr>
+    <hr>
 
-### Level 1 - Soldier of Fortune
+    ### Level 1 - Soldier of Fortune
 
-When you choose this domain at 1st level, you gain proficiency with martial weapons. You also learn the *true strike* cantrip, which doesn’t count against the number of cleric cantrips you know, and you can cast it as a bonus action.
+    When you choose this domain at 1st level, you gain proficiency with martial weapons. You also learn the *true strike* cantrip, which doesn’t count against the number of cleric cantrips you know, and you can cast it as a bonus action.
 
-<hr>
+    <hr>
 
-### Level 1 - Twist of Fate
+    ### Level 1 - Twist of Fate
 
-At 1st level, you learn to alter the course of fate by subtly manipulating its threads. When you choose this domain, you get one fate die (a d6) and you set the face to 1. The number displayed on your fate die represents the number of fate points you currently have. Your fate die acts as both a counter and a normal die at different times, so it is important to note what number is displayed on your fate die at the end of each game session.
+    At 1st level, you learn to alter the course of fate by subtly manipulating its threads. When you choose this domain, you get one fate die (a d6) and you set the face to 1. The number displayed on your fate die represents the number of fate points you currently have. Your fate die acts as both a counter and a normal die at different times, so it is important to note what number is displayed on your fate die at the end of each game session.
 
-Whenever you make an attack roll, ability check, or saving throw, you can spend any number of fate points you have (up to the number displayed on your fate die) and add that number of points to the roll total. You can choose to spend fate points after you roll the die but before the outcome of the roll is determined. If spending points would reduce your total fate points to 0, your fate die is expended, and you cannot use it again until you take a long rest.
+    Whenever you make an attack roll, ability check, or saving throw, you can spend any number of fate points you have (up to the number displayed on your fate die) and add that number of points to the roll total. You can choose to spend fate points after you roll the die but before the outcome of the roll is determined. If spending points would reduce your total fate points to 0, your fate die is expended, and you cannot use it again until you take a long rest.
 
-When you complete a long rest, if you have 1 or more fate points, you gain additional fate points equal to your proficiency bonus (set the fate die to the new face accordingly). If gaining points in this way would give you more points than the highest number available on your fate die, you do not gain points. Instead, you roll the fate die and the result is your new fate point total.
+    When you complete a long rest, if you have 1 or more fate points, you gain additional fate points equal to your proficiency bonus (set the fate die to the new face accordingly). If gaining points in this way would give you more points than the highest number available on your fate die, you do not gain points. Instead, you roll the fate die and the result is your new fate point total.
 
-When you complete a long rest and your fate die is expended (you have 0 fate points), you roll the fate die, and the result is your new fate point total. Your fate die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+    When you complete a long rest and your fate die is expended (you have 0 fate points), you roll the fate die, and the result is your new fate point total. Your fate die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Destiny Bond
+    ### Level 2 - Channel Divinity: Destiny Bond
 
-Starting at 2nd level, you can use your Channel Divinity to intertwine your destiny with that of another creature.
+    Starting at 2nd level, you can use your Channel Divinity to intertwine your destiny with that of another creature.
 
-As an action, you present your holy symbol and weave a mystical thread between you and one willing creature you can see within 30 feet of you. While you remain within 60 feet of the target, you can use your reaction to grant the target advantage on one ability check or attack roll it attempts during its turn. The link lasts for 1 minute or until you are incapacitated or die.
+    As an action, you present your holy symbol and weave a mystical thread between you and one willing creature you can see within 30 feet of you. While you remain within 60 feet of the target, you can use your reaction to grant the target advantage on one ability check or attack roll it attempts during its turn. The link lasts for 1 minute or until you are incapacitated or die.
 
-<hr>
+    <hr>
 
-### Level 6 - Gift of Foresight
+    ### Level 6 - Gift of Foresight
 
-Starting at 6th level, you can use your Channel Divinity to glimpse the immediate future.
+    Starting at 6th level, you can use your Channel Divinity to glimpse the immediate future.
 
-As an action, you open your mind to all possible outcomes for 1 minute or until you lose concentration (as if you were concentrating on a spell).
+    As an action, you open your mind to all possible outcomes for 1 minute or until you lose concentration (as if you were concentrating on a spell).
 
-For the duration, you gain a +2 bonus to AC, and you have advantage on Dexterity saving throws.
+    For the duration, you gain a +2 bonus to AC, and you have advantage on Dexterity saving throws.
 
-<hr>
+    <hr>
 
-### Level 17 - Sibylline Sight
+    ### Level 17 - Sibylline Sight
 
-Starting at 17th level, you can use your action to open your mind to the weave of fate. When you do so, you gain truesight out to a range of 60 feet, which lasts until you are incapacitated or until you take a short or long rest.
+    Starting at 17th level, you can use your action to open your mind to the weave of fate. When you do so, you gain truesight out to a range of 60 feet, which lasts until you are incapacitated or until you take a short or long rest.
 
-You can’t use this feature again until you finish a short or long rest.
+    You can’t use this feature again until you finish a short or long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="fire-domain">
 
-## ^^Fire Domain^^
+??? subclass "Fire Domain"
 
-The mortal races have long had a strong connection to
-fire; it is the mastery of fire that is the first technology
-developed by any group clawing its way toward civilization.
-Fire is a primal force, and the gods who claim fire
-as a part of their portfolio are often similarly primal. Fire
-is a cornerstone of civilization, and yet at the same time
-it is never truly tamed; its presence invokes wariness of
-danger, and it remains strongly associated with unpredictability,
-destruction, and catastrophe.
+    The mortal races have long had a strong connection to
+    fire; it is the mastery of fire that is the first technology
+    developed by any group clawing its way toward civilization.
+    Fire is a primal force, and the gods who claim fire
+    as a part of their portfolio are often similarly primal. Fire
+    is a cornerstone of civilization, and yet at the same time
+    it is never truly tamed; its presence invokes wariness of
+    danger, and it remains strongly associated with unpredictability,
+    destruction, and catastrophe.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *burning hands* / *hellish rebuke* |
-|  3rd  | *flaming sphere* / *heat metal* |
-|  5th  | *daylight* / *fireball* |
-|  7th  | *summon elemental* / *wall of fire* |
-|  9th  | *immolation* / *flame strike* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *burning hands* / *hellish rebuke* |
+        |  3rd  | *flaming sphere* / *heat metal* |
+        |  5th  | *daylight* / *fireball* |
+        |  7th  | *summon elemental* / *wall of fire* |
+        |  9th  | *immolation* / *flame strike* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Cantrip
+    ### Level 1 - Bonus Cantrip
 
-When you choose this domain at 1st level, you gain the *fire bolt* and *produce flame* cantrips if you don’t already know them. These cantrips count as cleric spells for you.
+    When you choose this domain at 1st level, you gain the *fire bolt* and *produce flame* cantrips if you don’t already know them. These cantrips count as cleric spells for you.
 
-<hr>
+    <hr>
 
-### Level 1 - Allied to the Fire
+    ### Level 1 - Allied to the Fire
 
-Starting at 1st level, you gain resistance to fire damage.
+    Starting at 1st level, you gain resistance to fire damage.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Stoke the Blaze
+    ### Level 2 - Channel Divinity: Stoke the Blaze
 
-Starting at 2nd level, you can use your Channel Divinity to cause the flames created by your spells to burn with an intensity stoked by divine power. After you roll fire damage for a spell, you can use your Channel Divinity to instead deal maximum damage to a single target of that spell.
+    Starting at 2nd level, you can use your Channel Divinity to cause the flames created by your spells to burn with an intensity stoked by divine power. After you roll fire damage for a spell, you can use your Channel Divinity to instead deal maximum damage to a single target of that spell.
 
-<hr>
+    <hr>
 
-### Level 6 - Searing Radiance
+    ### Level 6 - Searing Radiance
 
-Beginning at 6th level, when you would cast a spell that deals fire damage, you can choose for half of the damage dealt to be radiant damage, and the rest to be fire damage. You must make this decision before you resolve the spell’s effect.
+    Beginning at 6th level, when you would cast a spell that deals fire damage, you can choose for half of the damage dealt to be radiant damage, and the rest to be fire damage. You must make this decision before you resolve the spell’s effect.
 
-<hr>
+    <hr>
 
-### Level 17 - Untouched by the Flame
+    ### Level 17 - Untouched by the Flame
 
-Starting at 17th level, you become immune to fire damage.
+    Starting at 17th level, you become immune to fire damage.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="force-domain">
 
-## ^^Force Domain^^
+??? subclass "Force Domain"
 
-The domain of Force gathers several major notions related to the workings of the world, such as space and gravity, but also mental and physical strength. Gods associated with this domain may be warlike, violent entities, but also embodiments of creative impetus.
+    The domain of Force gathers several major notions related to the workings of the world, such as space and gravity, but also mental and physical strength. Gods associated with this domain may be warlike, violent entities, but also embodiments of creative impetus.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *expeditious retreat* / *jump* |
-|  3rd  | *star dust* / *seeking orb* |
-|  5th  | *haste* / *aether lance* |
-|  7th  | *freedom of movement* / *force blade* |
-|  9th  | *wall of force* / *aether storm* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *expeditious retreat* / *jump* |
+        |  3rd  | *star dust* / *seeking orb* |
+        |  5th  | *haste* / *aether lance* |
+        |  7th  | *freedom of movement* / *force blade* |
+        |  9th  | *wall of force* / *aether storm* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Features
+    ### Level 1 - Bonus Features
 
-When you choose this domain at 1st level, you gain proficiency in the Acrobatics and Athletics skills. In addition, you also gain the *force bolt* cantrip.
+    When you choose this domain at 1st level, you gain proficiency in the Acrobatics and Athletics skills. In addition, you also gain the *force bolt* cantrip.
 
-<hr>
+    <hr>
 
-### Level 1 - Physical Feats
+    ### Level 1 - Physical Feats
 
-Also at 1st level, your faith makes you capable of astounding physical feats. You can take a bonus action on your turn to gain one of the following two effects:
+    Also at 1st level, your faith makes you capable of astounding physical feats. You can take a bonus action on your turn to gain one of the following two effects:
 
-* Your speed is doubled until the start of your next turn.
-* You gain a +10 bonus on Strength (Athletics) checks and Dexterity (Acrobatics) checks until the start of your next turn.
+    * Your speed is doubled until the start of your next turn.
+    * You gain a +10 bonus on Strength (Athletics) checks and Dexterity (Acrobatics) checks until the start of your next turn.
 
-You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest.
+    You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Strong as an Ox
+    ### Level 2 - Channel Divinity: Strong as an Ox
 
-At 2nd level, you can call upon your divinity to strike with tremendous force. When you make a successful melee weapon attack against a creature, you can use your reaction to deal extra force damage equal to twice your proficiency bonus.
+    At 2nd level, you can call upon your divinity to strike with tremendous force. When you make a successful melee weapon attack against a creature, you can use your reaction to deal extra force damage equal to twice your proficiency bonus.
 
-In addition, you can immediately attempt to shove the creature (no action required) with advantage on the corresponding Strength (Athletics) check.
+    In addition, you can immediately attempt to shove the creature (no action required) with advantage on the corresponding Strength (Athletics) check.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: Whirlwind
+    ### Level 6 - Channel Divinity: Whirlwind
 
-Starting at 6th level, you can draw upon holy might to momentarily turn into an unstoppable juggernaut. You can use your action to make a number of melee weapon attacks equal to your Wisdom modifier (a minimum of 1). Moreover, until the end of your turn, your movement does not trigger opportunity attacks.
+    Starting at 6th level, you can draw upon holy might to momentarily turn into an unstoppable juggernaut. You can use your action to make a number of melee weapon attacks equal to your Wisdom modifier (a minimum of 1). Moreover, until the end of your turn, your movement does not trigger opportunity attacks.
 
-<hr>
+    <hr>
 
-### Level 17 - Brass Body
+    ### Level 17 - Brass Body
 
-When you reach 17th level, your inner strength has reached such a degree that you can make your flesh harder than bronze by contracting your muscles.
+    When you reach 17th level, your inner strength has reached such a degree that you can make your flesh harder than bronze by contracting your muscles.
 
-As a bonus action on your turn, you can clench your muscles to gain a +5 bonus to your AC for a number of rounds equal to your Wisdom modifier (minimum of 1). Until this effect ends, whenever a creature hits you with a melee attack, it must make a Constitution saving throw or be stunned until the start of its next turn.
+    As a bonus action on your turn, you can clench your muscles to gain a +5 bonus to your AC for a number of rounds equal to your Wisdom modifier (minimum of 1). Until this effect ends, whenever a creature hits you with a melee attack, it must make a Constitution saving throw or be stunned until the start of its next turn.
 
-Once you use this feature, you can’t use it again until you finish a long rest.
+    Once you use this feature, you can’t use it again until you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="hearth-domain">
 
-## ^^Hearth Domain^^
+??? subclass "Hearth Domain"
 
-The Hearth domain is not just about safety, security, and the
-gentle glow of a fire when the day is done. It's about finding
-warmth in the love of friends and family, supporting each
-other through thick and thin, and building a community that
-feels like home.
+    The Hearth domain is not just about safety, security, and the
+    gentle glow of a fire when the day is done. It's about finding
+    warmth in the love of friends and family, supporting each
+    other through thick and thin, and building a community that
+    feels like home.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *bless* / *sleep* |
-|  3rd  | *calm emotions* / *prayer of healing* |
-|  5th  | *catnap* / *Leomund's tiny hut* |
-|  7th  | *aura of purity* / *Mordenkainen's private sanctum* |
-|  9th  | *circle of power* / *dream* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *bless* / *sleep* |
+        |  3rd  | *calm emotions* / *prayer of healing* |
+        |  5th  | *catnap* / *Leomund's tiny hut* |
+        |  7th  | *aura of purity* / *Mordenkainen's private sanctum* |
+        |  9th  | *circle of power* / *dream* |
 
-<hr>
+    <hr>
 
-### Level 1 - Community Spirit
+    ### Level 1 - Community Spirit
 
-When you choose this domain at 1st level, you gain the *create
-bonfire* cantrip, which counts as a cleric cantrip for you.
-In addition, you can share your health and fortune with your
-allies. For every Hit Die you spend to regain hit points at the
-end of a short rest, you can touch one other creature that just
-finished a short rest taken within 30 feet of a fire lit by your
-*create bonfire* cantrip, restoring 1d8 hit points to them.
+    When you choose this domain at 1st level, you gain the *create
+    bonfire* cantrip, which counts as a cleric cantrip for you.
+    In addition, you can share your health and fortune with your
+    allies. For every Hit Die you spend to regain hit points at the
+    end of a short rest, you can touch one other creature that just
+    finished a short rest taken within 30 feet of a fire lit by your
+    *create bonfire* cantrip, restoring 1d8 hit points to them.
 
-You can spend Hit Dice to restore hit points to other creatures in
-this way even if you have reached your own hit point
-maximum, but any hit points you regain in excess of this
-maximum are lost.
+    You can spend Hit Dice to restore hit points to other creatures in
+    this way even if you have reached your own hit point
+    maximum, but any hit points you regain in excess of this
+    maximum are lost.
 
-Additionally, when you finish a long rest, all creatures of
-your choice that just finished a long rest taken within 30 feet
-of a fire lit by your *create bonfire* cantrip regain one extra
-spent Hit Die. The number of extra spent Hit Dice creatures
-regain from this feature increases when you reach certain
-levels in this class, increasing to two extra Hit Dice at 5th level,
-three extra Hit Dice at 11th level, and four extra Hit Dice at
-17th level.
+    Additionally, when you finish a long rest, all creatures of
+    your choice that just finished a long rest taken within 30 feet
+    of a fire lit by your *create bonfire* cantrip regain one extra
+    spent Hit Die. The number of extra spent Hit Dice creatures
+    regain from this feature increases when you reach certain
+    levels in this class, increasing to two extra Hit Dice at 5th level,
+    three extra Hit Dice at 11th level, and four extra Hit Dice at
+    17th level.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Bring Them Home
+    ### Level 2 - Channel Divinity: Bring Them Home
 
-Starting at 2nd level, you can use your Channel Divinity to
-save a worthy ally from the brunt of an attack. When a
-willing creature within 60 feet of you takes damage, you can
-use your reaction to grant them resistance to all damage from
-the triggering attack, then teleport the creature to an
-unoccupied space of your choice within 5 feet of you.
+    Starting at 2nd level, you can use your Channel Divinity to
+    save a worthy ally from the brunt of an attack. When a
+    willing creature within 60 feet of you takes damage, you can
+    use your reaction to grant them resistance to all damage from
+    the triggering attack, then teleport the creature to an
+    unoccupied space of your choice within 5 feet of you.
 
-<hr>
+    <hr>
 
-### Level 6 - Restful Hearth
+    ### Level 6 - Restful Hearth
 
-Starting at 6th level, when friends rest near your fire, they feel
-robust and ready to take on anything. When you finish a
-short or long rest, select a number of creatures equal to your
-Wisdom modifier that just finished a short or long rest taken
-within 30 feet of a fire lit by your *create bonfire* cantrip. Each
-creature gains resistance to one damage type of your choice:
-force, radiant, necrotic, or psychic. The effect lasts until the
-creature finishes its next short or long rest.
+    Starting at 6th level, when friends rest near your fire, they feel
+    robust and ready to take on anything. When you finish a
+    short or long rest, select a number of creatures equal to your
+    Wisdom modifier that just finished a short or long rest taken
+    within 30 feet of a fire lit by your *create bonfire* cantrip. Each
+    creature gains resistance to one damage type of your choice:
+    force, radiant, necrotic, or psychic. The effect lasts until the
+    creature finishes its next short or long rest.
 
-In addition, when you finish a long rest, every creature of
-your choice that just finished a long rest taken within 30 feet
-of a fire lit by your *create bonfire* cantrip reduces its
-exhaustion level by 1.
+    In addition, when you finish a long rest, every creature of
+    your choice that just finished a long rest taken within 30 feet
+    of a fire lit by your *create bonfire* cantrip reduces its
+    exhaustion level by 1.
 
-<hr>
+    <hr>
 
-### Level 17 - Legendary Feast
+    ### Level 17 - Legendary Feast
 
-At 17th level, you add *heroes' feast* to your list of domain spells.
-In addition, you can cast *heroes' feast* with this feature
-without expending a spell slot or requiring material
-components.
+    At 17th level, you add *heroes' feast* to your list of domain spells.
+    In addition, you can cast *heroes' feast* with this feature
+    without expending a spell slot or requiring material
+    components.
 
-Once you use this feature, you can't use it again
-until after you finish a long rest.
+    Once you use this feature, you can't use it again
+    until after you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="henge-domain">
 
-## ^^Henge Domain^^
+??? subclass "Henge Domain"
 
-To a cleric who follows the Henge Domain, there is nothing more sacred than the stones that stand to cast shadows over burial mounds. The latent energy that exists where the dead rest manifests into something far greater. The magic of these mounds reaches out, calling through the realm of the dead and to other places. Where powerful bodies lay, their magic permeates the ground and alters its form.
+    To a cleric who follows the Henge Domain, there is nothing more sacred than the stones that stand to cast shadows over burial mounds. The latent energy that exists where the dead rest manifests into something far greater. The magic of these mounds reaches out, calling through the realm of the dead and to other places. Where powerful bodies lay, their magic permeates the ground and alters its form.
 
-Those of the Henge use their stones and rituals to protect the living from the dead and to shepherd the lost souls towards oblivion. It is their sacred duty and their right to commune with the most dangerous forces. They maintain the bounds between worlds as much as the line between life and death.
+    Those of the Henge use their stones and rituals to protect the living from the dead and to shepherd the lost souls towards oblivion. It is their sacred duty and their right to commune with the most dangerous forces. They maintain the bounds between worlds as much as the line between life and death.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *false life* / *illusory script* |
-|  3rd  | *gentle repose* / *misty step* |
-|  5th  | *meld into stone* / *speak with dead* |
-|  7th  | *death ward* / *dimension door* |
-|  9th  | *contact other plane* / *teleportation circle* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *false life* / *illusory script* |
+        |  3rd  | *gentle repose* / *misty step* |
+        |  5th  | *meld into stone* / *speak with dead* |
+        |  7th  | *death ward* / *dimension door* |
+        |  9th  | *contact other plane* / *teleportation circle* |
 
-<hr>
+    <hr>
 
-### Level 1 - Road to the Highlands
+    ### Level 1 - Road to the Highlands
 
-At 1st level, you have gained masterful control over latent spirits that roam the land. As a reaction, when a creature you can see within 30 feet of you is reduced to 0 hit points, you may do one of the following:
+    At 1st level, you have gained masterful control over latent spirits that roam the land. As a reaction, when a creature you can see within 30 feet of you is reduced to 0 hit points, you may do one of the following:
 
-* You may pull their spirit towards you, siphoning power from them. When you do this, you or another creature you can see within 30 feet gains temporary hit points equal to your cleric level + your Wisdom modifier.
-* You can push the creature's spirit back into their body. They automatically succeed on a death saving throw and if they manage to make the additional saving throws to stabilize themselves, they instead come back to consciousness with 1 hit point.
+    - You may pull their spirit towards you, siphoning power from them. When you do this, you or another creature you can see within 30 feet gains temporary hit points equal to your cleric level + your Wisdom modifier.
+    - You can push the creature's spirit back into their body. They automatically succeed on a death saving throw and if they manage to make the additional saving throws to stabilize themselves, they instead come back to consciousness with 1 hit point.
 
-You may use this ability a number of times equal to your Wisdom modifier and regain all uses after a long rest.
+    You may use this ability a number of times equal to your Wisdom modifier and regain all uses after a long rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Guardian of the Henge
+    ### Level 2 - Channel Divinity: Guardian of the Henge
 
-Starting at 2nd level, you may use your Channel Divinity to transport others to safety. As an action, you present your holy symbol and select a number of friendly creatures up to your Wisdom modifier within 60 feet of you. Those creatures can use their reactions to immediately teleport to a square within 5 feet of you. Also, the next attack made against each of these creatures is made at disadvantage.
+    Starting at 2nd level, you may use your Channel Divinity to transport others to safety. As an action, you present your holy symbol and select a number of friendly creatures up to your Wisdom modifier within 60 feet of you. Those creatures can use their reactions to immediately teleport to a square within 5 feet of you. Also, the next attack made against each of these creatures is made at disadvantage.
 
-<hr>
+    <hr>
 
-### Level 6 - Between the Edges
+    ### Level 6 - Between the Edges
 
-At 6th level, when you are reduced to 0 hit points, you can immediately teleport up to 30 feet and automatically succeed on 2 death saving throws. If you succeed on the next death saving throw you make, you become conscious with 1 hit point.
+    At 6th level, when you are reduced to 0 hit points, you can immediately teleport up to 30 feet and automatically succeed on 2 death saving throws. If you succeed on the next death saving throw you make, you become conscious with 1 hit point.
 
-<hr>
+    <hr>
 
-### Level 17 - Monolith of the Ancients
+    ### Level 17 - Monolith of the Ancients
 
-Starting at 17th level, as an action, you may erect a set of runed stones that rise up from the ground around you. Six runed stones rise up 30 feet around you for 1 minute. Designate a number of creatures within 30 feet equal to your Wisdom modifier. Those creatures’ weapon attacks now deal radiant or necrotic damage (their choice) as long as they remain within the circle. As a bonus action, while within the circle, you can attempt to pull the spirit of a creature within the circle. If the creature fails a Charisma saving throw against your spell save DC, they take 3d10 necrotic damage. If this damage reduces the creature to 0 hit points, it is destroyed.
+    Starting at 17th level, as an action, you may erect a set of runed stones that rise up from the ground around you. Six runed stones rise up 30 feet around you for 1 minute. Designate a number of creatures within 30 feet equal to your Wisdom modifier. Those creatures’ weapon attacks now deal radiant or necrotic damage (their choice) as long as they remain within the circle. As a bonus action, while within the circle, you can attempt to pull the spirit of a creature within the circle. If the creature fails a Charisma saving throw against your spell save DC, they take 3d10 necrotic damage. If this damage reduces the creature to 0 hit points, it is destroyed.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="inquisition-domain">
 
-## ^^Inquisition Domain^^
+??? subclass "Inquisition Domain"
 
-The Inquisition domain reflects the order of the multiverse and the rejection of tainted magic—at least so far as certain celestial powers see it. Only the divine casters are pure and fit for use. Since arcane magic is strong enough to challenge the gods, divine beings of this domain demand magic-using mortals are kept in check. Most zealots root out all arcanists, while some strike fragile truces when complete removal isn't feasible.
+    The Inquisition domain reflects the order of the multiverse and the rejection of tainted magic—at least so far as certain celestial powers see it. Only the divine casters are pure and fit for use. Since arcane magic is strong enough to challenge the gods, divine beings of this domain demand magic-using mortals are kept in check. Most zealots root out all arcanists, while some strike fragile truces when complete removal isn't feasible.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *detect magic* / *identify* |
-|  3rd  | *see invisibility* / *silence* |
-|  5th  | *dispel magic* / *remove curse* |
-|  7th  | *arcane eye* / *locate creature* |
-|  9th  | *creation* / *hallow* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *detect magic* / *identify* |
+        |  3rd  | *see invisibility* / *silence* |
+        |  5th  | *dispel magic* / *remove curse* |
+        |  7th  | *arcane eye* / *locate creature* |
+        |  9th  | *creation* / *hallow* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Proficiencies
+    ### Level 1 - Bonus Proficiencies
 
-At 1st level, you gain proficiency with Religion and Arcana.
+    At 1st level, you gain proficiency with Religion and Arcana.
 
-<hr>
+    <hr>
 
-### Level 1 - Witch Hunter's Strike
+    ### Level 1 - Witch Hunter's Strike
 
-Starting at 1st level, when you hit a creature with a weapon attack, you can deal an additional 1d8 force damage. If the creature is concentrating on a spell, you deal an additional 2d8 force damage instead. If a creature fails its saving throw to maintain concentration as a result of taking damage from this feature, you gain a number of temporary hit points equal to the extra force damage dealt by this attack.
+    Starting at 1st level, when you hit a creature with a weapon attack, you can deal an additional 1d8 force damage. If the creature is concentrating on a spell, you deal an additional 2d8 force damage instead. If a creature fails its saving throw to maintain concentration as a result of taking damage from this feature, you gain a number of temporary hit points equal to the extra force damage dealt by this attack.
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), regaining all uses upon completion of a long rest. At 14th level, this damage increases to 2d8, and 3d8 if the creature is concentrating on a spell.
+    You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), regaining all uses upon completion of a long rest. At 14th level, this damage increases to 2d8, and 3d8 if the creature is concentrating on a spell.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Spell Shield
+    ### Level 2 - Channel Divinity: Spell Shield
 
-Starting at 2nd level, you can use your Channel Divinity to bestow temporary resilience to arcane harm.
+    Starting at 2nd level, you can use your Channel Divinity to bestow temporary resilience to arcane harm.
 
-As a bonus action, you present your holy symbol and choose a creature you can see (including yourself) within 30 feet. The chosen creature gains temporary hit points equal to 1d10 + your cleric level. While a creature has temporary hit points granted by your spell shield, it has resistance to damage from spells and advantage on saving throws against spells. The creature loses any remaining temporary hit points after 1 hour.
+    As a bonus action, you present your holy symbol and choose a creature you can see (including yourself) within 30 feet. The chosen creature gains temporary hit points equal to 1d10 + your cleric level. While a creature has temporary hit points granted by your spell shield, it has resistance to damage from spells and advantage on saving throws against spells. The creature loses any remaining temporary hit points after 1 hour.
 
-<hr>
+    <hr>
 
-### Level 6 - Rebuke Invoker
+    ### Level 6 - Rebuke Invoker
 
-Starting at 6th level, as a reaction when a creature you can see within 60 feet casts a spell, you can force the creature to make a Constitution saving throw. On a failure, the creature takes force damage equal to 1d8 per level of spell slot expended casting the spell + your Wisdom modifier. Cantrips are considered first-level spells for this ability. On a successful save, the creature takes half as much damage instead.
+    Starting at 6th level, as a reaction when a creature you can see within 60 feet casts a spell, you can force the creature to make a Constitution saving throw. On a failure, the creature takes force damage equal to 1d8 per level of spell slot expended casting the spell + your Wisdom modifier. Cantrips are considered first-level spells for this ability. On a successful save, the creature takes half as much damage instead.
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), regaining all uses upon completion of a long rest.
+    You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), regaining all uses upon completion of a long rest.
 
-<hr>
+    <hr>
 
-### Level 17 - Supernal Safeguard
+    ### Level 17 - Supernal Safeguard
 
-Starting at 17th level, when you use your Spell Shield feature, you can choose a number of creatures up to your Wisdom modifier (minimum 2) instead of choosing only one.
+    Starting at 17th level, when you use your Spell Shield feature, you can choose a number of creatures up to your Wisdom modifier (minimum 2) instead of choosing only one.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="kami-domain">
 
-## ^^Kami Domain^^
+??? subclass "Kami Domain"
 
-Many spirits wander the world, but there are also ethereal beings known as kami. Divine scholars devoted to understanding, assuaging, or destroying these magical creatures gain superlative abilities to deal with them, making them true warriors of the supernatural.
+    Many spirits wander the world, but there are also ethereal beings known as kami. Divine scholars devoted to understanding, assuaging, or destroying these magical creatures gain superlative abilities to deal with them, making them true warriors of the supernatural.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *sanctuary* / *unseen servant* |
-|  3rd  | *invisibility* / *see invisibility* |
-|  5th  | *blink* / *nondetection* |
-|  7th  | *faithful hound* / *secret chest* |
-|  9th  | *animate objects* / *contact other plane* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *sanctuary* / *unseen servant* |
+        |  3rd  | *invisibility* / *see invisibility* |
+        |  5th  | *blink* / *nondetection* |
+        |  7th  | *faithful hound* / *secret chest* |
+        |  9th  | *animate objects* / *contact other plane* |
 
-<hr>
+    <hr>
 
-### Level 1 - Kami Companion
+    ### Level 1 - Kami Companion
 
-When you choose this domain at 1st level, you find a kami spirit that becomes your companion. You may cast the *find familiar* spell to summon your kami spirit. Unlike a normal familiar, your kami companion can never make attacks or deliver touch spells. It gains the following traits:
+    When you choose this domain at 1st level, you find a kami spirit that becomes your companion. You may cast the *find familiar* spell to summon your kami spirit. Unlike a normal familiar, your kami companion can never make attacks or deliver touch spells. It gains the following traits:
 
-**Etherealness.** Your kami companion enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can’t affect or be affected by anything on the other plane (other than you).
+    **Etherealness.** Your kami companion enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can’t affect or be affected by anything on the other plane (other than you).
 
-**Ethereal Sight.** Your kami companion can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.
+    **Ethereal Sight.** Your kami companion can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.
 
-**Incorporeal Movement.** Your kami companion can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+    **Incorporeal Movement.** Your kami companion can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
 
-**Kami Defenses.** Your kami companion is resistant to acid, fire, lightning, and thunder damage, as well as bludgeoning, piercing, and slashing damage from nonmagical weapon attacks. It is immune to cold, necrotic, and poison damage, and it is immune to the charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, and restrained conditions.
+    **Kami Defenses.** Your kami companion is resistant to acid, fire, lightning, and thunder damage, as well as bludgeoning, piercing, and slashing damage from nonmagical weapon attacks. It is immune to cold, necrotic, and poison damage, and it is immune to the charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, and restrained conditions.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Fortify
+    ### Level 2 - Channel Divinity: Fortify
 
-Starting at 2nd level, your kami companion can use its action to activate your Channel Divinity to relieve you of one of the following conditions: charmed, frightened, poisoned, or prone.
+    Starting at 2nd level, your kami companion can use its action to activate your Channel Divinity to relieve you of one of the following conditions: charmed, frightened, poisoned, or prone.
 
-<hr>
+    <hr>
 
-### Level 6 - Blessed Awareness
+    ### Level 6 - Blessed Awareness
 
-Beginning at 6th level, your kami companion can use its action to share a shred of its supernatural senses with you, granting you blindsight to a range equal to your proficiency bonus times 5 feet until the end of your next turn.
+    Beginning at 6th level, your kami companion can use its action to share a shred of its supernatural senses with you, granting you blindsight to a range equal to your proficiency bonus times 5 feet until the end of your next turn.
 
-<hr>
+    <hr>
 
-### Level 8 - Improved Fortify
+    ### Level 8 - Improved Fortify
 
-At 8th level, your kami’s ability to relieve conditions improves. It can now affect creatures other than you with its fortify ability, and it can relieve the additional conditions of grappled, paralyzed, or restrained.
+    At 8th level, your kami’s ability to relieve conditions improves. It can now affect creatures other than you with its fortify ability, and it can relieve the additional conditions of grappled, paralyzed, or restrained.
 
-<hr>
+    <hr>
 
-### Level 17 - Spirit Monster
+    ### Level 17 - Spirit Monster
 
-Starting at 17th level, you and your kami companion can each spend an action to transform into another creature as though using the true polymorph spell. You can remain in a transformed state for a number of rounds equal to your proficiency bonus plus your Wisdom modifier. You regain expended uses when you finish a long rest.
+    Starting at 17th level, you and your kami companion can each spend an action to transform into another creature as though using the true polymorph spell. You can remain in a transformed state for a number of rounds equal to your proficiency bonus plus your Wisdom modifier. You regain expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="missionary-domain">
 
-## ^^Missionary Domain^^
+??? subclass "Missionary Domain"
 
-Clerics of the Missionary Domain operate within a variety of different orders under a diverse set of deities, but they all have been granted the same purpose — spread the word of their god. For some, this mission is a virtuous act, and for others, it is simply one side of their deal for divine power. Many of the clerics who follow this path are followers or leaders of those who rule cities.
+    Clerics of the Missionary Domain operate within a variety of different orders under a diverse set of deities, but they all have been granted the same purpose — spread the word of their god. For some, this mission is a virtuous act, and for others, it is simply one side of their deal for divine power. Many of the clerics who follow this path are followers or leaders of those who rule cities.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *bless* / *charm person* |
-|  3rd  | *enthrall* / *suggestion* |
-|  5th  | *beacon of hope* / *tongues* |
-|  7th  | *compulsion* / *guardian of faith* |
-|  9th  | *dominate person* / *modify memory* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *bless* / *charm person* |
+        |  3rd  | *enthrall* / *suggestion* |
+        |  5th  | *beacon of hope* / *tongues* |
+        |  7th  | *compulsion* / *guardian of faith* |
+        |  9th  | *dominate person* / *modify memory* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Proficiencies
+    ### Level 1 - Bonus Proficiencies
 
-At 1st level, you gain proficiency in the Deception, Performance, or Persuasion skill (your choice).
+    At 1st level, you gain proficiency in the Deception, Performance, or Persuasion skill (your choice).
 
-<hr>
+    <hr>
 
-### Level 1 - Blessing of the Believer
+    ### Level 1 - Blessing of the Believer
 
-Also starting at 1st level, you can empower your allies in exchange for their faith. When an ally within 30 feet of you makes an attack roll, ability check, or saving throw, you can use your reaction to give them advantage on the roll. When you do, the ally must proclaim the name of your deity or receive no benefit. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+    Also starting at 1st level, you can empower your allies in exchange for their faith. When an ally within 30 feet of you makes an attack roll, ability check, or saving throw, you can use your reaction to give them advantage on the roll. When you do, the ally must proclaim the name of your deity or receive no benefit. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Sacred Words
+    ### Level 2 - Channel Divinity: Sacred Words
 
-Starting at 2nd level, you can use your Channel Divinity to alter the emotions of those around you.
+    Starting at 2nd level, you can use your Channel Divinity to alter the emotions of those around you.
 
-As an action, you present your holy symbol, evoke the name of your deity and say a few words about them, choosing from one of the options below. Choose a number of creatures within 30 feet of you that can hear you, up to a number equal to your Wisdom modifier (a minimum of one) to be affected by your chosen words for 1 minute. An unwilling creature must make a Wisdom saving throw to resist this effect. If such a creature fails, it can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+    As an action, you present your holy symbol, evoke the name of your deity and say a few words about them, choosing from one of the options below. Choose a number of creatures within 30 feet of you that can hear you, up to a number equal to your Wisdom modifier (a minimum of one) to be affected by your chosen words for 1 minute. An unwilling creature must make a Wisdom saving throw to resist this effect. If such a creature fails, it can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-* **They are mighty.** Affected creatures are frightened of you for the duration.
-* **They are merciful.** Affected creatures are charmed by you for the duration.
-* **They are fearless.** Affected creatures can’t be frightened or charmed for the duration.
+    **They are mighty.** Affected creatures are frightened of you for the duration.
 
-<hr>
+    **They are merciful.** Affected creatures are charmed by you for the duration.
 
-### Level 6 - Divine Missionary
+    **They are fearless.** Affected creatures can’t be frightened or charmed for the duration.
 
-Starting at 6th level, if you speak to a humanoid or group of humanoids for at least 1 minute and talk about your deity, you can attempt to magically infuse them with faith. At the end of the conversation, the targets must succeed on a Wisdom saving throw against your cleric spell save DC or have the thought of your deity linger in their mind for 1 hour. Until then, you and allies you choose have advantage on all Charisma checks directed at those creatures. Once the effect ends, or if a creature succeeds on its saving throw against the effect, a target has no hint that you tried to magically influence it. Once you use this feature, you can’t use it again until you finish a short or long rest.
+    <hr>
 
-<hr>
+    ### Level 6 - Divine Missionary
 
-### Level 17 - Holy Emissary
+    Starting at 6th level, if you speak to a humanoid or group of humanoids for at least 1 minute and talk about your deity, you can attempt to magically infuse them with faith. At the end of the conversation, the targets must succeed on a Wisdom saving throw against your cleric spell save DC or have the thought of your deity linger in their mind for 1 hour. Until then, you and allies you choose have advantage on all Charisma checks directed at those creatures. Once the effect ends, or if a creature succeeds on its saving throw against the effect, a target has no hint that you tried to magically influence it. Once you use this feature, you can’t use it again until you finish a short or long rest.
 
-Starting at 17th level, you become a divine representative of your god, inspiring your allies and terrifying your enemies. You can use your Sacred Words feature as a bonus action, rather than an action. Also, at the end of each of your turns while you are using the feature, you can cause all affected creatures that can see you to either take 10 psychic damage or gain 5 temporary hit points (your choice).
+    <hr>
 
-<hr>
+    ### Level 17 - Holy Emissary
+
+    Starting at 17th level, you become a divine representative of your god, inspiring your allies and terrifying your enemies. You can use your Sacred Words feature as a bonus action, rather than an action. Also, at the end of each of your turns while you are using the feature, you can cause all affected creatures that can see you to either take 10 psychic damage or gain 5 temporary hit points (your choice).
+
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="prophecy-domain">
 
-## ^^Prophecy Domain^^
+??? subclass "Prophecy Domain"
 
-The Prophecy domain focuses on foretelling danger and preventing harmful outcomes. Clerics of this domain are also known as “oracles.” Oracles pay special attention to dreams, intuitive thoughts, and hallucinatory visions. They are widely believed to be capable of predicting the future, though their visions are often misinterpreted. They live by the phrase, “know thyself.”
+    The Prophecy domain focuses on foretelling danger and preventing harmful outcomes. Clerics of this domain are also known as “oracles.” Oracles pay special attention to dreams, intuitive thoughts, and hallucinatory visions. They are widely believed to be capable of predicting the future, though their visions are often misinterpreted. They live by the phrase, “know thyself.”
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *detect magic* / *identify* |
-|  3rd  | *augury* / *locate object* |
-|  5th  | *beacon of hope* / *clairvoyance* |
-|  7th  | *death ward* / *divination* |
-|  9th  | *dream* / *scrying* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *detect magic* / *identify* |
+        |  3rd  | *augury* / *locate object* |
+        |  5th  | *beacon of hope* / *clairvoyance* |
+        |  7th  | *death ward* / *divination* |
+        |  9th  | *dream* / *scrying* |
 
-<hr>
+    <hr>
 
-### Level 1 - Mindful Senses
+    ### Level 1 - Mindful Senses
 
-When you choose this domain at 1st level, you gain the *message* cantrip if you don’t already know it.
+    When you choose this domain at 1st level, you gain the *message* cantrip if you don’t already know it.
 
-Additionally, you gain proficiency in the Perception skill.
+    Additionally, you gain proficiency in the Perception skill.
 
-<hr>
+    <hr>
 
-### Level 1 - Blessing of Foresight
+    ### Level 1 - Blessing of Foresight
 
-Starting at 1st level, you use your divination spells to protect your allies from future events. Whenever you cast a divination spell of 1st level or higher, choose one creature you can see. That creature gains temporary hit points equal to your Wisdom modifier + your cleric level.
+    Starting at 1st level, you use your divination spells to protect your allies from future events. Whenever you cast a divination spell of 1st level or higher, choose one creature you can see. That creature gains temporary hit points equal to your Wisdom modifier + your cleric level.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Prophetic Trance
+    ### Level 2 - Channel Divinity: Prophetic Trance
 
-Starting at 2nd level, you can use your Channel Divinity to enter a prophetic trance. As an action, you inhale hallucinatory vapors and enter a trance-like state for 10 minutes. Roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these prophecy rolls.
+    Starting at 2nd level, you can use your Channel Divinity to enter a prophetic trance. As an action, you inhale hallucinatory vapors and enter a trance-like state for 10 minutes. Roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these prophecy rolls.
 
-You must choose to do so before the roll is made. Each prophecy roll can be used only once. You lose the prophecy rolls when your trance ends.
+    You must choose to do so before the roll is made. Each prophecy roll can be used only once. You lose the prophecy rolls when your trance ends.
 
-<hr>
+    <hr>
 
-### Level 6 - Visions of Danger
+    ### Level 6 - Visions of Danger
 
-Starting at 6th level, you experience flashes of foresight that reveal to you when your allies will be harmed, allowing you to react with uncanny speed. When you ready a spell that restores hit points, it does not require or break concentration.
+    Starting at 6th level, you experience flashes of foresight that reveal to you when your allies will be harmed, allowing you to react with uncanny speed. When you ready a spell that restores hit points, it does not require or break concentration.
 
-Additionally, when one of your allies takes damage or fails a saving throw, you may use your reaction to move up to your speed and cast a beneficial spell that only targets your imperiled ally.
+    Additionally, when one of your allies takes damage or fails a saving throw, you may use your reaction to move up to your speed and cast a beneficial spell that only targets your imperiled ally.
 
-The casting time of the spell must be a reaction, action, or bonus action. You may use this feature twice, and you regain any expended uses when you finish a long rest.
+    The casting time of the spell must be a reaction, action, or bonus action. You may use this feature twice, and you regain any expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 8 - Healing Vapors
+    ### Level 8 - Healing Vapors
 
-Starting at 8th level, your healing spells are accompanied by a mist of restorative vapors. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your Wisdom modifier.
+    Starting at 8th level, your healing spells are accompanied by a mist of restorative vapors. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your Wisdom modifier.
 
-Additionally, when you cast a spell of 1st level or higher that restores hit points, you may choose to add the effect of *fog cloud* at the location of one of your targets. You must complete a long rest before you can create another fog cloud with this feature.
+    Additionally, when you cast a spell of 1st level or higher that restores hit points, you may choose to add the effect of *fog cloud* at the location of one of your targets. You must complete a long rest before you can create another fog cloud with this feature.
 
-<hr>
+    <hr>
 
-### Level 17 - Perfect Foresight
+    ### Level 17 - Perfect Foresight
 
-Starting at 17th level, your prophetic powers are nearly infallible. When you enter a prophetic trance with Channel Divinity, you may choose to replace the result of either d20 prophecy roll with any number between 1 and 19 of your choice. Additionally, while you are in the trance, you gain darkvision out to a range of 60 feet, and you can see invisible creatures and objects within 10 feet of you that are within line of sight.
+    Starting at 17th level, your prophetic powers are nearly infallible. When you enter a prophetic trance with Channel Divinity, you may choose to replace the result of either d20 prophecy roll with any number between 1 and 19 of your choice. Additionally, while you are in the trance, you gain darkvision out to a range of 60 feet, and you can see invisible creatures and objects within 10 feet of you that are within line of sight.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="repose-domain">
 
-## ^^Repose Domain^^
+??? subclass "Repose Domain"
 
-For some cultures, death is a thing to be feared, and as
-such, those cultures’ gods of death are often figures of
-foreboding and evil. For others, death is merely a transition,
-and the gods of death are shepherds of souls,
-carrying them on to the next realm. For clerics of this
-latter kind of death god, the Repose domain represents
-the gifts of these gods, focusing on ensuring that malign
-forces do not interrupt the natural cycle of life and death.
-Clerics with the Repose domain also gain mastery over
-many things that are a part of death, such as stillness,
-unawareness, and nonexistence. More than anything,
-clerics of the Repose domain excel at seeking out the
-abomination that is the undead, and correcting the flaw
-that their existence has introduced into the natural order.
+    For some cultures, death is a thing to be feared, and as
+    such, those cultures’ gods of death are often figures of
+    foreboding and evil. For others, death is merely a transition,
+    and the gods of death are shepherds of souls,
+    carrying them on to the next realm. For clerics of this
+    latter kind of death god, the Repose domain represents
+    the gifts of these gods, focusing on ensuring that malign
+    forces do not interrupt the natural cycle of life and death.
+    Clerics with the Repose domain also gain mastery over
+    many things that are a part of death, such as stillness,
+    unawareness, and nonexistence. More than anything,
+    clerics of the Repose domain excel at seeking out the
+    abomination that is the undead, and correcting the flaw
+    that their existence has introduced into the natural order.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells                |
-|:-------------:|:----------------------|
-|  1st          | *false life* / *sleep* |
-|  3rd          | *gentle repose* / *hold person* |
-|  5th          | *glyph of warding* / *speak with dead* |
-|  7th          | *banishment* / *death ward* |
-|  9th          | *raise dead* /  *hold monster* |
+        | Cleric Level  | Spells                |
+        |:-------------:|:----------------------|
+        |  1st | *false life* / *sleep* |
+        |  3rd | *gentle repose* / *hold person* |
+        |  5th | *glyph of warding* / *speak with dead* |
+        |  7th | *banishment* / *death ward* |
+        |  9th | *raise dead* /  *hold monster* |
 
-<hr>
+    <hr>
 
-### Level 1 - Power of the Grave
+    ### Level 1 - Power of the Grave
 
-When you choose this domain at 1st level, you learn two
-necromancy cantrips chosen from any class’s spell list.
-These cantrips count as cleric spells for you.
+    When you choose this domain at 1st level, you learn two
+    necromancy cantrips chosen from any class’s spell list.
+    These cantrips count as cleric spells for you.
 
-<hr>
+    <hr>
 
-### Level 1 - Barring Death's Door
+    ### Level 1 - Barring Death's Door
 
-Also starting at 1st level, creatures that you are friendly
-to that are within 60 feet of you have advantage on death
-saving throws.
+    Also starting at 1st level, creatures that you are friendly
+    to that are within 60 feet of you have advantage on death
+    saving throws.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Sense Undead
+    ### Level 2 - Channel Divinity: Sense Undead
 
-Starting at 2nd level, you can use your Channel Divinity
-to sense undead creatures and seek them out unerringly
-using your divine senses.
-As an action, you present your holy symbol and speak
-the mystic words, granting yourself a sense of unlife
-nearby. For the next minute, you know the direction of
-the nearest undead creature within 60 feet of you, but
-not its distance from you. You can sense the presence and
-direction of undead that are ethereal, invisible, disguised,
-or hidden, as well as those in plain sight. The effect ends if
-you become unconscious.
+    Starting at 2nd level, you can use your Channel Divinity
+    to sense undead creatures and seek them out unerringly
+    using your divine senses.
+    As an action, you present your holy symbol and speak
+    the mystic words, granting yourself a sense of unlife
+    nearby. For the next minute, you know the direction of
+    the nearest undead creature within 60 feet of you, but
+    not its distance from you. You can sense the presence and
+    direction of undead that are ethereal, invisible, disguised,
+    or hidden, as well as those in plain sight. The effect ends if
+    you become unconscious.
 
-<hr>
+    <hr>
 
-### Level 6 - Restore the Natural Order
+    ### Level 6 - Restore the Natural Order
 
-Beginning at 6th level, you automatically gain the *Destroy Undead*
-feature and your cleric level is treated as being
-6 higher than it actually is for the purposes of this feature.
+    Beginning at 6th level, you automatically gain the *Destroy Undead*
+    feature and your cleric level is treated as being
+    6 higher than it actually is for the purposes of this feature.
 
-<hr>
+    <hr>
 
-### Level 17 - Sanctity of Death
+    ### Level 17 - Sanctity of Death
 
-Starting at 17th level, when a creature within 60 feet of
-you dies, for 1 day the creature’s body cannot be reanimated
-as, or transformed into, an undead creature.
-Additionally, spells and monsters cannot create undead
-creatures within 60 feet of you.
+    Starting at 17th level, when a creature within 60 feet of
+    you dies, for 1 day the creature’s body cannot be reanimated
+    as, or transformed into, an undead creature.
+    Additionally, spells and monsters cannot create undead
+    creatures within 60 feet of you.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="seership-domain">
 
-## ^^Seership Domain^^
+??? subclass "Seership Domain"
 
-The Seership domain represents those touched by gods or other powerful entities to guide others. Rather than smiting "evil" or "unjust" beings, Seers influence events and people to achieve favored outcomes. However, altering fate often comes at a price.
+    The Seership domain represents those touched by gods or other powerful entities to guide others. Rather than smiting "evil" or "unjust" beings, Seers influence events and people to achieve favored outcomes. However, altering fate often comes at a price.
 
-Seers perceive the magical threads weaving between creatures and places, guided by their patrons like hands of fortune. They excel in supporting roles, using premonitions to aid allies in battle. Some are chosen by gods for their pivotal role in history, while others are simply fortune tellers whose prophecies reach powerful ears.
+    Seers perceive the magical threads weaving between creatures and places, guided by their patrons like hands of fortune. They excel in supporting roles, using premonitions to aid allies in battle. Some are chosen by gods for their pivotal role in history, while others are simply fortune tellers whose prophecies reach powerful ears.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *detect magic* / *identify* |
-|  3rd  | *locate object* / *phantasmal force* |
-|  5th  | *clairvoyance* / *dispel magic* |
-|  7th  | *hallucinatory terrain* / *locate creature* |
-|  9th  | *legend lore* / *scrying* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *detect magic* / *identify* |
+        |  3rd  | *locate object* / *phantasmal force* |
+        |  5th  | *clairvoyance* / *dispel magic* |
+        |  7th  | *hallucinatory terrain* / *locate creature* |
+        |  9th  | *legend lore* / *scrying* |
 
-<hr>
+    <hr>
 
-### Level 1 - Seer's Intuition
+    ### Level 1 - Seer's Intuition
 
-You begin to see the strings of magic that weave through the world. Whenever you make a Wisdom (Insight) check, you may treat a d20 roll of 9 or lower as a 10. In addition, you learn the *guidance* cantrip, which doesn’t count against the number of cleric cantrips you know. For you, it has a range of 30 feet.
+    You begin to see the strings of magic that weave through the world. Whenever you make a Wisdom (Insight) check, you may treat a d20 roll of 9 or lower as a 10. In addition, you learn the *guidance* cantrip, which doesn’t count against the number of cleric cantrips you know. For you, it has a range of 30 feet.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Woesight
+    ### Level 2 - Channel Divinity: Woesight
 
-You can flare your eyes with magical energy as you search for a weakness in an enemy and subtly guide allies toward it. When an ally hits a creature with a weapon attack, you can use your reaction to turn it into a critical hit.
+    You can flare your eyes with magical energy as you search for a weakness in an enemy and subtly guide allies toward it. When an ally hits a creature with a weapon attack, you can use your reaction to turn it into a critical hit.
 
-<hr>
+    <hr>
 
-### Level 6 - Twisting Fate
+    ### Level 6 - Twisting Fate
 
-Your vision extends slightly into the future, alerting you to incoming danger and giving you a small window to alter it. When an enemy you can see within 30 feet hits an ally with a critical hit, you can use your reaction to make them reroll the attack.
+    Your vision extends slightly into the future, alerting you to incoming danger and giving you a small window to alter it. When an enemy you can see within 30 feet hits an ally with a critical hit, you can use your reaction to make them reroll the attack.
 
-You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.
+    You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 17 - Keeper of Sight
+    ### Level 17 - Keeper of Sight
 
-You have learned how to alter the vision of all creatures around you. As an action, every hostile creature within 120 feet that can see you must succeed on a Constitution saving throw against your spell save DC or become blinded for 1 minute. Each creature can repeat the saving throw at the end of its turn, with a success ending the effect.
+    You have learned how to alter the vision of all creatures around you. As an action, every hostile creature within 120 feet that can see you must succeed on a Constitution saving throw against your spell save DC or become blinded for 1 minute. Each creature can repeat the saving throw at the end of its turn, with a success ending the effect.
 
-In addition, every ally within 120 feet that can see you can make a DC 10 Wisdom (Insight) check. On a success, whenever they make an attack roll, they can treat a d20 roll of 7 or lower as an 8 for 1 minute.
+    In addition, every ally within 120 feet that can see you can make a DC 10 Wisdom (Insight) check. On a success, whenever they make an attack roll, they can treat a d20 roll of 7 or lower as an 8 for 1 minute.
 
-Once you use this feature, you can’t use it again until you finish a long rest.
+    Once you use this feature, you can’t use it again until you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="sharing-domain">
 
-## ^^Sharing Domain^^
+??? subclass "Sharing Domain"
 
-The domain of Sharing represents exchange, self-sacrifice, dialog, communion, and symbiosis. Skilled mediators, guardians, and pedagogues, clerics of this domain are not solely active as caretakers or at the courts of kings. Many of them are great travelers, and some join groups of adventurers among which they are an appreciated presence, capable of keeping the party going even in the worst circumstances. Many religious groups who do charity work or support the destitute follow this domain.
+    The domain of Sharing represents exchange, self-sacrifice, dialog, communion, and symbiosis. Skilled mediators, guardians, and pedagogues, clerics of this domain are not solely active as caretakers or at the courts of kings. Many of them are great travelers, and some join groups of adventurers among which they are an appreciated presence, capable of keeping the party going even in the worst circumstances. Many religious groups who do charity work or support the destitute follow this domain.
 
-On a darker note, some organizations put a great emphasis on sacrifice, in particular through rituals or within the context of wars. These zealots are sometimes regarded as dangerous sects that must be shunned or brought down, and sometimes as saints worthy of admiration.
+    On a darker note, some organizations put a great emphasis on sacrifice, in particular through rituals or within the context of wars. These zealots are sometimes regarded as dangerous sects that must be shunned or brought down, and sometimes as saints worthy of admiration.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *charm person* / *healing word* |
-|  3rd  | *augury* / *enhance ability* |
-|  5th  | *remove curse* / *tongues* |
-|  7th  | *divination* / *guardian of faith* |
-|  9th  | *hallow* / *legend lore* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *charm person* / *healing word* |
+        |  3rd  | *augury* / *enhance ability* |
+        |  5th  | *remove curse* / *tongues* |
+        |  7th  | *divination* / *guardian of faith* |
+        |  9th  | *hallow* / *legend lore* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Proficiencies
+    ### Level 1 - Bonus Proficiencies
 
-When you choose this domain at 1st level, you gain proficiency in the Persuasion skill. Your proficiency bonus is doubled for any ability check you make that uses this skill.
+    When you choose this domain at 1st level, you gain proficiency in the Persuasion skill. Your proficiency bonus is doubled for any ability check you make that uses this skill.
 
-<hr>
+    <hr>
 
-### Level 1 - Polyglot
+    ### Level 1 - Polyglot
 
-Also at 1st level, you can speak, read, and write three additional languages, including an Exotic one.
+    Also at 1st level, you can speak, read, and write three additional languages, including an Exotic one.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Divine Grace
+    ### Level 2 - Channel Divinity: Divine Grace
 
-Starting at 2nd level, you can find the divine inspiration to excel in a discipline even if you know nothing about it. As an action, you become proficient in a skill, tool, weapon, or armor for 10 minutes.
+    Starting at 2nd level, you can find the divine inspiration to excel in a discipline even if you know nothing about it. As an action, you become proficient in a skill, tool, weapon, or armor for 10 minutes.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: Miracle
+    ### Level 6 - Channel Divinity: Miracle
 
-Beginning at 6th level, you can make use of your divine sharing abilities to grant another the ability to cast one of your spells. As a bonus action, choose one of your prepared spells and designate a creature that you can see. You must expend a spell slot of a level appropriate to the chosen spell. The targeted creature becomes able to cast the chosen spell once, on the conditions detailed in the spell’s description, using your proficiency bonus and spellcasting ability modifier instead of the creature’s own.
+    Beginning at 6th level, you can make use of your divine sharing abilities to grant another the ability to cast one of your spells. As a bonus action, choose one of your prepared spells and designate a creature that you can see. You must expend a spell slot of a level appropriate to the chosen spell. The targeted creature becomes able to cast the chosen spell once, on the conditions detailed in the spell’s description, using your proficiency bonus and spellcasting ability modifier instead of the creature’s own.
 
-When you finish a long rest, this effect ends and you recover the expended spell slot as normal.
+    When you finish a long rest, this effect ends and you recover the expended spell slot as normal.
 
-<hr>
+    <hr>
 
-### Level 8 - Soothe
+    ### Level 8 - Soothe
 
-At 8th level, whenever you attempt to disarm a conflict or open a dialog in a heated situation, you have advantage on the related Charisma (Persuasion) or Charisma (Deception) checks, and your interlocutors have disadvantage on the related Wisdom (Insight) and Charisma (Intimidation) checks.
+    At 8th level, whenever you attempt to disarm a conflict or open a dialog in a heated situation, you have advantage on the related Charisma (Persuasion) or Charisma (Deception) checks, and your interlocutors have disadvantage on the related Wisdom (Insight) and Charisma (Intimidation) checks.
 
-<hr>
+    <hr>
 
-### Level 17 - Summon Avatar
+    ### Level 17 - Summon Avatar
 
-When you reach 17th level, you can directly call an avatar of your deity to your side. As an action, you summon a physical manifestation of your god, which remains for a number of rounds equal to your Wisdom modifier. The avatar’s stat block is the same as yours, except that its hit points are equal to your maximum hit points, your conditions do not carry over to it, and it is always visible and glowing (it provides as much light as a torch). Any creature that hits it with a melee weapon attack immediately takes radiant damage equal to your level. In combat, the avatar fights your enemies to the best of its abilities.
+    When you reach 17th level, you can directly call an avatar of your deity to your side. As an action, you summon a physical manifestation of your god, which remains for a number of rounds equal to your Wisdom modifier. The avatar’s stat block is the same as yours, except that its hit points are equal to your maximum hit points, your conditions do not carry over to it, and it is always visible and glowing (it provides as much light as a torch). Any creature that hits it with a melee weapon attack immediately takes radiant damage equal to your level. In combat, the avatar fights your enemies to the best of its abilities.
 
-If you ask it questions, it replies as if you had contacted it through a *contact other plane* spell (you do not make the Intelligence saving throw related to casting this spell). Once you use this feature, you can’t use it again until you finish a long rest. In addition, if less than seven days have elapsed since the last time you used it, there is a 50% chance that your deity will remain deaf to any attempt to summon it through this feature for the next year.
+    If you ask it questions, it replies as if you had contacted it through a *contact other plane* spell (you do not make the Intelligence saving throw related to casting this spell). Once you use this feature, you can’t use it again until you finish a long rest. In addition, if less than seven days have elapsed since the last time you used it, there is a 50% chance that your deity will remain deaf to any attempt to summon it through this feature for the next year.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="shugenja-domain">
 
-## ^^Shugenja Domain^^
+??? subclass "Shugenja Domain"
 
-Clerics of the Shugenja domain have a divine bond with the four elements,
-granting them access to divine powers. In many Oriental cultures, Shugenja
-are revered as divine figures, often seen as intermediaries between mortals
-and the elemental forces they worship.
+    Clerics of the Shugenja domain have a divine bond with the four elements,
+    granting them access to divine powers. In many Oriental cultures, Shugenja
+    are revered as divine figures, often seen as intermediaries between mortals
+    and the elemental forces they worship.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *detect magic* / *magic missile* |
-|  3rd  | *aganazzar's scorcher* / *dancing wave* |
-|  5th  | *lightning bolt* / *flash freeze* |
-|  7th  | *stone shape* / *storm sphere* |
-|  9th  | *pressure cutter* / *wall of stone* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *detect magic* / *magic missile* |
+        |  3rd  | *aganazzar's scorcher* / *dancing wave* |
+        |  5th  | *lightning bolt* / *flash freeze* |
+        |  7th  | *stone shape* / *storm sphere* |
+        |  9th  | *pressure cutter* / *wall of stone* |
 
-<hr>
+    <hr>
 
-### Level 1 - Sense Elements
+    ### Level 1 - Sense Elements
 
-Beginning at 1st level, as an action, you can sense the location, size, and
-direction of a particular element within 300 feet of you, choosing either
-earth, fire, water, or wind. The effect lasts for 1 minute or until you dismiss
-it as an action.
+    Beginning at 1st level, as an action, you can sense the location, size, and
+    direction of a particular element within 300 feet of you, choosing either
+    earth, fire, water, or wind. The effect lasts for 1 minute or until you dismiss
+    it as an action.
 
-You can use this feature a number of times equal to your Wisdom modifier
-(minimum of 1). You regain all expended uses when you finish a short or
-long rest.
+    You can use this feature a number of times equal to your Wisdom modifier
+    (minimum of 1). You regain all expended uses when you finish a short or
+    long rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Turn Elementals and Fiends
+    ### Level 2 - Channel Divinity: Turn Elementals and Fiends
 
-Starting at 2nd level, as an action, you can spread your arms and speak a
-prayer censuring elementals and fiends. Each elemental and fiend that can
-see or hear you within 30 feet of you must succeed on a Wisdom saving
-throw or become turned for 1 minute or until it takes any damage.
+    Starting at 2nd level, as an action, you can spread your arms and speak a
+    prayer censuring elementals and fiends. Each elemental and fiend that can
+    see or hear you within 30 feet of you must succeed on a Wisdom saving
+    throw or become turned for 1 minute or until it takes any damage.
 
-<hr>
+    <hr>
 
-### Level 2 - Elemental Affinity
+    ### Level 2 - Elemental Affinity
 
-Also at 2nd level, you specialize in one of the following four elements. Your
-chosen element grants you a new Channel Divinity feature. Choose one from
-among air, earth, fire, and water.
+    Also at 2nd level, you specialize in one of the following four elements. Your
+    chosen element grants you a new Channel Divinity feature. Choose one from
+    among air, earth, fire, and water.
 
-* **Channel Divinity: Air.** As an action, you can use your Channel Divinity to empower your sight, gaining truesight out to a range of 60 feet for 1 minute.
-* **Channel Divinity: Earth.** As an action, you can grant up to five creatures within 30 feet of you resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons for 30 seconds.
-* **Channel Divinity: Fire.** As an action, creatures in a 20-foot radius around you must make a Constitution saving throw, taking radiant damage and possibly becoming blinded on a failed save.
-* **Channel Divinity: Water.** As an action, you can link yourself with up to four willing creatures within 30 feet, sharing damage taken evenly among linked creatures for 2 rounds.
+    **Channel Divinity: Air.** As an action, you can use your Channel Divinity to empower your sight, gaining truesight out to a range of 60 feet for 1 minute.
 
-<hr>
+    **Channel Divinity: Earth.** As an action, you can grant up to five creatures within 30 feet of you resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons for 30 seconds.
 
-### Level 6 - Elemental Points
+    **Channel Divinity: Fire.** As an action, creatures in a 20-foot radius around you must make a Constitution saving throw, taking radiant damage and possibly becoming blinded on a failed save.
 
-At 6th level, you tap into a deep wellspring of magic within the elements.
-You gain elemental points equal to half your cleric level, which recharge
-after a long rest.
+    **Channel Divinity: Water.** As an action, you can link yourself with up to four willing creatures within 30 feet, sharing damage taken evenly among linked creatures for 2 rounds.
 
-<hr>
+    <hr>
 
-### Level 6 - Metamagic
+    ### Level 6 - Elemental Points
 
-Also at 6th level, you gain the ability to use Metamagic options, selecting
-two options from the sorcerer's list. You gain additional options at 8th and
-17th level, using elemental points to fuel these abilities.
+    At 6th level, you tap into a deep wellspring of magic within the elements.
+    You gain elemental points equal to half your cleric level, which recharge
+    after a long rest.
 
-<hr>
+    <hr>
 
-### Level 17 - Elemental Personification
+    ### Level 6 - Metamagic
 
-At 17th level, your Elemental Affinity determines an additional feature:
+    Also at 6th level, you gain the ability to use Metamagic options, selecting
+    two options from the sorcerer's list. You gain additional options at 8th and
+    17th level, using elemental points to fuel these abilities.
 
-* **Air.** You can cast *mislead* once per short or long rest using a bonus action.
-* **Earth.** The ground in a 20-foot radius around you becomes difficult terrain for hostile creatures.
-* **Fire.** Hostile creatures take fire damage when they approach you.
-* **Water.** You can heal yourself once per short or long rest for an amount equal to your cleric level.
+    <hr>
 
-<hr>
+    ### Level 17 - Elemental Personification
+
+    At 17th level, your Elemental Affinity determines an additional feature:
+
+    **Air.** You can cast *mislead* once per short or long rest using a bonus action.
+
+    **Earth.** The ground in a 20-foot radius around you becomes difficult terrain for hostile creatures.
+
+    **Fire.** Hostile creatures take fire damage when they approach you.
+
+    **Water.** You can heal yourself once per short or long rest for an amount equal to your cleric level.
+
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="survival-domain">
 
-## ^^Survival Domain^^
+??? subclass "Survival Domain"
 
-Clerics and shamans of primitive tribes living in harsh
-environments have no greater mission than ensuring the
-survival of their tribes. The gods of survival often have
-other domains in similar realms, such as life or nature.
-The worshippers who work within the Survival domain,
-however, are much more primal and brutal than their
-counterparts.
+    Clerics and shamans of primitive tribes living in harsh
+    environments have no greater mission than ensuring the
+    survival of their tribes. The gods of survival often have
+    other domains in similar realms, such as life or nature.
+    The worshippers who work within the Survival domain,
+    however, are much more primal and brutal than their
+    counterparts.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *create or destroy water* / *false life* |
-|  3rd  | *locate animals or plants* / *prayer of healing* |
-|  5th  | *fear* / *protection from energy* |
-|  7th  | *death ward* / *dominate beast* |
-|  9th  | *antilife shell* / *greater restoration* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *create or destroy water* / *false life* |
+        |  3rd  | *locate animals or plants* / *prayer of healing* |
+        |  5th  | *fear* / *protection from energy* |
+        |  7th  | *death ward* / *dominate beast* |
+        |  9th  | *antilife shell* / *greater restoration* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Proficiency
+    ### Level 1 - Bonus Proficiency
 
-When you choose this domain at 1st level, you gain proficiency in the Survival and Nature skills. Your proficiency bonus is doubled for any ability checks you make that use those skills.
+    When you choose this domain at 1st level, you gain proficiency in the Survival and Nature skills. Your proficiency bonus is doubled for any ability checks you make that use those skills.
 
-<hr>
+    <hr>
 
-### Level 1 - Stand the Fallen
+    ### Level 1 - Stand the Fallen
 
-Also starting at 1st level, when you cast the *spare the dying* cantrip, you can make the following changes to the spell: change the range from touch to 30 feet, and the creature gains 1 hit point instead of becoming stable.
+    Also starting at 1st level, when you cast the *spare the dying* cantrip, you can make the following changes to the spell: change the range from touch to 30 feet, and the creature gains 1 hit point instead of becoming stable.
 
-You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long or short rest.
+    You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long or short rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Encourage the Troops
+    ### Level 2 - Channel Divinity: Encourage the Troops
 
-Starting at 2nd level, you can use your Channel Divinity to bolster the fighting abilities of your allies.
+    Starting at 2nd level, you can use your Channel Divinity to bolster the fighting abilities of your allies.
 
-As an action, you present your holy symbol and invoke the survival instincts of your deity. Each allied creature that can see you gains advantage on their next melee or ranged weapon attack before the start of your next turn. If their attack hits, the allied creature also regains hit points equal to your cleric level.
+    As an action, you present your holy symbol and invoke the survival instincts of your deity. Each allied creature that can see you gains advantage on their next melee or ranged weapon attack before the start of your next turn. If their attack hits, the allied creature also regains hit points equal to your cleric level.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: Push the Limits
+    ### Level 6 - Channel Divinity: Push the Limits
 
-At 6th level, you can use your Channel Divinity to strengthen the resolve of your allies. All allied creatures within 30 feet of you gain temporary hit points equal to your cleric level.
+    At 6th level, you can use your Channel Divinity to strengthen the resolve of your allies. All allied creatures within 30 feet of you gain temporary hit points equal to your cleric level.
 
-<hr>
+    <hr>
 
-### Level 17 - Protection of the Tribe
+    ### Level 17 - Protection of the Tribe
 
-Starting at 17th level, you can use a bonus action to make one allied creature who you can see immune to damage for a short time. The chosen creature is immune to all damage until the start of your next turn.
+    Starting at 17th level, you can use a bonus action to make one allied creature who you can see immune to damage for a short time. The chosen creature is immune to all damage until the start of your next turn.
 
-You regain the use of this ability when you finish a long rest.
+    You regain the use of this ability when you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="time-domain">
 
-## ^^Time Domain^^
+??? subclass "Time Domain"
 
-Clerics of this domain know that the flow of time is a very relative concept, like many other aspects of reality. Nevertheless, time is a sovereign as powerful as it is capricious, and even the gods must abide by its rules. It allows few concessions and remains inscrutable for all. But some mortals have learned to coax something out of time, to develop a privileged connection with it, granting them a clearer outlook—if not an understanding—on history and truth. Such clerics are capable of imperceptibly altering their environment to surprise their opponents and stay one step ahead.
+    Clerics of this domain know that the flow of time is a very relative concept, like many other aspects of reality. Nevertheless, time is a sovereign as powerful as it is capricious, and even the gods must abide by its rules. It allows few concessions and remains inscrutable for all. But some mortals have learned to coax something out of time, to develop a privileged connection with it, granting them a clearer outlook—if not an understanding—on history and truth. Such clerics are capable of imperceptibly altering their environment to surprise their opponents and stay one step ahead.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *expeditious retreat* / *sanctuary* |
-|  3rd  | *hold person* / *misty step* |
-|  5th  | *haste* / *slow* |
-|  7th  | *dimension door* / *freedom of movement* |
-|  9th  | *hold monster* / *legend lore* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *expeditious retreat* / *sanctuary* |
+        |  3rd  | *hold person* / *misty step* |
+        |  5th  | *haste* / *slow* |
+        |  7th  | *dimension door* / *freedom of movement* |
+        |  9th  | *hold monster* / *legend lore* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Proficiencies
+    ### Level 1 - Bonus Proficiencies
 
-When you choose this domain at 1st level, you gain proficiency in the Arcana and History skills.
+    When you choose this domain at 1st level, you gain proficiency in the Arcana and History skills.
 
-<hr>
+    <hr>
 
-### Level 1 - Temporal Ascendancy
+    ### Level 1 - Temporal Ascendancy
 
-Also at 1st level, your attunement to the flow of time enables you to act faster than everyone else. You have advantage on initiative rolls.
+    Also at 1st level, your attunement to the flow of time enables you to act faster than everyone else. You have advantage on initiative rolls.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Decisive Instant
+    ### Level 2 - Channel Divinity: Decisive Instant
 
-Starting at 2nd level, you can make your allies react faster than their shadows. Immediately after the initiative order of a combat has been determined, you can move a number of willing creatures equal to your Wisdom modifier wherever you want in the initiative order.
+    Starting at 2nd level, you can make your allies react faster than their shadows. Immediately after the initiative order of a combat has been determined, you can move a number of willing creatures equal to your Wisdom modifier wherever you want in the initiative order.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: What Was Not
+    ### Level 6 - Channel Divinity: What Was Not
 
-Beginning at 6th level, you can replay an enemy’s strike in an attempt to modify its result. When you or an ally are hit by a melee weapon attack, you can use your reaction to go back in time by a fraction of a second. You can use this feature after the damage roll has been made. The creature who had just hit (and was certain it had been successful) must reroll its attack with disadvantage. If the creature hits anyway, it must still reroll damage. If it misses, it must make a Wisdom saving throw or be frightened until the end of its next turn.
+    Beginning at 6th level, you can replay an enemy’s strike in an attempt to modify its result. When you or an ally are hit by a melee weapon attack, you can use your reaction to go back in time by a fraction of a second. You can use this feature after the damage roll has been made. The creature who had just hit (and was certain it had been successful) must reroll its attack with disadvantage. If the creature hits anyway, it must still reroll damage. If it misses, it must make a Wisdom saving throw or be frightened until the end of its next turn.
 
-<hr>
+    <hr>
 
-### Level 17 - Keeper of the Hourglass
+    ### Level 17 - Keeper of the Hourglass
 
-When you reach 17th level, you can locally alter the flow of time. As a bonus action, you exude an asynchronous aura in a 30-foot radius. Until the start of your next turn, you and any allies within the aura are under the effects of a *haste* spell, with the differences that the additional action can be used to cast a spell with a casting time of “1 action” and the wave of lethargy normally following a *haste* spell does not occur.
+    When you reach 17th level, you can locally alter the flow of time. As a bonus action, you exude an asynchronous aura in a 30-foot radius. Until the start of your next turn, you and any allies within the aura are under the effects of a *haste* spell, with the differences that the additional action can be used to cast a spell with a casting time of “1 action” and the wave of lethargy normally following a *haste* spell does not occur.
 
-You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest.
+    You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="travel-domain">
 
-## ^^Travel Domain^^
+??? subclass "Travel Domain"
 
-The great civilizations of the world are scattered far and wide from one another, and it is the greatest gift of the gods of travel to connect those civilizations with safe journeys. Gods who bestow the gifts of the Travel domain upon their clergy concern themselves not just with making haste, but also with finding shelter, leaving no trail, and letting no obstacle stand in the way of the journey.
+    The great civilizations of the world are scattered far and wide from one another, and it is the greatest gift of the gods of travel to connect those civilizations with safe journeys. Gods who bestow the gifts of the Travel domain upon their clergy concern themselves not just with making haste, but also with finding shelter, leaving no trail, and letting no obstacle stand in the way of the journey.
 
-While the blessings of the Travel domain certainly allow its clerics to make long, arduous journeys safer and shorter, the gods of travel also help their followers move quicker in the heat of combat. When a traveler is waylaid by highwaymen, the clerics of the Travel domain not only protect the devout traveler, but also give them the ability to flee more easily, or get into a position to turn the tables on their assailants.
+    While the blessings of the Travel domain certainly allow its clerics to make long, arduous journeys safer and shorter, the gods of travel also help their followers move quicker in the heat of combat. When a traveler is waylaid by highwaymen, the clerics of the Travel domain not only protect the devout traveler, but also give them the ability to flee more easily, or get into a position to turn the tables on their assailants.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *floating disk* / *longstrider* |
-|  3rd  | *pass without trace* / *rope trick* |
-|  5th  | *fly* / *water walk* |
-|  7th  | *banishment* / *summon elemental* |
-|  9th  | *teleportation circle* / *tree stride* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *floating disk* / *longstrider* |
+        |  3rd  | *pass without trace* / *rope trick* |
+        |  5th  | *fly* / *water walk* |
+        |  7th  | *banishment* / *summon elemental* |
+        |  9th  | *teleportation circle* / *tree stride* |
 
-<hr>
+    <hr>
 
-### Level 1 - Bonus Proficiencies
+    ### Level 1 - Bonus Proficiencies
 
-When you choose this domain at 1st level, you gain proficiency in the Arcana and Nature skills.
+    When you choose this domain at 1st level, you gain proficiency in the Arcana and Nature skills.
 
-<hr>
+    <hr>
 
-### Level 1 - Shift
+    ### Level 1 - Shift
 
-Starting when you choose this domain at 1st level, as a bonus action you can move up to 10 feet. This movement does not provoke opportunity attacks.
+    Starting when you choose this domain at 1st level, as a bonus action you can move up to 10 feet. This movement does not provoke opportunity attacks.
 
-You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest.
+    You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 1 - Guide
+    ### Level 1 - Guide
 
-From 1st level, you are a tireless walker, capable of crossing long distances at a quick pace and of imbuing your traveling companions with your divine endurance. Your speed increases by 10 feet.
+    From 1st level, you are a tireless walker, capable of crossing long distances at a quick pace and of imbuing your traveling companions with your divine endurance. Your speed increases by 10 feet.
 
-In addition, when you take a forced march, you and up to six allies must only start making Constitution saving throws against exhaustion after 10 hours, and you have advantage on these saving throws.
+    In addition, when you take a forced march, you and up to six allies must only start making Constitution saving throws against exhaustion after 10 hours, and you have advantage on these saving throws.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Provident Fleetness
+    ### Level 2 - Channel Divinity: Provident Fleetness
 
-Starting at 2nd level, you can use your Channel Divinity to allow your companions to swiftly move into a place of safety (or dash to the front lines of battle) before your enemies have a chance to react.
+    Starting at 2nd level, you can use your Channel Divinity to allow your companions to swiftly move into a place of safety (or dash to the front lines of battle) before your enemies have a chance to react.
 
-As an action, you present your holy symbol, and invoke the divine power of your god of travel to allow any creature you choose that you can see and is within 30 feet of you to use its reaction to move up to its speed, plus an additional 30 feet, if it is free to do so. Additionally, this movement does not provoke opportunity attacks.
+    As an action, you present your holy symbol, and invoke the divine power of your god of travel to allow any creature you choose that you can see and is within 30 feet of you to use its reaction to move up to its speed, plus an additional 30 feet, if it is free to do so. Additionally, this movement does not provoke opportunity attacks.
 
-<hr>
+    <hr>
 
-### Level 6 - Channel Divinity: Vanishing Step
+    ### Level 6 - Channel Divinity: Vanishing Step
 
-Beginning at 6th level, you can use your Channel Divinity to move so quickly that your enemies barely have time to register that you are gone. When a creature misses you with a melee attack, you can use your Channel Divinity as a reaction to teleport up to 30 feet away to an unoccupied space that you can see. If you teleport to a space that is within 5 feet of the creature that missed you with the melee attack, as a part of your reaction you can make a melee attack against that creature with advantage on the attack roll.
+    Beginning at 6th level, you can use your Channel Divinity to move so quickly that your enemies barely have time to register that you are gone. When a creature misses you with a melee attack, you can use your Channel Divinity as a reaction to teleport up to 30 feet away to an unoccupied space that you can see. If you teleport to a space that is within 5 feet of the creature that missed you with the melee attack, as a part of your reaction you can make a melee attack against that creature with advantage on the attack roll.
 
-<hr>
+    <hr>
 
-### Level 17 - Regroup
+    ### Level 17 - Regroup
 
-When you reach 17th level, you can summon your allies to you in a fraction of a second. As a bonus action, you can designate one or several willing creatures in a 400-foot radius and instantly bring them to an unoccupied space within 5 feet of you. You can summon a total number of creatures equal to your Wisdom modifier, and can split this number into several uses of this feature. You regain all expended uses when you finish a long rest.
+    When you reach 17th level, you can summon your allies to you in a fraction of a second. As a bonus action, you can designate one or several willing creatures in a 400-foot radius and instantly bring them to an unoccupied space within 5 feet of you. You can summon a total number of creatures equal to your Wisdom modifier, and can split this number into several uses of this feature. You regain all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="void-domain">
 
-## ^^Void Domain^^
+??? subclass "Void Domain"
 
-Conventional understanding places the Void outside the cosmology of the rest of the universe, exploitable if one wishes to hop between the stars, but dangerous and foreign otherwise. But priests of the Void Domain know better: the Void is the least tangible, but most integral, element of existence. If the universe is a great orchestra of musical instruments, each producing sounds that comprise beautiful music, the Void is the silence between those notes, which gives rhythm and shape to the whole.
+    Conventional understanding places the Void outside the cosmology of the rest of the universe, exploitable if one wishes to hop between the stars, but dangerous and foreign otherwise. But priests of the Void Domain know better: the Void is the least tangible, but most integral, element of existence. If the universe is a great orchestra of musical instruments, each producing sounds that comprise beautiful music, the Void is the silence between those notes, which gives rhythm and shape to the whole.
 
-The Void also gives rise to the differences between the instruments and empowers their individual songs amongst the whole. And finally, the Void shall make itself the conductor, waving its baton for the final time and commanding all the instruments to stop. Those who accept the Void might stare into its hideous lights for the briefest moments and come away unravaged by the warp, yet purified by the light. Void priests seek to share this gift by bringing others to stare into the Void.
+    The Void also gives rise to the differences between the instruments and empowers their individual songs amongst the whole. And finally, the Void shall make itself the conductor, waving its baton for the final time and commanding all the instruments to stop. Those who accept the Void might stare into its hideous lights for the briefest moments and come away unravaged by the warp, yet purified by the light. Void priests seek to share this gift by bringing others to stare into the Void.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *false life* / *guiding bolt* |
-|  3rd  | *blindness/deafness* / *darkness* |
-|  5th  | *vampiric touch* / *hunger of Hadar* |
-|  7th  | *dimension door* / *hallucinatory terrain* |
-|  9th  | *antilife shell* / *creation* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *false life* / *guiding bolt* |
+        |  3rd  | *blindness/deafness* / *darkness* |
+        |  5th  | *vampiric touch* / *hunger of Hadar* |
+        |  7th  | *dimension door* / *hallucinatory terrain* |
+        |  9th  | *antilife shell* / *creation* |
 
-<hr>
+    <hr>
 
-### Level 1 - Darkvision
+    ### Level 1 - Darkvision
 
-At 1st level, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray. If you already possess darkvision, its range increases by 30 feet.
+    At 1st level, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray. If you already possess darkvision, its range increases by 30 feet.
 
-Starting at 8th level, you can see through magical, as well as nonmagical, darkness.
+    Starting at 8th level, you can see through magical, as well as nonmagical, darkness.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Shape Void
+    ### Level 2 - Channel Divinity: Shape Void
 
-Starting at 2nd level, you can use your action to bend the walls of the universe, creating a small pocket of black voidstuff in its absence, and shaping it as you see fit. Choose one of the following options:
+    Starting at 2nd level, you can use your action to bend the walls of the universe, creating a small pocket of black voidstuff in its absence, and shaping it as you see fit. Choose one of the following options:
 
-* **Barrier.** You warp the Void pocket into an impassable obstruction, a 5-foot diameter sphere, at an empty space you choose within 30 feet. For the next minute, while you maintain concentration on this effect as a spell, nothing can penetrate or move through this space.
-* **Javelin.** You stretch the voidstuff into a crackling spear of energy, which you hurl toward a creature you can see within 60 feet. Make a ranged spell attack roll against the target. On a hit, you deal force damage equal to your Wisdom modifier + 1d12 for each point of your proficiency bonus.
-* **Pocket.** You curve the walls of the universe outward, forming an extradimensional space that is large on the inside and hidden from the outside. This space is invisible from the outside and can hold 500 pounds, not exceeding 64 cubic feet of volume. It is anchored to your holy symbol; touching it allows a creature to see the entryway into the space. This extradimensional space lasts for 1 hour. After that time, the space dissipates, and its contents spill forth.
+    **Barrier.** You warp the Void pocket into an impassable obstruction, a 5-foot diameter sphere, at an empty space you choose within 30 feet. For the next minute, while you maintain concentration on this effect as a spell, nothing can penetrate or move through this space.
 
-<hr>
+    **Javelin.** You stretch the voidstuff into a crackling spear of energy, which you hurl toward a creature you can see within 60 feet. Make a ranged spell attack roll against the target. On a hit, you deal force damage equal to your Wisdom modifier + 1d12 for each point of -our proficiency bonus.
 
-### Level 6 - Void Step
+    **Pocket.** You curve the walls of the universe outward, forming an extradimensional space that is large on the inside and hidden from the outside. This space is invisible from the outside and can hold 500 pounds, not exceeding 64 cubic feet of volume. It is anchored to your holy symbol; touching it allows a creature to see the entryway into the space. This extradimensional space lasts for 1 hour. After that time, the space dissipates, and its contents spill forth.
 
-At 6th level, you can use your bonus action to step briefly into the Void, teleporting to an unoccupied location you can see within 20 feet. You can use this ability a number of times equal to your Wisdom modifier (minimum of 1) and regain all uses when you finish a long rest.
+    <hr>
 
-<hr>
+    ### Level 6 - Void Step
 
-### Level 17 - Oblivion
+    At 6th level, you can use your bonus action to step briefly into the Void, teleporting to an unoccupied location you can see within 20 feet. You can use this ability a number of times equal to your Wisdom modifier (minimum of 1) and regain all uses when you finish a long rest.
 
-By 17th level, you can use your action to open a rift in space and time into the Void around a creature or object of your choosing within 120 feet. A creature makes a Dexterity saving throw to avoid falling into the rift. On a successful save, the creature avoids falling into the rift, but sees a glimpse of the Void and takes 2d8 radiant damage and 2d8 psychic damage.
+    <hr>
 
-On a failed save, the creature is banished to the Void for 1d4 rounds, taking 2d8 radiant damage and 2d8 psychic damage at the beginning of each of its turns there. At the end of your following turn, the target returns to the space it previously occupied, or the nearest unoccupied space. Objects larger than 20 feet in any dimension and Huge and larger creatures can’t fall into the rift.
+    ### Level 17 - Oblivion
 
-Once you use this ability, you must finish a long rest before using it again.
+    By 17th level, you can use your action to open a rift in space and time into the Void around a creature or object of your choosing within 120 feet. A creature makes a Dexterity saving throw to avoid falling into the rift. On a successful save, the creature avoids falling into the rift, but sees a glimpse of the Void and takes 2d8 radiant damage and 2d8 psychic damage.
 
-<hr>
+    On a failed save, the creature is banished to the Void for 1d4 rounds, taking 2d8 radiant damage and 2d8 psychic damage at the beginning of each of its turns there. At the end of your following turn, the target returns to the space it previously occupied, or the nearest unoccupied space. Objects larger than 20 feet in any dimension and Huge and larger creatures can’t fall into the rift.
+
+    Once you use this ability, you must finish a long rest before using it again.
+
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="water-domain">
 
-## ^^Water Domain^^
+??? subclass "Water Domain"
 
-Few clerics are granted powers that encompass elements
-that are simultaneously fundamental to the flourishing
-of life and capable of wiping away all traces that life
-was once there. Water takes many forms; so too do the
-powers granted to clerics of this domain. A cleric devoted
-to a god with dominion over water can call to hand the
-force of a rushing river current, summon the relentless,
-crashing power of the tides, or conjure the bitter cold of a
-blizzard. Clerics with this domain can summon or vanish
-into blinding mists, walk across the bottom of a lake
-without harm, and harness the catastrophic power of a
-flood. Many different deities grant the powers of the water
-domain to their followers: gods of the sea, gods of the rain
-and snow, and gods of rivers, lakes, and streams.
+    Few clerics are granted powers that encompass elements
+    that are simultaneously fundamental to the flourishing
+    of life and capable of wiping away all traces that life
+    was once there. Water takes many forms; so too do the
+    powers granted to clerics of this domain. A cleric devoted
+    to a god with dominion over water can call to hand the
+    force of a rushing river current, summon the relentless,
+    crashing power of the tides, or conjure the bitter cold of a
+    blizzard. Clerics with this domain can summon or vanish
+    into blinding mists, walk across the bottom of a lake
+    without harm, and harness the catastrophic power of a
+    flood. Many different deities grant the powers of the water
+    domain to their followers: gods of the sea, gods of the rain
+    and snow, and gods of rivers, lakes, and streams.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *create or destroy water* / *water blast* |
-|  3rd  | *blur* / *dancing wave* |
-|  5th  | *tidal wave* / *water cannon* |
-|  7th  | *summon elemental* / *geyser* |
-|  9th  | *maelstrom* / *pressure cutter* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *create or destroy water* / *water blast* |
+        |  3rd  | *blur* / *dancing wave* |
+        |  5th  | *tidal wave* / *water cannon* |
+        |  7th  | *summon elemental* / *geyser* |
+        |  9th  | *maelstrom* / *pressure cutter* |
 
-<hr>
+    <hr>
 
-### Level 1 - Relentless as the Tides
+    ### Level 1 - Relentless as the Tides
 
-When you choose this domain at 1st level, you gain a swim speed equal to your Speed.
+    When you choose this domain at 1st level, you gain a swim speed equal to your Speed.
 
-<hr>
+    <hr>
 
-### Level 1 - Destructive as the Floods
+    ### Level 1 - Destructive as the Floods
 
-Also starting at 1st level, your damaging spells are more effective. Whenever you roll damage for a cleric spell of 1st level or higher, add your Wisdom modifier to the damage (minimum of 1).
+    Also starting at 1st level, your damaging spells are more effective. Whenever you roll damage for a cleric spell of 1st level or higher, add your Wisdom modifier to the damage (minimum of 1).
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Crashing Waves
+    ### Level 2 - Channel Divinity: Crashing Waves
 
-Starting at 2nd level, you can use your Channel Divinity to summon the power of the crashing waves to strike at your enemies. When you hit a creature with a melee weapon attack, you can use your Channel Divinity as a bonus action to send a surge of divine power washing over each enemy of your choice within 10 feet of your target. For each of those creatures, if your attack roll would also equal or exceed its Armor Class, it takes bludgeoning damage equal to your weapon's damage die + your Wisdom modifier.
+    Starting at 2nd level, you can use your Channel Divinity to summon the power of the crashing waves to strike at your enemies. When you hit a creature with a melee weapon attack, you can use your Channel Divinity as a bonus action to send a surge of divine power washing over each enemy of your choice within 10 feet of your target. For each of those creatures, if your attack roll would also equal or exceed its Armor Class, it takes bludgeoning damage equal to your weapon's damage die + your Wisdom modifier.
 
-<hr>
+    <hr>
 
-### Level 6 - Placid as the Lakes
+    ### Level 6 - Placid as the Lakes
 
-Beginning at 6th level, when you are charmed, you can use your action to end the effect that is causing you to be charmed.
+    Beginning at 6th level, when you are charmed, you can use your action to end the effect that is causing you to be charmed.
 
-<hr>
+    <hr>
 
-### Level 17 - Untouchable as the Mists
+    ### Level 17 - Untouchable as the Mists
 
-Starting at 17th level, you are permanently under the effects of the water breathing spell, and whenever you cast one of your domain spells, you gain resistance to bludgeoning, piercing, and slashing damage until the end of your next turn.
+    Starting at 17th level, you are permanently under the effects of the water breathing spell, and whenever you cast one of your domain spells, you gain resistance to bludgeoning, piercing, and slashing damage until the end of your next turn.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="wind-domain">
 
-## ^^Wind Domain^^
+??? subclass "Wind Domain"
 
-You have dedicated yourself to the service of the primordial winds. In their service, you are the gentle zephyr brushing away adversity or the vengeful storm scouring the stones from the mountainside.
+    You have dedicated yourself to the service of the primordial winds. In their service, you are the gentle zephyr brushing away adversity or the vengeful storm scouring the stones from the mountainside.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *thunderwave* / *gale bolt* |
-|  3rd  | *gust of wind* / *hurricane slash* |
-|  5th  | *fly* / *vortex blast* |
-|  7th  | *freedom of movement* / *aero barrage* |
-|  9th  | *control winds* / *tornado* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *thunderwave* / *gale bolt* |
+        |  3rd  | *gust of wind* / *hurricane slash* |
+        |  5th  | *fly* / *vortex blast* |
+        |  7th  | *freedom of movement* / *aero barrage* |
+        |  9th  | *control winds* / *tornado* |
 
-<hr>
+    <hr>
 
-### Level 1 - Wind's Chosen
+    ### Level 1 - Wind's Chosen
 
-When you choose this domain at 1st level, you learn the *mage hand* cantrip and gain proficiency in the Nature skill. When you cast *mage hand*, you can make the hand invisible, and you can control the hand as a bonus action.
+    When you choose this domain at 1st level, you learn the *mage hand* cantrip and gain proficiency in the Nature skill. When you cast *mage hand*, you can make the hand invisible, and you can control the hand as a bonus action.
 
-<hr>
+    <hr>
 
-### Level 2 - Grasp Not the Wind
+    ### Level 2 - Grasp Not the Wind
 
-At 2nd level, you can use your Channel Divinity to end the grappled condition on yourself and gain a flying speed equal to your walking speed until the end of your turn. You don’t provoke opportunity attacks while flying in this way.
+    At 2nd level, you can use your Channel Divinity to end the grappled condition on yourself and gain a flying speed equal to your walking speed until the end of your turn. You don’t provoke opportunity attacks while flying in this way.
 
-<hr>
+    <hr>
 
-### Level 6 - Stormshield
+    ### Level 6 - Stormshield
 
-At 6th level, when you take lightning or thunder damage, you can use your reaction to gain resistance to lightning and thunder damage, including against the triggering attack, until the start of your next turn.
+    At 6th level, when you take lightning or thunder damage, you can use your reaction to gain resistance to lightning and thunder damage, including against the triggering attack, until the start of your next turn.
 
-You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.
+    You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 17 - Dire Tempest
+    ### Level 17 - Dire Tempest
 
-At 17th level, you can create a 20-foot-radius tornado of swirling wind and debris at a point you can see within 120 feet. The storm lasts until the start of your next turn. All Huge or smaller creatures within the area must make a Strength saving throw against your spell save DC. On a failure, a creature takes 8d6 bludgeoning damage and is thrown 1d4 × 10 feet into the air. On a success, a creature takes half that damage and isn't thrown. Any creature thrown into the air takes falling damage as normal and lands prone.
+    At 17th level, you can create a 20-foot-radius tornado of swirling wind and debris at a point you can see within 120 feet. The storm lasts until the start of your next turn. All Huge or smaller creatures within the area must make a Strength saving throw against your spell save DC. On a failure, a creature takes 8d6 bludgeoning damage and is thrown 1d4 × 10 feet into the air. On a success, a creature takes half that damage and isn't thrown. Any creature thrown into the air takes falling damage as normal and lands prone.
 
-In addition, any creature that starts its turn within 15 feet of the tornado must succeed on a Strength saving throw against your spell save DC or be dragged into the storm's area — and any creature pulled or moving into the tornado's area is likewise thrown 1d4 × 10 feet into the air, taking falling damage and landing prone.
+    In addition, any creature that starts its turn within 15 feet of the tornado must succeed on a Strength saving throw against your spell save DC or be dragged into the storm's area — and any creature pulled or moving into the tornado's area is likewise thrown 1d4 × 10 feet into the air, taking falling damage and landing prone.
 
-You can't use this feature again until you finish a long rest.
+    You can't use this feature again until you finish a long rest.
 
-<hr>
+    <hr>
 
 </div>
 
 <div class="subclass-content" data-subclass="winter-domain">
 
-## ^^Winter Domain^^
+??? subclass "Winter Domain"
 
-Clerics who worship a god of ice or winter channel both
-their god's freezing wrath and tranquil beauty. There are
-many varieties of winter deities. Some are spiteful and
-bitter as a winter fey, yet others guide their followers through harsh winters
-and icy terrain with care. Most winter gods are
-cold and distant, but a few are warm and friendly.
+    Clerics who worship a god of ice or winter channel both
+    their god's freezing wrath and tranquil beauty. There are
+    many varieties of winter deities. Some are spiteful and
+    bitter as a winter fey, yet others guide their followers through harsh winters
+    and icy terrain with care. Most winter gods are
+    cold and distant, but a few are warm and friendly.
 
-### Level 1 - Domain Spells
+    ??? table "Domain Spells"
 
-| Cleric Level  | Spells |
-|:---:|:-----------:|
-|  1st  | *arctic breath* / *ice knife* |
-|  3rd  | *cold snap* / *snowball swarm* |
-|  5th  | *sleet storm* / *flash freeze* |
-|  7th  | *ice storm* / *ice spike* |
-|  9th  | *cone of cold* / *hold monster* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *arctic breath* / *ice knife* |
+        |  3rd  | *cold snap* / *snowball swarm* |
+        |  5th  | *sleet storm* / *flash freeze* |
+        |  7th  | *ice storm* / *ice spike* |
+        |  9th  | *cone of cold* / *hold monster* |
 
-<hr>
+    <hr>
 
-### Level 1 - Herald of Winter
+    ### Level 1 - Herald of Winter
 
-When you choose this domain at 1st level, you learn your choice of
-either the *frostbite* cantrip or the *ray of frost* cantrip.
-That cantrip is a cleric spell for you, and it doesn't count against the
-number of cantrips you can know as a cleric.
+    When you choose this domain at 1st level, you learn your choice of
+    either the *frostbite* cantrip or the *ray of frost* cantrip.
+    That cantrip is a cleric spell for you, and it doesn't count against the
+    number of cantrips you can know as a cleric.
 
-In addition, you don't suffer the effects of extreme
-cold, as described in the Dungeon Master's Guide.
+    In addition, you don't suffer the effects of extreme
+    cold, as described in the Dungeon Master's Guide.
 
-<hr>
+    <hr>
 
-### Level 1 - Divine Blizzard
+    ### Level 1 - Divine Blizzard
 
-Also starting at 1st level, you learn how to surround yourself in a
-momentary blizzard. As a bonus action, you swirl with
-icy wind and freezing magic. Until the end of your next
-turn, the area within 10 feet of you is lightly obscured by
-snow and mist, and when a creature ends its turn within
-10 feet of you, you can choose to deal it cold damage
-equal to your proficiency bonus.
+    Also starting at 1st level, you learn how to surround yourself in a
+    momentary blizzard. As a bonus action, you swirl with
+    icy wind and freezing magic. Until the end of your next
+    turn, the area within 10 feet of you is lightly obscured by
+    snow and mist, and when a creature ends its turn within
+    10 feet of you, you can choose to deal it cold damage
+    equal to your proficiency bonus.
 
-You can use this feature a number of times equal to
-your Wisdom modifier (a minimum of once). You regain
-all expended uses when you finish a long rest.
+    You can use this feature a number of times equal to
+    your Wisdom modifier (a minimum of once). You regain
+    all expended uses when you finish a long rest.
 
-<hr>
+    <hr>
 
-### Level 2 - Channel Divinity: Icy Embrace
+    ### Level 2 - Channel Divinity: Icy Embrace
 
-Starting at 2nd level, when you deal cold damage to a
-creature with a cleric spell or class feature, you can use
-your Channel Divinity to freeze it with divine will. The
-creature must make a Constitution saving throw. On a
-failed save, the creature is restrained for 1 minute. It
-repeats the saving throw at the end of each of its turns,
-ending the effect on a success.
+    Starting at 2nd level, when you deal cold damage to a
+    creature with a cleric spell or class feature, you can use
+    your Channel Divinity to freeze it with divine will. The
+    creature must make a Constitution saving throw. On a
+    failed save, the creature is restrained for 1 minute. It
+    repeats the saving throw at the end of each of its turns,
+    ending the effect on a success.
 
-<hr>
+    <hr>
 
-### Level 6 - Cold Numbness
+    ### Level 6 - Cold Numbness
 
-At 6th level, you gain resistance to cold damage, and you
-have advantage on saving throws made to maintain concentration
-when you take damage or to resist the effects
-of magical pain (such as the *power word: pain* spell).
+    At 6th level, you gain resistance to cold damage, and you
+    have advantage on saving throws made to maintain concentration
+    when you take damage or to resist the effects
+    of magical pain (such as the *power word: pain* spell).
 
-<hr>
+    <hr>
 
-### Level 17 - Frozen Cold
+    ### Level 17 - Frozen Cold
 
-When you reach 17th level, you gain immunity to cold
-damage, and you ignore all the effects of exhaustion
-other than death.
+    When you reach 17th level, you gain immunity to cold
+    damage, and you ignore all the effects of exhaustion
+    other than death.
 
-In addition, you are always coated with protective
-rime. Whenever you are hit with a melee attack by an
-attacker within 5 feet of you, if the attacker doesn't have
-resistance or immunity to cold damage, its speed is
-reduced by 15 feet until the end of its next turn.
+    In addition, you are always coated with protective
+    rime. Whenever you are hit with a melee attack by an
+    attacker within 5 feet of you, if the attacker doesn't have
+    resistance or immunity to cold damage, its speed is
+    reduced by 15 feet until the end of its next turn.
 
-<hr>
+    <hr>
 
 </div>

@@ -19,10 +19,10 @@
 
 #### Equipment
 
-* *(a)* a rapier, *(b)* a longsword, or *(c)* any simple weapon  
-* *(a)* a diplomat's pack or *(b)* an entertainer's pack  
-* *(a)* a lute or *(b)* any other musical instrument  
-* Leather armor and a dagger  
+- *(a)* a rapier, *(b)* a longsword, or *(c)* any simple weapon  
+- *(a)* a diplomat's pack or *(b)* an entertainer's pack  
+- *(a)* a lute or *(b)* any other musical instrument  
+- Leather armor and a dagger  
 
 <hr>
 
@@ -46,11 +46,7 @@ You have learned to untangle and reshape the fabric of reality in harmony with y
 
 **Spell Slots.** The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell Cure Wounds and have a 1st-level and a 2nd-level spell slot available, you can cast Cure Wounds using either slot.
 
-**Spells Known of 1st Level and Higher.** You know four 1st-level spells of your choice from the bard spell list.
-
-The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
-
-Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.
+**Spells Known of 1st Level and Higher.** You know four 1st-level spells of your choice from the bard spell list. The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level. Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.
 
 **Spellcasting Ability.** Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.
 
@@ -84,10 +80,10 @@ Whether from watching your fellow adventurers work, from tales of your predecess
 
 You learn two universal talents, and you learn more talents as you increase your levels in this class, as per the Talents Known column. You can choose your universal talents from the following:
 
-* A Sign of Faith from the Cleric class.
-* A Soldiering Knack from the Fighter class.
-* A Skill Trick from the Rogue class.
-* An Elective Study from the Wizard class.
+- A Sign of Faith from the Cleric class.
+- A Soldiering Knack from the Fighter class.
+- A Skill Trick from the Rogue class.
+- An Elective Study from the Wizard class.
 
 Additionally, when you gain a level in this class, you can change on of the talents you have chosen for another talent belonging to the same class, as long as you fulfill the prerequisites.
 

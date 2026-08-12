@@ -58,7 +58,7 @@ Each class is composed of snippet files included via `--8<--`. The templates liv
 ### Universal snippets (every class)
 
 | File               | Template                     |
-| ------------------ | ---------------------------- |
+| ------------------ | ----------------------------- |
 | `progression.md`   | `templates/progression.md`   |
 | `core_features.md` | `templates/core_features.md` |
 | `subclasses.md`    | `templates/subclasses.md`    |
@@ -66,7 +66,7 @@ Each class is composed of snippet files included via `--8<--`. The templates liv
 ### Optional snippets (add only if the class has them)
 
 | File                      | When to create                                                       |
-| ------------------------- | -------------------------------------------------------------------- |
+| ------------------------- | ---------------------------------------------------------------------|
 | `alternate_subclasses.md` | Class has alternate/variant subclasses                               |
 | `[feature_list].md`       | Class has a named list: exploits, knacks, talents, disciplines, etc. |
 | `animal_companion.md`     | Class has an animal companion mechanic                               |
@@ -119,13 +119,45 @@ Use `templates/class.md`. Structure:
 - Feature levels come from the source text — never assume or invent them
 
 ### subclasses.md and alternate_subclasses.md
-- Subclass name: `## ^^[Full Subclass Name]^^`
-- Feature headers: `### Level [X] - [Feature Name]`
+
+> **Migration in progress:** the repo is moving from the legacy `## ^^Name^^` heading
+> format to the collapsible `??? subclass "Name"` admonition format. `??? subclass` is
+> the only target format going forward — never produce new content in `## ^^Name^^`.
+> When editing or reformatting any existing snippet still in the legacy format,
+> convert it to `??? subclass` as part of that edit rather than leaving it as-is.
+
+- Subclass name: `??? subclass "[Full Subclass Name]"` (Title Case, double quotes) —
+  never a `##`/`###` heading. The name always lives in the admonition title.
+- Content inside `??? subclass` is indented exactly 4 spaces (no tabs).
+- Feature headers: `### Level [X] - [Feature Name]`, indented at the same 4-space level.
 - Feature levels come from the source text — never assume or invent them
-- `<hr>` between features within a subclass
+- If the subclass has a spell-by-level (or equivalent) progression table, use a nested
+  `??? table "[Element Name]"` admonition (8-space indent) instead of a loose Markdown
+  table. Spell names in *italics*, options separated by ` / `.
+- `<hr>` between features within a subclass (own line, 4-space indent)
 - `<hr>` after the last feature before the closing `</div>` of each subclass
 - Each subclass wrapped in `<div class="subclass-content" data-subclass="[slug]">`
 - Subclass slug: kebab-case, e.g. `ancestral-guardian`, `alt-berserker`
+- Slug in `data-subclass` must exactly match the `value` in the corresponding
+  `<option>` of the filter `<select>` (see Filter System below)
+
+**Reference structure:**
+
+```markdown
+<div class="subclass-content" data-subclass="[slug]">
+
+??? subclass "[Full Subclass Name]"
+
+    [One or two sentences of flavour text.]
+
+    ### Level [X] - [Feature Name]
+
+    [Feature description.]
+
+    <hr>
+
+</div>
+```
 
 ### progression.md
 - Standard 20-level table, PB values are fixed (5E standard)
@@ -156,17 +188,23 @@ Add a filter to a snippet when:
 
 <div class="[content-class]" data-[data-attr]="[slug]">
 
-### ^^[Category Display Name]^^
+??? subclass "[Category Display Name]"
 
-[items...]
+    [items...]
 
 </div>
 ```
 
+> Note: for `subclasses.md`/`alternate_subclasses.md` specifically, the admonition
+> title is the subclass name itself (see above) — this generic pattern applies to
+> other filtered content classes (e.g. exploit lists) that adopt the same collapsible
+> convention. If a given content class still uses a different header style, follow
+> that snippet's own formatting rules instead.
+
 ### Generic filter IDs (already registered in filter-js)
 
 | Filter ID             | Content class      | Data attribute | Use for              |
-| --------------------- | ------------------ | -------------- | -------------------- |
+| ---------------------- | ------------------- | ---------------- | ---------------------|
 | `subclass-select`     | `subclass-content` | `subclass`     | Subclasses           |
 | `alt-subclass-select` | `subclass-content` | `subclass`     | Alternate subclasses |
 | `exploit-select`      | `exploit-content`  | `exploit`      | Exploit lists        |
@@ -225,5 +263,7 @@ No `<hr>` between individual items. `<hr>` only between category `<div>` blocks 
 
 - Mechanical rules text is always preserved verbatim
 - PB progression (5E standard) is never modified
-- `^^` syntax around subclass names in `##` headers is always included
+- Subclass names always live in a `??? subclass "Name"` admonition title, never in a
+  `##`/`###` heading — this applies to new content and to any legacy file touched
+  during the `## ^^Name^^` → `??? subclass` migration
 - The `--8<--` include paths in assembled pages must match the actual snippet file paths exactly

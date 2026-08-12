@@ -7,62 +7,68 @@
 
 <div class="subclass-content" data-subclass="alt-circle-of-the-moon">
 
-## ^^Alternate Circle of the Moon^^
+??? subclass "Alternate Circle of the Moon Spells"
 
-Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
+    Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
 
-### Level 2 - Circle Spells
+    ### Level 2 - Circle Spells
 
-| Druid Level | Spells |
-|:-----------:|:-----------------------:|
-|      2      | *cure wounds* |
-|      3      | *summon beast* |
-|      5      | *tidal wave* |
-|      7      | *guardian of nature* |
-|      9      | *mass cure wounds* |
+    ??? table "Circle Spells"
 
-<hr>
+        | Druid Level | Spells |
+        |:-----------:|:-----------------------:|
+        |      2      | *cure wounds* |
+        |      3      | *summon beast* |
+        |      5      | *tidal wave* |
+        |      7      | *guardian of nature* |
+        |      9      | *mass cure wounds* |
 
-### Level 2 - Dire Shape
+    <hr>
 
-At 2nd level, you learn to not merely adopt a creature's form, but to empower it with your own will. When you assume a wild shape form, you gain a number of temporary hit points equal to three times your druid level.
+    ### Level 2 - Dire Shape
 
-Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.
+    At 2nd level, you learn to not merely adopt a creature's form, but to empower it with your own will. When you assume a wild shape form, you gain a number of temporary hit points equal to three times your druid level.
 
-<hr>
+    Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.
 
-### Level 2 - Nature's Champion
+    <hr>
 
-You have learned ancient techniques that allow you to channel the magic of the moon to bolster yourself while using Wild Shape, granting you the following benefits:
+    ### Level 2 - Nature's Champion
 
-* You are capable of taking on more strenuous forms than druids of other circles and find the change much easier. You may select wild shapes with a CR of 1 at 2nd level, and wild shapes with a CR no higher than 1/3 your druid level at later levels.
-* When you assume a wild shape form, you add your Wisdom modifier to your AC as well.
-* You always have the *moonbeam* spell prepared while in a wild shape form, and you can cast the spell in that form without material components.
+    You have learned ancient techniques that allow you to channel the magic of the moon to bolster yourself while using Wild Shape, granting you the following benefits:
 
-<hr>
+    - You are capable of taking on more strenuous forms than druids of other circles and find the change much easier. You may select wild shapes with a CR of 1 at 2nd level, and wild shapes with a CR no higher than 1/3 your druid level at later levels.
+    - When you assume a wild shape form, you add your Wisdom modifier to your AC as well.
+    - You always have the *moonbeam* spell prepared while in a wild shape form, and you can cast the spell in that form without material components.
 
-### Level 6 - Rediscovered Self
+    <hr>
 
-At 6th level, you discover a beast or plant form that resonates with you. When you first gain this feature, select a wild shape you know. Once per long rest, you may assume your chosen wild shape without expending a use of your Wild Shape feature.
+    ### Level 6 - Rediscovered Self
 
-You may remain in your chosen wild shape indefinitely. You may also rest in your chosen wild shape and do not revert out of it when unconscious.
+    At 6th level, you discover a beast or plant form that resonates with you. When you first gain this feature, select a wild shape you know. Once per long rest, you may assume your chosen wild shape without expending a use of your Wild Shape feature.
 
-Additionally, your attacks in wild shape count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+    You may remain in your chosen wild shape indefinitely. You may also rest in your chosen wild shape and do not revert out of it when unconscious.
 
-<hr>
+    Additionally, your attacks in wild shape count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
 
-### Level 10 - Moonlight Step
+    <hr>
 
-While you are assuming a wild shape form, you may use your bonus action to teleport up to 30 feet to an unoccupied space you can see, and you have advantage on the next attack roll you make before the end of this turn, magically transporting yourself and reappearing amid a burst of moonlight. You can teleport this way a number of times equal to your Wisdom modifier, and regain expended uses when you finish a long rest.
+    ### Level 10 - Moonlight Step
 
-<hr>
+    While you are assuming a wild shape form, you may use your bonus action to teleport up to 30 feet to an unoccupied space you can see, and you have advantage on the next attack roll you make before the end of this turn, magically transporting yourself and reappearing amid a burst of moonlight. You can teleport this way a number of times equal to your Wisdom modifier, and regain expended uses when you finish a long rest.
 
-### Level 14 - Lunar Form
+    <hr>
 
-The power of the moon suffuses you, granting you the following benefits while you are using your wild shape:
+    ### Level 14 - Lunar Form
 
-* **Movable Moonbeam.** While your *moonbeam* is active, you don't need to maintain concentration on it and you can move it up to 60 feet at the start of each of your turns (no action required).
-* **Lunar Radiance.** Each of your attacks in a Wild Shape form deals an extra 1d10 radiant damage on a hit.
-* **Shared Moonlight.** Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space.
+    The power of the moon suffuses you, granting you the following benefits while you are using your wild shape:
+
+    **Movable Moonbeam.** While your *moonbeam* is active, you don't need to maintain concentration on it and you can move it up to 60 feet at the start of each of your turns (no action required).
+
+    **Lunar Radiance.** Each of your attacks in a Wild Shape form deals an extra 1d10 radiant damage on a hit.
+
+    **Shared Moonlight.** Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space.
+
+    <hr>
 
 </div>
