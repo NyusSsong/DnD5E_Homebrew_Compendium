@@ -18,7 +18,7 @@
 <hr>
 
 #### Equipment
-* *(a)* a Spear, 2 Daggers, Arcane Focus (crystal), Dungeoneer's Pack, and 28 GP or *(b)* 50 GP
+- *(a)* a Spear, 2 Daggers, Arcane Focus (crystal), Dungeoneer's Pack, and 28 GP or *(b)* 50 GP
 
 <hr>
 
@@ -56,9 +56,9 @@ Additionally, when you gain a level in this class, you can choose one of the Sor
 
 **Spellcasting Ability.** Charisma is your spellcasting ability for your Sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Sorcerer spell you cast and when making an attack roll with one.
 
-**Spell save DC** = 8 + your Proficiency Bonus + your Charisma modifier  
+**Spell save DC = 8 + your Proficiency Bonus + your Charisma modifier**
 
-**Spell attack modifier** = your Proficiency Bonus + your Charisma modifier
+**Spell attack modifier = your Proficiency Bonus + your Charisma modifier**
 
 <hr>
 
@@ -72,13 +72,15 @@ At 2nd level, you've begun to understand the well of power within you that you d
 
 **Conversion.** You can transform unexpended Sorcery Points into one spell slot, or vice versa, as a bonus action. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, or the value of sacrificing a spell slot for Sorcery Points.
 
-| Spell Slot Level | Sorcery Point Cost |
-|:---:|:---:|
-| 1st | 2 |
-| 2nd | 3 |
-| 3rd | 5 |
-| 4th | 6 |
-| 5th | 7 |
+??? table "Conversion"
+
+    | Spell Slot Level | Sorcery Point Cost |
+    |:---:|:---:|
+    | 1st | 2 |
+    | 2nd | 3 |
+    | 3rd | 5 |
+    | 4th | 6 |
+    | 5th | 7 |
 
 <hr>
 
