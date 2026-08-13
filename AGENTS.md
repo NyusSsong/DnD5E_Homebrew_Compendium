@@ -59,7 +59,12 @@ Use `templates/class.md`. Tab order:
 4. Alternate Subclasses (if present)
 5. Subclasses
 
-### 6. Review filter-js
+### 6. Update master-index.yml
+
+Add the new class entry to `master-index.yml` following the schema in `SKILL.md`.
+Update `summary.total_class_pages` and the relevant source counter.
+
+### 7. Review filter-js
 
 Read `docs/assets/js/filter-js` and check that every filter used in the new snippets
 is already registered.
@@ -71,7 +76,7 @@ is already registered.
   setupFilter('[filter-id]', '[content-class]', '[data-attr]');
   ```
 
-### 7. Final summary
+### 8. Final summary
 
 When done, write a block with:
 
@@ -92,6 +97,9 @@ When done, write a block with:
   admonition title — this includes leaving legacy `## ^^Name^^` files untouched when
   you're already editing them; convert them to `??? subclass` as part of that edit
 - Use `-` instead of `*` for bullet points
+- Write `-8<--` (one dash) instead of `--8<--` (two dashes) for snippet includes — the
+  single-dash form silently fails: MkDocs renders the literal text instead of including
+  the file
 - Use `<div class='classTable'>` or any other `<div>` wrappers for tables (use pure Markdown tables)
 - Leave HTML spacing entities like `&nbsp;` in output files
 - Deviate from the exact markdown structure of the files in `./templates/`

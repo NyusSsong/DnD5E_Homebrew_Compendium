@@ -2,14 +2,14 @@
 
 <select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
 <option value="all">All</option>
-<option value="alt-ancestral-guardian">Alternate Path of the Ancestral Guardian</option>
-<option value="alt-battlerager">Alternate Path of the Battlerager</option>
-<option value="alt-beast">Alternate Path of the Beast</option>
-<option value="alt-berserker">Alternate Path of the Berserker</option>
-<option value="alt-storm-herald">Alternate Path of the Storm Herald</option>
-<option value="alt-totem-warrior">Alternate Path of the Totem Warrior</option>
-<option value="alt-wild-magic">Alternate Path of the Wild Magic</option>
-<option value="alt-zealot">Alternate Path of the Zealot</option>
+    <option value="alt-ancestral-guardian">Alternate Path of the Ancestral Guardian</option>
+    <option value="alt-battlerager">Alternate Path of the Battlerager</option>
+    <option value="alt-beast">Alternate Path of the Beast</option>
+    <option value="alt-berserker">Alternate Path of the Berserker</option>
+    <option value="alt-storm-herald">Alternate Path of the Storm Herald</option>
+    <option value="alt-totem-warrior">Alternate Path of the Totem Warrior</option>
+    <option value="alt-wild-magic">Alternate Path of the Wild Magic</option>
+    <option value="alt-zealot">Alternate Path of the Zealot</option>
 </select>
 
 <div class="subclass-content" data-subclass="alt-ancestral-guardian">

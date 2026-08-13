@@ -16,4 +16,4 @@ The charging minotaur's bellowed cry becomes a thunderous crash as a pillar of i
 
 === "Subclasses"
 
-    -8<-- "kibbles/kt_warden/subclasses.md"
+    --8<-- "kibbles/kt_warden/subclasses.md"

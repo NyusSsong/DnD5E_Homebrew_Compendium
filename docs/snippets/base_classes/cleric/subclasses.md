@@ -1,41 +1,39 @@
 <p><strong>Choose a subclass:</strong></p>
 
 <select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="air-domain">Air Domain</option>
-<option value="apocalypse-domain">Apocalypse Domain</option>
-<option value="ascension-domain">Ascension Domain</option>
-<option value="balance-domain">Balance Domain</option>
-<option value="beauty-domain">Beauty Domain</option>
-<option value="change-domain">Change Domain</option>
-<option value="chaos-domain">Chaos Domain</option>
-<option value="commerce-domain">Commerce Domain</option>
-<option value="darkness-domain">Darkness Domain</option>
-<option value="dragon-domain">Dragon Domain</option>
-<option value="dream-domain">Dream Domain</option>
-<option value="earth-domain">Earth Domain</option>
-<option value="emptiness-domain">Emptiness Domain</option>
-<option value="entropy-domain">Entropy Domain</option>
-<option value="fate-domain">Fate Domain</option>
-<option value="fire-domain">Fire Domain</option>
-<option value="force-domain">Force Domain</option>
-<option value="hearth-domain">Hearth Domain</option>
-<option value="henge-domain">Henge Domain</option>
-<option value="inquisition-domain">Inquisition Domain</option>
-<option value="kami-domain">Kami Domain</option>
-<option value="missionary-domain">Missionary Domain</option>
-<option value="prophecy-domain">Prophecy Domain</option>
-<option value="repose-domain">Repose Domain</option>
-<option value="seership-domain">Seership Domain</option>
-<option value="sharing-domain">Sharing Domain</option>
-<option value="shugenja-domain">Shugenja Domain</option>
-<option value="survival-domain">Survival Domain</option>
-<option value="time-domain">Time Domain</option>
-<option value="travel-domain">Travel Domain</option>
-<option value="void-domain">Void Domain</option>
-<option value="water-domain">Water Domain</option>
-<option value="wind-domain">Wind Domain</option>
-<option value="winter-domain">Winter Domain</option>
+    <option value="all">All</option>
+    <option value="air-domain">Air Domain</option>
+    <option value="apocalypse-domain">Apocalypse Domain</option>
+    <option value="ascension-domain">Ascension Domain</option>
+    <option value="balance-domain">Balance Domain</option>
+    <option value="beauty-domain">Beauty Domain</option>
+    <option value="commerce-domain">Commerce Domain</option>
+    <option value="darkness-domain">Darkness Domain</option>
+    <option value="dragon-domain">Dragon Domain</option>
+    <option value="dream-domain">Dream Domain</option>
+    <option value="earth-domain">Earth Domain</option>
+    <option value="emptiness-domain">Emptiness Domain</option>
+    <option value="entropy-domain">Entropy Domain</option>
+    <option value="fate-domain">Fate Domain</option>
+    <option value="fire-domain">Fire Domain</option>
+    <option value="force-domain">Force Domain</option>
+    <option value="hearth-domain">Hearth Domain</option>
+    <option value="henge-domain">Henge Domain</option>
+    <option value="inquisition-domain">Inquisition Domain</option>
+    <option value="kami-domain">Kami Domain</option>
+    <option value="missionary-domain">Missionary Domain</option>
+    <option value="prophecy-domain">Prophecy Domain</option>
+    <option value="repose-domain">Repose Domain</option>
+    <option value="seership-domain">Seership Domain</option>
+    <option value="sharing-domain">Sharing Domain</option>
+    <option value="shugenja-domain">Shugenja Domain</option>
+    <option value="survival-domain">Survival Domain</option>
+    <option value="time-domain">Time Domain</option>
+    <option value="travel-domain">Travel Domain</option>
+    <option value="void-domain">Void Domain</option>
+    <option value="water-domain">Water Domain</option>
+    <option value="wind-domain">Wind Domain</option>
+    <option value="winter-domain">Winter Domain</option>
 </select>
 
 <div class="subclass-content" data-subclass="air-domain">
@@ -355,9 +353,13 @@
 
 </div>
 
+<div class="subclass-content" data-subclass="commerce-domain">
+
 ??? subclass "Commerce Domain"
 
     The Commerce domain values trade, proper management of resources, and entrepreneurship above all else, believing a healthy economy is the best path to create a more perfect world. Gods of commerce and trade – including Gond, Kol Korran, and Waukeen – promote enterprise and the development of marketable crafts and skills. Some clerics of this domain, however, eschew the worship of gods to instead focus their faith on the almighty coin, believing that wealth is the best resource for enacting lasting change and living long, happy, and healthy lives.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -426,15 +428,17 @@
 
     While some clerics of the Darkness Domain are evil fearmongers, most instead make it their mission to rehabilitate the image of their deity through acts of heroism using their shadowy powers, becoming dark champions that bring comfort to innocents in the darkest of nights.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
-    | Cleric Level  | Spells |
-    |:---:|:-----------:|
-    |  1st  | *arms of Hadar* / *cause fear* |
-    |  3rd  | *darkness* / *shadow blade* |
-    |  5th  | *fear* / *hunger of Hadar* |
-    |  7th  | *Evard's black tentacles* / *shadow of Moil* |
-    |  9th  | *creation* / *enervation* |
+        | Cleric Level  | Spells |
+        |:---:|:-----------:|
+        |  1st  | *arms of Hadar* / *cause fear* |
+        |  3rd  | *darkness* / *shadow blade* |
+        |  5th  | *fear* / *hunger of Hadar* |
+        |  7th  | *Evard's black tentacles* / *shadow of Moil* |
+        |  9th  | *creation* / *enervation* |
 
     <hr>
 
@@ -574,6 +578,8 @@
     Ones (including Byatis, Cthugha, Great Cthulhu, Gobogeg,
     Hastur, the King in Yellow, Nyogtha, and Rhan-Tegoth).
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -649,6 +655,8 @@
     realms that form the pillars upon which the surface
     world rests.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -706,6 +714,8 @@
     follow several Great Old Ones (including Cthugha, Great
     Cthulhu, Gobogeg, and Hastur).
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -760,6 +770,8 @@
 
     The Entropy domain is centered around the void at the universe's core, a necrotic energy called "Entropy" that consumes the Weave. Clerics of this domain harness this potent force to shield themselves from magic and dismantle arcane casters. The chained god Tharizdun claims dominion over this domain, and its wielders are known by various names: thaumatoclasts, entropomancers, or entropists.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -805,6 +817,8 @@
 ??? subclass "Fate Domain"
 
     Gods of fate are occupied with ensuring the tapestry of destiny is preserved and events unfold according to their interpretation of the cosmic plan. In pursuit of order, these beings invoke misery, suffering, comfort, or joy in accordance with the calculations made on behalf of the greater good. To these deities, the fate of mortals is of utmost interest, and they exert their influence in the mortal realm by sharing their power with oracles, seers, fortune-tellers, sibyls, and others gifted with precognitive powers.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -878,6 +892,8 @@
     danger, and it remains strongly associated with unpredictability,
     destruction, and catastrophe.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -927,6 +943,8 @@
 ??? subclass "Force Domain"
 
     The domain of Force gathers several major notions related to the workings of the world, such as space and gravity, but also mental and physical strength. Gods associated with this domain may be warlike, violent entities, but also embodiments of creative impetus.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -992,6 +1010,8 @@
     warmth in the love of friends and family, supporting each
     other through thick and thin, and building a community that
     feels like home.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1082,6 +1102,8 @@
 
     Those of the Henge use their stones and rituals to protect the living from the dead and to shepherd the lost souls towards oblivion. It is their sacred duty and their right to commune with the most dangerous forces. They maintain the bounds between worlds as much as the line between life and death.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -1130,6 +1152,8 @@
 ??? subclass "Inquisition Domain"
 
     The Inquisition domain reflects the order of the multiverse and the rejection of tainted magic—at least so far as certain celestial powers see it. Only the divine casters are pure and fit for use. Since arcane magic is strong enough to challenge the gods, divine beings of this domain demand magic-using mortals are kept in check. Most zealots root out all arcanists, while some strike fragile truces when complete removal isn't feasible.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1186,6 +1210,8 @@
 ??? subclass "Kami Domain"
 
     Many spirits wander the world, but there are also ethereal beings known as kami. Divine scholars devoted to understanding, assuaging, or destroying these magical creatures gain superlative abilities to deal with them, making them true warriors of the supernatural.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1245,6 +1271,8 @@
 
     Clerics of the Missionary Domain operate within a variety of different orders under a diverse set of deities, but they all have been granted the same purpose — spread the word of their god. For some, this mission is a virtuous act, and for others, it is simply one side of their deal for divine power. Many of the clerics who follow this path are followers or leaders of those who rule cities.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -1302,6 +1330,8 @@
 ??? subclass "Prophecy Domain"
 
     The Prophecy domain focuses on foretelling danger and preventing harmful outcomes. Clerics of this domain are also known as “oracles.” Oracles pay special attention to dreams, intuitive thoughts, and hallucinatory visions. They are widely believed to be capable of predicting the future, though their visions are often misinterpreted. They live by the phrase, “know thyself.”
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1382,6 +1412,8 @@
     abomination that is the undead, and correcting the flaw
     that their existence has introduced into the natural order.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells                |
@@ -1454,6 +1486,8 @@
 
     Seers perceive the magical threads weaving between creatures and places, guided by their patrons like hands of fortune. They excel in supporting roles, using premonitions to aid allies in battle. Some are chosen by gods for their pivotal role in history, while others are simply fortune tellers whose prophecies reach powerful ears.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -1505,6 +1539,8 @@
     The domain of Sharing represents exchange, self-sacrifice, dialog, communion, and symbiosis. Skilled mediators, guardians, and pedagogues, clerics of this domain are not solely active as caretakers or at the courts of kings. Many of them are great travelers, and some join groups of adventurers among which they are an appreciated presence, capable of keeping the party going even in the worst circumstances. Many religious groups who do charity work or support the destitute follow this domain.
 
     On a darker note, some organizations put a great emphasis on sacrifice, in particular through rituals or within the context of wars. These zealots are sometimes regarded as dangerous sects that must be shunned or brought down, and sometimes as saints worthy of admiration.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1568,6 +1604,8 @@
     granting them access to divine powers. In many Oriental cultures, Shugenja
     are revered as divine figures, often seen as intermediaries between mortals
     and the elemental forces they worship.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1663,6 +1701,8 @@
     however, are much more primal and brutal than their
     counterparts.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -1719,6 +1759,8 @@
 
     Clerics of this domain know that the flow of time is a very relative concept, like many other aspects of reality. Nevertheless, time is a sovereign as powerful as it is capricious, and even the gods must abide by its rules. It allows few concessions and remains inscrutable for all. But some mortals have learned to coax something out of time, to develop a privileged connection with it, granting them a clearer outlook—if not an understanding—on history and truth. Such clerics are capable of imperceptibly altering their environment to surprise their opponents and stay one step ahead.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -1772,6 +1814,8 @@
     The great civilizations of the world are scattered far and wide from one another, and it is the greatest gift of the gods of travel to connect those civilizations with safe journeys. Gods who bestow the gifts of the Travel domain upon their clergy concern themselves not just with making haste, but also with finding shelter, leaving no trail, and letting no obstacle stand in the way of the journey.
 
     While the blessings of the Travel domain certainly allow its clerics to make long, arduous journeys safer and shorter, the gods of travel also help their followers move quicker in the heat of combat. When a traveler is waylaid by highwaymen, the clerics of the Travel domain not only protect the devout traveler, but also give them the ability to flee more easily, or get into a position to turn the tables on their assailants.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1836,6 +1880,8 @@
     Conventional understanding places the Void outside the cosmology of the rest of the universe, exploitable if one wishes to hop between the stars, but dangerous and foreign otherwise. But priests of the Void Domain know better: the Void is the least tangible, but most integral, element of existence. If the universe is a great orchestra of musical instruments, each producing sounds that comprise beautiful music, the Void is the silence between those notes, which gives rhythm and shape to the whole.
 
     The Void also gives rise to the differences between the instruments and empowers their individual songs amongst the whole. And finally, the Void shall make itself the conductor, waving its baton for the final time and commanding all the instruments to stop. Those who accept the Void might stare into its hideous lights for the briefest moments and come away unravaged by the warp, yet purified by the light. Void priests seek to share this gift by bringing others to stare into the Void.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -1906,6 +1952,8 @@
     domain to their followers: gods of the sea, gods of the rain
     and snow, and gods of rivers, lakes, and streams.
 
+    ### Level 1 - Domain Spells
+
     ??? table "Domain Spells"
 
         | Cleric Level  | Spells |
@@ -1955,6 +2003,8 @@
 ??? subclass "Wind Domain"
 
     You have dedicated yourself to the service of the primordial winds. In their service, you are the gentle zephyr brushing away adversity or the vengeful storm scouring the stones from the mountainside.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 
@@ -2010,6 +2060,8 @@
     bitter as a winter fey, yet others guide their followers through harsh winters
     and icy terrain with care. Most winter gods are
     cold and distant, but a few are warm and friendly.
+
+    ### Level 1 - Domain Spells
 
     ??? table "Domain Spells"
 

@@ -12,4 +12,4 @@ The sole commonality is that a Warlord alone is but a man, while a Warlord with 
 
 === "Subclasses"
 
-    -8<-- "kibbles/kt_warlord/subclasses.md"
+    --8<-- "kibbles/kt_warlord/subclasses.md"

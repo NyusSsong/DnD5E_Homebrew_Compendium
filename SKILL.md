@@ -27,16 +27,20 @@ homebrew repository. Always read this skill before creating or editing any file.
         css/
             custom.css
             magic-items.css
+            admonition-*.css
+        icons/
         js/
             filter-js          ← global filter registration
             magic-items.js
     classes/
         base_classes/          ← assembled class pages (one per class)
-        kibbles/               ← Kibbles Tasty class pages
+        kibbles/               ← Kibbles' Tasty class pages
+        laserllama/            ← Laserllama's class pages
         valda/                 ← Valda's Spire class pages
     snippets/
         base_classes/[classname]/   ← snippet files for base classes
-        kibbles/[classname]/        ← snippet files for Kibbles classes
+        kibbles/[classname]/        ← snippet files for Kibbles' classes
+        laserllama/[classname]/     ← snippet files for Laserllama's classes
         valda/[classname]/          ← snippet files for Valda classes
         compendium/rules/           ← rules, feats, glossary, etc.
 ./templates/                   ← reference templates (never published)
@@ -46,6 +50,7 @@ homebrew repository. Always read this skill before creating or editing any file.
 **Source folder convention:**
 - Base classes → `base_classes/[classname]/`
 - Kibbles classes → `kibbles/kt_[classname]/`
+- Laserllama classes → `laserllama/ll_[classname]/`
 - Valda classes → `valda/valda_[classname]/`
 
 ---
@@ -125,6 +130,11 @@ Use `templates/class.md`. Structure:
 > the only target format going forward — never produce new content in `## ^^Name^^`.
 > When editing or reformatting any existing snippet still in the legacy format,
 > convert it to `??? subclass` as part of that edit rather than leaving it as-is.
+>
+> The same migration applies to filtered feature lists (monk techniques, metamagic, etc.)
+> which historically used `### ^^TierName^^` as tier headers. New content and any file
+> touched during edits should use the appropriate admonition type instead (see
+> **Admonition Types** below).
 
 - Subclass name: `??? subclass "[Full Subclass Name]"` (Title Case, double quotes) —
   never a `##`/`###` heading. The name always lives in the admonition title.
@@ -182,8 +192,8 @@ Add a filter to a snippet when:
 <p><strong>Choose a [category type]:</strong></p>
 
 <select id="[filter-id]" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="[slug]">[Display Name]</option>
+    <option value="all">All</option>
+    <option value="[slug]">[Display Name]</option>
 </select>
 
 <div class="[content-class]" data-[data-attr]="[slug]">
@@ -201,23 +211,24 @@ Add a filter to a snippet when:
 > convention. If a given content class still uses a different header style, follow
 > that snippet's own formatting rules instead.
 
-### Generic filter IDs (already registered in filter-js)
+### Registered filters
 
-| Filter ID             | Content class      | Data attribute | Use for              |
-| ---------------------- | ------------------- | ---------------- | ---------------------|
-| `subclass-select`     | `subclass-content` | `subclass`     | Subclasses           |
-| `alt-subclass-select` | `subclass-content` | `subclass`     | Alternate subclasses |
-| `exploit-select`      | `exploit-content`  | `exploit`      | Exploit lists        |
+Before adding a new filter, read `docs/assets/js/filter-js` to see every `setupFilter()`
+call already registered. Do not duplicate an existing filter ID.
 
 ### Adding a new class-specific filter
 
-When a new snippet needs a filter ID not in the table above:
+When a new snippet needs a filter ID not already in filter-js:
 1. Use a descriptive ID: `[category]-select` (e.g. `discipline-select`, `talent-select`)
-2. Propose adding this line to `filter-js` under `// Initialize filters`:
+2. **Multi-word data attributes:** the HTML attribute uses kebab-case (`data-metamagic-cost`)
+   but the `data-attr` argument passed to `setupFilter()` must use camelCase
+   (`metamagicCost`). Single-word attributes are the same in both (`data-subclass` →
+   `subclass`).
+3. Propose adding this line to `filter-js` under `// Initialize filters`:
    ```javascript
    setupFilter('[filter-id]', '[content-class]', '[data-attr]');
    ```
-3. Always inform the user and ask for confirmation before editing `filter-js`
+4. Always inform the user and ask for confirmation before editing `filter-js`
 
 ### Filtered list item format
 
@@ -231,7 +242,58 @@ immediately below the header, no blank line between them:
 Description text.
 ```
 
-No `<hr>` between individual items. `<hr>` only between category `<div>` blocks if needed.
+No `<hr>` between individual items. Each `<div>` block ends with `<hr>` before its
+closing `</div>` tag (same rule as subclasses).
+
+---
+
+## Admonition Types
+
+Any SVG file present in `docs/assets/icons/svg/` can be used as an admonition type.
+The keyword is the filename without the `.svg` extension; underscores are preserved
+(`bonus_action`, not `bonus-action`). Use `???` for collapsible, `!!!` for always-open.
+
+Available types by category:
+
+| Category | Types |
+| --------- | ------|
+| **Combat** | `action`, `bonus_action`, `initiative`, `melee`, `ranged`, `reach`, `reaction`, `round`, `target` |
+| **Campaign** | `character`, `explore`, `feature`, `hazard`, `lock`, `monster`, `party`, `puzzle`, `rest`, `social`, `source-book`, `spell`, `subclass`, `table`, `trap` |
+| **Creature** | `aberration`, `beast`, `celestial`, `construct`, `dragon`, `elemental`, `fae`, `fiend`, `giant`, `humanoid`, `monstrosity`, `ooze`, `plant`, `undead` |
+| **Entity** | `archive`, `armor`, `book`, `location`, `loot`, `magic-item`, `map`, `mount`, `object`, `organization`, `pack`, `person`, `pet`, `potion`, `ring`, `scroll`, `ship`, `spellbook`, `summon`, `time`, `tool`, `trinket`, `vehicle`, `wand`, `weapon`, `world` |
+
+**Commonly used in class content:**
+
+* `??? subclass "Name"` — subclass entry
+* `??? table "Name"` — structured table (spell lists, progression variants)
+* `??? spell "Name"` — individual spell or power stat block
+* `??? spellbook "Name"` — spell list or alternate-effects block
+* `??? feature "Name"` — optional feature callout
+
+When adding a new icon type to the repo, add the SVG to the appropriate category folder
+and register its CSS in the matching `admonition-[category].css` file.
+
+---
+
+## master-index.yml
+
+`master-index.yml` at the repo root is a machine-readable index of every class page and
+its snippets. **Update it whenever you add a new class or snippet file.**
+
+Schema (add one item block per new class):
+
+```yaml
+- class_name: ClassName       # Display name, Title Case
+  slug: source_classname      # Matches the folder name, e.g. kt_psion, valda_warden
+  page: docs/classes/[source]/[slug].md
+  snippets:
+    - docs/snippets/[source]/[slug]/progression.md
+    - docs/snippets/[source]/[slug]/core_features.md
+    # … one entry per snippet file actually created
+```
+
+Also update `summary.total_class_pages` and the relevant source counter when adding a
+class. Do not update `generated_on` — leave that for the user.
 
 ---
 

@@ -16,12 +16,12 @@ For some, their rage springs from a communion with fierce animal spirits. Others
 
 === "Savage Exploits"
 
-    -8<-- "base_classes/barbarian/savage_exploits.md"
+    --8<-- "base_classes/barbarian/savage_exploits.md"
 
 === "Alternate Subclasses"
 
-    -8<-- "base_classes/barbarian/alternate_subclasses.md"
+    --8<-- "base_classes/barbarian/alternate_subclasses.md"
 
 === "Subclasses"
 
-    -8<-- "base_classes/barbarian/subclasses.md"
+    --8<-- "base_classes/barbarian/subclasses.md"

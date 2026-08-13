@@ -20,12 +20,12 @@ Psions are those who have tapped into a special otherworldly force, with the abi
 
 === "Psion Spell List"
 
-    -8<-- "kibbles/kt_psion/spell_list.md"
+    --8<-- "kibbles/kt_psion/spell_list.md"
 
 === "Psion Feats"
 
-    -8<-- "kibbles/kt_psion/feats.md"
+    --8<-- "kibbles/kt_psion/feats.md"
 
 === "Subclasses"
 
-    -8<-- "kibbles/kt_psion/subclasses.md"
+    --8<-- "kibbles/kt_psion/subclasses.md"
