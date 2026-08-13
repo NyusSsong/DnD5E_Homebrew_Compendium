@@ -77,7 +77,7 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 
 **Saving Throws.** If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
 
-**Exploit Save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
+**Exploit Save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)**
 
 <hr>
 

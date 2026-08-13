@@ -18,10 +18,10 @@
 <hr>
 
 #### Equipment
-* *(a)* a martial weapon and a shield or *(b)* two martial weapons  
-* *(a)* five javelins or *(b)* any simple melee weapon  
-* *(a)* a priest’s pack or *(b)* an explorer’s pack  
-* Chain mail and a holy symbol
+- *(a)* a martial weapon and a shield or *(b)* two martial weapons  
+- *(a)* five javelins or *(b)* any simple melee weapon  
+- *(a)* a priest’s pack or *(b)* an explorer’s pack  
+- Chain mail and a holy symbol
 
 <hr>
 
@@ -67,19 +67,31 @@ This feature has no effect on undead and constructs.
 
 At 2nd level you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-* **Archery.** You gain a +2 bonus to attack rolls you make with ranged weapons.
-* **Blind Warrior.** You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
-* **Brawler.** Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
-* **Classical Swordplay.** While wielding a finesse weapon and no other weapons, you gain a +2 bonus to your attack rolls and a +1 to your Armor Class so long as you are not using heavy armor or a shield.
-* **Defense.** So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
-* **Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
-* **Great Weapon Fighting.** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
-* **Mounted Combatant.** While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
-* **Protection.** When a creature you can see hits you, or a target within 5 feet, with a melee attack, you can use a reaction to add your proficiency bonus to the target's Armor Class against that attack. You must be wielding a shield or a melee weapon.
-* **Shield Warrior.** You gain proficiency with shields as a martial melee weapon, and on hit, your shield deals 2d4 bludgeoning damage. If you are wielding a shield and nothing else, you gain a +1 bonus to your shield attack rolls and to your Armor Class.
-* **Strongbow.** You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
-* **Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
-* **Versatile Fighting.** While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.
+**Archery.** You gain a +2 bonus to attack rolls you make with ranged weapons.
+
+**Blind Warrior.** You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
+
+**Brawler.** Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
+
+**Classical Swordplay.** While wielding a finesse weapon and no other weapons, you gain a +2 bonus to your attack rolls and a +1 to your Armor Class so long as you are not using heavy armor or a shield.
+
+**Defense.** So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
+
+**Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
+
+**Great Weapon Fighting.** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+
+**Mounted Combatant.** While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
+
+**Protection.** When a creature you can see hits you, or a target within 5 feet, with a melee attack, you can use a reaction to add your proficiency bonus to the target's Armor Class against that attack. You must be wielding a shield or a melee weapon.
+
+**Shield Warrior.** You gain proficiency with shields as a martial melee weapon, and on hit, your shield deals 2d4 bludgeoning damage. If you are wielding a shield and nothing else, you gain a +1 bonus to your shield attack rolls and to your Armor Class.
+
+**Strongbow.** You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
+
+**Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
+
+**Versatile Fighting.** While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.
 
 <hr>
 
@@ -105,17 +117,9 @@ You can change your list of prepared spells when you finish a long rest. Prepari
 
 **Spellcasting Ability.** Charisma is your spellcasting ability for your Paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Paladin spell you cast and when making an attack roll with one.
 
-<div class="smallsidebar">
-
 **Spell Save DC = 8 + your proficiency bonus + your Charisma modifier**
 
-</div>
-
-<div class="smallsidebar">
-
 **Spell Attack Modifier = your proficiency bonus + your Charisma modifier**
-
-</div>
 
 **Spellcasting Focus.** You use a holy symbol as the focus for Paladin spells. A holy symbol is a Tiny object or emblem that represents the Tenets of your Oath. If it is emblazoned on a shield, it can be used as a spellcasting focus for Paladin spells.
 

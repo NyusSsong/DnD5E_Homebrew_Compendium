@@ -117,11 +117,33 @@ Use `templates/class.md`. Structure:
 ### core_features.md
 - All section headers use `####` (h4)
 - Bold labels include their colon: `**Armor:**`, `**Hit Dice:**`
-- Bullet points use `*`, never `-`
-- No blank lines between bullet points in the same list
 - Sections separated by `<hr>`
 - Named subsections within a feature use bold inline: `**Subsection Name.** Description.`
 - Feature levels come from the source text — never assume or invent them
+
+### Bullet point rules (apply everywhere)
+
+**Untitled lists** — items with no bold lead:
+- Use `-`, never `*`
+- No blank lines between consecutive untitled items
+
+```markdown
+- First item
+- Second item
+- Third item
+```
+
+**Titled items** — items that open with `**Name.**`:
+- Remove the bullet character entirely
+- Separate each item with a blank line so they render as bold-lead paragraphs
+
+```markdown
+**First Item.** Description text.
+
+**Second Item.** Description text.
+
+**Third Item.** Description text.
+```
 
 ### subclasses.md and alternate_subclasses.md
 

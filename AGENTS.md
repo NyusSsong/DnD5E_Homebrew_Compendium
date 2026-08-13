@@ -96,7 +96,8 @@ When done, write a block with:
 - Produce subclass names as a `##`/`##` heading instead of a `??? subclass "Name"`
   admonition title — this includes leaving legacy `## ^^Name^^` files untouched when
   you're already editing them; convert them to `??? subclass` as part of that edit
-- Use `-` instead of `*` for bullet points
+- Use `*` for untitled bullet lists — always use `-` instead; no blank lines between untitled items
+- Format titled list items as bullets — `* **Name.** text` must become `**Name.** text` with a blank line between each item and no bullet character
 - Write `-8<--` (one dash) instead of `--8<--` (two dashes) for snippet includes — the
   single-dash form silently fails: MkDocs renders the literal text instead of including
   the file

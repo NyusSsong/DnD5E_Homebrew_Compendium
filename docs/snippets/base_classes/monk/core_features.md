@@ -19,7 +19,7 @@
 
 #### Equipment
 
-* *(a)* a Shortsword, Dungeoneer's Pack, and 10 Darts or *(b)* a Simple Weapon, Explorer's Pack, and 10 Darts  
+- *(a)* a Shortsword, Dungeoneer's Pack, and 10 Darts or *(b)* a Simple Weapon, Explorer's Pack, and 10 Darts  
 
 <hr>
 
@@ -29,10 +29,10 @@ You honed your body into a weapon, mastering many styles of martial arts. For th
 
 Starting at 1st level, so long as you are not wearing heavy armor, wielding a shield, or wielding a Heavy weapon, your Martial Arts attacks gain the benefits listed below:
 
-* You can use your Dexterity, in place of Strength, for the attack and damage rolls of your Martial Arts attacks.
-* You can make a Dexterity (Athletics) check to grapple or shove in place of the normal Strength (Athletics) check.
-* You can roll your Martial Arts die in place of the normal damage of a Martial Arts attack. This die starts out as a d6 and changes as you gain Monk levels, as indicated in the Martial Arts column of the Monk table.
-* When you take the Attack action on your turn and make a Martial Arts attack, you can use your bonus action on that same turn to make a single unarmed strike attack.
+- You can use your Dexterity, in place of Strength, for the attack and damage rolls of your Martial Arts attacks.
+- You can make a Dexterity (Athletics) check to grapple or shove in place of the normal Strength (Athletics) check.
+- You can roll your Martial Arts die in place of the normal damage of a Martial Arts attack. This die starts out as a d6 and changes as you gain Monk levels, as indicated in the Martial Arts column of the Monk table.
+- When you take the Attack action on your turn and make a Martial Arts attack, you can use your bonus action on that same turn to make a single unarmed strike attack.
 
 Some styles of Martial Arts make use of exotic weapons like nunchaku (clubs), kamas (sickles), or sai (daggers).
 
@@ -50,13 +50,17 @@ At 2nd level, you learn to manipulate the spiritual energy that resides within y
 
 **Ki Points.** Your spiritual power is represented by a pool of Ki, equal to your Monk level + your Wisdom modifier (minimum of 0). Ki is expended when you use it, and you regain all spent ki whenever you finish a short or long rest. You can only expend Ki on one feature or Technique per attack, ability check, reaction or saving throw.
 
-**Techniques Known.** At 2nd level, you automatically learn the Patient Defense and Step of the Wind Techniques, and these do not count against your limit of Techniques Known. Additionally, you learn three Initiate Techniques of your choice from the list at the end of this class description. You can only use one technique per each attack, ability check, reaction or saving throw. The Monk table shows when you learn more Techniques of your choice. When you gain a Monk level, you can replace one Technique you know with another Technique of your choice.
+**Techniques Known.** At 2nd level, you automatically learn the Patient Defense and Step of the Wind Techniques, and these do not count against your limit of Techniques Known. Additionally, you learn three Initiate Techniques of your choice from the list. You can only use one technique per each attack, ability check, reaction or saving throw. The Monk table shows when you learn more Techniques of your choice. When you gain a Monk level, you can replace one Technique you know with another Technique of your choice.
 
 **Saving Throws.** Techniques rely on your mastery of body and spirit, and grow in proportion to your self-control. When a Technique requires a saving throw, its saving throw is calculated as follows:
 
 **Technique save DC** = 8 + your Proficiency Bonus + your Wisdom modifier
 
 **Flurry of Blows.** All Monks, no matter their training or level of enlightenment, can channel spiritual power to strike their foes with blinding speed. As a bonus action on each of your turns, you can spend 1 Ki to make two unarmed strikes.
+
+**Patient Defense.** You quiet your spirit, entering a defensive stance to better defend against incoming blows. You can spend 1 Ki to take the Dodge action as a bonus action on your turn.
+
+**Step of the Wind.** You move with the speed of the wind. You can take the Dash or Disengage action as a bonus action on your turn. When you do so, your jump distance is doubled until the end of your current turn.
 
 <hr>
 
@@ -106,9 +110,11 @@ Beginning at 9th level, you can draw upon your spiritual vitality to bolster you
 
 Your training has pushed your body and mind to new levels. You gain the following improvements to your basic techniques:
 
-* **Flurry of Blows.** You can spend 1 Ki to use Flurry of Blows and make three Unarmed Strikes with it instead of two.
-* **Patient Defense.** When you spend a Ki to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.
-* **Step of the Wind.** When you spend a Ki to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.
+**Flurry of Blows.** You can spend 1 Ki to use Flurry of Blows and make three Unarmed Strikes with it instead of two.
+
+**Patient Defense.** When you spend a Ki to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.
+
+**Step of the Wind.** When you spend a Ki to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.
 
 Additionally, you regain 1 expended Ki at the start of each of your turns in combat, so long as you are not incapacitated.
 
@@ -136,7 +142,8 @@ You have completely detached yourself from all desires of the flesh. Beginning a
 
 At 20th level you become a magical creature that transcends the mortal limits. You gain the following benefits:
 
-* **Perfection Achieved.** Instead of being treated as a humanoid, you can choose to be treated as a celestial, a fey or a fiend.
-* **Physical and Mental Perfection.** Additionally, you reach both physical and mental perfection. You gain a +2 bonus to all your ability scores. Your maximum for those scores is now 22.
+**Perfection Achieved.** Instead of being treated as a humanoid, you can choose to be treated as a celestial, a fey or a fiend.
+
+**Physical and Mental Perfection.** Additionally, you reach both physical and mental perfection. You gain a +2 bonus to all your ability scores. Your maximum for those scores is now 22.
 
 <hr>

@@ -1,226 +1,228 @@
 <p><strong>Choose a technique tier:</strong></p>
 
 <select id="technique-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="initiate">Initiate</option>
-<option value="disciple">Disciple</option>
-<option value="adept">Adept</option>
-<option value="master">Master</option>
-<option value="ascendant">Ascendant</option>
+    <option value="all">All</option>
+    <option value="initiate">Initiate</option>
+    <option value="disciple">Disciple</option>
+    <option value="adept">Adept</option>
+    <option value="master">Master</option>
+    <option value="ascendant">Ascendant</option>
 </select>
 
 <div class="technique-content" data-technique="initiate">
 
-### ^^Initiate Techniques^^
+??? feature "Initiate Techniques"
 
-#### Arresting Strike
+    The foundations of a monk's mastery. Every student learns these techniques first — the essentials of Ki control, defensive instinct, and unarmed combat.
 
-When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to stunt its mobility and force it to make a Dexterity saving throw. On a failed save, the target's speed is reduced to zero until the beginning of your next turn.
+    #### Arresting Strike
 
-#### Crippling Strike
+    When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to stunt its mobility and force it to make a Dexterity saving throw. On a failed save, the target's speed is reduced to zero until the beginning of your next turn.
 
-When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to cripple its senses and force the target to make a Constitution saving throw. On a failure, the target is either blinded, deafened, or unable to speak (your choice) until the beginning of your next turn.
+    #### Crippling Strike
 
-#### Dazing Strike
+    When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to cripple its senses and force the target to make a Constitution saving throw. On a failure, the target is either blinded, deafened, or unable to speak (your choice) until the beginning of your next turn.
 
-Once per turn when you hit a creature with a melee Martial Arts attack, you can expend 1 Ki to strike its head, forcing it to make a Wisdom saving throw. On a failed save, the target must subtract 1d4 from the first ability check, attack roll, or saving throw it makes before the start of your next turn.
+    #### Dazing Strike
 
-#### Empowered Strike
+    Once per turn when you hit a creature with a melee Martial Arts attack, you can expend 1 Ki to strike its head, forcing it to make a Wisdom saving throw. On a failed save, the target must subtract 1d4 from the first ability check, attack roll, or saving throw it makes before the start of your next turn.
 
-When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to strike with great power and force the target to make a Strength saving throw. On a failed save, it is knocked back in a straight line a number of feet equal to five times your Wisdom modifier (minimum of 5 feet), where it falls prone. A creature that is at least one size larger than you has advantage on its saving throw to resist this effect.
+    #### Empowered Strike
 
-#### Enhanced Grip
+    When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to strike with great power and force the target to make a Strength saving throw. On a failed save, it is knocked back in a straight line a number of feet equal to five times your Wisdom modifier (minimum of 5 feet), where it falls prone. A creature that is at least one size larger than you has advantage on its saving throw to resist this effect.
 
-Each time a creature starts its turn grappled by you it takes bludgeoning damage equal to your Martial Arts Die. You can also drag grappled creatures up to your full speed.
+    #### Enhanced Grip
 
-#### Improvised Strikes
+    Each time a creature starts its turn grappled by you it takes bludgeoning damage equal to your Martial Arts Die. You can also drag grappled creatures up to your full speed.
 
-You are adept at fighting with whatever is at hand. You gain proficiency with improvised weapons, they count as Martial Arts attacks for you, and you can use your Dexterity, in place of Strength, for improvised weapon attack and damage rolls.
+    #### Improvised Strikes
 
-#### Mystic Healing
+    You are adept at fighting with whatever is at hand. You gain proficiency with improvised weapons, they count as Martial Arts attacks for you, and you can use your Dexterity, in place of Strength, for improvised weapon attack and damage rolls.
 
-You can draw on your Ki to stimulate natural healing. As an action, you can spend 2 Ki to regain hit points equal to one roll of your Martial Arts die + your Wisdom modifier.
+    #### Mystic Healing
 
-#### Patient Defense
+    You can draw on your Ki to stimulate natural healing. As an action, you can spend 2 Ki to regain hit points equal to one roll of your Martial Arts die + your Wisdom modifier.
 
-You quiet your spirit, entering a defensive stance to better defend against incoming blows. You can spend 1 Ki to take the Dodge action as a bonus action on your turn.
+    #### Patient Defense
 
-#### Slow Fall
+    You quiet your spirit, entering a defensive stance to better defend against incoming blows. You can spend 1 Ki to take the Dodge action as a bonus action on your turn.
 
-You move through the air as light as a feather. Any falling damage you would take is reduced by an amount equal to five times your level, so long as you are conscious.
+    #### Slow Fall
 
-#### Spiritual Armor
+    You move through the air as light as a feather. Any falling damage you would take is reduced by an amount equal to five times your level, so long as you are conscious.
 
-You can reinforce your body with spiritual power. As a bonus action, you can spend 1 Ki to grant yourself temporary hit points equal to your Wisdom modifier (minimum of 1).
+    #### Spiritual Armor
 
-The first time a creature deals damage to these temporary hit points, you can use your reaction to cause it to take force damage equal to one roll of your Martial Arts die.
+    You can reinforce your body with spiritual power. As a bonus action, you can spend 1 Ki to grant yourself temporary hit points equal to your Wisdom modifier (minimum of 1).
 
-#### Step of the Wind
+    The first time a creature deals damage to these temporary hit points, you can use your reaction to cause it to take force damage equal to one roll of your Martial Arts die.
 
-You move with the speed of the wind. You can take the Dash or Disengage action as a bonus action. When you do so, your jump distance is doubled until the end of your current turn.
+    #### Step of the Wind
 
-#### Whirling Strike
+    You move with the speed of the wind. You can take the Dash or Disengage action as a bonus action. When you do so, your jump distance is doubled until the end of your current turn.
 
-As an action, you can spend 1 Ki to strike out and force every creature within your reach to make a Dexterity saving throw. On a failed save, they take bludgeoning damage equal to your Martial Arts die + your Dexterity modifier.
+    #### Whirling Strike
+
+    As an action, you can spend 1 Ki to strike out and force every creature within your reach to make a Dexterity saving throw. On a failed save, they take bludgeoning damage equal to your Martial Arts die + your Dexterity modifier.
 
 </div>
 
 <div class="technique-content" data-technique="disciple">
 
-### ^^Disciple Techniques^^
+??? feature "Disciple Techniques"
 
-*5th-level techniques*
+    Available to monks of 5th level or higher. With the body's basics mastered, disciples channel Ki to sharpen their strikes and bolster resilience in the heat of battle.
 
-#### Adept Fighting Style
+    #### Adept Fighting Style
 
-You have trained in a specialized style of fighting. Choose one of the following Fighting Styles from the Fighter class: Archery, Blind Fighting, Defensive Fighting, Dueling, Featherweight Training, Thrown Weapon Fighting, or Wrestler.
+    You have trained in a specialized style of fighting. Choose one of the following Fighting Styles from the Fighter class: Archery, Blind Fighting, Defensive Fighting, Dueling, Featherweight Training, Thrown Weapon Fighting, or Wrestler.
 
-#### Crushing Strike
+    #### Crushing Strike
 
-When you hit with an unarmed strike, you can spend Ki (up to your Wisdom modifier) to empower your strike with deadly force and deal additional bludgeoning damage equal to one roll of your Martial Arts die per Ki spent.
+    When you hit with an unarmed strike, you can spend Ki (up to your Wisdom modifier) to empower your strike with deadly force and deal additional bludgeoning damage equal to one roll of your Martial Arts die per Ki spent.
 
-#### Deflect Attacks
+    #### Deflect Attacks
 
-When an attack roll hits you and its damage includes bludgeoning, piercing, or slashing damage, you can take a reaction to reduce the attack's total damage against you by an amount equal to one roll of your Martial Arts die + your Dexterity modifier + your Monk level.
+    When an attack roll hits you and its damage includes bludgeoning, piercing, or slashing damage, you can take a reaction to reduce the attack's total damage against you by an amount equal to one roll of your Martial Arts die + your Dexterity modifier + your Monk level.
 
-If you reduce the damage to 0, you can expend 1 Ki to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind total cover if the attack was a ranged attack.
+    If you reduce the damage to 0, you can expend 1 Ki to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind total cover if the attack was a ranged attack.
 
-That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die + your Dexterity modifier. The damage is the same type dealt by the attack.
+    That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die + your Dexterity modifier. The damage is the same type dealt by the attack.
 
-Additionally, beginning at 11th level, you can now use your Deflect Attacks feature against attacks that deal any damage type, not just bludgeoning, piercing, or slashing.
+    Additionally, beginning at 11th level, you can now use your Deflect Attacks feature against attacks that deal any damage type, not just bludgeoning, piercing, or slashing.
 
-#### Divine Light
+    #### Divine Light
 
-You learn two cantrips of your choice from the Cleric spell list, and Wisdom is your spellcasting modifier for them.
+    You learn two cantrips of your choice from the Cleric spell list, and Wisdom is your spellcasting modifier for them.
 
-#### Gentling Touch
+    #### Gentling Touch
 
-In place of an attack, you can expend 1 Ki and touch a creature, and manipulate its Ki to put it to sleep. Roll your Martial Arts die five times. If the target's remaining hit points are less than or equal to the amount you rolled, it instantly falls unconscious for 10 minutes. The creature wakes up if it takes damage or another creature uses an action to wake it.
+    In place of an attack, you can expend 1 Ki and touch a creature, and manipulate its Ki to put it to sleep. Roll your Martial Arts die five times. If the target's remaining hit points are less than or equal to the amount you rolled, it instantly falls unconscious for 10 minutes. The creature wakes up if it takes damage or another creature uses an action to wake it.
 
-You can expend additional Ki (up to your Wisdom modifier) to roll an additional Martial Arts die for each additional Ki you spend.
+    You can expend additional Ki (up to your Wisdom modifier) to roll an additional Martial Arts die for each additional Ki you spend.
 
-#### Seeking Strike
+    #### Seeking Strike
 
-Your spirit will guide your strikes when your body fails. When you miss with a Martial Arts attack, you can spend 1 Ki to reroll your attack. You must use the new result.
+    Your spirit will guide your strikes when your body fails. When you miss with a Martial Arts attack, you can spend 1 Ki to reroll your attack. You must use the new result.
 
-#### Slowing Strike
+    #### Slowing Strike
 
-When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to interrupt the flow of its Ki and force the target to make a Wisdom saving throw. On a failed save, the creature suffers the effects of the *slow* spell until the start of your next turn. You don't need to concentrate on this effect.
+    When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to interrupt the flow of its Ki and force the target to make a Wisdom saving throw. On a failed save, the creature suffers the effects of the *slow* spell until the start of your next turn. You don't need to concentrate on this effect.
 
-#### Stunning Strike
+    #### Stunning Strike
 
-When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to strike with relentless force, forcing it to make a Constitution saving throw. On a failed save, the creature is stunned until the beginning of your next turn.
+    When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to strike with relentless force, forcing it to make a Constitution saving throw. On a failed save, the creature is stunned until the beginning of your next turn.
 
-#### Unyielding Perseverance
+    #### Unyielding Perseverance
 
-You can draw upon your Ki to find success in times of great need. When you make an ability check or saving throw, you can spend Ki (up to your Wisdom modifier) adding a +1 bonus to your roll for each Ki spent. You can use this technique after you roll, but before you know the result.
+    You can draw upon your Ki to find success in times of great need. When you make an ability check or saving throw, you can spend Ki (up to your Wisdom modifier) adding a +1 bonus to your roll for each Ki spent. You can use this technique after you roll, but before you know the result.
 
 </div>
 
 <div class="technique-content" data-technique="adept">
 
-### ^^Adept Techniques^^
+??? feature "Adept Techniques"
 
-*9th-level techniques*
+    Available to monks of 9th level or higher. The adept turns inward — blending heightened perception and Ki to extend awareness beyond the body and command the battlefield.
 
-#### Aura Sight
+    #### Aura Sight
 
-You can reach out with your Ki to sense your surroundings. You gain blindsight with a range of 20 feet. Within that range, you can see anything that isn't behind total cover, even if you are blinded or in darkness. You can see invisible creatures in that range unless the creature successfully hides from you.
+    You can reach out with your Ki to sense your surroundings. You gain blindsight with a range of 20 feet. Within that range, you can see anything that isn't behind total cover, even if you are blinded or in darkness. You can see invisible creatures in that range unless the creature successfully hides from you.
 
-As you gain levels in this class the range of this blindsight increases; at 13th level (30 feet) and 18th level (60 feet).
+    As you gain levels in this class the range of this blindsight increases; at 13th level (30 feet) and 18th level (60 feet).
 
-#### Commune with Self
+    #### Commune with Self
 
-You have gained the ability to contact the Ki of your previous lives to gain information. As an action, you can spend 5 Ki to enter a meditative state, which lasts for 10 minutes, and consult your previous lives. At the end of the meditation, you gain information as if you had cast the *commune* spell.
+    You have gained the ability to contact the Ki of your previous lives to gain information. As an action, you can spend 5 Ki to enter a meditative state, which lasts for 10 minutes, and consult your previous lives. At the end of the meditation, you gain information as if you had cast the *commune* spell.
 
-#### Friend of Beast & Leaf
+    #### Friend of Beast & Leaf
 
-You can reach out and mingle your Ki with the latent Ki of the natural world around you. As an action, you can spend 5 Ki to enter a meditative state, which lasts for 10 minutes. At the end of your meditation, you gain the same information as if you had cast the *commune with nature* spell.
+    You can reach out and mingle your Ki with the latent Ki of the natural world around you. As an action, you can spend 5 Ki to enter a meditative state, which lasts for 10 minutes. At the end of your meditation, you gain the same information as if you had cast the *commune with nature* spell.
 
-#### Heavenly Step
+    #### Heavenly Step
 
-You can move along vertical surfaces, across liquids, and upside down on ceilings without falling during the move.
+    You can move along vertical surfaces, across liquids, and upside down on ceilings without falling during the move.
 
-If you end your movement on a vertical surface, liquid, or upside down on a ceiling, you can spend 1 Ki to remain in place without falling until the start of your next turn.
+    If you end your movement on a vertical surface, liquid, or upside down on a ceiling, you can spend 1 Ki to remain in place without falling until the start of your next turn.
 
-#### Indomitable Spirit
+    #### Indomitable Spirit
 
-You can augment your physical abilities with spiritual power. When you make a Strength (Athletics) or Dexterity (Athletics) check you can spend 1 Ki to add your Wisdom modifier (minimum of +1) to your roll. You can use this technique after you roll, but before you know if your roll succeeds or fails.
+    You can augment your physical abilities with spiritual power. When you make a Strength (Athletics) or Dexterity (Athletics) check you can spend 1 Ki to add your Wisdom modifier (minimum of +1) to your roll. You can use this technique after you roll, but before you know if your roll succeeds or fails.
 
-#### Mantle of Courtesy
+    #### Mantle of Courtesy
 
-You gain proficiency in Persuasion, and whenever you make a Charisma (Persuasion) check, you gain a bonus to your roll equal to your Wisdom modifier (minimum of +1).
+    You gain proficiency in Persuasion, and whenever you make a Charisma (Persuasion) check, you gain a bonus to your roll equal to your Wisdom modifier (minimum of +1).
 
-#### Monastic Fortitude
+    #### Monastic Fortitude
 
-As a reaction when you take damage, you can expend 2 Ki to reduce the incoming damage by an amount equal to two rolls of your Martial Arts die + your Wisdom modifier.
+    As a reaction when you take damage, you can expend 2 Ki to reduce the incoming damage by an amount equal to two rolls of your Martial Arts die + your Wisdom modifier.
 
 </div>
 
 <div class="technique-content" data-technique="master">
 
-### ^^Master Techniques^^
+??? feature "Master Techniques"
 
-*13th-level techniques*
+    Available to monks of 13th level or higher. At the peak of earthly power, master monks transcend conventional combat, wielding techniques that few mortals can approach.
 
-#### Armor of the Ascetic
+    #### Armor of the Ascetic
 
-You exude an aura of peace. At the end of a short or long rest, you gain the effects of *sanctuary*, which lasts until the start of your next short or long rest. This spell ends early as normal.
+    You exude an aura of peace. At the end of a short or long rest, you gain the effects of *sanctuary*, which lasts until the start of your next short or long rest. This spell ends early as normal.
 
-#### Banishing Strike
+    #### Banishing Strike
 
-When you hit a creature with a melee Martial Arts attack, you can expend 3 Ki to empower your blow with legendary force, and force the target to make a Charisma saving throw. It takes additional force damage equal to three rolls of your Martial Arts die on a failure, and half as much on a success.
+    When you hit a creature with a melee Martial Arts attack, you can expend 3 Ki to empower your blow with legendary force, and force the target to make a Charisma saving throw. It takes additional force damage equal to three rolls of your Martial Arts die on a failure, and half as much on a success.
 
-If this attack reduces the target to 50 hit points or fewer, it is shunted to a harmless demiplane where it is incapacitated. The creature reappears in the unoccupied space nearest to the last space it occupied at the end of your next turn.
+    If this attack reduces the target to 50 hit points or fewer, it is shunted to a harmless demiplane where it is incapacitated. The creature reappears in the unoccupied space nearest to the last space it occupied at the end of your next turn.
 
-#### Conjure Previous Life
+    #### Conjure Previous Life
 
-You summon a specter of your past life to come to your aid. As an action, you can spend 5 Ki and cast *summon celestial* (defender) at 5th-level, with the changes below:
+    You summon a specter of your past life to come to your aid. As an action, you can spend 5 Ki and cast *summon celestial* (defender) at 5th-level, with the changes below:
 
-* It is a Medium creature that resembles a humanoid Monk, though it may not be the same race as you are.
-* Its Radiant Mace attacks resemble unarmed strikes.
-* When summoned you can infuse it with a number of Ki of your choice, and your Ki maximum is reduced by the same amount while it is summoned. It can use the infused Ki to use any Techniques you know, though it cannot use *conjure previous life* again.
+    * It is a Medium creature that resembles a humanoid Monk, though it may not be the same race as you are.
+    * Its Radiant Mace attacks resemble unarmed strikes.
+    * When summoned you can infuse it with a number of Ki of your choice, and your Ki maximum is reduced by the same amount while it is summoned. It can use the infused Ki to use any Techniques you know, though it cannot use *conjure previous life* again.
 
-#### Diamond Soul
+    #### Diamond Soul
 
-Your physical and mental discipline grant you proficiency in all saving throws. Additionally, when you make a saving throw and fail, you can expend 1 Ki to reroll it, and you must use the new roll.
+    Your physical and mental discipline grant you proficiency in all saving throws. Additionally, when you make a saving throw and fail, you can expend 1 Ki to reroll it, and you must use the new roll.
 
-#### Mystical Integrity
+    #### Mystical Integrity
 
-Your sense of self and strength of your will are unshakable. You are immune to any spell or effect that would alter your form or force you to teleport, unless you wish to be affected.
+    Your sense of self and strength of your will are unshakable. You are immune to any spell or effect that would alter your form or force you to teleport, unless you wish to be affected.
 
-#### Tongue of Sun & Moon
+    #### Tongue of Sun & Moon
 
-You can touch the Ki of other minds and communicate with any creature that speaks a language. Creatures that speak no languages can communicate and understand simple ideas.
+    You can touch the Ki of other minds and communicate with any creature that speaks a language. Creatures that speak no languages can communicate and understand simple ideas.
 
 </div>
 
 <div class="technique-content" data-technique="ascendant">
 
-### ^^Ascendant Techniques^^
+??? feature "Ascendant Techniques"
 
-*18th-level techniques*
+    Available to monks of 18th level or higher. The pinnacle of monastic achievement. Ascendant techniques border on the divine, reshaping reality and the self alike.
 
-#### Awaken the Third Eye
+    #### Awaken the Third Eye
 
-You can open your mind to the Ki that flows through all living things, allowing you to predict the actions of creatures before they happen. You can perform a 1-minute meditative ritual where you expend 8 Ki to cast *foresight*, targeting only yourself. While this effect is active, your Ki maximum is reduced by 8. You can end this effect as an action.
+    You can open your mind to the Ki that flows through all living things, allowing you to predict the actions of creatures before they happen. You can perform a 1-minute meditative ritual where you expend 8 Ki to cast *foresight*, targeting only yourself. While this effect is active, your Ki maximum is reduced by 8. You can end this effect as an action.
 
-#### Empty Body
+    #### Empty Body
 
-As a bonus action on your turn, you can spend 4 Ki to become invisible for 1 minute. While invisible in this way, you gain resistance to all damage except for force damage.
+    As a bonus action on your turn, you can spend 4 Ki to become invisible for 1 minute. While invisible in this way, you gain resistance to all damage except for force damage.
 
-You can also spend 8 Ki to cast *astral projection*, without needing material components. When you do so, you target only yourself and can't take other creatures with you.
+    You can also spend 8 Ki to cast *astral projection*, without needing material components. When you do so, you target only yourself and can't take other creatures with you.
 
-#### Quivering Palm
+    #### Quivering Palm
 
-When you hit a creature with a melee Martial Arts attack, you can spend 5 Ki to infuse its soul with vibrations, that last for a number of days equal to your Monk level. While you and the creature are on the same plane of existence, you can use an action to end the vibrations and force the creature to make a Constitution saving throw. On a failed save, it is reduced to 0 hit points, and it takes 10d10 necrotic damage on a successful save.
+    When you hit a creature with a melee Martial Arts attack, you can spend 5 Ki to infuse its soul with vibrations, that last for a number of days equal to your Monk level. While you and the creature are on the same plane of existence, you can use an action to end the vibrations and force the creature to make a Constitution saving throw. On a failed save, it is reduced to 0 hit points, and it takes 10d10 necrotic damage on a successful save.
 
-You can only have one creature under the mystical effects of this Technique at a time. Using this Technique on another creature harmlessly ends the effect on any previous creature.
+    You can only have one creature under the mystical effects of this Technique at a time. Using this Technique on another creature harmlessly ends the effect on any previous creature.
 
-#### Word of Creation
+    #### Word of Creation
 
-You can draw on your intimate knowledge of the Ki that flows through all things and speak a divine word of creation. As an action, you can spend 7 Ki to cast *divine word*, using Wisdom as your spellcasting modifier.
+    You can draw on your intimate knowledge of the Ki that flows through all things and speak a divine word of creation. As an action, you can spend 7 Ki to cast *divine word*, using Wisdom as your spellcasting modifier.
 
-Once you use your Ki to cast *divine word*, you must finish a short or long rest before you can cast it in this way again.
+    Once you use your Ki to cast *divine word*, you must finish a short or long rest before you can cast it in this way again.
 
 </div>

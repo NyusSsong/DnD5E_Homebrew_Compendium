@@ -30,22 +30,36 @@
 
 At 1st level, you adopt a Fighting Style that best reflects your training. You cannot select a Fighting Style more than once, even if a feature allows you to select another Fighting Style.
 
-* **Archery.** You gain a +2 bonus to attack rolls you make
+**Archery.** You gain a +2 bonus to attack rolls you make
 with ranged weapons.
-* **Blind Warrior.** You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
-* **Brawler.** Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
-* **Defense.** So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
-* **Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
-* **Druidic Warrior.** You learn two cantrips of your choice from the Druid spell list, and they count as Ranger spells for you. Whenever you gain a level, you can replace one of these Druid cantrips you know with another Druid cantrip of your choice.
-* **Featherweight Training.** While you are wielding only light weapons, and nothing else your Speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.
-* **Mariner.** So long as you are not wearing medium or heavy armor, or wielding a shield, you have a swimming speed equal to your walking speed, and a +1 bonus to Armor Class.
-* **Mountaineer.** So long as you are not wearing medium or heavy armor, or wielding a shield, you have a climbing speed equal to your walking speed, and you gain a +1 bonus to your Armor Class.
-* **Melee Marksman.** Having a hostile creature within 5 feet of you does not impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet. When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
-* **Mounted Combatant.** While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
-* **Strongbow.** You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
-* **Thrown Weapon Fighting.** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.
-* **Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
-* **Versatile Fighting.** While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.
+
+**Blind Warrior.** You have blindsight with a range in feet equal to 5 times your proficiency bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
+
+**Brawler.** Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.
+
+**Defense.** So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
+
+**Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
+
+**Druidic Warrior.** You learn two cantrips of your choice from the Druid spell list, and they count as Ranger spells for you. Whenever you gain a level, you can replace one of these Druid cantrips you know with another Druid cantrip of your choice.
+
+**Featherweight Training.** While you are wielding only light weapons, and nothing else your Speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.
+
+**Mariner.** So long as you are not wearing medium or heavy armor, or wielding a shield, you have a swimming speed equal to your walking speed, and a +1 bonus to Armor Class.
+
+**Mountaineer.** So long as you are not wearing medium or heavy armor, or wielding a shield, you have a climbing speed equal to your walking speed, and you gain a +1 bonus to your Armor Class.
+
+**Melee Marksman.** Having a hostile creature within 5 feet of you does not impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet. When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
+
+**Mounted Combatant.** While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.
+
+**Strongbow.** You can use your Strength modifier, in place of Dexterity, for attack and damage rolls with longbows and shortbows. When you do so, you gain a +1 to damage rolls with those weapons.
+
+**Thrown Weapon Fighting.** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.
+
+**Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
+
+**Versatile Fighting.** While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.
 
 <hr>
 
@@ -74,9 +88,9 @@ When you reach 9th level in this class, you choose another skill from the Ranger
 
 You focus your senses to hunt as a predator of the wild. Also at 2nd level, you can use a bonus action to mark one creature you can see as your Quarry, gaining the benefits below:
 
-* Whenever you damage it with an attack, you deal bonus damage equal to a roll of your Quarry Die, which is a d4.
-* Whenever you make an ability check to track or locate it, you can add one roll of your Quarry Die to your d20 roll.
-* These benefits last for 1 hour but end early if your Quarry is slain or if you mark another creature as your Quarry. 
+- Whenever you damage it with an attack, you deal bonus damage equal to a roll of your Quarry Die, which is a d4.
+- Whenever you make an ability check to track or locate it, you can add one roll of your Quarry Die to your d20 roll.
+- These benefits last for 1 hour but end early if your Quarry is slain or if you mark another creature as your Quarry. 
 
 You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest. When you have no uses left, you can expend a spell slot to use this feature again. When you reach 6th, 10th, 14th, and 18th levels in this class, both the duration of Ranger's Quarry and the size of your Quarry Die increase, as indicated in the Ranger table.
 

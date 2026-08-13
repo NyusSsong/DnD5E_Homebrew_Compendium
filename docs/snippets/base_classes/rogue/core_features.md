@@ -19,10 +19,10 @@
 
 #### Equipment
 
-* *(a)* a rapier or *(b)* a shortsword
-* *(a)* a shortbow and quiver of 20 arrows or *(b)* a shortsword
-* *(a)* a burglar's pack, *(b)* dungeoneer's pack, or *(c)* an explorer's pack
-* Leather armor, two daggers, and thieves' tools
+- *(a)* a rapier or *(b)* a shortsword
+- *(a)* a shortbow and quiver of 20 arrows or *(b)* a shortsword
+- *(a)* a burglar's pack, *(b)* dungeoneer's pack, or *(c)* an explorer's pack
+- Leather armor, two daggers, and thieves' tools
 
 <hr>
 
@@ -52,8 +52,8 @@ gain each trick only once.
 
 Beginning at 1st level, you learn to exploit the weak points of your enemies. Once per turn when you hit a creature with an attack with a finesse or ranged weapon, you can deal a bonus 1d6 damage, so long as one of the conditions below are met:
 
-* You have advantage on your attack roll.
-* An enemy of your target (other than you) is within 5 feet of your target, and the other enemy isn’t incapacitated.
+- You have advantage on your attack roll.
+- An enemy of your target (other than you) is within 5 feet of your target, and the other enemy isn’t incapacitated.
 
 You don't gain the benefits feature if you have disadvantage on your attack roll, even if the other conditions are met.
 
@@ -79,29 +79,18 @@ Starting at 2nd level, your quick thinking and agility allow you to move and act
 
 At 2nd level, you learn to utilize various tricks which enhance your particular set of skills, both on and off the field of battle.
 
-**Exploit Dice.**
-
-The Rogue table shows how many Exploit Dice you have to perform the Exploits you know. To use an Exploit, you must expend one of these Dice. You can only use one Exploit per attack, ability check, or saving throw, and you regain your expended Exploit Dice when you finish a short or long rest.
+**Exploit Dice.** The Rogue table shows how many Exploit Dice you have to perform the Exploits you know. To use an Exploit, you must expend one of these Dice. You can only use one Exploit per attack, ability check, or saving throw, and you regain your expended Exploit Dice when you finish a short or long rest.
 
 Your Exploit Dice begin as d4s, and increase in size as you gain levels in this class, as indicated in the Rogue table.
 
-**Exploits Known .**
-
-At 2nd level, you know two
-Exploits of your choice from the
-list at the end of this class. The
-Exploits Known column of the Rogue table shows when you learn more Exploits of your choice. In order to learn an Exploit you must meet any prerequisites it may have.
+**Exploits Known.** At 2nd level, you know two Exploits of your choice from the
+list at the end of this class. The Exploits Known column of the Rogue table shows when you learn more Exploits of your choice. In order to learn an Exploit you must meet any prerequisites it may have.
 
 When you gain a Rogue level, you can replace one Devious Exploit you know with another Exploit of your choice.
 
-**Saving Throws.**
+**Saving Throws.** If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
 
-If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
-
-<div class="smallsidebar">
-
-**Exploit Save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)**
-</div>
+**Exploit Save DC = 8 + your proficiency bonus + your Dexterity modifier**
 
 <hr>
 
@@ -131,11 +120,11 @@ Attack bonus to a damage roll, you can forgo some of
 the bonus to use a Devious Exploit you know without
 expending an Exploit Die, with the following rules:
 
-* It must be a Devious Exploit that you know that
+- It must be a Devious Exploit that you know that
 can be used as part of a weapon attack.
-* You reduce your Sneak Attack bonus damage by
+- You reduce your Sneak Attack bonus damage by
 a number of d6s equal to the degree of the Exploit
-* If the Exploit normally deals additional damage, it does
+- If the Exploit normally deals additional damage, it does
 not deal any additional damage when used in this way.
 
 For example, if you were to use this feature to use
