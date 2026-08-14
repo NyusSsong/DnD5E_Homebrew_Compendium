@@ -186,3 +186,12 @@ p strong {
   line-height: 1.4;
   margin: 0.5em 0 -0.5em;
 }
+
+.md-typeset .admonition ul,
+.md-typeset .admonition ol,
+.md-typeset .admonition li,
+.md-typeset details ul,
+.md-typeset details ol,
+.md-typeset details li {
+  font-size: 0.75rem;
+}

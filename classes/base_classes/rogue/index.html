@@ -1468,20 +1468,13 @@ gain each trick only once.</p>
 <hr>
 <h4 id="level-2-devious-exploits">Level 2 - Devious Exploits</h4>
 <p>At 2nd level, you learn to utilize various tricks which enhance your particular set of skills, both on and off the field of battle.</p>
-<p><strong>Exploit Dice.</strong></p>
-<p>The Rogue table shows how many Exploit Dice you have to perform the Exploits you know. To use an Exploit, you must expend one of these Dice. You can only use one Exploit per attack, ability check, or saving throw, and you regain your expended Exploit Dice when you finish a short or long rest.</p>
+<p><strong>Exploit Dice.</strong> The Rogue table shows how many Exploit Dice you have to perform the Exploits you know. To use an Exploit, you must expend one of these Dice. You can only use one Exploit per attack, ability check, or saving throw, and you regain your expended Exploit Dice when you finish a short or long rest.</p>
 <p>Your Exploit Dice begin as d4s, and increase in size as you gain levels in this class, as indicated in the Rogue table.</p>
-<p><strong>Exploits Known .</strong></p>
-<p>At 2nd level, you know two
-Exploits of your choice from the
-list at the end of this class. The
-Exploits Known column of the Rogue table shows when you learn more Exploits of your choice. In order to learn an Exploit you must meet any prerequisites it may have.</p>
+<p><strong>Exploits Known.</strong> At 2nd level, you know two Exploits of your choice from the
+list at the end of this class. The Exploits Known column of the Rogue table shows when you learn more Exploits of your choice. In order to learn an Exploit you must meet any prerequisites it may have.</p>
 <p>When you gain a Rogue level, you can replace one Devious Exploit you know with another Exploit of your choice.</p>
-<p><strong>Saving Throws.</strong></p>
-<p>If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:</p>
-<div class="smallsidebar">
-<p><strong>Exploit Save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</strong>
-</div></p>
+<p><strong>Saving Throws.</strong> If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:</p>
+<p><strong>Exploit Save DC = 8 + your proficiency bonus + your Dexterity modifier</strong></p>
 <hr>
 <h4 id="level-3-roguish-archetype">Level 3 - Roguish Archetype</h4>
 <p>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</p>
@@ -1679,15 +1672,16 @@ the result of the check.</p>
 <div class="tabbed-block">
 <p><p><strong>Select an Exploit Degree:</strong></p>
 <select id="exploit-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="1st-degree-exploits">1st-Degree Exploits</option>
-<option value="2nd-degree-exploits">2nd-Degree Exploits</option>
-<option value="3rd-degree-exploits">3rd-Degree Exploits</option>
-<option value="4th-degree-exploits">4th-Degree Exploits</option>
-<option value="5th-degree-exploits">5th-Degree Exploits</option>
+    <option value="all">All</option>
+    <option value="1st-degree-exploits">1st-Degree Exploits</option>
+    <option value="2nd-degree-exploits">2nd-Degree Exploits</option>
+    <option value="3rd-degree-exploits">3rd-Degree Exploits</option>
+    <option value="4th-degree-exploits">4th-Degree Exploits</option>
+    <option value="5th-degree-exploits">5th-Degree Exploits</option>
 </select></p>
 <div class="exploit-content" data-exploit="1st-degree-exploits">
-<h3 id="1st-degree-exploits">1st-Degree Exploits</h3>
+<details class="feature">
+<summary>1st-Degree Exploits</summary>
 <p>Exploits of the 1st-degree are minor techniques slightly more complicated than swinging a weapon. They can be learned by Rogues with modest training and have no level prerequisite.</p>
 <h4 id="aerial-maneuver">Aerial Maneuver</h4>
 <p><em>Prerequisites: Dexterity of 11</em></p>
@@ -1770,9 +1764,11 @@ its potency until the end of your next long rest.</p>
 <p>Also, when you make a Charisma (History) or a Charisma (Investigation) check you can expend one Exploit Die, roll it, and add the result to your ability check. You can do so after you roll the d20, but before you know if you succeed or fail.</p>
 <h4 id="sweeping-strike">Sweeping Strike</h4>
 <p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die to force it to make a Dexterity saving throw. On a failed save, it falls prone and takes bludgeoning damage equal to your Exploit Die. Creatures more than one size larger than you have advantage on their saving throw.6</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="2nd-degree-exploits">
-<h3 id="2nd-degree-exploits">2nd-Degree Exploits</h3>
+<details class="feature">
+<summary>2nd-Degree Exploits</summary>
 <p>Exploits of this degree represent the absolute peak of roguish skill that is achievable without dedicated training. 2nd-degree Exploits can be learned by any Rogue of 5th level or higher.</p>
 <h4 id="alchemical-oil">Alchemical Oil</h4>
 <p><em>Prerequisites: 5th level, proficiency with alchemist's supplies</em></p>
@@ -1851,14 +1847,17 @@ Die to its attack roll.</p>
 <h4 id="underhanded-strike">Underhanded Strike</h4>
 <p><em>Prerequisites: 5th level, Dexterity of 13</em></p>
 <p>When a creature you can see misses you with a melee attack, you can use your reaction to expend an Exploit Die and make a single melee weapon attack against your attacker. On hit, you add your Exploit Die to the damage roll of the attack.</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="3rd-degree-exploits">
-<h3 id="3rd-degree-exploits">3rd-Degree Exploits</h3>
+<details class="feature">
+<summary>3rd-Degree Exploits</summary>
 <p>These Exploits are masterful acts of subterfuge and skill, and can only be learned by Rogues of 9th level or higher. Each of these Exploits can only be used once per short or long rest.</p>
 <h4 id="bewildering-blow">Bewildering Blow</h4>
 <p><em>Prerequisites: 9th level, Strength or Dexterity of 15</em></p>
 <p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die and strike in such a way as to send its mind reeling. The creature takes additional damage equal to twice your Exploit Die, and for the next minute, the creature cannot take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.</p>
-<h5 id="bewildering-blow_1">Bewildering Blow</h5>
+<details class="table">
+<summary>Bewildering Blow</summary>
 <table>
 <thead>
 <tr>
@@ -1889,6 +1888,7 @@ Die to its attack roll.</p>
 </tr>
 </tbody>
 </table>
+</details>
 <p>At the end of its turns, the creature can make a Wisdom saving throw. If it succeeds, this effect immediately ends.</p>
 <h4 id="craft-greater-poison">Craft Greater Poison</h4>
 <p><em>Prerequisites: 9th level, proficiency with poisoner's kit</em></p>
@@ -1924,9 +1924,11 @@ Die to its attack roll.</p>
 <li>Secret alleyways, doors, hideouts, or storefronts.</li>
 </ul>
 <p>Once you use this Exploit to survey a settlement you must finish a long rest before you can use it in that location again.</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="4th-degree-exploits">
-<h3 id="4th-degree-exploits">4th-Degree Exploits</h3>
+<details class="feature">
+<summary>4th-Degree Exploits</summary>
 <p>Exploits of this degree are masterful skills that can only be learned by Rogues of 13th level or higher, and each of these Exploits can only be used once per short or long rest.</p>
 <h4 id="agonizing-strike">Agonizing Strike</h4>
 <p><em>Prerequisites: 13th level, Dexterity of 17</em></p>
@@ -1968,9 +1970,11 @@ of your next long rest. However, you can't regain the Exploit Dice you spent in 
 <p><em>Prerequisites: 13th level, Dexterity of 17</em></p>
 <p>As a bonus action, you can expend an Exploit Die and enter into a heightened state of focus which you must concentrate on as if concentrating on a spell. For the next minute, or until you lose concentration, you can use a bonus action to make two ranged weapon attacks if you have the ammunition.</p>
 <p>The effects of this Exploit do not stack with the effects of <em>swift quiver</em>.</p>
+</details>
 </div>
 <div class="exploit-content" data-exploit="5th-degree-exploits">
-<h3 id="5th-degree-exploits">5th-Degree Exploits</h3>
+<details class="feature">
+<summary>5th-Degree Exploits</summary>
 <p>Exploits of the 5th-degree are devious feats that rival those of the most cunning archfey. These Exploits can only be learned by Rogues of 17th level or higher, and each Exploit of this level can only be used once per short or long rest.</p>
 <h4 id="contingency-plan">Contingency Plan</h4>
 <p><em>Prerequisites: 17th level, Intelligence of 19</em></p>
@@ -1993,24 +1997,26 @@ of your next long rest. However, you can't regain the Exploit Dice you spent in 
 <h4 id="tricksters-blessing">Trickster's Blessing</h4>
 <p><em>Prerequisites: 17th level, Dexterity of 19</em></p>
 <p>When you use your Cunning Action to take the Hide action, you can expend an Exploit Die to hide with inconceivable and supernatural skill. So long as there is a place to hide within 60 feet, you are automatically considered to be hidden from all creatures, no matter what special senses or magic they may have. Once hidden in this way, you instantly appear in a hidden location of your choice within 60 feet.</p>
+</details>
 </div>
 </div>
 <div class="tabbed-block">
 <p><p><strong>Choose an Alternate Subclass:</strong></p>
 <select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="alt-assassin">Alternate Assassin</option>
-<option value="alt-arcane-trickster">Alternate Arcane Trickster</option>
-<option value="alt-mastermind">Alternate Mastermind</option>
-<option value="alt-inquisitive">Alternate Inquisitive</option>
-<option value="alt-phantom">Alternate Phantom</option>
-<option value="alt-scout">Alternate Scout</option>
-<option value="alt-soulknife">Alternate Soulknife</option>
-<option value="alt-swashbuckler">Alternate Swashbuckler</option>
-<option value="alt-thief">Alternate Thief</option>
+    <option value="all">All</option>
+    <option value="alt-assassin">Alternate Assassin</option>
+    <option value="alt-arcane-trickster">Alternate Arcane Trickster</option>
+    <option value="alt-mastermind">Alternate Mastermind</option>
+    <option value="alt-inquisitive">Alternate Inquisitive</option>
+    <option value="alt-phantom">Alternate Phantom</option>
+    <option value="alt-scout">Alternate Scout</option>
+    <option value="alt-soulknife">Alternate Soulknife</option>
+    <option value="alt-swashbuckler">Alternate Swashbuckler</option>
+    <option value="alt-thief">Alternate Thief</option>
 </select></p>
 <div class="subclass-content" data-subclass="alt-assassin">
-<h2 id="alternate-assassin"><ins>Alternate Assassin</ins></h2>
+<details class="subclass">
+<summary>Alternate Assassin</summary>
 <p>As an Assassin, you specialize in the grim art of death, employing stealth, poisons, and disguises to strike your foes when they least expect it. Assassins excel as killers, spies, and bounty hunters.</p>
 <h4 id="level-3-assassinate">Level 3 - Assassinate</h4>
 <p>As an assassin, you are at your deadliest when your foes don't see you coming. You gain the following benefits:</p>
@@ -2041,9 +2047,11 @@ of your next long rest. However, you can't regain the Exploit Dice you spent in 
 <p>You have become a master of instant death. Whenever you add your Sneak Attack bonus to a weapon attack, you can choose for that attack to become an automatic critical hit.</p>
 <p>Once you use this feature you must finish a short or long rest before you can use it again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-arcane-trickster">
-<h2 id="alternate-arcane-trickster"><ins>Alternate Arcane Trickster</ins></h2>
+<details class="subclass">
+<summary>Alternate Arcane Trickster</summary>
 <p>Where most Rogues rely solely on their exquisite set of skills, you have chosen to compliment yours with magic. Enhancing your skills and subterfuge with arcane spells, you are able to achieve wondrous feats of trickery. Most Rogues who walk the path of the Arcane Trickster tend to become pranksters, burglars, infiltrators, pickpockets, and even adventurers.</p>
 <h4 id="level-3-spellcasting">Level 3 - Spellcasting</h4>
 <p>When you adopt the Arcane Trickster Archetype you learn to enhance your skills and talents with minor arcane spells:</p>
@@ -2053,14 +2061,10 @@ of your next long rest. However, you can't regain the Exploit Dice you spent in 
 <p>When you gain a level, you can replace one of your Spells Known with a spell from the Arcane Trickster spell list. The spell must be of a level for which you have spell slots.</p>
 <p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Arcane Trickster spells. You use Intelligence whenever a spell refers to your spellcasting ability. You also use your Intelligence modifier when setting the saving throw DC or making a spell attack roll for an Arcane Trickster spell.</p>
 <p><strong>Spellcasting Focus.</strong> You can use an Arcane Focus as a Spellcasting Focus for the spells you prepare for this subclass.</p>
-<div class="smallsidebar">
-<p><strong>Spell Save DC = 8 + your proficiency bonus + your Intelligence modifier</strong></p>
-</div>
-<div class="smallsidebar">
-<p><strong>Spell Attack Modifier = your proficiency bonus + your Intelligence modifier</strong></p>
-</div>
 <hr>
 <h3 id="arcane-trickster-spellcasting">Arcane Trickster Spellcasting</h3>
+<details class="table">
+<summary>Arcane Trickster Spellcasting</summary>
 <table>
 <thead>
 <tr>
@@ -2219,109 +2223,206 @@ of your next long rest. However, you can't regain the Exploit Dice you spent in 
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
-<h3 id="arcane-trickster-spell-list">Arcane Trickster Spell List</h3>
-<div class='spellList'>
-<h3 id="cantrips">Cantrips</h3>
-<ul>
-<li><em>acid splash</em></li>
-<li><em>booming blade</em></li>
-<li><em>dancing lights</em></li>
-<li><em>fire bolt</em></li>
-<li><em>friends</em></li>
-<li><em>frostbite</em></li>
-<li><em>green-flame blade</em></li>
-<li><em>gust</em></li>
-<li><em>light</em></li>
-<li><em>mage hand</em></li>
-<li><em>magic stone</em></li>
-<li><em>message</em></li>
-<li><em>minor illusion</em></li>
-<li><em>poison spray</em></li>
-<li><em>prestidigitation</em></li>
-<li><em>ray of frost</em></li>
-<li><em>shocking grasp</em></li>
-</ul>
-<h3 id="1st-level">1st Level</h3>
-<ul>
-<li><em>alarm</em></li>
-<li><em>bane</em></li>
-<li><em>catapult</em></li>
-<li><em>cause fear</em></li>
-<li><em>charm person</em></li>
-<li><em>color spray</em></li>
-<li><em>comprehend languages</em></li>
-<li><em>detect magic</em></li>
-<li><em>detect poison &amp; disease</em></li>
-<li><em>disguise self</em></li>
-<li><em>dissonant whispers</em></li>
-<li><em>faerie fire</em></li>
-<li><em>feather fall</em></li>
-<li><em>find familiar</em></li>
-<li><em>floating disk</em></li>
-<li><em>fog cloud</em></li>
-<li><em>grease</em></li>
-<li><em>hideous laughter</em></li>
-<li><em>identify</em></li>
-<li><em>illusory script</em></li>
-<li><em>jump</em></li>
-<li><em>longstrider</em></li>
-<li><em>silent image</em></li>
-<li><em>sleep</em></li>
-<li><em>snare</em></li>
-<li><em>unseen servant</em></li>
-</ul>
-<h3 id="2nd-level">2nd Level</h3>
-<ul>
-<li><em>arcane lock</em></li>
-<li><em>blindness/deafness</em></li>
-<li><em>blur</em></li>
-<li><em>calm emotions</em></li>
-<li><em>crown of madness</em></li>
-<li><em>darkness</em></li>
-<li><em>darkvision</em></li>
-<li><em>enlarge/reduce</em></li>
-<li><em>hold person</em></li>
-<li><em>invisibility</em></li>
-<li><em>knock</em></li>
-<li><em>levitate</em></li>
-<li><em>magic aura</em></li>
-<li><em>magic mouth</em></li>
-<li><em>mind whip</em></li>
-<li><em>mirror image</em></li>
-<li><em>misty step</em></li>
-<li><em>phantasmal force</em></li>
-<li><em>rope trick</em></li>
-<li><em>see invisibility</em></li>
-<li><em>shadow blade</em></li>
-<li><em>silence</em></li>
-<li><em>spider climb</em></li>
-<li><em>suggestion</em></li>
-</ul>
-<h3 id="3rd-level">3rd Level</h3>
-<ul>
-<li><em>blink</em></li>
-<li><em>counterspell</em></li>
-<li><em>dispel magic</em></li>
-<li><em>enemies abound</em></li>
-<li><em>fear</em></li>
-<li><em>hypnotic pattern</em></li>
-<li><em>major image</em></li>
-<li><em>nondetection</em></li>
-<li><em>sending</em></li>
-<li><em>tiny servant</em></li>
-</ul>
-<h3 id="4th-level">4th Level</h3>
-<ul>
-<li><em>charm monster</em></li>
-<li><em>confusion</em></li>
-<li><em>dimension door</em></li>
-<li><em>freedom of movement</em></li>
-<li><em>greater invisibility</em></li>
-<li><em>hallucinatory terrain</em></li>
-<li><em>phantasmal killer</em></li>
-</ul>
-</div>
+<details class="table">
+<summary>Arcane Trickster Spell List</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Cantrips</th>
+<th style="text-align: center;">1st Level</th>
+<th style="text-align: center;">2nd Level</th>
+<th style="text-align: center;">3rd Level</th>
+<th style="text-align: center;">4th Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>acid splash</em></td>
+<td style="text-align: center;"><em>alarm</em></td>
+<td style="text-align: center;"><em>arcane lock</em></td>
+<td style="text-align: center;"><em>blink</em></td>
+<td style="text-align: center;"><em>charm monster</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>booming blade</em></td>
+<td style="text-align: center;"><em>bane</em></td>
+<td style="text-align: center;"><em>blindness/deafness</em></td>
+<td style="text-align: center;"><em>counterspell</em></td>
+<td style="text-align: center;"><em>confusion</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>dancing lights</em></td>
+<td style="text-align: center;"><em>catapult</em></td>
+<td style="text-align: center;"><em>blur</em></td>
+<td style="text-align: center;"><em>dispel magic</em></td>
+<td style="text-align: center;"><em>dimension door</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>fire bolt</em></td>
+<td style="text-align: center;"><em>cause fear</em></td>
+<td style="text-align: center;"><em>calm emotions</em></td>
+<td style="text-align: center;"><em>enemies abound</em></td>
+<td style="text-align: center;"><em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>friends</em></td>
+<td style="text-align: center;"><em>charm person</em></td>
+<td style="text-align: center;"><em>crown of madness</em></td>
+<td style="text-align: center;"><em>fear</em></td>
+<td style="text-align: center;"><em>greater invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>frostbite</em></td>
+<td style="text-align: center;"><em>color spray</em></td>
+<td style="text-align: center;"><em>darkness</em></td>
+<td style="text-align: center;"><em>hypnotic pattern</em></td>
+<td style="text-align: center;"><em>hallucinatory terrain</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>green-flame blade</em></td>
+<td style="text-align: center;"><em>comprehend languages</em></td>
+<td style="text-align: center;"><em>darkvision</em></td>
+<td style="text-align: center;"><em>major image</em></td>
+<td style="text-align: center;"><em>phantasmal killer</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>gust</em></td>
+<td style="text-align: center;"><em>detect magic</em></td>
+<td style="text-align: center;"><em>enlarge/reduce</em></td>
+<td style="text-align: center;"><em>nondetection</em></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>light</em></td>
+<td style="text-align: center;"><em>detect poison &amp; disease</em></td>
+<td style="text-align: center;"><em>hold person</em></td>
+<td style="text-align: center;"><em>sending</em></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>mage hand</em></td>
+<td style="text-align: center;"><em>disguise self</em></td>
+<td style="text-align: center;"><em>invisibility</em></td>
+<td style="text-align: center;"><em>tiny servant</em></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>magic stone</em></td>
+<td style="text-align: center;"><em>dissonant whispers</em></td>
+<td style="text-align: center;"><em>knock</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>message</em></td>
+<td style="text-align: center;"><em>faerie fire</em></td>
+<td style="text-align: center;"><em>levitate</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>minor illusion</em></td>
+<td style="text-align: center;"><em>feather fall</em></td>
+<td style="text-align: center;"><em>magic aura</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>poison spray</em></td>
+<td style="text-align: center;"><em>find familiar</em></td>
+<td style="text-align: center;"><em>magic mouth</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>prestidigitation</em></td>
+<td style="text-align: center;"><em>floating disk</em></td>
+<td style="text-align: center;"><em>mind whip</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>ray of frost</em></td>
+<td style="text-align: center;"><em>fog cloud</em></td>
+<td style="text-align: center;"><em>mirror image</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>shocking grasp</em></td>
+<td style="text-align: center;"><em>grease</em></td>
+<td style="text-align: center;"><em>misty step</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>hideous laughter</em></td>
+<td style="text-align: center;"><em>phantasmal force</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>identify</em></td>
+<td style="text-align: center;"><em>rope trick</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>illusory script</em></td>
+<td style="text-align: center;"><em>see invisibility</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>jump</em></td>
+<td style="text-align: center;"><em>shadow blade</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>longstrider</em></td>
+<td style="text-align: center;"><em>silence</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>silent image</em></td>
+<td style="text-align: center;"><em>spider climb</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>sleep</em></td>
+<td style="text-align: center;"><em>suggestion</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>snare</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>unseen servant</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</details>
 <hr>
 <h4 id="level-3-mage-hand-adept">Level 3 - Mage Hand Adept</h4>
 <p>You have mastered your limited knowledge of the arcane. When you cast <em>mage hand</em>, it gains the following benefits:</p>
@@ -2350,9 +2451,11 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 </ul>
 <p>Once you use this feature you must finish a long rest before you can use it again. If you have no uses left, you can expend a spell slot of 3rd-level or higher to use this feature again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-mastermind">
-<h2 id="alternate-mastermind"><ins>Alternate Mastermind</ins></h2>
+<details class="subclass">
+<summary>Alternate Mastermind</summary>
 <p>You have put your considerable skill to work in mastering the art of manipulation. With a whisper and suggestion, you have a way of getting others to do what you want, even if it may not be in their best interest. Whether directing political gambits or allies in combat, you move others like pieces in a game.</p>
 <h4 id="level-3-master-of-machinations">Level 3 - Master of Machinations</h4>
 <p>You have gathered a set of skills to aid in your machinations. You learn to speak, read, and write two additional languages, and you gain proficiency with the disguise and forgery kits.</p>
@@ -2375,9 +2478,11 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 <h4 id="level-17-inscrutable-mind">Level 17 - Inscrutable Mind</h4>
 <p>Your thoughts and dreams can't be read by magical means, unless you allow it. When a creature attempts to read your mind you can present false thoughts and motivations by making a Charisma (Deception) check. Finally, you gain immunity to both the charmed and frightened conditions.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-inquisitive">
-<h2 id="alternate-inquisitive"><ins>Alternate Inquisitive</ins></h2>
+<details class="subclass">
+<summary>Alternate Inquisitive</summary>
 <p>When there are secrets to be uncovered or a mystery to be solved, there are none more adept than the Rogues known as Inquisitives. These experts hone their skills of observation and deduction to heights that rival the most potent of divination spells. For an Inquisitive, the only thing that stands between them and the truth is time.</p>
 <h4 id="level-3-eye-for-detail">Level 3 - Eye for Detail</h4>
 <p>Your perceptive abilities are a finely honed tool. When you make a Wisdom (Insight) or a Wisdom (Perception) check you can use your Intelligence in place of Wisdom.</p>
@@ -2401,9 +2506,11 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 <h4 id="level-17-exploit-weakness">Level 17 - Exploit Weakness</h4>
 <p>You perfectly exploit your foe's most vulnerable points. While Predictive Fighting applies to a creature you roll d8s in place of d6s for your Sneak Attack bonus against that creature.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-phantom">
-<h2 id="alternate-phantom"><ins>Alternate Phantom</ins></h2>
+<details class="subclass">
+<summary>Alternate Phantom</summary>
 <p>You have formed a mystical connection with the border between life and death, and serve as a gateway to the afterlife. You have learned to draw upon this special connection to gain knowledge from the dead, and by immersing yourself in the mystical power of death you gain strange abilities normally associated with spirits.</p>
 <h4 id="level-3-knowledge-of-the-grave">Level 3 - Knowledge of the Grave</h4>
 <p>You gain one skill or tool proficiency of your choice from beyond the grave, and when you finish a short or long rest you can replace this proficiency with another of your choice.</p>
@@ -2431,9 +2538,11 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 <p>You have become so acquainted with death that you can draw upon its power with ease. When you use Grave Bolt, you can force all creatures of your choice within 30 feet to make the Wisdom saving throw, and on a failed save, they take necrotic damage equal to your Sneak Attack bonus.</p>
 <p>Once you use this feature you must finish a short or long rest before you can empower Grave Bolt in this way again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-scout">
-<h2 id="alternate-scout"><ins>Alternate Scout</ins></h2>
+<details class="subclass">
+<summary>Alternate Scout</summary>
 <p>Unlike most Rogues, your skills have been honed in the wild. You are adept at remaining unseen, scouting ahead of allies, stalking your prey, or hunting bounties. While you are most skilled in the wilderness, you can still hold your own in the back alleys of cities and deadly dungeons like most Rogues.</p>
 <h4 id="level-3-skirmisher">Level 3 - Skirmisher</h4>
 <p>You are always on the move, never to be caught flat-footed by your foes. When a creature ends its turn within 5 feet of you, you can use your reaction to move up to half your movement speed without provoking opportunity attacks.</p>
@@ -2451,9 +2560,11 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 <h4 id="level-17-sudden-strike">Level 17 - Sudden Strike</h4>
 <p>You strike with quiet, deadly speed. When you take the Attack action on your turn you can make one additional attack as a bonus action. You can add Sneak Attack bonus to this attack even if you have already used Sneak Attack, but you can't use Sneak Attack against the same target more than once a turn.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-soulknife">
-<h2 id="alternate-soulknife"><ins>Alternate Soulknife</ins></h2>
+<details class="subclass">
+<summary>Alternate Soulknife</summary>
 <p>Rare amongst those who practice the roguish arts is one who has true psionic potential. When trained to unlock the psionic power within themselves, these Rogues can train to become Soulknives. Using their wondrous abilities they can manifest blades of pure mental power, communicate telepathically, and augment their considerable skills with psionic enhancement.</p>
 <h4 id="level-3-psionic-awakening">Level 3 - Psionic Awakening</h4>
 <p>You have unlocked the wondrous potential of your mind and gained psionic abilities. Your psionic power is represented by a pool of Psi Points. You have a number of Psi Points equal to 1 + your Intelligence modifier (minimum of 2), and you regain all expended Psi Points when you finish a short or long rest. You also unlock the following wondrous psionic abilities:</p>
@@ -2478,9 +2589,11 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 <h4 id="level-17-mental-scourge">Level 17 - Mental Scourge</h4>
 <p>You can focus the power of your Psionic Blade to strike directly at your foe's mind. When you use Soul Strike to force a creature to make an Intelligence saving throw, you can reduce your Sneak Attack bonus by an additional 3d6 (for a total of 6d6) to empower the strike further. On a failed save, the creature is stunned until the beginning of your next turn.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-swashbuckler">
-<h2 id="alternate-swashbuckler"><ins>Alternate Swashbuckler</ins></h2>
+<details class="subclass">
+<summary>Alternate Swashbuckler</summary>
 <p>You have focused your training on the art of the blade. Where most Rogues strike from the shadows, you prefer to face your enemies head-on, relying on your deadly skills and signature charm. When put into action, your swordsmanship resembles an elegant performance that relies on both speed and grace.</p>
 <h4 id="level-3-fancy-footwork">Level 3 - Fancy Footwork</h4>
 <p>You dance about the field of battle, vexing your foes. If you make a melee attack against a creature, it cannot target you with opportunity attacks for the rest of your current turn.</p>
@@ -2502,9 +2615,11 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 <p>Confidence in your skill with a blade lets you turn failure in combat into success. When you miss with an attack roll, you can choose to add your Charisma modifier (minimum of +1) to your attack roll, possibly turning a miss into a hit.</p>
 <p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses each time you finish a short or long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="alt-thief">
-<h2 id="alternate-thief"><ins>Alternate Thief</ins></h2>
+<details class="subclass">
+<summary>Alternate Thief</summary>
 <p>You have honed your skills in the larcenous arts. While not all Thieves are criminals, most find employ as burglars, bandits, cutpurses, and treasure hunters. Your set of skills grants you increased agility and stealth, but also abilities that are helpful for delving into dangerous ruins and using ancient artifacts.</p>
 <h4 id="level-3-nimble">Level 3 - Nimble</h4>
 <p>You gain a climbing speed equal to your walking speed, and you are able to climb difficult and sheer surfaces at half your normal speed without making an ability check.</p>
@@ -2529,58 +2644,54 @@ has disadvantage on its initial saving throw to resist the effects of that spell
 <p>The time you've spent pilfering pockets and treasures has honed your reflexes to near-supernatural heights. You gain an additional bonus action that you can take on each of your turns, though it can only be used to take one of the actions from your Cunning Action.</p>
 <p>If you do not use this additional bonus action, you instead gain one additional reaction that you can use before the start of your next turn. A single effect can only trigger one reaction.</p>
 <hr>
+</details>
 </div>
 </div>
 <div class="tabbed-block">
 <p><p><strong>Choose a Subclass:</strong></p>
 <select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="avenger">Avenger</option>
-<option value="black-knight">Black Knight</option>
-<option value="bloodknife">Bloodknife</option>
-<option value="conscript">Conscript</option>
-<option value="daredevil">Daredevil</option>
-<option value="dawn-blade">Dawn Blade</option>
-<option value="divine-sniper">Divine Sniper</option>
-<option value="fire-dancer">Fire Dancer</option>
-<option value="fixer">Fixer</option>
-<option value="gatecrasher">Gatecrasher</option>
-<option value="grim-surgeon">Grim Surgeon</option>
-<option value="herald-of-the-ebon-star">Herald of the Ebon Star</option>
-<option value="highway-rider">Highway Rider</option>
-<option value="mind-stalker">Mind Stalker</option>
-<option value="physician">Physician</option>
-<option value="pioneer">Pioneer</option>
-<option value="quickdraw">Quickdraw</option>
-<option value="rebel">Rebel</option>
-<option value="ruffian">Ruffian</option>
-<option value="saboteur">Saboteur</option>
-<option value="speculator">Speculator</option>
-<option value="spy">Spy</option>
-<option value="surgeon">Surgeon</option>
-<option value="the-odyssean">The Odyssean</option>
-<option value="time-thief">Time Thief</option>
-<option value="whisper">Whisper</option>
+    <option value="all">All</option>
+    <option value="avenger">Avenger</option>
+    <option value="black-knight">Black Knight</option>
+    <option value="bloodknife">Bloodknife</option>
+    <option value="conscript">Conscript</option>
+    <option value="daredevil">Daredevil</option>
+    <option value="dawn-blade">Dawn Blade</option>
+    <option value="divine-sniper">Divine Sniper</option>
+    <option value="fire-dancer">Fire Dancer</option>
+    <option value="fixer">Fixer</option>
+    <option value="gatecrasher">Gatecrasher</option>
+    <option value="grim-surgeon">Grim Surgeon</option>
+    <option value="herald-of-the-ebon-star">Herald of the Ebon Star</option>
+    <option value="highway-rider">Highway Rider</option>
+    <option value="mind-stalker">Mind Stalker</option>
+    <option value="physician">Physician</option>
+    <option value="pioneer">Pioneer</option>
+    <option value="quickdraw">Quickdraw</option>
+    <option value="rebel">Rebel</option>
+    <option value="ruffian">Ruffian</option>
+    <option value="saboteur">Saboteur</option>
+    <option value="speculator">Speculator</option>
+    <option value="spy">Spy</option>
+    <option value="surgeon">Surgeon</option>
+    <option value="the-odyssean">The Odyssean</option>
+    <option value="time-thief">Time Thief</option>
+    <option value="whisper">Whisper</option>
 </select></p>
 <div class="subclass-content" data-subclass="avenger">
-<h2 id="avenger"><ins>Avenger</ins></h2>
+<details class="subclass">
+<summary>Avenger</summary>
 <p>Most adventurers who serve the gods do so openly as priests, Clerics, and Paladins. However, some dark and ruthless gods bestow divine power upon Avengers. These zealous servants work tirelessly to impose the will of their god upon the world and resort to whatever means they deem necessary to fulfill their goal. Operating from the shadows, Avengers are driven by faith alone, and they answer to no mortal creature.</p>
 <h3 id="level-3-anointed-magic">Level 3 - Anointed Magic</h3>
 <p>Because of your fervent devotion to your god you have gained the ability to channel their Divine Favor to cast holy spells:</p>
 <p><strong>Divine Favor.</strong> The blessings of your god are represented by a pool of Divine Favor. The Anointed Magic table shows how much Divine Favor you have to cast Avenger spells of 1st-level and higher. To cast a spell, you must expend Divine Favor equal to the spell's level, and you regain all your expended Divine Favor when you finish a short or long rest.</p>
 <p><strong>Divine Limit.</strong> Your Rogue level limits the amount of Divine Favor that you can channel at one time. This limit is reflected in the Divine Limit column of the Anointed Magic Table.</p>
 <p><strong>Known Spells of Level 1+.</strong> You learn two 1st-level spells of your choice from the Avenger spell list. The Spells Known column of the Anointed Magic table shows when you learn more Avenger spells of 1st-level or higher. Spells you learn must be of a level equal to, or lower than, the Divine Limit for your Rogue level.</p>
-<p>Whenever you gain a level, you can choose one Avenger spell you know and replace it with another Avenger spell of
-your choice of a level equal to your Divine Limit or lower.</p>
-<p><strong>Spellcasting Ability.</strong>  Charisma is your spellcasting ability for your Avenger spells, so you use your Charisma whenever
-a spell refers to your spellcasting ability, when you set a spell saving throw DC, or when you make a spell attack roll.</p>
+<p>Whenever you gain a level, you can choose one Avenger spell you know and replace it with another Avenger spell of your choice of a level equal to your Divine Limit or lower.</p>
+<p><strong>Spellcasting Ability.</strong>  Charisma is your spellcasting ability for your Avenger spells, so you use your Charisma whenever a spell refers to your spellcasting ability, when you set a spell saving throw DC, or when you make a spell attack roll.</p>
 <p><strong>Spellcasting Focus.</strong> You can use an Arcane Focus as a Spellcasting Focus for the spells you prepare for this subclass.</p>
-<div class="smallsidebar">
-<p><strong>Spell Save DC = 8 + your proficiency bonus + your Charisma modifier</strong></p>
-<div class="smallsidebar">
-<p><strong>Spell Attack Modifier = your proficiency bonus + your Charisma modifier</strong></p>
-<hr>
-<h3 id="anointed-magic">Anointed Magic</h3>
+<details class="table">
+<summary>Anointed Magic</summary>
 <table>
 <thead>
 <tr>
@@ -2701,73 +2812,128 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 </tr>
 </tbody>
 </table>
-<hr>
-<h3 id="avenger-spell-list">Avenger Spell List</h3>
-<div class='spellList'>
-<h3 id="1st-level_1">1st Level</h3>
-<ul>
-<li><em>bane</em></li>
-<li><em>bless</em></li>
-<li><em>cause fear</em></li>
-<li><em>charm person</em></li>
-<li><em>command</em></li>
-<li><em>compelled duel</em></li>
-<li><em>comprehend languages</em></li>
-<li><em>divine favor</em></li>
-<li><em>expeditious retreat</em></li>
-<li><em>guiding bolt</em></li>
-<li><em>heroism</em></li>
-<li><em>inflict wounds</em></li>
-<li><em>sanctuary</em></li>
-<li><em>searing smite</em></li>
-<li><em>shield of faith</em></li>
-<li><em>thunderous smite</em></li>
-<li><em>wrathful smite</em></li>
-</ul>
-<hr>
-<h3 id="2nd-level_1">2nd Level</h3>
-<ul>
-<li><em>aid</em></li>
-<li><em>augury</em></li>
-<li><em>blindness/deafness</em></li>
-<li><em>branding smite</em></li>
-<li><em>darkness</em></li>
-<li><em>invisibility</em></li>
-<li><em>mind spike</em></li>
-<li><em>misty step</em></li>
-<li><em>shadow blade</em></li>
-<li><em>silence</em></li>
-<li><em>suggestion</em></li>
-<li><em>zone of truth</em></li>
-</ul>
-<hr>
-<h3 id="3rd-level_1">3rd Level</h3>
-<ul>
-<li><em>bestow curse</em></li>
-<li><em>blinding smite</em></li>
-<li><em>clairvoyance</em></li>
-<li><em>daylight</em></li>
-<li><em>fear</em></li>
-<li><em>speak with dead</em></li>
-<li><em>spirit shroud</em></li>
-<li><em>vampiric touch</em></li>
-</ul>
-<hr>
-<h3 id="4th-level_1">4th Level</h3>
-<ul>
-<li><em>banishment</em></li>
-<li><em>blight</em></li>
-<li><em>death ward</em></li>
-<li><em>divination</em></li>
-<li><em>locate creature</em></li>
-<li><em>staggering smite</em></li>
-</ul>
-</div>
+</details>
+<details class="table">
+<summary>Avenger Spell List</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">1st Level</th>
+<th style="text-align: center;">2nd Level</th>
+<th style="text-align: center;">3rd Level</th>
+<th style="text-align: center;">4th Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>bane</em></td>
+<td style="text-align: center;"><em>aid</em></td>
+<td style="text-align: center;"><em>bestow curse</em></td>
+<td style="text-align: center;"><em>banishment</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>bless</em></td>
+<td style="text-align: center;"><em>augury</em></td>
+<td style="text-align: center;"><em>blinding smite</em></td>
+<td style="text-align: center;"><em>blight</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>cause fear</em></td>
+<td style="text-align: center;"><em>blindness/deafness</em></td>
+<td style="text-align: center;"><em>clairvoyance</em></td>
+<td style="text-align: center;"><em>death ward</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>charm person</em></td>
+<td style="text-align: center;"><em>branding smite</em></td>
+<td style="text-align: center;"><em>daylight</em></td>
+<td style="text-align: center;"><em>divination</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>command</em></td>
+<td style="text-align: center;"><em>darkness</em></td>
+<td style="text-align: center;"><em>fear</em></td>
+<td style="text-align: center;"><em>locate creature</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>compelled duel</em></td>
+<td style="text-align: center;"><em>invisibility</em></td>
+<td style="text-align: center;"><em>speak with dead</em></td>
+<td style="text-align: center;"><em>staggering smite</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>comprehend languages</em></td>
+<td style="text-align: center;"><em>mind spike</em></td>
+<td style="text-align: center;"><em>spirit shroud</em></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>divine favor</em></td>
+<td style="text-align: center;"><em>misty step</em></td>
+<td style="text-align: center;"><em>vampiric touch</em></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>expeditious retreat</em></td>
+<td style="text-align: center;"><em>shadow blade</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>guiding bolt</em></td>
+<td style="text-align: center;"><em>silence</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>heroism</em></td>
+<td style="text-align: center;"><em>suggestion</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>inflict wounds</em></td>
+<td style="text-align: center;"><em>zone of truth</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>sanctuary</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>searing smite</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>shield of faith</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>thunderous smite</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>wrathful smite</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</details>
 <hr>
 <h3 id="level-3-channel-divinity">Level 3 - Channel Divinity</h3>
 <p>You draw on the power of your god to produce miraculous effects. You know one effect: Divine Awareness, and you gain more at certain Rogue levels. Once you Channel Divinity you must finish a short or long rest before you can do so again.</p>
-<h4 id="channel-divinity-divine-awareness">Channel Divinity: Divine Awareness</h4>
-<p>As a bonus action, you can grasp a holy symbol of your god and open your senses to the presence of both powerful good and sinister evil. For 1 minute, you know the exact location and creature type of any celestial, fiend, or undead within 60 feet that is not shielded from divination magic.</p>
+<p><strong>Channel Divinity: Divine Awareness.</strong> As a bonus action, you can grasp a holy symbol of your god and open your senses to the presence of both powerful good and sinister evil. For 1 minute, you know the exact location and creature type of any celestial, fiend, or undead within 60 feet that is not shielded from divination magic.</p>
 <hr>
 <h3 id="level-3-consecrated-blade">Level 3 - Consecrated Blade</h3>
 <p>Your weapons are blessed by the heavens to smite enemies and blasphemers. Over the course of 1 hour, which can be during a short or long rest, you can touch a melee weapon that you are proficient with and perform a special ritual to Consecrate it to your god and their divine purpose.</p>
@@ -2788,9 +2954,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <p>You stand among the most loyal and trusted mortal servants of your god. If you roll initiative with no uses of your Channel Divinity remaining you instantly regain one expended use.</p>
 <p>Also, whenever you reduce a creature marked by Vow of Enmity to 0 hit points, you can either mark another creature within range, or regain expended Divine Favor equal to your Charisma modifier (minimum of 1 Divine Favor</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="black-knight">
-<h2 id="black-knight"><ins>Black Knight</ins></h2>
+<details class="subclass">
+<summary>Black Knight</summary>
 <p>You are a scarce and feared warrior with the training of a knight and none of the moral scruples. Rogues of this archetype typically wear armor and wield shields with no crest, allowing them to perform baleful work on behalf of lords and vassals without jeopardizing their reputations. Between their martial training and brutal disregard for fairness and honor, few can face a black knight in direct combat and live to tell the tale.</p>
 <h3 id="level-3-bonus-proficiencies">Level 3 - Bonus Proficiencies</h3>
 <p>When you choose this archetype at 3rd level, you gain proficiency in martial weapons, medium armor and shields.</p>
@@ -2807,9 +2975,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-deathless">Level 17 - Deathless</h3>
 <p>At 17th level, even death cannot stop you from defeating your enemies. When you are reduced to 0 hit points, you can instead choose to fall to 1 hit point. You take a level of exhaustion when you persist in this way. Each time you use this feature, the cost increases by one level of exhaustion. The cost resets to a single level when you finish a long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="bloodknife">
-<h2 id="bloodknife"><ins>Bloodknife</ins></h2>
+<details class="subclass">
+<summary>Bloodknife</summary>
 <p>The Infernal Legions have many soldiers, but none are more deadly than those known as Bloodknives. The elite warriors of Hell's armies, Bloodknives enhance their significant skills with infernal blood magic. By sacrificing their own vitality, they gain access to sinister abilities beyond the skill of other mortal warriors. Experts at sowing chaos and death among their foes, Bloodknives are dispatched by the Lords of Hell only when an especially powerful foe needs to be dealt with.</p>
 <h3 id="level-3-dread-strike">Level 3 - Dread Strike</h3>
 <p>You can sacrifice your own vitality to empower your attacks with infernal magic. When you hit a creature with a melee weapon attack, you can expend one of your own Hit Dice to empower your attack with the following benefits:</p>
@@ -2837,9 +3007,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-touch-of-death">Level 17 - Touch of Death</h3>
 <p>You wield infernal magic comparable to the most powerful servants of the Lords of Hell. Each time a creature fails its Charisma saving throw against your Hellish Curse feature, it gains one level of exhaustion.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="conscript">
-<h2 id="conscript"><ins>Conscript</ins></h2>
+<details class="subclass">
+<summary>Conscript</summary>
 <p>Sinners, scoundrels, cheats, and killers, conscripts live hard and die harder. For some, mercenary life is not a choice, it is the reward for a lifetime of burglary, swindling, poaching, and worse crimes. Criminals whose misdeeds are not awful enough to warrant execution are often conscripted to mercenary companies and foreign legions where their wits and tenacity are put to use fighting wars they have no stake in.</p>
 <h3 id="level-3-forced-march">Level 3 - Forced March</h3>
 <p>Starting at 3rd level, when you travel more than 8 hours in a day, you do not need to make a Constitution saving throw for each additional hour traveled and do not gain levels of exhaustion due to your travel pace.</p>
@@ -2856,9 +3028,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-last-stand">Level 17 - Last Stand</h3>
 <p>At 17th level, you endure beyond mortal limits. When reduced to 0 hit points, you remain standing. When you succeed at a death saving throw, you can act as normal and have advantage on attack rolls. When you fail a death saving throw, you can only move and use your bonus action and reaction.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="daredevil">
-<h2 id="daredevil"><ins>Daredevil</ins></h2>
+<details class="subclass">
+<summary>Daredevil</summary>
 <p>Daredevils are acrobatic Rogues who seek out danger, living for the adrenaline rush of near-death experiences. Daredevils would rather leap across rooftops than walk the streets, and in turn, they develop a knack for avoiding certain death.</p>
 <h3 id="level-3-flying-strike">Level 3 - Flying Strike</h3>
 <p>You use the momentum of your airborne body as a weapon. If you move at least 10 feet through the air and land within 5 feet of a Large or smaller creature, you can use your action to force the target to make a Strength saving throw against your Exploit Save DC. On a failure, it takes bludgeoning damage equal to two rolls of your Exploit Die and falls prone. On a success, it takes half as much damage and remains upright.</p>
@@ -2882,9 +3056,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-masterful-aerialist">Level 17 - Masterful Aerialist</h3>
 <p>You are unparalleled in your ability to maneuver your body. Whenever you make a Dexterity ability check or a Dexterity saving throw and the total result is lower than your Dexterity score, you can use your Dexterity score in place of your roll.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="dawn-blade">
-<h2 id="dawn-blade"><ins>Dawn Blade</ins></h2>
+<details class="subclass">
+<summary>Dawn Blade</summary>
 <p>Even churches and temples of deities of goodness and light have need of those willing to get their hands dirty and willing to sully their honor in service of what must be done. Dawn blades are devout rogues, drawing divine power from deities of light to strike as a sudden ray of searing sunlight in the darkness. They are often considered controversial by other adherents of their faith, yet the faith’s leadership understands such agents are sometimes necessary.</p>
 <h3 id="level-3-eyes-of-the-dawn">Level 3 - Eyes of the Dawn</h3>
 <p>At 3rd level, you gain darkvision out to a range of 60 feet. If you already have darkvision, the range increases by 30 feet.</p>
@@ -2913,9 +3089,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <p>At 17th level, when you use your Dawn Strike feature to deal radiant damage to a creature that can’t see you, the creature must make a Constitution saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier). On a failed save, the creature takes 10d6 radiant damage and can’t regain hit points until the start of your next turn. Once a creature takes damage from this feature, it is immune to your Dawn Flare for 24 hours.</p>
 <p>You can use this feature a number of times equal to your proficiency bonus, and regain expended uses when you finish a long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="divine-sniper">
-<h2 id="divine-sniper"><ins>Divine Sniper</ins></h2>
+<details class="subclass">
+<summary>Divine Sniper</summary>
 <p>Armed with arrows made of pure faith and light, the Divine Sniper specializes in getting in, eliminating their target, and getting out. Empowered by light that shines forth from their very soul, their arrows can light the blackest night.</p>
 <p>This tradition is common in Thrane and other fortresses of the Silver Flame, as its lay worshippers are encouraged to practice archery. The Argentum actively recruits Divine Snipers, both for their potent archery skills and their roguish abilities. The shulassakar of the Talenta Plains also share deep ties to the Silver Flame, and Divine Snipers are counted among their number. The Deathguard of Aerenal holds both deathless and mortal Divine Snipers, empowered by the light of Irian. Kalashtar and Adarans of the Path of Light refer to Divine Snipers as Soulbows, according them great respect.</p>
 <h3 id="level-3-inner-light">Level 3 - Inner Light</h3>
@@ -2935,9 +3113,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <p>Starting at 17th level, when you draw back your luminous arrow on its bowstring, you can choose to project it as a dazzling ray of sun. As an action, you create a beam of sunlight that is 120 feet long and 5 feet wide, extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. On a failed save, a creature takes 10d6 radiant damage, and is blinded until the end of your next turn. On a successful save, the creature takes half as much damage, and is not blinded. The DC for this saving throw is equal to 8 + your proficiency bonus + your Charisma modifier.</p>
 <p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="fire-dancer">
-<h2 id="fire-dancer"><ins>Fire Dancer</ins></h2>
+<details class="subclass">
+<summary>Fire Dancer</summary>
 <p>Fire has an almost seductive dance to its form as the flames leap and writhe, but to most people the movement is chaotic and without purpose. To the fire dancer, the flames are a blueprint for how to move, and by doing so they are able to harness and control some of that seductive power. Many fire dancers hide their art behind entertainment, dancing for kings and sultans across the land, but when faced with a threat they are able to blend movement and fire into a dangerous storm.</p>
 <h3 id="level-3-elegant-moves">Level 3 - Elegant Moves</h3>
 <p>You gain proficiency in the Performance skill, if you didn’t already, and you can add your Dexterity modifier to Charisma (Performance) checks you make involving dancing and movement.</p>
@@ -2957,9 +3137,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <p>Creatures suffer fire damage equal to your sneak attack damage and are pushed back 10 feet on a failure, or half as much damage on a success and no pushback.</p>
 <p>You must complete a long rest before you can use this ability again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="fixer">
-<h2 id="fixer"><ins>Fixer</ins></h2>
+<details class="subclass">
+<summary>Fixer</summary>
 <p>You are a fixer—you make connections between thugs, burglars, trap-smiths and second-story men. You know people, you know where to find what you need, and you know who to pay to get things done. You realize the most valuable currency is knowledge, and you make very sure to be flush with coin to obtain the information you seek.</p>
 <h3 id="level-3-street-smart">Level 3 - Street Smart</h3>
 <p>When you choose this archetype at 3rd level, you can apply your proficiency bonus to Intelligence and Charisma ability checks made to identify or locate a person (or type of person) that you are seeking. You can also use this ability when attempting to track down a buyer or seller for exotic equipment or magic items.</p>
@@ -2982,9 +3164,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-roguish-luck">Level 17 - Roguish Luck</h3>
 <p>When you reach 17th level, your survival instincts become finely tuned. When a melee attack reduces you to 0 hit points, you can use your reaction to leap 5 feet in any direction. If this moves you out of reach of the attack, you take no damage from it. Using this ability does not trigger opportunity attacks. After using this ability, you must complete a long rest before using it again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="gatecrasher">
-<h2 id="gatecrasher"><ins>Gatecrasher</ins></h2>
+<details class="subclass">
+<summary>Gatecrasher</summary>
 <p>Troubleshooters, free agents, and portal masters – a gatecrasher is all of these things and more. They are experts at exploiting secret pathways running through the multiverse and are invaluable at traveling the planes. Their knowledge of gates and how to use them is unparalleled, but most use their gifts for larcenous intent. Diving between the planes, planning out heists, and escaping under extreme circumstances – this is the life of a typical gatecrasher.</p>
 <h3 id="level-3-analyze-portal">Level 3 - Analyze Portal</h3>
 <p>You have a knack for detecting and studying portals. You can sense the presence of a portal or gate to another plane within 60 feet. In addition, if you study a portal or gate for 1 minute you learn how it functions – what plane it leads to, whether it requires a key or not, and whether it’s a one-way or two-way portal. If the portal requires a key, you learn what type of key would be required to open it.</p>
@@ -3002,9 +3186,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-planar-dampening">Level 17 - Planar Dampening</h3>
 <p>You learn to not only sense the planar pathways around you, but to shut them down as well in a field around you. While this dampening field is active, you cannot be transported or teleported against your will while you are conscious, and creatures within 10 feet of you cannot teleport or travel the planes, including against their will through spells like <em>banishment</em>. You can suppress or resume this dampening field as a bonus action on your turn.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="grim-surgeon">
-<h2 id="grim-surgeon"><ins>Grim Surgeon</ins></h2>
+<details class="subclass">
+<summary>Grim Surgeon</summary>
 <p>You’ve developed a unique familiarity with knives, bodies, and blood in your line of work. Like a tinkerer’s knowledge of clockwork and gears, you’ve come to an understanding of how bodies are put together instead. Medical experts in rough or war-torn cities and villages may follow this archetype, but so do rogues who take a particular interest in either clerical or necromantic magic. A grim surgeon uses medical knowledge and strange blood magic to dismantle foes, restore allies, and control bodies like puppets.</p>
 <h3 id="level-3-medic">Level 3 - Medic</h3>
 <p>When you choose this archetype at 3rd level, you gain proficiency in the Medicine skill if you don’t already have it. Your proficiency bonus is doubled for any ability check you make that uses this skill.</p>
@@ -3024,9 +3210,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <p>By 17th level, you can command the blood inside certain creatures. Immediately after you deal Sneak Attack damage to a beast or humanoid, you can force that creature to make a Constitution saving throw. The DC is equal to 8 + your proficiency bonus + your Wisdom modifier. On a failed save, that creature is under the effect of the dominate beast or dominate person spell, respectively, for 1 minute or until you choose to end the effect (no action required).</p>
 <p>Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="herald-of-the-ebon-star">
-<h2 id="herald-of-the-ebon-star"><ins>Herald of the Ebon Star</ins></h2>
+<details class="subclass">
+<summary>Herald of the Ebon Star</summary>
 <p>Through a mixture of training and personal experience, you have mastered the art of killing not only vampires but any undead who fear the sun’s light. Some heralds of the ebon star see themselves as righteous freedom fighters, battling to receive what they feel is their due, but just as many are simple thugs and thrill seekers, vying to pit themselves against worthy foes. Regardless of their motivations, they are largely viewed as heretics by their own people and with tentative suspicion by most others.</p>
 <h3 id="level-3-heraldic-proficiencies">Level 3 - Heraldic Proficiencies</h3>
 <p>When you choose this archetype at 3rd level, you gain proficiency with longbows and shields. In addition, you gain proficiency in the Arcana and Religion skills if you don’t already have it.</p>
@@ -3045,9 +3233,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-black-star-vengeance">Level 17 - Black Star Vengeance</h3>
 <p>Starting at 17th level, when you use your Sneak Attack feature, your weapon deals extra force damage equal to half the number of dice of your Sneak Attack feature. If the target is an undead, your weapon deals extra force damage equal to twice the number of dice of your Sneak Attack feature.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="highway-rider">
-<h2 id="highway-rider"><ins>Highway Rider</ins></h2>
+<details class="subclass">
+<summary>Highway Rider</summary>
 <p>Stalking the backroads, the Highway Rider strikes fear into the heart of every traveler and penny-pinching merchant. They run down their prize astride a swift and loyal steed – and then make a quick getaway.</p>
 <h3 id="level-3-hair-trigger">Level 3 - Hair Trigger</h3>
 <p>Starting at 3rd level, when you roll for initiative, you can immediately use your reaction to take one of the following actions:</p>
@@ -3074,9 +3264,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <h3 id="level-17-desperado">Level 17 - Desperado</h3>
 <p>Starting at 17th level, when you are reduced to 0 hit points, you can use your reaction to take one of the actions listed in your Hair Trigger feature immediately before you fall unconscious.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="mind-stalker">
-<h2 id="mind-stalker"><ins>Mind Stalker</ins></h2>
+<details class="subclass">
+<summary>Mind Stalker</summary>
 <p>The githyanki hate mind flayers more than any other species. Long ago, the mind flayers enslaved the ancient gith race, and for their crimes the githyanki hunt them down relentlessly.</p>
 <p>A special caste of secret assassins called the glat’tha’nak specialize in illithid hunts, and they have gone so far as to train other races in the ways of resisting and fighting mind flayers. The result is a mind stalker, a rogue who is trained in the githyanki ways of the glat’tha’nak. The skills used in tracking and stopping mind flayers is versatile, however, so some mind stalkers never encounter the foe their training was designed to defeat.</p>
 <h3 id="level-3-aberration-hunter">Level 3 - Aberration Hunter</h3>
@@ -3095,9 +3287,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <p>You have honed a mental attack passed down through generations of mind stalkers. As an action, you can target a creature within 60 feet that you can see. The target suffers psychic damage equal to your sneak attack damage.</p>
 <p>You must complete a short or long rest before you can use this feature again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="physician">
-<h2 id="physician"><ins>Physician</ins></h2>
+<details class="subclass">
+<summary>Physician</summary>
 <p>Everybody bleeds. No matter where a man goes in life, he won’t make it far without needing a doctor. Physicians that take to a life of travel and adventure, even through these savage city streets, know just what it takes to kill a man.</p>
 <h3 id="level-3-physicians-expertise">Level 3 - Physician's Expertise</h3>
 <p>At 3rd level, when you choose this archetype, you gain proficiency in the Medicine skill. Your proficiency bonus is doubled for any ability check using this skill.</p>
@@ -3119,9 +3313,11 @@ a spell refers to your spellcasting ability, when you set a spell saving throw D
 <p>Starting at 17th level, you can use your Cunning Action to analyze a creature’s anatomy and prepare to strike at the most opportune spot within reach. Once on that turn, when you hit that creature with a weapon attack, you can turn that attack into a critical hit.</p>
 <p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once), regaining all expended uses after finishing a long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="pioneer">
-<h2 id="pioneer"><ins>Pioneer</ins></h2>
+<details class="subclass">
+<summary>Pioneer</summary>
 <p>You focus your training on travel and exploration. As a
 scout, you might be a guide, a hunter, a messenger, an
 explorer, or even a commando in service to an army, sabotaging
@@ -3170,9 +3366,11 @@ speed or farther before you take the Attack action, you
 have advantage on your attack roll, and your movement
 after the attack does not provoke opportunity attacks.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="quickdraw">
-<h2 id="quickdraw"><ins>Quickdraw</ins></h2>
+<details class="subclass">
+<summary>Quickdraw</summary>
 <p>Those of this archetype are master gunslingers and
 smooth-talking outlaws who always shoot first. They
 react with incredible speed, relying on their instincts
@@ -3195,23 +3393,21 @@ make a single ranged weapon attack with advantage against
 a creature you can see. When you do, you also choose
 from one of the following additional effects for your
 opening shot:</p>
-<ul>
-<li><strong>Deadeye.</strong> If the attack hits, it deals extra damage
+<p><strong>Deadeye.</strong> If the attack hits, it deals extra damage
 equal to the number of Sneak Attack
 dice for your level. Also, the range
-of the attack is doubled.</li>
-<li><strong>Roll.</strong> Before or after making the attack roll,
+of the attack is doubled.</p>
+<p><strong>Roll.</strong> Before or after making the attack roll,
 you move up to your speed without provoking
 opportunity attacks. Additionally, you gain temporary
 hit points equal to the number of Sneak
 Attack dice for your level, which last
-for the next minute.</li>
-<li><strong>Trip.</strong> If the attack hits, the target must make
+for the next minute.</p>
+<p><strong>Trip.</strong> If the attack hits, the target must make
 a Strength saving throw (DC = 8 + your Dexterity
 modifier + your proficiency bonus), or you knock
 them prone or cause them to drop one object of your
-choice that they are holding.</li>
-</ul>
+choice that they are holding.</p>
 <p>If you take this reaction, you can’t use your action
 on your first turn in combat. You can draw up to two
 one-handed weapons as a part of the reaction, and
@@ -3257,9 +3453,11 @@ lying to you.</p>
 draw. When you use your opening shot, you can
 choose two effects instead of one.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="rebel">
-<h2 id="rebel"><ins>Rebel</ins></h2>
+<details class="subclass">
+<summary>Rebel</summary>
 <p>For some, how things are, or how they have always been, is not enough, and they refuse to wait for things to change. The rebel is an infiltrator and an inciter of change, sometimes through stealth, cunning, and persuasion, other times through violence. They may be a lone figure, inspiring people to take action, the leader of a cell or network, or even hidden within the very power structure they seek to overthrow.</p>
 <h3 id="level-3-infiltration">Level 3 - Infiltration</h3>
 <p>When you choose this archetype at 3rd level, you gain proficiency with the forgery kit, one gaming set of your choice, and you learn two languages.</p>
@@ -3277,9 +3475,11 @@ choose two effects instead of one.</p>
 <p>At 17th level, you can use your bonus action to pull off a maneuver or trick so stunning that it catches your foes by surprise. Roll a Dexterity (Sleight of Hand or Stealth) or Charisma (Deception or Intimidation) check. Your opponents within 30 feet of you that can see the maneuver you perform roll a Wisdom (Perception) check. Any opponent who loses the check can’t move or take an action on their next turn and can’t take a reaction until that turn ends. They are considered surprised.</p>
 <p>Once you have performed a surprise maneuver, you cannot do so again until you have finished short or long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="ruffian">
-<h2 id="ruffian"><ins>Ruffian</ins></h2>
+<details class="subclass">
+<summary>Ruffian</summary>
 <p>Not all Rogues rely on cunning and subterfuge to thwart their foes. Ruffians prefer to face enemies directly with devastating blows and their ruthless style of combat. Often employed as hired muscle for thieves' guilds, gangs, and other groups that don't shy away from the use of violence, Ruffian Rogues can be found in any settlement or city where crime holds sway.</p>
 <h3 id="level-3-enforcer">Level 3 - Enforcer</h3>
 <p>You use brute force not often employed by Rogues in combat. Your unorthodox fighting style grants you the benefits below:</p>
@@ -3316,9 +3516,11 @@ choose two effects instead of one.</p>
 <p>You strike with those who fear you with ruthless intent. When you add your Sneak Attack bonus to a melee weapon attack against a creature that is frightened of you, you can choose for your attack to become an automatic critical hit.</p>
 <p>Once you use this feature you must finish a short or long rest before you can use it again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="saboteur">
-<h2 id="saboteur"><ins>Saboteur</ins></h2>
+<details class="subclass">
+<summary>Saboteur</summary>
 <p>Some Rogues combine their various skills with an interest in alchemy to produce explosive effects. Known as Saboteurs, these strange alchemists have many specialties; demolition, siege warfare, and entertainment. No matter their focus, they all delight in violent destruction, and due to the rarity of their talents, Saboteurs are invaluable allies and dangerous foes.</p>
 <h3 id="level-3-destructive-strikes">Level 3 - Destructive Strikes</h3>
 <p>Your work has given you a knack for identifying structural weak points. When you hit a non-magical structure with a melee weapon attack or damage it with a Devious Exploit or an Explosive, it is considered an automatic critical hit.</p>
@@ -3413,9 +3615,11 @@ choose two effects instead of one.</p>
 <p>On impact, a rift to the Astral Plane opens and creatures within 5 feet must succeed on a Charisma saving throw or be sucked through the rift and remain there for 1 minute. After which, the rift to the Astral Plan disappears.</p>
 <p>At the end of each of its turns, any creature that has been banished through the rift to the Astral Plan can repeat this saving throw, returning to its original space on a success.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="speculator">
-<h2 id="speculator"><ins>Speculator</ins></h2>
+<details class="subclass">
+<summary>Speculator</summary>
 <p>A speculator hatches schemes, intrigues, and makes mischief
 in charming ways. They place their wits in the first
 order of things and are convinced that through cunning,
@@ -3473,9 +3677,11 @@ would force you to tell the truth. Additionally, you have
 advantage on any ability or skill check to predict the outcome
 of an event or course of action.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="spy">
-<h2 id="spy"><ins>Spy</ins></h2>
+<details class="subclass">
+<summary>Spy</summary>
 <p>Whether you were specially trained for such a purpose or your natural talents simply match this path,
 your mastery of observation and deception makes you a precious asset for any faction. You are able
 to steal or trade clues and intelligence like no other, for you know that these resources are as valuable
@@ -3553,9 +3759,11 @@ hint. If the attack succeeds, the attacker can add
 half your Sneak Attack dice (rounded down) to
 its damage.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="surgeon">
-<h2 id="surgeon"><ins>Surgeon</ins></h2>
+<details class="subclass">
+<summary>Surgeon</summary>
 <p>When an adventurer is maimed by a monster or a soldier is wounded in battle, and the luxury of magical healing is not an option, Surgeons step in to fill the void. Using their intimate understanding of anatomy and biology, Surgeons can analyze any ailment, and, when pressed, they can turn their medical knowledge onto their foes, crippling them with precise cuts.</p>
 <h3 id="level-3-anatomical-studies">Level 3 - Anatomical Studies</h3>
 <p>Your years of study in the science of medicine have honed your surgical skills. You gain proficiency in both Medicine and Nature, and whenever you make a Wisdom (Medicine) check, you can add your Intelligence modifier (minimum of +1) to your roll.</p>
@@ -3576,9 +3784,11 @@ its damage.</p>
 <p>Whenever you make a Wisdom (Medicine) check, you can choose to use your Rogue level in place of your d20 roll.</p>
 <p>Your surgical abilities also rival the most powerful healing magic. As an action, you can touch a creature and impart the effects of either the <em>contagion</em> or <em>regenerate</em> spell as if your Intelligence were your spellcasting ability. Once you recreate the effect of either of these spells, you must finish a short or long rest before you can do so again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="the-odyssean">
-<h2 id="the-odyssean"><ins>The Odyssean</ins></h2>
+<details class="subclass">
+<summary>The Odyssean</summary>
 <p>Odysseans are legendary tricksters who at first glance seem like common soldiers. They carry spears and shields like any rank-and-file hoplite, but rather than moving in strict formations or honing their discipline, Odysseans hone their minds. When two armies smash together, shields bursting under the strain of a perfect phalanx, the Odyssean is the soldier who stands back and searches for weaknesses in the enemy’s defenses. Even when badly outnumbered, they may find a way to exploit conditions on the battlefield to turn the tide in the favor of their allies.</p>
 <p>Soldiers who exhibit such a sharp mind quickly grow in notoriety and fame, but being famed for your cleverness is a double-edged sword. Odysseans are often drawn into conflicts that take them far from home, where monsters and other dangers are a constant threat. Such harrowing odysseys are the namesake of the Odyssean, who may be forced to survive several such journeys in their lifetime.</p>
 <h3 id="level-3-vagrant-soldier">Level 3 - Vagrant Soldier</h3>
@@ -3597,9 +3807,11 @@ its damage.</p>
 <h3 id="level-17-legendary-cunning">Level 17 - Legendary Cunning</h3>
 <p>Starting at 17th level, you are able to instantly assess every opportunity to seize the upper hand in combat. Whenever any of your allies makes an opportunity attack against a creature, you may choose to make a ranged attack against that same creature with advantage.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="time-thief">
-<h2 id="time-thief"><ins>Time Thief</ins></h2>
+<details class="subclass">
+<summary>Time Thief</summary>
 <p>It is whispered that some realms are a timeline
 cobbled together by very powerful entities. Such
 things are not tidy or perfect, and there are places in the very
@@ -3649,6 +3861,8 @@ When you roll an ability check or saving throw, you can
 choose to spend a timebleed point to roll with advantage.</p>
 <hr>
 <h3 id="loss-of-control">Loss of Control</h3>
+<details class="table">
+<summary>Loss of Control</summary>
 <table>
 <thead>
 <tr>
@@ -3707,6 +3921,7 @@ choose to spend a timebleed point to roll with advantage.</p>
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-17-one-more-try">Level 17 - One More Try</h3>
 <p>Beginning at 17th level, you have gained some level of mastery
@@ -3717,24 +3932,24 @@ undoing a calamity.</p>
 <p>As an action on your turn, you can spend 4 timebleed points
 to traverse a timebleed and go back in time. Choose one of the
 following effects:</p>
-<ul>
-<li><strong>It Happened Differently.</strong> One roll made within the last
+<p><strong>It Happened Differently.</strong> One roll made within the last
 round is rerolled. You can choose whether the roll is
-made with either advantage or disadvantage.</li>
-<li><strong>I Was Somewhere Else.</strong> Until the start of your next
+made with either advantage or disadvantage.</p>
+<p><strong>I Was Somewhere Else.</strong> Until the start of your next
 turn, when you would be hit by an attack or affected by a
 spell, you teleport as a reaction to a space within 15 feet.
 This causes the attack to miss if it takes you out of the
-weapon’s range or the spell’s path or area of effect.</li>
-<li><strong>Wrong Place, Wrong Time.</strong> Until the start of your next
+weapon’s range or the spell’s path or area of effect.</p>
+<p><strong>Wrong Place, Wrong Time.</strong> Until the start of your next
 turn, when you or a creature you can see hits a creature
 with an attack, you can use your reaction to turn it into a
-critical hit.</li>
-</ul>
+critical hit.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="whisper">
-<h2 id="whisper"><ins>Whisper</ins></h2>
+<details class="subclass">
+<summary>Whisper</summary>
 <p>You’ve dedicated your life to the arts of deception, disappearing, and illusion. Somewhere along that path, you encountered something from the Shadow Realm that showed you how to truly be one with the shadows—or perhaps you learned your best tricks from the shadows themselves. All whispers have been touched by a shadow, performed a ritual to bind a shadow to themselves, or drawn in energy from the Shadow Realm to enhance their stealthiness and to become supreme thieves, assassins, or spies.</p>
 <h3 id="level-3-dark-trickery">Level 3 - Dark Trickery</h3>
 <p>Starting at 3rd level, you gain darkvision to 60 feet if you did not already have it. You also can use the <em>minor illusion</em> and <em>control flame</em> cantrips.</p>
@@ -3751,6 +3966,7 @@ critical hit.</li>
 <h3 id="level-17-misdirection">Level 17 - Misdirection</h3>
 <p>When you reach 17th level, you learn the displacer beast’s trick of making itself appear in a slightly different location. Attacks against you have disadvantage. If an attack hits you, this ability is disrupted until the start of your next turn. This ability also does not protect you while you’re unconscious or incapacitated.</p>
 <hr>
+</details>
 </div>
 </div>
 </div>

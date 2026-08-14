@@ -1388,43 +1388,22 @@
 <p><strong>Casting Spells.</strong> To cast one of your martyr spells of 1st level or higher, you must lose hit points to create and expend a spell slot greater than or equal to that spell's level. The number of hit points is listed on the Hit Points Spellcasting table and can't be reduced or avoided. You don't make Constitution saving throws to maintain concentration on spells as a result of losing these hit points.</p>
 <p>The Martyr table shows the maximum level of spell slot you can create.</p>
 <p>The Spell Uses column of the Martyr table shows how many spells you can cast. When you expend hit points to cast a spell, you expend one of these uses. You regain all expended uses when you finish a long rest.</p>
-<h4 id="hit-points-spellcasting">Hit Points Spellcasting</h4>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">Spell Level</th>
-<th style="text-align: center;">Point Cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">1st</td>
-<td style="text-align: center;">5</td>
-</tr>
-<tr>
-<td style="text-align: center;">2nd</td>
-<td style="text-align: center;">10</td>
-</tr>
-<tr>
-<td style="text-align: center;">3rd</td>
-<td style="text-align: center;">20</td>
-</tr>
-<tr>
-<td style="text-align: center;">4th</td>
-<td style="text-align: center;">30</td>
-</tr>
-<tr>
-<td style="text-align: center;">5th</td>
-<td style="text-align: center;">45</td>
-</tr>
-</tbody>
-</table>
 <p><strong>Preparing Spells.</strong> You prepare the list of martyr spells that are available for you to cast, choosing from the martyr spell list. When you do so, choose a number of martyr spells equal to your Wisdom modifier + half your martyr level, rounded down (minimum of one spell). Spells you choose must be of a level no higher than what's shown on the Max Spell Level column for your level. You can change your list of prepared spells when you finish a long rest.</p>
 <p><strong>Healing Magic.</strong> Because your power is derived from mortal suffering, you can't regain hit points from any spell you cast.</p>
 <p><strong>Spellcasting Ability.</strong> Wisdom is your spellcasting modifier for martyr spells, since your power originates in the devotion used overcome your trials and tribulations. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a martyr spell you cast and when making an attack roll with one.</p>
 <p><strong>Spell Save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier  </p>
 <p><strong>Spell Attack Modifier</strong> = your proficiency bonus + your Wisdom modifier  </p>
 <p><strong>Spellcasting Focus.</strong> You can use a holy symbol as a spellcasting focus for your martyr spells.</p>
+<pre><code>??? table "Hit Points Spellcasting"
+
+| Spell Level | Point Cost |
+|:-----------:|:----------:|
+| 1st | 5 |
+| 2nd | 10 |
+| 3rd | 20 |
+| 4th | 30 |
+| 5th | 45 |
+</code></pre>
 <hr>
 <h4 id="level-2-sainted-reprisal">Level 2 - Sainted Reprisal</h4>
 <p>Also at 2nd level, you can reprimand those who draw your blood. When a creature you can see within 5 feet of you hits you with a melee attack, you can use your reaction to deal that creature 1d6 necrotic or radiant damage (your choice). The damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
@@ -1472,10 +1451,13 @@
     <option value="tyranny">Burden of Tyranny</option>
 </select></p>
 <div class="subclass-content" data-subclass="atonement">
-<h2 id="burden-of-atonement"><ins>Burden of Atonement</ins></h2>
+<details class="subclass">
+<summary>Burden of Atonement</summary>
 <p>For all the wrong you have done in your life, the gods have graced you with an undeserved second chance. Your burden is to atone, to undo all the evils you have done in your life, and to seek redemption before the gods.</p>
 <h3 id="level-1-burden-spells">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1506,6 +1488,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-bonus-proficiencies">Level 1 - Bonus Proficiencies</h3>
 <p>Starting at 1st level, you gain proficiency in heavy armor.</p>
@@ -1532,12 +1515,16 @@
 </ul>
 <p>The effect ends for the creature and targets you as if you were the original target, with the effect’s original duration. You can transfer multiple negative effects of the same type to yourself, affecting you only once each time you use this ability.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="discord">
-<h2 id="burden-of-discord"><ins>Burden of Discord</ins></h2>
+<details class="subclass">
+<summary>Burden of Discord</summary>
 <p>Martyrs of Discord are chosen at random to sow chaos and stoke evil wherever they travel. They light things on fire, commit petty crimes, and even murder when the fancy strikes.</p>
 <h3 id="level-1-burden-spells_1">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1568,6 +1555,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-cantrips">Level 1 - Cantrips</h3>
 <p>Starting at 1st level, your divine mission grants you a sliver of divine magic. You learn the shocking grasp and thaumaturgy cantrips, and one other cantrip of your choice from the cleric spell list. You do not lose hit points for casting these spells. Wisdom is your spellcasting modifier for these spells.</p>
@@ -1585,12 +1573,16 @@
 <h3 id="level-18-pandemonium">Level 18 - Pandemonium</h3>
 <p>At 18th level, you can use your Havoc! ability whenever you make an attack roll or cast a spell targeting a hostile creature, without taking a rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="end">
-<h2 id="burden-of-the-end"><ins>Burden of the End</ins></h2>
+<details class="subclass">
+<summary>Burden of the End</summary>
 <p>The gods have seen a great cataclysm on the horizon and have tasked their martyr with protecting the world from catastrophe.</p>
 <h3 id="level-1-burden-spells_2">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1621,6 +1613,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-cantrips_1">Level 1 - Cantrips</h3>
 <p>Starting at 1st level, your divine mission grants you a sliver of divine magic. You learn the sacred flame and thaumaturgy cantrips, and one other cantrip of your choice from the cleric spell list. You do not lose hit points for casting these spells. Wisdom is your spellcasting modifier for these spells.</p>
@@ -1637,12 +1630,16 @@
 <h3 id="level-18-halt-apocalypse">Level 18 - Halt Apocalypse</h3>
 <p>By 18th level, the gods have blessed you with precious time enough to forestall catastrophe. At the end of your turn, you can choose to take another turn immediately. Once you use this ability, you can’t use it again until you finish a long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="mercy">
-<h2 id="burden-of-mercy"><ins>Burden of Mercy</ins></h2>
+<details class="subclass">
+<summary>Burden of Mercy</summary>
 <p>When the suffering of the world grows too heavy, and the cries of the anguished grow too loud, the gods deliver a martyr to ease the strife and bring peace to the masses.</p>
 <h3 id="level-1-burden-spells_3">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1673,6 +1670,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-cantrips_2">Level 1 - Cantrips</h3>
 <p>Starting at 1st level, your divine mission grants you a sliver of divine magic. You learn the spare the dying and thaumaturgy cantrips, and one other cantrip of your choice from the cleric spell list. You do not lose hit points for casting these spells. Wisdom is your spellcasting modifier for these spells.</p>
@@ -1689,12 +1687,16 @@
 <h3 id="level-18-anointed-healer">Level 18 - Anointed Healer</h3>
 <p>By 18th level, your status as a divine healer is enshrined in sainthood. Whenever you restore hit points to a creature, you can add your martyr level to the number of regained hit points. You can add this additional healing to a creature once, and regain the ability to do so for each creature when you finish a long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="rebirth">
-<h2 id="burden-of-rebirth"><ins>Burden of Rebirth</ins></h2>
+<details class="subclass">
+<summary>Burden of Rebirth</summary>
 <p>When the natural world is threatened by the needs of growing industry, the ravages of war, or a catastrophic event the gods may choose a martyr to protect the wild places of the world.</p>
 <h3 id="level-1-burden-spells_4">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1725,6 +1727,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-cantrips_3">Level 1 - Cantrips</h3>
 <p>Starting at 1st level, your divine mission grants you a sliver of divine magic. You learn the druidcraft and shillelagh cantrips, and one other cantrip of your choice from the druid spell list. You do not lose hit points for casting these spells. Wisdom is your spellcasting modifier for these spells.</p>
@@ -1744,12 +1747,16 @@
 <p>Starting at 18th level, you can cast the reincarnate spell without providing material components or losing hit points. When you do, you can choose which race the target reincarnates as rather than the GM rolling randomly. If you wish, instead of targeting a dead humanoid with this spell you can target yourself. Once you cast the spell using this feature you can’t do so again until you finish a long rest.</p>
 <p>If you die without using your Final Martyrdom feature, you can return to life 24 hours after you die as if you were targeted by the reincarnate spell. You can choose which race you reincarnate as instead of the GM rolling randomly. Once you return to life in this way, you cannot do so again for 100 days.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="revolution">
-<h2 id="burden-of-revolution"><ins>Burden of Revolution</ins></h2>
+<details class="subclass">
+<summary>Burden of Revolution</summary>
 <p>Kings and leaders are bound by an unspoken covenant to the gods to govern their people justly and peacefully. When a monarch turns their back on the gods, embraces tyranny, or uses cruel measures against their own people, a martyr is called to end their reign.</p>
 <h3 id="level-1-burden-spells_5">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1780,6 +1787,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-bonus-proficiencies_1">Level 1 - Bonus Proficiencies</h3>
 <p>Starting at 1st level, you gain proficiency in heavy armor.</p>
@@ -1801,12 +1809,16 @@
 <li>You can use your bonus action to move up to 15 feet and make another melee weapon attack.</li>
 </ul>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="truth">
-<h2 id="burden-of-truth"><ins>Burden of Truth</ins></h2>
+<details class="subclass">
+<summary>Burden of Truth</summary>
 <p>Tasked with unveiling the world’s deceptions and delivering to the people a profound truth, martyrs tasked with the Burden of Truth face an endless battle with the disillusionment and lies.</p>
 <h3 id="level-1-burden-spells_6">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1837,6 +1849,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-moral-erudition">Level 1 - Moral Erudition</h3>
 <p>Starting at 1st level, you can add your Wisdom modifier instead of your Charisma modifier to Charisma (Persuasion) checks. Additionally, others can naturally sense when you are telling the truth.</p>
@@ -1853,12 +1866,16 @@
 <h3 id="level-18-eyes-of-prophecy">Level 18 - Eyes of Prophecy</h3>
 <p>By 18th level, you are entrusted with glimpses of the future, allowing you to replace the roll of one attack roll, ability check, or saving throw you make with a 20. Once you use this feature, you can’t use it again until you finish a long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="tyranny">
-<h2 id="burden-of-tyranny"><ins>Burden of Tyranny</ins></h2>
+<details class="subclass">
+<summary>Burden of Tyranny</summary>
 <p>When malevolent gods find the world pacified and defenseless, they send a martyr of tyranny to conquer its kingdoms, subjugate the weak, and spread misery with their blade.</p>
 <h3 id="level-1-burden-spells_7">Level 1 - Burden Spells</h3>
 <p>You gain burden spells at the martyr levels listed.</p>
+<details class="table">
+<summary>Burden Spells</summary>
 <table>
 <thead>
 <tr>
@@ -1889,6 +1906,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-1-bonus-proficiencies_2">Level 1 - Bonus Proficiencies</h3>
 <p>Starting at 1st level, you gain proficiency in heavy armor.</p>
@@ -1906,6 +1924,7 @@
 <h3 id="level-18-totalitarian">Level 18 - Totalitarian</h3>
 <p>By 18th level, you can demand complete fealty from dire enemies. You can cast the spell dominate person once without using hit points or counting against your total number of martyr spells per day. Whenever you cast dominate person, the target has disadvantage on its saving throw and does not make a new Wisdom saving throw against the spell when it takes damage. Once you cast this spell without using hit points, you can’t do so again until you finish a long rest.</p>
 <hr>
+</details>
 </div>
 </div>
 </div>

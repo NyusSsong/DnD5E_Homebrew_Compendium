@@ -1466,7 +1466,7 @@ act normally so long as you Rage as part of your first turn.</p>
 <p><strong>Exploits Known.</strong> At 2nd level, you learn two Savage Exploits from the list
 at the end of this class. The Exploits Known column of the Barbarian table shows when you learn additional Exploits. To learn an Exploit you must meet any prerequisites that it may have, like a minimum ability score or Barbarian level. Each time you gain a Barbarian level, you can replace one of the Savage Exploits you know with another Exploit of your choice, so long as you meet that Exploit's prerequisites.</p>
 <p><strong>Saving Throws.</strong> If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:</p>
-<p><strong>Exploit Save DC</strong> = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</p>
+<p><strong>Exploit Save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</strong></p>
 <hr>
 <h4 id="level-3-versatile-exploration">Level 3 - Versatile Exploration</h4>
 <p>Beginning at 3rd level, whenever you learn a new developed talent or replace an existing one, you can instead choose from Fighter soldiering knacks.</p>
@@ -1540,11 +1540,11 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <p><p><strong>Choose an exploit degree:</strong></p></p>
 <p><select id="exploit-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
 <option value="all">All</option>
-<option value="exploit_degree1">Degree 1 Exploits</option>
-<option value="exploit_degree2">Degree 2 Exploits</option>
-<option value="exploit_degree3">Degree 3 Exploits</option>
-<option value="exploit_degree4">Degree 4 Exploits</option>
-<option value="exploit_degree5">Degree 5 Exploits</option>
+    <option value="exploit_degree1">Degree 1 Exploits</option>
+    <option value="exploit_degree2">Degree 2 Exploits</option>
+    <option value="exploit_degree3">Degree 3 Exploits</option>
+    <option value="exploit_degree4">Degree 4 Exploits</option>
+    <option value="exploit_degree5">Degree 5 Exploits</option>
 </select></p>
 <div class="exploit-content" data-exploit="exploit_degree1">
 <details class="feature">
@@ -1762,12 +1762,14 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <p>When you score a critical hit on a creature with a weapon attack, you can expend one Exploit Die to shatter its focus. If it was concentrating on a spell or effect, it automatically loses concentration, and for 1 minute, it has disadvantage on all Intelligence, Wisdom, and Charisma saving throws, and any saving throws it makes to maintain concentration.</p>
 <p>The creature can make an Intelligence saving throw at the start of each of its turns, ending this effect on a success.</p>
 <h3 id="staggering-blow">Staggering Blow</h3>
-<p><em>#Prerequisites: 13th level, Strength of 17</em></p>
+<p><em>Prerequisites: 13th level, Strength of 17</em></p>
 <p>When you hit a creature with a melee weapon attack, you can expend an Exploit Die to strike with near-supernatural power, dealing additional damage equal to three rolls of your Exploit Die. The target must succeed on a Wisdom saving throw, or for the next minute it has disadvantage on all ability checks and attack rolls and it cannot take reactions.</p>
 <p>The creature can make a Wisdom saving throw at the start of each of its turns, ending these effects on a success.</p>
 <h4 id="strength-of-the-colossus">Strength of the Colossus</h4>
 <p><em>Prerequisites: 13th level, Strength of 17</em></p>
 <p>As a bonus action you can expend Exploit Dice (up to your proficiency bonus) to enhance your strength to mythic levels, though you must concentrate on this Exploit's effect as if you were concentrating on a spell. For 10 minutes, or until you lose concentration, the amount of weight you can push, drag, pull, or lift is multiplied by the amount in the table below:</p>
+<details class="table">
+<summary>Strength of the Colossus</summary>
 <table>
 <thead>
 <tr>
@@ -1802,6 +1804,7 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 </tr>
 </tbody>
 </table>
+</details>
 <p>For each size category you are above Medium, the amount of weight you can move as part of this Exploit is doubled.</p>
 <p>For example, a Medium-sized Barbarian with 20 Strength could expend 3 Exploit Dice to use this Exploit, multiplying their 20 Strength by 150, to lift up to 3,000 pounds. If they were Large, they would double this weight to 6,000 pounds.</p>
 <p>When this Exploit ends you must succeed on a DC 17 Constitution saving throw or suffer a number of levels of exhaustion equal to the number of Exploit Dice you spent.</p>
@@ -1842,14 +1845,14 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <p><p><strong>Choose a subclass:</strong></p></p>
 <p><select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
 <option value="all">All</option>
-<option value="alt-ancestral-guardian">Alternate Path of the Ancestral Guardian</option>
-<option value="alt-battlerager">Alternate Path of the Battlerager</option>
-<option value="alt-beast">Alternate Path of the Beast</option>
-<option value="alt-berserker">Alternate Path of the Berserker</option>
-<option value="alt-storm-herald">Alternate Path of the Storm Herald</option>
-<option value="alt-totem-warrior">Alternate Path of the Totem Warrior</option>
-<option value="alt-wild-magic">Alternate Path of the Wild Magic</option>
-<option value="alt-zealot">Alternate Path of the Zealot</option>
+    <option value="alt-ancestral-guardian">Alternate Path of the Ancestral Guardian</option>
+    <option value="alt-battlerager">Alternate Path of the Battlerager</option>
+    <option value="alt-beast">Alternate Path of the Beast</option>
+    <option value="alt-berserker">Alternate Path of the Berserker</option>
+    <option value="alt-storm-herald">Alternate Path of the Storm Herald</option>
+    <option value="alt-totem-warrior">Alternate Path of the Totem Warrior</option>
+    <option value="alt-wild-magic">Alternate Path of the Wild Magic</option>
+    <option value="alt-zealot">Alternate Path of the Zealot</option>
 </select></p>
 <div class="subclass-content" data-subclass="alt-ancestral-guardian">
 <details class="subclass">
@@ -1912,11 +1915,9 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <p>Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.</p>
 <h3 id="level-3-bestial-rage">Level 3 - Bestial Rage</h3>
 <p>When you Rage, you manifest a portion of your bestial power in the form of one of the natural weapons listed below, which lasts for the duration of that Rage. These weapons all count as simple melee weapons which you are proficient with, and use your Strength modifier for their attack and damage rolls:</p>
-<ul>
-<li><strong>Bite.</strong> You grow fangs that deal 1d8 piercing damage on hit. Once per turn when you hit a creature with this Bite, you gain temporary hit points equal to your Constitution modifier.</li>
-<li><strong>Claws.</strong> Your hands elongate into savage claws that deal 1d6 slashing damage on hit. Whenever you take the Attack action on your turn and make only Claw attacks, you can make one additional Claw attack as part of that Attack action.</li>
-<li><strong>Tail.</strong> You sprout a long thick tail that deals 1d8 piercing damage on hit and has the reach property. When a creature within 10 feet that you can see targets you with a weapon attack, you can use your reaction to add one roll of your Exploit Die to your Armor Class against that attack.</li>
-</ul>
+<p><strong>Bite.</strong> You grow fangs that deal 1d8 piercing damage on hit. Once per turn when you hit a creature with this Bite, you gain temporary hit points equal to your Constitution modifier.</p>
+<p><strong>Claws.</strong> Your hands elongate into savage claws that deal 1d6 slashing damage on hit. Whenever you take the Attack action on your turn and make only Claw attacks, you can make one additional Claw attack as part of that Attack action.</p>
+<p><strong>Tail.</strong> You sprout a long thick tail that deals 1d8 piercing damage on hit and has the reach property. When a creature within 10 feet that you can see targets you with a weapon attack, you can use your reaction to add one roll of your Exploit Die to your Armor Class against that attack.</p>
 <hr>
 <h3 id="level-6-savage-prowess">Level 6 - Savage Prowess</h3>
 <p>The ancient curse that flows in your veins greatly increases your physical abilities. You gain the benefits listed below:</p>
@@ -1968,30 +1969,24 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <h3 id="level-3-storm-aura">Level 3 - Storm Aura</h3>
 <p>When you Rage, you emanate an Aura of primal power in a 10-foot radius, choosing Blizzard, Drought, or Hurricane for its effects. If your Aura requires a creature to make a saving throw, it does so against your Exploit save DC.</p>
 <p>When you gain a level in this class, you can change the effect of your Aura for another option from the list below:</p>
-<ul>
-<li><strong>Blizzard.</strong> Any creature of your choice that starts its turn within range has its speed halved until start of its next turn.</li>
-<li><strong>Drought.</strong> At the end of each of your turns, creatures of your choice within range take fire damage equal to your Constitution modifier (minimum of 1 damage).</li>
-<li><strong>Hurricane.</strong> At the end of each of your turns you can force one creature within range to make a Dexterity saving throw. It takes lightning damage equal to two rolls of your Exploit Die on a failed save, and half as much damage on a success.</li>
-</ul>
+<p><strong>Blizzard.</strong> Any creature of your choice that starts its turn within range has its speed halved until start of its next turn.</p>
+<p><strong>Drought.</strong> At the end of each of your turns, creatures of your choice within range take fire damage equal to your Constitution modifier (minimum of 1 damage).</p>
+<p><strong>Hurricane.</strong> At the end of each of your turns you can force one creature within range to make a Dexterity saving throw. It takes lightning damage equal to two rolls of your Exploit Die on a failed save, and half as much damage on a success.</p>
 <hr>
 <h3 id="level-6-elemental-body">Level 6 - Elemental Body</h3>
 <p>Your connection to the forces of nature deepens and grants you the benefits below associated with your Storm Aura:</p>
-<ul>
-<li><strong>Blizzard.</strong> You gain resistance to cold damage, and when you deal damage with a Savage Exploit, you can choose for it to deal cold damage in place of its normal damage type.</li>
-<li><strong>Drought.</strong> You gain resistance to fire damage, and you learn the <em>produce flame</em> cantrip. Constitution is your spellcasting modifier for it, and you can cast it even while you are raging.</li>
-<li><strong>Hurricane.</strong> You gain resistance to lightning and thunder damage, you gain a swimming speed equal to your walking speed, and you can breathe both air and water.</li>
-</ul>
+<p><strong>Blizzard.</strong> You gain resistance to cold damage, and when you deal damage with a Savage Exploit, you can choose for it to deal cold damage in place of its normal damage type.</p>
+<p><strong>Drought.</strong> You gain resistance to fire damage, and you learn the <em>produce flame</em> cantrip. Constitution is your spellcasting modifier for it, and you can cast it even while you are raging.</p>
+<p><strong>Hurricane.</strong> You gain resistance to lightning and thunder damage, you gain a swimming speed equal to your walking speed, and you can breathe both air and water.</p>
 <hr>
 <h3 id="level-10-storm-ward">Level 10 - Storm Ward</h3>
 <p>Your primal power overflows and infuses your companions. While raging, creatures of your choice within your Storm Aura gain the benefits of your Elemental Body feature.</p>
 <hr>
 <h3 id="level-14-primal-destruction">Level 14 - Primal Destruction</h3>
 <p>The elemental forces that fuel your Rage grows ever stronger. Your Storm Aura gains the following additional benefits:</p>
-<ul>
-<li><strong>Blizzard.</strong> When a creature begins its turn within your Storm Aura, you can use your reaction to force it to make a Strength saving throw. On a failed save, the creature's speed is reduced to 0 until the beginning of its next turn.</li>
-<li><strong>Drought.</strong> When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Dexterity saving throw. On a failed save, it takes fire damage equal to two rolls of your Exploit Die.</li>
-<li><strong>Hurricane.</strong> When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Strength saving throw. On a failed save, it is knocked back from you 10 feet in a straight line and falls prone.</li>
-</ul>
+<p><strong>Blizzard.</strong> When a creature begins its turn within your Storm Aura, you can use your reaction to force it to make a Strength saving throw. On a failed save, the creature's speed is reduced to 0 until the beginning of its next turn.</p>
+<p><strong>Drought.</strong> When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Dexterity saving throw. On a failed save, it takes fire damage equal to two rolls of your Exploit Die.</p>
+<p><strong>Hurricane.</strong> When a creature within your Storm Aura hits you with an attack, you can use your reaction to force it to make a Strength saving throw. On a failed save, it is knocked back from you 10 feet in a straight line and falls prone.</p>
 <hr>
 </details>
 </div>
@@ -2004,21 +1999,17 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <hr>
 <h3 id="level-3-totemic-spirit">Level 3 - Totemic Spirit</h3>
 <p>Choose one of the animal spirits from the list below to gain its benefits. Once selected, this choice cannot be changed:</p>
-<ul>
-<li><strong>Bear.</strong> The resilient spirit of the Bear increases your ability to take physical hits. While raging, you gain resistance to all types of damage except psychic damage.</li>
-<li><strong>Eagle.</strong> The fierce spirit of the Eagle grants you the ability to move fast as the wind. While raging, you can use a bonus action to gain the benefits of the Dash and Disengage action, including the bonus action that you use to enter a Rage.</li>
-<li><strong>Elk.</strong> The noble spirit of the Elk makes you extraordinarily swift. While raging, your walking speed increases by 15 feet.</li>
-<li><strong>Tiger.</strong> The ruthless spirit of the Tiger empowers your leaps in battle. You learn the <em>Mighty Leap</em> exploit if you didn't know it already. Once per turn while raging, you can use it at its lowest level without expending an Exploit Die.</li>
-<li><strong>Wolf.</strong> The cunning spirit of the Wolf enhances your ability to fight alongside your pack. While raging, allied creatures of your choice have advantage on any melee attack roll they make against hostile creatures within 10 feet of you.</li>
-</ul>
+<p><strong>Bear.</strong> The resilient spirit of the Bear increases your ability to take physical hits. While raging, you gain resistance to all types of damage except psychic damage.</p>
+<p><strong>Eagle.</strong> The fierce spirit of the Eagle grants you the ability to move fast as the wind. While raging, you can use a bonus action to gain the benefits of the Dash and Disengage action, including the bonus action that you use to enter a Rage.</p>
+<p><strong>Elk.</strong> The noble spirit of the Elk makes you extraordinarily swift. While raging, your walking speed increases by 15 feet.</p>
+<p><strong>Tiger.</strong> The ruthless spirit of the Tiger empowers your leaps in battle. You learn the <em>Mighty Leap</em> exploit if you didn't know it already. Once per turn while raging, you can use it at its lowest level without expending an Exploit Die.</p>
+<p><strong>Wolf.</strong> The cunning spirit of the Wolf enhances your ability to fight alongside your pack. While raging, allied creatures of your choice have advantage on any melee attack roll they make against hostile creatures within 10 feet of you.</p>
 <hr>
 <h3 id="level-6-totemic-aspect">Level 6 - Totemic Aspect</h3>
 <p>You gain the benefits of a second animal spirit, choosing from the list below. Once selected, this choice cannot be changed:</p>
-<ul>
-<li><strong>Elephant.</strong> The spirit of the Elephant lends you its power. When you make a Strength (Athletics) or a Wisdom (Insight) check you can add your Constitution modifier to your roll.</li>
-<li><strong>Owl.</strong> The spirit of the Owl grants you its sight. When you make an Intelligence (Investigation) or Wisdom (Perception) check you can add your Constitution modifier to your roll.</li>
-<li><strong>Panther.</strong> The spirit of the Panther increases your cunning. When you make a Dexterity (Stealth) or Wisdom (Survival) check you can add your Constitution modifier to your roll.</li>
-</ul>
+<p><strong>Elephant.</strong> The spirit of the Elephant lends you its power. When you make a Strength (Athletics) or a Wisdom (Insight) check you can add your Constitution modifier to your roll.</p>
+<p><strong>Owl.</strong> The spirit of the Owl grants you its sight. When you make an Intelligence (Investigation) or Wisdom (Perception) check you can add your Constitution modifier to your roll.</p>
+<p><strong>Panther.</strong> The spirit of the Panther increases your cunning. When you make a Dexterity (Stealth) or Wisdom (Survival) check you can add your Constitution modifier to your roll.</p>
 <hr>
 <h3 id="level-10-spirit-walker">Level 10 - Spirit Walker</h3>
 <p>You can turn to your Totem Spirits for spiritual guidance. You learn the <em>commune with nature</em> spell, but you can only cast it as a ritual, beseeching your Totem Spirits for information.</p>
@@ -2026,11 +2017,9 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <hr>
 <h3 id="level-14-totemic-attunement">Level 14 - Totemic Attunement</h3>
 <p>You gain the benefits of a final animal spirit, completing your training as a Totem Warrior. Choose from the list below:</p>
-<ul>
-<li><strong>Lion.</strong> The spirit of the Lion imbues you with regal power. While raging, any hostile creatures within 5 feet of you have disadvantage on attack rolls against targets other than you.</li>
-<li><strong>Falcon.</strong> The spirit of the Falcon grants you its wings. While raging, you gain a flying speed equal to your walking speed.</li>
-<li><strong>Rhino.</strong> The spirit of the Rhino lends you its power. While raging, if you hit a creature that is one size larger than you or smaller with a Strength-based melee weapon attack, it must succeed on a Strength saving throw or be knocked prone.</li>
-</ul>
+<p><strong>Lion.</strong> The spirit of the Lion imbues you with regal power. While raging, any hostile creatures within 5 feet of you have disadvantage on attack rolls against targets other than you.</p>
+<p><strong>Falcon.</strong> The spirit of the Falcon grants you its wings. While raging, you gain a flying speed equal to your walking speed.</p>
+<p><strong>Rhino.</strong> The spirit of the Rhino lends you its power. While raging, if you hit a creature that is one size larger than you or smaller with a Strength-based melee weapon attack, it must succeed on a Strength saving throw or be knocked prone.</p>
 <hr>
 </details>
 </div>
@@ -2507,12 +2496,10 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <hr>
 <h3 id="level-14-chaos-overwhelming">Level 14 - Chaos Overwhelming</h3>
 <p>You can draw out the full power of the Abyssal influence that fuels your Rage. When you Rage, you gain one of the abilities below for the duration of that Rage. As a bonus action while you are Raging, you can expend an Exploit Die to switch your current feature to another feature.</p>
-<ul>
-<li><strong>Accursed Reach.</strong> Your limbs become unnaturally muscular and lengthen. Your walking speed increases by 10 feet, you can take the Dash action as a bonus action, and the reach of your melee weapon attacks and grapples increases by 5 feet.</li>
-<li><strong>Defiled Hide.</strong> Your skin becomes blighted and covered in coarse hair, boils, or oily scales. You gain immunity to all bludgeoning, piercing, and slashing damage from non-magical weapons. Attacks made with silvered weapons ignore this special damage immunity.</li>
-<li><strong>Hulking Form.</strong> Your body bulges and grows in unnatural ways. You grow by one size category as if you had been the target of an enlarge/reduce spell. While enlarged in this way, you can add your Constitution modifier to Strength checks.</li>
-<li><strong>Vile Flight.</strong> You sprout leathery demonic wings from your back which burst through any clothing you are wearing. You gain a flying speed equal to your walking speed.</li>
-</ul>
+<p><strong>Accursed Reach.</strong> Your limbs become unnaturally muscular and lengthen. Your walking speed increases by 10 feet, you can take the Dash action as a bonus action, and the reach of your melee weapon attacks and grapples increases by 5 feet.</p>
+<p><strong>Defiled Hide.</strong> Your skin becomes blighted and covered in coarse hair, boils, or oily scales. You gain immunity to all bludgeoning, piercing, and slashing damage from non-magical weapons. Attacks made with silvered weapons ignore this special damage immunity.</p>
+<p><strong>Hulking Form.</strong> Your body bulges and grows in unnatural ways. You grow by one size category as if you had been the target of an enlarge/reduce spell. While enlarged in this way, you can add your Constitution modifier to Strength checks.</p>
+<p><strong>Vile Flight.</strong> You sprout leathery demonic wings from your back which burst through any clothing you are wearing. You gain a flying speed equal to your walking speed.</p>
 <hr>
 </details>
 </div>
@@ -2551,13 +2538,11 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <p>At 10th level, you have learned to utilize your mauler weapon in ways that other warriors could never achieve. The sheer scale of your weapon, along with your superhuman strength, lets you perform feats of strength few others can duplicate.</p>
 <p>You learn one mauler technique at 10th level, and another at 14th level. You can only use a mauler technique while raging and wielding a mauler weapon, and only once per rage. When using a mauler technique, it counts as one of your attacks using the Attack action.</p>
 <p>When a mauler technique requires a saving throw, you use your Exploit Save DC.</p>
-<ul>
-<li><strong>Devastating Charge.</strong> You surge toward your foes like a crashing wave of doom. As part of the attack, you move up to your speed towards a creature you can see, and can make a melee weapon attack against that creature, and each other creature within 10 feet of you takes damage equal to your Strength modifier.</li>
-<li><strong>Execute.</strong> Your weapon sings through the air like a grim avatar of death, its strike inexorable. You declare the doom of a creature you can see within 30 feet. You make a melee weapon attack against that creature, and you score a critical hit on this attack on a roll of 16 to 20. If you reduce the target to 0 hit points from this attack, each other creature of your choice that can see you must make a Wisdom saving throw or become frightened of you for 1 minute.</li>
-<li><strong>Fling.</strong> You run, swinging your weapon to gain momentum, before leaping into the air, landing with a force like thunder. You jump a horizontal distance up to three times your normal jump distance, propelled by the weight of your mauler weapon. When you land, each creature within 10 feet of you must make a Dexterity saving throw or take damage equal to 5 + your Strength modifier and be knocked prone.</li>
-<li><strong>Shake The Ground.</strong> You raise your weapon high and then smash it into the ground with murderous force. Each creature within 20 feet of you must make a Strength saving throw. On a failed save, a creature is knocked prone, and the area within 20 feet of you is considered difficult terrain. If you are standing on a breakable environment (such as a wooden bridge, the deck of a ship etc.) the attack is an automatic hit against the environment and does double damage against it.</li>
-<li><strong>Whirlwind.</strong> You spin your weapon in a wicked arc, lashing out at everyone around you. Each creature within 10 feet of you must make a Dexterity saving throw or take damage equal to 5 + your Strength modifier and be knocked back 10 feet.</li>
-</ul>
+<p><strong>Devastating Charge.</strong> You surge toward your foes like a crashing wave of doom. As part of the attack, you move up to your speed towards a creature you can see, and can make a melee weapon attack against that creature, and each other creature within 10 feet of you takes damage equal to your Strength modifier.</p>
+<p><strong>Execute.</strong> Your weapon sings through the air like a grim avatar of death, its strike inexorable. You declare the doom of a creature you can see within 30 feet. You make a melee weapon attack against that creature, and you score a critical hit on this attack on a roll of 16 to 20. If you reduce the target to 0 hit points from this attack, each other creature of your choice that can see you must make a Wisdom saving throw or become frightened of you for 1 minute.</p>
+<p><strong>Fling.</strong> You run, swinging your weapon to gain momentum, before leaping into the air, landing with a force like thunder. You jump a horizontal distance up to three times your normal jump distance, propelled by the weight of your mauler weapon. When you land, each creature within 10 feet of you must make a Dexterity saving throw or take damage equal to 5 + your Strength modifier and be knocked prone.</p>
+<p><strong>Shake The Ground.</strong> You raise your weapon high and then smash it into the ground with murderous force. Each creature within 20 feet of you must make a Strength saving throw. On a failed save, a creature is knocked prone, and the area within 20 feet of you is considered difficult terrain. If you are standing on a breakable environment (such as a wooden bridge, the deck of a ship etc.) the attack is an automatic hit against the environment and does double damage against it.</p>
+<p><strong>Whirlwind.</strong> You spin your weapon in a wicked arc, lashing out at everyone around you. Each creature within 10 feet of you must make a Dexterity saving throw or take damage equal to 5 + your Strength modifier and be knocked back 10 feet.</p>
 <hr>
 <h3 id="level-14-unmatched-might">Level 14 - Unmatched Might</h3>
 <p>Beginning at 14th level, in addition to gaining another single mauler technique, you have also become superhuman in your expertise with your unique weapons. While raging, you ignore the mauler property of weapons you wield and no longer suffer the penalties for wielding such a weapon.</p>
@@ -2667,7 +2652,7 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <h3 id="level-3-spellcasting">Level 3 - Spellcasting</h3>
 <p>When you adopt this path at 3rd level, you gain the ability to cast spells using runes painted or tattooed on your body. </p>
 <p><strong>Cantrips.</strong> You learn two cantrips of your choice from the wizard spell list. You learn an additional Wizard cantrip of your choice at 10th level.</p>
-<p><strong>Known Spells of Level 1+.</strong> You know a list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose three level 1 spells from the Wizard spell list, two of which must be from the Transmutation and Evocation schools of magic.</p>
+<p><strong>Known Spells of Level 1+.</strong> You know a list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose three level 1 spells from the Wizard spell list, two of which must be from the Transmutation and Evocation schools of magic. </p>
 <p>The number of spells on your list increases as you gain Barbarian levels, as shown in the Known Spells column of the Rune Sage Spellcasting table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Barbarian, your list of known spells can include six Wizard spells of levels 1 and 2, in any combination.</p>
 <p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your spells since your runes need to be meticulously painted with knowledge and precision to convert your rage into arcane power. You use Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a Wizard spell you cast and when making an attack roll with one.</p>
 <p><strong>Spell Save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
@@ -2929,29 +2914,13 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <h3 id="level-3-primordial-words">Level 3 - Primordial Words</h3>
 <p>Starting when you choose this path at 3rd level, when you voluntarily end your rage you can choose to speak a magical word of primal power. When you do so, you can speak one of the following words chosen from the options below. The words you speak in this manner are ancient utterances of primordial power, imbued with magic predating recorded history, and affect a 30 ft. radius sphere centered on you.</p>
 <p>If a word you utter in this manner would force a creature to attempt a saving throw, your Primordial Save DC is your Exploit Save DC. You know and can speak the following primordial words using this feature.</p>
-<ul>
-<li>
 <p><strong>Bjargl (Stone).</strong> Willing creatures of your choice on the ground in the affected area become encased in a skin of stone for 1 minute. A creature so encased gains a number of temporary hit points equal to your character level, which cannot be replaced by temporary hit points from another source unless the creature allows it. A creature so encased cannot be forced to assume a form other than its true form.</p>
-</li>
-<li>
 <p><strong>Dagri (Light).</strong> The affected area is illuminated by a flash of sunlight. All effects producing darkness (including magical ones) in the affected area immediately end and creatures in the affected area cannot benefit from being invisible for 1 minute. Additionally, creatures of your choice in the affected area must succeed on a Constitution saving throw or be blinded until the end of their next turn.</p>
-</li>
-<li>
 <p><strong>Dynjag (Sound).</strong> Creatures of your choice within the affected area must succeed on a Constitution saving throw or take 1d6 thunder damage for each character level you have, or half as much on a success. Additionally, creatures that fail the saving throw are also deafened for 1 minute.</p>
-</li>
-<li>
 <p><strong>Makta (Power).</strong> Creatures of your choice within the affected area must succeed on a Strength saving throw or be pushed directly away from you to the edge of the affected area or pulled directly towards you to the nearest unoccupied space. In both cases at the end of its movement, an affected creature is knocked prone.</p>
-</li>
-<li>
 <p><strong>Öndoa (Life).</strong> When you speak this word, you can choose to spend one or more of your hit dice, which are then rolled simultaneously. Friendly creatures within the affected area regain a number of hit points equal to the total rolled on the hit dice.</p>
-</li>
-<li>
 <p><strong>Óttin (Fear).</strong> Creatures of your choice within the affected area must succeed on a Wisdom saving throw or become frightened of you. This effect ends if the affected creature ends its turn in a location where it doesn't have line of sight to you.</p>
-</li>
-<li>
 <p><strong>Vindre (Wind).</strong> The edge of the affected area becomes ringed with a sphere of swirling air that is centered on your and moves with you, which lasts for 1 minute. The strong wind of the wall keeps fog, smoke, and other gases at bay. Loose, lightweight material cannot pass through the wall. Ranged weapon attacks from the outside of the affected area made against targets on the inside are made at disadvantage and automatically miss if the attack roll is lower than your primordial word save DC.</p>
-</li>
-</ul>
 <hr>
 <h3 id="level-6-voice-of-authority">Level 6 - Voice of Authority</h3>
 <p>At 6th level, your voice always echoes with greater authority and power. You gain proficiency in Intimidation. If you are already proficient in Intimidation, you instead double your proficiency bonus for any ability check you make using Intimidation.</p>
@@ -2998,15 +2967,6 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <p><strong>Spellcasting Ability.</strong> As you draw your magic from your connection to primal spirits, Wisdom is your spellcasting ability for your Warden spells. You use Wisdom when a spell refers to your spellcasting ability, when setting the saving throw DC for a spell, or when making an attack roll with one.</p>
 <p><strong>Spell Save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
 <p><strong>Spell Attack Modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
-<hr>
-<h3 id="level-3-primal-rage">Level 3 - Primal Rage</h3>
-<p>You have learned to draw on primal magic, even in your Rage. You can cast Warden spells while you're Raging, but you have disadvantage on any Constitution saving throws you make to maintain concentration on your Warden spells while Raging.</p>
-<p>Also, casting a Warden spell of 1st-level or higher allows your Rage to continue until the end of your next turn, even if you don't meet the other requirements to extend your Rage.</p>
-<hr>
-<h3 id="level-6-guardians-fury">Level 6 - Guardian's Fury</h3>
-<p>You can ruthlessly weave minor spells with weapon attacks. When you use your action to cast a Warden spell, you can make a weapon attack as a bonus action on that turn.</p>
-<p>Moreover, you can use Reckless Attack when you cast a Warden spell that requires a spell attack roll.</p>
-<hr>
 <details class="table">
 <summary>Warden Spellcasting</summary>
 <table>
@@ -3130,7 +3090,6 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 </tbody>
 </table>
 </details>
-<hr>
 <details class="table">
 <summary>Warden Spell List</summary>
 <table>
@@ -3239,6 +3198,14 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 </table>
 </details>
 <hr>
+<h3 id="level-3-primal-rage">Level 3 - Primal Rage</h3>
+<p>You have learned to draw on primal magic, even in your Rage. You can cast Warden spells while you're Raging, but you have disadvantage on any Constitution saving throws you make to maintain concentration on your Warden spells while Raging.</p>
+<p>Also, casting a Warden spell of 1st-level or higher allows your Rage to continue until the end of your next turn, even if you don't meet the other requirements to extend your Rage.</p>
+<hr>
+<h3 id="level-6-guardians-fury">Level 6 - Guardian's Fury</h3>
+<p>You can ruthlessly weave minor spells with weapon attacks. When you use your action to cast a Warden spell, you can make a weapon attack as a bonus action on that turn.</p>
+<p>Moreover, you can use Reckless Attack when you cast a Warden spell that requires a spell attack roll.</p>
+<hr>
 <h3 id="level-10-ward-of-the-ancients">Level 10 - Ward of the Ancients</h3>
 <p>Your connection with the natural world shields you from magic. As a reaction when you would take damage from a spell, you can expend a Primal Magic spell slot to grant yourself resistance to all damage from the triggering spell.</p>
 <hr>
@@ -3264,11 +3231,9 @@ at the end of this class. The Exploits Known column of the Barbarian table shows
 <hr>
 <h3 id="level-10-primordial-scent">Level 10 - Primordial Scent</h3>
 <p>Also at 10th level, you become able to sniff out residual magic and Awakened individuals. This is not a magical ability, and thus, immunity against divination offers no protection against your primordial scent. You can use this feature in three ways:</p>
-<ul>
-<li><strong>As a bonus action.</strong> You can designate a creature you can see within 60 feet and immediately know whether it has Awakened and is therefore capable of casting spells. If the creature has Awakened, you have advantage on saving throws against its spells for 10 minutes.</li>
-<li><strong>As an action.</strong> You can focus on your environment and detect the presence of Awakened creatures. This does not reveal their identity or their precise location; you just know that at least one Awakened individual is present.</li>
-<li><strong>You can spend 10 minutes.</strong> Studying an area equivalent to a 30-foot-radius sphere. At the end of this investigation, you can ascertain whether a spell (or a power specifically described as magic) has been used in the area within the last 24 hours. A successful DC 20 Wisdom (Insight or Perception) check yields additional information about the most powerful magical effect used during this period in the inspected area. You do not know its name or school of magic, but you learn whether it was used to dominate, charm, blind, teleport, destroy, etc. (at the leader's discretion).</li>
-</ul>
+<p><strong>As a bonus action.</strong> You can designate a creature you can see within 60 feet and immediately know whether it has Awakened and is therefore capable of casting spells. If the creature has Awakened, you have advantage on saving throws against its spells for 10 minutes.</p>
+<p><strong>As an action.</strong> You can focus on your environment and detect the presence of Awakened creatures. This does not reveal their identity or their precise location; you just know that at least one Awakened individual is present.</p>
+<p><strong>You can spend 10 minutes.</strong> Studying an area equivalent to a 30-foot-radius sphere. At the end of this investigation, you can ascertain whether a spell (or a power specifically described as magic) has been used in the area within the last 24 hours. A successful DC 20 Wisdom (Insight or Perception) check yields additional information about the most powerful magical effect used during this period in the inspected area. You do not know its name or school of magic, but you learn whether it was used to dominate, charm, blind, teleport, destroy, etc. (at the leader's discretion).</p>
 <p>You can use this feature a number of times equal to your proficiency bonus. You regain any expended uses when you finish a long rest.</p>
 <hr>
 <h3 id="level-14-disrupting-strike">Level 14 - Disrupting Strike</h3>

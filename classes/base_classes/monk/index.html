@@ -1408,10 +1408,12 @@
 <h4 id="level-2-ki">Level 2 - Ki</h4>
 <p>At 2nd level, you learn to manipulate the spiritual energy that resides within you, known as Ki. You can draw on your Ki to perform supernatural physical feats known as Techniques.</p>
 <p><strong>Ki Points.</strong> Your spiritual power is represented by a pool of Ki, equal to your Monk level + your Wisdom modifier (minimum of 0). Ki is expended when you use it, and you regain all spent ki whenever you finish a short or long rest. You can only expend Ki on one feature or Technique per attack, ability check, reaction or saving throw.</p>
-<p><strong>Techniques Known.</strong> At 2nd level, you automatically learn the Patient Defense and Step of the Wind Techniques, and these do not count against your limit of Techniques Known. Additionally, you learn three Initiate Techniques of your choice from the list at the end of this class description. You can only use one technique per each attack, ability check, reaction or saving throw. The Monk table shows when you learn more Techniques of your choice. When you gain a Monk level, you can replace one Technique you know with another Technique of your choice.</p>
+<p><strong>Techniques Known.</strong> At 2nd level, you automatically learn the Patient Defense and Step of the Wind Techniques, and these do not count against your limit of Techniques Known. Additionally, you learn three Initiate Techniques of your choice from the list. You can only use one technique per each attack, ability check, reaction or saving throw. The Monk table shows when you learn more Techniques of your choice. When you gain a Monk level, you can replace one Technique you know with another Technique of your choice.</p>
 <p><strong>Saving Throws.</strong> Techniques rely on your mastery of body and spirit, and grow in proportion to your self-control. When a Technique requires a saving throw, its saving throw is calculated as follows:</p>
 <p><strong>Technique save DC</strong> = 8 + your Proficiency Bonus + your Wisdom modifier</p>
 <p><strong>Flurry of Blows.</strong> All Monks, no matter their training or level of enlightenment, can channel spiritual power to strike their foes with blinding speed. As a bonus action on each of your turns, you can spend 1 Ki to make two unarmed strikes.</p>
+<p><strong>Patient Defense.</strong> You quiet your spirit, entering a defensive stance to better defend against incoming blows. You can spend 1 Ki to take the Dodge action as a bonus action on your turn.</p>
+<p><strong>Step of the Wind.</strong> You move with the speed of the wind. You can take the Dash or Disengage action as a bonus action on your turn. When you do so, your jump distance is doubled until the end of your current turn.</p>
 <hr>
 <h4 id="level-2-unarmored-movement">Level 2 - Unarmored Movement</h4>
 <p>Your pursuit of physical perfection has awakened the hidden potential of your body. At 2nd level, your speed increases by 10 feet so long as you are not wearing armor or a shield. This speed bonus increases as you gain levels, as indicated in the Unarmored Movement column of the Monk table.</p>
@@ -1436,11 +1438,9 @@
 <hr>
 <h4 id="level-11-ki-adept">Level 11 - Ki Adept</h4>
 <p>Your training has pushed your body and mind to new levels. You gain the following improvements to your basic techniques:</p>
-<ul>
-<li><strong>Flurry of Blows.</strong> You can spend 1 Ki to use Flurry of Blows and make three Unarmed Strikes with it instead of two.</li>
-<li><strong>Patient Defense.</strong> When you spend a Ki to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.</li>
-<li><strong>Step of the Wind.</strong> When you spend a Ki to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.</li>
-</ul>
+<p><strong>Flurry of Blows.</strong> You can spend 1 Ki to use Flurry of Blows and make three Unarmed Strikes with it instead of two.</p>
+<p><strong>Patient Defense.</strong> When you spend a Ki to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.</p>
+<p><strong>Step of the Wind.</strong> When you spend a Ki to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.</p>
 <p>Additionally, you regain 1 expended Ki at the start of each of your turns in combat, so long as you are not incapacitated.</p>
 <hr>
 <h4 id="level-13-purity-of-body">Level 13 - Purity of Body</h4>
@@ -1454,24 +1454,24 @@
 <hr>
 <h4 id="level-20-perfect-self">Level 20 - Perfect-Self</h4>
 <p>At 20th level you become a magical creature that transcends the mortal limits. You gain the following benefits:</p>
-<ul>
-<li><strong>Perfection Achieved.</strong> Instead of being treated as a humanoid, you can choose to be treated as a celestial, a fey or a fiend.</li>
-<li><strong>Physical and Mental Perfection.</strong> Additionally, you reach both physical and mental perfection. You gain a +2 bonus to all your ability scores. Your maximum for those scores is now 22.</li>
-</ul>
+<p><strong>Perfection Achieved.</strong> Instead of being treated as a humanoid, you can choose to be treated as a celestial, a fey or a fiend.</p>
+<p><strong>Physical and Mental Perfection.</strong> Additionally, you reach both physical and mental perfection. You gain a +2 bonus to all your ability scores. Your maximum for those scores is now 22.</p>
 <hr>
 </div>
 <div class="tabbed-block">
 <p><p><strong>Choose a technique tier:</strong></p></p>
 <p><select id="technique-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="initiate">Initiate</option>
-<option value="disciple">Disciple</option>
-<option value="adept">Adept</option>
-<option value="master">Master</option>
-<option value="ascendant">Ascendant</option>
+    <option value="all">All</option>
+    <option value="initiate">Initiate</option>
+    <option value="disciple">Disciple</option>
+    <option value="adept">Adept</option>
+    <option value="master">Master</option>
+    <option value="ascendant">Ascendant</option>
 </select></p>
 <div class="technique-content" data-technique="initiate">
-<h3 id="initiate-techniques"><ins>Initiate Techniques</ins></h3>
+<details class="feature">
+<summary>Initiate Techniques</summary>
+<p>The foundations of a monk's mastery. Every student learns these techniques first — the essentials of Ki control, defensive instinct, and unarmed combat.</p>
 <h4 id="arresting-strike">Arresting Strike</h4>
 <p>When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to stunt its mobility and force it to make a Dexterity saving throw. On a failed save, the target's speed is reduced to zero until the beginning of your next turn.</p>
 <h4 id="crippling-strike">Crippling Strike</h4>
@@ -1497,10 +1497,12 @@
 <p>You move with the speed of the wind. You can take the Dash or Disengage action as a bonus action. When you do so, your jump distance is doubled until the end of your current turn.</p>
 <h4 id="whirling-strike">Whirling Strike</h4>
 <p>As an action, you can spend 1 Ki to strike out and force every creature within your reach to make a Dexterity saving throw. On a failed save, they take bludgeoning damage equal to your Martial Arts die + your Dexterity modifier.</p>
+</details>
 </div>
 <div class="technique-content" data-technique="disciple">
-<h3 id="disciple-techniques"><ins>Disciple Techniques</ins></h3>
-<p><em>5th-level techniques</em></p>
+<details class="feature">
+<summary>Disciple Techniques</summary>
+<p>Available to monks of 5th level or higher. With the body's basics mastered, disciples channel Ki to sharpen their strikes and bolster resilience in the heat of battle.</p>
 <h4 id="adept-fighting-style">Adept Fighting Style</h4>
 <p>You have trained in a specialized style of fighting. Choose one of the following Fighting Styles from the Fighter class: Archery, Blind Fighting, Defensive Fighting, Dueling, Featherweight Training, Thrown Weapon Fighting, or Wrestler.</p>
 <h4 id="crushing-strike">Crushing Strike</h4>
@@ -1523,10 +1525,12 @@
 <p>When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to strike with relentless force, forcing it to make a Constitution saving throw. On a failed save, the creature is stunned until the beginning of your next turn.</p>
 <h4 id="unyielding-perseverance">Unyielding Perseverance</h4>
 <p>You can draw upon your Ki to find success in times of great need. When you make an ability check or saving throw, you can spend Ki (up to your Wisdom modifier) adding a +1 bonus to your roll for each Ki spent. You can use this technique after you roll, but before you know the result.</p>
+</details>
 </div>
 <div class="technique-content" data-technique="adept">
-<h3 id="adept-techniques"><ins>Adept Techniques</ins></h3>
-<p><em>9th-level techniques</em></p>
+<details class="feature">
+<summary>Adept Techniques</summary>
+<p>Available to monks of 9th level or higher. The adept turns inward — blending heightened perception and Ki to extend awareness beyond the body and command the battlefield.</p>
 <h4 id="aura-sight">Aura Sight</h4>
 <p>You can reach out with your Ki to sense your surroundings. You gain blindsight with a range of 20 feet. Within that range, you can see anything that isn't behind total cover, even if you are blinded or in darkness. You can see invisible creatures in that range unless the creature successfully hides from you.</p>
 <p>As you gain levels in this class the range of this blindsight increases; at 13th level (30 feet) and 18th level (60 feet).</p>
@@ -1543,10 +1547,12 @@
 <p>You gain proficiency in Persuasion, and whenever you make a Charisma (Persuasion) check, you gain a bonus to your roll equal to your Wisdom modifier (minimum of +1).</p>
 <h4 id="monastic-fortitude">Monastic Fortitude</h4>
 <p>As a reaction when you take damage, you can expend 2 Ki to reduce the incoming damage by an amount equal to two rolls of your Martial Arts die + your Wisdom modifier.</p>
+</details>
 </div>
 <div class="technique-content" data-technique="master">
-<h3 id="master-techniques"><ins>Master Techniques</ins></h3>
-<p><em>13th-level techniques</em></p>
+<details class="feature">
+<summary>Master Techniques</summary>
+<p>Available to monks of 13th level or higher. At the peak of earthly power, master monks transcend conventional combat, wielding techniques that few mortals can approach.</p>
 <h4 id="armor-of-the-ascetic">Armor of the Ascetic</h4>
 <p>You exude an aura of peace. At the end of a short or long rest, you gain the effects of <em>sanctuary</em>, which lasts until the start of your next short or long rest. This spell ends early as normal.</p>
 <h4 id="banishing-strike">Banishing Strike</h4>
@@ -1565,10 +1571,12 @@
 <p>Your sense of self and strength of your will are unshakable. You are immune to any spell or effect that would alter your form or force you to teleport, unless you wish to be affected.</p>
 <h4 id="tongue-of-sun-moon">Tongue of Sun &amp; Moon</h4>
 <p>You can touch the Ki of other minds and communicate with any creature that speaks a language. Creatures that speak no languages can communicate and understand simple ideas.</p>
+</details>
 </div>
 <div class="technique-content" data-technique="ascendant">
-<h3 id="ascendant-techniques"><ins>Ascendant Techniques</ins></h3>
-<p><em>18th-level techniques</em></p>
+<details class="feature">
+<summary>Ascendant Techniques</summary>
+<p>Available to monks of 18th level or higher. The pinnacle of monastic achievement. Ascendant techniques border on the divine, reshaping reality and the self alike.</p>
 <h4 id="awaken-the-third-eye">Awaken the Third Eye</h4>
 <p>You can open your mind to the Ki that flows through all living things, allowing you to predict the actions of creatures before they happen. You can perform a 1-minute meditative ritual where you expend 8 Ki to cast <em>foresight</em>, targeting only yourself. While this effect is active, your Ki maximum is reduced by 8. You can end this effect as an action.</p>
 <h4 id="empty-body">Empty Body</h4>
@@ -1580,16 +1588,18 @@
 <h4 id="word-of-creation">Word of Creation</h4>
 <p>You can draw on your intimate knowledge of the Ki that flows through all things and speak a divine word of creation. As an action, you can spend 7 Ki to cast <em>divine word</em>, using Wisdom as your spellcasting modifier.</p>
 <p>Once you use your Ki to cast <em>divine word</em>, you must finish a short or long rest before you can cast it in this way again.</p>
+</details>
 </div>
 </div>
 <div class="tabbed-block">
 <p><p><strong>Choose a subclass:</strong></p></p>
 <p><select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="alt-sun-soul">Alternate Sun Soul</option>
+    <option value="all">All</option>
+    <option value="alt-sun-soul">Alternate Sun Soul</option>
 </select></p>
 <div class="subclass-content" data-subclass="alt-sun-soul">
-<h2 id="alternate-sun-soul"><ins>Alternate Sun Soul</ins></h2>
+<details class="subclass">
+<summary>Alternate Sun Soul</summary>
 <p>Monks of the Way of the Sun Soul harness the power of radiant Ki, channeling searing bolts of magical light and overwhelming their foes with bursts of brilliant energy.</p>
 <h3 id="level-3-radiant-sun-bolt">Level 3 - Radiant Sun Bolt</h3>
 <p>Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.</p>
@@ -1616,42 +1626,38 @@
 <li>You gain resistance to necrotic damage, immunity to all radiant damage, and immunity to the blinded condition.</li>
 </ul>
 <hr>
+</details>
 </div>
 </div>
 <div class="tabbed-block">
 <p><p><strong>Choose a subclass:</strong></p></p>
 <p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
-<option value="all">All</option>
-<option value="way-of-the-bow">Way of the Bow</option>
-<option value="way-of-the-chronicle">Way of the Chronicle</option>
-<option value="way-of-the-dragon">Way of the Dragon</option>
-<option value="way-of-the-fist">Way of the Fist</option>
-<option value="way-of-the-four-fists">Way of the Four Fists</option>
-<option value="way-of-the-four-truths">Way of the Four Truths</option>
-<option value="way-of-the-gladiator">Way of the Gladiator</option>
-<option value="way-of-the-ghostspeaker">Way of the Ghostspeaker</option>
-<option value="way-of-the-hidden-doors">Way of the Hidden Doors</option>
-<option value="way-of-the-honed-mind">Way of the Honed Mind</option>
-<option value="way-of-iron">Way of Iron</option>
-<option value="way-of-the-leaden-crown">Way of the Leaden Crown</option>
-<option value="way-of-the-tattooed-temple">Way of the Tattooed Temple</option>
+    <option value="all">All</option>
+    <option value="way-of-the-bow">Way of the Bow</option>
+    <option value="way-of-the-chronicle">Way of the Chronicle</option>
+    <option value="way-of-the-dragon">Way of the Dragon</option>
+    <option value="way-of-the-fist">Way of the Fist</option>
+    <option value="way-of-the-four-fists">Way of the Four Fists</option>
+    <option value="way-of-the-four-truths">Way of the Four Truths</option>
+    <option value="way-of-the-gladiator">Way of the Gladiator</option>
+    <option value="way-of-the-ghostspeaker">Way of the Ghostspeaker</option>
+    <option value="way-of-the-hidden-doors">Way of the Hidden Doors</option>
+    <option value="way-of-the-honed-mind">Way of the Honed Mind</option>
+    <option value="way-of-iron">Way of Iron</option>
+    <option value="way-of-the-leaden-crown">Way of the Leaden Crown</option>
+    <option value="way-of-the-tattooed-temple">Way of the Tattooed Temple</option>
 </select></p>
 <div class="subclass-content" data-subclass="way-of-the-bow">
-<h2 id="way-of-the-bow"><ins>Way of the Bow</ins></h2>
+<details class="subclass">
+<summary>Way of the Bow</summary>
 <p>Monks that follow the Way of the Bow find serenity in the perfect, precise arc of an arrow's flight. You have been trained in archery on horseback, to fire a bow while blindfolded, and to pinpoint the wings of an insect in flight. As you attain peace and oneness with your arrow, no feat of archery will prove to be beyond your grasp.</p>
 <h3 id="level-3-archery-fighting-style">Level 3 - Archery Fighting Style</h3>
 <p>Starting when you choose this tradition at 3rd level, you gain a +2 bonus to attack rolls you make with ranged weapons. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
 <hr>
 <h3 id="level-3-bow-arts">Level 3 - Bow Arts</h3>
 <p>At 3rd level, you gain proficiency in the longbow and shortbow, which are considered monk weapons for you. Any ranged weapon attacks you make while within 5 feet of a hostile creature do not have disadvantage. Also, you can spend Ki to use the Flurry of Arrows and Soul Arrow features.</p>
-<ul>
-<li>
 <p><strong>Flurry of Arrows.</strong> Immediately after you take the Attack action on your turn to make a ranged weapon attack or an unarmed strike, you can spend 1 Ki to make an additional ranged weapon attack as a bonus action.</p>
-</li>
-<li>
 <p><strong>Soul Arrow.</strong> When you take the Attack action on your turn to make a ranged weapon attack, you can spend 1 Ki to fire a soul arrow for the first attack. A soul arrow is a normal arrow of its type which ignores partial cover and deals additional damage equal to your Wisdom modifier on a hit. Firing a soul arrow does not consume ammunition.</p>
-</li>
-</ul>
 <hr>
 <h3 id="level-6-intercepting-shot">Level 6 - Intercepting Shot</h3>
 <p>Starting at 6th level, when an attacker you can see makes an attack against you, you can make a ranged attack roll as a reaction to interrupt the attack. If the result of your roll is greater than the result of the attacker, you can reduce the attack roll targeting you by an amount equal to your Proficiency Bonus, to a minimum of 1.</p>
@@ -1663,9 +1669,11 @@
 <h3 id="level-17-zen-archery">Level 17 - Zen Archery</h3>
 <p>At 17th level, if you make a ranged weapon attack on your turn and miss, you can immediately make another ranged weapon attack against the same target. You can only gain one additional attack during your turn with this ability.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-chronicle">
-<h2 id="way-of-the-chronicle"><ins>Way of the Chronicle</ins></h2>
+<details class="subclass">
+<summary>Way of the Chronicle</summary>
 <p>Monks who follow the Way of the Chronicle dedicate themselves to acquiring and preserving knowledge. They believe that every story is an important piece of the great cosmic chronicle that links all beings, and universal harmony can only be achieved by making this shared knowledge available to all. To these monks, the energy of Ki is drawn from tapping into the great reservoir of shared knowledge that psychically empowers all beings.</p>
 <h3 id="level-3-scribes-tools">Level 3 - Scribe's Tools</h3>
 <p>When you choose this tradition at 3rd level, you gain proficiency in the Arcana skill and with calligrapher's supplies. You also gain a special book or other repository in which to chronicle your experiences.</p>
@@ -1690,14 +1698,17 @@
 <h3 id="level-17-perfect-knowledge">Level 17 - Perfect Knowledge</h3>
 <p>At 17th level, you can spend 5 Ki to target one creature marked by your Sealing Strike. When you do, you are momentarily imbued with all the knowledge ever recorded about that creature. You have resistance to all damage dealt by the target for 1 minute, or until you become incapacitated.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-dragon">
-<h2 id="way-of-the-dragon"><ins>Way of the Dragon</ins></h2>
+<details class="subclass">
+<summary>Way of the Dragon</summary>
 <p>You have studied at a monastery devoted to dragonkind. Warriors trained in these places adapt their fighting styles to match the dragons they hold in such esteem. They are respected and feared by students of other traditions. Once they are trained, followers of this Way travel far and wide, rarely settling in one place for long.</p>
 <h3 id="level-3-draconic-affiliation">Level 3 - Draconic Affiliation</h3>
 <p>Starting when you choose this tradition at 3rd level, you feel an affinity for one type of dragon, which you choose from the Draconic Affiliation table. You model your fighting style to match that type of dragon, and some of the features you gain from following this Way depend upon the affiliation you chose.</p>
 <p>When you make your selection, you gain proficiency in the dragon's associated skill, and you gain resistance to the listed damage type. If you already have this skill proficiency, you double your Proficiency Bonus with that skill.</p>
-<h5 id="draconic-affiliation">Draconic Affiliation</h5>
+<details class="table">
+<summary>Draconic Affiliation</summary>
 <table>
 <thead>
 <tr>
@@ -1734,6 +1745,7 @@
 </tr>
 </tbody>
 </table>
+</details>
 <hr>
 <h3 id="level-3-draconic-onslaught">Level 3 - Draconic Onslaught</h3>
 <p>At 3rd level, when you use Step of the Wind then hit with an attack, the attack deals an extra 2d6 damage of the type associated with your Draconic Affiliation.</p>
@@ -1751,9 +1763,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-scales-of-the-wyrm">Level 17 - Scales of the Wyrm</h3>
 <p>At 17th level, you can harden yourself against harm like the eldest of dragons. On your turn, you can spend 4 Ki to increase your Armor Class by 2, gain temporary hit points equal to your monk level, and gain immunity to the frightened condition for 10 minutes. For the duration, when you take damage of the type associated with your Draconic Affiliation, you can use your reaction to reduce the damage you take from that source to 0.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-fist">
-<h2 id="way-of-the-fist"><ins>Way of the Fist</ins></h2>
+<details class="subclass">
+<summary>Way of the Fist</summary>
 <p>No warrior looks more unassuming at rest—or is more devastating in motion—than a monk dedicated to the Way of the Fist. This unique fighting style was created by the infamous Garrick Voyle, former hierarch of the Protectorate of Menoth. Voyle deciphered the lost secrets of ancient priest-kings and their guardians and melded them with the martial skills of the Idrian people to create techniques that unite a mortal body with the eternal will of Menoth.</p>
 <h3 id="level-3-reed-in-the-wind">Level 3 - Reed in the Wind</h3>
 <p>Beginning when you choose this tradition at 3rd level, you master the Shifting Sands Stance, allowing you to weave through your foes' strikes unharmed.</p>
@@ -1771,9 +1785,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-flesh-of-steel">Level 17 - Flesh of Steel</h3>
 <p>At 17th level, you gain the ability to make your flesh as hard as forged steel in response to being struck, and you can transmit the kinetic energy of the blow into your fists in order to deliver a counterstrike capable of felling a giant. When a creature hits you with a melee attack, you can spend 3 Ki to reduce the damage by half. After the attack is resolved, you can use your reaction to make an unarmed strike targeting the creature that hit you. If you do, you have advantage on the attack roll, and if you hit, the attack deals extra bludgeoning damage equal to the amount by which the creature's damage was reduced.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-four-fists">
-<h2 id="way-of-the-four-fists"><ins>Way of the Four Fists</ins></h2>
+<details class="subclass">
+<summary>Way of the Four Fists</summary>
 <p>Through the careful manipulation of their ki, monks of the Way of the Four Fists strive to emulate the unusual fighting style of the legendary Monkey King. As they progress in their training, these monks undergo a magical transformation, slowly gaining more simian features. In combat, a master of this monastic tradition is a whirling, leaping blur of elbows, fur, and fists.</p>
 <h3 id="level-3-grasp-of-the-monkey">Level 3 - Grasp of the Monkey</h3>
 <p>When you choose this tradition at 3rd level, you undergo a permanent magical transformation, lengthening your fingers and toes, strengthening your arms and legs, and sprouting a tail. </p>
@@ -1791,9 +1807,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-flurry-of-limbs">Level 17 - Flurry of Limbs</h3>
 <p>At 17th level, by walking on your hands and twirling erratically, you can fight with your feet as nimbly as you do your fists. You add one additional attack to your Hailstorm of Blows class feature.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-four-truths">
-<h2 id="way-of-the-four-truths"><ins>Way of the Four Truths</ins></h2>
+<details class="subclass">
+<summary>Way of the Four Truths</summary>
 <p>Among the followers of the Old Tradition there are martial masters whose discipline leverages the awareness given by the Four Truths.</p>
 <p>Each of the Four Truths is linked to a specific secret technique, handed down in temples to those who can see through the mere words recited in the Truth and reach its purest intrinsic meaning. This technique makes it possible to equate oneself with the cosmos, and from this awareness draw further energy.</p>
 <p>Once training is complete, the novices leave the temple to begin a path of inner growth, becoming warriors and protectors. They are ready to face the dangers of the endless night and their spirit is guided by the deep awareness of themselves and the world that they have grown to understand after years of study and martial practice.</p>
@@ -1811,9 +1829,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-fourth-technique-event-horizon">Level 17 - Fourth Technique: Event Horizon</h3>
 <p>At 17th level, whenever you fail an Attack Roll, a Saving Throw or a Skill check, you can spend 10 Ki to automatically succeed instead.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-gladiator">
-<h2 id="way-of-the-gladiator"><ins>Way of the Gladiator</ins></h2>
+<details class="subclass">
+<summary>Way of the Gladiator</summary>
 <p>Monks who follow the Way of the Gladiator live and die on the bloody sands of the arena in pursuit of glory, gold, and perfection of their martial art. From the dirty fighting of the pits to the flashy spectacle of grand coliseums, there are few who can match their skill with a bronze blade and wrapped fist.</p>
 <h3 id="level-3-combatants-gambit">Level 3 - Combatant's Gambit</h3>
 <p>Starting at 3rd level you specialize in an exotic signature weapon, such as a trident, net, or khopesh. The weapon can be any simple or martial melee weapon that does not have the heavy or two handed property. </p>
@@ -1830,19 +1850,17 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <p>Beginning at 17th level, when another character's turn ends, you may take an immediate additional turn this round. During this turn you have advantage on all Acrobatics, Athletics, and Performance skill checks. </p>
 <p>You must complete a short rest before you can use this feature again.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-ghostspeaker">
-<h2 id="way-of-the-ghostspeaker"><ins>Way of the Ghostspeaker</ins></h2>
+<details class="subclass">
+<summary>Way of the Ghostspeaker</summary>
 <p>It has been said by some that the greatest loss is that the dead have the largest share of wisdom, but no way to pass it on. That sentiment is precisely what drove some monks to take their connections to the dead and to the Wailing Gray and develop them into a school and a way of living. They move and fight with the wisdom of the dead, and their movements are eerie and erratic to suit the strangeness of their knowledge source. By refining their Ki to work from both the energy of their living self and mixing it with the spirits of those who have passed, those who follow the Way of the Ghostspeaker embody the dichotomy of the living and dead, becoming fearsome and unpredictable, but also wise and calculating.</p>
 <h3 id="level-3-silver-wall-style">Level 3 - Silver Wall Style</h3>
 <p>Beginning at 3rd level, your monastic tradition has taught you to tap into the wisdom of those who have come before. Your heightened connection to the dead, and your ability to understand them, allows you to fight in a unique way. You gain the following benefits:</p>
 <ul>
-<li>
-<p>Your attacks with monk weapons and unarmed strikes ignore damage resistances and immunities of undead creatures and can strike creatures in the Ethereal Plane as if they were in the Material Plane.</p>
-</li>
-<li>
-<p>When you use your Patient Defense class feature, you also conjure a wall of shimmering silver that gives you and each ally within 5 feet of you half cover until the start of your next turn.</p>
-</li>
+<li>Your attacks with monk weapons and unarmed strikes ignore damage resistances and immunities of undead creatures and can strike creatures in the Ethereal Plane as if they were in the Material Plane. </li>
+<li>When you use your Patient Defense class feature, you also conjure a wall of shimmering silver that gives you and each ally within 5 feet of you half cover until the start of your next turn.</li>
 </ul>
 <hr>
 <h3 id="level-3-channel-the-wailing-gray">Level 3 - Channel the Wailing Gray</h3>
@@ -1856,14 +1874,12 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-11-ten-thousand-souls">Level 11 - Ten Thousand Souls</h3>
 <p>Beginning at 11th level, the spirits protect you and your allies and hinder your enemies. Your Silver Wall style improves, and a mass of spirits from the Wailing Gray encircle you in combat, forming an aura 10 feet around you. This aura produces the following effects:</p>
 <ul>
+<li>Creatures of your choice treat the area of the aura as difficult terrain.</li>
+<li>As an action, you can spend 4 Ki to direct the wailing spirits at a creature you can see within the aura. That creature must make a Wisdom saving throw or become frightened of you for the next minute. They can repeat the saving throw at the end of each of their turns, ending the effect on a success. </li>
 <li>
-<p>Creatures of your choice treat the area of the aura as difficult terrain.</p>
-</li>
-<li>
-<p>As an action, you can spend 4 Ki to direct the wailing spirits at a creature you can see within the aura. That creature must make a Wisdom saving throw or become frightened of you for the next minute. They can repeat the saving throw at the end of each of their turns, ending the effect on a success.</p>
-</li>
-<li>
-<p>As an action, you can spend 2 Ki to give up to six creatures of your choice within the aura 5 temporary hit points.</p>
+<ul>
+<li>As an action, you can spend 2 Ki to give up to six creatures of your choice within the aura 5 temporary hit points.</li>
+</ul>
 </li>
 </ul>
 <hr>
@@ -1871,23 +1887,17 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <p>Beginning at 17th level, you are truly a bridge between the Wailing Gray and the living. You gain resistance to necrotic damage and you cannot die of old age. Whenever you die, your body reforms after spending 7 days within the Wailing Gray, at a random location on your plane of existence, as determined by your GM.</p>
 <p>Additionally, you can spend 5 Ki to become a phantasmal embodiment of a living Silver Wall, where you gain the following benefits for the next minute:</p>
 <ul>
-<li>
-<p>You are incorporeal, and can move through creatures and objects as if they were difficult terrain.</p>
-</li>
-<li>
-<p>You get a fly speed equal to your movement speed.</p>
-</li>
-<li>
-<p>Your unarmed strikes and attacks with monk weapons deal an additional 1d10 necrotic damage.</p>
-</li>
-<li>
-<p>If you end your turn in the space of another creature, that creature takes 3d10 psychic damage.</p>
-</li>
+<li>You are incorporeal, and can move through creatures and objects as if they were difficult terrain.</li>
+<li>You get a fly speed equal to your movement speed.</li>
+<li>Your unarmed strikes and attacks with monk weapons deal an additional 1d10 necrotic damage.</li>
+<li>If you end your turn in the space of another creature, that creature takes 3d10 psychic damage.</li>
 </ul>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-hidden-doors">
-<h2 id="way-of-the-hidden-doors"><ins>Way of the Hidden Doors</ins></h2>
+<details class="subclass">
+<summary>Way of the Hidden Doors</summary>
 <p>Monks of the Way of the Hidden Doors are masters of battlefield manipulation and cosmic forces. Their monastery is located high on the Eldermount, where they master their arts in frozen isolation. There they consort with extraplanar visitors. From these conferences the monks learn how to manipulate space and defend their homes against threads from beyond, be they the high heavens or darkest hells. Their techniques can transport enemies instantly between spaces, disrupting their bodies and hurling their remains through unseen holes in the fabric of reality.</p>
 <h3 id="level-3-dimensional-strikes">Level 3 - Dimensional Strikes</h3>
 <p>At 3rd level, your blows can send opponents reeling through time and space. When you hit a creature with a melee weapon attack, you can use a reaction to expend 2 Ki and force the target to attempt a Charisma saving throw against your Technique save DC. On a failed saving throw, the target is magically teleported to an unoccupied space you can see within 30 ft.</p>
@@ -1902,9 +1912,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-worldwarden">Level 17 - Worldwarden</h3>
 <p>At 17th level, you are a master of dimensional space in a 120 ft. radius centered on you. As a reaction when a creature you can see within the affected area is magically teleported, you can expend a number of Ki equal to your Proficiency Bonus to deal force damage to the creature. The target takes 1d6 force damage per Ki you expend.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-honed-mind">
-<h2 id="way-of-the-honed-mind"><ins>Way of the Honed Mind</ins></h2>
+<details class="subclass">
+<summary>Way of the Honed Mind</summary>
 <p>The githzerai are practiced monks who force order out of primordial chaos. They achieve this through intense personal reflection and belief, focusing their thoughts to line up perfectly with their bodies in all actions. Many githzerai monasteries across Limbo teach a specialized form of this studious practice, but to outsiders it is all known as the Way of the Honed Mind.</p>
 <p>Few githzerai masters are willing to teach their ways to non-githzerai, but over the generations some students have risen to this lofted level. Those that study the Way of the Honed Mind blur the line between monk-like focus and psychic powers.</p>
 <h3 id="level-3-mental-focus">Level 3 - Mental Focus</h3>
@@ -1922,9 +1934,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-third-eye">Level 17 - Third Eye</h3>
 <p>You have revealed your inner third eye that looks out upon the multiverse with clear vision. You gain truesight out to 60 feet.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-iron">
-<h2 id="way-of-iron"><ins>Way of Iron</ins></h2>
+<details class="subclass">
+<summary>Way of Iron</summary>
 <p>Adherents to the Way of Iron seek tranquility in the art of combat. Unlike other monastic traditions, the Way of Iron focuses on the use of weapons, treating them as extensions of the monk's own body. Followers of the Way of Iron are usually front-line combatants, leaving their temples behind to join in the dance of battle shoulder-to-shoulder with the rank and file soldiers. Grandmasters of the Way of Iron wield any weapon with such grace and ease that the weapons seem to have always been a part of them, the way a hand or an eye would be, and their movement and attacks are full of graceful arcs and twirling flourishes that make battle seem to be more of a dance than a conflict. Adherents to the Way of Iron train relentlessly with one another, and are among the most exceptional duelists in the world, having honed their skill against the best warriors their temples have to offer.</p>
 <h3 id="level-3-roiling-storm-of-iron">Level 3 - Roiling Storm of Iron</h3>
 <p>Starting when you choose this tradition at 3rd level, you gain proficiency in all weapons and armor, and if you are wearing armor you can use your Unarmored Defense feature if the AC it would provide is higher than your AC in armor. Furthermore, all melee weapons that do not have the heavy property are monk weapons for you.</p>
@@ -1944,9 +1958,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-perfect-strike">Level 17 - Perfect Strike</h3>
 <p>At 17th level, you learn to combine an economy of movement with perfect angles of attack, allowing you to strike hard with precision. When you use the Attack action and make only one attack, if the attack hits you can spend 1 Ki as a bonus action to add a +25 bonus to the damage of that attack, provided that you made the attack with a monk weapon.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-leaden-crown">
-<h2 id="way-of-the-leaden-crown"><ins>Way of the Leaden Crown</ins></h2>
+<details class="subclass">
+<summary>Way of the Leaden Crown</summary>
 <p>In contrast to the esoteric ideals of other monastic traditions, monks of the Way of the Leaden Crown have practical aims: the self-governance of humanoid peoples. These monks see the history of the world as a series of clashes between groups of powerful beings, where humanoids were at best collateral damage and at worst disposable pawns. </p>
 <p>To break this cycle of dependence and destruction, monks of the Way of the Leaden Crown master mental powers to fight back against the otherworldly powers of the multiverse and protect humanoid sovereignty. One component of this plan involves training to do battle with powerful outsiders. </p>
 <p>The other equally important component is ensuring that humanoid societies are prepared to overthrow those powerful outsiders already dominating them. To that end, these monks seek political positions that place them in or near decision-making roles where they can influence humanoids to fight back against arch seraphs, arch daemons, and primordials.</p>
@@ -1967,9 +1983,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-psionic-mastery">Level 17 - Psionic Mastery</h3>
 <p>At 17th level, you have mastered the psionic disciplines necessary to defend mortals from outsiders. As an action, you can spend 5 Ki to cast <em>dispel evil and good</em>, <em>hold monster</em>, <em>telekinesis</em>, or <em>wall of force</em>. Wisdom is your spellcasting ability for these spells and you do not need to provide material components when casting them in this way.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-mundanity">
-<h2 id="way-of-mundanity"><ins>Way of Mundanity</ins></h2>
+<details class="subclass">
+<summary>Way of Mundanity</summary>
 <p>There are those who study the arcane as a means to change the world around them. There is a certain arrogance in that concept, so in order to maintain balance there exists a group dedicated to preservation of the natural and the mundane. Monks who follow the Way of Mundanity use both the study of magic and the mastery of their own internal energies to battle those who use the arcane.</p>
 <h3 id="level-3-arcane-detection">Level 3 - Arcane Detection</h3>
 <p>You gain proficiency in the Arcana skill if you do not already have it. Additionally, you can spend 1 Ki to cast the <em>detect magic</em> spell as an action.</p>
@@ -1984,9 +2002,11 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <h3 id="level-17-mundane-perfection">Level 17 - Mundane Perfection</h3>
 <p>At 17th level, you have mastered the art of suppressing the supernatural. You gain immunity to the charmed and frightened conditions. Additionally, you can spend 5 Ki to cast <em>antimagic field</em> without material components. Once you cast <em>antimagic field</em> this way, you can't do so again until you finish a long rest.</p>
 <hr>
+</details>
 </div>
 <div class="subclass-content" data-subclass="way-of-the-tattooed-temple">
-<h2 id="way-of-the-tattooed-temple"><ins>Way of the Tattooed Temple</ins></h2>
+<details class="subclass">
+<summary>Way of the Tattooed Temple</summary>
 <p>Some monks treat their bodies as temples and adorn them with vivid art honoring their values. Practitioners of the Way of the Tattooed Temple ink their bodies as they reach milestones in their personal journey, infusing some of these tattoos with mystical energy that evokes magical properties from the ink. Although some look askance at the appearance of these monks, none doubt their supernatural power.</p>
 <h3 id="level-3-inked">Level 3 - Inked</h3>
 <p>Starting at 3rd level, you gain proficiency with tattooist's tools. In addition, choose one mystical tattoo and gain it. Choose and gain another mystical tattoo at 6th and 11th level.</p>
@@ -1994,48 +2014,23 @@ You gain darkvision out to a range of 60 feet. If you already have darkvision, i
 <hr>
 <h3 id="level-3-mystical-tattoos">Level 3 - Mystical Tattoos</h3>
 <p>When you gain a mystical tattoo, you tattoo yourself or instruct another to tattoo you. Activating your own enlightened potential with the pain and creativity of the tattooing, the ink is imbued with magical powers and becomes a mystical tattoo.</p>
-<ul>
-<li>
 <p><strong>Crane.</strong> You can fly as part of your movement on your turn. At the end of each of your turns, if you are not on the ground you fall to the ground taking damage as normal. You can use a reaction when you are falling and spend 1 Ki to cast the <em>feather fall</em> spell without material components.</p>
-</li>
-<li>
 <p><strong>Eye.</strong> You have advantage on saving throws against illusion effects. As a bonus action, you can spend 2 Ki to gain blindsight to a range of 30 feet for 1 minute.</p>
-</li>
-<li>
 <p><strong>Mandala.</strong> Your Ki maximum is increased by 1. At 11th level this bonus increases to 2. When you are reduced to 0 hit points, you can spend 1 Ki to automatically stabilize yourself before falling unconscious.</p>
-</li>
-<li>
 <p><strong>Mask.</strong> You can spend 2 Ki to cast <em>disguise self</em>. When you use this feature to cast the spell, its duration becomes 8 hours.</p>
-</li>
-<li>
 <p><strong>Monkey.</strong> When you are grappling, you can add your Dexterity modifier, instead of your Strength modifier, to your Athletics ability check. When you take the Attack action, you can spend 1 Ki to make an additional attack as part of that action. This additional attack can only be used to grapple.</p>
-</li>
-<li>
 <p><strong>Mountain.</strong> You gain a +1 bonus to AC when you are unarmed, unarmored, and have no shield. When you take bludgeoning, piercing, or slashing damage, you can use your reaction and spend 1 Ki to gain resistance against the triggering damage.</p>
-</li>
-<li>
 <p><strong>Snake.</strong> You gain resistance to poison damage. When you deal damage with an unarmed strike, you can spend 1 Ki to deal an additional 1d8 poison damage.</p>
-</li>
-<li>
 <p><strong>Spider.</strong> You have a climbing speed of 30 feet. You can spend 3 Ki to cast the <em>web</em> spell without material components.</p>
-</li>
-<li>
 <p><strong>Sun.</strong> You gain resistance to radiant damage. Additionally, when you take damage, you can use your reaction and spend 1 Ki to cause light to erupt from your body. When you do, each creature within 5 feet of you must succeed on a Constitution saving throw or be blinded until the end of your next turn.</p>
-</li>
-<li>
 <p><strong>Tiger.</strong> You can choose to deal slashing damage, instead of bludgeoning damage, with your unarmed strikes. When you deal slashing damage with your unarmed strike, you can spend 1 Ki to deal an extra 1d10 damage.</p>
-</li>
-<li>
 <p><strong>Tree.</strong> You have advantage on saving throws against being knocked prone or being moved against your will. You can spend 2 Ki to cast the <em>entangle</em> spell.</p>
-</li>
-<li>
 <p><strong>Tsunami.</strong> You can breathe air and water and gain a swimming speed of 30 feet. Additionally, when you hit a creature with an unarmed strike, you can spend 1 Ki to attempt to knock the creature down. When you do, the creature must succeed on a Strength saving throw or fall prone.</p>
-</li>
-</ul>
 <hr>
 <h3 id="level-17-living-canvas">Level 17 - Living Canvas</h3>
 <p>Starting at 17th level, when you complete a long rest you can choose a mystical tattoo. You have this tattoo until you use this feature again.</p>
 <hr>
+</details>
 </div>
 </div>
 </div>
