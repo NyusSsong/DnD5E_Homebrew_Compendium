@@ -450,9 +450,9 @@
 
     **Spellcasting Ability.** Charisma is your spellcasting ability for your Boon Spells.
 
-    **Spell Save DC = 8 + your proficiency bonus + your Charisma modifier**
+    **Spell Save DC** = 8 + your proficiency bonus + your Charisma modifier
 
-    **Spell Attack Modifier = your proficiency bonus + your Charisma modifier**
+    **Spell Attack Modifier** = your proficiency bonus + your Charisma modifier
 
     ??? table "Boon Spells"
 
@@ -570,9 +570,9 @@
 
     **Spellcasting Focus.** You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells.
 
-    **Spell Save DC = 8 + your proficiency bonus + your Wisdom modifier**
+    **Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier
 
-    **Spell Attack Modifier = your proficiency bonus + your Wisdom modifier**
+    **Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
 
     ??? table "Hospitaler Spellcasting"
 

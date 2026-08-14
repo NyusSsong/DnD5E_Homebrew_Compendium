@@ -10,6 +10,4 @@ The number of spells available to be cast as a service is limited to a maximum o
 
 The price of spellcasting services is calculated as follows:
 
-**Spellcasting Services Price Calculation**
-
-*(Level)² × 10 + (Consumed Materials × 2) + (Non-consumed Materials × 0.1)*
+**Spellcasting Services Price Calculation** = *(Level)² × 10 + (Consumed Materials × 2) + (Non-consumed Materials × 0.1)*

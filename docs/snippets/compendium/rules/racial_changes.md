@@ -4,20 +4,20 @@ Your draconic heritage manifests in a variety of traits you share with other dra
 
 **Draconic Ancestry.** Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.
 
-**Draconic Ancestors**
+??? table "Draconic Ancestors"
 
-| Dragon | Damage Type |
-|:------------------|:-----:|
-| Black | Acid |
-| Blue | Lightning |
-| Brass | Fire |
-| Bronze | Lightning |
-| Copper | Acid |
-| Gold | Fire |
-| Green | Poison |
-| Red | Fire |
-| Silver | Cold |
-| White | Cold |
+    | Dragon | Damage Type |
+    |:------------------:|:-----:|
+    | Black | Acid |
+    | Blue | Lightning |
+    | Brass | Fire |
+    | Bronze | Lightning |
+    | Copper | Acid |
+    | Gold | Fire |
+    | Green | Poison |
+    | Red | Fire |
+    | Silver | Cold |
+    | White | Cold |
 
 **Breath Weapon.** When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot cone or a 30-foot line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 + your Proficiency Bonus + your Constitution modifier).
 

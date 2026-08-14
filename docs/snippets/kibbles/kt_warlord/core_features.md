@@ -48,21 +48,15 @@ You know three such features: Rallying Mark, Urgent Orders, and Helpful Word. Wh
 
 A Leadership Die is expended when you use it. You regain all expended Leadership Dice when you finish a short or long rest.
 
-##### **Rallying Mark**
-
-As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to rally your allies to attack a hostile creature within 60 feet of you.
+**Rallying Mark.** As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to rally your allies to attack a hostile creature within 60 feet of you.
 
 The next time damage is rolled against that target by an allied creature before the start of your next turn, they can add the Leadership Dice to the damage roll, and the attacking creature regains hit points equal to the amount rolled.
 
-##### **Urgent Orders**
-
-As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to guide your allies in expeditious action.
+**Urgent Orders.** As a bonus action, you can expend a number of Leadership Dice (up to your per turn limit) to guide your allies in expeditious action.
 
 Target an allied creature within 60 feet of you that can see or hear you. That creature can immediately use its reaction to move up to its movement speed (up to 30 feet) without provoking opportunity attacks. Roll the Leadership Dice expended; the target gains temporary hit points equal to the value rolled.
 
-##### **Helpful Word**
-
-As a bonus action, you can expend a Leadership Die to take the Help action. When you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you—rather than within 5 feet—if your ally can see or hear you.
+**Helpful Word.** As a bonus action, you can expend a Leadership Die to take the Help action. When you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you—rather than within 5 feet—if your ally can see or hear you.
 
 <hr>
 
@@ -96,17 +90,11 @@ Allies that benefit from this ability can expend a number of Hit Dice equal to t
 
 Starting at 9th level, your abilities are further empowered.
 
-##### **Rallying Mark: Boost Morale**  
+**Rallying Mark: Boost Morale.** When a creature gains hit points from Rallying Mark, you can use your reaction to expend one Leadership Die to cause another creature within 60 feet of the attacker to regain the same number of hit points.
 
-When a creature gains hit points from Rallying Mark, you can use your reaction to expend one Leadership Die to cause another creature within 60 feet of the attacker to regain the same number of hit points.
+**Urgent Orders: Coordinated Movements.** When you use Urgent Orders, you can expend additional Leadership Dice to target additional creatures (one additional creature per extra die spent).
 
-##### **Urgent Orders: Coordinated Movements**  
-
-When you use Urgent Orders, you can expend additional Leadership Dice to target additional creatures (one additional creature per extra die spent).
-
-##### **Helpful Word: Expert Instructions**  
-
-When a creature benefits from your Help action, you can use your reaction to expend a Leadership Die and add it to their roll. You can use this ability after the roll is made, but before the outcome is known.
+**Helpful Word: Expert Instructions.** When a creature benefits from your Help action, you can use your reaction to expend a Leadership Die and add it to their roll. You can use this ability after the roll is made, but before the outcome is known.
 
 <hr>
 
@@ -133,4 +121,3 @@ Starting at 17th level, you are immune to the frightened and charmed conditions.
 Starting at 20th level, you can roll d4s and use them instead of expending Leadership Dice for Rallying Mark, Urgent Orders, Helpful Word, or Prepare for Battle.
 
 <hr>
-

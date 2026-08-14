@@ -20,10 +20,10 @@
 
 #### Equipment
 
-* *(a)* scale mail or *(b)* leather armor
-* a simple melee weapon and a shield
-* *(a)* two javelins or *(b)* two handaxes
-* *(a)* a dungeoneer's pack or *(b)* an explorer's pack
+- *(a)* scale mail or *(b)* leather armor
+- a simple melee weapon and a shield
+- *(a)* two javelins or *(b)* two handaxes
+- *(a)* a dungeoneer's pack or *(b)* an explorer's pack
 
 Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
@@ -33,9 +33,7 @@ Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
 When you don light or medium armor, you can enhance it with mystical defenses, integrating it with manifestations of your Warden Bond (for example, an Elemental Soul may manifest icy plating to reinforce it). When you do so, you can use your Wisdom modifier in place of your Dexterity modifier when calculating your AC with that armor.
 
-While you have your armor integrated with your primal power, when you take bludgeoning, piercing, or slashing damage, you can reduce the damage taken by 2. This value increases at 5th level (to 3), 9th level (to 4), 13th level (to 5), and 17th level (to 6).
-
-*Rules Tip: Damage Reduction. Damage reduction is applied before damage resistance when calculating damage.*
+While you have your armor integrated with your primal power, when you take bludgeoning, piercing, or slashing damage, you can reduce the damage taken by 2. This value increases at 5th level (to 3), 9th level (to 4), 13th level (to 5), and 17th level (to 6). Damage reduction is applied before damage resistance when calculating damage.
 
 <hr>
 
@@ -59,8 +57,8 @@ The range of this effect increases by 5 feet at 5th level (to 10 feet), and agai
 
 Additionally at 2nd level, you gain access to three d8 endurance dice. You have two ways to use these dice, though other features may grant additional ways to use them:
 
-* Once per turn, when you take damage, you can roll an Endurance Die to reduce the damage taken by the amount rolled (no action required).
-* When you make a saving throw, you can roll an Endurance Die and add it to the saving throw (no action required). You can do this after you roll the save, but before you know the outcome of the save.
+- Once per turn, when you take damage, you can roll an Endurance Die to reduce the damage taken by the amount rolled (no action required).
+- When you make a saving throw, you can roll an Endurance Die and add it to the saving throw (no action required). You can do this after you roll the save, but before you know the outcome of the save.
 
 You gain another die at 5th level (4 dice), 9th level (5 dice), 13th level (6 dice), and 17th level (7 dice). The size of the dice increase at 5th (to d10) and 11th level (to d12). You regain all expended endurance dice when you complete a short or long rest.
 

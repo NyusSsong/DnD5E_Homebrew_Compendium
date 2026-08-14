@@ -29,9 +29,11 @@
 
 Wardens are towers that cannot easily be felled. At 1st level, choose one of the following features.
 
-* **Armor Proficiency.** You gain proficiency with heavy armor.
-* **Primal Toughness.** Your hit point maximum increases by 1 + your Constitution modifier, and it increases by 1 every time you gain a level in this class.
-* **Stalwart Spirit.** You gain proficiency in one saving throw of your choice.
+**Armor Proficiency.** You gain proficiency with heavy armor.
+
+**Primal Toughness.** Your hit point maximum increases by 1 + your Constitution modifier, and it increases by 1 every time you gain a level in this class.
+
+**Stalwart Spirit.** You gain proficiency in one saving throw of your choice.
 
 <hr>
 
@@ -47,10 +49,13 @@ At 14th level, the range of this ability increases to 10 feet.
 
 At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-* **Crippling.** When you hit a creature with a melee weapon attack, its speed is reduced by 10 feet, to a minimum of 0, until the end of its next turn, and it can't take the Dash action until the end of its turn.
-* **Great Weapon Fighting.** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
-* **Protection.** When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a weapon or shield.
-* **Titan Fighting.** You gain a +2 bonus to melee weapon attack rolls you make against Large or larger creatures.
+**Crippling.** When you hit a creature with a melee weapon attack, its speed is reduced by 10 feet, to a minimum of 0, until the end of its next turn, and it can't take the Dash action until the end of its turn.
+
+**Great Weapon Fighting.** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
+
+**Protection.** When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a weapon or shield.
+
+**Titan Fighting.** You gain a +2 bonus to melee weapon attack rolls you make against Large or larger creatures.
 
 <hr>
 
@@ -102,9 +107,11 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 Wardens are faultless trackers, which can navigate hazardous terrain with ease. At 7th level, select one of the following features.
 
-* **Earthstrength.** You possess the might of the earth itself. Your carrying capacity doubles, and you have advantage on ability checks and saving throws against being pushed against your will or knocked prone.
-* **Thundering Charge.** On your first round of combat, your speed increases by 30 feet and you have advantage on the first melee weapon attack you make.
-* **Wildblood.** Your reflexes have been honed by the perils of nature. You can't be surprised while you are conscious. Additionally, you have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.
+**Earthstrength.** You possess the might of the earth itself. Your carrying capacity doubles, and you have advantage on ability checks and saving throws against being pushed against your will or knocked prone.
+
+**Thundering Charge.** On your first round of combat, your speed increases by 30 feet and you have advantage on the first melee weapon attack you make.
+
+**Wildblood.** Your reflexes have been honed by the perils of nature. You can't be surprised while you are conscious. Additionally, you have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.
 
 <hr>
 
@@ -124,9 +131,11 @@ Starting at 10th level, as a reaction when a creature within 5 feet of you makes
 
 Wardens are unshakable guardians that cannot be bowed. At 18th level, choose one of the following features:
 
-* **Ageless Guardian.** You are immune to poison and disease, no longer need food or water, suffer none of the frailty of old age, and can't be aged magically. You can still die of old age, however. Additionally, you have advantage on Dexterity saving throws.
-* **Eyes of the Mountain.** You gain tremorsense with a range of 15 feet, and can detect the presence of hidden or invisible creatures within 30 feet. Additionally, you have advantage on Constitution saving throws.
-* **Impenetrable Mind.** Your thoughts can't be read, and you can't be charmed or frightened. Additionally, you have advantage on Wisdom saving throws.
+**Ageless Guardian.** You are immune to poison and disease, no longer need food or water, suffer none of the frailty of old age, and can't be aged magically. You can still die of old age, however. Additionally, you have advantage on Dexterity saving throws.
+
+**Eyes of the Mountain.** You gain tremorsense with a range of 15 feet, and can detect the presence of hidden or invisible creatures within 30 feet. Additionally, you have advantage on Constitution saving throws.
+
+**Impenetrable Mind.** Your thoughts can't be read, and you can't be charmed or frightened. Additionally, you have advantage on Wisdom saving throws.
 
 <hr>
 

@@ -117,9 +117,9 @@ You can change your list of prepared spells when you finish a long rest. Prepari
 
 **Spellcasting Ability.** Charisma is your spellcasting ability for your Paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Paladin spell you cast and when making an attack roll with one.
 
-**Spell Save DC = 8 + your proficiency bonus + your Charisma modifier**
+**Spell Save DC** = 8 + your proficiency bonus + your Charisma modifier
 
-**Spell Attack Modifier = your proficiency bonus + your Charisma modifier**
+**Spell Attack Modifier** = your proficiency bonus + your Charisma modifier
 
 **Spellcasting Focus.** You use a holy symbol as the focus for Paladin spells. A holy symbol is a Tiny object or emblem that represents the Tenets of your Oath. If it is emblazoned on a shield, it can be used as a spellcasting focus for Paladin spells.
 

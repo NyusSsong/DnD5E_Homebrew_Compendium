@@ -50,16 +50,8 @@ If you have advantage or disadvantage at the same time as an expertise die, only
 
 There are several new skills:
 
-#### Culture
+**Culture.** An Intelligence (Culture) check allows a character to know the customs, laws, trade in regional products, and etiquette of cultures other than their own (a character is presumed to know about their own culture and background without requiring an ability check.) Intelligence (Culture) checks can also be used to communicate simple concepts with creatures whose language is unknown to a character. The ability score associated with this skill is Intelligence.
 
-An Intelligence (Culture) check allows a character to know the customs, laws, trade in regional products, and etiquette of cultures other than their own (a character is presumed to know about their own culture and background without requiring an ability check.)
+**Engineering.** An Intelligence (Engineering) check allows a character to know a fact or advance a project involving building, invention, or mathematics. The ability score associated with this skill is Intelligence.
 
-Intelligence (Culture) checks can also be used to communicate simple concepts with creatures whose language is unknown to a character. The ability score associated with this skill is Intelligence.
-
-#### Engineering
-
-An Intelligence (Engineering) check allows a character to know a fact or advance a project involving building, invention, or mathematics. The ability score associated with this skill is Intelligence.
-
-#### Streetwise
-
-A Charisma (Streetwise) check allows a character to find out social details about an location, including who’s important, what areas are dangerous, and where to acquire goods or services. The ability score associated with this skill is Charisma.
+**Streetwise.** A Charisma (Streetwise) check allows a character to find out social details about an location, including who’s important, what areas are dangerous, and where to acquire goods or services. The ability score associated with this skill is Charisma.

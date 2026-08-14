@@ -19,9 +19,9 @@
 
 #### Equipment
 
-* *(a)* a quarterstaff, *(b)* a dagger, or *(c)* a martial weapon (if proficient)  
-* *(a)* leather armor or *(b)* scale mail (if proficient)  
-* *(a)* a scholar’s pack or *(b)* an explorer’s pack  
+- *(a)* a quarterstaff, *(b)* a dagger, or *(c)* a martial weapon (if proficient)  
+- *(a)* leather armor or *(b)* scale mail (if proficient)  
+- *(a)* a scholar’s pack or *(b)* an explorer’s pack  
 
 <hr>
 

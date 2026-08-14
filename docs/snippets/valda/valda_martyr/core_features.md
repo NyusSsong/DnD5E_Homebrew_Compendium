@@ -18,11 +18,11 @@
 <hr>
 
 #### Equipment
-* *(a)* a martial weapon and a shield or *(b)* two martial weapons
-* *(a)* scale mail or *(b)* chain mail (if proficient)
-* *(a)* a light crossbow and 20 bolts, or *(b)* any simple weapon
-* *(a)* a priest's pack or *(b)* an explorer's pack
-* A holy symbol
+- *(a)* a martial weapon and a shield or *(b)* two martial weapons
+- *(a)* scale mail or *(b)* chain mail (if proficient)
+- *(a)* a light crossbow and 20 bolts, or *(b)* any simple weapon
+- *(a)* a priest's pack or *(b)* an explorer's pack
+- A holy symbol
 
 <hr>
 
@@ -54,16 +54,6 @@ The Martyr table shows the maximum level of spell slot you can create.
 
 The Spell Uses column of the Martyr table shows how many spells you can cast. When you expend hit points to cast a spell, you expend one of these uses. You regain all expended uses when you finish a long rest.
 
-#### Hit Points Spellcasting
-
-| Spell Level | Point Cost |
-|:-----------:|:----------:|
-| 1st | 5 |
-| 2nd | 10 |
-| 3rd | 20 |
-| 4th | 30 |
-| 5th | 45 |
-
 **Preparing Spells.** You prepare the list of martyr spells that are available for you to cast, choosing from the martyr spell list. When you do so, choose a number of martyr spells equal to your Wisdom modifier + half your martyr level, rounded down (minimum of one spell). Spells you choose must be of a level no higher than what's shown on the Max Spell Level column for your level. You can change your list of prepared spells when you finish a long rest.
 
 **Healing Magic.** Because your power is derived from mortal suffering, you can't regain hit points from any spell you cast.
@@ -75,6 +65,16 @@ The Spell Uses column of the Martyr table shows how many spells you can cast. Wh
 **Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier  
 
 **Spellcasting Focus.** You can use a holy symbol as a spellcasting focus for your martyr spells.
+
+    ??? table "Hit Points Spellcasting"
+
+    | Spell Level | Point Cost |
+    |:-----------:|:----------:|
+    | 1st | 5 |
+    | 2nd | 10 |
+    | 3rd | 20 |
+    | 4th | 30 |
+    | 5th | 45 |
 
 <hr>
 

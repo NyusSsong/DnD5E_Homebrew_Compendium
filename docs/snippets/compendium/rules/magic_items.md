@@ -23,10 +23,13 @@ To prevent players from jumping ahead of the curve through aggressive saving or 
 
 This generates the following progression:
 
-- **Levels 1-4 (PB +2):** access to items between levels 1 and 6.
-- **Levels 5-8 (PB +3):** access to items between levels 8 and 11.
-- **Levels 9-12 (PB +4):** access to items between levels 13 and 16.
-- **Levels 13-16 (PB +5):** access to items between levels 17 and 20.
+**Levels 1-4 (PB +2):** access to items between levels 1 and 6.
+
+**Levels 5-8 (PB +3):** access to items between levels 8 and 11.
+
+**Levels 9-12 (PB +4):** access to items between levels 13 and 16.
+
+**Levels 13-16 (PB +5):** access to items between levels 17 and 20.
 
 This way, players can aspire to items slightly above their character level without excessively breaking the progression, rewarding planning without disproportionate power jumps.
 
@@ -61,43 +64,59 @@ The following guidelines establish a series of modifiers that can be applied to 
 
 First, determine if the item has passive or active functionalities (or both). For items with **passive functionalities**, establish the power axis (2-6), where the accessibility axis (how easy it is to exploit) is absorbed by the power axis (what the item does):
 
-- **Minimal:** +1d4 damage, +1 to a roll -> +2
-- **Low:** +1d6 damage, specific resistance, +1 AC -> +3
-- **Medium:** +1d8 or +1d10 damage, broad resistance, situational advantage -> +4
-- **High:** +2d6 damage, control effects, resource recovery, consistent advantage -> +5
-- **Very High:** permanent unconditional advantage, immunities, area of effect -> +6
+**Minimal:** +1d4 damage, +1 to a roll -> +2
+
+**Low:** +1d6 damage, specific resistance, +1 AC -> +3
+
+**Medium:** +1d8 or +1d10 damage, broad resistance, situational advantage -> +4
+
+**High:** +2d6 damage, control effects, resource recovery, consistent advantage -> +5
+
+**Very High:** permanent unconditional advantage, immunities, area of effect -> +6
 
 For items with **only active functionalities**, establish the power axis (what the item does):
 
-- **Minimal:** +1d4 damage, +1 to a roll -> +1
-- **Low:** +1d6 damage, specific resistance, +1 AC -> +2
-- **Medium:** +2dX damage, broad resistance, situational advantage -> +3
-- **High:** control effects, resource recovery, consistent advantage -> +4
-- **Very High:** permanent unconditional advantage, immunities, area of effect -> +5
+**Minimal:** +1d4 damage, +1 to a roll -> +1
+
+**Low:** +1d6 damage, specific resistance, +1 AC -> +2
+
+**Medium:** +2dX damage, broad resistance, situational advantage -> +3
+
+**High:** control effects, resource recovery, consistent advantage -> +4
+
+**Very High:** permanent unconditional advantage, immunities, area of effect -> +5
 
 Second, establish the **accessibility axis** (how easy it is to use):
 
-- **Very Limited:** 1/long rest, full action -> +1
-- **Limited:** fixed uses, bonus action, reactions with conditions -> +2
-- **Moderate:** charges with recharge, unconditional reaction -> +3
-- **High:** unlimited with an activation condition -> +4
-- **Total:** permanent passive with no condition or activation -> +5
+**Very Limited:** 1/long rest, full action -> +1
+
+**Limited:** fixed uses, bonus action, reactions with conditions -> +2
+
+**Moderate:** charges with recharge, unconditional reaction -> +3
+
+**High:** unlimited with an activation condition -> +4
+
+**Total:** permanent passive with no condition or activation -> +5
 
 Third, establish the **range axis** (who it affects):
 
-- **Personal:** only the wielder -> +0
-- **Short:** affects nearby creatures or an ally within 30 ft -> +1
-- **Broad:** area, multiple creatures, or allies at 60 ft or more -> +2
+**Personal:** only the wielder -> +0
+
+**Short:** affects nearby creatures or an ally within 30 ft -> +1
+
+**Broad:** area, multiple creatures, or allies at 60 ft or more -> +2
 
 Fourth, determine if the item requires **attunement**:
 
-- **No attunement required** -> +0
-- **Requires attunement** -> -1
+**No attunement required** -> +0
+
+**Requires attunement** -> -1
 
 Fifth, determine if the item is a **consumable**:
 
-- **Not a consumable** -> +0
-- **Is a consumable** -> -3
+**Not a consumable** -> +0
+
+**Is a consumable** -> -3
 
 Lastly, the DM uses their judgment to apply any power modification that cannot be contemplated in the existing axes. This modification can reduce or increase the item's level by up to -2/+2 levels.
 

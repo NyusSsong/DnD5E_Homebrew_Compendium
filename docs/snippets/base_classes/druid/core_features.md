@@ -53,9 +53,9 @@ For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-l
 
 **Spellcasting Ability.** Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
 
-**Spell Save DC = 8 + your proficiency bonus + your Wisdom modifier**
+**Spell Save DC** = 8 + your proficiency bonus + your Wisdom modifier
 
-**Spell Attack Modifier = your proficiency bonus + your Wisdom modifier**
+**Spell Attack Modifier** = your proficiency bonus + your Wisdom modifier
 
 **Ritual Casting.** You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 

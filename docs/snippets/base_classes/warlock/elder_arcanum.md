@@ -8,12 +8,14 @@ As an action on your turn, you can cast *reincarnate* without expending a spell 
 
 Choose a spell from the list below. You can cast the Ancient Arcanum spell once at 9th-level, without expending a spell slot. Once you cast the spell in this way, you must complete a long rest before you can cast your Ancient Arcanum again.
 
-| | |
-| :-: | :-: |
-| *astral projection* | *power word kill* |
-| *foresight* | *psychic scream* |
-| *gate* | *true polymorph* |
-| *imprisonment* | *weird* |
+??? table "Ancient Arcanum"
+
+    | | |
+    | :-: | :-: |
+    | *astral projection* | *power word kill* |
+    | *foresight* | *psychic scream* |
+    | *gate* | *true polymorph* |
+    | *imprisonment* | *weird* |
 
 #### Arcana of the Ancients
 *Prerequisites: 15th level, Pact of the Tome*
@@ -74,12 +76,14 @@ Once you use this Arcanum you must finish a short or long rest before you can us
 
 Choose a spell from the list below. You can cast the Greater Arcanum spell once at 7th-level, without expending a spell slot. Once you cast the spell in this way, you must complete a long rest before you can cast your Greater Arcanum again.
 
-| | |
-| :-: | :-: |
-| *crown of stars* | *mirage arcane* |
-| *etherealness* | *plane shift* |
-| *finger of death* | *power word pain* |
-| *forcecage* | *teleport* |
+??? table "Greater Arcanum"
+
+    | | |
+    | :-: | :-: |
+    | *crown of stars* | *mirage arcane* |
+    | *etherealness* | *plane shift* |
+    | *finger of death* | *power word pain* |
+    | *forcecage* | *teleport* |
 
 #### Greater Magicks
 *Prerequisites: 13th level, Pact of the Tome*
@@ -91,12 +95,14 @@ Your Eldritch Tome has been saturated with magic, allowing you to draw upon an i
 
 As an action you can infuse your Eldritch Familiar with the full power of your Pact. It transforms, as if by the *polymorph* spell, but it must use the stat block from the corresponding spell on the table below as if the spell were cast at 6th-level:
 
-| Eldritch Familiar | Spell |
-| :-: | :-: |
-| Aberrant | *summon aberration* |
-| Draconic | *summon draconic spirit* |
-| Faerie | *summon fey* |
-| Infernal | *summon fiend* |
+??? table "Minion of Chaos"
+
+    | Eldritch Familiar | Spell |
+    | :-: | :-: |
+    | Aberrant | *summon aberration* |
+    | Draconic | *summon draconic spirit* |
+    | Faerie | *summon fey* |
+    | Infernal | *summon fiend* |
 
 The transformation lasts for 1 minute, or until the familiar is reduced to 0 hit points. Once you use this feature you must complete a long rest before you can use it again.
 
@@ -105,28 +111,32 @@ The transformation lasts for 1 minute, or until the familiar is reduced to 0 hit
 
 Choose a spell from the list below. You can cast the Minor Arcanum spell once at 6th-level, without expending a spell slot. Once you cast the spell in this way, you must complete a long rest before you can cast your Minor Arcanum again.
 
-| | |
-| :-: | :-: |
-| *arcane gate* | *investiture of wind* |
-| *circle of death* | *mass suggestion* |
-| *create undead* | *mental prison* |
-| *eyebite* | *otherworldly guise* |
-| *flesh to stone* | *scatter* |
-| *investiture of flame* | *soul cage* |
-| *investiture of ice* | *summon fiend* |
-| *investiture of stone* | *true seeing* |
+??? table "Minor Arcanum"
+
+    | | |
+    | :-: | :-: |
+    | *arcane gate* | *investiture of wind* |
+    | *circle of death* | *mass suggestion* |
+    | *create undead* | *mental prison* |
+    | *eyebite* | *otherworldly guise* |
+    | *flesh to stone* | *scatter* |
+    | *investiture of flame* | *soul cage* |
+    | *investiture of ice* | *summon fiend* |
+    | *investiture of stone* | *true seeing* |
 
 #### Mystic Arcanum
 *Prerequisites: 15th level*
 
 Choose a spell from the list below. You can cast the Mystic Arcanum spell once at 8th-level, without expending a spell slot. Once you cast the spell in this way, you must complete a long rest before you can cast your Mystic Arcanum again.
 
-| | |
-| :-: | :-: |
-| *demiplante* | *maddening darkness* |
-| *dominate monster* | *maze* |
-| *feeblemind* | *power word stun* |
-| *glibness* | *telepathy* |
+??? table "Mystic Arcanum"
+
+    | | |
+    | :-: | :-: |
+    | *demiplante* | *maddening darkness* |
+    | *dominate monster* | *maze* |
+    | *feeblemind* | *power word stun* |
+    | *glibness* | *telepathy* |
 
 #### Occult Scholar
 *Prerequisites: 11th level, Pact of the Tome*

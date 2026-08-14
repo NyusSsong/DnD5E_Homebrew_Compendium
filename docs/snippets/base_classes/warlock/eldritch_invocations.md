@@ -224,14 +224,14 @@ You are under the constant effects of the *nondetection* spell.
 
 When you cast *find familiar*, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:
 
-* Your familiar can use your spell attack bonus for its attack rolls.
-* Your familiar adds your proficiency bonus to its Armor Class, saving throws, attack rolls and damage rolls.
-* You add twice your Warlock level to your familiar's maximum hit points.
-* Your familiar can take its turn immediately before or after your turn each round (your choice).
-* You no longer need to forgo one of your attacks to allow your familiar to make its attack. Instead, they can use their action to attack.
-* The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.
-* If the familiar forces a creature to make a saving throw, it uses your spell save DC.
-* When the familiar takes damage, you can use your reaction to grant it resistance against that damage.
+- Your familiar can use your spell attack bonus for its attack rolls.
+- Your familiar adds your proficiency bonus to its Armor Class, saving throws, attack rolls and damage rolls.
+- You add twice your Warlock level to your familiar's maximum hit points.
+- Your familiar can take its turn immediately before or after your turn each round (your choice).
+- You no longer need to forgo one of your attacks to allow your familiar to make its attack. Instead, they can use their action to attack.
+- The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.
+- If the familiar forces a creature to make a saving throw, it uses your spell save DC.
+- When the familiar takes damage, you can use your reaction to grant it resistance against that damage.
 
 #### Knowledge of Antiquity
 *Prerequisites: Path of the Hourglass feature*

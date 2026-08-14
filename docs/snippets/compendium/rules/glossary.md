@@ -36,20 +36,17 @@ reduced to 0.
 
 When you take the Help action, you do one of the following:
 
-- **Assist Ability Check.** Choose one of your skill or tool proficiencies and one ally who can perceive you. Doing so gives the ally advantage on the next ability check that ally makes with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible.
+**Assist Ability Check.** Choose one of your skill or tool proficiencies and one ally who can perceive you. Doing so gives the ally advantage on the next ability check that ally makes with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible.
 
-- **Assist Attack Roll.** You momentarily distract an enemy within 5 feet of you. The next attack roll against that enemy has advantage. This benefit expires at the start of your next turn.
+**Assist Attack Roll.** You momentarily distract an enemy within 5 feet of you. The next attack roll against that enemy has advantage. This benefit expires at the start of your next turn.
 
 ### Invisible [Condition]
 
 While invisible, you experience the following effects:
 
 - An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.
-
 - Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage. If a creature can somehow see the invisible creature, such as with magic, or blindsight, they don't gain this benefit against that creature.
-
 - An invisible creature isn't affected by any effect that requires its target to be seen.
-
 - If a creature is invisible when they roll initiative, they have advantage on the roll.
 
 ### Interrupting a Long Rest
@@ -57,11 +54,8 @@ While invisible, you experience the following effects:
 A long rest is stopped by the following interruptions:
 
 - Rolling initiative.
-
 - Casting a spell other than a cantrip.
-
 - Taking any damage.
-
 - 1 hour of walking or other physical exertion.
 
 If the rest was at least 5 minutes long before the interruption, you gain the benefits of a short rest, if available. You can resume a long rest immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption.
@@ -71,9 +65,7 @@ If the rest was at least 5 minutes long before the interruption, you gain the be
 A short rest is stopped by the following interruptions:
 
 - Rolling initiative.
-
 - Casting a spell other than a cantrip.
-
 - Taking any damage.
 
 An interrupted short rest confers no benefits, and must be started over to confer any.
@@ -86,14 +78,14 @@ You must be proficient in the relevant skill presented in the following table, d
 
 If you fail the ability check, you cannot repeat it. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.
 
-**Monster Lore**
+??? table "Monster Lore"
 
-| Creature Type | Field of Study |
-|:------------------|:-----:|
-| Aberrations, Constructs, Elementals, Fey, Dragons, Monstrosities | Arcana |
-| Giants, Humanoids | History |
-| Beasts, Oozes, Plants | Nature |
-| Celestials, Fiends, Undead | Religion |
+    | Creature Type | Field of Study |
+    |:------------------|:-----:|
+    | Aberrations, Constructs, Elementals, Fey, Dragons, Monstrosities | Arcana |
+    | Giants, Humanoids | History |
+    | Beasts, Oozes, Plants | Nature |
+    | Celestials, Fiends, Undead | Religion |
 
 ### Swim Speed
 
@@ -138,11 +130,7 @@ specified range. Within that range, the creature’s vision
 pierces through the following:
 
 - The creature can see in normal and magical darkness.
-
 - The creature can see creatures that have the invisible condition and objects that are obscured by magic.
-
 - Visual illusions appear transparent to the creature, and the creature automatically succeeds on saving throws against them.
-
 - The creature discerns the true form of any creature or object it sees that has been transformed by magic.
-
 - The creature can see into the Ethereal Plane.

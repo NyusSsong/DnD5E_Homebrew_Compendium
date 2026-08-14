@@ -102,12 +102,17 @@ Once discovered, your Signature Spell is added as a new spell in your Spellbook.
 
 At certain Wizard levels, your study results in additional Signature Spells: at 11th-level you create a new Signature Spell of 2nd-level or lower, and at 17th-level you gain a Signature Spell of 3rd-level or lower. Alternatively, whenever you create a new Signature Spell, you can select a previous Signature Spell and modify it again.
 
-* **Casting Time.** If the spell has a casting time of one action, it becomes one bonus action, but the spell level of this spell increases by 1.
-* **Components.** You remove components from the spell. It must have at least one remaining component. You cannot remove components that are consumed or have a gold cost. For each component you remove, the level of this spell increases by 1.
-* **Concentration.** The level of this spell increases by 1, but if you fail a saving throw to maintain your concentration on this spell you can use your reaction to automatically succeed instead.
-* **Damage.** You replace all the damage dealt by the spell with the type of damage dealt by another spell contained in your Spellbook.
-* **Ritual.** If the spell lacks the Ritual tag, it has a casting time of one action or one bonus action, and it does not have a material component with a gold cost, it becomes a ritual spell for you.
-* **Shape.** You modify the shape of a spell that normally targets a cone, cube, cylinder, line, or sphere to target an area of equivalent size (the same number of 5-foot cubes) but a new shape.
+**Casting Time.** If the spell has a casting time of one action, it becomes one bonus action, but the spell level of this spell increases by 1.
+
+**Components.** You remove components from the spell. It must have at least one remaining component. You cannot remove components that are consumed or have a gold cost. For each component you remove, the level of this spell increases by 1.
+
+**Concentration.** The level of this spell increases by 1, but if you fail a saving throw to maintain your concentration on this spell you can use your reaction to automatically succeed instead.
+
+**Damage.** You replace all the damage dealt by the spell with the type of damage dealt by another spell contained in your Spellbook.
+
+**Ritual.** If the spell lacks the Ritual tag, it has a casting time of one action or one bonus action, and it does not have a material component with a gold cost, it becomes a ritual spell for you.
+
+**Shape.** You modify the shape of a spell that normally targets a cone, cube, cylinder, line, or sphere to target an area of equivalent size (the same number of 5-foot cubes) but a new shape.
 
 <hr>
 

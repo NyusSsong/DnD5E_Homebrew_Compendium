@@ -183,9 +183,9 @@
 
     **Spellcasting Focus.** You can use an Arcane Focus as a Spellcasting Focus for the spells you prepare for this subclass.
 
-    **Spell Save DC = 8 + your proficiency bonus + your Intelligence modifier**
+    **Spell Save DC** = 8 + your proficiency bonus + your Intelligence modifier
 
-    **Spell Attack Modifier = your proficiency bonus + your Intelligence modifier**
+    **Spell Attack Modifier** = your proficiency bonus + your Intelligence modifier
 
     ??? table "Eldritch Knight Spellcasting"
 
