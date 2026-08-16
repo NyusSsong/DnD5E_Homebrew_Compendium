@@ -1,0 +1,129 @@
+# Cursesmith
+
+A Cursesmith's power is invariably marked by the dark decisions they've made; some ignore this lingering darkness, pursuing the heights of power their reckless creation allows. Others leverage the twisted side effects themselves, believing there are no mistakes, only opportunities. Darker still are those that truly embrace the darkness of their twisted creations, becoming twisted creations themselves.
+
+A Cursesmith is not always evil, but they walk a path that dangles precariously over evil, making it an easy thing to fall into. They may be lawful, but the laws they respect are rarely those of normal mortal society that might get in the way of their dark delving.
+
+## Cursesmith's Proficiency
+
+When you choose this specialization at 1st level, you gain proficiency with one artisan's tool of your choice, and learn one language of your choice from Infernal, Abyssal, Deepspeech, or Primordial.
+
+Additionally, you have advantage on any check to determine the nature of a curse.
+
+## Forbidden Artifact
+
+At 1st level, you set yourself apart from other Inventors by seizing power that others dare not wield. You partake in a dark ritual investing enormous power and a part of your soul into a weapon. The weapon becomes permanently bound to you. You have proficiency with the weapon. If the weapon is lost or destroyed, you can reform it by drawing on its connection to your soul. This is a special ritual that takes 1 day, and summons the weapon to you if it was lost, or recreates it if it was destroyed.
+
+When you perform the rite, select two of the following upgrades: Empowered Artifact, Abhorrent Life, Grasping Form, Twisting Reach, Necrotic Wounding, or Eldritch Eruption. You can select additional properties as Upgrades, but your Forbidden Artifact can have a maximum number of these Upgrades equal to your proficiency bonus (meaning the first time you can select an additional property is 5th level).
+
+### Abhorrent Life
+
+Your Forbidden Artifact takes a life of its own, writhing and lashing on its own at your mental direction. You can apply your Intelligence modifier to the attack and damage rolls of the weapon where you usually apply your Strength or Dexterity modifier.
+
+### Eldritch Eruption
+
+You can release magical blasts of power from the weapon that deal damage equal to the weapon's damage dice. Select from cold, fire, lightning or necrotic for its damage type when you select this upgrade. In place of making an attack with this weapon, you can release this energy as a ranged spell attack. The ranged spell attack has a range of 60 feet. You can apply your Intelligence modifier to damage done with this attack.
+
+### Empowered Artifact
+
+The weapon hums with great power. When you roll damage with an attack made with the weapon, you can reroll one of the weapon's damage dice.
+
+When attacking objects or structures, you can instead maximize its damage dice.
+
+### Grasping Form
+
+Your Forbidden Artifact can twist around, binding targets. When you hit an attack with it, you can attempt to grapple the target as a bonus action. If you have the Abhorrent Life property, you can make an Intelligence (Athletics) check to initiate or sustain the grapple. You can't attack other creatures while grappling a creature with this weapon.
+
+### Necrotic Rot
+
+The weapon is enshrouded in dark energy. Each time you hit a creature with it, it inflicts a stack of necrotic rot on the creature. At the end of that creature's turn it takes 1d4 damage per stack of necrotic rot on it and makes a Constitution saving throw against your spell save DC. On a success, all stacks are removed. You can have a maximum number of stacks on a creature equal to your proficiency modifier.
+
+### Twisting Reach
+
+If your Forbidden Artifact is a melee weapon, it stretches and flexes unnaturally in seeking its targets. Its range increases by 5 feet.
+
+## Soul Investiture
+
+Due to your unique bond to your Forbidden Artifact, as a bonus action you can feed part of your soul into the weapon to empower it, weakening you and empowering it. While weakened in this way, you are under the effect of the *bane* spell. While empowered, the weapon deals an extra 1d6 necrotic damage on hit.
+
+You can make a DC 10 Charisma saving throw as an action to reclaim the invested soul, ending the investiture on success. If you finish a long rest while your soul is invested into the weapon, the number of Hit Dice you regain is halved.
+
+> **Drawbacks of Investiture**
+>
+> Soul Investiture is usually not a good idea, and forms only part of the power budget of the weapon. When interacting with various upgrades it can be quite powerful, but it is a risky and high-cost option.
+
+## Cursed Path
+
+Starting at 3rd level, the path you've chosen begins to claim your body and soul: some could call it a curse, some could call it further opportunity. Select a path from the following.
+
+### Curse Bearer
+
+Your soul can carry great burdens. When you are under the effect of *bane*, you can choose to ignore the effect for a roll. Once you choose to ignore the effect, you can't do so again until the start of your next turn.
+
+Additionally, when you suffer the effect of any curse from one of the upgrades granted by this class, you can suppress the effect, ignoring its negative consequences. You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest. If the curse is an ongoing effect, it is suppressed until the start of your next turn.
+
+> **Other Curses**
+>
+> At your GM's discretion, you may be able to use this feature to shrug off the effects of other lesser curses.
+
+When you select this path, you learn the following spells at the following levels. These spells do not count against your spells known, and are Inventor spells for you.
+
+| Inventor Level | Spell |
+|---|---|
+| 3rd | protection from evil and good |
+| 5th | warding bond |
+| 9th | protection from energy |
+| 13th | death ward |
+| 17th | dispel evil and good |
+
+### Curse Bringer
+
+You can force your soul's burdens onto others. When you make an attack roll while under the effect of *bane*, if you hit the creature after rolling a 3 or 4 on the d4 from bane, the target suffers the effect of *bane* until the end of your next turn. This effect is extended to the end of your subsequent next turn if you hit them with your Forbidden Artifact again while they are afflicted (regardless of the roll of the bane die).
+
+Additionally, when you suffer the effect of any curse from one of the upgrades granted by this class, as a reaction, you can force another creature within 30 feet to make a Charisma saving throw against your spell save DC or suffer the same effect. You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.
+
+When you select this path, you learn the following spells at the following levels. These spells do not count against your spells known, and are Inventor spells for you.
+
+| Inventor Level | Spell |
+|---|---|
+| 3rd | bane |
+| 5th | disorient* |
+| 9th | bestow curse |
+| 13th | phantasmal killer |
+| 17th | killing curse* |
+
+### Curse Eater
+
+You consume your Forbidden Artifact, destroying it and afflicting yourself with a terrible curse. You gain a melee natural weapon as the manifestation of this cursed power. On hit, this weapon deals 1d8 damage of your choice of bludgeoning, piercing, or slashing damage (selected when you gain this feature), and 1d4 necrotic damage. All effects that apply to a Forbidden Artifact apply to this natural weapon. You can apply Soul Investiture to this natural weapon.
+
+Additionally, you can absorb any item you create with this specialization, innately gaining its effect and curse. At the start of your turn while you are not incapacitated you gain temporary hit points equal to 1 + the number of cursed items you have consumed with this ability. If you are under the effect of *bane*, this becomes 1d4 + the number of cursed items you have consumed with this ability.
+
+Additionally, when you gain temporary hit points from this feature, you can instead regain hit points equal to the temporary hit points you would have gained. You can regain hit points this way a number of times equal to your proficiency bonus, regaining all uses on a long rest.
+
+When you select this path, you learn the following spells at the following levels. These spells do not count against your spells known, and are Inventor spells for you.
+
+> **Unnatural Natural Weapons**
+>
+> The form of your natural weapon is largely whatever you want it to be. Slashing razor claws, chomping vampiric fangs, flailing tendrils, protruding spikes, integrated weapons, or anything you can imagine. Simply select the most appropriate damage type and pick a thematic element that suits your character.
+
+| Inventor Level | Spell |
+|---|---|
+| 3rd | inflict wounds |
+| 5th | darkness |
+| 9th | mutate* |
+| 13th | ichorous blood* |
+| 17th | devouring darkness* |
+
+*\* Denotes a custom/homebrew spell not found in standard 5E sourcebooks.*
+
+## Damned Affinity
+
+Additionally at 3rd level, magical items granted by this subclass that require attunement do not count against your attunement total if that item is cursed.
+
+## Extra Attack
+
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+## Unlimited Power
+
+Starting at 14th level, when you use Soul Investiture, you can double the amount of bonus damage gained, but take 1 necrotic damage for each turn it has been active at the end of each of your turns while it is active. This damage bypasses immunity and can't be resisted in any way.

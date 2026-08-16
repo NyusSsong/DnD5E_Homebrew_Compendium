@@ -1,0 +1,178 @@
+# Thundersmith Upgrades
+
+## Unrestricted Upgrades
+
+### Adaptable Weapon
+
+You can adapt a weapon without the ammunition property to have an alternate attack type giving it the functionality of a Hand Cannon, or give a weapon with the ammunition property an alternate attack with the properties of a Charged Blade.
+
+> **How to merge your weapons.**
+>
+> If you want to call it a gunblade, I'm not here to stop you, but it can be any range of configuration, from a bayonet to something more exotic.
+
+### Extended Range
+
+You extend the reach of your Stormforged Weapon. If your Stormforged Weapon has the ammunition property, its range is extended; normal range is extended by 30 feet, and maximum range is extended by 90 feet. If your Stormforged Weapon is a melee weapon with the two-handed property, it gains the reach property.
+
+### Lightning Burst
+
+You upgrade your Stormforged Weapon to discharge its power within a 5-foot-wide 60-foot-long line. If you have not dealt Thundermonger damage since the start of your turn, as an action, you can make a special attack. Each creature in the area must make a Dexterity saving throw against your spell save DC or take damage equal to the bonus damage of Thundermonger as lightning damage on a failed save, half as much on a successful save.
+
+This counts as discharging your Thundermonger damage. Firing in this way doesn't consume ammo.
+
+### Lightning Magic
+
+After a long study of the internal workings of your Stormforged Weapon, your mastery of lightning and thunder magic is such that you learn the following spells at the following levels and can cast them as Inventor Spells.
+
+| Inventor Level | Spell |
+|---|---|
+| 3rd | lightning tendril* |
+| 5th | crackle* |
+| 9th | lightning bolt |
+| 13th | jumping jolt* |
+| 15th | sky burst* |
+
+You can cast *lightning tendril*\* without expending a spell slot, after which you must finish a long rest before you can cast it without expending a spell slot again. Starting at 5th level, you can choose to cast *crackle*\* without expending a spell slot instead.
+
+### Point Blank
+*Prerequisite: Hand Cannon*
+
+Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls. Additionally, you can use your Hand Cannon when making opportunity attacks.
+
+### Silencer
+*Incompatible with Echoing Boom*
+
+You upgrade your Stormforged Weapon with a sound dampening module. Your Stormforged Weapon loses the loud property. Additionally, you can expend a 2nd-level spell slot to overcharge the Silencer, casting the *silence* spell.
+
+> **Note:** Sound—and consequently thunder damage—can't pass through *silence* or affect a creature inside its area of effect.
+
+### Shock Absorber
+
+You add a reclamation device to your Stormforged Weapon to gather energy from the surroundings when it is present. As a reaction to taking Lightning or Thunder damage, you can gain resistance to that damage type until the start of your next turn. When you do so, the next time you roll Thundermonger damage before the end of your next turn, it deals an extra 1d6 damage.
+
+### Sonic Movement
+*Prerequisite: Stormforged weapon that can deal Thunder damage*
+
+You recalibrate and rebalance your weapon to leverage the backdraft of the force it exerts. When you make an attack with your Stormforged weapon that would deal thunder damage on your turn, you are knocked 5 feet away from the target you attacked. This movement doesn't provoke opportunity attacks.
+
+### Storm Blast
+
+You can make a special attack with your Stormforged Weapon, unleashing a storm blast in a 30-foot cone as an action. Each creature in the area must make a Strength saving throw against your spell save DC, or take damage equal to the bonus damage of Thundermonger and be knocked prone.
+
+This counts as discharging your Thundermonger damage. Firing in this way doesn't consume ammo.
+
+If using a Kinetic Hammer, you can use your Strength to calculate the DC of this ability (8 + your Strength modifier + your proficiency bonus) instead of your spell save DC.
+
+### Twin Thunder
+
+You can attune to two one-handed Stormforged Weapons at the same time, so long as they either share the same Upgrades, or have total Upgrades equal to your maximum Upgrade count between them. Attuning to a second weapon this way doesn't count against your maximum number of attuned items. If you make an attack with one of them while holding the other, you can attack with the other as a bonus action, however, both share the same use of Thundermonger. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative or you have the Two-Weapon Fighting Fighting Style.
+
+While dual wielding a Stormforged Weapon, you can load a Stormforged Weapon without a free hand.
+
+### Weapon Improvement
+
+Your Stormforged Weapon gains a +1 to attack and damage rolls. This doesn't stack with any benefit gained from Arcane Retrofit, and this upgrade can be replaced as part of applying a bonus to your Stormforged Weapon via Arcane Retrofit.
+
+## 5th-Level Upgrades
+
+### Echoing Boom
+*Incompatible with Silencer*
+
+You pack extra power into your Thundermonger, increasing the damage it deals by 1d6.
+
+### Harpoon Reel
+
+You devise an alternate attack method for your Stormforged Weapon that launches a harpoon attached to a tightly coiled cord. This attack has a normal range of 30 feet and a maximum range of 60 feet, and it deals 1d6 piercing damage. This attack doesn't apply Thundermonger damage. This attack can target a surface, object, or creature.
+
+A creature struck by this attack is impaled by the Harpoon unless it removes the Harpoon as an action, which causes it to take an extra 1d6 damage. While the Harpoon is stuck in the target, you are connected to the target by a 60 foot cord. Dragging the connected party via the attached cord causes the creature moving to move at half speed unless they are a size category larger.
+
+While connected in this manner, you can use your bonus action to activate the Reel action, pulling yourself to the location if the target is Medium or larger. A Small or smaller creature is pulled back to you, ending the connection. Alternatively, you can opt to disconnect the cord.
+
+This attack can't be used again until the Reel action is taken.
+
+> **Connected... by a Rope**
+>
+> Note that Harpooning a creature means that there is a rope connecting you to them. While you can use this to move them as per the ability, they can also use this to move you, particularly if they are substantially larger. Many Thundersmiths were last seen saying "I got this" and then Harpooning a dragon. User discretion is advised.
+
+### Terrifying Thunder
+*Prerequisite: Echoing Boom*
+
+You add an additional amplifier to maximize the shock and awe value of your Stormforged Weapon. The first time a target takes damage from Thundermonger, they are deafened until the end of their next turn.
+
+Additionally, they must make a Wisdom saving throw against your spell save DC or become frightened of you for one minute. They can repeat this saving throw at the end of each of their turns.
+
+On a successful saving throw, the creature is immune to Terrifying Thunder for 24 hours.
+
+## 9th-Level Upgrades
+
+### Elemental Swapping
+
+You upgrade the firing chamber for more adaptable damage. When you take the attack action with your Stormforged Weapon you can adjust its elemental properties, causing any bonus damage granted by Thundermonger to deal acid, cold, fire, lightning, or thunder damage instead of thunder damage.
+
+Alternatively, you can use a vial of holy water to cause your next Thundermonger bonus damage to deal radiant damage.
+
+### Mortar Shells
+*Prerequisite: Stormforged weapon with the Ammunition property*
+
+You build an alternate fire mode allowing you to fire your Stormforged Weapon like a mortar. Pick a target point within range, and make an attack roll. Apply the attack roll to all creatures within a 5-foot radius of the target point. Creatures hit take the weapon's damage plus half of the Thundermonger bonus damage. Dealing damage this way counts as applying Thundermonger damage for the turn. If you miss all targets, you can apply Devastating Blasts as normal.
+
+Creatures do not benefit from cover against this fire mode unless they have overhead cover as well.
+
+### Ride the Lightning
+*Prerequisite: Lightning Burst*
+
+When you use the Lightning Burst ability, you can opt to expend a spell slot of 1st level or higher to infuse yourself into the burst of power. When you do so you are teleported up to 60 feet in the direction of the Lightning Burst (ending early if the Lightning Burst is blocked by an obstacle). You can stop anywhere along the path of the Lightning Burst, but the line will stop where you do.
+
+### Shock Harpoon
+*Prerequisite: Harpoon Reel*
+
+After hitting a creature with the Harpoon fire mode, you can use a bonus action to deliver a shock. If you have not dealt Thundermonger damage since the start of your turn, you can deal damage equal to your Thundermonger bonus damage as lightning damage. This counts as discharging your Thundermonger damage. Additionally, the target must make a Constitution saving throw against your spell save DC or be stunned until the end of its next turn.
+
+Once used, the Harpoon must be reeled in before this can be used again.
+
+### Synaptic Feedback
+
+You install a feedback loop into your cannon, allowing you to siphon some energy from your Stormforged Weapon to empower your reflexes.
+
+Whenever you deal lightning damage with your Stormforged Weapon your walking speed increases by 10ft and you can take the Dash or Disengage actions as a bonus action. This effect lasts until the end of your turn.
+
+### Thunder Jump
+
+You build a quick release for the arcane thundering energy that fills your Stormforged Weapon. As an action you can discharge your Thunder Cannon downward, launching yourself up to 60 feet in any direction. This movement doesn't provoke opportunity attacks, and you carry up to one willing creature of your choice within 5 feet with you. Neither you or the carried creature takes falling damage on landing.
+
+Creatures that are within 10 feet of you when you use this ability must make a Dexterity saving throw against your spell save DC. On failure, they take damage equal to half of your Thundermonger damage. On success, they take half as much damage. This counts as discharging your Thundermonger damage. Firing in this way doesn't consume ammo.
+
+### Transforming Weapon
+*Prerequisite: Adaptable Weapon*
+
+Select 3 of Thunder Cannon, Hand Cannon, Kinetic Hammer, Charged Blade, and Lightning Pike. As a bonus action, you can transform your Stormforged Weapon between them.
+
+## 11th-Level Upgrades
+
+### Backblast
+
+After dealing thunder damage on your turn, you can create a burst of thunderous sound that can be heard up to 100 feet away as a bonus action. Each creature within 5 feet, other than you, must make a Constitution saving throw or take 3d6 thunder damage. You can do this a number of times equal to your Intelligence modifier, regaining all uses after a long rest. This damage increases by 1d6 when you reach 17th level to a total of 4d6.
+
+### Blast Radius
+
+Your Devastating Blasts feature now deals half your weapon damage (including your modifier) in addition to half your Thundermonger damage when you apply it to a missed target that is within 30 feet of you.
+
+### Stabilization
+
+When making a ranged weapon attack with your Stormforged Weapon, if neither you nor your target has moved since your last ranged attack against them, then you gain advantage on the attack. Also, being prone no longer causes you to have disadvantage when making a ranged weapon attack with your Stormforged Weapon.
+
+## 15th-Level Upgrades
+
+### Massive Overload
+*Prerequisite: Storm Blast or Lightning Burst*
+
+Before making an attack with your Stormforged Weapon, you can expend a spell slot of 3rd level or higher to use Storm Blast or Lightning Burst at the same time as making an attack; in this case the Storm Blast or Lightning Burst is powered by the spell slot and doesn't count as applying Thundermonger for that turn. The direction of this secondary ability is the same as your attack.
+
+Doing this damages your Stormforged Weapon and you must spend an action to repair it before you can fire again. You must have the secondary ability unlocked as an upgrade to use it.
+
+### Masterwork Weapon
+*Prerequisite: Weapon Improvement*
+
+The bonus to attack and damage rolls for your Stormforged Weapon increases by +2 (stacking with any existing bonus from Weapon Improvement or Arcane Retrofit), up to a maximum of +4.
+
+*\* Denotes a custom/homebrew spell.*

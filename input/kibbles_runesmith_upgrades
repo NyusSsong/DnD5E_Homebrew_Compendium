@@ -1,0 +1,288 @@
+# Runesmith Upgrades
+
+## Unrestricted Upgrades
+
+### Animate Inscription
+
+You mark a special rune on yourself or an item in your possession to represent a familiar. You can spend a Hit Die to give it life and cast *find familiar* using this rune. When you cast *find familiar* in this way it doesn't require a spell slot or require material components, and the casting time is one action.
+
+### Arcane Glyph
+
+You learn how to translate a spell you know with a range of self into a glyph that can be marked on a creature or piece of armor. As a special 1 minute ritual, you can cast a spell you know with a casting time of 1 action, casting the spell as normal. The spell doesn't take immediate effect, but instead becomes imbued as a special glyph on a creature or armor you are touching. This glyph has no passive effect, but when activated with an action, it casts the stored spell as if the creature the glyph was marked on cast the spell.
+
+Alternatively, the creature marked with this glyph or wearing armor marked with this glyph that is aware of its presence can use this glyph to cast the spell marked within as if they cast the spell stored using a magical item. The casting uses your spellcasting ability, spell attack, and spell save DC.
+
+The glyph immediately fades after the spell has been cast (the spell lasts as normal). The glyph fades when the Runesmith that marked it finishes a long rest.
+
+### Channel Magic
+
+You can cast a spell with a range of touch on a creature marked by one of your runes, wearing armor marked by one of your runes, or wielding a weapon marked by one of your runes, regardless of the distance between you.
+
+Additionally, you can cast any spell the rune grants, with the creature marked by the rune as the point of origin of the spell.
+
+> **Example: Runic Lightning Bolts**
+>
+> This would mean that when you cast *lightning bolt* from Greater Rune Magic, you could cast that lightning bolt either from your current position, or from the Rogue's position, giving you great flexibility.
+
+### Glyph Magic
+
+You gain the ability to cast glyphs. You learn the following spells at the following levels. These spells are Inventor spells for you, but do not count against your spells known.
+
+| Type | Effect | Level Requirement |
+|---|---|---|
+| Absorption | You learn the *glyph of absorption* spell. | — |
+| Fire | You learn the *glyph of fire* spell. | — |
+| Frost | You learn the *glyph of frost* spell. | — |
+| Translocation | You learn the *glyph of translocation* spell. | 5 |
+| Nullification | You learn the *glyph of nullification* spell. | 9 |
+| Gravity | You learn the *glyph of gravity* spell. | 13 |
+
+### Mark of Messaging
+
+You can place a special runic mark on a creature or item. This mark lasts until you mark it again or take a long rest. Subsequently you can cast the *message* spell targeting the marked creature, or a creature carrying the marked item, regardless of distance between you and the target.
+
+### Mark of Shielding
+
+As an action, you can place a special mark on a creature or armor. This mark lasts until you mark it again or take a long rest. While the mark is on that creature, you can cast the *shield* spell, affecting the creature marked, if the affected creature is hit by an attack.
+
+### Rune of Blood
+
+An esoteric rune that binds the essence of life. It has the following effects:
+
+| Target | Effect |
+|---|---|
+| Weapon | Each time the weapon deals damage to a creature, it stores one charge, up to a maximum number of charges equal to your Intelligence modifier. |
+| Armor | If the affected creature is hit by a critical hit or reduced to zero hit points, the rune stores one charge, up to a maximum number of charges equal to your Intelligence modifier. |
+| Active (Revitalize) | The affected creature can immediately expend 1 Hit Die, rolling it and regaining hit points as normal. All charges of the rune are consumed, restoring an extra 1d4 per charge consumed. |
+
+### Rune of Gravity
+
+A complex rune that manipulates the interactions of objects to change gravity. It has the following effects:
+
+| Target | Effect |
+|---|---|
+| Weapon | Marking this rune on a weapon adds or removes the heavy property. If you remove the heavy property from a melee weapon with this rune, you can also remove the two-handed property. |
+| Armor | Any time the affected creature would be moved against their will, they can use their reaction to stay where they are, as long as the movement is not falling. |
+| Active (Pull) | All creatures within 20 feet of the affected creature are dragged 5 feet toward the affected creature. |
+
+### Rune of Returning
+
+A weapon you mark with this rune is under the effect of the *returning weapon*\* spell. This rune doesn't count against the runes you can mark, though you can only have it marked on one weapon at a time.
+
+### Surging Flare
+
+Whenever you activate a rune's active effect, the next attack roll you make before the end of your turn gains advantage.
+
+## 5th-Level Upgrades
+
+### Duplicate Rune
+
+For one of the runes you mark, you can mark it on two different items or creatures, counting it as a single instance of marking that rune. This applies to a single application (not a single type of rune).
+
+### Gravity Brand
+*Prerequisite: Rune of Gravity*
+
+When you hit a creature with a weapon marked with a Rune of Gravity, until the start of your next turn, any movement they make moving away from you costs an additional foot of movement.
+
+### Mark of Size
+
+As an action, you can place a special runic mark on a creature or armor. This mark lasts until you mark it again or take a long rest. While the rune is on that creature, you can cast *enlarge/reduce* targeting that creature as a bonus action. You can cast it this way without expending a spell slot once, after which you can't cast that spell in this way again until you finish a short or long rest. You can cast it again using spell slots.
+
+### Mystic Flare
+*Prerequisite: Runic Mystic*
+
+The first time you use a Runic Flare on your turn, it doesn't require a bonus action.
+
+### Paired Effects
+
+You can mark two runes on a single item.
+
+### Runic Aegis
+*Prerequisite: Runic Knight*
+
+You gain temporary hit points equal to your Intelligence modifier when you use a Runic Flare.
+
+### Rune Magic
+*Prerequisite: Runic Sage*
+
+You gain access to more powerful magic through your runes.
+
+| Rune | Spell |
+|---|---|
+| Rune of Fire | scorching ray |
+| Rune of Lightning | lightning charged* |
+| Rune of Power | star dust* |
+| Rune of Warding | warding bond |
+| Rune of Gravity | fling* |
+| Rune of Blood | hold person |
+
+You can cast one spell granted by this feature without expending a spell slot. Once you cast a spell in that way, you can't do so again until you finish a long rest (you can still cast them normally by expending spell slots).
+
+### Thunder Mine
+
+You learn the *thunderburst mine*\* spell and can cast it without expending a spell slot. Once you cast it in this way, you can't cast it this way again until you finish a short or long rest.
+
+## 9th-Level Upgrades
+
+### Efficient Language
+
+The number of runes you can mark at the same time increases by one.
+
+### Fire Mine
+
+You learn the *fireburst mine*\* spell and can cast it without expending a spell slot. Once you cast it in this way, you can't cast it this way again until you finish a short or long rest.
+
+### Greater Rune Magic
+*Prerequisite: Runic Sage*
+
+The power you can access through runes grows more advanced.
+
+| Rune | Spell |
+|---|---|
+| Rune of Fire | fireball |
+| Rune of Lightning | lightning bolt |
+| Rune of Power | aether lance* |
+| Rune of Warding | protection from energy |
+| Rune of Gravity | crushing singularity* |
+| Rune of Blood | invest life* |
+
+You can cast one spell granted by this feature without expending a spell slot. Once you cast a spell in that way, you cannot do so again until you complete a long rest (you can still cast them normally by expending spell slots).
+
+### Mark of Proficiency
+
+You can place a special runic mark on a weapon, armor, shield, or tool. Any creature that is holding or wearing that item gains proficiency with it. This mark lasts until you mark it again or take a long rest.
+
+### Painted Bulwark
+
+You gain two additional maximum hit points for each rune marked on you or your gear.
+
+## 11th-Level Upgrades
+
+### Linguistic Structure
+*Prerequisite: Paired Effects*
+
+You can mark up to three runes on a single item.
+
+### Mark of the Hidden
+
+You can mark a special runic mark on a creature or item. This mark lasts until you mark it again or take a long rest. As an action, you can cause the effect of the *invisibility*, *arcanist's magic aura* (SRD), or *nondetection* spells on the marked creature or a creature carrying the marked item. This doesn't require concentration, but otherwise has the normal limitations of the spell. You can have one of these effects active on the target at a time, and the effect ends if the target is no longer marked by the rune or carrying the item marked with the rune.
+
+### Perfected Form
+
+You master the language of runes allowing you to get more from less. The number of runes you can mark at the same time increases by one.
+
+### Primal Emphasis
+
+The damage die size of runes that deal cold, fire, or lightning damage increases by one step (for example from a d4 to a d6). This applies to both their passive and active effect.
+
+### Runic Formation
+
+As a reaction to a creature within 120 feet of you that is marked by one of your runes taking damage, you can expend a 2nd level or higher spell slot to transfer that damage to another willing creature marked by one of your runes within 120 feet.
+
+## 15th-Level Upgrades
+
+### Glyph of Force
+
+You learn the spell *wall of force*. It is an Inventor spell for you and doesn't count against your spells known.
+
+### Mark of Stone
+
+As an action, you can place a special runic mark on a creature or armor. This mark lasts until you mark it again or take a long rest. While the rune is on that creature, you can cast *stoneskin* targeting that creature as a bonus action without requiring any material components.
+
+You can cast it this way without expending a slot once, after which you can't cast it without a spell slot again until you finish a short or long rest.
+
+### Reckless Flare
+
+As an action, you flare all of your marked runes and glyphs of your choice, causing their active effects to take place. Once you use this ability, you can't use the active effect of a rune flared in this way again for 1 minute.
+
+You can't use this ability again once used until you finish a long rest.
+
+---
+
+## List of Glyphs
+
+### Glyph of Absorption
+*1st-level abjuration (glyph)*
+
+- **Casting Time:** 1 bonus action
+- **Range:** 5 feet
+- **Components:** S
+- **Duration:** 1 minute
+
+You draw an ethereal mark in the air at a point within range. Creatures within 10 feet of this glyph have resistance to all damage, but when any creature in the rune's radius takes damage, the rune takes an equal amount. The glyph has 10 hit points. If the glyph is destroyed, it fades without detonating and the spell ends.
+
+As an action, you can detonate the glyph. Any creature within 15 feet of this glyph must make a Dexterity saving throw, or take force damage equal to half the amount of damage the glyph has absorbed. After using this action, the spell ends.
+
+You can end the spell early by deactivating it with a bonus action.
+
+*At Higher Levels.* When you cast this spell using a spell slot of 2nd level or higher, the glyph's hit points increase by 5 for each slot level above 1st.
+
+### Glyph of Fire
+*1st-level evocation (glyph)*
+
+- **Casting Time:** 1 bonus action
+- **Range:** 5 feet
+- **Components:** S
+- **Duration:** 1 minute
+
+You draw an ethereal mark in the air at a point within range. Any creature that starts their turn within 5 feet of this glyph takes 1 fire damage.
+
+As an action, you can force all creatures within 15 feet of this glyph to make a Dexterity saving throw, taking 3d6 fire damage on failure, or half as much on success. After using this action, the spell ends.
+
+You can end the spell early by deactivating it with a bonus action.
+
+### Glyph of Frost
+*1st-level evocation (glyph)*
+
+- **Casting Time:** 1 bonus action
+- **Range:** 5 feet
+- **Components:** S
+- **Duration:** 1 minute
+
+You draw an ethereal mark in the air at a point within range. The area within 5 feet of this glyph becomes difficult terrain.
+
+As an action, you can force all creatures within 15 feet of this glyph to pass a Constitution saving throw, or take 1d8 cold damage and become restrained, or half as much damage on success. After using this action, the spell ends.
+
+You can end the spell early by deactivating it with a bonus action.
+
+### Glyph of Gravity
+*4th-level transmutation (glyph)*
+
+- **Casting Time:** 1 bonus action
+- **Range:** 5 feet
+- **Components:** S
+- **Duration:** 1 minute
+
+You draw an ethereal mark in the air at a point within range. Within 30 feet of this Glyph, moving away from it requires twice as much movement, and any creature that ends its turn within 30 feet of it is pulled 10 feet closer to it if there is space available.
+
+As an action, you can force all creatures within 30 feet of this glyph to make a Strength saving throw or be flung 40 feet away from this glyph, taking 4d6 bludgeoning damage and falling prone. After using this action, the spell ends.
+
+You can end the spell early by deactivating it with a bonus action.
+
+### Glyph of Nullification
+*3rd-level abjuration (glyph)*
+
+- **Casting Time:** 1 bonus action
+- **Range:** 5 feet
+- **Components:** S
+- **Duration:** 1 minute
+
+You draw an ethereal mark in the air at a point within range. Creatures within 5 feet of this glyph have resistance to force damage.
+
+As an action for the duration of the spell, you can cause the glyph to form a globe of invulnerability centered on the glyph, which lasts until the start of your next turn, at which point the spell ends.
+
+You can end the spell early by deactivating it with a bonus action.
+
+### Glyph of Translocation
+*2nd-level conjuration (glyph)*
+
+- **Casting Time:** 1 bonus action
+- **Range:** 5 feet
+- **Components:** S
+- **Duration:** 1 minute
+
+You draw an ethereal mark in the air at a point within range. As an action for the duration of the spell, you instantly teleport a willing creature of your choice within 120 feet of you to the closest free space next to this glyph (your choice if multiple free spaces are available).
+
+*At Higher Levels.* If you expend a higher level spell slot, the number of creatures you can teleport increases by 1 for each level above 2nd, at which point the spell ends.
+
+*\* Denotes a custom/homebrew spell.*

@@ -1,0 +1,365 @@
+# Warsmith Upgrades
+
+## Unrestricted Upgrades
+
+### Accelerated Movement
+*(You can apply this upgrade twice.)*
+
+You reduce the weight of your armor by 15 pounds (to a minimum of 0 pounds). While wearing your armor your speed increases by 10 feet. This applies to all movement speeds you have while wearing your armor.
+
+### Adaptable Armor
+
+You integrate deployable hooks and fins into your armor, augmenting its mobility. While wearing your armor you gain a climbing speed equal to your walking speed, and you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
+
+Additionally, you gain a swimming speed equal to your walking speed.
+
+### Arcane Visor
+*(You can take this upgrade multiple times, selecting a different option each time.)*
+
+You magically enchant your visor. You gain one of the following effects while wearing your armor; you pick the effect when selecting the upgrade.
+
+- You gain darkvision to a range of 60 feet. If you already have darkvision, the range of that darkvision is increased by 60 feet.
+- You can ignore Sunlight Sensitivity.
+- Divination spells no longer require your concentration to maintain. You can only use this effect on one spell at a time.
+
+Regardless of the selection, you have advantage on saving throws against being blinded while wearing your armor.
+
+### Collapsible
+*Incompatible with Integrated Armor*
+
+Your Warsmith's armor can collapse into a case for easy storage. When transformed this way the armor is indistinguishable from a normal case and weighs 1/3 its normal weight. As an action you can don or doff the armor, allowing it to transform as needed.
+
+### Construct Constitution
+*Prerequisite: Integrated Armor*
+
+You gain resistance to poison damage and immunity to the poisoned condition. You have advantage on saving throws against diseases as well as spell effects that require a "humanoid" target.
+
+### Flame Projector
+
+You gain the ability to unleash fire energy. While wearing your Warplate Gauntlet, you can cast *fire bolt*, and gain access to the following spells at the following levels while wearing your Warplate Gauntlet:
+
+| Inventor Level | Spell |
+|---|---|
+| 3rd | burning hands |
+| 5th | scorching ray |
+| 9th | fireball |
+| 13th | wall of fire |
+| 17th | flame strike |
+
+### Force Blast
+
+You upgrade your Warplate Gauntlet to deliver a special ranged attack. This attack is a ranged spell attack that deals 1d8 + your Intelligence modifier force damage, and has a range of 60 feet.
+
+You are proficient in this weapon. When you take the attack action, you can use this ranged spell attack in place of any attack made.
+
+### Fortified Brace
+*Prerequisite: Warplate*
+
+You build in systems to maximize defensive potential. As a reaction to taking damage, you can brace your armor, locking it in a defensive position. Until the start of your next turn, you gain resistance to all damage (including the triggering damage) and any subsequent attacks made against you are made with disadvantage. On your next turn after taking this action, your speed is halved and you can't take an action (you can still take a bonus action).
+
+### Grappling Hook
+*Prerequisite: Warskin or Warsuit*
+
+Your Warsuit gains an integrated grappling hook set into your gauntlet. As an attack or as an action, you may target a surface, object or creature within 20 feet. If the target is Small or smaller, you can make a Strength (Athletics) grappling check to pull it to you and grapple it. Alternatively, if the target is Medium or larger, you can choose to be pulled to it (this doesn't grapple it). Opportunity attacks provoked by this movement are made with disadvantage.
+
+### Grappling Reel
+*Prerequisite: Integrated Armor or Warplate*
+
+Your Warsmith's armor gains an integrated grappling reel set into your gauntlet. As an attack or as an action, you may target a surface, object or creature within 30 feet. If the target is Large or smaller, you can make a Strength (Athletics) check as if grappling normally to pull it to you and grapple it on success. Alternatively, if the target is Large or larger, you can choose to be pulled to it (this doesn't grapple it). This movement provokes opportunity attacks as normal movement would.
+
+### Iron Fortitude
+*Prerequisite: Integrated Armor*
+
+You gain an unnatural durability. When damage reduces you to 0 hit points, you make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, you drop to 1 hit point instead.
+
+### Lightning Channel
+
+You are able to funnel your suit's power into your attacks. You can use this upgrade to cast *lightning charged*\* as a bonus action without expending a spell slot. Once used, this upgrade can't be used again until you finish a short or long rest.
+
+Additionally, you can apply the damage from *lightning charged* on your Force Blast ranged spell attacks.
+
+### Lightning Projector
+
+You gain the ability to unleash lightning energy. While wearing your Warplate Gauntlet, you can cast *shocking grasp*, and gain access to the following spells at the following levels while wearing your Warplate Gauntlet:
+
+| Inventor Level | Spell |
+|---|---|
+| 3rd | lightning tendril* |
+| 5th | lightning charged* |
+| 9th | lightning bolt |
+| 13th | jumping jolt* |
+| 17th | sky burst* |
+
+### Martial Grip
+
+Your Warplate Gauntlet grants you the ability to wield a wide variety of powerful weapons. You gain proficiency with martial weapons while wearing your Warplate Gauntlet.
+
+### Power Fist
+*(You can apply this upgrade twice.)*
+
+Your Warplate Gauntlet becomes a melee weapon while you aren't holding anything in it. You have proficiency in this weapon, and it has the Light and Special properties. It deals 1d8 bludgeoning damage.
+
+**Special:** When you make an attack roll, you can choose to forgo adding your proficiency bonus to the attack roll. If the attack hits, you can add double your proficiency bonus to the damage roll.
+
+You can apply this upgrade up to 2 times, making a separate weapon with the same properties the second time.
+
+> **Variant: Impact Gauntlet**
+>
+> Your GM may allow you to take the Impact Gauntlet upgrade of the Gadgetsmith in place of a Power Fist, which is similar but deals 1d6 damage and has the finesse property. For the purposes of upgrades, Impact Gauntlets and Power Fists should be considered interchangeable.
+
+### Reinforced Armor
+*(You can apply this upgrade up to 3 times.)*
+
+You reinforce the structure and materials that make up your Warsmith's armor. Your Warsmith's Armor's Armor Class (AC) increases by 1.
+
+### Sentient Armor
+
+You create an artificial personality integrated into your armor, giving it limited sentience. This sentience assists you in many ways. While wearing your armor, your Intelligence ability score and maximum Intelligence ability score are increased by 2. Your armor can understand and speak any language you can speak. You can communicate telepathically with it while wearing it.
+
+> **Talking Armor**
+>
+> How much of a personality Sentient Armor has is up to the player and GM. Functionally, it only enhances things that use Intelligence as written, but many people enjoy fleshing it out much further as a sentient item as a sort of NPC. This doesn't extend what it does (unless the GM says it does, of course) but can be fun to interact with. It can be assumed to see what you see when you're wearing it, but can't provide assistance with ability checks without related upgrades.
+
+### Wire Acrobatics
+*Prerequisite: Grappling Hook*
+
+You can take your movement using your grappling hook instead of using it as an attack or action; you can't move other creatures when using the Grappling Hook in this way.
+
+The first time you use your Grappling Hook to move on a turn, the movement doesn't provoke opportunity attacks.
+
+## 5th-Level Upgrades
+
+### Active Camouflage
+
+As an action, you can activate active camouflage, causing your Warsmith's Armor to automatically blend into its surroundings. This lasts until deactivated. While this is active, you are considered lightly obscured, and can hide from a creature even when they have a clear line of sight to you. Wisdom (Perception) checks to find you that rely on vision are made with disadvantage.
+
+### Arcane Barrage
+
+Your armor collects arcane energy whenever you expend a spell slot, storing a number of charges equal to the level of the spell cast. These charges fade after 1 minute if you do not expend additional spell slots. You can store a maximum number of charges equal to half your Inventor level. You can use this upgrade to cast *magic missile* without expending a spell slot. This expends all charges, increasing the level of the *magic missile* spell by one for each charge spent. If you have an Ether Reactor, you can expend charges from it to add additional charges, up to the maximum number of charges you can have stored.
+
+Once activated, it can't be used again until you finish a short or long rest.
+
+### Artificial Guidance
+*Prerequisite: Sentient Armor*
+
+You upgrade the artificial personality integrated into your armor to assist with a new skill. While able to communicate with your armor, you can gain the effect of *guidance* when making any Intelligence or Wisdom check.
+
+### Emergency Protocol
+*Prerequisite: Sentient Armor*
+
+The intelligence in your armor will attempt to preserve your life. If you are incapacitated or unconscious and can't take your action, it will cast a spell or take the dodge action. It can only cast spells granted by your armor's upgrades, and can use your spell slots to do so. It can act in this way up to a number of turns equal to your Intelligence modifier, but this control strains its abilities, and it can't take control again until you finish a short or long rest. You automatically resume control if you are no longer incapacitated or unconscious.
+
+### Force Accumulator
+*Prerequisite: Force Blast*
+
+Every time you expend a spell slot of 1st level or higher, you accumulate charges to your Force Blast equal to the level of spell slot spent, up to a maximum number of charges equal to half of your Intelligence modifier (rounded down). When you deal damage with Force Blast, you can expend the accumulated charges to deal an extra 1d6 damage or to move the target 5 feet directly away from you, or any combination thereof per charge spent.
+
+Charges not expended within 1 minute of being accumulated are lost.
+
+### Mechanical Enhancement
+*Prerequisite: Integrated Armor*
+
+You improve every aspect of yourself ever so slightly. You gain +5 feet of movement, one additional hit point per Inventor level, and +1 to Strength, Dexterity, and Constitution saving throws.
+
+### Reactive Plating
+*Prerequisite: Warplate*
+
+Your armor partially deflects incoming blows. You can use your reaction when hit by an attack that deals bludgeoning, piercing, or slashing damage to reduce the damage of that attack by an amount equal to your proficiency bonus.
+
+### Resistance
+*(You can apply this upgrade multiple times.)*
+
+You tune your armor against certain forms of damage. Choose acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage. While wearing your armor you have resistance to that type of damage. If you apply this upgrade more than once you must choose a different damage type.
+
+### Sealed Suit
+*Prerequisite: Warplate*
+
+As a bonus action on your turn you can environmentally seal your Warplate, giving you an air supply for up to 1 hour and making you immune to poison (but not curing you of existing poisoned conditions).
+
+In addition to the above, you are also considered acclimated to cold and hot climates while wearing your armor, and you're also acclimated to high altitude while wearing your armor.
+
+## 9th-Level Upgrades
+
+### Assume Control
+*Prerequisite: Emergency Protocol*
+
+You expand the control available to your armor's sentience. You can set additional conditions when your armor will take control of your movement and actions, and it can maintain this control for up to 1 minute.
+
+While acting in this mode, it can take any action you could take (including attacking), but can only cast spells granted by Upgrades. It uses your ability scores.
+
+The triggering event can be a preset condition, a verbal command, or a specified time. Your armor is immune to the charmed, blinded, frightened, paralyzed, and poisoned conditions, and doesn't suffer from exhaustion, ignoring these effects if you are under them.
+
+If you have Warplate, it can act in this way even when you are not wearing it (or are dead). When doing so, it uses the game statistics of animated armor with the following modifications: it has an intelligence of 12 and it can cast any spells that come from Upgrades with a DC equal to your spell save DC.
+
+This counts as a use of your Emergency Protocol, and it can't control the armor again (in either way) until you finish a short or long rest.
+
+In non-combat situations in which you are not wearing your armor, your armor's sentience can exert a lesser control of the armor to move it about and perform simple tasks. During this time it has the statistics of an unseen servant, though it looks like your suit of armor. Its ability to do this is not limited, but it takes 1 minute to assume this kind of control of your armor, and it can only do so while you are not wearing it. If reduced to zero hit points, the armor is incapacitated until you repair it during a long rest, but it can still serve as armor.
+
+> **Optional Control**
+>
+> With the Assume Control upgrade, the armor taking control on Emergency Protocol becomes optional, though if you do not choose for it to activate, it can't activate later unless the condition was previously specified (e.g. "take control if I fail two death saving throws").
+
+### Brute Force Style
+
+The strength imparted by your armor gives the force of blows the devastating power of a more skilled combatant. You can select a Fighting Style from Duelist, Great Weapon Fighting, or Two-Weapon Fighting and gain the effect of that Fighting Style while wearing your armor.
+
+### Ether Reactor
+
+You construct an ether reactor that feeds your armor, powering its upgrades with arcane energy. The Ether Reactor has 6 charges, and can be used to power upgrades that cast spells, even upgrades that would normally only recharge after a rest can instead be cast by using charges, spending 1 charge per level of the spell you are casting. You can cast spells at a higher level by expending more charges. It regains all charges at the end of a long rest.
+
+If your Ether Reactor has no charges left, you can overdraw your Ether Reactor for one last burst of power, but your armor is temporarily immobilized and your speed while wearing your armor becomes zero for a number of rounds equal to the level of the spell cast. Once you overdraw it, you can't do this again until you finish a long rest.
+
+### Head-Up Display
+*Prerequisite: Arcane Visor, Sentient Armor*
+
+You can delegate displaying and tracking things in your sight to your Sentient Armor, granting you the following benefits:
+
+- When a creature attempts to take the Hide action against you, you can make an active Wisdom (Perception) check to contest its Dexterity (Stealth) check as a reaction.
+- When making a Dexterity saving throw against an attack you can see, you can make an Intelligence saving throw instead.
+- When a creature hits you with a ranged attack roll, you can cast *true strike* as a reaction targeting that creature.
+
+### Phase Suit
+*Prerequisite: Warskin or Warsuit*
+
+You gain the ability to cast *misty step* and *blink* while wearing your Warsuit. Additionally, as an action, you can become intangible, and move through creatures or objects until the end of your turn. If you end your turn inside a creature or object, you are forced to the nearest unoccupied location, taking 2 force damage for each foot you are forced to move. Once you become intangible using this upgrade, you can't do so again until you finish a short or long rest.
+
+### Recall
+
+When not being worn you can hide your Warsmith's Armor in a pocket dimension. As an action you can magically summon the armor and don it. You can use a bonus action to return the armor to the pocket dimension.
+
+While in the pocket dimension the armor can't be affected by other abilities and can't be interacted with in any way.
+
+## 11th-Level Upgrades
+
+### Cloaking Device
+*Prerequisite: Active Camouflage*
+
+If you do not move during your turn with Active Camouflage engaged, you can use your reaction to take the Hide action using an Intelligence (Stealth) check. You make this check with disadvantage if you are within 5 feet of another creature or you attacked during your turn.
+
+You can overload your camouflage to cast *greater invisibility* without expending a spell slot. Once you do this, you can't do this again until you finish a long rest.
+
+### Flash Freeze Capacitor
+*Incompatible with other Capacitors*
+
+You can store arcane energy, releasing it in a torrent of freezing energy. As an action, you can cast *cone of cold* without expending a spell slot or charges. The affected area becomes difficult terrain until the end of your next turn.
+
+Once you use this upgrade, you can't use it again until you finish a long rest.
+
+### Flight
+
+You integrate a magical propulsion system into your Warsmith's armor. While wearing your Warsmith's armor you have a magical flying speed of 30 feet.
+
+### Integrated Attack
+*Prerequisite: Integrated Armor or Warplate; incompatible with Iron Grip*
+
+You integrate a melee weapon into your Warsmith's Armor. When you apply this upgrade you must have a weapon to integrate, and you must choose where on your armor the weapon is located. The weapon can't have the heavy property. You are proficient with this weapon. As a bonus action you can activate the weapon.
+
+You must treat it as though you are wielding it with one hand, but you can't be disarmed of it. Once activated, you can use this weapon when you take the attack action, and it doesn't require the use of a hand or your Warplate Gauntlet.
+
+You can apply this upgrade multiple times, selecting a new weapon and new location on your armor to install it.
+
+When you activate your integrated weapon, you can immediately make one attack with it. While it is active, if you take the attack action on your turn, you can make one additional weapon attack with your integrated weapon using your bonus action.
+
+### Iron Muscle
+*Prerequisite: Integrated Armor or Warplate*
+
+You reinforce the structure of your armor, giving it the strength of giants. While wearing your armor, your current Strength ability score is increased by 2, and your maximum Strength ability score becomes 24.
+
+### Lightning Rod
+*Prerequisite: Lightning Channel*
+
+Whenever you cast *lightning charged*\*, you can treat the spell as if it was cast by a spell slot one level higher.
+
+### Powered Charge
+
+As an action, you activate a booster allowing you to move up to 40 feet in a straight line. During this movement, you can make a Strength (Athletics) check to grapple any creature you would collide with (you still require a free hand to grapple a creature as normal; if you do not have a free hand, the check automatically fails and you collide with the target). On success, you do not stop and it is carried with you for the remaining distance or until your movement is stopped by a creature or wall.
+
+At the end of the movement, any creature you collided with or are grappling takes 1d6 bludgeoning damage for each 5 feet you traveled. If your movement is stopped by a wall, and creature you are grappling must make a Constitution saving throw. On failure, they are stunned until the end of their next turn.
+
+Once activated, it can't be used again until you finish a short or long rest.
+
+### Power Slam Capacitor
+*Incompatible with other Capacitors*
+
+You store up kinetic energy, and unleash it in a mighty bound. As an action, you can jump up to your entire walking speed and cast *shockwave*\* without expending a spell slot or charges upon landing.
+
+Once you use this upgrade, you can't use it again until you finish a long rest.
+
+## 15th-Level Upgrades
+
+### Heavy Plating
+*Prerequisite: Warplate*
+
+You install special heavy plating, giving you resistance to bludgeoning, piercing, and slashing damage from non-magical sources while wearing your Warplate.
+
+### Iron Grip
+*Prerequisite: Iron Muscle; incompatible with Integrated Attack*
+
+You improve your grip strength and control of one of your gauntlets beyond the limits of flesh. While wearing your suit, you gain the following benefits:
+
+- You can wield Large-sized weapons without a penalty as a Medium-sized creature.
+- You can wield two-handed or versatile weapons in one hand and still treat them as if wielded with two.
+
+> **Large Weapons**
+>
+> How GMs handle large-sized weapons varies. Consult with your GM for the stats of a large weapon. Typically approaches are to either double the damage dice, or increase the damage by 1d4, but other approaches exist between the two.
+
+### Phase Engine
+*Prerequisite: Warskin or Warsuit*
+
+When you are attacked, you can use your reaction to become intangible, causing that attack to miss if it is a nonmagical attack, or to have disadvantage if it is a magical attack. Once you do so, you can't do so again until you finish a short or long rest, or until you teleport or enter the ethereal plane.
+
+### Sun Cannon
+
+You install a sun cannon into your Warsmith's armor, allowing you to unleash devastating solar laser blasts. As an action, you can cast *sunbeam* without expending a spell slot. Once you use this ability, you can not use it again until you finish a long rest.
+
+### Virtual Interface
+*Prerequisite: Sentient Armor*
+
+When you use Artificial Strength to raise your Strength ability score, you no longer lower your Intelligence ability score below your natural maximum (not counting Sentient Armor).
+
+## Optional Feature: Large Suits
+
+> Some players will want to build a larger suit, the Piloted Golem option below allows you to do that. The player and the GM should give some consideration to the consequences of being a Large-sized creature. It has advantages but considerable drawbacks that should not be ignored.
+>
+> **Large Inconvenience**
+>
+> This is an optional route that can offer substantial benefits; it would generally be advisable to not pull punches on the drawbacks of being a Large-sized creature (difficulty gaining cover, in tight areas, etc). Discuss what sort of challenges you might face with this. Consider if a Piloted Golem—essentially a walking war tank—would have trouble interacting with things created for Medium-sized creatures: ladders, potion bottles, and more.
+
+### Iron Aura
+*Prerequisite: Piloted Golem*
+
+Building defensive systems into your armor, you project a deflecting aura. Creatures of your choice within 20 feet of you gain half cover against ranged attacks that originate from outside the range of this aura.
+
+### Iron Fortress
+*Prerequisite: Piloted Golem*
+
+You count as three quarters cover for creatures within 5 feet (so long as you are between them and the attacker). Additionally, you can't be moved against your will while in contact with the ground.
+
+### Piloted Golem
+*Prerequisite: Warplate, 9th-level inventor; incompatible with Collapsible and Flight*
+
+You enlarge your Warplate, turning it into a piloted mechanical golem. Your size category when wearing the armor increases by one.
+
+You have advantage on Strength saving throws and Strength checks against creatures the same size as you or smaller than you, but you have disadvantage on Dexterity saving throws and Dexterity checks (including initiative rolls). At the end of a short or long rest, your Warplate gains temporary hit points equal to your Inventor level.
+
+You are no longer a valid target for spells that require a humanoid target, but can be targeted by spells that require a construct target while wearing this armor.
+
+### Self-Repair Matrix
+*Prerequisite: Piloted Golem*
+
+At the start of each of your turns you gain temporary hit points equal to your proficiency bonus.
+
+### Sentry Mode
+*Prerequisite: Piloted Golem*
+
+As a bonus action deploy stabilizers, reducing your speed to zero but granting you better stability and focus. Until you end the effect as an action, your reach and range are both doubled with all weapons and you can make an opportunity attack against a creature that moves more than 5 feet within range of one of your equipped weapons (melee or ranged).
+
+### Shield Arm
+*Prerequisite: Piloted Golem*
+
+You integrate a shield into one of your armor's arms. You have proficiency with that shield, and can deploy it as a bonus action. It requires the use of that arm while deployed.
+
+Additionally, when you shove a Medium or smaller creature while you have the shield deployed, you can shove it by slamming it with the attached shield causing it to take damage equal to your Strength modifier.
+
+*\* Denotes a custom/homebrew spell.*

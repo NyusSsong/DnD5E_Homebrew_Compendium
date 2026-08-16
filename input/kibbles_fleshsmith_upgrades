@@ -1,0 +1,296 @@
+# Fleshsmith Upgrades
+
+## Unrestricted Upgrades
+
+### Acid Gland
+
+Realizing that putting something that oozes acid inside yourself could not possibly go wrong, you do just that. As an action, or as an attack as part of the Attack action, you can spew acid, making a ranged spell attack against a target within 30 feet. On a hit, you deal 3d8 acid damage.
+
+Alternatively, as an action, or as an attack as part of the Attack action, you can spray all creatures in a 30-foot cone. Each creature in the area must make a Dexterity saving throw against your spell save DC, taking 3d4 acid damage on a failed save.
+
+Once you use either option, you can't use this upgrade again until you finish a short or long rest. The damage increases by one die at 5th level (4d8 or 4d4), 11th level (5d8 or 5d4), and 17th level (6d8 or 6d4).
+
+### Adorable Critter
+
+You experiment on creating an adorable critter. You create—or modify—a Tiny CR 0 creature. This creature serves as a familiar as per the *find familiar* spell, but doesn't disappear when reduced to zero hit points, and simply becomes unconscious. It can't fully die unless destroyed. If it starts its turn unconscious, it regains its full hit points and regains consciousness. It can do this a number of times equal to your Intelligence modifier.
+
+You can resuscitate it (or rebuild it, as necessary) at the end of a short or long rest should anything untoward happen to it without expending a spell slot or material component. Its creature type is construct.
+
+### Better Eyes
+*(You can select this upgrade multiple times.)*
+
+Your eyes did not see everything you wanted them to, so you replace them with eyes that do. You gain a benefit to your vision, selecting one of the following enhancements:
+
+- Blindsight (10 feet)
+- Darkvision (60 feet)
+- The ability to see clearly twice as far as your natural vision range.
+- Proficiency in the Perception skill.
+
+If you select this upgrade again, you must select a different benefit.
+
+### Brimstone Bladder
+
+Why should dragons have all the fun? You can now exhale fire. As an action, or as an attack as part of the Attack action, you can exhale a gout of flames in a 30-foot line or 15-foot cone. Creatures in the area must make a Dexterity saving throw against your spell save DC, or take 3d6 fire damage. You can expend a spell slot to empower this fire breath, dealing a number of additional d6 equal to the level of the spell slot spent.
+
+Once you use the option, you can't use it again until you finish a short or long rest. The damage increases by 1d6 at 5th level (4d6) and again at 11th level (5d6), and 17th level (6d6).
+
+### Dissection
+
+If you are holding a melee finesse weapon you have proficiency with, as an action you can make an Intelligence (Medicine) check against a creature within reach with a DC equal to its armor class. If you succeed on the check, you can deal damage to that creature equal to your weapon's damage dice plus your Intelligence modifier. On a roll of 20, treat the damage dice as you would on a critical hit.
+
+If you could normally make more than one weapon attack as part of the Attack action, you can deal a number of additional dice equal to the number of attacks you could normally make as part of an Attack action when taking this action (for example, if you have the Extra Attack feature and take this action with a dagger, you would deal 2d4 + your Intelligence modifier damage).
+
+> **Expertise to Hit**
+>
+> Dissection can generate a very high hit chance due to its nature, but deals less damage than attacking twice with Extra Attack would (as it only adds your modifier once), making it a trade off.
+
+### Crushing Grip
+
+You don't let things go once you have them in your grip. Creatures that are grappled or restrained by you have disadvantage on attempts to escape the condition. Additionally, you can choose to apply damage equal to your Strength modifier to any creature that starts its turn grappled or restrained by you.
+
+### Death Flail
+*Prerequisite: Perfection of Technique*
+
+Rather than cast out the Flaying Hook, you master the art of spinning your attached martial weapon by the chain in a windmill of death. Your weapon gains the Reach property when used in this way.
+
+Additionally, instead of attacking a target with it normally, as an action, you can spin the weapon wildly in giant deadly sweeps. Up to four creatures within 10 feet must make a Dexterity saving throw against a DC of 8 + your Strength modifier + your proficiency bonus. On failure they take damage equal to your weapon's damage dice + your Strength modifier of your weapon's damage type.
+
+If you have the Spiked Chain upgrade and hit one or more targets, you can select one of them to be affected by the special property of Spiked Chain.
+
+### Extra Eyes
+
+Why only see one direction? You add extra eyes. You gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. In addition, you have advantage on Wisdom (Perception) checks that rely on sight.
+
+### Flaying Hook
+
+A metal hook attached to a chain. You are proficient with this melee weapon, and it has the Special property. It deals 1d6 piercing damage.
+
+**Special:** This weapon has a range of 20 feet. When you hit a target that is more than 5 feet away from you, if the target is Medium or smaller, you can make a Strength (Athletics) check contested by its Strength (Athletics) to pull the target toward you. On a successful check, a Small or smaller target is pulled to you, and a Medium target is pulled half the distance (rounding up) toward you. The creature takes 1 additional damage for each 5 feet it is pulled.
+
+If the creature is Medium or larger, when you hit a target more than 5 feet away from you, you can pull yourself up to 10 feet toward the target.
+
+### Fleshcrafted Enhancement
+*Prerequisite: Applicable Fleshcrafted Mutation*
+
+You use your knowledge of inhuman anatomy and the twisted powers you gain from it to formulate an unnatural enhancement of your Fleshcrafted Mutation, granting it an additional power. The table below shows which enhancements can be applied to which mutations.
+
+Each enhancement has an empowered effect. An empowered effect automatically occurs when you roll a 20 to hit with your mutation on an attack with the enhancement, or once per turn on your turn, you can manually activate the empowered condition by expending a spell slot of 1st level or higher.
+
+| Enhancement | Qualified Mutations | Effect | Empowered Effect |
+|---|---|---|---|
+| Vampiric | Extra Fangs | Once per turn, on your turn, when dealing damage with your Extra Fangs, you can drain the life from your victim adding 1d4 necrotic damage. If the target is a living creature over CR 1/4, you regain hit points equal to the necrotic damage dealt. | You add your Constitution modifier to the hit points regained. |
+| Infernal | Extra Fangs, Extra Claws | Once per turn, on your turn, when dealing damage with your Fangs or Claws you can ignite your claws with infernal flames, the attack deals an extra 1d6 fire damage. | You deal an extra 1d6 fire damage. |
+| Venomous | Extra Fangs, Extra Claws | Once per turn, on your turn, when you hit a creature with your natural weapon you can inject venom, dealing an extra 1d8 poison damage. | The target must make a Constitution saving throw against your spell save DC or become poisoned for 1 minute. They can repeat their saving throw at the end of each of their turns. |
+| Razor | Extra Fangs, Extra Claws | The damage die of your natural weapon becomes one step higher (for example, Extra Fangs go from 1d10 to 1d12). | You can maximize one die of your choice after rolling damage for this mutation. |
+| Relentless | Extra Arm, Extra Tentacle | You gain an additional reaction you can only use to make an opportunity attack with that Fleshcrafted Mutation. | You can make an additional single attack with your Fleshcrafted addition. This attack only deals the weapon damage of the attack, and doesn't add your modifier to the damage dealt. |
+
+> **One Enhancement**
+>
+> Note that unless otherwise specified, an Upgrade can be taken only once. In this case, all the enhancements are effectively mutually exclusive.
+>
+> **Empowered Relentless Attacks:**
+>
+> Your Empowered Relentless attack will deal either the normal weapon die of the natural weapon, or the weapon die of a weapon held in an extra arm. This can be a two-handed weapon only if you have two extra arms.
+
+### Fleshcrafted Mutation
+*(You can select this upgrade multiple times.)*
+
+You enhance your body by crafting or mutating a new part through grotesque experimentation. Select one of the following mutations:
+
+| Mutation | Description |
+|---|---|
+| Extra Arm | You get an extra arm on your body. This arm is capable of doing things an arm can do, like holding and hitting things. |
+| Extra Claws | You gain a natural weapon that deals 1d8 slashing damage, and counts as a light finesse weapon. You have proficiency with this weapon, and are considered to be holding this weapon in one hand for the purposes of attacking. |
+| Extra Fangs | Your mouth becomes a natural weapon that deals 1d10 piercing damage. You have proficiency with this weapon. |
+| Extra Tentacle | You gain a tentacle appendage which is a natural weapon that deals 1d6 bludgeoning damage with the reach property. You have proficiency with this weapon. Using this tentacle, you can make a Strength (Athletics) check or object interaction with a reach of 10 feet. |
+
+> **Extra Arm & Perfection of Form**
+>
+> When attacking with a Perfection of Form with an extra arm, you can make an attack with a weapon held in that arm. You only make a weapon attack with two hands if you have two or more extra arms to use for it.
+
+### Field Surgery
+
+Some say that not all medical problems require surgery. Not you. As an action, you can repair a body to its natural limits far more quickly than its natural healing. You can repair a willing creature within 5 feet of you, allowing them to expend hit dice up to half your Inventor level (rounded up). Each Hit Die spent is rolled as normal, but you can add the higher value of their Constitution modifier or your Intelligence modifier.
+
+### Fix Flesh
+
+Your expertise in the working of flesh makes you an artisan of fixing broken creatures. When you cast *cure wounds* you restore an additional amount of health equal to your Intelligence modifier.
+
+### Forbidden Knowledge
+
+You delve into the arcane mechanics of how bodies work. Otherwise known as necromancy. You learn additional spells as shown on the table below:
+
+| Inventor Level | Spells Learned |
+|---|---|
+| 3rd | inflict wounds |
+| 5th | blindness/deafness, gentle repose |
+| 9th | invest life*, vampiric touch |
+| 13th | blight |
+
+You can cast *inflict wounds* without expending a spell slot, after which you must finish a long rest before you can cast it without expending a spell slot again. Starting at 5th level, you can choose to cast *blindness/deafness* without expending a spell slot instead.
+
+### Horrifying Abomination
+*Prerequisite: At least 3 upgrades modifying your body*
+
+The perfect form you have crafted intimidates inferior beings. You gain proficiency in the Intimidation skill, and if you are already proficient in it, you can add twice your proficiency bonus.
+
+### Massive Mutation
+
+You develop a method to suddenly mutate. As a bonus action, you can become a Large-sized creature. Creatures of your choice within 30 feet of you that witness this must make a Wisdom save against your spell save DC or become frightened of you until the end of their turn.
+
+While you are large, you deal 1d4 additional damage with your natural weapons and weapons sized for Medium creatures, and you have advantage on contested Strength (Athletics) checks against Large or smaller creatures. You can revert to normal size as a bonus action.
+
+You can spend a number of rounds equal to your Constitution modifier + your Intelligence modifier as a Large creature before you must revert and can not become Large again until you finish a short or long rest. After a short or long rest, you regain all rounds of duration you can remain as a large creature.
+
+### Mutating Mastery
+
+After so many little adjustments, you find that your form is quite flexible to your needs. You gain the ability to cast *alter self* without expending a spell slot. Once cast in this way, you can't cast it again with this upgrade until you finish a short or long rest.
+
+### Secondary Life Organs
+
+Realizing the fragility of mortal life, you modify yourself with additional necessary functions. You no longer take extra damage from critical hits.
+
+Additionally, when you make a death saving throw, you can replace the results of that roll with a 20. Once you do this, you can't do this again until you finish a long rest.
+
+### Spiked Chain
+*Prerequisite: Flaying Hook*
+
+You lace the chain of your Flaying Hook with spikes. When you attack a creature within 5 feet with your Flaying Hook, you can opt to make a Spiked Chain attack instead. This attack deals 2d4 piercing damage on hit, and has the Special property.
+
+**Special.** When you hit a creature with this weapon, that target loses 10 feet of movement (hindered by the chain) and takes 1d4 damage each time they move 5 feet, up to 2d4 damage (for 10 feet of movement). You can't use this weapon against another creature until the start of your next turn, but have advantage on opportunity attacks against that target. If it doesn't move before the start of your next turn, you reel your chain back in, dealing 1d4 slashing damage to that target.
+
+### Subdermal Plating
+
+Exoskeletons are bulky, and endoskeletons just don't offer enough protection, so you compromise. You gain natural armor granting you a base AC of 17 (your Dexterity modifier doesn't affect this number). This increases to 18 when you reach 5th level. If you are using a shield, you can apply the shield's bonus as normal.
+
+> **Scales & Shells**
+>
+> Like with many upgrades, what this upgrade really represents is a base AC of 17. Anything else can, within reason and with consultation of your GM, be adjusted. This upgrade could be "Heavy Scales" or "Shell", or any other version of natural armor that could plausibly provide heavy armor.
+
+### Toxicity
+
+Copying certain frog species, you make your blood poisonous. Once per turn, when a creature deals piercing or slashing damage to you while within 5 feet of you, they take poison damage equal to your Constitution modifier. If damage is from a biting attack, they take twice as much damage.
+
+You may also opt to make yourself take on a different skin hue, to let creatures know they shouldn't eat you.
+
+### Unnatural Health
+
+You're a shining beacon of vitality. You gain an additional 1 maximum hit point for each level of Inventor you have.
+
+Additionally, when you roll a 1 or 2 on a Hit Die for recovering health, you can reroll the die and must use the new roll, even if it is a 1 or a 2.
+
+## 5th-Level Upgrades
+
+### Corrosive Critter?!
+*Prerequisite: 5th level, Perfection of Creation*
+
+Your adorable critter's natural weapon deals an extra 1d6 acid damage on hit.
+
+### Life Merchant
+
+You can share your considerable vitality with other creatures. You are a generous person, after all. You learn the spell *invest life*\*, and you can cast *invest life*\* without expending a spell slot. Once you cast in this way, you can't cast it again with this upgrade until you finish a short or long rest.
+
+### Pressure Points
+*Prerequisite: Perfection of Mind*
+
+Your extensive knowledge of anatomy allows you to target critical spots. When you deal damage to a target with a melee weapon, as a bonus action you can force them to roll a Constitution saving throw against your spell save DC.
+
+If they fail, they suffer the effects of the *slow* spell until the end of your next turn. If you hit them again while they are under the effect of this feature, they become restrained until the end of your next turn. If the creature is already restrained they become stunned until the end of your next turn. If they are already stunned they become paralyzed until the end of your next turn.
+
+If the target becomes paralyzed from these attacks or passes a Constitution saving throw against it, they become immune to this ability for 24 hours.
+
+### Reflexive Twitch
+*Prerequisite: Extra Arm*
+
+When you take damage from a target within 5 feet of you, you can use your reaction to reflexively attack them with your Extra Arm. This attack doesn't add your Strength or Dexterity modifier to damage dealt, unless that modifier is negative.
+
+### Safe Revival Technique
+*Prerequisite: Field Surgery*
+
+You can cast *revivify* without expending a spell slot or material component. For some reason the target gains a level of exhaustion, and is frightened of you for one minute upon reviving.
+
+## 9th-Level Upgrades
+
+### Devouring Maw
+
+Due to the inefficiency of having only one intake port, you build an additional one, properly equipped with razor sharp fangs and a special property. This maw becomes a natural weapon that deals 1d10 piercing damage.
+
+If you hit with an attack with this maw, you can choose to make a grapple against the target as a bonus action. Targets grappled by this maw take 1d4 piercing and 1d4 acid damage at the start of their turn.
+
+Attacks with this maw are made with advantage against targets it is grappling, but it can't be used to attack other creatures while grappling a creature.
+
+If you have the Fleshcrafted Enhancement upgrade, you can apply a benefit from it to this Maw. This can be a different selection than the one applied to your Fleshcrafted Mutation.
+
+### Extreme Mutation
+*Prerequisite: Mutation Mastery*
+
+You can push your mutation to the limits and well beyond using a touch of magic. You learn the spell *polymorph*, but unless you know this spell from another source, you can only target yourself. Additionally, you can cast this spell without expending a spell slot, but once you do so, you can't do so again until you finish a long rest.
+
+### Life Void
+*Prerequisite: Life Merchant*
+
+You hunger for missing vitality. After casting *invest life*\*, the first time you damage a living creature within the next minute, you deal an extra 3d8 necrotic damage, and regain hit points equal to the necrotic damage dealt.
+
+### Massive Hulk
+*Prerequisite: Massive Mutation*
+
+You no longer have a limit to how long you can stay in your larger form.
+
+## 11th-Level Upgrades
+
+### ...Adorable Critter?
+*Prerequisite: 11th level, Perfection of Creation*
+
+As an action, your familiar can become Small, Medium, or Large. It can revert to its normal size as a bonus action. While Medium or larger, its natural weapon deals 1d12 + your Intelligence modifier piercing damage. Its Strength ability score increases by 4 for each size category larger it becomes, to a maximum of 18.
+
+### Dark Miracle
+
+When you use an action that restores hit points to another creature, you can expend up to 4d4 of your own hit points to increase the amount of health restored by that much. Creatures that receive this strange surge of vitality have advantage on their next attack or saving throw.
+
+### Unrelenting Predator
+*Prerequisite: Fleshcrafted Enhancement*
+
+Your Fleshcrafted Enhancement's Empowered effect no longer requires a spell slot, though it can still only be done once per turn.
+
+### Vivisection
+*Prerequisite: Perfection of Mind*
+
+When dissecting a creature using an Intelligence (Medicine) check granted by Perfection of Mind, if the creature's remaining hit points are lower than the result of your Intelligence (Medicine) check, you can choose to vivisect the creature, killing it instantly instead of dealing damage.
+
+If you kill a creature in this manner, you have advantage on a Medicine check to harvest organs, ingredients, or other items from it.
+
+### Wings Seem Useful
+
+You decide that wings seem useful, and install a pair on your back. You can shape them like any naturally functional wings, such as a bird, bat, or insect. These grant you a flying speed equal to your walking speed, so long as you are not wearing heavy armor.
+
+## 15th-Level Upgrades
+
+### Adaptive Response
+
+You attain full mastery of your body and its functionality, able to detect when it malfunctions. As a reaction to failing a saving throw against becoming blinded, deafened, paralyzed, poisoned, or infected by a disease as the result of failing a Constitution saving throw, you can end the effect, even if you would normally not be able to take reactions due to the effect.
+
+Once you do this, you can't do this again until you finish a short or long rest.
+
+### Best Eyes
+*Prerequisite: Better Eyes*
+
+Despite your high quality eyes, you've noticed some things still see better than you, so you take their eyes and use those instead. You gain truesight of 30 feet in addition to your normal vision.
+
+### Flesh Shaper
+
+You gain the ability to cast *clone* without expending a spell slot. You still require material components. Once you cast this spell, you can't cast it again until you finish a long rest.
+
+### Uncanny Strength
+*Prerequisite: Strength 18 or higher; you can take this upgrade twice.*
+
+You don't see what the big deal is with two-handed weapons. After some small improvements to one of your arms and grip, you can hold a two-handed weapon in one hand in the upgraded hand.
+
+> **Rules Tip: Two-Weapon Fighting**
+>
+> Note that this does not grant them the light property, so two-weapon fighting will not inherently work with them (unless you have an appropriate feat).
+
+### Undying Fortitude
+
+When you drop to 0 hit points, rather than falling unconscious, you make a Constitution saving throw with a DC equal to the amount of damage over your current hit points taken. On a success, you drop to 1 hit point instead, and you remain conscious.
+
+*\* Denotes a custom/homebrew spell.*

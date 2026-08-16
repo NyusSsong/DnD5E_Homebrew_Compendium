@@ -1,0 +1,66 @@
+# Warsmith
+
+A Warsmith is an Inventor that has turned their wondrous talent of invention to a singular goal: making themselves a juggernaut of war. The reasons behind this could be benevolent or nefarious. Some Warsmiths seek to turn their invention into a machine of death and terror; others become the arbiter of justice and order, and others still perhaps merely seek to refine their craft in pursuit of pure innovation.
+
+Because few individuals would pursue such a wondrous invention without a driven purpose to their endeavor, warsmiths tend to be lawful. Usually driven to their actions by a greater purpose, they seek the power to accomplish their aims, be it righting the wrongs of the world or bringing it to heel beneath their ironshod boot.
+
+## Warsmith's Proficiency
+
+At 1st level, you gain proficiency with heavy armor, tinker's tools and smith's tools.
+
+## Warplate Gauntlet
+
+At 1st level, when you take this specialization, you construct a Warplate Gauntlet. This is a specialized Wondrous Item that only you can attune to. When you create a Warplate Gauntlet, you can add one of the following upgrades to it: Power Fist, Force Blast, or Martial Grip. This upgrade doesn't count against your upgrade total. You can make multiple gauntlets with different upgrades, but can only be attuned to one at a time.
+
+If you lose your Warplate Gauntlet, you can remake it during a long rest with 25 gp worth of materials, or can scavenge for materials and forge it over two days of work (8 hours each day) without the material expense.
+
+While wearing a Warplate Gauntlet, you can engage Artificial Strength.
+
+### Artificial Strength
+
+When you don your Warplate Gauntlet or as an action while wearing it, you can dedicate some of your intelligence to fully controlling the power of the gauntlet. You can reduce your current and maximum Intelligence score to increase your current Strength ability score by the same amount, but you can only raise your Strength ability score up to what your Intelligence ability score was before engaging Artificial Strength. You can stop using Artificial Strength at any time, and it automatically ends if your gauntlet is removed.
+
+## Warsmith's Armor
+
+At 3rd level, you've attained the knowledge of forging and arcane tinkering sufficient to create a set of armor that augments and expands your abilities from a standard, non-magical, set of heavy armor using resources you've gathered.
+
+This process takes 8 hours to complete, requiring the use of a forge, foundry or similar and it incorporates a Warplate Gauntlet (they do not require separate attunement). While wearing your armor, your Strength ability score increases by 2, and your maximum Strength ability score becomes 22.
+
+### Warsmith Armor
+
+| Armor Name | AC | Weight | Strength Requirement | Stealth | Properties |
+|---|---|---|---|---|---|
+| Warplate | 18 | 65 lbs. | — | Disadvantage | Heavy Armor, Powerful Build |
+| Warsuit | 14 + Dex Modifier (max 2) | 20 lbs. | — | — | Medium Armor |
+| Warskin | 12 + Dex Modifier | 13 lbs. | — | — | Light Armor |
+| Integrated Armor | 14 + Dex modifier (max 2) | N/A | — | — | Medium Armor, Powerful Build |
+
+*Powerful Build: You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.*
+
+You can create a new set of armor by forging it from a set of gathered and purchased materials in a process that takes 2,000 gp and 8 hours. You can create multiple sets of armor, but you can only be attuned to one of them at a given time, and you can only change which one you are attuned to during a long rest. If you create a new set of Warsmith's Armor, you can apply a number of Upgrades equal to the value on the class table, applying each at the level you get it on the class table.
+
+When you create your armor, you can create a heavy plated Warplate, medium balanced Wargear, light flexible Warsuits, or you can integrate your changes directly into your body as Integrated Armor. If your armor is Warplate or Integrated Armor, you gain the Powerful Build trait. Powerful Build means you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+Integrated Armor can't be removed, but doesn't confer any penalty when resting in it.
+
+Additionally, if you are Small, you become Medium while wearing Warplate.
+
+> **Warsmiths & Magical Armor**
+>
+> By the rules laid out here, using magical armor as a base for your Warsmith's armor has no additional effect. This is intentionally the rules-as-written, but there is certainly some flexibility here.
+>
+> - Using Adamantine or Mithral, the properties carry over to the Warsmith's armor.
+> - Using +1/+2/+3 armor carries over, but counts as taking a free "Armor Class" upgrade for each +1 the armor has, meaning that upgrade can't be taken to make the armor +4 or better.
+> - Armor of Resistance carries over, counting as taking "Resistance" upgrade for that damage type for free.
+>
+> Other cases can be handled on a case-by-case basis. Consult with your GM and work something out that would be reasonable to combine, making receiving magic armor a cool bonus, but not something that breaks the game!
+
+## Extra Attack
+
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+## Fully Customized Gear
+
+Starting at 14th level, you've mastered the customization of your Warsmith's armor. You can add one additional Upgrade to your armor that doesn't count against your Upgrade total.
+
+Additionally, during a long rest, you can now swap out any one upgrade for any other upgrade of the same level, so long as you don't have an Upgrade that requires the Upgrade you are removing as a prerequisite, or an incompatible Upgrade.
