@@ -289,7 +289,6 @@ Available types by category:
 * `??? subclass "Name"` — subclass entry
 * `??? table "Name"` — structured table (spell lists, progression variants)
 * `??? spell "Name"` — individual spell or power stat block
-* `??? spellbook "Name"` — spell list or alternate-effects block
 * `??? feature "Name"` — optional feature callout
 
 When adding a new icon type to the repo, add the SVG to the appropriate category folder

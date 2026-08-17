@@ -49,7 +49,7 @@
         
         **Thieving (1 psi point).** On a failed saving throw, you can draw a 5th level or lower spell the target can cast from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell). You can know one spell in this manner at a time, and retain the ability to cast the spell for 1 minute or until cast. If the spell is one that restores hit points, you reduce your own hit points by the amount healed by the spell.
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         When you learn the Consumption Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -97,7 +97,7 @@
         
         **Swift (2 psi points).** The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         When you learn the Enhancement Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -151,7 +151,7 @@
         
         **Supernatural (1+ psi points).** A supernatural effect of or on the creature is ended; if the effect is a magical or psionic power, it ends only if the psi points spent on this modifier equals or exceeds the spell level or psi points spent on the effect. If the property is innate (of the target or affecting the target), it ends only if the psi points exceed the CR (or class levels) of the creature, and it returns at the end of that creature’s next turn. The supernatural effect cannot be its existence unless it has fewer than 10 hit points and otherwise qualifies.
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         When you learn the Nullification Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -207,7 +207,7 @@
             
             **Withheld (0 psi points).** Rather than granting advantage or disadvantage on the next attack, you can grant advantage or impose disadvantage as a reaction to an attack being made until the start of your next turn.
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         When you learn the Precognition Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -267,7 +267,7 @@
         
         **Sustain (1+ psi points).** At the start of your turn, you can sustain the effects of Solidify, Grow, or Replicate for an additional round. Sustaining Replicate applies to all replicated constructs. Each effect can only be sustained once per turn. Sustaining Solidify restores the construct to its maximum hit points.  
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         When you learn the Projection Discipline, you can use your Psionics feature to cast the following spells:
 
@@ -340,7 +340,7 @@
         
         **Overcharged (0 psi points).** You take 1d4 force damage and do not add your proficiency bonus from the attack or spell save DC for your Elemental Blast, but increase the damage it deals by twice your proficiency bonus.
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         When you learn the Psychokinesis psionic
         discipline you can use your Psionics feature to cast the
@@ -417,7 +417,7 @@
         5-foot radius of a point within range. The radius doubles for
         each point spent (5 feet, 10 feet, 20 feet).
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         Additionally, when you learn the Telekinesis psionic
         discipline you can use your Psionics feature to cast the
@@ -469,7 +469,7 @@
         
         **Terrifying (1 psi point).** The target is frightened of you until the end of your next turn if it fails its saving throw.
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         Additionally, when you learn the Telepathy psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
 
@@ -519,7 +519,7 @@
         
         **Long (1–3 psi points).** You can travel an additional 10 feet for each point spent.  
 
-    ??? spellbook "Alternate Effects"
+    ??? table "Alternate Effects"
 
         Additionally, when you learn the Transposition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:
 

@@ -34,4 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setupFilter('discipline-select', 'discipline-content', 'discipline');
     setupFilter('talent-select', 'talent-content', 'talent');
     setupFilter('manifestation-select', 'manifestation-content', 'manifestationTier');
+    setupFilter('upgrade-select', 'subclass-content', 'subclass')
 });
