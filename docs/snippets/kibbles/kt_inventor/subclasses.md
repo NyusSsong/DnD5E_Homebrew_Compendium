@@ -840,7 +840,7 @@
 
     Select one of the following and consult the Stormforged Weapon table for its statistics.
 
-    ??? ranged "Stormforged Weapons"
+    ??? table "Stormforged Weapons"
 
         | Weapon Name      | Damage                         | Weight | Type    | Properties |
         |:----------------:|:-------------------------------:|:------:|:--------|:-----------|
@@ -864,7 +864,7 @@
 
     This extra damage increases by 1d6 when you reach certain levels in this class: 5th level (2d6), 7th level (3d6), 9th level (4d6), 11th level (5d6), 13th level (6d6), 15th level (7d6), 17th level (8d6), and 19th level (9d6).
 
-    ??? question "**Stormcharged vs. Thundermonger**"
+    ??? info "**Stormcharged vs. Thundermonger**"
 
         A common question is why does the Stormcharged Property exist
         and how does it interact with Thundermonger? Functionally, the
