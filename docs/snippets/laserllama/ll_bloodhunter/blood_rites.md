@@ -1,0 +1,237 @@
+<p><strong>Filter by level:</strong></p>
+
+<select id="rite-select">
+  <option value="all">All Blood Rites</option>
+  <option value="basic">No Prerequisite</option>
+  <option value="5th">5th Level</option>
+  <option value="9th">9th Level</option>
+  <option value="13th">13th Level</option>
+  <option value="17th">17th Level</option>
+</select>
+
+<div class="rite-content" data-rite="basic">
+
+??? feature "Blood Rites (No Prerequisite)"
+
+    #### Rite of Agony
+
+    As a bonus action, you invoke this Rite and force one creature that you can see within 30 feet to make a Constitution saving throw. On a failed save, it has disadvantage on Strength and Dexterity ability checks and saving throws, and each time it makes an attack it takes necrotic damage equal to one roll of your Rite Die. These effects end at the end of your next turn.
+
+    **Empowered Agony.** The effects of this Blood Rite last for 1 minute. The creature repeats this saving throw at the end of each of its turns, ending the effect early on a success.
+
+    #### Rite of Anxiety
+
+    As a bonus action, you invoke this Rite and curse a creature you can see within 30 feet, making it susceptible to outside influence. For 1 minute, creatures of your choice who make a Charisma check to influence the target can add one roll of your Rite Die to the result of their ability check.
+
+    **Empowered Anxiety.** The creature also has disadvantage on the first Intelligence, Wisdom, or Charisma saving throw it is forced to make before the end of your next turn.
+
+    #### Rite of Binding
+
+    As a bonus action, you invoke this Rite and force a Large or smaller creature that you can see within 30 feet to make a Strength saving throw. On a failed save, its speed is reduced to 0 and it can't use reactions until the end of your next turn.
+
+    **Empowered Binding.** You can target a creature of any size with this Rite, and it lasts for 1 minute. Creatures can repeat this saving throw at the end of each of their turns, ending the effects on a success.
+
+    #### Rite of Blindness
+
+    When a creature that you can see within 30 feet hits another creature you can see with an attack, you can use a reaction to invoke this Rite. The attacker subtracts one roll of your Rite Die from its attack roll, potentially turning a hit into a miss.
+
+    **Empowered Blindness.** The creature must also subtract one roll of your Rite Die from every weapon and spell attack roll it makes until the end of that creature's following turn.
+
+    #### Rite of Confusion
+
+    As a bonus action, you invoke this Rite to curse one creature you can see within 30 feet that is concentrating on a spell. It must succeed a Wisdom saving throw or lose concentration.
+
+    **Empowered Confusion.** The creature must subtract one roll of your Rite Die from its saving throw to resist this Rite.
+
+    #### Rite of Knowledge
+
+    When you learn this Rite you learn four ritual spells of 3rd-level or lower from any spell list. You can only cast them as rituals, and to do so you must make a Vital Sacrifice.
+
+    #### Rite of Revelation
+
+    When you use your Hunter's Bane to analyze a creature you can see, you can invoke this Rite to automatically succeed on your ability check against that creature.
+
+    **Empowered Revelation.** Choose one damage immunity the creature has and turn it into resistance, or one damage resistance it has and dispel it. This effect lasts for 1 minute. If the creature has no damage immunities or resistances, you learn three Hunter's Bane characteristics of your choice.
+
+    #### Rite of Siphoning
+
+    As an action, you can invoke this Rite and force one creature you touch to make a Charisma saving throw. On a failed save, the creature takes necrotic damage equal to two rolls of your Rite Die, and you gain temporary hit points equal to the necrotic damage taken by the creature.
+
+    **Empowered Siphoning.** The necrotic damage from this Rite is treated as the maximum possible amount instead of rolling.
+
+</div>
+
+<div class="rite-content" data-rite="5th">
+
+??? feature "Blood Rites (5th Level)"
+
+    #### Rite of the Beast
+
+    *Prerequisite: 5th-level Blood Hunter*
+
+    As an action, you invoke this Rite as you touch a living beast, smearing a drop of your blood on its face. It must succeed on a Charisma saving throw or become enthralled by you for 1 hour, or until it is reduced to 0 hit points.
+
+    An enthralled beast is friendly to you and your allies and obeys your orders completely. In combat you share initiative and it acts during your turn. It can move and use its reaction on its own, but it only takes the Dodge action unless you use your bonus action to command it to take an action from its stat block or another action. If you can ride the beast then it counts as a trained mount for the duration of this Rite.
+
+    You can only have one creature enthralled by a Blood Rite at a time. Attempting to enthrall another creature with a Rite instantly frees any other creatures you have enthralled.
+
+    **Empowered Beast.** The beast remains enthralled by this Blood Rite until the end of your next long rest.
+
+    #### Rite of Bonding
+
+    *Prerequisite: 5th-level Blood Hunter*
+
+    As an action, you invoke this Rite as you combine a drop of your blood with a drop of blood from a willing creature you touch, forging a dark bond. While the other creature is within 60 feet of you, it is resistant to all damage. However, if this bonded creature takes damage, you take the same amount.
+
+    The effects of this Rite last for 1 hour, but it ends early if either you or the other creature are reduced to 0 hit points, or if you are more than 60 feet apart for more than 1 minute. You can only enter into one such bond at a time. Using this Rite with another creature instantly ends the previous bond.
+
+    **Empowered Bonding.** The effects of this Blood Rite last for 8 hours, and only end early if either of you is reduced to 0 hit points or is more than 1 mile apart for more than 1 hour.
+
+    #### Rite of Corrosion
+
+    *Prerequisite: 5th-level Blood Hunter*
+
+    As a bonus action, you invoke this Rite to force one creature that you can see within 30 feet to make a Constitution saving throw. On a failed save, the creature is poisoned for 1 minute. It can repeat this Constitution saving throw at the end of each of its turns, ending the effect on a success.
+
+    **Empowered Corrosion.** The effects of this Blood Rite last until the creature succeeds on the Constitution saving throw. Moreover, whenever it fails this Constitution saving throw, it takes necrotic damage equal to two rolls of your Rite Die.
+
+    #### Rite of Exposure
+
+    *Prerequisite: 5th-level Blood Hunter*
+
+    As a bonus action, you invoke this Rite to curse one creature you can see within 30 feet. Any damage dealt to it before the end of your next turn ignores all of its damage resistances.
+
+    **Empowered Exposure.** Any damage it takes before the end of your next turn treats damage immunity as resistance.
+
+    #### Rite of Marking
+
+    *Prerequisite: 5th-level Blood Hunter*
+
+    As a bonus action, you invoke this Rite and mark a creature you can see within 30 feet. Until the end of your next turn, you have advantage on all attack rolls against that target.
+
+    **Empowered Marking.** You add one roll of your Rite Die to weapon attack rolls against it until the end of your next turn.
+
+    #### Rite of the Puppet
+
+    *Prerequisite: 5th-level Blood Hunter*
+
+    When a creature you can see within 30 feet is slain, you can use your reaction to invoke this Rite to cause the creature to stand up, move up to its walking speed, and make a weapon attack against a creature of your choice within its reach.
+
+    **Empowered Puppet.** The creature adds one roll of your Rite Die to both the attack and damage roll it makes as part of this Rite.
+
+</div>
+
+<div class="rite-content" data-rite="9th">
+
+??? feature "Blood Rites (9th Level)"
+
+    #### Rite of Aggression
+
+    *Prerequisite: 9th-level Blood Hunter*
+
+    As an action, you invoke this Rite and touch a willing creature, radically increasing its aggression. For 1 minute, or until it is incapacitated, it gains the benefits and drawbacks below:
+
+    - It can make one additional attack whenever it takes the Attack action or when it uses the Multiattack feature.
+    - It can take the Dash action as a bonus action on its turns.
+    - It gains a +2 bonus to its AC and Dexterity saving throws.
+    - If it ends its turn and has not dealt damage to a hostile creature since the end of its previous turn, the creature takes necrotic damage equal to one roll of your Rite Die.
+
+    When this Rite's effects end, the creature must succeed on a Constitution saving throw or suffer one level of exhaustion.
+
+    #### Rite of Dread
+
+    *Prerequisite: 9th-level Blood Hunter*
+
+    As a bonus action, you invoke this Rite to force one creature that can see or hear you within 30 feet to make a Wisdom saving throw. On a failure, it is frightened of you for 1 minute. While frightened in this way, a creature must do all it can to move as far away from you as possible by the safest route that it can. If it cannot move it can take the Dodge action. If it can end its turn where it cannot see you, it can repeat this saving throw, ending the effects of this Rite on a success.
+
+    **Empowered Dread.** On a failure, the creature is stunned for the duration, so long as it can see you. If it takes damage, it can repeat the saving throw, ending the effect on a success.
+
+    #### Rite of the Open Grave
+
+    *Prerequisite: 9th-level Blood Hunter*
+
+    As an action, you can touch a creature that has died within the last minute, snatching its soul back from the grave, and returning it to life with 1 hit point. However, when a creature is brought back to life by this Rite it gains a permanent death saving throw failure. This side effect can only be removed by *greater restoration* or a spell of similar or greater power.
+
+    This Rite cannot return a creature to life that died of old age, and it cannot restore a creature's missing body parts.
+
+    **Empowered Open Grave.** The creature does not gain a permanent death saving throw failure, but instead suffers a single level of exhaustion, which is healed by a long rest.
+
+    #### Rite of the Senseless
+
+    *Prerequisite: 9th-level Blood Hunter*
+
+    As a bonus action, you invoke this Rite to force one creature that you can see within 30 feet to make a Constitution saving throw. On a failure, it is blinded, deafened, and cannot speak or make any sound for 1 minute. It repeats this saving throw at the end of each of its turns, ending the effect on a success.
+
+    **Empowered Senseless.** The creature's speed is reduced to 0 for the duration along with the other effects of this Rite.
+
+</div>
+
+<div class="rite-content" data-rite="13th">
+
+??? feature "Blood Rites (13th Level)"
+
+    #### Rite of Decay
+
+    *Prerequisite: 13th-level Blood Hunter*
+
+    As an action, you invoke this Rite to force a creature you can see within 30 feet to make a Constitution saving throw as you corrupt its blood. On a failure, it takes necrotic damage equal to four rolls of your Rite Die, its speed is halved, and it cannot take reactions. It can repeat this Constitution saving throw as an action. On a success, the effects of this Rite end, but on a failure, it takes additional necrotic damage equal to two rolls of your Rite Die and suffers one level of exhaustion.
+
+    **Empowered Decay.** This Rite ignores necrotic resistance and treats necrotic immunity as resistance. Also, any creature killed by this Rite is reduced to a pile of flesh-colored dust.
+
+    #### Rite of Nightmares
+
+    *Prerequisite: 13th-level Blood Hunter*
+
+    As an action, you invoke this Rite to force a creature you can see within 30 feet to make a Wisdom saving throw, infecting its mind with nightmarish phantasms. On a failed save, the creature takes psychic damage equal to four rolls of your Rite Die and is frightened of you for 1 minute.
+
+    The creature repeats this Wisdom saving throw at the end of each of its turns. On a successful save, the effects of this Rite end, but on a failed save, the creature takes additional psychic damage equal to two rolls of your Rite Die.
+
+    **Empowered Nightmares.** The creature is incapacitated and has a speed of 0 for the duration of this Rite's effects.
+
+    #### Rite of Thralldom
+
+    *Prerequisite: 13th-level Blood Hunter*
+
+    As an action, you invoke this Rite and touch a live humanoid, smearing a drop of your blood on its face. It must succeed on a Charisma saving throw or become enthralled by you for 1 minute, or until it is reduced to 0 hit points.
+
+    An enthralled humanoid is friendly to you and obeys your orders completely. In combat it shares your initiative and acts during your turn. It can move and use its reaction on its own, but it only takes the Dodge action on its turn unless you use your bonus action to command it to take one of the actions from its stat block or another action.
+
+    You can only have one creature enthralled by a Blood Rite at a time. Attempting to enthrall another creature with a Rite instantly frees any other creatures you have enthralled.
+
+    **Empowered Thralldom.** The humanoid is enthralled by this Blood Rite for up to 1 hour.
+
+</div>
+
+<div class="rite-content" data-rite="17th">
+
+??? feature "Blood Rites (17th Level)"
+
+    #### Rite of Exsanguination
+
+    *Prerequisite: 17th-level Blood Hunter*
+
+    As an action, you invoke this most powerful and ancient Rite and force one creature you can see within 30 feet to make a Constitution saving throw, as you attempt to drain its body of all blood. On a failed save, it takes necrotic damage equal to twelve rolls of your Rite Die, and half as much on a success. Any creature that you have dealt damage to since the start of your previous turn has disadvantage on this saving throw.
+
+    Once you invoke this Blood Rite you must finish a short or long rest before you can invoke it again. You cannot make a Vital Sacrifice to circumvent this once-per-rest restriction.
+
+    **Empowered Exsanguination.** This Rite ignores necrotic resistance and treats immunity as resistance. Any creatures killed by this Rite are reduced to a pile of flesh-colored dust.
+
+    #### Rite of Reaping
+
+    *Prerequisite: 17th-level Blood Hunter*
+
+    As an action, you invoke this most powerful and ancient Rite and force creatures of your choice within 60 feet to make a Constitution saving throw as you draw all blood toward you. Creatures take necrotic damage equal to five rolls of your Rite Die on a failed save, and half as much on a success. Any creature that you have dealt damage to since the start of your previous turn has disadvantage on this saving throw.
+
+    Once you invoke this Blood Rite you must finish a short or long rest before you can invoke it again. You cannot make a Vital Sacrifice to circumvent this once-per-rest restriction.
+
+    **Empowered Reaping.** This Blood Rite ignores necrotic resistance and treats immunity as resistance. Any creatures killed by this Rite are reduced to a pile of flesh-colored dust.
+
+    #### Rite of Rejuvenation
+
+    *Prerequisite: 17th-level Blood Hunter*
+
+    As an action, you invoke this most powerful and ancient Rite and touch one living willing creature, granting it an increase in stamina at the cost of its overall health. It instantly gains all the benefits of a short rest, including the ability to expend its Hit Dice to regain hit points. However, the maximum life span of the creature is permanently reduced by 1 year and 1 day, and it suffers 1 level of exhaustion.
+
+    Once you invoke this Blood Rite you must finish a short or long rest before you can invoke it again. You cannot make a Vital Sacrifice to circumvent this once-per-rest restriction.
+
+</div>

@@ -10,6 +10,18 @@ Inventors are pragmatic arcane engineers who turn study, tools, and improvisatio
 
     --8<-- "kibbles/kt_inventor/core_features.md"
 
+=== "Inventor Upgrades"
+
+    --8<-- "kibbles/kt_inventor/upgrades.md"
+
+=== "Inventor Spell List"
+
+    --8<-- "kibbles/kt_inventor/spell_list.md"
+
+=== "Inventor Feats"
+
+    --8<-- "kibbles/kt_inventor/feats.md"
+
 === "Subclasses"
 
     --8<-- "kibbles/kt_inventor/subclasses.md"

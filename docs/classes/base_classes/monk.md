@@ -18,6 +18,6 @@ Monks are masters of martial arts and spiritual energy, capable of incredible fe
 
     --8<-- "base_classes/monk/alternate_subclasses.md"
 
-=== "Monastic Traditions"
+=== "Subclasses"
 
     --8<-- "base_classes/monk/subclasses.md"

@@ -34,5 +34,15 @@ document.addEventListener('DOMContentLoaded', function() {
     setupFilter('discipline-select', 'discipline-content', 'discipline');
     setupFilter('talent-select', 'talent-content', 'talent');
     setupFilter('manifestation-select', 'manifestation-content', 'manifestationTier');
-    setupFilter('upgrade-select', 'subclass-content', 'subclass')
+    setupFilter('upgrade-select', 'upgrade-content', 'upgrade')
+
+    //// 2CGaming Elementalist filters
+    setupFilter('shape-select', 'shape-content', 'shape');
+    setupFilter('hybrid-select', 'hybrid-content', 'hybrid');
+
+    //// Colville Illrigger filters
+    setupFilter('boon-select', 'boon-content', 'boon');
+
+    //// Kibbles Occultist & Laserllama Bloodhunter filters
+    setupFilter('rite-select', 'rite-content', 'rite');
 });

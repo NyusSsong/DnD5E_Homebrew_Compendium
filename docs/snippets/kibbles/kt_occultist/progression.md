@@ -1,0 +1,24 @@
+#### Occultist Progression Table
+
+| Level | PB | Features | Occult Rites | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|:-----:|:--:|----------|:------------:|:--------------:|:------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1st  | +2 | Spellcasting, Occult Tradition | — | 3 | 3  | 2 | — | — | — | — | — | — | — | — |
+| 2nd  | +2 | Occult Rites                   | 2 | 3 | 4  | 3 | — | — | — | — | — | — | — | — |
+| 3rd  | +2 | Occult Tradition Feature       | 2 | 3 | 5  | 4 | 2 | — | — | — | — | — | — | — |
+| 4th  | +2 | Ability Score Improvement      | 2 | 3 | 6  | 4 | 3 | — | — | — | — | — | — | — |
+| 5th  | +3 | —                              | 3 | 4 | 7  | 4 | 3 | 2 | — | — | — | — | — | — |
+| 6th  | +3 | Occult Tradition Feature       | 3 | 4 | 8  | 4 | 3 | 3 | — | — | — | — | — | — |
+| 7th  | +3 | —                              | 4 | 4 | 9  | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8th  | +3 | Ability Score Improvement      | 4 | 4 | 10 | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9th  | +4 | —                              | 5 | 4 | 11 | 4 | 3 | 3 | 2 | 1 | — | — | — | — |
+| 10th | +4 | Traditional Expertise          | 5 | 5 | 12 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11th | +4 | —                              | 5 | 5 | 13 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12th | +4 | Ability Score Improvement      | 6 | 5 | 14 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13th | +5 | —                              | 6 | 5 | 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14th | +5 | Occult Tradition Feature       | 6 | 5 | 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15th | +5 | —                              | 7 | 5 | 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16th | +5 | Ability Score Improvement      | 7 | 5 | 18 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17th | +6 | —                              | 7 | 5 | 19 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18th | +6 | —                              | 8 | 5 | 20 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19th | +6 | Ability Score Improvement      | 8 | 5 | 20 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20th | +6 | The Old Ways                   | 8 | 5 | 20 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |

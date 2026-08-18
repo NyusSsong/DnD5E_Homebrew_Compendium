@@ -47,8 +47,13 @@ nav:
         - Sorcerer: classes/base_classes/sorcerer.md
         - Warlock: classes/base_classes/warlock.md
         - Wizard: classes/base_classes/wizard.md
+      - 2CGaming:
+        - Elementalist: classes/2cgaming/elementalist.md
+      - Colville:
+        - Illrigger: classes/colville/illrigger.md
       - Kibbles Tasty:
         - Inventor: classes/kibbles/kt_inventor.md
+        - Occultist: classes/kibbles/kt_occultist.md
         - Psion: classes/kibbles/kt_psion.md
         - Warden: classes/kibbles/kt_warden.md
         - Warlord: classes/kibbles/kt_warlord.md
@@ -80,5 +85,5 @@ extra_css:
   - assets/css/admonition-campaign.css
   - assets/css/admonition-creature.css
 extra_javascript:
-  - assets/js/filter-js
+  - assets/js/filter.js
   - assets/js/magic-items.js
