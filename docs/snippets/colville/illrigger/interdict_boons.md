@@ -1,13 +1,13 @@
 <p><strong>Filter by level:</strong></p>
 
-<select id="boon-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
     <option value="all">All</option>
-    <option value="level2">2nd Level</option>
-    <option value="level7">7th Level</option>
-    <option value="level13">13th Level</option>
+    <option value="level-2">2nd Level</option>
+    <option value="level-7">7th Level</option>
+    <option value="level-13">13th Level</option>
 </select>
 
-<div class="boon-content" data-boon="level2">
+<div class="level-content" data-level="level-2">
 
 ??? feature "2nd-Level Boons"
 
@@ -35,7 +35,7 @@
 
 </div>
 
-<div class="boon-content" data-boon="level7">
+<div class="level-content" data-level="level-7">
 
 ??? feature "7th-Level Boons"
 
@@ -71,7 +71,7 @@
 
 </div>
 
-<div class="boon-content" data-boon="level13">
+<div class="level-content" data-level="level-13">
 
 ??? feature "13th-Level Boons"
 

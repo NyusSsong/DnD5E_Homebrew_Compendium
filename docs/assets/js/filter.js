@@ -24,24 +24,19 @@ document.addEventListener('DOMContentLoaded', function() {
     //// Generic filters
     setupFilter('alt-subclass-select', 'subclass-content', 'subclass');
     setupFilter('subclass-select', 'subclass-content', 'subclass');
-    setupFilter('exploit-select', 'exploit-content', 'exploit');
+    setupFilter('level-select', 'level-content', 'level');
 
     //// Base classes filters
-    setupFilter('technique-select', 'technique-content', 'technique')
     setupFilter('metamagic-select', 'metamagic-content', 'metamagicCost')
-    
+
     //// Kibbles Psion filters
     setupFilter('discipline-select', 'discipline-content', 'discipline');
     setupFilter('talent-select', 'talent-content', 'talent');
-    setupFilter('manifestation-select', 'manifestation-content', 'manifestationTier');
     setupFilter('upgrade-select', 'upgrade-content', 'upgrade')
 
     //// 2CGaming Elementalist filters
     setupFilter('shape-select', 'shape-content', 'shape');
     setupFilter('hybrid-select', 'hybrid-content', 'hybrid');
-
-    //// Colville Illrigger filters
-    setupFilter('boon-select', 'boon-content', 'boon');
 
     //// Kibbles Occultist & Laserllama Bloodhunter filters
     setupFilter('rite-select', 'rite-content', 'rite');

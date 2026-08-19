@@ -57,6 +57,10 @@ nav:
         - Psion: classes/kibbles/kt_psion.md
         - Warden: classes/kibbles/kt_warden.md
         - Warlord: classes/kibbles/kt_warlord.md
+      - Laserllama:
+        - Blood Hunter: classes/laserllama/ll_bloodhunter.md
+        - Magus: classes/laserllama/ll_magus.md
+        - Vessel: classes/laserllama/ll_vessel.md
       - Valda:
         - Martyr: classes/valda/valda_martyr.md
         - Warden: classes/valda/valda_warden.md

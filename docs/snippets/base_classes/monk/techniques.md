@@ -1,15 +1,15 @@
 <p><strong>Choose a technique tier:</strong></p>
 
-<select id="technique-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
     <option value="all">All</option>
-    <option value="initiate">Initiate</option>
-    <option value="disciple">Disciple</option>
-    <option value="adept">Adept</option>
-    <option value="master">Master</option>
-    <option value="ascendant">Ascendant</option>
+    <option value="no-level-prereq">Initiate</option>
+    <option value="level-5">Disciple</option>
+    <option value="level-9">Adept</option>
+    <option value="level-13">Master</option>
+    <option value="level-18">Ascendant</option>
 </select>
 
-<div class="technique-content" data-technique="initiate">
+<div class="level-content" data-level="no-level-prereq">
 
 ??? feature "Initiate Techniques"
 
@@ -67,7 +67,7 @@
 
 </div>
 
-<div class="technique-content" data-technique="disciple">
+<div class="level-content" data-level="level-5">
 
 ??? feature "Disciple Techniques"
 
@@ -119,7 +119,7 @@
 
 </div>
 
-<div class="technique-content" data-technique="adept">
+<div class="level-content" data-level="level-9">
 
 ??? feature "Adept Techniques"
 
@@ -159,7 +159,7 @@
 
 </div>
 
-<div class="technique-content" data-technique="master">
+<div class="level-content" data-level="level-13">
 
 ??? feature "Master Techniques"
 
@@ -197,7 +197,7 @@
 
 </div>
 
-<div class="technique-content" data-technique="ascendant">
+<div class="level-content" data-level="level-18">
 
 ??? feature "Ascendant Techniques"
 

@@ -1,15 +1,15 @@
 <p><strong>Choose a manifestation tier:</strong></p>
 
-<select id="manifestation-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
 <option value="all">All</option>
-<option value="initiate">Initiate (No Prerequisite)</option>
-<option value="6th-level">6th Level</option>
-<option value="9th-level">9th Level</option>
-<option value="12th-level">12th Level</option>
-<option value="16th-level">16th Level</option>
+<option value="no-level-prereq">Initiate (No Prerequisite)</option>
+<option value="level-6">6th Level</option>
+<option value="level-9">9th Level</option>
+<option value="level-12">12th Level</option>
+<option value="level-16">16th Level</option>
 </select>
 
-<div class="manifestation-content" data-manifestation-tier="initiate">
+<div class="level-content" data-level="no-level-prereq">
 
 ??? feature "Initiate Manifestations"
 
@@ -83,7 +83,7 @@
 
 </div>
 
-<div class="manifestation-content" data-manifestation-tier="6th-level">
+<div class="level-content" data-level="level-6">
 
 ??? feature "6th Level Manifestations"
 
@@ -101,7 +101,7 @@
 
 </div>
 
-<div class="manifestation-content" data-manifestation-tier="9th-level">
+<div class="level-content" data-level="level-9">
 
 ??? feature "9th Level Manifestations"
 
@@ -122,7 +122,7 @@
 
 </div>
 
-<div class="manifestation-content" data-manifestation-tier="12th-level">
+<div class="level-content" data-level="level-12">
 
 ??? feature "12th Level Manifestations"
 
@@ -153,7 +153,7 @@
 
 </div>
 
-<div class="manifestation-content" data-manifestation-tier="16th-level">
+<div class="level-content" data-level="level-16">
 
 ??? feature "16th Level Manifestations"
 
