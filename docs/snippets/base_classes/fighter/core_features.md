@@ -66,17 +66,9 @@ At 1st level you adopt a particular style of fighting as your specialty. Choose 
 
 **Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.
 
-<hr>
+**Versatile Fighting.** While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action
 
-#### Level 1 - Versatile Fighting
-
-While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action
-
-<hr>
-
-#### Level 1 - Wrestler
-
-When you hit a creature with a melee attack on your turn, you can use a bonus action on that turn to attempt to grapple or shove that creature, so long as you have a free hand to do so. Also, you can drag grappled creatures up to your full speed.
+**Wrestler.** When you hit a creature with a melee attack on your turn, you can use a bonus action on that turn to attempt to grapple or shove that creature, so long as you have a free hand to do so. Also, you can drag grappled creatures up to your full speed.
 
 <hr>
 

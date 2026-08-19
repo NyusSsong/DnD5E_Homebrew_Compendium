@@ -1,0 +1,231 @@
+The Shaman
+
+Before celestials took notice of mortals and bestowed power on Clerics and Paladins, Shamans served peoples as guides and protectors. Using ancient rituals, Shamans would bind Spirits to Totems, small objects of spiritual significance, and channel that power for good of their people. This ancient art was passed from elder to elder in a continuous chain, down to the Shamans of today. Those who bind theses Spirits are part of a tradition stretching back to the dawn of time.
+
+
+Hit Points
+
+    Hit Dice: 1d8 per Shaman level
+    Hit Points at 1st Level: 8 + your Constitution modifier.
+    Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per Shaman level after 1st
+
+Proficiencies
+
+    Armor: Light armor, shields
+    Weapons: Simple weapons, blow guns, nets.
+    Tools: None
+
+    Saving Throws: Wisdom, Charisma
+    Skills: Choose two from Animal Handling, Arcana, Insight, Medicine, Nature, Performance, or Religion
+
+Equipment
+
+As a Shaman, you start with the following equipment, in addition to the equipment granted by your backround:
+
+    (a) a quarterstaff or (b) any simple weapon
+    (a) a shortbow and 20 arrows or (b) 5 javelins
+    (a) a priest's pack or (b) an explorer's pack
+    Leather armor and one object used as a Totem.
+
+Quick Build
+
+You can make a Shaman quickly by using these suggestions. First, make Wisdom your highest ability score followed by Constitution. Second, choose the Hermit background. Last, choose the Body Sacred Focus and take Totem of the Bear
+    and Totem of the Mountain as your Bound Totems.
+Sacred Focus
+
+In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. At 1st level, you choose a Sacred Focus from the options listed below.
+
+Once it is chosen, your Sacred Focus cannot be changed.
+Body
+
+You channel spiritual power through your body, bending Spirits to your will with physical might. When you choose this Sacred Focus your hit point maximum increases by 1, and it increases by 1 again each time you gain a level.
+Heart
+
+You channel spiritual power into your heart and overwhelm Spirits with powerful emotions. You gain proficiency in both Intimidation and Persuasion, and you can use your Wisdom, in place of Charisma, for any ability checks with those skills.
+Mind
+
+You channel spiritual power through your mind, manipulating the Spirits with your keen wit. Whenever you make an ability check or a saving throw that uses your Intelligence score, you can choose to use your Wisdom score instead.
+Soul
+
+You channel spiritual power through your soul, your serenity soothes Spirits and wards you from harm. While not wearing armor or wielding a shield, your Armor Class is equal to 10 + your Charisma modifier + your Wisdom modifier.
+
+
+Totem Spirits
+
+At 1st level, you learn to bind primal Totem Spirits to sacred Totems so that you may safely channel their mystical abilities. Any Tiny object can of your choice be a Totem, but most often they are objects reminiscent of the Spirit bound within.
+
+Your Totems and their abilities use the rules detailed here:
+Bound Spirits
+
+At 1st level, you bind two Totem Spirits of your choice from the list at the end of the class. At certain Shaman levels you bind additional Totem Spirits, as shown in the Bound Spirits column of the Shaman table. If a Spirit has prerequisites, you can bind it at the same time you meet its prerequisites.
+
+When you gain a Shaman level, you can replace one Totem Spirit you currently have bound with another of your choice.
+Saving Throws
+
+If a Totem requires a target to make a saving throw, the DC equals 8 + your proficiency bonus + your Wisdom modifier.
+Totemic Assault
+
+As an action, you can command the Spirits bound within one of your Totems to swarm one creature you can see within 60 feet of you. That creature must succeed on a Charisma saving throw or take 1d8 necrotic damage.
+
+The Spirits swarm around this creature until it is slain, it moves more than 60 feet away, or you use Totemic Assault on another target. While they swarm, you can use a bonus action on subsequent turns to force it to make this Charisma saving throw again. You can only use Totemic Assault once per turn.
+
+The damage dealt by your Totemic Assault increases at 5th level (2d8), at 11th level (3d8), and finally at 17th level (4d8).
+Conduit Magic
+
+At 2nd level, you learn to call on the spiritual energies present in all things to cast spells. You gain the following features:
+Cantrips
+
+At 2nd level, you learn two Cantrips of your choice from the Shaman spell list. You learn an additional Shaman Cantrip of your choice when you reach 4th level, and again at 10th level.
+Spell Slots
+
+The Shaman table above shows the number of spell slots you have to cast your Shaman spells of 1st through 5th-level. The Slot Level column of the Shaman table also shows the level of all of your spell slots. To cast a Shaman spell of 1st-level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
+
+For example, at 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell cure wounds, you must expend one of your 3rd-level spell slots, and cast cure wounds at 3rd-level.
+Preparing & Casting Spells
+
+You prepare the list of spells that are available for you to cast, choosing from the Shaman spell list. When you do, choose a number of Shaman spells equal to your Shaman level + your Wisdom modifier (a minimum of 1). Spells you prepare must be of a level equal to your Slot Level or lower.
+
+For example, as a 5th level Shaman with a Wisdom of 18, you prepare nine spells of your choice of 3rd-level or lower from the Shaman spell list. Casting a spell doesn't remove it from your list of prepared spells. During a long rest, you can change your list of prepared spells by meditating: 1 minute per spell level for each new spell you are preparing.
+Spellcasting Ability
+
+As you draw your magic from your understanding of Spirits, Wisdom is your spellcasting ability for your Shaman spells. You use Wisdom if a spell refers to your spellcasting ability, setting a saving throw DC, or making a spell attack roll:
+
+Spell save DC = 8 + your proficiency bonus
++ your Wisdom modifier
+
+Spell attack modifier = your proficiency bonus
++ your Wisdom modifier
+
+Ritual Casting
+
+You can cast the Ritual version of any Shaman spell that you have prepared so long as the spell has the Ritual tag.
+Spellcasting Focus
+
+You can use any Totem to which you have bound a Spirit as the spellcasting focus for your Shaman spells.
+
+Spirituality
+
+At 2nd level, choose the Spirituality which best represents the disciplines and rites you use to channel spirits. Your Spirituality grants you features at 2nd level, and again when you reach 6th, 10th, and 14th level in this class.
+
+Spirituality Spells
+
+Each Spirituality has a list of spells you always have prepared once you reach the Shaman levels noted in your Spirituality's description. They count as Shaman spells for you, but they do not count against the number of spells you prepare each day.
+Ability Score Improvement
+
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.
+Totemic Versatility
+
+At 5th level, your ability to connect with and channel the spirit world increases. During a long rest, you can perform a 1-hour ritual to replace one of your current bound Spirit Totems with another of your choice, for which you meet all prerequisites.
+Elder Spirit
+
+Your ever-deepening connection to the world of Spirits allows you to conjure and bind powerful Elder Spirits to Totems. At 11th level, choose one Elder Spirit to bind to a Totem. It does not count against your total number of Bound Totems.
+
+Each Elder Spirit includes a list of Elder Spells that you learn at the Shaman levels listed in its description. They do not count against the spells you prepare each day.
+
+Once you reach the levels in your Elder Spirit's description, you can cast each of these spells once between each long rest at its lowest level, without expending a spell slot.
+
+You can use your Totemic Versatility feature to replace your Elder Spirit with another Elder Spirit of your choice. Though, if you replace your Elder Spirit with another Spirit, you only know the Elder Spells of your current Elder Spirit.
+
+Elder Spirits
+
+Below is the list of Elder Spirits available to Shamans to bind to their will. Shamans can cast each spell once between each long rest, at its lowest level, without expending a spell slot.
+
+You can use Totemic Versatility to change your Elder Spirit.
+Elder Spirit of Death
+
+Spirits of Death are drawn from the Shadowfell, the Hells, or the Abyss. They lend Shamans their powerful sinister magic.
+
+Shaman Level 	Spell
+11th 	harm
+13th 	finger of death
+15th 	horrid wilting *
+17th 	power word: kill
+Elder Spirit of Life
+
+Spirits of Life come to aid Shamans from the upper planes or the Feywild. They bless Shamans with mystic healing magic.
+
+Shaman Level 	Spell
+11th 	heal
+13th 	regenerate
+15th 	holy aura
+17th 	power word: heal
+Elder Spirit of the Moon
+
+Spirits of the Moon can be summoned from the Astral Sea or Ethereal Plane. They grant Shamans their mystical abilities.
+
+Shaman Level 	Spell
+11th 	astral projection ll
+13th 	reverse gravity
+15th 	antimagic field
+17th 	foresight
+Elder Spirit of the Sun
+
+Spirits of the Sun are drawn from places of powerful radiant magic. They lend Shamans restorative and purifying power.
+
+Shaman Level 	Spell
+11th 	sunbeam
+13th 	resurrection
+15th 	sunburst
+17th 	true resurrection
+Elder Spirit of the Void
+
+Spirits of the Void are called from outer realms beyond the known planes. They grant Shamans dark aberrant magick.
+
+Shaman Level 	Spell
+11th 	soul cage *
+13th 	prismatic spray
+15th 	maddening darkness *
+17th 	psychic scream *
+
+
+Elder Spirit of the Fissure
+
+Spirits of Fissure are conjured from the realms on the Plane of Earth. They lend Shamans the unyielding power of stone.
+
+Shaman Level 	Spell
+11th 	elemental avatar (earth) ll
+13th 	symbol
+15th 	earthquake
+17th 	invulnerability XGE
+Elder Spirit of the Inferno
+
+Spirits of the Inferno are summoned from the great Plane of Fire. They grant Shamans overwhelming destructive power.
+
+Shaman Level 	Spell
+11th 	elemental avatar (fire) ll
+13th 	fire storm
+15th 	incendiary cloud
+17th 	meteor swarm
+Elder Spirit of the Mystic
+
+Spirits of Mystics are souls of powerful Shamans that come to offer aid. They awaken a Shaman's true spiritual potential.
+
+Shaman Level 	Spell
+11th 	true seeing
+13th 	divine word
+15th 	holy aura
+17th 	foresight
+Elder Spirit of the Sea
+
+Spirits of the Sea are called up from the depths of the Plane of Water. They bestow Shamans with frigid ethereal magics.
+
+Shaman Level 	Spell
+11th 	elemental avatar (ice) ll
+13th 	etherealness
+15th 	tsunami
+17th 	invulnerability XGE
+Elder Spirit of the Storm
+
+Spirits of the Storm are drawn from the great tempests of the Plane of Air. They lend Shamans the chaotic magic of storms.
+
+Shaman Level 	Spell
+11th 	chain lightning
+13th 	whirlwind
+15th 	control weather
+17th 	storm of vengeance ll
+
+Spiritual Ascension
+
+You have transcended the need for a corporeal form. At 20th level, your physical body no longer ages, and you are immune to all disease, the Poisoned condition, and poison damage.
+
+Also, when you are reduced to 0 hit points, you can release the Spirit bound within one Totem to instead fall to a number of hit points equal to your Shaman level. You then lose access to the abilities of that Totem until you complete a long rest.
