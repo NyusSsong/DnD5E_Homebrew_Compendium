@@ -1,0 +1,228 @@
+### Alchemist
+
+A grinning gnome cackles with glee as he hurls a
+bomb into a group of charging goblins, blasting them
+into scorched chunks. He produces another, throws
+it at his feet, and disappears, still laughing, into the
+ensuing cloud of smoke.
+A slender elf quickly mixes liquids and herbs
+in a small bowl. She applies the mixture to an
+arrow wound on an injured dwarf ’s side, which
+immediately stops bleeding.
+Whether their methods are explosive,
+transformative, or restorative, alchemists live to
+transmute the world around them to their liking.
+
+HIT POINTS
+Hit Dice: 1d6 per alchemist level
+Hit Points at 1st Level: 6 + your Constitution
+modifier
+Hit Points at Higher Levels: 1d6 (or 4) + your
+Constitution modifier per alchemist level after 1st
+PROFICIENCIES
+Armor: Light armor
+Weapons: Simple weapons, bombs
+Tools: Alchemist’s supplies, herbalism kit
+Saving Throws: Dexterity, Intelligence
+Skills: Choose three from Arcana, History, Insight,
+Medicine, Nature, Perception, Sleight of Hand, and
+Survival
+
+EQUIPMENT
+You start with the following equipment, in
+addition to the equipment granted to you by your
+background:
+• (a) a light crossbow and 20 bolts or (b) any simple
+weapon
+• (a) an explorer’s pack or (b) a scholar’s pack
+• Alchemist’s supplies and (a) a vial of acid, (b) a
+vial of alchemist’s fire, or (c) a vial of basic poison
+• Leather armor and a dagger
+
+Natural Philosopher
+You have learned many things about alchemy during
+your studies. Starting at 1st level, you can add half
+your proficiency bonus, rounded up, to any ability
+check you make to identify herbs, potions, poisons,
+or other alchemical substances. This bonus stacks
+with your normal proficiency bonus, if you would
+add that already.
+
+Bombs
+At 1st level, you can create volatile alchemical bombs
+using your alchemist’s supplies. Whenever you take a
+short or long rest, you can create a number of bombs
+equal to 10 plus twice your alchemist level. For
+you the cost of materials necessary to create these
+bombs is negligible. After 24 hours, an unused bomb
+becomes inert. The statistics of a bomb are shown in
+the Bomb sidebar above.
+Instead of making an attack with a bomb
+using the Attack action, once per turn you can take
+the Use an Object action to prime a bomb with
+explosive reagents and throw it, increasing the
+bomb’s explosive potential and allowing you to deal
+additional damage. When you do so, you can add
+your Intelligence modifier, instead of Dexterity, to
+the bomb’s damage roll. Additionally, when you
+throw a bomb in this way, its damage increases by
+1d10 when you reach 5th level (2d10), 11th level
+(3d10), and 17th level (4d10).
+Saving Throws. When your bombs call for a
+saving throw, its save DC is calculated as follows:
+Bomb save DC = 8 + your proficiency bonus
++ your Intelligence modifier
++ 
+BOMB
+Bombs are exotic ranged weapons with the following statistics:
+Name Cost Damage Weight Properties
+Bomb 2 sp 1d10 fire 1 lb. Finesse, special, thrown (range 30/90)
+SPECIAL PROPERTY
+Bomb. When a bomb hits a target, it explodes in a 5-foot radius and is destroyed. The bomb can be
+thrown at an unoccupied space within its range. Each creature other than the target within the blast
+radius must succeed on a DC 11 Dexterity saving throw, taking half the damage rolled on a failed save or
+no damage on a successful one.
+Additionally, as a bonus action, you can empty some of the bomb’s explosive material to
+permanently remove the blast radius from this bomb, dealing damage only to the bomb’s target.
+
+Bomb Formulae
+By 2nd level, your research has granted you insight
+into new alchemical formulations for your bombs.
+Select three bomb formulae from the Bomb
+Formulae section below. Once per turn, when you
+take the Use an Object action to throw a bomb, you
+can apply a formula to it.
+When you gain certain levels in this class, you
+learn additional formulae of your choice, as shown in
+the Bomb Formulae Known column of the Alchemist
+table. Additionally, when you gain a level in this
+class, you can choose one of the formulae you know
+and replace it with another formula.
+Field of Study
+While all alchemists share a common knowledge
+base, most alchemists specialize into a particular
+field of study. When you reach 2nd level, you select
+your field of study, which grants you features at 2nd,
+6th, 10th, and 18th level.
+A formula granted by your field of study does
+not count against the total number of formulae you
+know.
+Reagent
+Starting at 3rd level, you have a collection of
+powerful alchemical reagents, represented by a pool
+of reagent dice, that you can spend to brew potions
+or magnify the power of your explosives.
+REAGENT DICE
+You start with three reagent dice, which are d10s, and
+you gain additional reagent dice as you gain levels in
+this class, as shown in the Reagent Dice column of
+the Alchemist table. You regain all expended reagent
+dice when you finish a long rest.
+When you take the Use an Object action to
+prime and throw a bomb, you can expend a number
+of reagent dice up to your proficiency modifier and
+add the dice to the bomb’s damage roll.
+BREWING POTIONS
+You can spend 10 minutes and expend any number
+of reagent dice to brew potions. These potions retain
+potency for 24 hours, after which they become inert.
+If a potion calls for a saving throw, it uses your bomb
+save DC.
+The number of reagent dice and the alchemist
+level required to brew a potion are given on the
+Potions table:
+
+Potion
+Alchemist
+Cost Level
+Potion of Climbing 1 reagent die 3rd
+Potion of Growth 1 reagent die 3rd
+Potion of Healing 1 reagent die 3rd
+Potion of Water Breathing 1 reagent die 3rd
+Universal Solvent 1 reagent die 3rd
+Cure-All 2 reagent dice 7th
+Potion of Greater Healing 2 reagent dice 7th
+Potion of Heroism 2 reagent dice 7th
+Potion of Resistance 2 reagent dice 7th
+Sovereign Glue (1 ounce) 2 reagent dice 7th
+Potion of Diminution 3 reagent dice 14th
+Potion of Flying 4 reagent dice 14th
+Potion of Hill Giant Strength 4 reagent dice 14th
+Potion of Invisibility 4 reagent dice 14th
+Potion of Superior Healing 4 reagent dice 14th
+
+REAGENT SYNTHESIS
+Once per day when you finish a short rest, you can
+regain all of your expended reagent dice that you
+have not used to brew potions.
+
+Discoveries
+In the course of your research, you have made
+a number of discoveries regarding the nature of
+alchemy. At 4th level, you gain two discoveries of
+your choice. When you gain certain alchemist levels,
+you gain additional discoveries of your choice, as
+shown in the Discoveries Known column of the
+Alchemist table.
+Additionally, when you learn a new discovery,
+you can choose one of the discoveries you know and
+replace it with another discovery that you could learn
+at that level.
+Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th,
+16th, and 19th level, you can increase one ability
+score of your choice by 2, or you can increase two
+ability scores of your choice by 1. As normal, you can’t
+increase an ability score above 20 using this feature.
+Alternatively, as an alchemist, when you gain an
+ability score improvement, you can instead choose
+to learn a new Discovery for which you meet the
+prerequisites.
+
+Flashbang
+Beginning at 5th level, you carry a supply of
+concussive explosives which help you escape from
+perilous situations. As a bonus action, you can throw
+one of these explosives at your feet, disorienting and
+distracting nearby foes. Each creature within 5 feet of
+you can’t take reactions until the start of its next turn.
+Evasion
+Beginning at 11th level, when you are subjected to
+an effect that allows you to make a Dexterity saving
+throw to take only half damage, you instead take no
+damage if you succeed on the saving throw, and only
+half damage if you fail.
+Blast Coating
+Starting at 15th level, you automatically succeed on
+saving throws against your own bombs and never
+take damage from them.
+Philosopher’s Stone
+At 20th level, you unlock the crowning achievement
+of all alchemy: a philosopher’s stone, a dynamo of
+alchemical energy in a fist-sized glowing jewel. You
+can construct your philosopher’s stone using your
+alchemist supplies, 1,000 gp worth of materials, and
+7 days of work. You can only have one philosopher’s
+stone at a time and only you can gain the stone’s
+benefits. As long as you possess the stone, you gain
+the following benefits:
+• Whenever you finish a short rest, you regain all
+expended reagent dice.
+• You can brew potions as an action, instead of in
+10 minutes.
+• You age 10 times slower than normal, and your
+age cannot be magically changed.
+Additionally, you learn the following formula, which
+doesn’t count against the total number of formulae
+you know:
+FORMULA: NUCLEAR BOMB
+By replacing your bomb’s explosive contents with
+your philosopher’s stone, you can change it into a
+nuclear bomb. A nuclear bomb deals 10d10 + 100
+force damage instead of its normal fire damage, has
+a blast radius of 1 mile, and completely destroys
+the philosopher’s stone. Additionally, each creature
+within the blast radius that fails its saving throw
+takes the full bomb damage rolled, or half on a
+successful save. Creatures within 60 feet can’t avoid
+this damage with Evasion or other features or spells.
