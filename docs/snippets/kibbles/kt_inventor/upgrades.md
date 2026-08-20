@@ -16,7 +16,7 @@
 
 <div class="subclass-content" data-subclass="cursesmith">
 
-??? feature "Cursesmith"
+??? subclass "Cursesmith"
 
     ??? feature "Unrestricted"
 
@@ -290,7 +290,7 @@
 
 <div class="subclass-content" data-subclass="fleshsmith">
 
-??? feature "Fleshsmith"
+??? subclass "Fleshsmith"
 
     ??? feature "Unrestricted"
 
@@ -595,7 +595,7 @@
 
 <div class="subclass-content" data-subclass="gadgetsmith">
 
-??? feature "Gadgetsmith"
+??? subclass "Gadgetsmith"
 
     ??? feature "Unrestricted"
 
@@ -883,7 +883,7 @@
 
 <div class="subclass-content" data-subclass="golemsmith">
 
-??? feature "Golemsmith"
+??? subclass "Golemsmith"
 
     ??? feature "Unrestricted"
 
@@ -1041,7 +1041,7 @@
 
 <div class="subclass-content" data-subclass="infusionsmith">
 
-??? feature "Infusionsmith"
+??? subclass "Infusionsmith"
 
     ??? feature "Unrestricted"
 
@@ -1198,7 +1198,7 @@
 
 <div class="subclass-content" data-subclass="potionsmith">
 
-??? feature "Potionsmith"
+??? subclass "Potionsmith"
 
     ??? feature "Unrestricted"
 
@@ -1464,7 +1464,7 @@
 
 <div class="subclass-content" data-subclass="relicsmith">
 
-??? feature "Relicsmith"
+??? subclass "Relicsmith"
 
     ??? feature "Unrestricted"
 
@@ -1682,7 +1682,7 @@
 
 <div class="subclass-content" data-subclass="runesmith">
 
-??? feature "Runesmith"
+??? subclass "Runesmith"
 
     ??? feature "Unrestricted"
 
@@ -1981,7 +1981,7 @@
 
 <div class="subclass-content" data-subclass="thundersmith">
 
-??? feature "Thundersmith"
+??? subclass "Thundersmith"
 
     ??? feature "Unrestricted"
 
@@ -2166,7 +2166,7 @@
 
 <div class="subclass-content" data-subclass="warsmith">
 
-??? feature "Warsmith"
+??? subclass "Warsmith"
 
     ??? feature "Unrestricted"
 
