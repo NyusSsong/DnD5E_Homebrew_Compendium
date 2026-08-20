@@ -18,10 +18,10 @@ Sorcerers wield innate magic that is stamped into their being. Some Sorcerers ca
 
     --8<-- "base_classes/sorcerer/arcane_innovations.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Sorcerous Origins"
 
     --8<-- "base_classes/sorcerer/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Sorcerous Origins"
 
     --8<-- "base_classes/sorcerer/subclasses.md"

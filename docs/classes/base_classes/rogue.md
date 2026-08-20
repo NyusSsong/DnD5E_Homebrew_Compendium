@@ -18,10 +18,10 @@ Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper 
 
     --8<-- "base_classes/rogue/devious_exploits.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Roguish Archetypes"
 
     --8<-- "base_classes/rogue/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Roguish Archetypes"
 
     --8<-- "base_classes/rogue/subclasses.md"

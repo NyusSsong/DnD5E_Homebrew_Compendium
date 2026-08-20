@@ -14,6 +14,6 @@ The charging minotaur's bellowed cry becomes a thunderous crash as a pillar of i
 
     --8<-- "kibbles/kt_warden/primal_manifestations.md"
 
-=== "Subclasses"
+=== "Warden Bond"
 
     --8<-- "kibbles/kt_warden/subclasses.md"

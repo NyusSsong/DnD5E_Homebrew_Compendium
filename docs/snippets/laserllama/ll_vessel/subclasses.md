@@ -9,7 +9,7 @@
 
 <div class="subclass-content" data-subclass="ascended">
 
-??? feature "The Ascended"
+??? subclass "The Ascended"
 
     When mortals attain heights of arcane power that allow them to ascend beyond their physical forms, they make themselves vulnerable to being sealed away. Often, these great sorcerers and archmages are punished by the deities of magic, and are imprisoned where they can no longer violate arcane laws.
 
@@ -71,11 +71,13 @@
     - As a bonus action on each of your turns, you can teleport up to 30 feet to an unoccupied space you can see in range.
     - The radius of your Arcane Blast becomes 15 feet.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="cataclysm">
 
-??? feature "The Cataclysm"
+??? subclass "The Cataclysm"
 
     At the dawn of time, elemental forces ran wild. Elder beings of pure air, earth, fire, and water rampaged across the world, shaping it by their destruction. These primordial elementals and elder genies were banished from the material plane, but always seek to return. When they threaten the mortal realm, great forces bind these elder elemental Cataclysms to hosts.
 
@@ -227,11 +229,13 @@
     - The weather in a 1-mile radius surrounding you subtly changes to reflect your primordial elemental influence.
     - You can use your Cataclysmic Eruption action at will.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="cursed">
 
-??? feature "The Cursed"
+??? subclass "The Cursed"
 
     Condemned by the heavens for transgressions at the dawn of time, Cursed Spirits were wielders of overwhelming sinister power. Counted among these Spirits are demons, devils, and other vile spirits of the lower planes. Cursed Spirits pose a threat to the multiverse, and are sealed to prevent untold calamity.
 
@@ -293,11 +297,13 @@
     - When you take the Attack action on your turn, you can make one bonus Iridescent Strike as part of your action.
     - Once per turn when you deal fire damage to a creature with an Iridescent Strike, you can cause it to be Frightened of you until the beginning of your next turn.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="fallen">
 
-??? feature "The Fallen"
+??? subclass "The Fallen"
 
     Not all denizens of the upper planes serve the will of those who created them. Some stray from their divinely ordained purpose and draw wrath. These wayward celestial beings are branded as Fallen Spirits and hurled from the heavens to be imprisoned in mortals to atone for their sins. Some swear revenge upon the heavens while others seek reconciliation.
 
@@ -364,11 +370,13 @@
     - When you miss a target with a weapon attack, the next attack you make against that creature has advantage.
     - If you score a critical hit against a creature, it is Blinded, Deafened, and mute until the start of your next turn.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="formless">
 
-??? feature "The Formless"
+??? subclass "The Formless"
 
     Before the world was shaped, horrible things slithered about the darkness. Formless monsters with only one desire: consume. These shapeless entities of hunger are known as Formless, and even now, they gnaw the roots of the world, trapped below the material plane.
 
@@ -429,11 +437,13 @@
     - You gain Immunity to acid damage, and whenever you deal acid damage, you ignore Resistance to acid damage and treat Immunity to acid damage as Resistance.
     - As an action on your turn, you can make one Iridescent Strike with each one of your Archon's Pseudopods.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="trickster">
 
-??? feature "The Trickster"
+??? subclass "The Trickster"
 
     The beings of the Feywild are known for their whimsical and ephemeral ways, often unpredictable to mortals. Most of the faerie are content to follow these self-imposed rules and only interfere with mortals when they are approached. However, the Fey known as Tricksters cannot help but spread discord and need to be sealed away to limit the chaos they spread.
 
@@ -494,5 +504,7 @@
     - When you use Illusory Strikes, the range becomes 60 feet.
     - Once per turn when you use Illusory Strikes, you can create two illusory copies of yourself within range.
     - When you hit a creature with an Iridescent Strike, it has disadvantage on its next Wisdom saving throw.
+
+<hr>
 
 </div>

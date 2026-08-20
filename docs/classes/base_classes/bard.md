@@ -10,6 +10,6 @@ Whether scholar, skald, or scoundrel, a bard weaves magic through words and musi
 
     --8<-- "base_classes/bard/core_features.md"
 
-=== "Subclasses"
+=== "Bard Colleges"
 
     --8<-- "base_classes/bard/subclasses.md"

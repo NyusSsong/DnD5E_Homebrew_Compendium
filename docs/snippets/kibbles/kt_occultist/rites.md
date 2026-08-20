@@ -125,8 +125,6 @@
 
         If a Rite creates an object, you can recreate that object if it is lost or destroyed. If the rules are not specified elsewhere, it is a process that requires any base object the Rite requires and 4 hours of time. If the original still exists anywhere, it loses its magical properties when you complete this process.
 
-<hr>
-
 </div>
 
 <div class="rite-content" data-rite="witch">
@@ -203,8 +201,6 @@
 
     You invest a hat (traditionally a floppy wide-brimmed black witch's hat) with some of your magic, turning it into a *hat of disguise*. If your hat is lost or destroyed, you can create a new one with 2 hours of work. If a previous hat still exists when you make a new one, it loses its magic upon the completion of the new one.
 
-<hr>
-
 </div>
 
 <div class="rite-content" data-rite="hedgemage">
@@ -274,8 +270,6 @@
     *Prerequisite: 5th-level Hedge Mage*
 
     When you cast utility cantrips that can lift weight, affect external elements, target an area on the ground, or cause minor instantaneous effects, you lift twice as much, target twice the area, or maintain an additional instantaneous effect.
-
-<hr>
 
 </div>
 
@@ -442,8 +436,6 @@
 
     When you cast a spell that invokes a Revelation, you can invoke two different Revelations at the same time.
 
-<hr>
-
 </div>
 
 <div class="rite-content" data-rite="shaman">
@@ -577,7 +569,5 @@
     #### Warding Power
 
     You learn the spell *shield*. It becomes an Occultist spell for you, but does not count against your spells known.
-
-<hr>
 
 </div>

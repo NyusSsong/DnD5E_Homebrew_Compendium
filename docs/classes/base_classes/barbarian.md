@@ -18,10 +18,10 @@ For some, their rage springs from a communion with fierce animal spirits. Others
 
     --8<-- "base_classes/barbarian/savage_exploits.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Primal Paths"
 
     --8<-- "base_classes/barbarian/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Primal Paths"
 
     --8<-- "base_classes/barbarian/subclasses.md"

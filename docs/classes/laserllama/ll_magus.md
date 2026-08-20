@@ -14,6 +14,6 @@ Known by many names throughout the multiverse, those who are able to wield both 
 
     --8<-- "laserllama/ll_magus/spell_list.md"
 
-=== "Subclasses"
+=== "Esoteric Orders"
 
     --8<-- "laserllama/ll_magus/subclasses.md"

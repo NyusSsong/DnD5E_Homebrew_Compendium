@@ -10,6 +10,6 @@ Wardens are vigilant guardians, and unbreakable defenders of the weak. They are 
 
     --8<-- "valda/valda_warden/core_features.md"
 
-=== "Subclasses"
+=== "Champion Calls"
 
     --8<-- "valda/valda_warden/subclasses.md"

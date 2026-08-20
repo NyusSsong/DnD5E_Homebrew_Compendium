@@ -31,8 +31,6 @@
 
     When an interdicted creature provokes an opportunity attack from you, you can make that attack without using your reaction, provided you're not incapacitated. Once you benefit from this boon, you can't do so again until the start of your next turn.
 
-<hr>
-
 </div>
 
 <div class="level-content" data-level="level-7">
@@ -66,8 +64,6 @@
     #### Vengeful Shot
 
     When a creature makes a ranged attack against you or an ally you can see within 30 feet of you, you can expend a seal as a reaction to make a ranged weapon attack against the attacker. If your attack hits, it deals extra damage equal to half your illrigger level (rounded down).
-
-<hr>
 
 </div>
 
@@ -106,7 +102,5 @@
     #### Soul's Doom
 
     When you use a bonus action to place or move a seal, you can scorch the seals into the target's soul. For 1 minute, whenever that interdicted creature takes damage, they take extra damage equal to your proficiency bonus.
-
-<hr>
 
 </div>

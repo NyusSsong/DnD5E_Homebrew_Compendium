@@ -14,6 +14,6 @@ A scholar of the arcane, wielding study, ritual, and precision to bend the force
 
     --8<-- "base_classes/wizard/elective_studies.md"
 
-=== "Subclasses"
+=== "Arcane Traditions"
 
     --8<-- "base_classes/wizard/subclasses.md"

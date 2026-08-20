@@ -14,10 +14,10 @@ While there are many holy warriors across the lands, few are Paladins. Marked by
 
     --8<-- "base_classes/paladin/divine_lessons.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Sacred Oaths"
 
     --8<-- "base_classes/paladin/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Sacred Oaths"
 
     --8<-- "base_classes/paladin/subclasses.md"

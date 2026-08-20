@@ -14,6 +14,6 @@ Blood Hunters are warriors who have undergone a dark alchemical ritual known as 
 
     --8<-- "laserllama/ll_bloodhunter/blood_rites.md"
 
-=== "Subclasses"
+=== "Blood Hunter Orders"
 
     --8<-- "laserllama/ll_bloodhunter/subclasses.md"

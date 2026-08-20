@@ -11,7 +11,7 @@
 
 <div class="subclass-content" data-subclass="architect">
 
-??? feature "Architect of Ruin"
+??? subclass "Architect of Ruin"
 
     Architects of Ruin are cool and calculating arcane knights who serve Asmodeus, deploying spells, steel, and subterfuge to win at any cost.
 
@@ -78,6 +78,30 @@
         | 19th | 3 | 12 | 4 | 3 | 3 | 1 |
         | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
+    ### Architect of Ruin Spell List
+
+    Spells marked with ᶜ are Colville homebrew spells found in the New Spells tab.
+
+    ??? table "Architect of Ruin Spell List"
+        | Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level |
+        |:---:|:---:|:---:|:---:|:---:|
+        | *chill touch* | *bane* | *arcanist's magic aura* | *bestow curse* | *aura of desecration*ᶜ |
+        | *dancing lights* | *burning hands* | *augury* | *dispel magic* | *banishment* |
+        | *fire bolt* | *charm person* | *blur* | *fear* | *blight* |
+        | *hellfire*ᶜ | *color spray* | *darkness* | *fly* | *compulsion* |
+        | *message* | *command* | *detect thoughts* | *haste* | *death ward* |
+        | *minor illusion* | *detect magic* | *enthrall* | *major image* | *dimension door* |
+        | *ray of frost* | *disguise self* | *heat metal* | *mote of Hell*ᶜ | *dominate beast* |
+        | *shocking grasp* | *Hell's lash*ᶜ | *hold person* | *phantom steed* | *greater invisibility* |
+        | *thaumaturgy* | *hellish rebuke* | *infernal challenge*ᶜ | *remove curse* | *hallucinatory terrain* |
+        | *vengeful blade*ᶜ | *shield* | *invisibility* | *revivify* | *locate creature* |
+        | *vicious mockery* | *shield of faith* | *lesser restoration* | *slow* | *maligned weapon*ᶜ |
+        | | *silent image* | *mirror image* | | *phantasmal killer* |
+        | | | *ray of enfeeblement* | | *wall of death*ᶜ |
+        | | | *scorching ray* | | |
+        | | | *silence* | | |
+        | | | *suggestion* | | |
+    
     <hr>
 
     ### Level 3 - Invoke Hell
@@ -126,105 +150,11 @@
 
     <hr>
 
-    ### Architect of Ruin Spell List
-
-    Spells marked with ᶜ are Colville homebrew spells found in the New Spells tab.
-
-    ??? table "Cantrips"
-
-        | Spell |
-        |-------|
-        | *chill touch* |
-        | *dancing lights* |
-        | *fire bolt* |
-        | *hellfire*ᶜ |
-        | *message* |
-        | *minor illusion* |
-        | *ray of frost* |
-        | *shocking grasp* |
-        | *thaumaturgy* |
-        | *vengeful blade*ᶜ |
-        | *vicious mockery* |
-
-    ??? table "1st Level"
-
-        | Spell |
-        |-------|
-        | *bane* |
-        | *burning hands* |
-        | *charm person* |
-        | *color spray* |
-        | *command* |
-        | *detect magic* |
-        | *disguise self* |
-        | *Hell's lash*ᶜ |
-        | *hellish rebuke* |
-        | *shield* |
-        | *shield of faith* |
-        | *silent image* |
-
-    ??? table "2nd Level"
-
-        | Spell |
-        |-------|
-        | *arcanist's magic aura* |
-        | *augury* |
-        | *blur* |
-        | *darkness* |
-        | *detect thoughts* |
-        | *enthrall* |
-        | *heat metal* |
-        | *hold person* |
-        | *infernal challenge*ᶜ |
-        | *invisibility* |
-        | *lesser restoration* |
-        | *mirror image* |
-        | *ray of enfeeblement* |
-        | *scorching ray* |
-        | *silence* |
-        | *suggestion* |
-
-    ??? table "3rd Level"
-
-        | Spell |
-        |-------|
-        | *bestow curse* |
-        | *dispel magic* |
-        | *fear* |
-        | *fly* |
-        | *haste* |
-        | *major image* |
-        | *mote of Hell*ᶜ |
-        | *phantom steed* |
-        | *remove curse* |
-        | *revivify* |
-        | *slow* |
-
-    ??? table "4th Level"
-
-        | Spell |
-        |-------|
-        | *aura of desecration*ᶜ |
-        | *banishment* |
-        | *blight* |
-        | *compulsion* |
-        | *death ward* |
-        | *dimension door* |
-        | *dominate beast* |
-        | *greater invisibility* |
-        | *hallucinatory terrain* |
-        | *locate creature* |
-        | *maligned weapon*ᶜ |
-        | *phantasmal killer* |
-        | *wall of death*ᶜ |
-
-<hr>
-
 </div>
 
 <div class="subclass-content" data-subclass="hellspeaker">
 
-??? feature "Hellspeaker"
+??? subclass "Hellspeaker"
 
     The charismatic and manipulative Hellspeakers serve Moloch as they slip about the battlefield, coercing enemies into becoming unwitting allies.
 
@@ -310,7 +240,7 @@
 
 <div class="subclass-content" data-subclass="painkiller">
 
-??? feature "Painkiller"
+??? subclass "Painkiller"
 
     The heavily armored death troopers of Hell, Painkillers serve Dispater, leading from the front of every major infernal battle.
 
@@ -382,7 +312,7 @@
 
 <div class="subclass-content" data-subclass="sanguine">
 
-??? feature "Sanguine Knight"
+??? subclass "Sanguine Knight"
 
     The blood-knights of Hell, Sanguine Knights serve Sutekh, Lord of Blood. Their sorceries drain their enemies' life force, pouring this stolen vitality into infernal rituals to turn the tide of battle.
 
@@ -454,7 +384,7 @@
 
 <div class="subclass-content" data-subclass="shadowmaster">
 
-??? feature "Shadowmaster"
+??? subclass "Shadowmaster"
 
     The hidden assassins of Hell, Shadowmasters serve Belial and excel at stealth and disguise.
 

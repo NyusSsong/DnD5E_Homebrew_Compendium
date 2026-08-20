@@ -18,10 +18,10 @@ A seeker of forbidden knowledge and eldritch bargains, drawing power from ancien
 
     --8<-- "base_classes/warlock/elder_arcanum.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Otherworldly Patrons"
 
     --8<-- "base_classes/warlock/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Otherworldly Patrons"
 
     --8<-- "base_classes/warlock/subclasses.md"

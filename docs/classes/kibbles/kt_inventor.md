@@ -22,6 +22,6 @@ Inventors are pragmatic arcane engineers who turn study, tools, and improvisatio
 
     --8<-- "kibbles/kt_inventor/feats.md"
 
-=== "Subclasses"
+=== "Inventor Specializations"
 
     --8<-- "kibbles/kt_inventor/subclasses.md"

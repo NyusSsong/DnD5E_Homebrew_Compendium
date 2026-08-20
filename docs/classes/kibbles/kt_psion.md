@@ -26,6 +26,6 @@ Psions are those who have tapped into a special otherworldly force, with the abi
 
     --8<-- "kibbles/kt_psion/feats.md"
 
-=== "Subclasses"
+=== "Psionic Archetypes"
 
     --8<-- "kibbles/kt_psion/subclasses.md"

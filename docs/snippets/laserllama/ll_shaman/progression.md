@@ -1,0 +1,22 @@
+| Level | PB | Features | Bound Spirits | Cantrips Known | Spell Slots | Slot Level |
+|:---:|:---:|:---|:---:|:---:|:---:|:---:|
+| 1st | +2 | Sacred Focus, Totem Spirits | 2 | — | — | — |
+| 2nd | +2 | Conduit Magic, Spirituality | 2 | 2 | 2 | 1st |
+| 3rd | +2 | — | 3 | 2 | 2 | 2nd |
+| 4th | +2 | Ability Score Improvement | 3 | 3 | 2 | 2nd |
+| 5th | +3 | Totemic Versatility | 4 | 3 | 2 | 3rd |
+| 6th | +3 | Spirituality Feature | 4 | 3 | 2 | 3rd |
+| 7th | +3 | — | 5 | 3 | 2 | 4th |
+| 8th | +3 | Ability Score Improvement | 5 | 3 | 2 | 4th |
+| 9th | +4 | — | 6 | 3 | 2 | 5th |
+| 10th | +4 | Spirituality Feature | 6 | 4 | 2 | 5th |
+| 11th | +4 | Elder Spirit (6th-level) | 6 | 4 | 3 | 5th |
+| 12th | +4 | Ability Score Improvement | 7 | 4 | 3 | 5th |
+| 13th | +5 | Elder Spirit (7th-level) | 7 | 4 | 3 | 5th |
+| 14th | +5 | Spirituality Feature | 7 | 4 | 3 | 5th |
+| 15th | +5 | Elder Spirit (8th-level) | 8 | 4 | 3 | 5th |
+| 16th | +5 | Ability Score Improvement | 8 | 4 | 3 | 5th |
+| 17th | +6 | Elder Spirit (9th-level) | 8 | 4 | 4 | 5th |
+| 18th | +6 | — | 9 | 4 | 4 | 5th |
+| 19th | +6 | Ability Score Improvement | 9 | 4 | 4 | 5th |
+| 20th | +6 | Spiritual Ascension | 9 | 4 | 4 | 5th |

@@ -14,10 +14,10 @@ Clerics are intermediaries between the mortal world and the distant planes of th
 
     --8<-- "base_classes/cleric/signs_of_faith.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Divine Domains"
 
     --8<-- "base_classes/cleric/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Divine Domains"
 
     --8<-- "base_classes/cleric/subclasses.md"

@@ -18,10 +18,10 @@ Whether calling on the elemental forces of nature or emulating the creatures of 
 
     --8<-- "base_classes/druid/animal_companion.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Druid Circles"
 
     --8<-- "base_classes/druid/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Druid Circles"
 
     --8<-- "base_classes/druid/subclasses.md"

@@ -18,6 +18,6 @@ Elementalists are fierce masters of the primal forces of nature, bending air, ea
 
     --8<-- "2cgaming/elementalist/elemental_shapes.md"
 
-=== "Subclasses"
+=== "Elemental Affinities"
 
     --8<-- "2cgaming/elementalist/subclasses.md"

@@ -18,10 +18,10 @@ Far from the bustle of cities and towns, past the hedges that shelter the most d
 
     --8<-- "base_classes/ranger/animal_companion.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Ranger Conclaves"
 
     --8<-- "base_classes/ranger/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Ranger Conclaves"
 
     --8<-- "base_classes/ranger/subclasses.md"

@@ -18,6 +18,6 @@ Illriggers are knights, assassins, and terror-commandos of Hell who serve archde
 
     --8<-- "colville/illrigger/new_spells.md"
 
-=== "Subclasses"
+=== "Diabolic Contracts"
 
     --8<-- "colville/illrigger/subclasses.md"

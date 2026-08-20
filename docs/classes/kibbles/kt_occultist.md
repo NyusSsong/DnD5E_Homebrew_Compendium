@@ -22,6 +22,6 @@ Occultists are those that follow the old ways, a path of ritual and wisdom long 
 
     --8<-- "kibbles/kt_occultist/feats.md"
 
-=== "Subclasses"
+=== "Occult Traditions"
 
     --8<-- "kibbles/kt_occultist/subclasses.md"

@@ -10,6 +10,6 @@ The sole commonality is that a Warlord alone is but a man, while a Warlord with 
 
     --8<-- "kibbles/kt_warlord/core_features.md"
 
-=== "Subclasses"
+=== "Battlefield Presences"
 
     --8<-- "kibbles/kt_warlord/subclasses.md"

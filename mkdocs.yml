@@ -60,6 +60,9 @@ nav:
       - Laserllama:
         - Blood Hunter: classes/laserllama/ll_bloodhunter.md
         - Magus: classes/laserllama/ll_magus.md
+        - Psion: classes/laserllama/ll_psion.md
+        - Savant: classes/laserllama/ll_savant.md
+        - Shaman: classes/laserllama/ll_shaman.md
         - Vessel: classes/laserllama/ll_vessel.md
       - Valda:
         - Martyr: classes/valda/valda_martyr.md

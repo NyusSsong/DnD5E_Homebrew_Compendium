@@ -18,10 +18,10 @@ A master of martial combat, the Fighter is a versatile warrior skilled with a va
 
     --8<-- "base_classes/fighter/martial_exploits.md"
 
-=== "Alternate Subclasses"
+=== "Alternate Martial Archetypes"
 
     --8<-- "base_classes/fighter/alternate_subclasses.md"
 
-=== "Subclasses"
+=== "Martial Archetypes"
 
     --8<-- "base_classes/fighter/subclasses.md"

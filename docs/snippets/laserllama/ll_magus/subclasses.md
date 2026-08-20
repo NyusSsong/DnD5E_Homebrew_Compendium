@@ -16,7 +16,7 @@
 
 <div class="subclass-content" data-subclass="arcanists">
 
-??? feature "Order of Arcanists"
+??? subclass "Order of Arcanists"
 
     Magi who join the Order of Arcanists often find themselves in the service of Wizards and practitioners of the arcane. While most Magi only study magic for use in battle, those who join this Order explore its broader uses. They keep a Spellbook and learn rituals that will aid in their quest for knowledge.
 
@@ -64,11 +64,13 @@
 
     You wield arcane magic that rivals an archmage. You add one 6th-level and one 7th-level Wizard spell of your choice to your Spellbook. You can cast each of these spells once between each long rest without expending a spell slot. These are both considered Magus spells for you.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="arcane-archers">
 
-??? feature "Order of Arcane Archers"
+??? subclass "Order of Arcane Archers"
 
     Originally founded by a sect of elvish mage hunters, the Magi known as Arcane Archers are masters of both bow and spell. While Magi thrive in close-quarters combat, Arcane Archers strike from afar with potent magic arrows. Most members of this Order are guardians, but some strike out as adventurers.
 
@@ -128,11 +130,13 @@
 
     This heightened state lasts for 1 minute. It ends early if you are Incapacitated or use your bonus action to end it. You can use this feature once per long rest at no cost, after which, you must expend a 5th-level spell slot to transform again.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="blades">
 
-??? feature "Order of Blades"
+??? subclass "Order of Blades"
 
     Magi of this Order dedicate their lives to the art of the Blade Dance. This mystical trance allows the Magi to empty their mind of any emotions or distractions and become one with their blade. Masters of this trance are deadly whirlwinds of magic and steel.
 
@@ -197,11 +201,13 @@
 
     Also, when you take the Attack action while in your Blade Dance, you make one additional attack as part of that action.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="dragon-knights">
 
-??? feature "Order of Dragon Knights"
+??? subclass "Order of Dragon Knights"
 
     Magi of this legendary Esoteric Order have their souls bound to a Draconic Companion. Using an ancient ritual, they infuse this Companion with draconic might beyond its years. Should their bond grow strong enough, they can ride their Draconic Companion, becoming a Dragon Knight of legend.
 
@@ -323,11 +329,13 @@
 
         ***Essence Breath (Recharge 5–6).*** Your Companion exhales elemental energy in a 30-foot cone, forcing creatures in the area to make a Dexterity saving throw. Creatures take 12d6 Essence damage on a failure, and half as much on a success.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="spellbreakers">
 
-??? feature "Order of Spellbreakers"
+??? subclass "Order of Spellbreakers"
 
     Magi who join the Order of Spellbreakers are known for their ruthless dedication to achieving their goals. This fraternity of arcane warriors and mage hunters use their Order's abilities to slay any who abuse magic power. While most Spellbreakers are discerning as they deliver judgment, some swear an oath to destroy any who utilize the arcane arts.
 
@@ -388,11 +396,13 @@
     - You have advantage on any weapon attack rolls you make as part of Spellstrike and Spellsunder against your Mark.
     - When you hit your Mark with a Spellstrike attack, you can end your Baleful Mark to cause your attack, including the spell, to deal maximum damage. After you do so, you can't Mark that creature again until you finish a long rest.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="warders">
 
-??? feature "Order of Warders"
+??? subclass "Order of Warders"
 
     Magi who join the Order of Warders almost always do so for noble reasons. Combining talent in the arcane arts with their signature style of defensive combat to serve as guardians for mages, nobles, and other important figures. While ultimately loyal to their Order, Warders make for fierce friends and will stand side by side with their allies against any foe.
 
@@ -442,11 +452,13 @@
 
     Also, when you use your Warder's Bond reaction because your Ward was targeted by a spell, you can use Spellsunder as part of the same reaction. When you do so, you have advantage on your Spellsunder attack roll. If your Spellsunder fails, you can still use Arcane Aegis to reduce the damage.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="armorers">
 
-??? feature "Order of Armorers"
+??? subclass "Order of Armorers"
 
     The Magi of the Order of Armorers claim to be disciples of the original Magus, the creator of the enchantment that became the Arcane Armory. They unlock the true potential of their Armory, conjuring the weapons within to levitate around them and strike out at their foes.
 
@@ -506,11 +518,13 @@
 
     Creatures of your choice within 20 feet of your target must make a Dexterity saving throw, taking 8d6 force damage on a failed save, and half as much damage on a success.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="conduits">
 
-??? feature "Order of Conduits"
+??? subclass "Order of Conduits"
 
     Strange and secretive, even for Magi the Order of Conduits is a sect of warriors who combine their arcane techniques with martial arts. By mastering their physical form, they can infuse themselves with arcane power, channeling the magicks of the Magi through their body. Where other Magi must rely on their Arcane Armory, Conduits rely only on inner arcane power.
 
@@ -572,11 +586,13 @@
 
     You can use this feature once per long rest at no cost, after which, you must expend a 5th-level spell slot to use it again.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="hexblades">
 
-??? feature "Order of Hexblades"
+??? subclass "Order of Hexblades"
 
     Magi known as Hexblades augment their skill in combat with sinister curses. Wielding the dark powers of the Shadowfell, these warriors siphon life-essence from foes and monsters to create their own sentient weapon. A true Hexblade will stop at nothing to face another skilled warrior on the battlefield.
 
@@ -637,11 +653,13 @@
     - You can choose for Spellstrike damage to be necrotic.
     - Its attacks ignore Resistance to necrotic damage, and treat Immunity to necrotic damage as Resistance.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="shades">
 
-??? feature "Order of Shades"
+??? subclass "Order of Shades"
 
     The secretive Order of infiltrators, assassins, and spies, these Magi use their clandestine magic to end conflicts before they begin. Known as Shades, these warriors specialize in illusion magic and thrive under the cover of shadow. Shade Magi will only strike when they know their success is assured.
 
@@ -701,11 +719,13 @@
 
     Finally, you can use a bonus action on each of your turns to teleport up to 60 feet to a space you can see that is in an area of dim light or darkness.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="spellswords">
 
-??? feature "Order of Spellswords"
+??? subclass "Order of Spellswords"
 
     Exceptionally rare, even amongst Magi, Spellswords master swordplay alongside their arcane magic. They dedicate their life to the pursuit of excellence in combat and little else. With the secret magic of their Order and martial techniques, there are few who can match the blade of a Spellsword in combat.
 
@@ -768,11 +788,13 @@
 
     You are a mythic master of both spell and sword. Once on each of your turns, you can use a Martial Exploit you know without expending an Exploit Die or Spellstrike a 1st-level Magus spell you know without expending a spell slot.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="travelers">
 
-??? feature "Order of Travelers"
+??? subclass "Order of Travelers"
 
     Practitioners of what many consider a forbidden ninth magic school, Travelers augment their skill with Chronomancy, time magic. As they grow in their understanding of this secret art, Travelers become increasingly detached from their place in time, becoming wanderers who safeguard the flow of time.
 
@@ -837,5 +859,7 @@
     You have mastered the combat applications of Chronomancy magic. Once between each long rest, you can cast the *time stop*ᴸᴸ spell without expending a spell slot. If your Future Self is within range, they can act during the spell with you.
 
     When you have no uses of this feature left, you can expend a 5th-level spell slot to cast *time stop*ᴸᴸ in this way again.
+
+<hr>
 
 </div>

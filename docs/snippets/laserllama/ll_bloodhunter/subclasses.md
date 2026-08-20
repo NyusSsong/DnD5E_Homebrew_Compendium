@@ -10,7 +10,7 @@
 
 <div class="subclass-content" data-subclass="alchemists">
 
-??? feature "Order of Alchemists"
+??? subclass "Order of Alchemists"
 
     Blood Hunters that join this Order make use of dark alchemy and transmutation magic to mutate their physical form. The sinister power in their blood triggers massive physiological changes thanks to experimental Mutagens. These mutants enhance their mortal form to meet monsters as their peer.
 
@@ -166,7 +166,7 @@
 
 <div class="subclass-content" data-subclass="heretics">
 
-??? feature "Order of Heretics"
+??? subclass "Order of Heretics"
 
     Excommunicated from their religious orders, the founders of the Order of Heretics were holy priests who desired to utilize forbidden rites to combat darkness. Branded heretics, these conduits of divine power supplemented their holy knowledge with blood magic. Now, this Order of priestly Blood Hunters works to combat wayward divine entities, both good and evil.
 
@@ -218,7 +218,7 @@
 
 <div class="subclass-content" data-subclass="palemoon">
 
-??? feature "Order of the Pale Moon"
+??? subclass "Order of the Pale Moon"
 
     Lycanthropy is an ancient curse that changes those afflicted into mindless beasts with an unquenchable hunger for flesh. In order to combat these monsters, some Blood Hunters will purposefully contract this curse. These warriors willingly give their lives so that they may draw on this bestial power to rid the world of lycanthropes and other shapeshifting monsters.
 
@@ -282,7 +282,7 @@
 
 <div class="subclass-content" data-subclass="saltiron">
 
-??? feature "Order of Salt & Iron"
+??? subclass "Order of Salt & Iron"
 
     Since the dawn of time, the ancient Order of Salt & Iron has trained exorcists to defend the living from the undead. Willing to sacrifice all that they are, these Blood Hunters stain their souls with spectral power. They then use the power of darkness to drive back the darkness itself, and work tirelessly to prevent the tide of undeath from overwhelming the living.
 
@@ -344,7 +344,7 @@
 
 <div class="subclass-content" data-subclass="undyingthirst">
 
-??? feature "Order of Undying Thirst"
+??? subclass "Order of Undying Thirst"
 
     Legends speak of an ancient vampire who came to regret the many atrocities he had committed when driven by his thirst. He gathered to himself a group of vampire hunters, and once they had vowed to scour the curse of vampirism from the world, passed his curse on to them and instructed them in the power of ancient blood magic. Known as the Order of Undying Thirst, these Blood Hunters relentlessly carry out their founding vow to exterminate all vampires.
 
@@ -406,7 +406,7 @@
 
 <div class="subclass-content" data-subclass="witchknights">
 
-??? feature "Order of Witch Knights"
+??? subclass "Order of Witch Knights"
 
     Blood Hunters who join the dark Order of Witch Knights are driven by an overwhelming desire to destroy the great evils of the world. Those especially dedicated, those willing to give up anything, are often approached by Eldritch Powers, beings of otherworldly might. These benefactors offer power in return for a fraction of the warrior's soul or unquestioning fealty.
 
@@ -448,6 +448,31 @@
         | 18th | 7 | 2 | 3rd |
         | 19th | 7 | 2 | 4th |
         | 20th | 7 | 2 | 4th |
+    
+    ??? table "Witch Knight Spell List"
+        | Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level |
+        |:---:|:---:|:---:|:---:|:---:|
+        | *blade ward* | *absorb elements* | *branding smite* | *blinding smite* | *banishment* |
+        | *booming blade* | *armor of agathys* | *cloud of daggers* | *counterspell* | *blight* |
+        | *chill touch* | *arms of hadar* | *crown of madness* | *dispel magic* | *charm monster* |
+        | *control flames* | *burning hands* | *darkness* | *enemies abound* | *dimension door* |
+        | *friends* | *cause fear* | *earthbind* | *fear* | *elemental bane* |
+        | *frostbite* | *charm person* | *hold person* | *hunger of hadar* | *hallucinatory terrain* |
+        | *green-flame blade* | *compelled duel* | *invisibility* | *hypnotic pattern* | *phantasmal killer* |
+        | *infestation* | *detect evil and good* | *mind spike* | *intellect fortress* | *shadow of moil* |
+        | *lightning lure* | *expeditious retreat* | *mirror image* | *magic circle* | *sickening radiance* |
+        | *mage hand* | *false life* | *misty step* | *major image* | *staggering smite* |
+        | *magic stone* | *hellish rebuke* | *ray of enfeeblement* | *remove curse* | |
+        | *mind sliver* | *hex* | *scorching ray* | *spirit shroud* | |
+        | *minor illusion* | *illusory script* | *shadow blade* | *vampiric touch* | |
+        | *poison spray* | *inflict wounds* | *shatter* | | |
+        | *prestidigitation* | *protection from good and evil* | *spider climb* | | |
+        | *resistance* | *searing smite* | *suggestion* | | |
+        | *shocking grasp* | *shield* | | | |
+        | *spare the dying* | *thunderous smite* | | | |
+        | *sword burst* | *unseen servant* | | | |
+        | *toll the dead* | *witch bolt* | | | |
+        | *true strike* | | | | |
 
     <hr>
 
@@ -476,20 +501,6 @@
     ### Level 18 - Profane Sacrifice
 
     You can offer the death of your foes to your Eldritch Power for enhanced magicks. If a hostile creature dies within 30 feet of you, you can use your reaction to regain one Pact Magic spell slot, or gain temporary hit points equal to one roll of your Rite Die + your Intelligence modifier. Once you use this feature you must finish a short or long rest before you can use it again.
-
-    <hr>
-
-    ### Witch Knight Spell List
-
-    **Cantrips:** *blade ward*, *booming blade*, *chill touch*, *control flames*, *friends*, *frostbite*, *green-flame blade*, *infestation*, *lightning lure*, *mage hand*, *magic stone*, *mind sliver*, *minor illusion*, *poison spray*, *prestidigitation*, *resistance*, *shocking grasp*, *spare the dying*, *sword burst*, *toll the dead*, *true strike*
-
-    **1st Level:** *absorb elements*, *armor of agathys*, *arms of hadar*, *burning hands*, *cause fear*, *charm person*, *compelled duel*, *detect evil and good*, *expeditious retreat*, *false life*, *hellish rebuke*, *hex*, *illusory script*, *inflict wounds*, *protection from good and evil*, *searing smite*, *shield*, *thunderous smite*, *unseen servant*, *witch bolt*
-
-    **2nd Level:** *branding smite*, *cloud of daggers*, *crown of madness*, *darkness*, *earthbind*, *hold person*, *invisibility*, *mind spike*, *mirror image*, *misty step*, *ray of enfeeblement*, *scorching ray*, *shadow blade*, *shatter*, *spider climb*, *suggestion*
-
-    **3rd Level:** *blinding smite*, *counterspell*, *dispel magic*, *enemies abound*, *fear*, *hunger of hadar*, *hypnotic pattern*, *intellect fortress*, *magic circle*, *major image*, *remove curse*, *spirit shroud*, *vampiric touch*
-
-    **4th Level:** *banishment*, *blight*, *charm monster*, *dimension door*, *elemental bane*, *hallucinatory terrain*, *phantasmal killer*, *shadow of moil*, *sickening radiance*, *staggering smite*
 
 <hr>
 

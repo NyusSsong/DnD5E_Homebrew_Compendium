@@ -8,7 +8,7 @@
 
 <div class="subclass-content" data-subclass="witch">
 
-??? feature "Tradition of the Witch"
+??? subclass "Tradition of the Witch"
 
     A Witch can be many things, and most often refers to someone that villagers find scary and weird, but at the heart of every crazed story there's a sliver of truth, and that truth is that Witches do indeed exist.
 
@@ -106,7 +106,7 @@
 
     **Upcasting Curses.** All curses with no upcasting trait gain the following upcasting text:
 
-    *.At Higher Levels..* If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th-level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.
+    **At Higher Levels.** If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th-level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.
 
     ??? spell "Befuddling Curse"
 
@@ -229,7 +229,7 @@
 
 <div class="subclass-content" data-subclass="hedgemage">
 
-??? feature "Tradition of the Hedge Mage"
+??? subclass "Tradition of the Hedge Mage"
 
     This tradition is a loose collection of magic users that benefit from a wide array of traditions and practical knowledge to build up a collection of eccentric magical knowledge. Their methods are often frowned upon by those of more studied routes, but their practical skills cannot be denied, and their unique understanding of magic that they have developed with their own hands and minds should not be underestimated.
 
@@ -303,7 +303,7 @@
 
 <div class="subclass-content" data-subclass="oracle">
 
-??? feature "Tradition of the Oracle"
+??? subclass "Tradition of the Oracle"
 
     An Oracle is an Occultist whose power comes to them from their connection to fate; bound and empowered Oracles carry some piece of divine mystery within them, tied to an aspect of destiny and fate. As their power grows they begin to understand this mystery with revelations, unlocking its secrets and the power they contain.
 
@@ -459,7 +459,7 @@
 
 <div class="subclass-content" data-subclass="shaman">
 
-??? feature "Tradition of the Shaman"
+??? subclass "Tradition of the Shaman"
 
     A Shaman is an Occultist that walks the paths of the spirits, binding them to their cause to empower themselves or bring havoc to their foes. Tough and powerful, they are most often found in the thick of the fight, wreathed in their primal power. A Shaman may view themselves as in service to their spirits or as served by the spirits; the what and the how of their contract can vary wildly, as can the source of their spirits, be it pulling from ancestral or primal powers.
 

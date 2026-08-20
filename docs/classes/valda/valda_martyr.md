@@ -10,6 +10,6 @@ Martyrs are chosen by the gods to carry a burden of suffering, sacrifice, and di
 
     --8<-- "valda/valda_martyr/core_features.md"
 
-=== "Subclasses"
+=== "Martyr's Burdens"
 
     --8<-- "valda/valda_martyr/subclasses.md"

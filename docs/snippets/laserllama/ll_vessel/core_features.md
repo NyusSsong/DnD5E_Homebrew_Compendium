@@ -29,9 +29,9 @@ Starting at 2nd level, you can draw upon the immense power of the Sealed Spirit 
 
 **Spellcasting Ability.** Charisma is your spellcasting ability for your Vessel spells, as you are using your willpower to draw on the magic of the Spirit within. You use Charisma when a spell refers to your spellcasting ability, when setting a saving throw DC for a spell, and when making a spell attack roll.
 
-    **Spell save DC** = 8 + your Proficiency Bonus + your Charisma modifier
+**Spell save DC** = 8 + your Proficiency Bonus + your Charisma modifier
 
-    **Spell attack modifier** = your Proficiency Bonus + your Charisma modifier
+**Spell attack modifier** = your Proficiency Bonus + your Charisma modifier
 
 **Spellcasting Focus.** Your Spirit Mantle is your Spellcasting Focus for your Vessel spells, and you must be cloaked in it to cast these spells. You must have a free hand to cast a spell that requires a somatic or a material component, and you must still provide material components that are consumed or have a gold cost.
 
