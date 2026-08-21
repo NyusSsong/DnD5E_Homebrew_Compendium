@@ -17,13 +17,9 @@ The hexes and grand hexes below are presented in alphabetical order within each 
 
 As an action, choose one creature you can see within 60 feet of you to make a Charisma saving throw. On a failed save, the creature can't take reactions until the end of your next turn.
 
-<hr>
-
 #### Apathy
 
 As an action, choose one creature you can see within 60 feet of you to make a Charisma saving throw. On a failed save, until the end of your next turn, the creature becomes indifferent toward one creature of your choice that it is hostile towards. This indifference ends if the target is attacked or harmed by a spell by the creature to which it is indifferent. When the hex ends, the creature becomes hostile again, unless the GM rules otherwise.
-
-<hr>
 
 #### Beckon Familiar
 
@@ -31,19 +27,13 @@ As an action, choose one creature you can see within 60 feet of you to make a Ch
 
 You can cast the *find familiar* spell as an action without expending a spell slot or spell components. Once you cast this spell in this manner, you can't do so again for 1 minute.
 
-<hr>
-
 #### Bleeding
 
 As an action, choose one creature you can see within 60 feet of you to make a Constitution saving throw. On a failed save, each time this creature takes damage, it loses an additional 1d4 hit points. This effect lasts until the end of your next turn.
 
-<hr>
-
 #### Charm
 
 As an action, choose one creature you can see within 60 feet to make a Wisdom saving throw. On a failed save, the creature is charmed by you until the end of your next turn. When the hex ends, the creature knows it was charmed by you.
-
-<hr>
 
 #### Dire Familiar
 
@@ -53,37 +43,25 @@ As an action, you can bolster your summoned familiar. For 1 minute, your familia
 
 You can cast other hexes while this hex is in effect. Once you cast this hex, you can't cast it again until your familiar is dismissed, or until its duration expires.
 
-<hr>
-
 #### Disorient
 
 As an action, choose one creature that you can see within 60 feet to make a Constitution saving throw. On a failed save, whenever this target makes an attack roll before the end of your next turn, it must roll a d6 and subtract the number rolled from the attack roll.
-
-<hr>
 
 #### Doomward
 
 As an action, choose one friendly creature other than yourself you can see within 60 feet. If this creature drops to 0 hit points before the end of your next turn and doesn't die outright, it drops to 1 hit point instead. This hex then ends and can't be used to target the same creature until you finish a short or long rest.
 
-<hr>
-
 #### Duplicity
 
 As an action, you can create an illusory duplicate self, composed of shadowstuff, to confuse your enemies. When a creature attacks you, roll any die. On an odd number, the attack strikes the duplicate and misses, regardless of its roll, and the hex ends. On an even roll, the attack targets you as normal. This effect lasts until the end of your next turn.
-
-<hr>
 
 #### Evil Eye
 
 As an action, choose one creature you can see that can see you within 60 feet to make a Wisdom saving throw. On a failed save, the creature is frightened of you until the end of your next turn.
 
-<hr>
-
 #### Fortune
 
 As an action, choose one friendly creature other than yourself you can see within 60 feet. The creature has advantage on saving throws until the end of your next turn.
-
-<hr>
 
 #### Go Unseen
 
@@ -91,13 +69,9 @@ As an action, you and your familiar become invisible. The effect ends at the end
 
 Once you cast this hex, you can't cast it again for 1 minute.
 
-<hr>
-
 #### Hobble
 
 As an action, choose one creature you can see within 60 feet of you to make a Strength saving throw. On a failed save, the creature's movement speed is reduced to 10 feet until the end of your next turn. If the creature is flying, it falls.
-
-<hr>
 
 #### Knowing
 
@@ -109,43 +83,29 @@ As an action, you open your third eye and become intuitively aware of your surro
 
 You learn that piece of information for each creature within 30 feet. You can only learn one of these things about a creature, even if you cast this hex more than once.
 
-<hr>
-
 #### Mire
 
 As an action, you can transform the ground within 30 feet of where you cast this hex into murky swamp, which is difficult terrain. You can move without penalty in this area. This effect lasts until the end of your next turn.
-
-<hr>
 
 #### Misfortune
 
 As an action, choose one creature you can see within 60 feet. Until the end of your next turn, whenever this creature rolls a 20 on a d20 roll, the roll instead becomes a 1.
 
-<hr>
-
 #### Obfuscate
 
 As an action, you create a 20-foot radius sphere of fog centered on yourself. The sphere spreads around corners, and its area is heavily obscured. This effect lasts until the end of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
-
-<hr>
 
 #### Peacebond
 
 As an action, you can lock weapons to their owners. The weapons and ammunition of each creature within 30 feet become locked in their sheaths, quivers, or holsters until the end of your next turn. During this time, a creature can use its action to free its weapon with a Strength check, opposed by your spell save DC.
 
-<hr>
-
 #### Pox
 
 As an action, choose one creature you can see within 5 feet to make a Constitution saving throw. On a failed save, the creature is poisoned until the end of your next turn.
 
-<hr>
-
 #### Ruin
 
 As an action, choose one creature you can see within 60 feet to make a Constitution saving throw. On a failed save, the creature's Armor Class decreases by 3, to a minimum of 10, until the end of your next turn.
-
-<hr>
 
 #### Scurry
 
@@ -153,31 +113,21 @@ As an action, a nonmagical object you choose within 30 feet sprouts legs and run
 
 The object animates, wriggles free of its owner if it has one, sprouts two legs, and moves 20 feet in a direction you choose. At the beginning of your turn, you can choose which direction the object moves. The object has an AC of 10, if its AC was not already higher, and remains animated until the end of your next turn, or until it is picked up.
 
-<hr>
-
 #### Shriek
 
 As a bonus action, you can release a thunderous, blood-curdling screech. Each Large or smaller creature you choose within 5 feet of you is pushed 5 feet away from you.
-
-<hr>
 
 #### Slumber
 
 As an action, choose one creature you can see within 60 feet to make a Wisdom saving throw. On a failed save, the target falls unconscious until it takes damage, or until the end of your next turn. Undead, creatures which are immune to being charmed, and creatures whose current hit points are greater than five times your witch level are immune to this effect.
 
-<hr>
-
 #### Slur
 
 As an action, choose one creature you can see within 60 feet to make a Charisma saving throw. On a failed save, the creature can't speak coherently until the end of your next turn. If the creature attempts to cast a spell that requires a verbal component, it must roll a d20. On an odd roll, the casting fails.
 
-<hr>
-
 #### Tremors
 
 As an action, you can create a small quake. Each creature on the ground within 10 feet of you must succeed a Dexterity saving throw or be knocked prone.
-
-<hr>
 
 #### Ward
 
@@ -211,8 +161,6 @@ You can spend 10 minutes and expend any number of alchemy points to brew potions
     | Potion of Diminution | 3 |
     | Potion of Gaseous Form | 3 |
 
-<hr>
-
 #### Coven
 
 You can induct others into your insidious coven. By performing a special ritual over the course of 8 hours, which can be done during a long rest, you can intermingle your cursed magic with a willing creature which has the Spellcasting or Pact Magic feature. This creature enters into your coven. You can have up to two creatures other than yourself in your coven at one time.
@@ -230,19 +178,13 @@ Coven members use their own spellcasting ability to determine spell attack bonus
     | 4th | *banishment*, *polymorph* |
     | 5th | *contagion*, *scrying* |
 
-<hr>
-
 #### Dual Hex
 
 When you cast a hex which targets one creature, you can target two creatures instead. While both targets are under the effect of your hex, you gain the benefits of your Insidious Spell feature against each of them.
 
-<hr>
-
 #### Forceful Personality
 
 Your Charisma score increases by 2, to a maximum of 22.
-
-<hr>
 
 #### Hybrid
 
@@ -256,8 +198,6 @@ As a bonus action, if your familiar is within 5 feet of you, you can meld with i
 
 This transformation lasts one minute or until you dismiss it on your turn (no action required). When it ends, your familiar is dismissed, and you can't summon it again until you finish a short or long rest.
 
-<hr>
-
 #### Poison Apple
 
 As an action, you can produce a magical apple out of thin air. This apple can possess whatever appearance you wish, be that a ruby red coloration, a golden skin, or the appearance of crystal. On your turn, you can use your action to eat the apple, granting you the following benefits:
@@ -270,8 +210,6 @@ However, the apple is suffused with your insidious magic. If a creature other th
 
 The apple shrivels and becomes nonmagical if it isn't eaten in 24 hours. Once you produce a magic apple, you can't produce another one until you finish a long rest.
 
-<hr>
-
 #### Possession
 
 As an action, your body becomes immaterial, and your spirit dives into a Large or smaller creature you can see within 10 feet of you in an attempt to possess it. This target must make a Charisma saving throw. A creature with a challenge rating greater than your witch level automatically succeeds on this save. On a failed save, you disappear and the target becomes incapacitated and possessed; you gain control of its body but don't deprive the target of its awareness. While possessing the creature, you can't be targeted by any attack, spell, or other effect. You maintain your Intelligence, Wisdom, and Charisma ability scores and your alignment, but otherwise use the creature's statistics. You don't gain access to the target's knowledge, class features, or proficiencies.
@@ -282,19 +220,13 @@ This possession lasts for 1 hour, or until the body drops to 0 hit points or you
 
 Once you use this ability, you can't do so again until you finish a long rest.
 
-<hr>
-
 #### War Hex
 
 When you cast a hex that targets a single creature, you can use your bonus action to cast a cantrip targeting the same creature.
 
-<hr>
-
 #### Witch's Broom
 
 You can use your action to enchant a mundane object—like a broom, cauldron, or rug—to fly for you. You gain a flying speed of 60 feet while holding this item with one hand, as long as you are not wearing medium or heavy armor, or wielding a shield. You can only enchant one object using this ability at a time. If you target another object using this effect, the enchantment on the previous object ends.
-
-<hr>
 
 #### Witch's Hut
 

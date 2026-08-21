@@ -66,7 +66,7 @@ The Spell Uses column of the Martyr table shows how many spells you can cast. Wh
 
 **Spellcasting Focus.** You can use a holy symbol as a spellcasting focus for your martyr spells.
 
-    ??? table "Hit Points Spellcasting"
+??? table "Hit Points Spellcasting"
 
     | Spell Level | Point Cost |
     |:-----------:|:----------:|

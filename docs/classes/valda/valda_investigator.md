@@ -12,6 +12,10 @@ Investigators track supernatural threats ranging from incorporeal spirits, to ne
 
     --8<-- "valda/valda_investigator/core_features.md"
 
+=== "Investigator Spell List"
+
+    --8<-- "valda/valda_investigator/spell_list.md"
+
 === "Occult Specializations"
 
     --8<-- "valda/valda_investigator/subclasses.md"

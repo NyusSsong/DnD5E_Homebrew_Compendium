@@ -14,6 +14,10 @@ While others are blessed with magic, witches are cursed by it. Afflicted by some
 
     --8<-- "valda/valda_witch/hexes.md"
 
+=== "Witch Spell List"
+
+    --8<-- "valda/valda_witch/spell_list.md"
+
 === "Witch's Crafts"
 
     --8<-- "valda/valda_witch/subclasses.md"

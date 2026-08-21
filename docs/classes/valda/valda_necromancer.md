@@ -16,6 +16,10 @@ However, collecting knowledge expanding their understanding is merely a means to
 
     --8<-- "valda/valda_necromancer/thralls.md"
 
+=== "Necromancer Spell List"
+
+    --8<-- "valda/valda_necromancer/spell_list.md"
+
 === "Grave Ambitions"
 
     --8<-- "valda/valda_necromancer/subclasses.md"

@@ -14,6 +14,10 @@ While other spellcasters aspire to grander and more complex spells, warmages ref
 
     --8<-- "valda/valda_warmage/tricks.md"
 
+=== "Warmage Spell List"
+
+    --8<-- "valda/valda_warmage/spell_list.md"
+
 === "Warmage Houses"
 
     --8<-- "valda/valda_warmage/subclasses.md"

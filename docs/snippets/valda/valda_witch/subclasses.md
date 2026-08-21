@@ -59,6 +59,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
 
     Once you use this ability, you can't summon your familiar again until you finish a long rest.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="blood-magic">
@@ -123,6 +125,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
 
     By 14th level, you can wield your own blood like a vicious lash. Once per round, when you cast a spell which deals damage to a creature that is under the effect of your hex, you can choose to lose hit points to increase the amount of damage dealt. For every 5 hit points you lose you can add 2d8 necrotic damage to the damage roll, up to a maximum of 6d8 damage. This feature only applies to a hostile creature which is the sole target of your hex.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="green-magic">
@@ -171,6 +175,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
     At 14th level, whenever you are targeted by a melee attack while your familiar is within 5 feet of you, you can use your reaction to command it to dive in the way of the attack. This attack targets the familiar instead.
 
     You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+
+<hr>
 
 </div>
 
@@ -223,6 +229,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
 
     This effect ends after 1 minute. Once you use this ability, you can't use it again until you finish a long rest.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="red-magic">
@@ -265,6 +273,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
     Starting at 14th level, when you cast a witch spell which deals acid, cold, fire, lightning, or thunder damage, you can expend another spell slot of equal or higher level to maximize the damage dealt.
 
     Once you use this ability, you can't use it again until you finish a long rest.
+
+<hr>
 
 </div>
 
@@ -317,6 +327,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
 
     You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="tea-magic">
@@ -363,6 +375,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
     By 14th level, as a bonus action, you can give yourself or a friendly creature you can see within 5 feet of you a temporary rush of energy by drinking an energizing cup of tea. On the target's next turn, the target can take one additional action on top of its regular action and a possible bonus action.
 
     Once you use this ability, you must finish a long rest before using it again.
+
+<hr>
 
 </div>
 
@@ -413,6 +427,8 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
 
     Once you use this ability, you can't use it again until you finish a long rest.
 
+<hr>
+
 </div>
 
 <div class="subclass-content" data-subclass="white-magic">
@@ -453,5 +469,7 @@ Each craft is associated with a number of Craft Spells. Spells that do not belon
     ### Level 14 - Witch's Gift
 
     Starting at 14th level, when you cast a spell or hex which restores a creature's hit points, that creature gains a +3 bonus to its Armor Class until the end of your next turn.
+
+<hr>
 
 </div>
