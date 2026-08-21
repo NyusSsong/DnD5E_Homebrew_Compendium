@@ -70,7 +70,10 @@ nav:
         - Craftsman: classes/valda/valda_craftsman.md
         - Investigator: classes/valda/valda_investigator.md
         - Martyr: classes/valda/valda_martyr.md
+        - Necromancer: classes/valda/valda_necromancer.md
         - Warden: classes/valda/valda_warden.md
+        - Warmage: classes/valda/valda_warmage.md
+        - Witch: classes/valda/valda_witch.md
   - Magic Items: magic-items.md
 
 markdown_extensions:
