@@ -23,10 +23,13 @@
 }
 
 /* Make all horizontal rules thicker */
-.md-typeset hr {
-    height: 1px;               /* thickness */
-    background-color: #3f51b5;    /* color */
-    margin: 0.5rem 0;            /* spacing above/below */
+.md-typeset hr,
+.md-typeset .admonition hr,
+.md-typeset details hr {
+  height: 2px;
+  background-color: #3f51b5;
+  margin: 0.5rem 0;
+  border: 0;
 }
 
 /* Remove grid centering from header */
@@ -195,3 +198,4 @@ p strong {
 .md-typeset details li {
   font-size: 0.75rem;
 }
+
