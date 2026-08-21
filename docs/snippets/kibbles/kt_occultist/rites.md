@@ -1,6 +1,6 @@
 <p><strong>Choose a tradition for rites:</strong></p>
 
-<select id="rite-select">
+<select id="rite-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
   <option value="all">All</option>
   <option value="general">General</option>
   <option value="witch">Witch</option>

@@ -1,7 +1,7 @@
 <p><strong>Filter by level:</strong></p>
 
-<select id="rite-select">
-  <option value="all">All Blood Rites</option>
+<select id="rite-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
   <option value="basic">No Prerequisite</option>
   <option value="5th">5th Level</option>
   <option value="9th">9th Level</option>

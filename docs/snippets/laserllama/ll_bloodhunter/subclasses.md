@@ -1,5 +1,7 @@
-<select id="subclass-select">
-  <option value="all">All Orders</option>
+<p><strong>Choose a blood hunter order:</strong></p>
+
+<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
   <option value="alchemists">Order of Alchemists</option>
   <option value="heretics">Order of Heretics</option>
   <option value="palemoon">Order of the Pale Moon</option>

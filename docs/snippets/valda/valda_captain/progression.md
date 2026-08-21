@@ -1,0 +1,22 @@
+| Level | PB | Features | Battle Dice | Cohort Feature |
+|:---:|:---:|:---|:---:|:---:|
+| 1st | +2 | Born Leader, Fighting Style | — | — |
+| 2nd | +2 | Cohort | — | Cohort feature |
+| 3rd | +2 | Banner, War Tactics | 2d8 | — |
+| 4th | +2 | Ability Score Improvement | 2d8 | — |
+| 5th | +3 | Blitz | 2d8 | — |
+| 6th | +3 | — | 3d8 | Cohort feature |
+| 7th | +3 | Banner feature | 3d8 | — |
+| 8th | +3 | Ability Score Improvement | 3d8 | — |
+| 9th | +4 | Advanced Tactics | 3d8 | — |
+| 10th | +4 | — | 3d10 | Cohort feature |
+| 11th | +4 | Coordinated Strike | 3d10 | — |
+| 12th | +4 | Ability Score Improvement | 3d10 | — |
+| 13th | +5 | Banner feature | 3d10 | — |
+| 14th | +5 | — | 4d10 | Cohort feature |
+| 15th | +5 | Lead by Example | 4d10 | — |
+| 16th | +5 | Ability Score Improvement | 4d10 | — |
+| 17th | +6 | Banner feature | 4d10 | — |
+| 18th | +6 | — | 4d12 | Cohort feature |
+| 19th | +6 | Ability Score Improvement | 4d12 | — |
+| 20th | +6 | Warlord | 4d12 | — |

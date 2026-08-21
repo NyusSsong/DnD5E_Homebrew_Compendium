@@ -1,4 +1,7 @@
-<select id="level-select">
+<p><strong>Filter by level:</strong></p>
+
+<select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
   <option value="no-level-prereq">No Prerequisite</option>
   <option value="level-5">5th-level Shaman</option>
   <option value="level-7">7th-level Shaman</option>

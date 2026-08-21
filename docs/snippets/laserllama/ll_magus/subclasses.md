@@ -1,5 +1,7 @@
-<select id="subclass-select">
-  <option value="all">All Esoteric Orders</option>
+<p><strong>Choose an esoteric order:</strong></p>
+
+<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
   <option value="arcanists">Order of Arcanists</option>
   <option value="arcane-archers">Order of Arcane Archers</option>
   <option value="blades">Order of Blades</option>

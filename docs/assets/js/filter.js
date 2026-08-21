@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupFilter('alt-subclass-select', 'subclass-content', 'subclass');
     setupFilter('subclass-select', 'subclass-content', 'subclass');
     setupFilter('level-select', 'level-content', 'level');
+    setupFilter('type-select', 'type-content', 'type');
 
     //// Base classes filters
     setupFilter('metamagic-select', 'metamagic-content', 'metamagicCost')

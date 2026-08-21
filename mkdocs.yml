@@ -65,6 +65,10 @@ nav:
         - Shaman: classes/laserllama/ll_shaman.md
         - Vessel: classes/laserllama/ll_vessel.md
       - Valda:
+        - Alchemist: classes/valda/valda_alchemist.md
+        - Captain: classes/valda/valda_captain.md
+        - Craftsman: classes/valda/valda_craftsman.md
+        - Investigator: classes/valda/valda_investigator.md
         - Martyr: classes/valda/valda_martyr.md
         - Warden: classes/valda/valda_warden.md
   - Magic Items: magic-items.md

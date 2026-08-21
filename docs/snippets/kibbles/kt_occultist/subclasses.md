@@ -1,5 +1,7 @@
-<select id="subclass-select">
-  <option value="all">All Traditions</option>
+<p><strong>Choose an occult tradition:</strong></p>
+
+<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
   <option value="witch">Witch</option>
   <option value="hedgemage">Hedge Mage</option>
   <option value="oracle">Oracle</option>

@@ -1,4 +1,4 @@
-**Choose a subclass:**
+<p><strong>Choose a ranger conclave:</strong></p>
 
 <select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
     <option value="all">All</option>

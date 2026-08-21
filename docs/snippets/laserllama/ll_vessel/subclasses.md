@@ -1,4 +1,7 @@
-<select id="subclass-select">
+<p><strong>Choose a sealed spirit:</strong></p>
+
+<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
     <option value="ascended">The Ascended</option>
     <option value="cataclysm">The Cataclysm</option>
     <option value="cursed">The Cursed</option>

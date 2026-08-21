@@ -19,7 +19,6 @@
 
 #### Equipment
 
-- You start with the following equipment, in addition to the equipment granted by your background:
 - (a) a light crossbow and case of 20 bolts or (b) any two simple weapons
 - (a) scale mail, (b) leather armor, or (c) chain mail (if proficient)
 - Thieves’ tools and a dungeoneer’s pack
