@@ -1,0 +1,3451 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../../laserllama/ll_vessel/">
+      
+      
+        <link rel="next" href="../valda_captain/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Alchemist - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Alchemist
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Valda
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-alchemist">The Alchemist</h1>
+<p>A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, into the ensuing cloud of smoke. A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding. Whether their methods are explosive, transformative, or restorative, alchemists live to transmute the world around them to their liking.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Alchemist Features</label><label for="__tabbed_1_3">Bomb Formulae</label><label for="__tabbed_1_4">Discoveries</label><label for="__tabbed_1_5">Fields of Study</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Formulae Known</th>
+<th style="text-align: center;">Reagent Dice</th>
+<th style="text-align: center;">Discoveries Known</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Bombs, Natural Philosopher</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Bomb Formulae, Field of Study</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Reagent</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3d10</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement, Discoveries</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4d10</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Flashbang</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5d10</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Field of Study Feature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">6d10</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Improved Potions</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">7d10</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">8d10</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">9d10</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Field of Study Feature</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">10d10</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Evasion</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">11d10</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">12d10</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">13d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Improved Potions</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">14d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Blast Coating</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">15d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">16d10</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">17d10</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Field of Study Feature</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">18d10</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">19d10</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Philosopher's Stone</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">20d10</td>
+<td style="text-align: center;">6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d6 per Alchemist level<br />
+<strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per Alchemist level after 1st</p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor<br />
+<strong>Weapons:</strong> Simple weapons, bombs<br />
+<strong>Tools:</strong> Alchemist's supplies, herbalism kit  </p>
+<p><strong>Saving Throws:</strong> Dexterity, Intelligence<br />
+<strong>Skills:</strong> Choose three from Arcana, History, Insight, Medicine, Nature, Perception, Sleight of Hand, and Survival</p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<p>As an Alchemist, you start with the following equipment, in addition to the equipment granted by your background:</p>
+<ul>
+<li><em>(a)</em> a light crossbow and 20 bolts or <em>(b)</em> any simple weapon</li>
+<li><em>(a)</em> an explorer's pack or <em>(b)</em> a scholar's pack</li>
+<li>Alchemist's supplies and <em>(a)</em> a vial of acid, <em>(b)</em> a vial of alchemist's fire, or <em>(c)</em> a vial of basic poison</li>
+<li>Leather armor and a dagger</li>
+</ul>
+<hr>
+<h4 id="level-1-natural-philosopher">Level 1 - Natural Philosopher</h4>
+<p>You have learned many things about alchemy during your studies. Starting at 1st level, you can add half your proficiency bonus, rounded up, to any ability check you make to identify herbs, potions, poisons, or other alchemical substances. This bonus stacks with your normal proficiency bonus, if you would add that already.</p>
+<hr>
+<h4 id="level-1-bombs">Level 1 - Bombs</h4>
+<p>At 1st level, you can create volatile alchemical bombs using your alchemist's supplies. Whenever you take a short or long rest, you can create a number of bombs equal to 10 plus twice your Alchemist level. For you, the cost of materials necessary to create these bombs is negligible. After 24 hours, an unused bomb becomes inert.</p>
+<details class="table">
+<summary>Bomb</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: center;">Cost</th>
+<th style="text-align: center;">Damage</th>
+<th style="text-align: center;">Weight</th>
+<th style="text-align: left;">Properties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Bomb</td>
+<td style="text-align: center;">2 sp</td>
+<td style="text-align: center;">1d10 fire</td>
+<td style="text-align: center;">1 lb.</td>
+<td style="text-align: left;">Finesse, special, thrown (range 30/90)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Special Property — Bomb.</strong> When a bomb hits a target, it explodes in a 5-foot radius and is destroyed. The bomb can be thrown at an unoccupied space within its range. Each creature other than the target within the blast radius must succeed on a Dexterity saving throw against your bomb save DC, taking half the damage rolled on a failed save or no damage on a successful one.</p>
+<p>Additionally, as a bonus action, you can empty some of the bomb's explosive material to permanently remove the blast radius from this bomb, dealing damage only to the bomb's target.</p>
+</details>
+<p>Instead of making an attack with a bomb using the Attack action, once per turn you can take the Use an Object action to prime a bomb with explosive reagents and throw it, increasing the bomb's explosive potential and allowing you to deal additional damage. When you do so, you can add your Intelligence modifier, instead of Dexterity, to the bomb's damage roll. Additionally, when you throw a bomb in this way, its damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
+<p><strong>Saving Throws.</strong> When your bombs call for a saving throw, its save DC is calculated as follows:</p>
+<p><strong>Bomb save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+<hr>
+<h4 id="level-2-bomb-formulae">Level 2 - Bomb Formulae</h4>
+<p>By 2nd level, your research has granted you insight into new alchemical formulations for your bombs. Select three bomb formulae from the Bomb Formulae tab. Once per turn, when you take the Use an Object action to throw a bomb, you can apply a formula to it.</p>
+<p>When you gain certain levels in this class, you learn additional formulae of your choice, as shown in the Formulae Known column of the Alchemist table. Additionally, when you gain a level in this class, you can choose one of the formulae you know and replace it with another formula.</p>
+<hr>
+<h4 id="level-2-field-of-study">Level 2 - Field of Study</h4>
+<p>While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your Field of Study, which grants you features at 2nd, 6th, 10th, and 18th level.</p>
+<p>A formula granted by your Field of Study does not count against the total number of formulae you know.</p>
+<hr>
+<h4 id="level-3-reagent">Level 3 - Reagent</h4>
+<p>Starting at 3rd level, you have a collection of powerful alchemical reagents, represented by a pool of reagent dice, that you can spend to brew potions or magnify the power of your explosives.</p>
+<p><strong>Reagent Dice.</strong> You start with three reagent dice, which are d10s, and you gain additional reagent dice as you gain levels in this class, as shown in the Reagent Dice column of the Alchemist table. You regain all expended reagent dice when you finish a long rest.</p>
+<p>When you take the Use an Object action to prime and throw a bomb, you can expend a number of reagent dice up to your proficiency modifier and add the dice to the bomb's damage roll.</p>
+<p><strong>Brewing Potions.</strong> You can spend 10 minutes and expend any number of reagent dice to brew potions. These potions retain potency for 24 hours, after which they become inert. If a potion calls for a saving throw, it uses your bomb save DC.</p>
+<p>The number of reagent dice and the Alchemist level required to brew a potion are given on the Potions table:</p>
+<details class="table">
+<summary>Potions</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Potion</th>
+<th style="text-align: center;">Cost</th>
+<th style="text-align: center;">Alchemist Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Potion of Climbing</td>
+<td style="text-align: center;">1 reagent die</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Growth</td>
+<td style="text-align: center;">1 reagent die</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Healing</td>
+<td style="text-align: center;">1 reagent die</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Water Breathing</td>
+<td style="text-align: center;">1 reagent die</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: left;">Universal Solvent</td>
+<td style="text-align: center;">1 reagent die</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cure-All</td>
+<td style="text-align: center;">2 reagent dice</td>
+<td style="text-align: center;">7th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Greater Healing</td>
+<td style="text-align: center;">2 reagent dice</td>
+<td style="text-align: center;">7th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Heroism</td>
+<td style="text-align: center;">2 reagent dice</td>
+<td style="text-align: center;">7th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Resistance</td>
+<td style="text-align: center;">2 reagent dice</td>
+<td style="text-align: center;">7th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sovereign Glue (1 ounce)</td>
+<td style="text-align: center;">2 reagent dice</td>
+<td style="text-align: center;">7th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Diminution</td>
+<td style="text-align: center;">3 reagent dice</td>
+<td style="text-align: center;">14th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Flying</td>
+<td style="text-align: center;">4 reagent dice</td>
+<td style="text-align: center;">14th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Hill Giant Strength</td>
+<td style="text-align: center;">4 reagent dice</td>
+<td style="text-align: center;">14th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Invisibility</td>
+<td style="text-align: center;">4 reagent dice</td>
+<td style="text-align: center;">14th</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Superior Healing</td>
+<td style="text-align: center;">4 reagent dice</td>
+<td style="text-align: center;">14th</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><strong>Reagent Synthesis.</strong> Once per day when you finish a short rest, you can regain all of your expended reagent dice that you have not used to brew potions.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<p>Alternatively, when you gain an Ability Score Improvement, you can instead choose to learn a new Discovery for which you meet the prerequisites.</p>
+<hr>
+<h4 id="level-4-discoveries">Level 4 - Discoveries</h4>
+<p>In the course of your research, you have made a number of discoveries regarding the nature of alchemy. At 4th level, you gain two discoveries of your choice from the Discoveries tab. When you gain certain Alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.</p>
+<p>Additionally, when you learn a new discovery, you can choose one of the discoveries you know and replace it with another discovery that you could learn at that level.</p>
+<hr>
+<h4 id="level-5-flashbang">Level 5 - Flashbang</h4>
+<p>Beginning at 5th level, you carry a supply of concussive explosives which help you escape from perilous situations. As a bonus action, you can throw one of these explosives at your feet, disorienting and distracting nearby foes. Each creature within 5 feet of you can't take reactions until the start of its next turn.</p>
+<hr>
+<h4 id="level-7-improved-potions">Level 7 - Improved Potions</h4>
+<p>Your mastery of reagents has grown. You can now brew the more powerful potions listed at 7th level in the Potions table.</p>
+<hr>
+<h4 id="level-11-evasion">Level 11 - Evasion</h4>
+<p>Beginning at 11th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+<hr>
+<h4 id="level-14-improved-potions">Level 14 - Improved Potions</h4>
+<p>Your alchemical expertise reaches its peak. You can now brew the most powerful potions listed at 14th level in the Potions table.</p>
+<hr>
+<h4 id="level-15-blast-coating">Level 15 - Blast Coating</h4>
+<p>Starting at 15th level, you automatically succeed on saving throws against your own bombs and never take damage from them.</p>
+<hr>
+<h4 id="level-20-philosophers-stone">Level 20 - Philosopher's Stone</h4>
+<p>At 20th level, you unlock the crowning achievement of all alchemy: a philosopher's stone, a dynamo of alchemical energy in a fist-sized glowing jewel. You can construct your philosopher's stone using your alchemist's supplies, 1,000 gp worth of materials, and 7 days of work. You can only have one philosopher's stone at a time, and only you can gain the stone's benefits. As long as you possess the stone, you gain the following benefits:</p>
+<ul>
+<li>Whenever you finish a short rest, you regain all expended reagent dice.</li>
+<li>You can brew potions as an action, instead of in 10 minutes.</li>
+<li>You age 10 times slower than normal, and your age cannot be magically changed.</li>
+</ul>
+<p>Additionally, you learn the following formula, which doesn't count against the total number of formulae you know:</p>
+<p><strong>Formula: Nuclear Bomb.</strong> By replacing your bomb's explosive contents with your philosopher's stone, you can change it into a nuclear bomb. A nuclear bomb deals 10d10 + 100 force damage instead of its normal fire damage, has a blast radius of 1 mile, and completely destroys the philosopher's stone. Additionally, each creature within the blast radius that fails its saving throw takes the full bomb damage rolled, or half on a successful save. Creatures within 60 feet can't avoid this damage with Evasion or other features or spells.</p>
+</div>
+<div class="tabbed-block">
+<p>Bomb formulae are summarized in the table below. Formulae marked with an asterisk (✦) are exclusively available through a specific Field of Study and cannot be chosen freely. Unless otherwise stated, all bombs produce a loud boom audible out to one mile. Bombs are presented in alphabetical order.</p>
+<details class="table">
+<summary>Bomb Formulae</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Formula</th>
+<th style="text-align: center;">Damage</th>
+<th style="text-align: center;">Saving Throw</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Acid Bomb</td>
+<td style="text-align: center;">d4 acid</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Arcano Bomb ✦</td>
+<td style="text-align: center;">d12 force</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Bramble Bomb</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cryo Bomb</td>
+<td style="text-align: center;">d8 cold</td>
+<td style="text-align: center;">Constitution</td>
+</tr>
+<tr>
+<td style="text-align: left;">Holy Bomb</td>
+<td style="text-align: center;">d8 radiant</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Impact Bomb</td>
+<td style="text-align: center;">d8 force</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Incendiary Bomb</td>
+<td style="text-align: center;">d6 fire</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Laughing Gas Bomb</td>
+<td style="text-align: center;">d6 poison</td>
+<td style="text-align: center;">Constitution</td>
+</tr>
+<tr>
+<td style="text-align: left;">Lightning Bomb</td>
+<td style="text-align: center;">d8 lightning</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nonlethal Bomb</td>
+<td style="text-align: center;">d8 bludgeoning</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Oil Bomb</td>
+<td style="text-align: center;">d6 fire</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pheromone Bomb ✦</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">Wisdom</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prismatic Bomb</td>
+<td style="text-align: center;">Varies</td>
+<td style="text-align: center;">Varies</td>
+</tr>
+<tr>
+<td style="text-align: left;">Painkiller Bomb ✦</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Psionic Bomb</td>
+<td style="text-align: center;">d6 psychic</td>
+<td style="text-align: center;">Wisdom</td>
+</tr>
+<tr>
+<td style="text-align: left;">Quiet Bomb</td>
+<td style="text-align: center;">d8 fire</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Seeking Bomb</td>
+<td style="text-align: center;">d6 fire</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Shrapnel Bomb ✦</td>
+<td style="text-align: center;">d8 piercing</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Slime Bomb ✦</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Smoke Bomb</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sonic Bomb</td>
+<td style="text-align: center;">d6 thunder</td>
+<td style="text-align: center;">Constitution</td>
+</tr>
+<tr>
+<td style="text-align: left;">Stink Bomb</td>
+<td style="text-align: center;">d8 poison</td>
+<td style="text-align: center;">Constitution</td>
+</tr>
+<tr>
+<td style="text-align: left;">Teleportation Bomb</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Thermobaric Bomb</td>
+<td style="text-align: center;">d6 fire</td>
+<td style="text-align: center;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: left;">Venom Bomb ✦</td>
+<td style="text-align: center;">d8 poison</td>
+<td style="text-align: center;">Constitution</td>
+</tr>
+<tr>
+<td style="text-align: left;">Withering Bomb</td>
+<td style="text-align: center;">d8 necrotic</td>
+<td style="text-align: center;">Constitution</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="info">
+<summary>Missed Bombs</summary>
+<p>As bombs are explosive projectiles, it makes sense to ask what happens if a thrown bomb fails to hit its target. For simplicity, we assume that missed bombs explode harmlessly in the background or fail to detonate altogether, but do not explode in the target's space and deal damage with their blast radius. The GM can decide which of these two outcomes happens, or can determine the outcome randomly.</p>
+</details>
+<hr />
+<h4 id="acid-bomb">Acid Bomb</h4>
+<p>By mixing your bomb's explosive contents with a few drops of ardenflotic acid, a highly corrosive chemical, you can change it into an acid bomb. An acid bomb deals acid damage instead of fire damage and has d4 damage dice. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, takes the same amount of damage again at the end of its next turn.</p>
+<hr />
+<h4 id="arcano-bomb">Arcano Bomb</h4>
+<p><em>Available exclusively to Dynamo Engineer Alchemists (6th level).</em></p>
+<p>By adding an unexpended dynamo to the bomb (and thus expending its spell slot), you can change it into an arcano bomb. An arcano bomb deals force damage instead of fire damage, has d12 damage dice, and deals an additional die of damage, as if a reagent die were added to it.</p>
+<hr />
+<h4 id="bramble-bomb">Bramble Bomb</h4>
+<p>By adding a potent fertilizer to your bomb's explosive contents, you can change it into a bramble bomb. A bramble bomb deals no damage, and instead causes tough, thorny brambles to sprout from any area of natural ground within the bomb's blast radius, which becomes difficult terrain. Additionally, if a creature in the blast radius is prone when the bomb detonates, it is enveloped by the brambles and must make a Strength (Athletics) check opposed by your bomb save DC in order to move or stand. The brambles shrivel and die after 1 minute.</p>
+<hr />
+<h4 id="cryo-bomb">Cryo Bomb</h4>
+<p>By replacing your bomb's explosive contents with a piece of ice nine, you can change it into a cryo bomb. A cryo bomb deals cold damage instead of fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, has its speed decreased by 10 feet until the end of its next turn.</p>
+<hr />
+<h4 id="holy-bomb">Holy Bomb</h4>
+<p>By adding a few drops of holy water to your bomb's explosive contents, you can change it into a holy bomb. A holy bomb deals radiant damage instead of fire damage and has d8 damage dice, unless the target is a celestial, fiend, or undead. The bomb's damage dice are d6s against celestials and d12s against fiends and undead.</p>
+<hr />
+<h4 id="impact-bomb">Impact Bomb</h4>
+<p>By replacing your bomb's explosive contents with a more reactive one, you can change it into an impact bomb. An impact bomb deals force damage instead of fire damage and has d8 damage dice. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, is pushed 5 feet away from the center of the blast.</p>
+<hr />
+<h4 id="incendiary-bomb">Incendiary Bomb</h4>
+<p>By adding a thickening agent to your bomb's explosive contents, you can change it into an incendiary bomb. An incendiary bomb has d6 damage dice. Additionally, the area of the blast radius is engulfed in flames which persist until the beginning of your next turn. Flammable objects in this area that aren't being worn or carried ignite. Any creature that ends its turn in this area takes half the bomb's damage.</p>
+<hr />
+<h4 id="laughing-gas-bomb">Laughing Gas Bomb</h4>
+<p>By mixing your bomb's explosive contents with a drop of jesterate, a highly euphoric chemical, you can change it into a laughing gas bomb. A laughing gas bomb deals poison damage instead of fire damage, has d6 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, falls prone in a fit of laughter. Once a creature falls prone due to this bomb's effects, it is immune to this effect (but not the bomb's poison damage) for 24 hours.</p>
+<hr />
+<h4 id="lightning-bomb">Lightning Bomb</h4>
+<p>By replacing your bomb's explosive contents with a charged arcane capacitor, you can change it into a lightning bomb. A lightning bomb deals lightning damage instead of fire damage and has d8 damage dice. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, can't take reactions until the end of its next turn.</p>
+<hr />
+<h4 id="nonlethal-bomb">Nonlethal Bomb</h4>
+<p>By replacing your bomb's explosive contents with a pouch of rubber pellets, you can change it into a nonlethal bomb. A nonlethal bomb deals bludgeoning damage instead of fire damage and has d8 damage dice. If damage from this bomb drops a creature to 0 hit points, it knocks the creature out rather than dealing a killing blow, rendering the creature unconscious and stable. Additionally, this bomb's rubber projectiles bounce around corners, ignoring half and three-quarters cover for targets within the blast radius.</p>
+<hr />
+<h4 id="oil-bomb">Oil Bomb</h4>
+<p>By mixing your bomb's explosive contents with a few drops of a super-surfactant, you can change it into an oil bomb. An oil bomb does not deal damage, but coats each creature within the blast radius in a sticky, flammable oil. The next time a creature coated in oil takes fire damage, it takes an additional d6 damage for each die of fire damage rolled, up to a maximum of half your Alchemist level, rounded up. Oil can be removed by dousing a creature with a gallon of water.</p>
+<hr />
+<h4 id="pheromone-bomb">Pheromone Bomb</h4>
+<p><em>Available exclusively to Amorist Alchemists.</em></p>
+<p>By replacing your bomb's explosive contents with a potent pheromone, you can change it into a pheromone bomb. A pheromone bomb requires a Wisdom saving throw instead of a Dexterity save. The bomb deals no damage, and instead causes the target, as well as each creature within the blast radius that fails its saving throw, to be charmed by you until the end of its turn or it takes damage.</p>
+<hr />
+<h4 id="prismatic-bomb">Prismatic Bomb</h4>
+<p>By adding an ounce of polyjuice, an unpredictable, multicolored chemical, to your bomb's explosive contents, you can change it into a prismatic bomb. A prismatic bomb deals randomly determined damage instead of fire damage, has d8 damage dice, and requires a randomly determined saving throw. Roll on each of the following tables.</p>
+<details class="table">
+<summary>Prismatic Results</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">d6</th>
+<th style="text-align: left;">Damage Type</th>
+<th style="text-align: center;">d6</th>
+<th style="text-align: left;">Saving Throw</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Acid</td>
+<td style="text-align: center;">1–2</td>
+<td style="text-align: left;">Dexterity</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Cold</td>
+<td style="text-align: center;">3–4</td>
+<td style="text-align: left;">Constitution</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Fire</td>
+<td style="text-align: center;">5–6</td>
+<td style="text-align: left;">Wisdom</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Lightning</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Poison</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Radiant</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr />
+<h4 id="painkiller-bomb">Painkiller Bomb</h4>
+<p><em>Available exclusively to Apothecary Alchemists.</em></p>
+<p>By mixing your bomb's explosive contents with a slurry of analgesic oil, you can change it into a painkiller bomb. A painkiller bomb deals no damage, and instead grants each creature within its blast radius temporary hit points equal to 1d8 plus half your Alchemist level, which last until the end of your next turn. This bomb has no effect on constructs and undead.</p>
+<hr />
+<h4 id="psionic-bomb">Psionic Bomb</h4>
+<p>By mixing your bomb's explosive contents with dust from a psionic crystal, you can change it into a psionic bomb. A psionic bomb deals psychic damage instead of fire damage, has d6 damage dice, and requires a Wisdom saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, has disadvantage on Constitution saving throws it makes to maintain concentration on spells until the end of its next turn.</p>
+<hr />
+<h4 id="quiet-bomb">Quiet Bomb</h4>
+<p>By replacing your bomb's explosive contents with a wad of thermal cotton, you can change it into a quiet bomb. A quiet bomb has d8 damage dice. When this bomb detonates, it makes only a low thud, audible out to 10 feet, and releases a puff of smoke to mask the light given off by its blast. Creatures have disadvantage on ability checks to detect that this bomb was detonated nearby.</p>
+<hr />
+<h4 id="seeking-bomb">Seeking Bomb</h4>
+<p>By replacing your bomb's explosive contents with a powerful lodestone, you can change it into a seeking bomb. A seeking bomb has d6 damage dice. You don't suffer disadvantage from making a ranged attack using this bomb while you are within 5 feet of a hostile creature.</p>
+<hr />
+<h4 id="shrapnel-bomb">Shrapnel Bomb</h4>
+<p><em>Available exclusively to Mad Bomber Alchemists.</em></p>
+<p>By augmenting your bomb's explosive contents with metal bearings, you can change it into a shrapnel bomb. A shrapnel bomb deals piercing damage instead of fire damage, has d8 damage dice, and explodes in a 10-foot radius.</p>
+<hr />
+<h4 id="slime-bomb">Slime Bomb</h4>
+<p><em>Available exclusively to Ooze Rancher Alchemists.</em></p>
+<p>By mixing your bomb's explosive contents with the remnants of an ooze, you can change it into a slime bomb. A slime bomb deals no damage, but coats each creature within the blast radius in a viscous, green slime. No creature coated in slime can take the Dash action or the Disengage action. Slime can be removed by dousing a creature with a gallon of water or by taking an action to remove most of it.</p>
+<hr />
+<h4 id="smoke-bomb">Smoke Bomb</h4>
+<p>By removing your bomb's explosive contents entirely, you can change it into a smoke bomb. A smoke bomb deals no damage but fills a 10-foot radius sphere with smoke. This smoke spreads around corners and its area is heavily obscured. It lasts for a number of rounds equal to your Intelligence modifier or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Once you throw one of these bombs, you can't throw another for 1 minute.</p>
+<hr />
+<h4 id="sonic-bomb">Sonic Bomb</h4>
+<p>By mixing your bomb's explosive contents with a few drops of air elemental essence, you can change it into a sonic bomb. A sonic bomb deals thunder damage instead of fire damage, has d6 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, is deafened until the end of its next turn.</p>
+<hr />
+<h4 id="stink-bomb">Stink Bomb</h4>
+<p>By adding a single drop of skunkanide, a chemical too unholy to expound upon, you can change it into a stink bomb. A stink bomb deals poison damage instead of fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, has disadvantage on ability checks it makes before the end of its next turn.</p>
+<hr />
+<h4 id="teleportation-bomb">Teleportation Bomb</h4>
+<p>By replacing your bomb's explosive contents with a glowing etherite crystal, you can change it into a teleportation bomb. A teleportation bomb deals no damage and instead opens a rift in space, instantly teleporting you to its point of detonation, if it explodes within 30 feet of you.</p>
+<hr />
+<h4 id="thermobaric-bomb">Thermobaric Bomb</h4>
+<p>By replacing your bomb's explosive contents with a delayed explosive, you can change it into a thermobaric bomb. A thermobaric bomb has d6 damage dice and explodes in a 10-foot radius sphere.</p>
+<hr />
+<h4 id="venom-bomb">Venom Bomb</h4>
+<p><em>Available exclusively to Venomsmith Alchemists.</em></p>
+<p>By mixing a few drops of a fast-acting toxin into your bomb's explosive components, you can change it into a venom bomb. A venom bomb deals poison damage instead of fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, has disadvantage on the next Strength, Dexterity, or Constitution saving throw it makes before the end of its next turn.</p>
+<hr />
+<h4 id="withering-bomb">Withering Bomb</h4>
+<p>By mixing your bomb's explosive components with a powerful desiccating agent, you can change it into a withering bomb. A withering bomb deals necrotic damage instead of fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, can't regain hit points until the end of its next turn.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Filter by level:</strong></p></p>
+<p><select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="no-level-prereq">No Level Prerequisite</option>
+  <option value="level-9">9th Level</option>
+  <option value="level-13">13th Level</option>
+  <option value="level-17">17th Level</option>
+</select></p>
+<div class="level-content" data-level="no-level-prereq">
+<details class="feature">
+<summary>Alchemist Discoveries</summary>
+<h4 id="arcane-study">Arcane Study</h4>
+<p>You learn three cantrips of your choice from the wizard spell list. Intelligence is your spellcasting ability for your wizard spells.</p>
+<h4 id="ballistics-research">Ballistics Research</h4>
+<p>You learn two additional bomb formulae.</p>
+<h4 id="battle-training">Battle Training</h4>
+<p>You gain proficiency with martial weapons and shields.</p>
+<h4 id="clotting-agent">Clotting Agent</h4>
+<p>You have developed a serum that thickens your blood. Your hit point maximum increases by your alchemist level + your Constitution modifier, and increases by 1 again whenever you gain a level in this class.</p>
+<h4 id="craft-homunculus">Craft Homunculus</h4>
+<p>Using a special alchemical process requiring 8 hours of work, which can be performed over the course of a long rest, you can create a homunculus. A homunculus functions as a familiar summoned by the <em>find familiar</em> spell, with several differences:</p>
+<ul>
+<li>The telepathic link between you and your homunculus functions at any distance, provided you and your homunculus are on the same plane of existence.</li>
+<li>You cannot dismiss your homunculus as you would a familiar.</li>
+<li>Your homunculus is a construct and cannot assume a different form.</li>
+<li>Your homunculus can take the Attack action on its turn.</li>
+</ul>
+<p>When your homunculus dies, its body remains, and can be reanimated in a procedure requiring 1 hour of work, which can be performed over the course of a short or long rest.</p>
+<h4 id="explosive-missile">Explosive Missile</h4>
+<p>As a bonus action, you can load one of your bombs onto the head of a crossbow bolt. Instead of its normal damage, this bolt deals damage as if the bomb had been primed with the Use an Object action, but does not have a blast radius. Only one of your bombs can be loaded onto a bolt at a time, and you can't fire an explosive bolt on the same turn you throw a bomb.</p>
+<h4 id="fire-brand">Fire Brand</h4>
+<p>You can mix your bomb's contents together and apply the fiery concoction to a melee weapon you are holding as a bonus action. Until the end of your turn, this melee weapon deals an additional 1d6 fire damage on a hit. This bonus damage increases by 1d6 at 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+<h4 id="fire-eater">Fire Eater</h4>
+<p>Instead of throwing a bomb, you use an action to drink its contents and spit them out in a 15-foot cone. Each creature within the cone must make a Dexterity saving throw against your bomb save DC. On a failed save, a creature takes fire damage as if the bomb had been primed and thrown with the Use an Object action, or half as much on a successful save. When you use this ability, you take 1d4 points of fire damage for each of your bomb's damage dice.</p>
+<h4 id="grenadier">Grenadier</h4>
+<p>When you take the Use an Object action to prime and throw a bomb, you can use your bonus action to make an attack with a weapon that isn't two-handed.</p>
+<h4 id="poisoner">Poisoner</h4>
+<p>Your research into poisonous compounds has taught you how to concoct lethal toxins. You gain proficiency with the poisoner's kit. Additionally, you can craft the following poisons when you brew potions, which use your bomb save DC instead of their normal save DC:</p>
+<details class="table">
+<summary>Brewed Poisons</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Potion</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">2× Basic Poison</td>
+<td style="text-align: center;">1 reagent die</td>
+</tr>
+<tr>
+<td style="text-align: left;">2× Antitoxin</td>
+<td style="text-align: center;">1 reagent die</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Poison</td>
+<td style="text-align: center;">2 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Oil of Taggit</td>
+<td style="text-align: center;">2 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Serpent Venom</td>
+<td style="text-align: center;">2 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Truth Serum</td>
+<td style="text-align: center;">2 reagent dice</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="precision-explosives">Precision Explosives</h4>
+<p>You have modified your bombs to have narrow gaps in their explosions, perfect for keeping some creatures safe from the blast. You can choose one creature in the blast radius of a bomb other than the target to automatically succeed its saving throw against the bomb and take no damage from it.</p>
+<h4 id="syringe">Syringe</h4>
+<p>Using a sophisticated hypodermic needle, you can more quickly administer potions and poisons. As a bonus action, you can inject a potion into yourself or a willing creature within 5 feet of you, granting the benefits of the potion as if it were drunk normally. You can inject a potion into an unwilling creature with a successful melee attack.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-9">
+<details class="feature">
+<summary>Alchemist Discoveries</summary>
+<h4 id="fire-in-the-hole">Fire in the Hole</h4>
+<p><em>Prerequisite: 9th level</em></p>
+<p>You have tweaked your bomb's formula to increase its explosive yield. Your bomb save DC increases by half your proficiency bonus, rounded down.</p>
+<h4 id="lazarus-bolt">Lazarus Bolt</h4>
+<p><em>Prerequisite: 9th level</em></p>
+<p>You've discovered a radical necromantic workaround: restoring life with direct electricity to the heart. As an action, you can drive a bolt into the torso of a creature within 5 feet of you that has died within the last minute and shock it back to life. That creature returns to life with 1 hit point. This feature can't return to life a creature that lacks a heart, a creature that has died of old age, or a creature that is missing vital organs.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<h4 id="recycled-potions">Recycled Potions</h4>
+<p><em>Prerequisite: 9th level</em></p>
+<p>When you brew potions, you can distill those you have already brewed, recovering the reagents stored within. You can convert brewed potions into reagent dice and you can choose to expend those dice to create new potions. You can't gain more than your maximum number of reagent dice using this ability.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-13">
+<details class="feature">
+<summary>Alchemist Discoveries</summary>
+<h4 id="advanced-poisoner">Advanced Poisoner</h4>
+<p><em>Prerequisites: 13th level, Venomsmith Field of Study</em></p>
+<p>Your morbid research into the most vicious, exotic poisons has revealed how to synthesize the following poisons when you brew potions:</p>
+<details class="table">
+<summary>Exotic Poisons</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Potion</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Burnt Othur Fumes</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Crawler Mucus</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Drow Poison</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pale Tincture</td>
+<td style="text-align: center;">4 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Midnight Tears</td>
+<td style="text-align: center;">5 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Wyvern Poison</td>
+<td style="text-align: center;">6 reagent dice</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="alchemy-of-influence">Alchemy of Influence</h4>
+<p><em>Prerequisite: 13th level</em></p>
+<p>Your alchemical research has revealed many of the basic chemicals which govern emotions. You can brew the following potions:</p>
+<details class="table">
+<summary>Potions of Influence</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Potion</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Potion of Animal Friendship</td>
+<td style="text-align: center;">1 reagent die</td>
+</tr>
+<tr>
+<td style="text-align: left;">Philter of Love</td>
+<td style="text-align: center;">2 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Clairvoyance</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Mind Reading</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="alchemy-of-transformation">Alchemy of Transformation</h4>
+<p><em>Prerequisite: 13th level</em></p>
+<p>You have mastered the alchemical secrets of shifting matter, which allow you to brew the following potions:</p>
+<details class="table">
+<summary>Potions of Transformation</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Potion</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Oil of Slipperiness</td>
+<td style="text-align: center;">2 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sandstone Solution</td>
+<td style="text-align: center;">2 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Aqua Fortis</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Chameleon Concoction</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Gaseous Form</td>
+<td style="text-align: center;">3 reagent dice</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="beguiling-haze">Beguiling Haze</h4>
+<p><em>Prerequisites: 13th level, Amorist Field of Study</em></p>
+<p>When you charm a creature, you can choose to place it in a dreamy state, from which it regards everyone it sees as close friends. While the creature is charmed, it is nonhostile and acts as though it is charmed equally by each creature it sees. Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<h4 id="buffered-metabolism">Buffered Metabolism</h4>
+<p><em>Prerequisites: 13th level, Xenoalchemist Field of Study</em></p>
+<p>As a reaction when you take damage, you can expend any number of reagent dice up to your proficiency bonus to reduce the amount of damage taken by the total rolled on the dice.</p>
+<h4 id="demolition-spree">Demolition Spree</h4>
+<p><em>Prerequisites: 13th level, Mad Bomber Field of Study</em></p>
+<p>When you take the Use an Object action to prime and throw a bomb, you can throw a number of bombs equal to the number of the bomb's damage dice, instead of only one. Each bomb you throw deals 1d10 damage plus your Intelligence modifier and can't target the same creature or space. You must spend reagent dice separately on these bombs and can apply a bomb formula to only one of them.</p>
+<h4 id="dynamo-charger">Dynamo Charger</h4>
+<p><em>Prerequisites: 13th level, Dynamo Engineer Field of Study</em></p>
+<p>You've invented a device which rapidly recharges your spell dynamos. Once per day when you finish a short rest, you can regain 2 expended spell slots stored in dynamos. You can configure these dynamos immediately.</p>
+<h4 id="fortified-serum">Fortified Serum</h4>
+<p><em>Prerequisites: 13th level, Apothecary Field of Study</em></p>
+<p>Whenever a creature regains hit points by drinking one of your potions, it gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons until the end of its next turn.</p>
+<h4 id="ooze-cowboy">Ooze Cowboy</h4>
+<p><em>Prerequisites: 13th level, Ooze Rancher Field of Study</em></p>
+<p>All oozes you make have a movement speed of 30 feet, if it were lower. Additionally, you can ride any ooze you make of Medium size or larger as a mount. You and your equipment suffer no ill effect from touching your oozes directly. Lastly, your oozes add your proficiency modifier to their damage rolls and initiative rolls.</p>
+<h4 id="tri-mutation">Tri-Mutation</h4>
+<p><em>Prerequisites: 13th level, Mutagenist Field of Study</em></p>
+<p>You've developed a powerful, but fleeting way of blending your mutagens together. When you inject yourself with a mutagen, you can choose to inject a tri-mutagen, which grants you the benefit of all your mutagens at once. This benefit lasts for 1 minute, or until you use your bonus action to inject yourself with a different mutagen. Once you use this ability, you can't use it again until you finish a long rest.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-17">
+<details class="feature">
+<summary>Alchemist Discoveries</summary>
+<h4 id="alchemy-of-ascendancy">Alchemy of Ascendancy</h4>
+<p><em>Prerequisite: 17th level</em></p>
+<p>A breakthrough in your alchemical studies has revealed the formulation of several potent elixirs. You can brew the following potions:</p>
+<details class="table">
+<summary>Potions of Ascendancy</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Potion</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Necromantic Draught</td>
+<td style="text-align: center;">4 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Oil of Etherealness</td>
+<td style="text-align: center;">4 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Speed</td>
+<td style="text-align: center;">4 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Potion of Stone Giant Strength</td>
+<td style="text-align: center;">4 reagent dice</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h4 id="hemoreagent">Hemoreagent</h4>
+<p><em>Prerequisite: 17th level</em></p>
+<p>When you take the Use an Object action to throw a bomb, you can convert a measure of your own blood into reagents. You can add five or fewer reagent dice to the bomb's damage roll, and you take 1d6 necrotic damage for each reagent die added. This damage can't be avoided or reduced.</p>
+<h4 id="magnified-blast">Magnified Blast</h4>
+<p><em>Prerequisite: 17th level</em></p>
+<p>Thanks to a new internal design for your bombs, you have expanded their blast radius and magnitude. Whenever you add reagent dice to your bomb's damage, you can also choose to expand the bomb's blast radius by a distance of up to 5 feet per two reagent dice spent.</p>
+<h4 id="reactionary-gulp">Reactionary Gulp</h4>
+<p><em>Prerequisite: 17th level</em></p>
+<p>By keeping your potions organized on a bandolier or in a series of pouches, you can quickly draw them in a moment's notice. Immediately after you take damage from a creature you can see, you can use your reaction to drink a potion.</p>
+</details>
+</div>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a field of study:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="amorist">Amorist</option>
+  <option value="apothecary">Apothecary</option>
+  <option value="dynamo-engineer">Dynamo Engineer</option>
+  <option value="mad-bomber">Mad Bomber</option>
+  <option value="mutagenist">Mutagenist</option>
+  <option value="ooze-rancher">Ooze Rancher</option>
+  <option value="venomsmith">Venomsmith</option>
+  <option value="xenoalchemist">Xenoalchemist</option>
+</select></p>
+<div class="subclass-content" data-subclass="amorist">
+<details class="subclass">
+<summary>Amorist</summary>
+<p>The study of mind-affecting alchemy is a delicate one, practiced only by a small number of alchemists, known as amorists. Often called "love doctors" by their clientele, amorists specialize in the brewing of potions that produce strong emotional responses in their drinkers. While love potions are by far their most popular product, amorists can also craft pungent pheromone bombs which can even soften the hearts of terrible monsters.</p>
+<h3 id="level-2-bonus-proficiencies">Level 2 - Bonus Proficiencies</h3>
+<p>When you choose this field of study at 2nd level, you gain proficiency in the Deception and Persuasion skills.</p>
+<hr>
+<h3 id="level-2-formula-pheromone-bomb">Level 2 - Formula: Pheromone Bomb</h3>
+<p>Starting at 2nd level, you can craft pheromone bombs. By replacing your bomb's explosive contents with a potent pheromone, you can change it into a pheromone bomb. A pheromone bomb requires a Wisdom saving throw instead of a Dexterity save. The bomb deals no damage, and instead causes the target, as well as each creature within the blast radius that fails its saving throw, to be charmed by you until the end of its turn or it takes damage.</p>
+<hr>
+<h3 id="level-6-magnetic-personality">Level 6 - Magnetic Personality</h3>
+<p>Starting at 6th level, you can add your Intelligence modifier to Charisma checks that you make.</p>
+<hr>
+<h3 id="level-10-alchemical-perfume">Level 10 - Alchemical Perfume</h3>
+<p>Beginning at 10th level, you wear an aromatic mind-altering perfume which endears others to you. When a hostile creature within 5 feet of you makes an attack roll against you, it must make a Wisdom saving throw against your bomb save DC or have disadvantage on the attack roll. Once a creature succeeds on this saving throw, it is immune to this effect for 24 hours. Creatures which are immune to being charmed automatically succeed this save.</p>
+<hr>
+<h3 id="level-18-alchemical-romance">Level 18 - Alchemical Romance</h3>
+<p>Starting at 18th level, during a long rest, you can spend 4 reagent dice to make an extremely potent potion of true love. This potion acts much like a philter of love, except that when you make the potion, you choose the creature the target regards as its true love, provided the target knows the creature or meets it within 24 hours of consuming the potion. Additionally, this effect lasts indefinitely, ended only when you make a new potion of true love, or the effect is removed with a <em>remove curse</em> spell or similar magic. When this potion's effects are ended on a target, it regards the creature it once loved with total disgust, and can never love that creature again.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="apothecary">
+<details class="subclass">
+<summary>Apothecary</summary>
+<p>Many practically-minded alchemists assume the role of the apothecary, for adventuring parties always need a healer, and clerics might be in short supply. During their downtime, such alchemists have a marketable skill to depend upon for income and can do an indisputable amount of good with their knowledge. Apothecaries are constantly at work studying potions and herbology, preferring to learn how to mend the body, rather than destroy it.</p>
+<h3 id="level-2-bonus-proficiencies_1">Level 2 - Bonus Proficiencies</h3>
+<p>When you choose this field of study at 2nd level, you gain proficiency in the Medicine skill.</p>
+<hr>
+<h3 id="level-2-formula-painkiller-bomb">Level 2 - Formula: Painkiller Bomb</h3>
+<p>At 2nd level, you can create painkiller bombs. By mixing your bomb's explosive contents with a slurry of analgesic oil, you can change it into a painkiller bomb. A painkiller bomb deals no damage, and instead grants each creature within its blast radius temporary hit points equal to 1d8 plus half your alchemist level, which last until the end of your next turn. This bomb has no effect on constructs and undead.</p>
+<hr>
+<h3 id="level-6-potion-toss">Level 6 - Potion Toss</h3>
+<p>Starting at 6th level, you've developed a chemical mechanism to deliver potions more effectively to distant allies. You can use your action to hurl a potion at a willing or unconscious creature within 20 feet of you. The target gains the benefit as if they had drunk the potion normally.</p>
+<hr>
+<h3 id="level-10-self-medication">Level 10 - Self-Medication</h3>
+<p>By 10th level, you've tested out your own tolerances to painkillers such that you can take a small measure regularly without ill effect. Whenever you drink a potion that has the effect of restoring your hit points (even if you already have all of your hit points), you gain advantage on saving throws until the end of your next turn.</p>
+<hr>
+<h3 id="level-18-alchemical-resurrection">Level 18 - Alchemical Resurrection</h3>
+<p>Starting at 18th level, your medicines are potent enough to rouse the dead. By using your action to mix 500 gp worth of diamond dust into a potion of superior healing or a potion of supreme healing, you create a potion of raise dead. Pouring this concoction on a humanoid corpse that has been dead no longer than 10 days as an action causes the effect of the <em>raise dead</em> spell.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="dynamo-engineer">
+<details class="subclass">
+<summary>Dynamo Engineer</summary>
+<p>As an early alchemical thesis states, if the fundamental energy of magic could be captured within physical substance, there would be no need for magic-users. Some alchemists have founded their careers on this notion, inventing and iterating upon small devices known as spell dynamos, which can store and manipulate arcane energy. These dynamos can be configured to store their energy at a specific resonance, such that, when it is released, it perfectly replicates the effect of a spell.</p>
+<h3 id="level-2-spectrum-analyzer">Level 2 - Spectrum Analyzer</h3>
+<p>Starting at 2nd level, you have invented a small device shaped like a monocle capable of rendering magical auras visible to the naked eye. You can cast the spell <em>detect magic</em> once without using a spell slot or spell components, and regain the ability to do so when you finish a short or long rest.</p>
+<hr>
+<h3 id="level-2-spellcasting">Level 2 - Spellcasting</h3>
+<p>Also at 2nd level, you've learned to cast spells by storing and releasing energy in spell dynamos.</p>
+<p><strong>Spell Dynamos.</strong> You power your spells through handheld arcane devices called spell dynamos, which each hold a single spell slot. The Dynamo Engineer Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your wizard spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a long rest.</p>
+<p><strong>Preparing Spells.</strong> Unlike other spells, you must prepare spell dynamos in advance. When you finish a long rest, you configure each of your dynamos to cast a particular wizard spell you know. You can only use a spell dynamo to cast a spell to which it is configured. When you finish a short or long rest, you can reconfigure your unexpended spell dynamos to hold different spells.</p>
+<p><strong>Spells Known of 1st Level and Higher.</strong> You know three 1st-level wizard spells of your choice, two of which you must choose from the evocation and transmutation spells on the wizard spell list. The Spells Known column of the Dynamo Engineer Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an evocation or transmutation spell of your choice, and must be of a level for which you have spell slots. The spells you learn at 8th, 14th, and 20th level can come from any school of magic. Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or transmutation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level.</p>
+<p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your wizard spells, since you cast them using cutting-edge arcane technology. You use your Intelligence whenever a spell refers to your spellcasting ability. Use your bomb save DC when setting the saving throw DC for a wizard spell you cast, and use your Intelligence modifier when making an attack roll with one.</p>
+<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+<details class="table">
+<summary>Dynamo Engineer Spellcasting</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Alchemist Level</th>
+<th style="text-align: center;">Spells Known</th>
+<th style="text-align: center;">Spell Dynamos</th>
+<th style="text-align: center;">Slot Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4th</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-formula-arcano-bomb">Level 6 - Formula: Arcano Bomb</h3>
+<p>Starting at 6th level, you can craft arcano bombs. By adding an unexpended dynamo to the bomb (and thus expending its spell slot), you can change it into an arcano bomb. An arcano bomb deals force damage instead of fire damage, has d12 damage dice, and deals an additional die of damage, as if a reagent die were added to it.</p>
+<hr>
+<h3 id="level-10-counter-discharge">Level 10 - Counter-Discharge</h3>
+<p>Beginning at 10th level, when a creature you can see casts a spell which affects you, you can use your reaction to expend a spell dynamo to release a wave of disruptive magical energy. If the spell requires you to make a saving throw to resist its effects, you have advantage on the saving throw. If the spell deals damage, you have resistance against it. Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+<h3 id="level-18-arcane-recycler">Level 18 - Arcane Recycler</h3>
+<p>By 18th level, you can convert otherwise wasted magical energy into a usable form. When you miss with an arcano bomb, you can recycle the spell slot stored in the dynamo and transfer it to one of a number of waiting empty dynamos on your person.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="mad-bomber">
+<details class="subclass">
+<summary>Mad Bomber</summary>
+<p>While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.</p>
+<h3 id="level-2-blasting-specialty">Level 2 - Blasting Specialty</h3>
+<p>Starting when you choose this field of study at 2nd level, your bombs deal double damage to objects and structures.</p>
+<hr>
+<h3 id="level-2-formula-shrapnel-bomb">Level 2 - Formula: Shrapnel Bomb</h3>
+<p>At 2nd level, you can create shrapnel bombs. By augmenting your bomb's explosive contents with metal bearings, you can change it into a shrapnel bomb. A shrapnel bomb deals piercing damage instead of fire damage, has d8 damage dice, and explodes in a 10-foot radius.</p>
+<hr>
+<h3 id="level-6-timed-demolition">Level 6 - Timed Demolition</h3>
+<p>Starting at 6th level, when you take the Use an Object action to prime a bomb and throw it, you can set a duration for its detonation, which can be any number of rounds (any increment of 6 seconds) up to one minute. Following this duration, the bomb detonates at the end of your turn. No matter how many bombs detonate at once, a creature in more than one blast radius is affected only once.</p>
+<hr>
+<h3 id="level-10-blast-shield">Level 10 - Blast Shield</h3>
+<p>Starting at 10th level, you have developed an elemental plating to protect you from hazardous energies. You gain resistance to your choice of acid, cold, fire, or lightning damage and can change your selection whenever you finish a long rest.</p>
+<hr>
+<h3 id="level-18-formula-black-powder-bomb">Level 18 - Formula: Black Powder Bomb</h3>
+<p>Beginning at 18th level, you can craft the dreaded black powder bombs. By replacing your bomb's explosive contents with a charge of black powder, you can change it into a black powder bomb. A black powder bomb has d12 damage dice.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="mutagenist">
+<details class="subclass">
+<summary>Mutagenist</summary>
+<p>The study of alchemy is fundamentally the study of transformation. All alchemists transmute mundane materials into magical substances: potions, elixirs, and bombs, yet some take it one step further. You have discovered the secrets of the mutagen, the very keystone of transmutation, which allows you to transform your very body, gaining supernatural strength or speed, sprouting additional limbs or claws, or thickening your skin into a stony aegis.</p>
+<h3 id="level-2-bonus-proficiencies_2">Level 2 - Bonus Proficiencies</h3>
+<p>Starting when you choose this field of study at 2nd level, you gain proficiency in your choice of the Acrobatics or Athletics skill, as well as with shields.</p>
+<hr>
+<h3 id="level-2-mutagen">Level 2 - Mutagen</h3>
+<p>Also at 2nd level, you can use your bonus action to inject yourself with a powerful transmutative potion known as a mutagen. You gain one of the following benefits of your choice for 1 minute, or until you use your bonus action to inject yourself with a different mutagen:</p>
+<p><strong>Strength.</strong> Your Strength score increases by 3, to a maximum of 20. Additionally, you sprout claws, fangs, spines, horns, or a different natural weapon of your choice. You can use this natural weapon to make unarmed strikes. On a hit, you deal damage equal to 1d4 + your Strength modifier instead of the bludgeoning damage normal for an unarmed strike. The damage of this attack is bludgeoning, piercing, or slashing, as appropriate for the natural weapon.</p>
+<p><strong>Dexterity.</strong> Your Dexterity score increases by 3, to a maximum of 20. Additionally, your movement speed increases by 5 feet.</p>
+<p><strong>Constitution.</strong> Your Constitution score increases by 3, to a maximum of 20. As a result, your current and maximum hit points increase accordingly with your new Constitution score, but when this effect ends, both your current and maximum hit points decrease by the same amount.</p>
+<hr>
+<h3 id="level-6-shared-mutagen">Level 6 - Shared Mutagen</h3>
+<p>At 6th level, you've created a mutagen formulation generic enough to safely be injected into others. You can use your action and spend a reagent die to inject a willing creature within 5 feet of you with a mutagen of your choice. A creature can only be under the effect of one mutagen at a time. Once you have injected another creature with a mutagen, you can't do so again until the original mutagen ends.</p>
+<hr>
+<h3 id="level-10-advanced-mutation">Level 10 - Advanced Mutation</h3>
+<p>Starting at 10th level, whenever you inject yourself with a mutagen, you can choose one of the following additional mutations:</p>
+<p><strong>Hyperelastic.</strong> Your flesh takes on a rubbery quality, allowing you to bend and stretch with ease. Your melee weapon attacks gain the Reach property, if they did not already have it. Additionally, you have advantage on ability checks you make to escape a grapple or slip binds.</p>
+<p><strong>Mucilaginous.</strong> Your skin secretes a thick, extremely sticky substance which helps you adhere to objects. You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You also have a climbing speed equal to your walking speed. Additionally, creatures have disadvantage on ability checks made to escape a grapple with you.</p>
+<p><strong>Polybrachia.</strong> You grow a pair of additional arms. These arms are fully functional and can be used to hold weapons and shields (allowing you to hold 2 two-handed weapons, or 4 one-handed weapons), perform somatic components of spells, and perform other actions, though the arms themselves don't grant you any additional actions.</p>
+<hr>
+<h3 id="level-18-mutated-blood">Level 18 - Mutated Blood</h3>
+<p>By 18th level, your mutagens have permanently altered your biology. Choose Strength, Dexterity, or Constitution. This ability score increases by 2 and its maximum becomes 22. Once you have chosen an ability score, this selection can't be altered.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="ooze-rancher">
+<details class="subclass">
+<summary>Ooze Rancher</summary>
+<p>Unsurprisingly, oozes, jellies, and slimes are a fascinating subject for alchemists who wish to piece together how inanimate chemicals can form together and rise up in a moving, hungry mass. The answer to this question may very well be at the heart of alchemy itself. Alchemists who choose to research slimes in depth are called ooze ranchers, for they breed and keep numerous slimes to experiment upon.</p>
+<h3 id="level-2-ooze-empathy">Level 2 - Ooze Empathy</h3>
+<p>Starting when you choose this field of study at 2nd level, you've developed a pheromone mix which endears all kinds of slime to you. Whenever an ooze tries to attack you, it must make a Wisdom saving throw against your bomb save DC. On a failed save, its attack misses. On a successful save, the ooze is immune to this feature for the next 24 hours.</p>
+<hr>
+<h3 id="level-2-formula-slime-bomb">Level 2 - Formula: Slime Bomb</h3>
+<p>At 2nd level, you can create slime bombs. By mixing your bomb's explosive contents with the remnants of an ooze, you can change it into a slime bomb. A slime bomb deals no damage, but coats each creature within the blast radius in a viscous, green slime. No creature coated in slime can take the Dash action or the Disengage action. Slime can be removed by dousing a creature with a gallon of water or by taking an action to remove most of it.</p>
+<hr>
+<h3 id="level-6-bottled-oozes">Level 6 - Bottled Oozes</h3>
+<p>Starting at 6th level, you've learned a clever alchemical trick for condensing oozes into denser states and storing them in stasis for later use. Whenever you brew potions, you can spend 2 reagent dice to create an ooze bottle.</p>
+<hr>
+<h3 id="level-10-liquid-anatomy">Level 10 - Liquid Anatomy</h3>
+<p>By 10th level, your experiments with ooze alchemy have resulted in injecting yourself with a measure of ozoplasm, a fundamental substance which composes oozes and slimes. As a result, you can move through any space as narrow as 1 inch wide without squeezing (though your equipment does not similarly compress). Moreover, you take no additional damage from critical hits.</p>
+<hr>
+<h3 id="level-18-ooze-jug">Level 18 - Ooze Jug</h3>
+<p>Beginning at 18th level, you've solved the major problem preventing large oozes from being bottled: you just needed a much larger bottle. You have one ooze jug, which functions like an ooze bottle, but contains a larger ooze. You can only have one ooze jug at a time and it can only contain one ooze at a time. You can fill it with the following oozes when you brew potions:</p>
+<details class="table">
+<summary>Ooze Jug</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Ooze</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Ochre Jelly</td>
+<td style="text-align: center;">4 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gelatinous Cube</td>
+<td style="text-align: center;">8 reagent dice</td>
+</tr>
+<tr>
+<td style="text-align: left;">Black Pudding</td>
+<td style="text-align: center;">10 reagent dice</td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+</div>
+<div class="subclass-content" data-subclass="venomsmith">
+<details class="subclass">
+<summary>Venomsmith</summary>
+<p>For every alchemist that has devoted their life to healing the sick and infirm, there is another with a darker calling. Commonly called poisoners or venomsmiths, these alchemists are masters in the art of crafting deadly and debilitating poisons. Whether employed by an assassin's guild or performing assassinations themselves, a venomsmith's presence is usually accompanied by untimely death.</p>
+<h3 id="level-2-poisoner">Level 2 - Poisoner</h3>
+<p>Beginning when you choose this field of study at 2nd level, you gain the Poisoner discovery. Until you reach 3rd level, you have 2 reagent dice which you can spend only on crafting poisons using this discovery. You can't later replace this discovery with a different one when you gain a level in this class.</p>
+<p>Additionally, when you deal poison damage to a creature, you ignore resistance to poison damage and you treat immunity to poison damage as resistance instead, dealing half damage.</p>
+<hr>
+<h3 id="level-2-formula-venom-bomb">Level 2 - Formula: Venom Bomb</h3>
+<p>At 2nd level, you can create venom bombs. By mixing a few drops of a fast-acting toxin into your bomb's explosive components, you can change it into a venom bomb. A venom bomb deals poison damage instead of fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, has disadvantage on the next Strength, Dexterity, or Constitution saving throw it makes before the end of its next turn.</p>
+<hr>
+<h3 id="level-6-alchemical-assassin">Level 6 - Alchemical Assassin</h3>
+<p>Beginning at 6th level, you are adept at applying poisons without being seen. You have advantage on Dexterity (Sleight of Hand) checks you make to add ingested poison to food or drink, to apply poison to a weapon you are holding without being seen, or to place a vial of poison on another person without them noticing.</p>
+<hr>
+<h3 id="level-10-mithridatism">Level 10 - Mithridatism</h3>
+<p>By 10th level, by administering yourself small doses of various poisons and toxins, you have developed immunity to their ravages. You have immunity to poison damage and to the poisoned condition.</p>
+<hr>
+<h3 id="level-18-toxic-recompense">Level 18 - Toxic Recompense</h3>
+<p>Starting at 18th level, whenever a creature within 5 feet of you hits you with a melee attack, you can use your reaction to unleash a spray of poisonous vapor. The attacker must make a Constitution saving throw against your bomb save DC or be poisoned for 1 minute. While poisoned, the creature takes 1d10 poison damage at the start of each of its turns. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="xenoalchemist">
+<details class="subclass">
+<summary>Xenoalchemist</summary>
+<p>A small number of renegade alchemists elect to experiment on themselves, modifying their anatomy or even outright attaching new body parts. These experiments are often considered unethical and dangerous, even by other alchemists, and those that practice them are branded xenoalchemists for their efforts. As xenoalchemists progress in their studies, they invariably stumble upon the dangerous practice of alchemical necromancy, which allows them to imbue unlife upon amalgamations of body parts.</p>
+<h3 id="level-2-xenobiology">Level 2 - Xenobiology</h3>
+<p>Starting when you choose this field of study at 2nd level, you have advantage on all ability checks you make to identify or research monsters.</p>
+<hr>
+<h3 id="level-2-mad-scientist">Level 2 - Mad Scientist</h3>
+<p>By 2nd level, you've learned the finer points of reanimating dead appendages and stitching them to things. You gain two monstrous grafts of your choice. Additionally, you don't lose hit points or hit dice from installing or removing grafts, and it takes you no time to recover after the attachment of a new graft.</p>
+<p>See the <strong>Monstrous Grafts</strong> section below for details on available grafts.</p>
+<hr>
+<h3 id="level-6-surgical-attack">Level 6 - Surgical Attack</h3>
+<p>Beginning at 6th level, whenever you take the Attack or Use an Object action on your turn, you can make an unarmed strike. You can only use this ability if your unarmed strike is improved by a graft, such as Bestial Weapons.</p>
+<hr>
+<h3 id="level-10-necromantic-organs">Level 10 - Necromantic Organs</h3>
+<p>By 10th level, you've learned how to tinge your own biology with necromancy through reanimated organs that will persist after your death. If you drop to 0 hit points and don't die outright, you drop to 1 hit point instead.</p>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+<h3 id="level-18-its-alive">Level 18 - It's Alive!</h3>
+<p>Beginning at 18th level, your research into the field of necromancy has culminated in an alchemical golem stitched together from discarded body parts. You can create an alchemy golem in an 8-hour long procedure, which can be conducted over the course of a long rest. To complete this process, you must have a healer's kit, alchemist's supplies, and a knife (or a facility with access to such tools), as well as at least three recently deceased humanoid corpses.</p>
+<p>Your alchemy golem acts independently on its own turn, but always obeys your commands. On each of your turns, you can use a bonus action to mentally command your golem if it is within 60 feet of you. You decide what action the golem will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the golem only defends itself against hostile creatures. Once given an order, the golem continues to follow it until its task is complete.</p>
+<p>When the alchemy golem drops to 0 hit points, it dies. You can restore your alchemy golem's hit points and reanimate it over the course of a short or long rest. You can attach up to three grafts to your alchemy golem. You can only have one alchemy golem at a time.</p>
+<details class="construct">
+<summary>Alchemy Golem</summary>
+<p><em>Medium Construct, Neutral</em></p>
+<ul>
+<li><strong>Armor Class</strong> 13 (natural armor)</li>
+<li><strong>Hit Points</strong> 76 (9d8 + 36)</li>
+<li><strong>Speed</strong> 30 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+<th style="text-align: center;">INT</th>
+<th style="text-align: center;">WIS</th>
+<th style="text-align: center;">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">17 (+3)</td>
+<td style="text-align: center;">9 (−1)</td>
+<td style="text-align: center;">18 (+4)</td>
+<td style="text-align: center;">6 (−2)</td>
+<td style="text-align: center;">10 (+0)</td>
+<td style="text-align: center;">5 (−3)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Damage Resistances</strong> bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine<br />
+<strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, petrified, poisoned<br />
+<strong>Senses</strong> darkvision 60 ft., passive Perception 13<br />
+<strong>Languages</strong> understands the languages of its creator but can't speak<br />
+<strong>Challenge</strong> 5 (1,800 XP)</p>
+<hr />
+<p><strong>Aversion to Fire.</strong> Whenever the alchemy golem takes fire damage, it has disadvantage on ability checks and attack rolls until the end of its next turn.</p>
+<p><strong>Immutable Form.</strong> The alchemy golem is immune to any spell or effect that would alter its form.</p>
+<p><strong>Lightning Absorption.</strong> Whenever the alchemy golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to half the lightning damage dealt.</p>
+<p><strong>Magic Resistance.</strong> The alchemy golem has advantage on saving throws against spells and other magical effects.</p>
+<p><strong>Monstrous Grafts.</strong> The alchemy golem's weapon attacks, including monstrous grafts added by its creator, are magical. Monstrous grafts have a +6 attack bonus, deal twice the normal number of damage dice, and add 5 to damage rolls. The alchemy golem can only have 1 graft in each slot.</p>
+<hr />
+<p><strong>Multiattack.</strong> The alchemy golem makes two melee weapon attacks.</p>
+<p><strong>Slam.</strong> <em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) bludgeoning damage.</p>
+</details>
+<hr>
+<h3 id="monstrous-grafts">Monstrous Grafts</h3>
+<p>Adopting the fearsome claws of a monstrosity or the scorching breath of a dragon is an unusual but surefire way to gain an advantage over one's foes. However, many find the practice of xenoalchemy — or graftworking — which involves surgically attaching monstrous parts onto a humanoid body, distasteful, if not outright revolting. This fringe science, obsessed with the limbs and organs of monsters, can replace the limbs of amputees, grant adventurers the uncanny ability to see in the dark, and empower them with unconventional weapons and senses.</p>
+<p><strong>Harvesting a Graft.</strong> Grafts are harvested from the fresh corpses of monsters, slain within the last 48 hours or preserved by <em>gentle repose</em> or a similar spell. Harvesting a graft from a corpse takes 10 minutes. Only one graft can be harvested from each corpse. If the graft is too large or too small, it is alchemically enlarged or reduced to fit. You cannot harvest grafts from Tiny creatures or from Gargantuan or larger creatures. Different types of monstrous grafts can only be harvested from monsters with specific properties, as specified in the graft's Donor section.</p>
+<p><strong>Attaching a Graft.</strong> Attaching a graft for the first time is a laborious surgical procedure, normally removing an original body part. This procedure takes one hour and requires a healer's kit, alchemical supplies, and a knife (or a facility with access to such tools), as well as someone with proficiencies in these tools or with the Medicine skill to perform the operation. A monstrous graft is permanent until another graft is provided to replace it.</p>
+<p>This surgery is intensive and necessitates recovery time. When you finish installing a monstrous graft into your body, you lose half your hit points and all of your hit dice. For 24 hours after installation, you can't use the graft's abilities, as you adjust to its presence. Replacing a graft or adding a new graft in its body slot takes only 30 minutes. You still lose half your hit points when replacing a graft, but you don't lose hit dice.</p>
+<p><strong>Body Slots.</strong> Each graft takes up one of the following slots: Arms, External, Head, Internal, or Legs. You cannot have more than one graft in the same slot.</p>
+<p><strong>Cost.</strong> Not all grafts can be easily obtained, but when grafts can be purchased, suggested prices are shown on the Graft Cost table below.</p>
+<details class="table">
+<summary>Graft Costs</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Graft</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Amphibious Adaptation</td>
+<td style="text-align: center;">400 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Arcane Synapses</td>
+<td style="text-align: center;">1,000 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Beast's Hide</td>
+<td style="text-align: center;">250 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Bestial Weapons</td>
+<td style="text-align: center;">200 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Charging Hooves</td>
+<td style="text-align: center;">350 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Climbing Apparatus</td>
+<td style="text-align: center;">1,250 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Darkvision</td>
+<td style="text-align: center;">300 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Draconis Fundamentum</td>
+<td style="text-align: center;">1,000 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Dragon's Hide</td>
+<td style="text-align: center;">2,250 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Energetic Suture</td>
+<td style="text-align: center;">500 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Flexible Form</td>
+<td style="text-align: center;">750 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Heart of Steel</td>
+<td style="text-align: center;">2,250 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Horns</td>
+<td style="text-align: center;">350 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fiend's Hide</td>
+<td style="text-align: center;">1,500 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Indiscernible Anatomy</td>
+<td style="text-align: center;">1,250 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Leaping Legs</td>
+<td style="text-align: center;">400 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Olfactory Implants</td>
+<td style="text-align: center;">200 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Oversized Arms</td>
+<td style="text-align: center;">1,500 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prehensile Tail</td>
+<td style="text-align: center;">350 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Regenerating Marrow</td>
+<td style="text-align: center;">500 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Replacement</td>
+<td style="text-align: center;">400 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Stench</td>
+<td style="text-align: center;">400 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Tentacles</td>
+<td style="text-align: center;">500 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Venom Sac</td>
+<td style="text-align: center;">350 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Voice Box</td>
+<td style="text-align: center;">150 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Webspinner Apparatus</td>
+<td style="text-align: center;">500 gp</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>The following monstrous grafts are listed alphabetically.</p>
+<h4 id="amphibious-adaptation">Amphibious Adaptation</h4>
+<p><em>Donor: Any creature with the Amphibious trait</em><br />
+<em>Slot: Head</em></p>
+<p>You have grafted the gills of an aquatic creature to your neck, allowing you to breathe both air and water. Additionally, you attach minimal fins and gain a swim speed equal to your movement speed.</p>
+<h4 id="arcane-synapses">Arcane Synapses</h4>
+<p><em>Donor: Any creature with the Innate Spellcasting trait</em><br />
+<em>Slot: Head</em></p>
+<p>You have stolen a bit of arcane potential from a creature by inserting some of its nerves into your brain. You learn one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for this cantrip.</p>
+<p>By harvesting a second creature, you can improve this graft and learn an additional wizard cantrip of your choice.</p>
+<h4 id="beasts-hide">Beast's Hide</h4>
+<p><em>Donor: Beast of Large size or larger</em><br />
+<em>Slot: External</em></p>
+<p>You have transplanted the thick (and possibly furry) hide from a wild beast onto your body. Your Armor Class equals 13 + your Dexterity modifier.</p>
+<h4 id="bestial-weapons">Bestial Weapons</h4>
+<p><em>Donor: Beast, Dragon, or Monstrosity with a Bite or Claw attack</em><br />
+<em>Slot: Arms or Head</em></p>
+<p>You have surgically implanted either the teeth or claws from a monster into yourself, which are natural weapons you can use to make unarmed strikes. By harvesting a second creature, you can improve this graft to gain both the claws and teeth.</p>
+<p>You can use Dexterity instead of Strength for the attack rolls of your unarmed strikes made using your teeth or claws. If you hit with them, you deal damage equal to 1d6 + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike. Your claws deal slashing damage and take up the Arms slot, whereas your teeth deal piercing damage and take up the Head slot.</p>
+<h4 id="charging-hooves">Charging Hooves</h4>
+<p><em>Donor: Any creature with a Charge trait or a Gore or Hooves attack</em><br />
+<em>Slot: Legs</em></p>
+<p>You have replaced your legs with those of a creature known for running down their foes. Once on each of your turns, when you move at least 15 feet in a straight line, you can move up to 10 additional feet in that direction without spending additional movement.</p>
+<h4 id="climbing-apparatus">Climbing Apparatus</h4>
+<p><em>Donor: Beast, Humanoid, or Monstrosity with a climb speed</em><br />
+<em>Slot: Legs</em></p>
+<p>You have replaced or complemented your limbs with those of a climbing creature. You gain a climb speed equal to your movement speed.</p>
+<h4 id="darkvision">Darkvision</h4>
+<p><em>Donor: Any creature with darkvision</em><br />
+<em>Slot: Head</em></p>
+<p>You have replaced your own eyes with those of a monster with keen nightvision. You gain darkvision, the ability to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+<h4 id="doppel-blooded">Doppel-Blooded</h4>
+<p><em>Donor: Any creature with the shapechanger subtype</em><br />
+<em>Slot: Internal</em></p>
+<p>You can transform your appearance for up to an hour. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this ability to become quadrupedal.</p>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+<h4 id="draconis-fundamentum">Draconis Fundamentum</h4>
+<p><em>Donor: Humanoid, Dragon, or Monstrosity with a breath weapon</em><br />
+<em>Slot: Internal</em></p>
+<p>You have installed the mighty source of breath weapons into yourself, and as an action on your turn, you can exhale a wave of energy. Each creature in a 15-foot cone must make a Dexterity saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d6 damage for each point of your proficiency bonus, or half as much on a successful one. The breath's damage is the same type as the donor's breath weapon.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<h4 id="dragons-hide">Dragon's Hide</h4>
+<p><em>Donor: Dragon of Large size or larger</em><br />
+<em>Slot: External</em></p>
+<p>You've transplanted the scaly, diamondlike hide of a dragon onto your body. Your Armor Class equals 17. You also gain resistance to one of the following damage types to which the donor dragon was immune: acid, cold, fire, lightning, or poison damage. You can only install this graft if you are proficient with heavy armor.</p>
+<h4 id="energetic-suture">Energetic Suture</h4>
+<p><em>Donor: Celestial, Dragon, Elemental, Fey, or Fiend with immunity or resistance to acid, cold, fire, lightning, poison, or thunder damage</em><br />
+<em>Slot: External</em></p>
+<p>You have managed to capture the essence of extraplanar resistance to magic. You gain resistance to one of the following damage types to which the donor was immune or resistant: acid, cold, fire, lightning, poison, or thunder.</p>
+<details class="info">
+<summary>Harvesting Extraplanar Creatures</summary>
+<p>Harvesting grafts from extraplanar creatures is extremely difficult, as these creatures typically return to their home plane once slain. However, it is possible to harvest grafts from a celestial, elemental, fey, or fiend if it is first affected by a <em>planar binding</em> spell, and then slain, harvested, and its graft surgically attached before the spell ends.</p>
+</details>
+<h4 id="fiends-hide">Fiend's Hide</h4>
+<p><em>Donor: Fiend of Medium size or larger</em><br />
+<em>Slot: External</em></p>
+<p>You have transplanted the supernaturally tough hide of a fiend onto your body. Your Armor Class equals 15 + your Dexterity modifier (maximum 2).</p>
+<h4 id="heart-of-steel">Heart of Steel</h4>
+<p><em>Donor: Any construct</em><br />
+<em>Slot: Internal</em></p>
+<p>You have replaced your heart with the core from a construct. As a result, you can ignore the effects of 1 level of exhaustion, and you only need to rest for 4 hours to gain the same benefit that a human does from 8 hours of rest.</p>
+<h4 id="horns">Horns</h4>
+<p><em>Donor: Any creature with a Gore, Horns, Ram, or Tusk attack</em><br />
+<em>Slot: Head</em></p>
+<p>You attach a sturdy pair of horns or tusks onto your body, which are a natural weapon that you can use to make unarmed strikes. If you hit with them, you deal damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Your horns deal the same type of damage as the donor (usually bludgeoning or piercing damage).</p>
+<p>Additionally, if you move in a straight line for 10 feet immediately before hitting a creature with your horns, that creature must make a Strength saving throw (DC equals 8 + your Strength modifier + your proficiency bonus) or be knocked prone.</p>
+<h4 id="indiscernible-anatomy">Indiscernible Anatomy</h4>
+<p><em>Donor: Aberration of Medium size or larger</em><br />
+<em>Slot: Internal</em></p>
+<p>You have spliced aberrant genetics into your body, which have subsequently altered the placement and composition of your internal organs. Any critical hit against you becomes a normal hit.</p>
+<h4 id="leaping-legs">Leaping Legs</h4>
+<p><em>Donor: Any creature with the Pounce or Standing Leap trait</em><br />
+<em>Slot: Legs</em></p>
+<p>You have replaced or modified your legs with the muscular limbs of a bounding creature. Your jump distance doubles. Additionally, you can jump your full distance with or without a running start.</p>
+<h4 id="olfactory-implants">Olfactory Implants</h4>
+<p><em>Donor: Any creature with the Keen Smell or Keen Hearing and Smell trait</em><br />
+<em>Slot: Head</em></p>
+<p>You have replaced or modified your nose with that of a creature with keen smell. You have advantage on Wisdom (Perception) checks that rely on smell.</p>
+<h4 id="oversized-arms">Oversized Arms</h4>
+<p><em>Donor: Giant</em><br />
+<em>Slot: Arms</em></p>
+<p>You have replaced your arms with a giant's massive limbs. Your melee attacks gain Reach if they did not have it already. If you are Small, you can wield heavy weapons with which you are proficient without penalty. Additionally, you have advantage on Strength checks and saving throws you make to maintain your grip on objects.</p>
+<h4 id="prehensile-tail">Prehensile Tail</h4>
+<p><em>Donor: Any creature with a Tail attack</em><br />
+<em>Slot: External</em></p>
+<p>You surgically attach a muscular, prehensile tail, which is a natural weapon that you can use to make unarmed strikes. You can use Dexterity instead of Strength for the attack rolls of your unarmed strikes made using your tail. If you hit with it, you deal bludgeoning damage equal to 1d6 + your Strength or Dexterity modifier (your choice), instead of the damage normal for an unarmed strike.</p>
+<p>Additionally, you can hold and manipulate objects and weapons with your tail, but you can't make attacks with weapons held by your tail or wield a shield with your tail and gain its benefits.</p>
+<h4 id="regenerating-marrow">Regenerating Marrow</h4>
+<p><em>Donor: Any creature with the Regeneration trait</em><br />
+<em>Slot: Internal</em></p>
+<p>You have replaced your bone marrow with that of a regenerating creature. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your Constitution modifier.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<h4 id="replacement">Replacement</h4>
+<p><em>Donor: Any</em><br />
+<em>Slot: Any</em></p>
+<p>One or more of your organs or limbs has been replaced with a part harvested from a monster. A replacement can effectively solve any amputation or organ failure, but it cannot return to life someone that has died; such work is solely the domain of necromancy. Replacement limbs can resemble the original limb, or can demonstrate obvious monstrous characteristics, depending on the donor. A replacement organ or limb takes up one body slot relevant to it; for example, a troll's hand takes the Arms slot and a replacement kidney takes up the Internal slot.</p>
+<h4 id="stench">Stench</h4>
+<p><em>Donor: Any creature with the Stench trait</em><br />
+<em>Slot: Internal</em></p>
+<p>As a bonus action, you can release a foul liquid contained within an organ taken from the donor creature. Each creature within 10 feet of you must make a Constitution saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus) or be poisoned until the end of its next turn.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<h4 id="tentacles">Tentacles</h4>
+<p><em>Donor: Any creature with a Tentacles or Tendrils attack</em><br />
+<em>Slot: Arms</em></p>
+<p>You surgically replace or modify one or both of your arms with a flexible tentacle or tendril, which is a natural weapon you can use to make unarmed strikes against targets up to 10 feet away from you. You can use Dexterity instead of Strength for the attack rolls of your unarmed strikes made using your tentacle. If you hit with it, you deal bludgeoning damage equal to 1d6 + your Strength or Dexterity modifier (your choice), instead of the damage normal for an unarmed strike.</p>
+<p>Additionally, when you hit a target with a melee attack using your tentacles, you can use your bonus action to attempt to grapple the target.</p>
+<h4 id="venom-sac">Venom Sac</h4>
+<p><em>Donor: Any creature which can poison a creature or deal poison damage with an attack not provided by a weapon</em><br />
+<em>Slot: Internal</em></p>
+<p>You have installed a gland which secretes poison from your body. As a bonus action, you can coat a natural weapon, if you have one, or a weapon you are holding in basic poison. The save DC for the poison equals 8 + your Constitution modifier + your proficiency bonus.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<h4 id="voice-box">Voice Box</h4>
+<p><em>Donor: Any creature with the Mimicry trait</em><br />
+<em>Slot: Head</em></p>
+<p>You have augmented your own vocal folds with those of a creature that can mimic sounds. You can mimic any sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check, contested by your Charisma (Deception) check.</p>
+<h4 id="webspinner-apparatus">Webspinner Apparatus</h4>
+<p><em>Donor: Any creature with a Web action</em><br />
+<em>Slot: Internal</em></p>
+<p>You have installed spinnerets from a spiderlike creature into your body, allowing you to produce webs. You can cast the spell <em>web</em> without using spell slots or spell components (DC equals 8 + your Constitution modifier + your proficiency bonus).</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

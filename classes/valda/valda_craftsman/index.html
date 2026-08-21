@@ -1,0 +1,2833 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../valda_captain/">
+      
+      
+        <link rel="next" href="../valda_investigator/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Craftsman - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Craftsman
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../valda_alchemist/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Valda
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-craftsman">The Craftsman</h1>
+<p>Artisans of all types are an integral part of every culture: buildings must be erected, pots must be set to the kiln, tools must be forged. Despite their pervasiveness, master craftsmen are still as rare as they are prized. These artisans, creators, and inventors can smith items of mythic quality, and can solve most any problem simply by using the right tool and the appropriate amount of force.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Craftsman Features</label><label for="__tabbed_1_3">Properties</label><label for="__tabbed_1_4">Artisans' Guilds</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Active Crafting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Exotic Proficiencies, Active Crafting</td>
+<td style="text-align: center;">25 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Masterwork (Apprentice properties), Tool Belt</td>
+<td style="text-align: center;">25 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Artisans' Guild</td>
+<td style="text-align: center;">50 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">75 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Extra Attack, Masterwork (Journeyman properties)</td>
+<td style="text-align: center;">100 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Folded Steel</td>
+<td style="text-align: center;">125 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Artisans' Guild feature</td>
+<td style="text-align: center;">150 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">175 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Eye for Quality</td>
+<td style="text-align: center;">200 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Artisans' Guild feature</td>
+<td style="text-align: center;">225 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Masterwork (Master properties)</td>
+<td style="text-align: center;">250 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">275 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Flawless Construction</td>
+<td style="text-align: center;">300 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Artisans' Guild feature</td>
+<td style="text-align: center;">325 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Uncanny Tool Belt</td>
+<td style="text-align: center;">350 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">375 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Masterwork (Legendary properties)</td>
+<td style="text-align: center;">400 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Artisans' Guild feature</td>
+<td style="text-align: center;">425 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">450 gp</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Magnum Opus</td>
+<td style="text-align: center;">500 gp</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d10 per craftsman level<br />
+<strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per craftsman level after 1st</p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> All armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, martial weapons<br />
+<strong>Tools:</strong> All artisan's tools  </p>
+<p><strong>Saving Throws:</strong> Constitution, Intelligence<br />
+<strong>Skills:</strong> Choose two from Arcana, Athletics, History, Investigation, Medicine, Perception, and Persuasion</p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li>A set of craftsman's tools</li>
+<li>A shield and (a) chain mail, (b) leather armor, or (c) scale mail</li>
+<li>A dagger and (a) a warhammer or (b) any simple weapon</li>
+<li>(a) a light crossbow and 20 bolts or (b) a shortbow and 20 arrows</li>
+<li>A dungeoneer's pack</li>
+</ul>
+<details class="info">
+<summary>Craftsman's Tools</summary>
+<p>As a craftsman, you carry a set of craftsman's tools, a combined toolkit which covers a broad range of applications. You can use a set of craftsman's tools for any ability check you would make with any set of artisan's tools. A set of craftsman's tools costs 75 gp.</p>
+</details>
+<hr>
+<h4 id="level-1-exotic-proficiencies">Level 1 - Exotic Proficiencies</h4>
+<p>Starting at 1st level, you gain proficiency in exotic weapons and exotic armor, which are unconventional, yet effective items in which no other class gets proficiency. If a feature or effect grants proficiency with a weapon or suit of armor, it does not grant proficiency with exotic weapons or exotic armor, unless otherwise stated.</p>
+<hr>
+<h4 id="level-1-active-crafting">Level 1 - Active Crafting</h4>
+<p>Also at 1st level, you can craft one item each day when you take a long rest, without losing the benefits of a long rest. You pay half the item's gold piece cost in materials, up to 25 gp. If an item costs more than 25 gp in materials, you can finish the item by working on it for multiple days, spending 25 gp each day until the item is completed.</p>
+<p>As you gain levels in this class, your crafting speed increases, allowing you to spend more on materials for each day of crafting, as shown in the Active Crafting column of the Craftsman table.</p>
+<p>Items you craft using this feature are worth half their gold piece cost when sold. This means that you can sell an item to refund its cost in materials, but not to make a profit.</p>
+<hr>
+<h4 id="level-2-masterwork">Level 2 - Masterwork</h4>
+<p>At 2nd level, you begin to learn the deeper intricacies of weapon and armor craftsmanship.</p>
+<p><strong>Masterwork Equipment.</strong> As a craftsman, you are capable of creating weapons and armor of the utmost quality; such creations are known as masterwork items. To create a masterwork version of an item, add 50 gp to the cost in materials you pay to craft the item. Masterwork weapons you create have a +1 bonus to attack rolls. A magic weapon that adds a bonus to your attack and damage rolls doesn't add this bonus to attack rolls.</p>
+<p><strong>Masterwork Properties.</strong> Masterwork weapons and armor can be modified with masterwork properties, advanced modifications which transform them into truly unique weapons and armor. Masterwork properties are separated into 4 levels: Apprentice, Journeyman, Master, and Legendary. You can apply any number of Apprentice properties to a masterwork weapon, or three Apprentice properties to a masterwork suit of armor. Additionally, you can apply one Journeyman, one Master, and one Legendary property to each masterwork item. If you add a Master or Legendary property to an item, only you can use it.</p>
+<details class="table">
+<summary>Masterwork Properties</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Property</th>
+<th style="text-align: center;">Craftsman Level</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Apprentice</td>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Journeyman</td>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">100 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Master</td>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">250 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;">Legendary</td>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">400 gp</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><strong>Modifying Equipment.</strong> Using the Active Crafting feature, you can modify a weapon or suit of armor when you take a long rest. This allows you to do the following:</p>
+<p><strong>Improving Equipment.</strong> You can make any nonmagical weapon or suit of armor masterwork for a cost of 50 gp in materials.</p>
+<p><strong>Adding Masterwork Properties.</strong> Adding masterwork properties of Journeyman level or higher requires a cost in gold pieces and also requires you to be of a high enough level in this class, as shown in the Masterwork Properties table. When you learn a new level of masterwork properties, you can apply a property from that level to a masterwork item at no cost.</p>
+<p><strong>Removing Properties.</strong> You can remove any properties of a masterwork item, including those a weapon had when you first created it. You can't remove a property from an item that is a prerequisite for another of the item's properties. If you replace a property of Journeyman level or higher with a property of the same level over the same long rest, you can do so without an additional cost in materials.</p>
+<p>Whenever you modify the properties of a masterwork weapon, you can change its damage type to bludgeoning, piercing, or slashing damage, if its damage was already one of these types.</p>
+<p><strong>Crafting Ability.</strong> Intelligence is the primary ability you use when crafting items. You use your Intelligence modifier when setting the saving throw DC for items which you craft.</p>
+<p><strong>Masterwork save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+<details class="info">
+<summary>Downtime Crafting</summary>
+<p>Any character can craft an item in their downtime; the craftsman is simply better at it. To craft an item, a character requires three things:</p>
+<p><strong>Materials.</strong> In most cases, the raw materials for an item can be obtained for half the item's gold piece cost. This cost can fluctuate depending on the character's current circumstances, contacts, or access to materials.</p>
+<p><strong>Tools.</strong> You must have a set of appropriate artisan's tools and proficiency in their use to craft an item. Occasionally, an item might call for an entire workshop or other special tools.</p>
+<p><strong>Time.</strong> The time required to craft an item is measured against its cost in materials. A character makes progress toward crafting an item equal to 5 gp for each day of downtime, completing their work when this amount exceeds the item's cost in materials. As a craftsman, you work faster than a normal character, and make progress equal to 10 gp each day.</p>
+<p>You can sell any item you craft during your downtime for its total gold piece cost. As such, if you run a shop or craft items during your downtime purely to make profit, you can make 5 gp per day, assuming you sell all of your items.</p>
+</details>
+<hr>
+<h4 id="level-2-tool-belt">Level 2 - Tool Belt</h4>
+<p>By 2nd level, you always have the right tool at hand. You can use your action to retrieve a piece of nonmagical gear from your belt, apron, pack, cart, or wherever you keep your tools, even if you didn't have it in your inventory before. The item's gold piece cost can be up to 50 gp. You can't use this feature to produce a weapon, suit of armor, shield, or potion.</p>
+<p>An item retrieved this way becomes lost in your inventory and vanishes when you take a long rest. You can use this ability a number of times equal to your Intelligence modifier and regain all expended uses when you finish a long rest.</p>
+<hr>
+<h4 id="level-3-artisans-guild">Level 3 - Artisans' Guild</h4>
+<p>At 3rd level, you join an Artisans' Guild. Select one of the guilds detailed in the Artisans' Guilds tab. You gain the 3rd level ability of that guild, and additional guild abilities at 7th, 10th, 14th, and 18th level.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<hr>
+<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
+<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+<hr>
+<h4 id="level-6-folded-steel">Level 6 - Folded Steel</h4>
+<p>At 6th level, you discover or create new processes for making your masterwork gear even stronger than before. Masterwork weapons crafted or modified by you count as magical for the purposes of overcoming damage resistance and immunity.</p>
+<hr>
+<h4 id="level-9-eye-for-quality">Level 9 - Eye for Quality</h4>
+<p>Starting at 9th level, you can cast the spell <em>identify</em> at will, without using a spell slot or spell components. Additionally, when you cast the spell, you also appraise the target item, learning its market value in gold pieces.</p>
+<hr>
+<h4 id="level-13-flawless-construction">Level 13 - Flawless Construction</h4>
+<p>Beginning at 13th level, masterwork items you create do not rust, pit, fray at the edges, or otherwise show signs of aging. Additionally, they have resistance to all damage. An effect which would destroy an item you have created only does so if it could destroy a magic item.</p>
+<hr>
+<h4 id="level-15-uncanny-tool-belt">Level 15 - Uncanny Tool Belt</h4>
+<p>By 15th level, you have a knack for finding the most useful things buried away in your cart. You can produce a single common or uncommon magic item from your tool belt. The item becomes lost in your inventory and vanishes when you finish a long rest. Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+<h4 id="level-20-magnum-opus">Level 20 - Magnum Opus</h4>
+<p>At 20th level, you complete an object of unparalleled majesty. You work feverishly for a period of 30 days to create a single magic item of very rare or legendary rarity. This item is tied to your very soul: regardless of type, you are always considered attuned to it, and no other creature can attune to it while you are alive. This item does not count against your maximum number of attuned items, and you ignore all attunement requirements for the item. As long as you are on the same plane of existence as your item, you can call it to your hand or onto your body (as appropriate). You can only craft a Magnum Opus once.</p>
+</div>
+<div class="tabbed-block">
+<p>Masterwork properties can be applied to any masterwork weapon or suit of armor, provided you can spare the time and gold cost required to apply it. Each property entry details the property's level and the type of equipment it can be applied to.</p>
+<p>Unless otherwise noted, a piece of gear cannot have the same property more than once; for example, you cannot apply the Heavy property to a greatsword, or the Martial property to a longbow.</p>
+<p><p><strong>Choose a property type:</strong></p></p>
+<p><select id="type-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="weapon">Weapon</option>
+  <option value="armor">Armor</option>
+</select></p>
+<div class="type-content" data-type="weapon">
+<details class="weapon">
+<summary>Weapon Properties</summary>
+<p>The following masterwork weapon properties are organized by crafting level. Generally, Apprentice properties can be used to fashion nearly any type of simple, martial, or exotic weapon, though some weapons might require one Journeyman property as well. Master and Legendary properties, by contrast, are used almost exclusively by master craftsmen on their personal equipment.</p>
+<p>Masterwork properties applied to ranged weapons apply their effects to their ammunition, if applicable.</p>
+<p><strong>Damage Steps.</strong> If a masterwork property increases or decreases a weapon's damage, it is moved up and down one step on the following scale, down to a minimum of 1d4:</p>
+<p>1d4 → 1d6 → 1d8 → 1d10 → 1d12 or 2d6</p>
+<p>Further increases add a +1 bonus to the weapon's damage roll. If the weapon being modified has 2 damage dice (such as a greatsword or a firearm), the scale is instead:</p>
+<p>2d4 → 2d4 + 1 → 2d6 → 2d6 + 1 → 2d8 → 2d8 + 1 → 2d10 → 2d10 + 1 → 2d12</p>
+<details class="info">
+<summary>Changing Weapon Ranges</summary>
+<p>A ranged weapon's long range is either three times its normal range or four times its normal range, depending on the type of projectile it fires. When a masterwork property changes a weapon's normal range, change the long range by three or four times the amount, as appropriate to the weapon.</p>
+<p>You can't apply a weapon property if it would reduce a ranged weapon's range to 0 feet, and you can't remove the Ammunition or Thrown property of a ranged weapon.</p>
+</details>
+<details class="info">
+<summary>Modified Weapons</summary>
+<p>Once you modify a weapon's properties, it may no longer resemble its original function or profile. The GM decides if a modified weapon still counts as its base form for characters which have proficiency in it and for features which refer to a specific type of weapon (as opposed to a category of weapons, such as simple or martial weapons).</p>
+</details>
+<details class="feature">
+<summary>Apprentice Weapon Properties</summary>
+<p>You can apply any number of Apprentice properties to a masterwork weapon.</p>
+<h4 id="aerodynamic">Aerodynamic</h4>
+<p><em>Components: Masterwork weapon with the Thrown property</em></p>
+<p>The weapon's normal range increases by 40 feet and its long range increases accordingly.</p>
+<h4 id="automatic">Automatic</h4>
+<p><em>Components: Masterwork ranged weapon with the Reload property</em></p>
+<p>This weapon gains the Automatic property and its damage decreases by 1 step. The weapon's normal range decreases by 20 feet and its long range decreases accordingly.</p>
+<p><strong>Automatic.</strong> When you make an attack with this weapon on your turn, you can choose to make two attacks with disadvantage instead. These attacks always have disadvantage, regardless of circumstance. These attacks use twice the normal amount of ammunition.</p>
+<h4 id="balanced">Balanced</h4>
+<p><em>Components: Masterwork exotic weapon with the Heavy property</em></p>
+<p>This weapon can be wielded by Small creatures without disadvantage.</p>
+<h4 id="concealable">Concealable</h4>
+<p><em>Components: Masterwork weapon with the Light property</em></p>
+<p>This weapon gains the Concealable property.</p>
+<p><strong>Concealable.</strong> While stowed, you have advantage on Dexterity (Stealth) checks made to conceal this weapon.</p>
+<h4 id="elegant">Elegant</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Light property, or masterwork exotic ranged weapon with the Light and Thrown properties</em></p>
+<p>This weapon gains the Elegant property and its damage die increases by one step.</p>
+<p><strong>Elegant.</strong> This weapon requires exceptional skill to use. You must have a Dexterity score of 16 or higher to wield an elegant weapon.</p>
+<h4 id="exotic">Exotic</h4>
+<p><em>Components: Masterwork martial or exotic weapon</em></p>
+<p>This weapon becomes an exotic weapon and its damage die increases by 1 step. No class, other than the craftsman, gains proficiency with exotic weapons.</p>
+<h4 id="extended-magazine">Extended Magazine</h4>
+<p><em>Components: Masterwork martial or exotic weapon with the Reload property</em></p>
+<p>The Reload capacity of this weapon is doubled.</p>
+<h4 id="finesse">Finesse</h4>
+<p><em>Components: Masterwork melee weapon that does not have the Two-Handed property, or a masterwork ranged weapon that has the Thrown property</em></p>
+<p>This weapon gains the Finesse property.</p>
+<h4 id="firearm">Firearm</h4>
+<p><em>Components: Masterwork ranged weapon with the Loading or Reload property that does not have the Tension property</em></p>
+<p>This weapon becomes a firearm and gains the Firearm property. Its damage die increases by four steps, and moves to two damage dice, if possible.</p>
+<p><strong>Firearm.</strong> You don't add your ability score to this weapon's damage rolls. Firearm ammunition can't be recovered once used.</p>
+<h4 id="fist">Fist</h4>
+<p><em>Components: Masterwork melee weapon with the Light property</em></p>
+<p>This weapon gains the Fist property.</p>
+<p><strong>Fist.</strong> Attacks made with this weapon are treated as unarmed strikes.</p>
+<h4 id="foregrip">Foregrip</h4>
+<p><em>Components: Masterwork ranged weapon with the Ammunition property that does not have the Two-Handed property</em></p>
+<p>This weapon gains the Foregrip property.</p>
+<p><strong>Foregrip.</strong> This weapon can be used with one or two hands. If used in two hands, its normal range increases by 50 feet and its long range increases accordingly.</p>
+<h4 id="heavy">Heavy</h4>
+<p><em>Components: Masterwork martial or exotic weapon with the Two-Handed property that does not have the Double property</em></p>
+<p>This weapon gains the Heavy property. If it is a melee weapon, its damage die increases by 1 step. If it is ranged, its normal range increases by 20 feet and its long range increases accordingly.</p>
+<h4 id="light">Light</h4>
+<p><em>Components: Masterwork weapon that does not have the Two-Handed or Versatile properties</em></p>
+<p>This weapon gains the Light property and its damage die decreases by 1 step.</p>
+<h4 id="loading">Loading</h4>
+<p><em>Components: Masterwork ranged weapon with the Ammunition property that does not have the Reload property</em></p>
+<p>This weapon gains the Loading property. Its damage die increases by one step.</p>
+<h4 id="martial">Martial</h4>
+<p><em>Components: Masterwork simple weapon</em></p>
+<p>This weapon becomes a martial weapon, and its damage die increases by 1 step.</p>
+<h4 id="parrying">Parrying</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Finesse or Light property</em></p>
+<p>This weapon gains the Parrying property and its damage die decreases by 1 step.</p>
+<p><strong>Parrying.</strong> While wielding this weapon and not wielding a shield, you gain a +1 to your AC against melee attacks.</p>
+<h4 id="reach">Reach</h4>
+<p><em>Components: Masterwork martial or exotic melee weapon with the Finesse or Two-Handed property</em></p>
+<p>This weapon gains the Reach property and its damage die decreases by 1 step.</p>
+<h4 id="reload">Reload</h4>
+<p><em>Components: Masterwork ranged weapon with the Ammunition property that does not have the Loading property</em></p>
+<p>The weapon gains the Reload (5) property. If you apply the Reload property to a martial or exotic weapon with the Mounted property, you can choose to give it the Reload (1, 2 actions) property, and increase its damage by three steps.</p>
+<p><strong>Reload.</strong> This weapon can be used to make a number of attacks before it must be reloaded. If you are proficient with the weapon, reloading it takes a bonus action; otherwise, reloading it takes an action. Some weapons require an action or longer to reload, even if you have proficiency, which is specified in the Reload property. If reloading a weapon requires longer than one action, the weapon can't be used to make attacks until reloading is finished.</p>
+<h4 id="returning">Returning</h4>
+<p><em>Components: Masterwork martial or exotic weapon with the Light and Thrown properties</em></p>
+<p>This weapon gains the Returning property.</p>
+<p><strong>Returning.</strong> After being thrown, this weapon returns to your hand at the end of your turn.</p>
+<h4 id="scatter">Scatter</h4>
+<p><em>Components: Masterwork ranged weapon with the Ammunition and Two-Handed properties that does not have the Sighted property</em></p>
+<p>This weapon gains the Scatter property and its damage die decreases by one step. The weapon's damage die increases by two steps when an attack with it is made against a target within half of its normal range. The weapon's long range becomes three times the weapon's normal range. The weapon's normal range decreases by 70 feet and its long range decreases accordingly.</p>
+<p><strong>Scatter.</strong> If you make an attack against a target that is within half this weapon's normal range, you deal the damage value listed in parentheses instead of the weapon's normal damage dice.</p>
+<h4 id="sighted">Sighted</h4>
+<p><em>Components: Masterwork martial or exotic ranged weapon with the Ammunition property that does not have the Scatter property</em></p>
+<p>This weapon gains the Sighted property. Additionally, its normal range increases by 50 feet and its long range increases accordingly.</p>
+<p><strong>Sighted.</strong> This weapon has disadvantage on attack rolls made against targets within 20 feet.</p>
+<h4 id="superheavy">Superheavy</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Heavy property</em></p>
+<p>This weapon gains the Superheavy property and its damage die increases by 1 step.</p>
+<p><strong>Superheavy.</strong> This weapon is unusually large for its type. You must have a Strength score of 16 or higher to wield a superheavy weapon.</p>
+<h4 id="switch">Switch</h4>
+<p><em>Components: Two masterwork exotic weapons</em></p>
+<p>This weapon gains the Switch property and its damage die decreases by 1 step. You can integrate together two weapons with the Switch property, forming a single unit in which each weapon is one of the unit's two forms. You can choose to use two identical weapons with the Light property for one of the weapon's forms.</p>
+<p><strong>Switch.</strong> This weapon has two forms. You can swap between which weapon is being used at any time, even between attacks.</p>
+<h4 id="thrown">Thrown</h4>
+<p><em>Components: Masterwork melee weapon that does not have the Two-Handed property</em></p>
+<p>This weapon gains the Thrown property with a range of (20/60).</p>
+<h4 id="trip">Trip</h4>
+<p><em>Components: Masterwork martial or exotic melee weapon</em></p>
+<p>This weapon gains the Trip property.</p>
+<p><strong>Trip.</strong> You can make a shove attempt against any creature within this weapon's reach. Furthermore, you have advantage on ability checks you make to shove a creature using this weapon.</p>
+<h4 id="two-handed">Two-Handed</h4>
+<p><em>Components: Masterwork weapon that does not have the Finesse, Foregrip, Light, Thrown, or Versatile properties</em></p>
+<p>This weapon gains the Two-Handed property and its damage die increases by 1 step. Additionally, if it is a ranged weapon, its normal range increases by 50 feet and its long range increases accordingly.</p>
+<h4 id="versatile">Versatile</h4>
+<p><em>Components: Masterwork melee weapon that doesn't have the Light or Two-Handed properties</em></p>
+<p>This weapon gains the Versatile property. While being wielded in two hands, its damage die increases by 1 step.</p>
+</details>
+<details class="feature">
+<summary>Journeyman Weapon Properties</summary>
+<p>You can apply only one Journeyman property to a weapon at a time. You can't apply a Journeyman property to a weapon which already has one.</p>
+<h4 id="counterweighted">Counterweighted</h4>
+<p><em>Components: Masterwork exotic weapon with the Two-Handed property</em></p>
+<p>You can wield this weapon in one hand, as long as you don't have a weapon in your other hand.</p>
+<h4 id="double">Double</h4>
+<p><em>Components: Masterwork exotic melee weapon that does not have the Heavy property</em></p>
+<p>This weapon gains the Double property and its damage die decreases by 1 step.</p>
+<p><strong>Double.</strong> This weapon has two damage-dealing ends. When you use the Attack action and make an attack with this weapon, you can use your bonus action to make an additional attack with it; you do not add your ability modifier to the damage roll of this bonus attack.</p>
+<h4 id="explosive">Explosive</h4>
+<p><em>Components: Masterwork martial or exotic ranged weapon</em></p>
+<p>This weapon gains the Explosive property and its damage die decreases by one step. If this weapon dealt bludgeoning, piercing, or slashing damage, it deals fire damage instead.</p>
+<p><strong>Explosive.</strong> When this weapon's projectile hits a target, it explodes in a 5-foot radius. The projectile can be fired at an unoccupied space within its range. Each creature other than the target within the blast radius must succeed on a Dexterity saving throw, taking half the damage rolled on a failed save or no damage on a successful one.</p>
+<h4 id="heat">Heat</h4>
+<p><em>Components: Masterwork martial or exotic ranged weapon with the Firearm property</em></p>
+<p>This weapon gains the Heat property and its damage die increases by 1 step.</p>
+<p><strong>Heat.</strong> This weapon gains a heat point whenever an attack is made with it and loses one heat point whenever you begin your turn. If the weapon gains 3 heat points, it overheats and loses all heat points. An overheated weapon can't be used to make an attack again until the end of your next turn.</p>
+<h4 id="magical">Magical</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>The weapon becomes magical and gains a +1 bonus to attack and damage rolls. This benefit stacks if you apply the Magical property at different levels.</p>
+<h4 id="massive">Massive</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Superheavy property</em></p>
+<p>This weapon gains the Massive property and its damage die increases by 2 steps.</p>
+<p><strong>Massive.</strong> You can only make an attack with this weapon when you take the Attack action, and only as the first attack you make on your turn. Once you make an attack with this weapon, you can't attack again until the beginning of your next turn. If you would be able to attack more than once when you take the Attack action on your turn, you deal an additional two dice of damage when using this weapon.</p>
+<h4 id="mounted">Mounted</h4>
+<p><em>Components: Masterwork martial or exotic ranged weapon with the Heavy property</em></p>
+<p>This weapon gains the Mounted property and its damage die increases by 2 steps.</p>
+<p><strong>Mounted.</strong> This weapon is normally used while attached to a tripod, vehicle, or other bracing mount. You can mount or unmount this weapon as an action. While it is mounted, it can't be moved. It can only be used to make an attack while unmounted if held by a Medium or larger creature with a Strength score of at least 15.</p>
+<h4 id="precision">Precision</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Elegant property</em></p>
+<p>This weapon gains the Precision property.</p>
+<p><strong>Precision.</strong> Once per turn, you can deal an extra 1d6 damage to one creature you hit with this weapon if you have advantage on the attack roll.</p>
+<h4 id="rocket">Rocket</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>This weapon gains the Rocket property and its damage die decreases by one step.</p>
+<p><strong>Rocket.</strong> This weapon has a small propulsive engine attached to it or its projectiles. Once per turn, when you hit a creature with this weapon, you can deal an additional 1d4 damage to the target.</p>
+<h4 id="sniper">Sniper</h4>
+<p><em>Components: Masterwork exotic ranged weapon with the Ammunition property that does not have the Scatter property</em></p>
+<p>The weapon's long range becomes eight times the weapon's normal range.</p>
+<h4 id="tension">Tension</h4>
+<p><em>Components: Masterwork exotic ranged weapon which does not have the Firearm property</em></p>
+<p>This weapon gains the Tension property.</p>
+<p><strong>Tension.</strong> When making a ranged weapon attack with a tension weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p>
+<h4 id="twinshot">Twinshot</h4>
+<p><em>Components: Masterwork exotic ranged weapon</em></p>
+<p>This weapon gains the Twinshot property.</p>
+<p><strong>Twinshot.</strong> Once on each of your turns when you make an attack with this weapon, you can make another attack with it against a different creature that is within 5 feet of the original target and within range of the weapon.</p>
+</details>
+<details class="feature">
+<summary>Master Weapon Properties</summary>
+<p>You can apply only one Master property to a weapon at a time.</p>
+<h4 id="adamantine">Adamantine</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Heavy or Versatile property</em></p>
+<p>This weapon's damage die increases by two steps, and it deals double damage to objects.</p>
+<h4 id="blessed">Blessed</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>This weapon deals an additional 1d4 radiant damage on a hit. This additional damage increases to 1d10 radiant damage if the target is a fiend or undead.</p>
+<h4 id="earthshatter">Earthshatter</h4>
+<p><em>Components: Masterwork exotic weapon with the Massive property</em></p>
+<p>This weapon's damage die increases by two steps. On a hit with this weapon, the target must make a Strength saving throw. On a failed save, the target is knocked prone or pushed 10 feet away from you (your choice).</p>
+<h4 id="elemental">Elemental</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>When you apply this property, choose acid, cold, fire, lightning, or thunder damage. This weapon deals an additional 1d6 damage of that type on a hit.</p>
+<h4 id="keen">Keen</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Finesse or Versatile property</em></p>
+<p>This weapon scores a critical hit on a roll of 19 or 20.</p>
+<h4 id="magical_1">Magical</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>The weapon becomes magical and gains a +1 bonus to attack and damage rolls. This benefit stacks if you apply the Magical property at different levels.</p>
+<h4 id="mithral">Mithral</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Finesse property</em></p>
+<p>This weapon's damage die increases by 2 steps, and it weighs half as much.</p>
+<h4 id="serrated">Serrated</h4>
+<p><em>Components: Masterwork exotic weapon that deals slashing damage</em></p>
+<p>When a creature takes damage from serrated weapons twice or more in a single turn, it takes an additional 1d8 slashing damage.</p>
+<h4 id="slaying">Slaying</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>When you apply this property, choose one creature type other than humanoids. This weapon deals 1d12 additional damage to creatures of that type.</p>
+<h4 id="vampiric">Vampiric</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>This weapon deals an additional 1d4 necrotic damage on a hit. When you hit a hostile creature with this weapon, you regain hit points equal to the additional necrotic damage dealt with this property.</p>
+<h4 id="venom">Venom</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>This weapon deals an additional 1d8 poison damage on a hit.</p>
+</details>
+<details class="feature">
+<summary>Legendary Weapon Properties</summary>
+<p>You can apply only one Legendary property to a weapon at a time.</p>
+<h4 id="crushing">Crushing</h4>
+<p><em>Components: Masterwork exotic weapon that deals bludgeoning damage</em></p>
+<p>When you hit a creature that is wearing armor with this weapon, the target's armor takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. A creature can repair its armor over the course of a long rest.</p>
+<h4 id="deadly">Deadly</h4>
+<p><em>Components: Masterwork exotic ranged weapon with the Firearm property</em></p>
+<p>You can add your ability modifier to the attack and damage rolls of attacks made with this weapon, instead of just attack rolls.</p>
+<h4 id="magical_2">Magical</h4>
+<p><em>Components: Masterwork exotic weapon</em></p>
+<p>The weapon becomes magical and gains a +1 bonus to attack and damage rolls. This benefit stacks if you apply the Magical property at different levels.</p>
+<h4 id="penetrating">Penetrating</h4>
+<p><em>Components: Masterwork exotic weapon with the Ammunition or Thrown property that deals piercing damage</em></p>
+<p>This weapon pierces through its targets. When you make a ranged attack with this weapon, you can attack all creatures in a straight line within this weapon's normal range; each creature must succeed on a Dexterity saving throw or take the weapon's damage.</p>
+<h4 id="seeking">Seeking</h4>
+<p><em>Components: Masterwork exotic ranged weapon</em></p>
+<p>When you make an attack that does not have disadvantage with this weapon and miss, you instead hit the target and deal 5 damage. Do not add additional damage or increase this damage total, regardless of circumstance.</p>
+<h4 id="swift">Swift</h4>
+<p><em>Components: Masterwork exotic melee weapon with the Elegant property</em></p>
+<p>This weapon can be used to attack blindingly fast. When you use the Attack action and make an attack with this weapon, you can use your bonus action to make an additional attack. If you engage in two-weapon fighting with two swift weapons, you can make two attacks, instead of one, as a bonus action.</p>
+<h4 id="threatening">Threatening</h4>
+<p><em>Components: Masterwork exotic melee weapon</em></p>
+<p>When a creature provokes an opportunity attack from you, you can use this weapon to make an attack against it without using your reaction.</p>
+<h4 id="vorpal">Vorpal</h4>
+<p><em>Components: Masterwork exotic weapon that deals slashing damage</em></p>
+<p>When you attack a creature with this weapon and score a critical hit, that target takes an extra 4d8 slashing damage. Then roll another d20. If you roll a 20 on the second roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</p>
+</details>
+</details>
+</div>
+<div class="type-content" data-type="armor">
+<details class="armor">
+<summary>Armor Properties</summary>
+<p>The following armor properties are organized by crafting level. Generally, exotic armor is made using the Exotic property, while the other Apprentice properties are used to tailor a suit of armor to a craftsman's personal tastes. Higher level properties, by contrast, drastically alter suits of armor to which they are applied.</p>
+<details class="feature">
+<summary>Apprentice Armor Properties</summary>
+<p>You can apply a maximum of three Apprentice properties to a suit of armor.</p>
+<h4 id="cleated">Cleated</h4>
+<p><em>Components: Suit of masterwork medium or heavy armor</em></p>
+<p>While wearing this armor, when you would be involuntarily moved by an effect, reduce that movement by 10 feet.</p>
+<h4 id="climbing">Climbing</h4>
+<p><em>Components: Suit of exotic masterwork light armor</em></p>
+<p>This armor is outfitted with integrated climbing gear. While wearing this armor, as long as you have one hand free, you gain a climb speed equal to your movement speed.</p>
+<h4 id="comfortable">Comfortable</h4>
+<p><em>Components: Suit of masterwork armor</em></p>
+<p>You can sleep in this suit of armor with no ill effect.</p>
+<h4 id="environmental">Environmental</h4>
+<p><em>Components: Suit of masterwork armor</em></p>
+<p>While wearing this suit of armor, you can ignore detrimental effects of temperatures as low as −100 degrees or as high as 300 degrees.</p>
+<h4 id="exotic_1">Exotic</h4>
+<p><em>Components: Suit of masterwork armor that isn't exotic</em></p>
+<p>This armor becomes exotic armor and gains a +1 to its AC. No class, other than the craftsman, gains proficiency with exotic armor.</p>
+<h4 id="integrated">Integrated</h4>
+<p><em>Components: Suit of exotic masterwork armor</em></p>
+<p>You can integrate a weapon directly into your armor, or you can integrate two weapons (one into each arm) if neither has the Two-Handed property. When you draw an integrated weapon, it snaps to your hand and you can't be disarmed of it. When you stow it, it retracts back into your armor. You can switch which weapons are integrated over the course of a long rest.</p>
+<h4 id="quick-change">Quick-Change</h4>
+<p><em>Components: Suit of masterwork armor</em></p>
+<p>You can don or doff this suit of armor as an action.</p>
+<h4 id="retractable">Retractable</h4>
+<p><em>Components: Suit of exotic masterwork medium or heavy armor</em></p>
+<p>One of the gauntlets on this suit of armor has a retractable shield set into it. While wearing this armor, you can don or doff this shield as a bonus action.</p>
+<h4 id="scaled">Scaled</h4>
+<p><em>Components: Suit of exotic masterwork light armor</em></p>
+<p>This armor is covered in heavy, hardened scales. The AC provided by this armor increases by 3, but its maximum Dexterity bonus becomes +2.</p>
+<h4 id="spiked">Spiked</h4>
+<p><em>Components: Suit of masterwork heavy armor</em></p>
+<p>This suit of armor is bristling with spikes. While wearing this armor, creatures who are in contact with you (either by grappling you, being grappled by you, or having swallowed you whole) take piercing damage equal to 1d4 + your Strength modifier at the start of your turn.</p>
+</details>
+<details class="feature">
+<summary>Journeyman Armor Properties</summary>
+<p>You can apply only one Journeyman property to a suit of armor at a time.</p>
+<h4 id="adamantine_1">Adamantine</h4>
+<p><em>Components: Suit of exotic masterwork heavy armor</em></p>
+<p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While wearing it, any critical hit against you becomes a normal hit.</p>
+<h4 id="arcane">Arcane</h4>
+<p><em>Components: Suit of exotic masterwork armor</em></p>
+<p>This armor is covered in arcane etchings. When you apply this property to a suit of armor, choose two cantrips from the wizard spell list. While wearing this armor, you can cast those cantrips. Intelligence is your spellcasting modifier for these cantrips.</p>
+<h4 id="arrow-catching">Arrow-Catching</h4>
+<p><em>Components: Suit of exotic masterwork medium or heavy armor</em></p>
+<p>Whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead.</p>
+<h4 id="diving">Diving</h4>
+<p><em>Components: Suit of exotic masterwork armor</em></p>
+<p>This suit of armor is equipped with webbed fins, a mask, and an air bladder containing 8 hours of breathable air. While wearing it, you gain a swimming speed equal to your movement speed. Additionally, while breathing from the air bladder, you can breathe normally underwater or in a vacuum, and you ignore the effects of breathable poisons. The suit's air supply can be refilled over the course of a long rest.</p>
+<h4 id="juggernaut">Juggernaut</h4>
+<p><em>Components: Suit of exotic masterwork heavy armor</em></p>
+<p>This suit of armor is fitted with massive plates and a heavy, reinforced helmet. While wearing this armor, you count as an obstacle providing three-quarters cover, instead of half cover. You must have a Strength score of 16 or higher to proficiently wear this armor.</p>
+<h4 id="maneuvering">Maneuvering</h4>
+<p><em>Components: Suit of exotic masterwork light or medium armor</em></p>
+<p>This armor contains a set of spring-loaded, automatically-retracting grappling hooks, allowing you an incredible amount of maneuverability. As a reaction when you fall, or as a bonus action on your turn, you can project a grappling hook at a target location you can see within your movement speed. If the target location can hold your weight, you are pulled there, expending movement normally. This movement does not provoke opportunity attacks. You must have a Dexterity score of 16 or higher to use this ability.</p>
+<h4 id="mithral_1">Mithral</h4>
+<p><em>Components: Suit of masterwork medium or heavy armor</em></p>
+<p>This suit of armor is made of mithral, a light and flexible metal that is as strong as steel. Armor made of mithral weighs half as much as normal, has no Strength requirement, and does not impose disadvantage on Dexterity (Stealth) checks. If the armor is medium, the maximum Dexterity modifier to AC you can apply increases to 3, instead of 2, and the armor can easily be worn hidden under normal clothing.</p>
+<h4 id="resistance">Resistance</h4>
+<p><em>Components: Suit of masterwork armor</em></p>
+<p>When you apply this property to a suit of armor, choose any damage type other than psychic. While wearing this armor, you gain resistance to that damage type.</p>
+</details>
+<details class="feature">
+<summary>Master Armor Properties</summary>
+<p>You can apply only one Master property to a suit of armor at a time.</p>
+<h4 id="animated">Animated</h4>
+<p><em>Components: Masterwork suit of exotic heavy armor</em></p>
+<p>This armor is enchanted with powerful transmutation magic. As an action, you can doff your armor, which animates, becoming a medium animated object, as per the spell <em>animate objects</em>. The armor's AC is equal to your own while wearing it. If you were holding a weapon when the armor animates, it makes one attack using that weapon using your attack bonus instead of its Multiattack. The armor remains animated for 1 minute or until it is reduced to 0 HP, at which time it becomes inanimate. You can end this effect early by using your action to command your animated armor to return to you (if it is within 25 feet of you) and be donned as inanimate armor once again. Once you use this ability, you can't do so again until you finish a long rest.</p>
+<h4 id="cloaking">Cloaking</h4>
+<p><em>Components: Suit of exotic masterwork light armor</em></p>
+<p>This armor can easily hide the wearer when needed. While wearing this armor, you can cast the <em>invisibility</em> spell without using a spell slot. Once you do so, you cannot do so again until you complete a short or long rest.</p>
+<h4 id="clockwork">Clockwork</h4>
+<p><em>Components: Suit of exotic masterwork heavy armor</em></p>
+<p>This suit of armor has dozens of clockwork mechanisms integrated into it, granting you a number of benefits. While wearing this armor, your jump distance triples, and you gain advantage on Strength (Athletics) checks (other than grappling checks). Additionally, your armor locks down when you take the Dodge action, causing your AC to become 22, if it were lower.</p>
+<h4 id="glamoured">Glamoured</h4>
+<p><em>Components: Suit of exotic masterwork armor</em></p>
+<p>This armor does not impose disadvantage on Dexterity (Stealth) checks. You can also use a bonus action to cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this ability again or remove the armor.</p>
+<h4 id="trollskin">Trollskin</h4>
+<p><em>Components: Suit of exotic masterwork medium armor</em></p>
+<p>This suit of armor is made of or is lined with troll skin. While wearing this armor, you can use a bonus action to regain hit points equal to 1d10 + your craftsman level. Once you use this ability, you can't do so again until you finish a short or long rest.</p>
+<h4 id="winged">Winged</h4>
+<p><em>Components: Suit of exotic masterwork light armor</em></p>
+<p>This armor has a set of wings that you can extend from it or fold back into it as a bonus action. While wearing this armor with the wings extended, you have a flight speed equal to your movement speed.</p>
+</details>
+<details class="feature">
+<summary>Legendary Armor Properties</summary>
+<p>You can apply only one Legendary property to a suit of armor at a time.</p>
+<h4 id="colossal">Colossal</h4>
+<p><em>Components: Suit of exotic masterwork heavy armor</em></p>
+<p>This suit of armor doubles in scale when donned. While wearing this armor, you gain the "Enlarge" effect of the <em>enlarge/reduce</em> spell.</p>
+<h4 id="etherealness">Etherealness</h4>
+<p><em>Components: Suit of exotic masterwork armor</em></p>
+<p>This suit of armor is infused with ectoplasm. While wearing this armor, you can use your action to gain the effects of the <em>etherealness</em> spell which last for 10 minutes or until you use an action to deactivate it. Once you use this ability, you can't do so again until you finish a long rest.</p>
+<h4 id="fleet">Fleet</h4>
+<p><em>Components: Suit of exotic masterwork light armor</em></p>
+<p>This armor is designed to maximize the wearer's speed. While wearing this armor, your movement speed increases by 10 feet, you have advantage on initiative rolls, and opportunity attacks against you have disadvantage.</p>
+<h4 id="immortal">Immortal</h4>
+<p><em>Components: Suit of exotic masterwork medium or heavy armor</em></p>
+<p>Whenever you drop to 0 hit points and don't die outright, you can make a DC 12 Constitution saving throw. If you succeed, you drop to 1 hit point instead. You can use this ability three times, and regain all expended uses when you finish a long rest. Additionally, you have advantage on death saving throws.</p>
+<h4 id="mirrored">Mirrored</h4>
+<p><em>Components: Suit of exotic masterwork light armor</em></p>
+<p>While wearing this armor, you can cast the <em>mirror image</em> spell without using a spell slot. Once you do so, you cannot do so again until you complete a short or long rest.</p>
+<h4 id="spellguard">Spellguard</h4>
+<p><em>Components: Suit of exotic masterwork armor</em></p>
+<p>This armor is covered in protective sigils and charms. While wearing this armor, you have advantage on saving throws against spells.</p>
+<h4 id="warding">Warding</h4>
+<p><em>Components: Suit of exotic medium masterwork armor</em></p>
+<p>This suit of armor generates a field of force, protecting its wearer from harm. As a bonus action on your turn, you can gain temporary hit points equal to half your craftsman level.</p>
+</details>
+</details>
+</div>
+</div>
+<div class="tabbed-block">
+<p>All master craftsmen learn the basics of smithing, leatherworking, woodworking, and other necessary disciplines on the path to mastery, either on their own or under tutelage of another master artisan. However, as they hone their skills, they invariably find themselves drawn to gatherings of other like-minded craftsmen. These groups, formalized as Guilds, provide a means for craftsmen to compare notes and schematics, acquire resources, and upgrade their trade.</p>
+<p><p><strong>Choose an artisans' guild:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="arcane-maesters">Arcane Maesters</option>
+  <option value="armigers">Armigers</option>
+  <option value="bladeworkers">Bladeworkers</option>
+  <option value="calibarons">Calibarons</option>
+  <option value="forgeknights">Forgeknights</option>
+  <option value="mechanauts">Mechanauts</option>
+  <option value="thunderlords">Thunderlords</option>
+  <option value="trappers">Trappers</option>
+</select></p>
+<div class="subclass-content" data-subclass="arcane-maesters">
+<details class="subclass">
+<summary>Arcane Maesters' Guild</summary>
+<p>While most seasoned spellcasters will enchant a handful of magic items over the course of their careers, artisans belonging to the Guild of Arcane Maesters seek to become true masters of magic item creation. They rightly take seriously the forging of such powerful relics: each creation must be a masterwork in its own right to contain the potent magic woven into them. Despite laboring for months or even years to perfect their creations, seasoned maesters are always seen to be laden with dozens of magic items, attuned to a handful of rings, and carrying a wand of magic missiles, just in case.</p>
+<h3 id="level-3-magic-item-crafting">Level 3 - Magic Item Crafting</h3>
+<p>When you join this guild at 3rd level, you unlock the secrets of crafting items infused with magical energy. You can craft a magic item by spending multiple days working on it, as per the Active Crafting feature. Your craftsman level determines the range of item levels you can access, and the number of items you can have simultaneously crafted per bracket:</p>
+<details class="table">
+<summary>Magic Item Crafting</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Craftsman Level</th>
+<th style="text-align: center;">Item Level Access</th>
+<th style="text-align: center;">Simultaneous Items</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1–4</td>
+<td style="text-align: center;">1–6</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">5–8</td>
+<td style="text-align: center;">7–11</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">9–12</td>
+<td style="text-align: center;">12–16</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">13–16</td>
+<td style="text-align: center;">17–20</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>In the process of creating a new magic item, you can dismantle a magic item you have created in order to build a new one from the same category.</p>
+<hr>
+<h3 id="level-3-apprentice-property-enchanted">Level 3 - Apprentice Property: Enchanted</h3>
+<p>Also at 3rd level, you learn to apply the following masterwork property to your equipment:</p>
+<p><em>Enchanted — Apprentice weapon property. Components: Masterwork weapon.</em> This weapon is interwoven with strong magical enchantments. You use your Intelligence, instead of Strength or Dexterity, for this weapon's attack and damage rolls.</p>
+<hr>
+<h3 id="level-7-instant-attunement">Level 7 - Instant Attunement</h3>
+<p>Beginning at 7th level, your experience in creating magic items allows you to quickly bond with them. You can use your action to attune to a magic item, and can end an attunement to an item as part of the action. You can use this ability a number of times equal to your Intelligence modifier, and regain all expended uses when you finish a short or long rest.</p>
+<hr>
+<h3 id="level-10-ephemeral-enchantment">Level 10 - Ephemeral Enchantment</h3>
+<p>Starting at 10th level, you can spend 10 minutes to lay an enchantment on a nonmagical weapon, enchanting up to 6 during a short or long rest. For the next 8 hours, this weapon counts as magical for the purposes of overcoming damage resistance and immunity.</p>
+<hr>
+<h3 id="level-14-sever-connection">Level 14 - Sever Connection</h3>
+<p>By 14th level, you can break the connection that binds you to your magic items and repurpose that magic to protect yourself. As a reaction when a creature you can see makes an attack against you or when you make a saving throw, you can end your attunement to one magic item. Until the start of your next turn, you gain a bonus to your Armor Class and saving throws equal to your Intelligence modifier. The total number of magic items you can attune to is reduced by 1 until you finish a short or long rest.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-18-legendary-property-resonant">Level 18 - Legendary Property: Resonant</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a suit of masterwork armor:</p>
+<p><em>Resonant — Legendary armor property. Components: Suit of exotic masterwork armor.</em> By spending a short rest focusing on a magic item while wearing this armor, you can attune the item directly to the armor. You can use the magic item as though you were attuned to it while you are wearing the armor. You can attune up to two items to the armor, and can end an item's attunement to the armor by spending another short rest focused on the item.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="armigers">
+<details class="subclass">
+<summary>Armigers' Guild</summary>
+<p>The Armigers devote their skills to the art of armor smithing, with the firm belief that the right plate in the right place can make a warrior invincible.</p>
+<h3 id="level-3-fighting-style">Level 3 - Fighting Style</h3>
+<p>Beginning at 3rd level, you not only learn to forge powerful armor, but can wear it with skill. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+<p><strong>Defense.</strong> While you are wearing armor, you gain a +1 bonus to AC.</p>
+<p><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
+<hr>
+<h3 id="level-7-shining-steel">Level 7 - Shining Steel</h3>
+<p>Starting at 7th level, your imposing, shining armor makes you a clear target for your foes. When you roll initiative and are not surprised, you can challenge any creature within 60 feet that can see you to battle. Each affected creature must make a Wisdom saving throw against your Masterwork save DC or have disadvantage on any attack roll that doesn't target you on the first round of combat. A creature with Intelligence 3 or less automatically succeeds on this saving throw.</p>
+<hr>
+<h3 id="level-10-armor-reinforcement">Level 10 - Armor Reinforcement</h3>
+<p>Starting at 10th level, you can spend 10 minutes to reinforce a suit of armor, or reinforce up to 6 during a short or long rest. This armor retains its reinforcement until the creature wearing it is hit, after which it is no longer fortified. Reinforced armor gains one of the following properties of your choice:</p>
+<p><strong>Adamant.</strong> When a creature wearing this armor takes damage, it reduces the amount it takes by 1d8.</p>
+<p><strong>Banded.</strong> A creature wearing this armor has a +1 bonus to armor class.</p>
+<hr>
+<h3 id="level-14-fortify">Level 14 - Fortify</h3>
+<p>Starting at 14th level, as a bonus action, you can gain resistance to all damage until the end of your next turn. Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-18-legendary-property-invincible">Level 18 - Legendary Property: Invincible</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a suit of masterwork armor:</p>
+<p><em>Invincible — Legendary armor property. Components: Suit of exotic masterwork armor.</em> While you are wearing this armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 5.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="bladeworkers">
+<details class="subclass">
+<summary>Bladeworkers' Guild</summary>
+<p>Blade and bow, axe and mace: these are the tools with which the Bladeworkers try to change the world. They believe that the right blade, in the right hand, can make a warrior unstoppable.</p>
+<h3 id="level-3-fighting-style_1">Level 3 - Fighting Style</h3>
+<p>Starting when you choose this guild at 3rd level, you not only forge great weapons, you fight with them as well. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+<p><strong>Dueling.</strong> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+<p><strong>Great Weapon Fighting.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the Two-Handed or Versatile property for you to gain this benefit.</p>
+<p><strong>Versatile Fighting.</strong> While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.</p>
+<p><strong>Two-Weapon Fighting.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+<hr>
+<h3 id="level-7-sabotaging-strike">Level 7 - Sabotaging Strike</h3>
+<p>Beginning at 7th level, you can use your knowledge of armament construction to disarm your foes and crush their armor. Once on each of your turns, when you take the Attack action, you can replace one of your attacks with one of the following special melee attacks.</p>
+<p><strong>Disarm.</strong> You attempt to disarm a target within your reach. The target makes a Strength saving throw against your Masterwork save DC. On a failed save, it drops an item of your choice that it is holding or carrying. The object lands at its feet.</p>
+<p><strong>Sunder.</strong> You attempt to shatter the defenses of a target within your reach that is wearing armor or carrying a shield. The target must make a Dexterity saving throw against your Masterwork save DC. On a failed save, the target's armor or shield takes a permanent and cumulative −1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If a creature's armor or shield is damaged but not destroyed, it can repair it over the course of a short or long rest.</p>
+<hr>
+<h3 id="level-10-honed-weapons">Level 10 - Honed Weapons</h3>
+<p>Starting at 10th level, you can spend 10 minutes to fortify a weapon, or fortify up to 6 during a short or long rest. This weapon retains its fortification until it hits a target, after which it is no longer fortified. A fortified weapon gains one of the following properties of your choice:</p>
+<p><strong>Honed.</strong> This weapon has a +2 bonus on attack rolls.</p>
+<p><strong>Sharpened.</strong> This weapon deals an additional 1d8 damage on a hit.</p>
+<hr>
+<h3 id="level-14-versatile-weapon-master">Level 14 - Versatile Weapon Master</h3>
+<p>At 14th level, you can wield all manner of weapons in rapid succession. Once on each of your turns when you attack with a weapon you have drawn on the same turn, you can gain advantage on the attack roll. You can't use this ability with a weapon if you have disadvantage, you can't see the target, or you have used this ability with the weapon within the last minute. You can use this ability once each with a ranged weapon, once with a two-handed melee weapon, once with a one-handed melee weapon, and once with a thrown weapon.</p>
+<hr>
+<h3 id="level-18-legendary-property-devastating">Level 18 - Legendary Property: Devastating</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a masterwork weapon:</p>
+<p><em>Devastating — Legendary weapon property. Components: Masterwork exotic weapon.</em> This weapon scores a critical hit on a roll of 18, 19, or 20.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="calibarons">
+<details class="subclass">
+<summary>Calibarons' Guild</summary>
+<p>The Calibarons know, better than most, that gunpowder is the single greatest invention ever created by mortals. A sword may let a skilled wielder lay a giant low and magic may let the savvy and the blessed stand up to the gods, but only a gun will let a common man put a dragon in its place.</p>
+<h3 id="level-3-fighting-style_2">Level 3 - Fighting Style</h3>
+<p>Starting at 3rd level, you adopt a particular style of gunfighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+<p><strong>Akimbo.</strong> When you engage in two-weapon fighting with firearms, you do not take a penalty to the damage of the second attack.</p>
+<p><strong>Bullseye.</strong> You gain a +2 bonus to ranged attack rolls you make using firearms. The weapon must have the Sighted property or have a normal range of 80 feet or longer to gain this effect. This effect does not stack with the Archery fighting style.</p>
+<p><strong>Duelist.</strong> While you are wielding a firearm in one hand and nothing in the other, if you make a ranged weapon attack and exceed the target's AC by 5 or more, you deal an additional die of weapon damage. You can only use this ability once per round.</p>
+<p><strong>Shotgunner.</strong> When you hit with a ranged weapon attack using a firearm that has the Scatter property, you can reroll the lowest damage die, and you must use the new roll, even if the new roll is worse than the original.</p>
+<hr>
+<h3 id="level-7-apprentice-property-suppressor">Level 7 - Apprentice Property: Suppressor</h3>
+<p>Starting at 7th level, you can add the following special property to your firearms:</p>
+<p><em>Suppressor — Apprentice weapon property. Components: Martial masterwork ranged weapon with the Firearm property.</em> Attacks with this weapon make only a low thud or a quiet clink, audible out to 10 feet, and release a puff of smoke to mask the light given off by the blast.</p>
+<hr>
+<h3 id="level-10-ballistic-calibration">Level 10 - Ballistic Calibration</h3>
+<p>Starting at 10th level, you can spend 10 minutes to calibrate and reinforce a ranged weapon, or calibrate up to 6 during a short or long rest. This weapon retains its calibration until it hits a target, after which it is no longer calibrated. A calibrated ranged weapon gains one of the following properties of your choice:</p>
+<p><strong>Ballistic.</strong> This weapon deals an additional die of damage on a hit.</p>
+<p><strong>Calibrated.</strong> This weapon deals a critical hit on a roll of 18–20.</p>
+<hr>
+<h3 id="level-14-underbarrel-grenade-launcher">Level 14 - Underbarrel Grenade Launcher</h3>
+<p>Beginning at 14th level, you construct the ultimate firearm attachment: an underbarrel grenade launcher. You can use your action to attach this launcher to a two-handed ranged weapon with the Firearm property or remove it from one. If the launcher is ever lost or stolen, you can construct a new one over the course of a long rest with 100 gp in materials.</p>
+<p>You can use your action to fire the launcher at a point you can see within 60 feet. Each creature in a 10-foot radius sphere centered on that point must make a Dexterity saving throw against your Masterwork save DC, taking 8d6 fire damage, or half as much on a successful save.</p>
+<p>Once you fire the launcher, you can't do so again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-18-legendary-property-burst-fire">Level 18 - Legendary Property: Burst Fire</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a masterwork weapon:</p>
+<p><em>Burst Fire — Legendary weapon property. Components: Masterwork exotic firearm with the Automatic property.</em> When you take the Attack action to make an attack with this firearm, you can use your bonus action to make a single additional attack with it.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="forgeknights">
+<details class="subclass">
+<summary>Forgeknight's Guild</summary>
+<p>To a forgeknight, heat is not merely integral to forging, curing, and welding gear, it is a weapon in its own right, for the swing of a white-hot blade bites not only with steel, but with flame. A forgeknight carries the intensity of a forge with them, storing it in their armor and building it up in their weapons, before unleashing it in a scorching blast.</p>
+<h3 id="level-3-portable-forge">Level 3 - Portable Forge</h3>
+<p>When you join this guild at 3rd level, you construct a portable forge which allows you to heat objects you are forging without a specially-constructed shop or foundry. When you gain this forge, you are assumed to have been working on it in your spare time, only bringing it to full functionality when you take this subclass. If your forge is ever lost or damaged, you can repair or replace it over the course of a long rest with 100 gp of materials.</p>
+<p>While you are carrying your forge, you gain the following benefits:</p>
+<ul>
+<li>Weapons you wield can deal fire damage instead of their normal damage type.</li>
+<li>You have resistance to fire damage.</li>
+<li>You can cast the cantrips <em>mending</em> and <em>produce flame</em>. Intelligence is your spellcasting ability for each of these spells.</li>
+</ul>
+<hr>
+<h3 id="level-7-forgefired-armory">Level 7 - Forgefired Armory</h3>
+<p>Starting at 7th level, you can add the Explosive and Heat properties to your melee weapons. When you hit a target with an explosive melee weapon, it creates an explosion at the point of impact, as per the Explosive property, which doesn't harm you or the weapon.</p>
+<hr>
+<h3 id="level-10-superheated-weapons">Level 10 - Superheated Weapons</h3>
+<p>Starting at 10th level, you can plunge a number of melee weapons or pieces of ammunition into an active forge or your forge, heating them to white-hot temperatures. Weapons and ammunition placed in the forge must be made of metal, and remain heated for 10 minutes. You can heat one weapon or 2 pieces of ammunition in the forge as an action, or up to 10 weapons or 20 pieces of ammunition over the course of a minute.</p>
+<p>A heated weapon or piece of ammunition deals fire damage instead of its normal type and ignites flammable objects it hits, if the object isn't being worn or carried. The first time a heated weapon or piece of ammunition hits a target, it deals an additional 1d6 fire damage.</p>
+<hr>
+<h3 id="level-14-fire-burst">Level 14 - Fire Burst</h3>
+<p>Beginning at 14th level, you can release the heat of your portable forge in a colossal burst. You can cast the spell <em>fireball</em>, without using a spell slot or material components, centered on yourself, using your Masterwork spell save DC. You take no damage from this spell.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-18-legendary-property-forge-plate">Level 18 - Legendary Property: Forge Plate</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a suit of masterwork armor:</p>
+<p><em>Forge Plate — Legendary armor property. Components: Suit of exotic masterwork heavy armor.</em> You build a miniature furnace into this suit of armor, as well as layers of heat-dispersing materials. While wearing this armor, you have immunity to fire damage.</p>
+<p>Additionally, as an action, you can take the Dash action and cast the spell <em>wall of fire</em> without using a spell slot or spell components. The wall appears at the end of your turn. Instead of creating a straight or ringed wall of fire, the wall follows the path along the ground over which you moved on your turn, up to a distance of 60 feet. Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="mechanauts">
+<details class="subclass">
+<summary>Mechanauts' Guild</summary>
+<p>For centuries, the pinnacle of mechanized vehicles was the apparatus of the crab, a singular device capable of exploring inhospitable environments, from the sea floor to lava-strewn volcanic fields. However, ambitious craftsmen from the Mechanauts' Guild have drawn up designs for a new vehicle, mightier and more customizable than the old apparatus. This device is a walking tank, equipped with savage fists, scuttling legs, and climate control enhancements — a vehicle to dwarf all others, a true feat of engineering.</p>
+<h3 id="level-3-mechanauts-apparatus">Level 3 - Mechanaut's Apparatus</h3>
+<p>At 3rd level, you complete the frame of a Mechanaut's Apparatus, with ample room for upgrades and improvements. Its blueprints are based on the apparatus of the crab, but you can model your apparatus to appear as any beast or as a humanoid figure.</p>
+<p><strong>Apparatus Statistics.</strong> The statistics of your apparatus are given in the stat block below. The apparatus's armor class is based on your Intelligence modifier and its hit points is based on your craftsman level.</p>
+<p><strong>Customizing the Apparatus.</strong> Your apparatus comes with two installed masterwork melee weapons, which you can modify with masterwork properties or replace with different melee weapons when you finish a long rest. Your apparatus is always proficient with its installed weapons, and can use masterwork weapons with Master and Legendary properties.</p>
+<p><strong>Repairing the Apparatus.</strong> When your apparatus drops to 0 hit points, it can't move or act, but can be repaired. You can spend 1 minute restoring the apparatus's ability to move at half speed, which it loses if it takes damage again before it is repaired. You can repair your apparatus at the end of a short rest by spending Hit Dice, causing it to regain hit points as if it has taken a short rest. When you finish a long rest, you can repair your apparatus to full hit points. You are always considered to have enough material to repair your apparatus. If your apparatus is lost, you can build a new one for 400 gp.</p>
+<p><strong>Entering and Exiting the Apparatus.</strong> A creature that is not wearing armor can use half its movement to enter or exit the apparatus. While within the apparatus, a creature has total cover from effects originating outside of it. Only one Medium or Small creature can be in the apparatus at one time. While inside the apparatus, a creature takes half the damage the apparatus takes.</p>
+<p><strong>Piloting the Apparatus.</strong> Your apparatus acts on your turn, though it doesn't take actions unless you are piloting it. Any creature inside the apparatus can command it to move (no action required), but only you can use your action to pilot the apparatus, commanding it to take the Attack, Dash, Disengage, or Dodge action. When you command the apparatus to take the Attack action, the apparatus makes the same number of attacks you would make using the Attack action, and uses your Dexterity or Intelligence modifier (your choice) for its attack and damage rolls, as if you were making the attack.</p>
+<p>While you are outside the apparatus, you can command the apparatus to wait or follow you. While following, it moves on its turn to remain within 30 feet of you.</p>
+<details class="construct">
+<summary>Mechanaut's Apparatus</summary>
+<p><em>Large Construct, Unaligned</em></p>
+<ul>
+<li><strong>Armor Class</strong> 13 + its creator's Intelligence modifier</li>
+<li><strong>Hit Points</strong> 30 (10 × its creator's craftsman level)</li>
+<li><strong>Speed</strong> 35 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+<th style="text-align: center;">INT</th>
+<th style="text-align: center;">WIS</th>
+<th style="text-align: center;">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">17 (+3)</td>
+<td style="text-align: center;">17 (+3)</td>
+<td style="text-align: center;">18 (+4)</td>
+<td style="text-align: center;">1 (−5)</td>
+<td style="text-align: center;">3 (−4)</td>
+<td style="text-align: center;">1 (−5)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Damage Immunities</strong> poison, psychic<br />
+<strong>Condition Immunities</strong> blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned<br />
+<strong>Senses</strong> blindsight 120 ft. (blind beyond this radius), passive Perception 6<br />
+<strong>Languages</strong> —  </p>
+<hr />
+<p><strong>Cockpit Cover.</strong> Any creature inside the apparatus is granted total cover from outside effects, but takes half the damage taken by the apparatus.</p>
+<p><strong>Double Two-Handed.</strong> The apparatus has two mechanical arms, each of which can hold one installed weapon. Each mechanical arm is powerful enough to wield weapons as if with two hands. The apparatus can only use melee weapons.</p>
+<hr />
+<p><strong>Maul (right hand).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) bludgeoning damage.</p>
+<p><strong>Maul (left hand).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) bludgeoning damage.</p>
+</details>
+<hr>
+<h3 id="level-3-cockpit-upgrade">Level 3 - Cockpit Upgrade</h3>
+<p>At 3rd level, you can customize your apparatus by upgrading its piloting compartment. Choose one of the following upgrades:</p>
+<p><strong>Comfortable Amenities.</strong> The interior of the apparatus is particularly cozy, perhaps even including a warm blanket and pillow. You can sleep while within the apparatus without ill effect.</p>
+<p><strong>Ejector Seat.</strong> This apparatus comes equipped with an emergency ejection system, allowing for quick escape. Exiting this apparatus costs no movement.</p>
+<p><strong>Loudspeaker.</strong> The apparatus comes equipped with a system that magnifies your voice up to three times as loud as normal.</p>
+<hr>
+<h3 id="level-7-limb-upgrade">Level 7 - Limb Upgrade</h3>
+<p>By 7th level, you have redesigned your apparatus's legs to achieve better mobility. Choose one of the following upgrades:</p>
+<p><strong>Arachnotron Legs.</strong> The apparatus can move up, down, and across vertical surfaces and ceilings, and it gains a climb speed equal to its movement speed.</p>
+<p><strong>Heavy Suspension.</strong> The apparatus's jump distance triples, and it takes no damage from falling a distance of less than 100 feet.</p>
+<p><strong>Telescopic Frame.</strong> While no one is inside the apparatus, you can use your bonus action to command it to collapse down to Medium size or return to Large size. While reduced in this way, the apparatus cannot be entered.</p>
+<hr>
+<h3 id="level-10-passenger-seat">Level 10 - Passenger Seat</h3>
+<p>Starting at 10th level, you have installed a second seat inside the cockpit. A character can't pilot the apparatus or command it to move from this second seat, but they do benefit from total cover from outside effects and take half the damage taken by the apparatus.</p>
+<hr>
+<h3 id="level-14-attachment-upgrade">Level 14 - Attachment Upgrade</h3>
+<p>Beginning at 14th level, you have installed an external attachment to your apparatus. Choose one of the upgrades below. Once you use the installed upgrade, you must finish a short or long rest before using it again.</p>
+<p><strong>Abjuration Generator.</strong> You have installed a magical shield generator on the outside of your apparatus. You can activate it as a bonus action, granting your apparatus temporary hit points equal to your craftsman level.</p>
+<p><strong>Flak Cannon.</strong> On the front of your apparatus, you have installed a single-shot shrapnel cannon, which you can fire at a creature you can see within 120 feet. This creature must make a Dexterity saving throw against your Masterwork save DC, taking 6d6 slashing damage on a failed save, or half as much on a success.</p>
+<p><strong>Rocket Engine.</strong> You can use your bonus action to light the apparatus's installed rocket engine, propelling you up to 30 feet in a straight line in any direction you choose. If you make a melee attack immediately after this movement, the attack has advantage. This attack knocks the target prone or pushes the target up to 10 feet away from you (your choice) on a hit.</p>
+<hr>
+<h3 id="level-18-legendary-property-pneumatic">Level 18 - Legendary Property: Pneumatic</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a masterwork weapon:</p>
+<p><em>Pneumatic — Legendary weapon property. Components: Masterwork exotic melee weapon.</em> If this weapon is installed in a mechanaut's apparatus and it deals more than one die of damage on a hit, whenever you roll damage, you can maximize one of the weapon's damage dice instead of rolling it.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="thunderlords">
+<details class="subclass">
+<summary>Thunderlords' Guild</summary>
+<p>From the earliest days of life, storms (and particularly, lightning) have struck the creatures caught in them with awe and terror. The Thunderlords, by contrast, draw wild inspiration from the majesty of nature, and seek to, quite literally, capture lightning in a bottle.</p>
+<h3 id="level-3-power-cell">Level 3 - Power Cell</h3>
+<p>Starting when you join this guild at 3rd level, you construct a lightning-generating power cell, which comes connected to a set of conduit gauntlets. When you gain these items, you are assumed to have been working on them in your spare time, only bringing them to full functionality when you take this subclass. If these pieces of equipment are lost or damaged, you can replace them over the course of a long rest with 100 gp of materials.</p>
+<p><strong>Charge Points.</strong> Your power cell gives you a number of charge points, which represent the electrical energy stored within your power cell. Your maximum number of charge points is equal to half your craftsman level, rounded up. You can spend these points to generate various electrical effects through your power cell. You regain all expended charge points when you finish a short or long rest.</p>
+<p><strong>Using Charge Points.</strong> Once per turn when you hit a creature with an attack that deals lightning damage, you can spend 1 or more charge points, up to a maximum of your proficiency bonus, to enhance the power of the attack. When you do so, choose one of the following effects:</p>
+<p><strong>Arc.</strong> Lightning arcs to nearby targets. Choose a number of creatures within 15 feet of the creature you hit, up to the number of charge points expended, to make a Dexterity saving throw against your Masterwork save DC. On a failed save, a creature takes lightning damage equal to 1d6 + your Intelligence modifier.</p>
+<p><strong>Discharge.</strong> Deal an additional 1d6 lightning damage to the target for each charge point expended.</p>
+<p><strong>Jolt.</strong> The creature you hit cannot take reactions until the start of your next turn.</p>
+<hr>
+<h3 id="level-3-shock">Level 3 - Shock</h3>
+<p>At 3rd level, while you are carrying your power cell and it has at least 1 unspent charge point, you gain the following benefits:</p>
+<ul>
+<li>Weapons you wield can deal lightning damage instead of their normal damage type.</li>
+<li>You know the cantrips <em>shocking grasp</em> and <em>spare the dying</em>. Intelligence is your spellcasting modifier for these spells.</li>
+</ul>
+<hr>
+<h3 id="level-7-lightning-rod">Level 7 - Lightning Rod</h3>
+<p>Starting at 7th level, while you're carrying your power cell, you gain resistance to lightning damage. Additionally, whenever you take lightning damage from a hostile creature while wearing your gauntlets, you can regain 2 expended charge points as a reaction.</p>
+<hr>
+<h3 id="level-10-static-charge">Level 10 - Static Charge</h3>
+<p>Starting at 10th level, you can spend 10 minutes to store an electric charge in a weapon or suit of armor, or store up to 6 charges in different weapons and suits of armor during a short or long rest. Unexpended charges dissipate after 1 hour. A charged weapon or suit of armor gains the following appropriate property:</p>
+<p><strong>Charged Armor.</strong> When you take damage from a melee attack, you can use your reaction to expend the charge, dealing 1d8 lightning damage to the creature that struck you.</p>
+<p><strong>Charged Weapon.</strong> When you hit a creature with an attack using this weapon, you can expend the charge to deal an additional 1d6 lightning damage to the target.</p>
+<hr>
+<h3 id="level-14-high-voltage">Level 14 - High Voltage</h3>
+<p>Starting at 14th level, while carrying your power cell, you can spend 5 charge points to cast the spell <em>lightning bolt</em> without using a spell slot or material components. This spell uses your Masterwork save DC.</p>
+<hr>
+<h3 id="level-18-legendary-property-electroshock">Level 18 - Legendary Property: Electroshock</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a masterwork weapon:</p>
+<p><em>Electroshock — Legendary weapon property. Components: Masterwork exotic weapon.</em> When you hit a creature with this weapon, you can expend the weapon's built-in power cell to shock the target, which must make a Constitution saving throw against your Masterwork save DC. On a failed save, the target is stunned until the end of your next turn. Once you use this property, you can't use it again with this weapon until you finish a short or long rest.</p>
+</details>
+</div>
+<div class="subclass-content" data-subclass="trappers">
+<details class="subclass">
+<summary>Trappers' Guild</summary>
+<p>Craftsmen are no strangers to turrets, bombs, and clockwork mechanisms, but the craftsmen of the Trappers' Guild raise this to a level of artistry. Given enough time and resources, a trapsmith can veritably blanket a room in dangerous implements, setting the stage to slay an intruder in a half-dozen unique ways. While the traps do the dirty work, the trapsmith is free to lounge about some distance away, enjoying a cold beverage and dreaming up new, dangerous designs.</p>
+<h3 id="level-3-danger-sense">Level 3 - Danger Sense</h3>
+<p>Starting when you join this guild at 3rd level, your experience with traps gives you an edge when escaping danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</p>
+<hr>
+<h3 id="level-3-traps">Level 3 - Traps</h3>
+<p>Also at 3rd level, you are an expert in designing ingenious and lethal traps. You can craft traps designed for quick deployment.</p>
+<p>When you take the Attack action, you can forgo one or more of your attacks to deploy a trap. You can deploy a number of traps equal to your Intelligence modifier (minimum of 1), and regain all expended deployments when you finish a short or long rest. You can use an action to disarm and recover a trap that has not been triggered, which also restores one use of your trap deployments.</p>
+<details class="feature">
+<summary>Traps</summary>
+<h4 id="ballista-trap">Ballista Trap</h4>
+<p>You load this compact ballista-like device in an unoccupied space within 5 feet of you and aim it in a direction you choose. The trap triggers whenever a creature enters the area of a 5-foot wide, 30-foot long line extending from the front of the trap. When it triggers, the ballista fires automatically, making a ranged attack with a bonus equal to your Intelligence modifier + your proficiency bonus. On a hit, the target takes 2d8 piercing damage.</p>
+<h4 id="man-trap">Man-Trap</h4>
+<p>You affix this oversized hunting trap to the ground in an unoccupied 5-foot square area within 5 feet of you. When a creature of Small size or larger moves within the trap's area, the trap clamps down on the creature's legs. The creature must make a Dexterity saving throw against your Masterwork save DC or take 2d8 slashing damage and be trapped, unable to move. On a successful save, the creature takes half this slashing damage and is not trapped. The trapped creature or another creature within 5 feet of it can use its action to make a Strength check against your Masterwork save DC to free the trapped creature. Trapped creatures of Huge size and larger can move normally, ripping the trap from its mounting when they move.</p>
+<h4 id="razor-wire">Razor Wire</h4>
+<p>You deploy a tangle of razor-sharp wire into up to four unoccupied, contiguous 5-foot square areas you choose within 10 feet of you. Each of these areas becomes difficult terrain. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels. Once deployed, the razor wire can't be recovered.</p>
+<h4 id="trigger-bomb">Trigger Bomb</h4>
+<p>You toss this explosive device to an unoccupied space within 30 feet. As a reaction when a creature moves within 5 feet of the bomb, you can press the detonator, causing the bomb to explode in a 15-foot diameter sphere. Each creature within that area must make a Dexterity saving throw against your Masterwork save DC, taking 2d6 fire damage on a failed save, or half as much on a successful one. Flammable objects in this area that aren't being worn or carried ignite.</p>
+</details>
+<hr>
+<h3 id="level-7-booby-trap">Level 7 - Booby Trap</h3>
+<p>Starting at 7th level, you take 1 minute to conceal one of your traps from an unsuspecting target. A creature can detect a concealed trap by using its action to make an Intelligence (Investigation) or Wisdom (Perception) check against your Masterwork save DC, or by having a passive Perception score higher than that DC. The first time this trap activates, it deals twice as many damage dice.</p>
+<hr>
+<h3 id="level-10-ambush-modification">Level 10 - Ambush Modification</h3>
+<p>Starting at 10th level, you can spend 10 minutes to modify a ranged weapon, or modify up to 6 ranged weapons during a short or long rest, each of which gains the following property:</p>
+<p><strong>Hair-Trigger.</strong> This weapon has advantage on the first attack it makes using the Readied action.</p>
+<hr>
+<h3 id="level-14-rapid-setup">Level 14 - Rapid Setup</h3>
+<p>At 14th level, as an action, you can deploy up to four traps. Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-18-legendary-property-net">Level 18 - Legendary Property: Net</h3>
+<p>At 18th level, you reach the peak of your craft. You learn the following Legendary masterwork property, which you can immediately apply to a masterwork weapon:</p>
+<p><em>Net — Legendary weapon property. Components: Masterwork exotic ranged weapon that doesn't have the Firearm property.</em> When you hit a Large or smaller creature with this weapon's projectile, it also deploys a net which automatically hits the creature.</p>
+</details>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

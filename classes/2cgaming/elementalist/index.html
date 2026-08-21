@@ -1,0 +1,2869 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../../base_classes/wizard/">
+      
+      
+        <link rel="next" href="../../colville/illrigger/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Elementalist - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Elementalist
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    2CGaming
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-elementalist">The Elementalist</h1>
+<p>Elementalists are fierce masters of the primal forces of nature, bending air, earth, fire, and water to their will through raw intelligence and elemental attunement.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Elementalist Features</label><label for="__tabbed_1_3">Hybrid Affinities</label><label for="__tabbed_1_4">Elemental Shapes</label><label for="__tabbed_1_5">Elemental Affinities</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h4 id="elementalist-progression-table">Elementalist Progression Table</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Elemental Influence</th>
+<th style="text-align: center;">Basic</th>
+<th style="text-align: center;">Adv.</th>
+<th style="text-align: center;">Exp.</th>
+<th style="text-align: center;">Mst.</th>
+<th style="text-align: center;">Primal Power</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Elemental Affinity, Nexus of Power, Primordial Energy</td>
+<td style="text-align: center;">30+10×Con ft.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Friend of the Elements</td>
+<td style="text-align: center;">30+10×Con ft.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Elemental Empowerment</td>
+<td style="text-align: center;">30+10×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">14</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">30+10×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">17</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">30+20×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">27</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Elemental Affinity feature</td>
+<td style="text-align: center;">30+20×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">32</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Elemental Allies</td>
+<td style="text-align: center;">30+20×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">38</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">30+20×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">44</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">30+20×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">57</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Elemental Affinity feature, Hybrid Elements</td>
+<td style="text-align: center;">30+30×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">64</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">30+30×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">73</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">30+30×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">73</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">30+30×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">83</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Elemental Affinity feature</td>
+<td style="text-align: center;">30+30×Con ft.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">83</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">30+40×Con ft.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">94</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">30+40×Con ft.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">94</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">30+40×Con ft.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">107</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Elemental Affinity feature</td>
+<td style="text-align: center;">30+40×Con ft.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">114</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">30+40×Con ft.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">123</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Mind over Matter</td>
+<td style="text-align: center;">30+50×Con ft.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">133</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d6 per elementalist level<br />
+<strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per elementalist level after 1st</p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> None<br />
+<strong>Weapons:</strong> Simple weapons<br />
+<strong>Tools:</strong> None  </p>
+<p><strong>Saving Throws:</strong> Constitution, Intelligence<br />
+<strong>Skills:</strong> Choose two from Investigation, History, Medicine, Nature, Perception, Persuasion</p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li>You start with the following equipment, in addition to the equipment granted by your background:</li>
+<li>(a) a light crossbow and 20 bolts or (b) any simple melee weapon</li>
+<li>A small fragment of a pure element, contained in a glass bottle</li>
+<li>(a) a dungeoneer's pack or (b) an explorer's pack</li>
+<li>A quarterstaff</li>
+</ul>
+<hr>
+<h4 id="level-1-elemental-affinity">Level 1 - Elemental Affinity</h4>
+<p>At 1st level you develop a natural affinity for one of four elements of your choice: air, earth, fire, or water. Each elemental affinity is detailed at the end of the class description. Your choice grants you features at 1st level, and again at 6th, 10th, 14th, and 18th level.</p>
+<hr>
+<h4 id="level-1-nexus-of-power">Level 1 - Nexus of Power</h4>
+<p>At 1st level your understanding of the building blocks of the universe allows you to precisely manipulate the elements. These manipulations, called shapes, come in four categories of power: basic, advanced, expert, and master.</p>
+<p><strong>Shapes.</strong> Shapes are elemental magical effects similar to spells, commanded and controlled by your Intelligence. To create a shape, you must be conscious and able to gesture both forcefully and intricately, requiring at least one free hand. You create shapes by expending your primal power, paying the primal power cost in the shape's description before the shape can be created.</p>
+<p><strong>Prerequisites.</strong> Some shapes are only available to elementalists of a specific elemental affinity. You cannot learn a shape for which you do not meet the prerequisites.</p>
+<p><strong>Range.</strong> The farther an element is away from you, the more difficult it is to manipulate, and all shapes have a range determined by the distance at which you can affect elemental forces. This distance is called your area of elemental influence: a 30-foot-radius sphere centered on you, plus 10 feet times your Constitution modifier. At 5th, 10th, 15th, and 20th level, the radius of this feature increases according to your class progression table.</p>
+<p>When you create a shape, you cannot target anything outside of this area, though shapes you create can affect space beyond this area, as long as their origin was somewhere within your area of elemental influence.</p>
+<p><strong>Duration.</strong> Each shape has a duration that indicates how long its effects last, which can be expressed as instantaneous or longer. Elementalists do not need to concentrate on a shape to maintain its effects, but have other restrictions that influence their shapes' ability to persist:</p>
+<ul>
+<li>If you have created a shape and then create another of that shape before the duration of the first ends, the first shape immediately ends.</li>
+<li>If you fall unconscious while one or more of your shapes are in effect, those shapes immediately end.</li>
+<li>As an action you can dismiss any shape you have created, ending its effect instantly.</li>
+</ul>
+<p><strong>Augmenting.</strong> All elemental shapes can be improved or expanded, but only by experienced elementalists of 3rd level or higher. The details of augmenting are found in your Elemental Empowerment feature.</p>
+<p><strong>Shapes Known.</strong> At 1st level, you learn two basic shapes that you meet the prerequisites for. Your shape options are detailed at the end of the class description. When you gain certain elementalist levels, you learn additional shapes according to your class progression table.</p>
+<p><strong>Shaping Ability.</strong> Intelligence is your shaping ability for your elemental shapes. You use your Intelligence modifier whenever a shape refers to your shaping ability, when a shape requires a saving throw DC, or when a shape is used to make an attack.</p>
+<p><strong>Elemental shape save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+<p><strong>Elemental shape attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+<details class="info">
+<summary>The Magic of Elementalism</summary>
+<p><strong>Foundation of Elementalism.</strong> Elementalists use their sharp intellects to engineer complex elemental shapes. It is a simple matter to make the elements move, but transforming them into complex tools and weapons takes real creativity. However, you may disagree as to why elementalists use Intelligence for their shaping ability. Perhaps Wisdom may be more appropriate, as one must understand and "feel" the elements in order to use them. Even Charisma could be a viable alternative, as an elementalist could use force of personality to command the elements into shape. We chose Intelligence for the sake of balance, as it is an underrepresented ability score in the realm of 5th Edition. It also makes elementalists feel unique, with their power coming from a discipline that is less common among other classes. However, if a different style of elementalist exists in your campaign, you may choose to alter an elementalist's shaping ability to either Wisdom or Charisma. As long as you change nothing else about the elementalist, this alteration has very little impact on class balance. Wisdom is considered a strong ability score, so any elementalists using that as their shaping ability will have a slight edge over other elementalists.</p>
+<p><strong>Elemental Spellcasting.</strong> While shapes are not spells, the act of creating a shape is akin to casting a spell. Shapes are considered spells for the purposes of interacting with features that affect or react to spells. Basic shapes are roughly equivalent to 2nd-level spells, advanced shapes to 4th-level spells, expert shapes to 6th-level spells, and master shapes to 8th-level spells. Use this as a rough reference if you encounter an effect that seems like it should interact with an elementalist's elemental shapes and their creation.</p>
+</details>
+<hr>
+<h4 id="level-1-primordial-energy">Level 1 - Primordial Energy</h4>
+<p>At 1st level, you call upon the latent elemental energy found in all matter. This energy, called primal power, allows you to manipulate the elements.</p>
+<p>You have 4 primal power, and you gain more as you reach higher levels, as shown in the Primal Power column of the Elementalist table. You can never have more primal power than shown on the table for your level. You regain all expended primal power when you finish a long rest.</p>
+<hr>
+<h4 id="level-2-friend-of-the-elements">Level 2 - Friend of the Elements</h4>
+<p>At 2nd level, your relationship with the elements allows you to converse more easily with them. You learn a language according to your elemental affinity, as shown in the table below, and have advantage on Charisma ability checks against elementals.</p>
+<details class="table">
+<summary>Friend of the Elements</summary>
+<table>
+<thead>
+<tr>
+<th>Affinity</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Air</td>
+<td>Auran</td>
+</tr>
+<tr>
+<td>Earth</td>
+<td>Terran</td>
+</tr>
+<tr>
+<td>Fire</td>
+<td>Ignan</td>
+</tr>
+<tr>
+<td>Shadow</td>
+<td>Deep Speech</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>Aquan</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h4 id="level-3-elemental-empowerment">Level 3 - Elemental Empowerment</h4>
+<p>Starting at 3rd level, you learn the necessary skills to empower your elemental shapes by strengthening your connection to the elements. To augment a shape, you must first attune yourself to the elemental energies around you, synchronizing your mind, body, and spirit. At the start of each of your turns, you can choose to immediately expend all of your movement (if any), instead spending that energy on focusing your mind. When you do so, you are considered empowered until the start of your next turn or until you augment an elemental shape (whichever comes first).</p>
+<p>If you create a shape while empowered, you can expend additional primal power as detailed in the "Augment" section of its description. You can augment a shape multiple times in a single creation, provided you have the necessary primal power to do so, and provided the total primal power expended to both create and augment the shape does not exceed your elementalist level.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<hr>
+<h4 id="level-7-elemental-allies">Level 7 - Elemental Allies</h4>
+<p>At 7th level, you can call upon low elementals to serve you in battle. As an action you can expend 9 primal power to cast <em>conjure minor elementals</em> without the need for any components. Elementals you create using this feature must always be of a type associated with your elemental affinity (for example, earth elementalists will always create elementals composed at least partly of earth, such as dust, magma, or mud mephits, or earth elementals).</p>
+<p>If you are empowered when you use this feature, you can choose to end your empowerment and expend additional primal power to increase the level of the spell. For every 4 primal power you expend in this manner, you increase the level of the spell by two. You cannot expend an amount of primal power greater than your elementalist level in this manner.</p>
+<hr>
+<h4 id="level-10-hybrid-elements">Level 10 - Hybrid Elements</h4>
+<p>Starting at 10th level, you can choose to no longer pursue the path of a pure elemental affinity and instead study a complex variant of your elemental affinity, called a hybrid element. Hybrid elements combine two different elements into a unique whole that is more difficult to control: ice, life, metal, and storm. If you make the choice to learn a hybrid element, you no longer gain your elemental affinity features as you advance as an elementalist, instead gaining your hybrid affinity features as detailed later in this class description (though you still retain elemental affinity features you have already gained).</p>
+<p>You cannot choose a hybrid element that is not associated with your elemental affinity. The elements associated with each hybrid affinity are detailed in the Hybrid Elements table.</p>
+<details class="table">
+<summary>Hybrid Elements</summary>
+<table>
+<thead>
+<tr>
+<th>Element 1</th>
+<th>Element 2</th>
+<th>Hybrid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Earth</td>
+<td>Fire</td>
+<td>Metal</td>
+</tr>
+<tr>
+<td>Fire</td>
+<td>Air</td>
+<td>Storm</td>
+</tr>
+<tr>
+<td>Air</td>
+<td>Water</td>
+<td>Ice</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>Earth</td>
+<td>Life</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h4 id="level-20-mind-over-matter">Level 20 - Mind over Matter</h4>
+<p>At 20th level, you can maintain your elemental shapes with the power of your focused mind. When you create a shape with a duration of 1 minute or longer, you can choose to concentrate on the shape (as though you were concentrating on a spell) to maintain its effect. When you do so, the shape persists for as long as you maintain concentration on it.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a hybrid element:</strong></p></p>
+<p><select id="hybrid-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="ice">Ice</option>
+    <option value="life">Life</option>
+    <option value="metal">Metal</option>
+    <option value="storm">Storm</option>
+</select></p>
+<div class="hybrid-content" data-hybrid="ice">
+<details class="feature">
+<summary>Ice</summary>
+<p><em>Available to Air or Water elementalists.</em></p>
+<p>If you select ice as your hybrid element, when you would gain your Elemental Affinity features as you advance as an elementalist, you instead gain the following features.</p>
+<h3 id="level-10-ice-elementalism">Level 10 - Ice Elementalism</h3>
+<p>At 10th level you have learned how to seamlessly weave the hybrid element of ice into your shapes, granting you the following benefits.</p>
+<ul>
+<li>When you create a shape that deals damage, you can choose to have it deal cold damage instead of its normal damage type.</li>
+<li>You are immune to cold damage.</li>
+</ul>
+<hr>
+<h3 id="level-14-ice-age">Level 14 - Ice Age</h3>
+<p>At 14th level, as an action you can fill your area of elemental influence with freezing fog for 4 hours. The following effects occur within your area of elemental influence for the duration or until you dismiss the effects as an action.</p>
+<ul>
+<li>The temperature drops to extreme cold.</li>
+<li>The entire area is lightly obscured.</li>
+<li>Nonmagical fires are extinguished.</li>
+</ul>
+<p>Once you have used this feature, you must finish a long rest before you can use it again.</p>
+<hr>
+<h3 id="level-18-frozen-doom">Level 18 - Frozen Doom</h3>
+<p>At 18th level, you can freeze solid those who suffer your icy wrath. When a creature you can see fails a saving throw against one of your elemental shapes, you can take a reaction and expend 5 primal power to attempt to freeze the creature solid. The target must succeed on a Constitution saving throw or be paralyzed until it takes fire damage or it is exposed to temperatures higher than 32 degrees Fahrenheit for 1 hour. At the end of each of its turns, an affected creature can repeat the Constitution saving throw, ending the effect on a success.</p>
+</details>
+<hr>
+</div>
+<div class="hybrid-content" data-hybrid="life">
+<details class="feature">
+<summary>Life</summary>
+<p><em>Available to Water or Earth elementalists.</em></p>
+<p>If you select life as your hybrid element, when you would gain your Elemental Affinity features as you advance as an elementalist, you instead gain the following features.</p>
+<h3 id="level-10-life-elementalism">Level 10 - Life Elementalism</h3>
+<p>At 10th level, you can imbue your shapes with elemental life. When you create a shape, you regain hit points equal to the amount of primal power you expended creating and augmenting it (when applicable).</p>
+<p>Additionally, when you create a shape that deals damage, you can designate a number of creatures you can see up to your Intelligence modifier to be immune to damage dealt by that shape.</p>
+<hr>
+<h3 id="level-14-bountiful-paradise">Level 14 - Bountiful Paradise</h3>
+<p>At 14th level, as an action you can flood your area of elemental influence with vitalizing energy for 1 hour. The following effects occur within your area of elemental influence for the duration or until you use an action to dismiss the effects.</p>
+<ul>
+<li>Allied creatures in the area can finish a short rest in half the usual time as long as they remain within the area for the entire duration of the rest.</li>
+<li>Allied creatures that finish a short rest in the area are cured of any poisons or disease.</li>
+</ul>
+<p>Once you have used this feature, you must finish a long rest before you can use it again.</p>
+<hr>
+<h3 id="level-18-lifebringer">Level 18 - Lifebringer</h3>
+<p>At 18th level, you can use the element of life to bring a creature back from the dead. As an action, you can touch the body of a creature and expend 18 primal power. Doing so restores the creature to life with all its hit points, cures all disease, closes all wounds, and neutralizes all poisons, but does not replace damaged or missing organs and limbs.</p>
+</details>
+<hr>
+</div>
+<div class="hybrid-content" data-hybrid="metal">
+<details class="feature">
+<summary>Metal</summary>
+<p><em>Available to Earth or Fire elementalists.</em></p>
+<p>If you select metal as your hybrid element, when you would gain your Elemental Affinity features as you advance as an elementalist, you instead gain the following features.</p>
+<h3 id="level-10-metal-elementalism">Level 10 - Metal Elementalism</h3>
+<p>At 10th level, you can increase the deadly power of your elemental shapes by adding the metal element. When you create a shape that deals damage, you can choose to have it deal bludgeoning, piercing, or slashing damage instead of its normal damage type.</p>
+<p>Additionally, you are proficient in martial weapons that are made of metal.</p>
+<p>Finally, you can create elemental shapes while holding a weapon made of metal as though the hand holding the weapon were free.</p>
+<hr>
+<h3 id="level-14-arsenal">Level 14 - Arsenal</h3>
+<p>At 14th level, you are proficient in light, medium, and heavy armors that are made of metal.</p>
+<p>Additionally, when you touch an object made of metal, you learn its current hit points and AC.</p>
+<hr>
+<h3 id="level-18-heavy-metal">Level 18 - Heavy Metal</h3>
+<p>At 18th level, when a creature that fails a saving throw against one of your shapes by 10 or more and takes bludgeoning, piercing, or slashing damage as a result, it instead takes double that damage.</p>
+</details>
+<hr>
+</div>
+<div class="hybrid-content" data-hybrid="storm">
+<details class="feature">
+<summary>Storm</summary>
+<p><em>Available to Fire or Air elementalists.</em></p>
+<p>If you select storm as your hybrid element, when you would gain your Elemental Affinity features as you advance as an elementalist, you instead gain the following features.</p>
+<h3 id="level-10-storm-elementalism">Level 10 - Storm Elementalism</h3>
+<p>At 10th level, you can charge your shapes with the fury of a storm. When you create a shape that deals damage, you can choose to have it deal lightning or thunder damage instead of its normal damage type.</p>
+<p>Additionally, you have resistance to lightning and thunder damage.</p>
+<hr>
+<h3 id="level-14-ride-the-lightning">Level 14 - Ride the Lightning</h3>
+<p>At 14th level you can travel through the skies on a bolt of lightning. By spending 10 minutes in focused meditation, during which time you take no other actions or move from your space, you are magically teleported to an unoccupied space near a location you have seen on the same plane. Both your departure and arrival areas must be beneath open sky, and your departure and arrival are heralded by a harmless lightning strike and a loud peal of thunder.</p>
+<p>You can choose to bring up to seven willing creatures along with you, each of which must be touching you when you depart.</p>
+<hr>
+<h3 id="level-18-gathering-storm">Level 18 - Gathering Storm</h3>
+<p>At 18th level, your body crackles with electrical power when you wield the elements. When you expend primal power, record the amount expended, which represents the power of the storm building within your body. This effect is cumulative — each additional time you expend primal power you can choose to add the amount expended to the amount you have recorded. As an action, you can make a melee or ranged spell attack against a creature within your area of elemental influence, discharging the electrical energy on a hit. The target takes lightning damage equal to the amount you recorded, the energy is expended, and the recorded total resets to 0. This energy is also lost if you finish a long rest.</p>
+</details>
+<hr>
+</div>
+</div>
+<div class="tabbed-block">
+<p>Elementalists can learn the elemental shapes presented here. If an elemental shape lists an elemental affinity, that prerequisite must be met in order to learn the shape.</p>
+<p><p><strong>Filter by tier:</strong></p></p>
+<p><select id="shape-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="basic">Basic</option>
+    <option value="advanced">Advanced</option>
+    <option value="expert">Expert</option>
+    <option value="master">Master</option>
+</select></p>
+<div class="shape-content" data-shape="basic">
+<details class="feature">
+<summary>Basic Shapes</summary>
+<details class="spell">
+<summary>Ball</summary>
+<p><em>Basic</em></p>
+<p><strong>Primal Power Cost:</strong> 2<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You create a 5-foot-diameter floating sphere of dense element in an unoccupied space you can see within your area of elemental influence. As an action, you can command the ball to move up to 30 feet and make a single melee spell attack against a creature within 5 feet of it. On a successful hit, the target takes 2d6 damage of the type corresponding to your elemental affinity. Additionally, the shape gains the following property according to your elemental affinity.</p>
+<p><strong>Air.</strong> The ball deals bludgeoning damage. Additionally, creatures hit by the ball must succeed on a Strength saving throw or be knocked prone.</p>
+<p><strong>Earth.</strong> The ball deals piercing damage. Additionally, when the shape ends the ball explodes in a 30-foot-radius sphere. Each creature in the area must attempt a Dexterity saving throw, taking damage as though it were hit by an attack from the ball on a failure, or half as much damage on a success.</p>
+<p><strong>Fire.</strong> The ball deals fire damage. Additionally, when you take an action to move the ball, it can move up to 60 feet instead of 30 feet.</p>
+<p><strong>Water.</strong> The ball deals slashing damage. Additionally, when the shape ends, the ball explodes in a 30-foot-radius sphere, and you roll the ball's spell attack damage dice. Creatures of your choice in the area of the explosion regain a number of hit points equal to the amount rolled.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For each 3 primal power so expended, you create an additional elemental ball in an unoccupied space you can see within your area of elemental influence. When you take an action to move a ball, you can choose to move all balls created by this effect and make a single melee spell attack with each of them.</p>
+</details>
+<details class="spell">
+<summary>Blast</summary>
+<p><em>Basic</em></p>
+<p><strong>Primal Power Cost:</strong> 1<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You unleash a blast of elemental energy from your body in a 15-foot cone. Creatures in the area must succeed on a Dexterity saving throw or take 3d6 damage of the type corresponding to your elemental affinity, or half as much on a success. Additionally, the shape gains the following property according to your elemental affinity.</p>
+<p><strong>Air.</strong> The effect deals thunder damage. Additionally, on a failed save, creatures and unattended objects not completely tied down within the area are pushed away from you to the end of the cone or until they encounter a solid object.</p>
+<p><strong>Earth.</strong> The effect deals bludgeoning damage. Additionally, any ground in the area becomes difficult terrain.</p>
+<p><strong>Fire.</strong> The effect deals fire damage. Additionally, on a failed save a creature is blinded until the start of its next turn.</p>
+<p><strong>Water.</strong> The effect instead deals half of the damage rolled as bludgeoning damage to enemies in the area (rounded down). Creatures of your choice in the area regain a number of hit points equal to the other half of the damage rolled (rounded up).</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 2 primal power so expended, the size of the cone increases by 15 feet and the damage increases by 2d6.</p>
+</details>
+<details class="spell">
+<summary>Combustion</summary>
+<p><em>Basic — Fire affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 2<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 round  </p>
+<p>You infect a creature you can see within the area of your elemental influence with an explosive charge. At any time while the shape is in effect, you can take a reaction to cause the charge to explode from the target in a 5-foot radius. Creatures in the area must attempt a Dexterity saving throw, taking 3d10 fire damage on a failure, or half as much on a success. If you have not expended the charge in this manner before the duration ends, the charge explodes at the end of its duration.</p>
+<p><strong>Augment.</strong> When you create this shape, you can expend additional primal power. For every 3 primal power so expended, the duration of the effect increases by 1 round. Additionally, at the beginning of each of your turns while the effect persists, the damage dealt when the charge explodes is increased by 3d10.</p>
+</details>
+<details class="spell">
+<summary>Droplets</summary>
+<p><em>Basic — Water affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 2<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You conjure three spheres of water that orbit your head for the duration. When you cause an allied creature you can see within range of your area of elemental influence to regain hit points, you can expend one or more of the spheres to cause the creature to regain an additional 1d8 hit points for each sphere expended.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power to conjure an additional sphere of water for every 2 primal power expended in this manner.</p>
+</details>
+<details class="spell">
+<summary>Launch</summary>
+<p><em>Basic</em></p>
+<p><strong>Primal Power Cost:</strong> 1<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You project a blast of elements that throws you into the air. The shape pushes you in a straight line in a direction of your choice up to 30 feet. At the end of your movement you land on your feet unless you fell at the end of that movement. Additionally, this shape creates the following effects according to your elemental affinity.</p>
+<p><strong>Air.</strong> If you fall at the end of the movement, your rate of descent slows to 30 feet per round for 1 minute. If you land before the minute is up, you take no falling damage, land on your feet, and the effect ends.</p>
+<p><strong>Earth.</strong> If you make a melee attack immediately at the end of the movement provided by this shape, you deal an additional 1d4 damage on a successful hit for every 10 feet you traveled via this shape.</p>
+<p><strong>Fire.</strong> You create a 10-foot-radius blast of flame centered on the space you occupied when you created this shape. Creatures within the area must succeed on a Dexterity saving throw or take 1d4 fire damage for every 10 feet the shape attempted to throw you.</p>
+<p><strong>Water.</strong> Instead of throwing you, you can choose for the shape to throw a willing creature of your choice within the area of your elemental influence.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 1 primal power so expended, you increase the distance of the launch by 10 feet.</p>
+</details>
+<details class="spell">
+<summary>Obsidian Armaments</summary>
+<p><em>Basic — Earth affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 2<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> 10 minutes  </p>
+<p>You coat your limbs in a layer of obsidian for the duration. While so coated, your unarmed strikes are magical and you can make an attack with your unarmed strike as a bonus action.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, your unarmed strike damage increases by 1d4 for the duration of the shape.</p>
+</details>
+<details class="spell">
+<summary>Shield</summary>
+<p><em>Basic</em></p>
+<p><strong>Primal Power Cost:</strong> 1<br />
+<strong>Shaping Time:</strong> 1 reaction, which you take when you take damage from a source you can see<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You generate a swirling barrier of elemental energy around you, reducing the damage you take from the triggering effect by 1d12. Additionally, the shape gains the following property according to your elemental affinity.</p>
+<p><strong>Air.</strong> If the damage was from a ranged weapon attack and you reduce the damage you take from the triggering attack to 0 with this shape, you may change the target of the attack to a creature within 60 feet of you. Instead of using the attack's original attack roll, you must make a ranged spell attack with the weapon or ammunition as part of the same reaction, dealing the attack's damage and causing its effects on a success.</p>
+<p><strong>Earth.</strong> Until the start of your next turn you have half cover from attacks and effects outside of your space.</p>
+<p><strong>Fire.</strong> Creatures within 5 feet of you take fire damage equal to the amount of damage reduced.</p>
+<p><strong>Water.</strong> A creature of your choice within your area of elemental influence that would also take damage from the triggering effect is also affected by this shape, reducing the damage it takes by the amount rolled.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, the damage reduced by the shape increases by 1d12.</p>
+</details>
+<details class="spell">
+<summary>Trail</summary>
+<p><em>Basic</em></p>
+<p><strong>Primal Power Cost:</strong> 2<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You create a pathway composed of the elements from your feet in a 60-foot-long, 5-foot-wide line that is 1 inch tall. The pathway gains the following property according to your elemental affinity.</p>
+<p><strong>Air.</strong> The pathway is composed of swirling air. You (and only you) can walk upon the pathway as though it were solid ground, and while standing on the pathway, you are considered to be flying.</p>
+<p><strong>Earth.</strong> The pathway is composed of solid stone or earth and is an object with an AC of 15 and 80 hit points. While you are on the pathway and are not incapacitated, you cannot be teleported or moved unless you allow it.</p>
+<p><strong>Fire.</strong> The pathway is composed of shimmering flames. While you are on the pathway, you are always empowered as per your Elemental Empowerment feature. Additionally, creatures (including yourself) that come into contact with the pathway for the first time in a round take fire damage equal to your elementalist level.</p>
+<p><strong>Water.</strong> The pathway is composed of clear, blue water. When an enemy creature comes into contact with the pathway for the first time in a round, it must succeed on a Strength saving throw or be pushed to either end of the pathway (your choice as to which end).</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 2 primal power so expended, you can increase the length of the line by 30 feet or the width of the line by 10 feet.</p>
+</details>
+<details class="spell">
+<summary>Updraft</summary>
+<p><em>Basic — Air affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 1<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You generate a tremendous blast of air in a 5-foot square you can see within your area of elemental influence. Unsecured creatures completely within the area must succeed on a Strength saving throw or be thrown 30 feet straight upward, or half as far on a success.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 2 primal power so expended, you increase the area of the effect by one 5-foot square and the height affected creatures are thrown by 20 feet.</p>
+</details>
+<details class="spell">
+<summary>Wall</summary>
+<p><em>Basic</em></p>
+<p><strong>Primal Power Cost:</strong> 2<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Permanent  </p>
+<p>You create a straight wall of elements on a solid surface that must be completely within your area of elemental influence. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick. Sections of the wall that leave your area of elemental influence vanish instantly. The wall gains the following properties according to your elemental affinity.</p>
+<p><strong>Air.</strong> The wall is composed of swirling air and is invisible. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss (boulders hurled by giants or siege engines, or similar projectiles are unaffected).</p>
+<p><strong>Earth.</strong> The wall is composed of heavy stone and is a structure. Each 10-foot section of the wall is an object with an AC equal to your elemental save DC and has 30 hit points. Additionally, the wall does not vanish when it leaves your area of elemental influence.</p>
+<p><strong>Fire.</strong> The wall is composed of roaring flames and is opaque. Creatures passing through the wall for the first time on a turn or that start their turn within the wall must succeed on a Dexterity saving throw or take 2d8 fire damage.</p>
+<p><strong>Water.</strong> The wall is composed of rising water and is translucent. At the start of each of your turns the wall moves away from you at a speed of 20 feet. Creatures that the wall encounters during this movement must succeed on a Strength saving throw or be pushed ahead of the wall for the remainder of its movement. Creatures attempting to move into the wall must use their swimming speed (if any) or swim through it, and the interior of the wall is considered difficult terrain.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power to increase the size of the wall. For every 1 primal power so expended, you can increase the length of the wall by 10 feet or the height of the wall by 5 feet.</p>
+</details>
+</details>
+<hr>
+</div>
+<div class="shape-content" data-shape="advanced">
+<details class="feature">
+<summary>Advanced Shapes</summary>
+<details class="spell">
+<summary>Bind</summary>
+<p><em>Advanced</em></p>
+<p><strong>Primal Power Cost:</strong> 5<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You attempt to entrap a creature you can see within your area of elemental influence with elemental bonds. The target must succeed on a Strength saving throw or become restrained for the duration. A target so restrained can repeat the saving throw at the end of each of its turns, ending the effect on a success. Additionally, the shape gains the following property according to your elemental affinity.</p>
+<p><strong>Air.</strong> While affected by the shape, the target is lifted off the ground and floats weightlessly in its space. While affected in this manner, if the target is shoved (per the shove aside action option), it can be pushed up to an additional 15 feet.</p>
+<p><strong>Earth.</strong> While affected by the shape and on the ground, the target cannot be forcibly moved from its space by nonmagical means. If the target is in the air when you affect it with this shape, it falls to the ground and cannot become airborne again for the duration of the effect.</p>
+<p><strong>Fire.</strong> While affected by the shape, the target is wracked by agonizing pain. When it attempts to speak, it must first succeed on a Constitution saving throw or instead emit only agonized screams for the remainder of that turn. Additionally, affected creatures cannot have resistance to fire damage, and affected creatures immune to fire damage are instead resistant to it.</p>
+<p><strong>Water.</strong> While affected by the shape, the target cannot regain hit points and has disadvantage on Intelligence, Wisdom, and Charisma saving throws.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For each 5 primal power so expended, you can target an additional creature within range.</p>
+</details>
+<details class="spell">
+<summary>Bolt</summary>
+<p><em>Advanced</em></p>
+<p><strong>Primal Power Cost:</strong> 3<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You call down three elemental bolts from above, each of which land in different 5-foot spaces you can see within your area of elemental influence. Creatures in those spaces take 1d8 damage of the type corresponding to your elemental affinity, in addition to the following effects.</p>
+<p><strong>Air.</strong> The shape deals bludgeoning damage and pushes affected creatures 5 feet away from the affected space.</p>
+<p><strong>Earth.</strong> The shape deals piercing damage and if the affected spaces are on the ground, they become difficult terrain.</p>
+<p><strong>Fire.</strong> The shape deals fire damage, and each bolt deals additional fire damage equal to your shaping ability modifier.</p>
+<p><strong>Water.</strong> The shape deals bludgeoning damage. Additionally, if an allied creature would take damage from a bolt, it instead takes no damage and regains 1d8 hit points.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 2 primal power so expended, you can create an additional bolt.</p>
+</details>
+<details class="spell">
+<summary>Bubble</summary>
+<p><em>Advanced — Water affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 4<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You wrap a friendly creature you can see within your area of elemental influence in a bubble of clear liquid for the duration. The target gains 20 temporary hit points for the duration of the shape and has partial cover from everything outside the bubble, and vice versa. The bubble moves with the creature when the creature moves, and it is translucent, allowing creatures to see both into and out of it (though proportions are considerably distorted). As a bonus action you can dismiss the bubble or cause it to fly up 30 feet, moving the creature within. This shape immediately ends if the target's temporary hit points granted by this shape are reduced to 0.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, the target gains an additional 10 temporary hit points, and when you take a bonus action to move the bubble, it can move an additional 5 feet.</p>
+</details>
+<details class="spell">
+<summary>Plasma Ray</summary>
+<p><em>Advanced — Fire affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 5<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Special (see description)  </p>
+<p>You fire a beam of superheated plasma at a creature you can see within your area of elemental influence, making a ranged spell attack against the target. On a hit, the target takes 2d10 fire and 2d10 radiant damage, and you project a continuous stream of plasma between you and the target. On each of your turns you use your action to make a ranged spell attack against the target, dealing 2d10 fire and 2d10 radiant damage on a successful hit. A target reduced to 0 hit points from this effect is reduced to a fine ash. The effect ends after 1 minute has passed, if you become unable to see the target, or if you do not take an action to maintain the effect.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, a successful hit with the shape deals an additional 1d10 fire and 1d10 radiant damage.</p>
+</details>
+<details class="spell">
+<summary>Stone Block</summary>
+<p><em>Advanced — Earth affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 4<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> 1 hour  </p>
+<p>You cause a stone block to erupt from the ground in an unoccupied space within 5 feet of you. The block is a 5-foot-by-5-foot cube, a Medium object, has an AC equal to your elemental save DC, and has 80 hit points. When you make a successful melee attack against the block, you may record the damage and push the block up to 60 feet away from you in a straight line along the ground. If the block encounters a creature along its path, the creature must succeed on a Dexterity saving throw or take bludgeoning damage equal to your attack's damage. If the encountered creature is Medium or smaller, it must succeed on a Strength saving throw or be pushed ahead of the block for the remainder of its movement, otherwise the block's movement ends.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, all the block's dimensions increase by 5 feet.</p>
+</details>
+<details class="spell">
+<summary>Suffocate</summary>
+<p><em>Advanced — Air affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 4<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 10 minutes  </p>
+<p>You surround a creature you can see within your area of elemental influence in a layer of thin air that prevents it from breathing for the duration. The target must succeed on a Constitution saving throw to hold its breath or immediately begin suffocating. At the end of each of its turns, the target can repeat the saving throw, ending the effect on a success.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 4 primal power so expended, you can target an additional creature within range.</p>
+</details>
+<details class="spell">
+<summary>Upgrade</summary>
+<p><em>Advanced</em></p>
+<p><strong>Primal Power Cost:</strong> 4<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You augment your form with elemental power, creating new extremities out of primal material. The type and nature of your new extremities are determined by your elemental affinity.</p>
+<p><strong>Air.</strong> You form a pair of wings composed of graceful air, which increase your walking speed by 30 feet. Additionally, you float just above any surface you are standing on and can move along vertical surfaces or across liquids without falling during your turn.</p>
+<p><strong>Earth.</strong> You create a pair of powerful arms composed of earth. Each arm works just like your normal arms, providing you with an extra free hand. When you take the Attack action, you may make an additional attack for every pair of arms you create with this shape.</p>
+<p><strong>Fire.</strong> You create a pair of eyes formed of burning flames that float in front of your face. When you create a pair of eyes in this manner, you may choose a single creature you can see within range. For the duration of the shape, that creature cannot be hidden from you and has disadvantage on saving throws against you.</p>
+<p><strong>Water.</strong> You create a tentacle of glistening water that protrudes from your back. The tentacle has a 20-foot reach and can deliver effects with a range of touch at that distance. Additionally, when you create a tentacle using this shape, you gain a special reaction for its duration. This reaction can only be used to make a melee spell attack against a creature that would provoke an opportunity attack from the tentacle. On a successful hit, the target is grappled by the tentacle, with an escape DC equal to your elemental save DC.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 5 primal power so expended, you create an additional set of extremities of the type of your affinity.</p>
+</details>
+<details class="spell">
+<summary>Vortex</summary>
+<p><em>Advanced</em></p>
+<p><strong>Primal Power Cost:</strong> 5<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>A spiraling mass of elements appears in a 20-foot radius that is 5 feet high centered on a point you can see on the ground within your area of elemental influence. Until the effect ends, the area is difficult terrain, and any creature that starts its turn within the area must succeed on a Strength saving throw or take 4d6 damage of a type according to your elemental affinity and be pulled 10 feet toward the center of the effect. This shape has the following properties according to your elemental affinity.</p>
+<p><strong>Air.</strong> The shape can be centered on a point you can see within the area, instead of a point on the ground. Additionally, the effect deals thunder damage, and any creatures within the effect are deafened for as long as they remain within the area.</p>
+<p><strong>Earth.</strong> The effect deals bludgeoning damage. Additionally, a creature starting its turn within the vortex must succeed on a Strength saving throw or have its speed reduced to 0 until the end of its turn.</p>
+<p><strong>Fire.</strong> The effect deals fire damage. Additionally, if a creature starts its turn in the center of the effect's area, damage it takes from the vortex is doubled.</p>
+<p><strong>Water.</strong> The effect deals bludgeoning damage. Additionally, creatures of your choice are immune to all effects of the shape.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, you can increase the radius of the effect by 10 feet and the damage of the effect by 1d6.</p>
+</details>
+</details>
+<hr>
+</div>
+<div class="shape-content" data-shape="expert">
+<details class="feature">
+<summary>Expert Shapes</summary>
+<details class="spell">
+<summary>Aftershock</summary>
+<p><em>Expert — Earth affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 8<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You release a devastating seismic wave in your area of elemental influence. Creatures in the area that took damage from you that turn must succeed on a Constitution saving throw or be knocked prone.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power you expend, a single creature knocked prone by the effect is also stunned until the start of its next turn.</p>
+</details>
+<details class="spell">
+<summary>Breach</summary>
+<p><em>Expert</em></p>
+<p><strong>Primal Power Cost:</strong> 7<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You attempt to shatter the bonds of magic with your elemental power. As a part of creating this shape you must choose a creature, object, or magical effect within your area of elemental influence. If the target is under the effects of a spell, you must attempt an Intelligence ability check, immediately ending the spell on a success. The DC equals 10 + the spell's level. If the target is affected by multiple spells, you must attempt to end the highest-level spell possible. Additionally, on a successful check the shape gains the following benefits according to your elemental affinity.</p>
+<p><strong>Air.</strong> If the target of the shape is a creature, it is pushed 30 feet in a straight line in a direction of your choice.</p>
+<p><strong>Earth.</strong> If the target of the shape is a creature, it cannot cast non-Epic spells until the end of its next turn. If the target of the shape is an object, it becomes vulnerable to damage until the start of your next turn.</p>
+<p><strong>Fire.</strong> If the target of the shape is a creature or object, it takes 1d10 fire damage per level of the spell ended by the shape.</p>
+<p><strong>Water.</strong> You regain 1d6 hit points per level of the spell ended by the shape.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, you can choose an additional target for the shape or attempt to end an additional spell on a target of the shape.</p>
+</details>
+<details class="spell">
+<summary>Cyclone</summary>
+<p><em>Expert — Air affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 8<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You project a whirling cyclone from your hand in a line that extends to the end of your area of elemental influence and is 5 feet wide. The cyclone lasts for 1 minute, and as an action you can point the cyclone in a direction of your choice. When a Medium or smaller creature comes into contact with the cyclone for the first time in a round, it must succeed on a Strength saving throw or be thrown away from you to the end of the line, or drawn toward the closest unoccupied space to you (your choice), landing prone in either case. This shape ends if you do not have a free hand available to project the cyclone or if you become incapacitated.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 4 primal power expended, you increase the width of the line by 5 feet, and the maximum size of a creature the cyclone can affect increases by one size category.</p>
+</details>
+<details class="spell">
+<summary>Flood</summary>
+<p><em>Expert — Water affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 9<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You flood your area of elemental influence with water that is 5 feet deep. The water appears on the ground and flows in directions determined by the terrain. Water from this shape that flows outside of your area of elemental influence vanishes, and any water that leaves the area is magically replenished instantly. The area is considered difficult terrain for creatures without a swimming speed.</p>
+<p>Additionally, while you are completely submerged within the water created by the flood, you are always empowered, as per your Elemental Empowerment feature. The shape immediately ends if no area of your elemental influence is in contact with the ground.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 2 primal power so expended, the depth of the flood increases by 5 feet.</p>
+</details>
+<details class="spell">
+<summary>Gift</summary>
+<p><em>Expert</em></p>
+<p><strong>Primal Power Cost:</strong> 8<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You touch another willing creature within reach, mantling it in elemental energy and granting it a powerful boon for the duration. The target gains proficiency in a single saving throw of its choice that you are also proficient in, and advantage on saving throws against your elemental shapes. Additionally, it gains the following properties according to your elemental affinity.</p>
+<p><strong>Air.</strong> The target's walking speed increases by 10 feet.</p>
+<p><strong>Earth.</strong> While it is not incapacitated, the target cannot be forcibly moved or teleported unwillingly.</p>
+<p><strong>Fire.</strong> When the target succeeds on a saving throw against one of your shapes and would take damage on a success, it instead takes no damage.</p>
+<p><strong>Water.</strong> When the target regains hit points from your shapes, you regain an equal amount of hit points. This effect cannot occur more than once per turn.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 6 primal power so expended, you can target an additional willing creature with this shape.</p>
+</details>
+<details class="spell">
+<summary>Meltdown</summary>
+<p><em>Expert — Fire affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 9<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You superheat a single object or creature you can see within the area of your elemental influence for the duration. At the start of each of its turns, the target must succeed on a Constitution saving throw or lose 8d6 hit points, or half as much on a success, and its hit point maximum is reduced by an amount equal to the hit points lost. This reduction ends if the target is affected by a <em>greater restoration</em> or <em>heal</em> spell, or similarly powerful healing magic. A target reduced to 0 hit points by this shape is melted down into charred remains. This shape ends if the target succeeds on three Constitution saving throws against the effect over the course of its duration.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 5 primal power so expended, the number of hit points the target loses increases by 8d6.</p>
+</details>
+<details class="spell">
+<summary>Meteor</summary>
+<p><em>Expert</em></p>
+<p><strong>Primal Power Cost:</strong> 8<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You conjure an elemental explosion centered on a point you can see within your area of elemental influence. The explosion is a 20-foot-radius sphere and has properties according to your elemental affinity.</p>
+<p><strong>Air.</strong> Creatures in the area must succeed on a Constitution saving throw or take 8d10 bludgeoning damage and be knocked unconscious until the start of their next turn. A successful save halves the damage and prevents being knocked unconscious.</p>
+<p><strong>Earth.</strong> Creatures in the area must succeed on a Dexterity saving throw or take 8d10 piercing damage, or half as much on a success. Additionally, the area of the explosion is filled with a thick cloud of dust for 1 minute and is considered heavily obscured for the duration or until a strong wind disperses it.</p>
+<p><strong>Fire.</strong> Creatures in the area must succeed on a Dexterity saving throw or take 4d10 fire damage and 4d10 radiant damage, or half as much on a success. Additionally, on a failed save a creature is pushed away from the center to the edge of the explosion's area.</p>
+<p><strong>Water.</strong> Creatures of your choice in the area must succeed on a Dexterity saving throw or take 4d10 bludgeoning damage, or half as much on a success, and other creatures of your choice in the area regain 4d10 hit points.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 4 primal power so expended, you can create an additional explosion whose affected area cannot include the area of another explosion created by the shape.</p>
+</details>
+<details class="spell">
+<summary>Weapon</summary>
+<p><em>Expert</em></p>
+<p><strong>Primal Power Cost:</strong> 9<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 10 minutes  </p>
+<p>You forge a weapon fashioned from powerful elements which appears in your free hand and lasts for the duration. You are considered proficient with the weapon, and when you would make a weapon attack with it, you instead make a spell attack. The weapon has properties according to your elemental affinity.</p>
+<p><strong>Air.</strong> The weapon is a longbow, and on a successful hit it deals an additional 6d8 thunder damage. Additionally, the range of the weapon is doubled.</p>
+<p><strong>Earth.</strong> The weapon is a maul, and on a successful hit it deals an additional 2d6 piercing damage. When you score a critical hit with the weapon, the target becomes vulnerable to damage for the remainder of that turn.</p>
+<p><strong>Fire.</strong> The weapon is a whip with a reach equal to your area of elemental influence, and on a successful hit it deals an additional 8d4 fire damage.</p>
+<p><strong>Water.</strong> The weapon is a trident and deals an additional 3d6 piercing damage on a successful hit. Additionally, if you throw the trident, it returns to your hand at the end of that turn.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, you gain a +1 bonus to attack and damage rolls with the weapon.</p>
+</details>
+</details>
+<hr>
+</div>
+<div class="shape-content" data-shape="master">
+<details class="feature">
+<summary>Master Shapes</summary>
+<details class="spell">
+<summary>Bloodshaping</summary>
+<p><em>Master — Water affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 12<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You attempt to manipulate the liquid within the body of a flesh-and-blood creature you can see within your area of elemental influence. The target must succeed on a Constitution saving throw or be unable to voluntarily move or take actions for the duration. On each of your turns you can take an action to control the target's body like a puppet, forcing it to immediately take an action of your choice that it would ordinarily be able to take on its turn. If you do not have a clear idea of what the creature is capable of (such as whether it can cast specific spells), you cannot force it to take any actions associated with those capabilities. At the start of each of its turns, the target can attempt a Constitution saving throw, ending the effect on a success.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 5 primal power so expended, you can choose to either target an additional creature within range or force an affected creature to attempt Constitution saving throws to end the effect at the end of its turn instead of at the start.</p>
+</details>
+<details class="spell">
+<summary>Cloud Call</summary>
+<p><em>Master — Air affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 12<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 10 minutes  </p>
+<p>You fill your area of elemental influence with thick, fluffy clouds for the duration or until you dismiss them as an action. Allied creatures in the area are lightly obscured and have half cover. Additionally, if you move while this shape is in effect, the clouds move with you. They cannot be dispersed by any wind unless you allow it. Finally, while this shape is in effect you are always empowered, as per your Elemental Empowerment feature.</p>
+</details>
+<details class="spell">
+<summary>Inferno</summary>
+<p><em>Master — Fire affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 11<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> Instantaneous  </p>
+<p>You generate a conflagration of epic proportions. Creatures, objects, and structures of your choice that you can see within your area of elemental influence catch fire. This fire is magical and can only be extinguished by magical means when inside your area of elemental influence. At the end of each of your turns, anything on fire from this shape takes 5d6 fire damage.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 3 primal power so expended, the damage dealt by the shape increases by 1d6.</p>
+</details>
+<details class="spell">
+<summary>Pillar</summary>
+<p><em>Master</em></p>
+<p><strong>Primal Power Cost:</strong> 12<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You generate a tremendous pillar of elements within your area of elemental influence. The pillar is a 15-foot-radius cylinder with a height that extends up to the end of your area of elemental influence. The pillar has the following properties according to your elemental affinity.</p>
+<p><strong>Air.</strong> The pillar is an empty vacuum devoid of air. Sound cannot pass through the area, nor can creatures fly in the area via nonmagical means, instead falling immediately. Additionally, creatures in the area cannot breathe, and any creatures in the area holding their breath lose 10d8 hit points at the start of each of their turns as the gas inside their lungs rapidly expands.</p>
+<p><strong>Earth.</strong> The pillar is a column of dense stone that emerges from the ground, which is an object with an AC equal to your elemental save DC and 200 hit points. While you are in contact with the pillar, you are always empowered, as per your Elemental Empowerment feature. If the pillar appears beneath a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar as it ascends. A creature can choose to fail the save. If the pillar is prevented from reaching its full height because of a solid obstacle, a creature on the pillar takes 10d8 bludgeoning damage and is restrained. A creature so restrained can take an action to attempt a Strength or Dexterity check (its choice) against your elemental save DC, freeing itself on a success. A creature so freed must move off of the top of the pillar or become restrained again at the end of that turn.</p>
+<p><strong>Fire.</strong> The pillar is a tornado of blazing fire. A creature standing in the area where the pillar appears or within the area at the start of its turn must succeed on a Dexterity saving throw or take 10d8 fire damage, or half as much on a success.</p>
+<p><strong>Water.</strong> The pillar is a column of flowing water. When a creature enters the area for the first time in a round, you can choose for it to either regain 6d8 hit points, or attempt a Strength saving throw. On a failure a creature is thrown 60 feet away from the pillar in a straight line and takes 6d8 bludgeoning damage if it collides with a solid object or surface over the course of that movement.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can choose to expend additional primal power. For every 4 primal power so expended, the radius of the cylinder increases by 15 feet.</p>
+</details>
+<details class="spell">
+<summary>Resonating Crystal</summary>
+<p><em>Master — Earth affinity</em></p>
+<p><strong>Primal Power Cost:</strong> 10<br />
+<strong>Shaping Time:</strong> 1 action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You forge a perfect crystal in an unoccupied space you can see within your area of elemental influence that lasts for the duration. The crystal hovers in the space and is an object with an AC of 15 and 50 hit points. When you or allied creatures within 30 feet of the crystal take damage, you instead take no damage and the crystal loses a number of hit points equal to the damage that would have been dealt. When the crystal is reduced to 0 hit points, it shatters, and any remaining damage the crystal would have prevented is instead dealt to the original targets. The crystal always prioritizes reducing damage dealt to creatures closest to it.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 2 primal power so expended, the crystal's hit points when created increase by 10.</p>
+</details>
+<details class="spell">
+<summary>Smite</summary>
+<p><em>Master</em></p>
+<p><strong>Primal Power Cost:</strong> 11<br />
+<strong>Shaping Time:</strong> 1 bonus action<br />
+<strong>Duration:</strong> 1 minute  </p>
+<p>You gather elemental power within your body for the duration, which can be unleashed when you strike an enemy. When you hit with a melee or ranged attack before the duration ends, the attack deals an additional 14d6 damage. Once you have used this benefit, the shape ends. Additionally, the shape gains the following benefits according to your elemental affinity.</p>
+<p><strong>Air.</strong> The additional damage from the shape is bludgeoning damage. If the target is a creature it must succeed on a Strength saving throw or drop anything it is holding. Any objects dropped in this manner are thrown 30 feet away from the target in a direction of your choice.</p>
+<p><strong>Earth.</strong> The additional damage from the shape is piercing damage. If the attack is a melee attack and the target is a creature, the target is grappled (escape DC equal to your elemental save DC).</p>
+<p><strong>Fire.</strong> The additional damage from the shape is fire damage. If the attack scores a critical hit, you gain 11 primal power, up to your maximum.</p>
+<p><strong>Water.</strong> The additional damage from the shape is acid damage. If the target of the attack is a creature, it must succeed on a Constitution saving throw or deal half damage for 1 minute. At the end of each of its turns, an affected creature can repeat the saving throw, ending the effect on a success.</p>
+<p><strong>Augment.</strong> When you create this shape while empowered, you can expend additional primal power. For every 9 primal power so expended, you gain an additional use of the shape's benefits before it ends (but no more than once per turn).</p>
+</details>
+</details>
+<hr>
+</div>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose an elemental affinity:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="air">Air</option>
+    <option value="earth">Earth</option>
+    <option value="fire">Fire</option>
+    <option value="water">Water</option>
+</select></p>
+<div class="subclass-content" data-subclass="air">
+<details class="feature">
+<summary>Air</summary>
+<p>Air elementalists are swift warriors specializing in manipulating battlefield and enemy alike with the power of the wind. Most air elementalists are confident, are self-assured, and come from communities who value freedom and flexibility, quick to change their mind and adapt to any situation. As an air elementalist you are a fearless explorer, always traveling with the wind at your back. There is nothing you cannot overcome, thinking your way out of sticky situations that would foil brute force. Those who view the air element as weak are quick to reassess their perspective after seeing you in action, especially once their lungs are devoid of oxygen. This is a lesson you readily share with any earth elementalist who crosses your path, for those ponderous brutes always fail to appreciate the efficacy of your approach to life.</p>
+<h3 id="level-1-guiding-winds">Level 1 - Guiding Winds</h3>
+<p>Starting at 1st level, as an action you can hurl a blast of air at a creature within your area of elemental influence. You make a ranged spell attack against the target and deal 1d6 bludgeoning damage on a successful hit.</p>
+<p>When you take this action, you can instead target an ally within your area of elemental influence, guiding the target's attacks with powerful winds. Until the end of its next turn, when that ally next makes a ranged weapon attack, it has advantage on the attack roll and deals an extra 1d6 bludgeoning damage on a successful hit.</p>
+<p>In either case, this damage increases by 1d6 at 6th level, and again at 10th, 14th, and 18th levels.</p>
+<hr>
+<h3 id="level-1-ways-of-air">Level 1 - Ways of Air</h3>
+<p>Your close relationship with air has taught you many things. At 1st level you gain proficiency in calligrapher's supplies.</p>
+<p>Additionally, as an action you can subtly manipulate the air in your area of elemental influence. These effects are always harmless, can only affect a 5-foot cube of area, and cannot interfere with the properties of magical effects, only natural ones. Examples of such effects include generating a gust of wind, blowing a cool breeze, or manifesting a tiny tornado in the palm of your hand. The size of the cube you can affect in this manner increases by 5 feet at 6th level, and by another 5 feet again at 10th, 14th, and 18th levels. If you take a hybrid elemental affinity when you reach 10th level, this feature can affect both the elements of air and your chosen hybrid element.</p>
+<hr>
+<h3 id="level-6-spirit-of-adventure">Level 6 - Spirit of Adventure</h3>
+<p>At 6th level, you start each day with an unquenchable hunger for adventure and the wind at your back. After you finish a long rest, you have advantage on Dexterity saving throws and ability checks. This benefit lasts until you finish a short rest or gain a level of exhaustion.</p>
+<hr>
+<h3 id="level-10-windweaver">Level 10 - Windweaver</h3>
+<p>At 10th level, on each of your turns if you spend movement to move at least 25 feet away from the space you started your turn in, you become empowered, as per your Elemental Empowerment feature.</p>
+<hr>
+<h3 id="level-14-grace-of-the-wind">Level 14 - Grace of the Wind</h3>
+<p>By 14th level your body moves as effortlessly as the wind itself. You gain proficiency in Dexterity saving throws and Acrobatics.</p>
+<hr>
+<h3 id="level-18-master-air">Level 18 - Master Air</h3>
+<p>At 18th level you have mastered the element of air, gaining almost complete control over the air in your area of elemental influence. At the start of each of your turns you can choose to affect that area and cause one of the following effects.</p>
+<ul>
+<li>End any light or strong winds in the area.</li>
+<li>Create a light or strong wind in a direction of your choice in the area.</li>
+</ul>
+<p>Creatures of your choice within the area are immune to the effects of this feature.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="earth">
+<details class="feature">
+<summary>Earth</summary>
+<p>As an earth elementalist, you are as unshakable as stone and twice as durable. Earth elementalists see all problems as surmountable through time and effort, overcoming obstacles with determination and raw power. Most elementalists in this field come from races and communities with strong affinity for the earth and order. Many earth elementalists take pride in their bodies, eschewing the comforts of civilized life for the steady embrace of stone. More than any other elementalists, those with an affinity for earth make their element part of their bodies, mantling their forms in unbreakable rock and striking with stony fists. When you commit to a course of action as an earth elementalist, only the most extreme of forces can hope to stop you. You love a challenge, so those who flee from or dance around problems bother you.</p>
+<h3 id="level-1-stone-mantle">Level 1 - Stone Mantle</h3>
+<p>Starting at 1st level, when you finish a long rest you can coat your skin in a thick layer of solid stone. When you do so, you gain temporary hit points equal to four times your elementalist level. These temporary hit points cannot be replaced by temporary hit points from another source unless you will it.</p>
+<p>Additionally, when you would make an unarmed strike you can instead make a melee spell attack. The damage of this attack is equal to your unarmed strike damage plus your Strength and Intelligence modifiers.</p>
+<hr>
+<h3 id="level-1-ways-of-earth">Level 1 - Ways of Earth</h3>
+<p>Your close relationship with the earth has inspired the craftsman in you. At 1st level, you gain proficiency in mason's tools.</p>
+<p>Additionally, as an action, you can subtly manipulate the earth around you within your area of elemental influence. These effects are always harmless, can only affect a 5-foot cube of area, and cannot interfere with the properties of magical effects, only natural ones. Examples of such effects include making a stone slide around on the floor, creating a chair out of stone, or extracting gold ore from unworked rock. The size of the cube you can affect in this manner increases by 5 feet at 6th level, and by another 5 feet again at 10th, 14th, and 18th levels. If you take a hybrid elemental affinity when you reach 10th level, this feature can affect both the elements of earth and your chosen hybrid element.</p>
+<hr>
+<h3 id="level-6-rock-solid">Level 6 - Rock Solid</h3>
+<p>At 6th level, your mind and body are especially durable against effects that would lay you low. You have advantage on saving throws against effects that would cause you to be incapacitated, paralyzed, petrified, stunned, or unconscious on a failure.</p>
+<hr>
+<h3 id="level-10-seismography">Level 10 - Seismography</h3>
+<p>Starting at 10th level, you can sense the vibrations in the earth to detect the precise location of creatures. While you are standing on the ground, you have tremorsense out to a range of 15 feet. At 18th level, the range of your tremorsense increases to 30 feet.</p>
+<hr>
+<h3 id="level-14-earthen-might">Level 14 - Earthen Might</h3>
+<p>At 14th level, your body becomes infused with the strength of stone. You gain proficiency in Strength saving throws and Athletics.</p>
+<hr>
+<h3 id="level-18-master-earth">Level 18 - Master Earth</h3>
+<p>At 18th level, you have mastered the element of earth. You gain a burrowing speed equal to your walking speed, and you can burrow through solid rock at half your burrowing speed. When you burrow in this manner, you do not disturb any material through which you pass. If you end your turn inside a solid object after burrowing in this manner, you must immediately expend 5 primal power or be shunted to the nearest unoccupied space.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="fire">
+<details class="feature">
+<summary>Fire</summary>
+<p>Danger surrounds a fire elementalist. Few creatures can live comfortably with fire, a vicious and unpredictable element. You must keep a tight leash on the flames that sprout from your fingertips lest you immolate yourself and everything you care about. Most fire elementalists are wild souls, barely able to contain the enthusiasm each holds for the nature of their craft. While always destructive, fire elementalists understand the importance of burning away the underbrush to start anew and prevent future conflagrations. Fire is the most complex of the elements — to coexist with simpler creatures, you must understand its many facets. Whether you are a purifier searing away evil with columns of flame or a pyromaniac who just wants to watch the world burn, at your core is a hunger that makes you and all other fire elementalists ambitious in all walks of life. Only the mercurial and reserved water elementalists can dampen your enthusiasm, and for this reason their presence is rarely tolerated.</p>
+<h3 id="level-1-enduring-ember">Level 1 - Enduring Ember</h3>
+<p>At 1st level, you can fan the flames within you for additional power. When you finish a short rest, you can expend a number of your Hit Dice up to your Intelligence modifier, rolling those Hit Dice and regaining primal power equal to the total amount rolled. Once you have used this feature you must finish a long rest before you can use it again.</p>
+<p>At 10th level, when you use this feature you can instead expend and roll a number of Hit Dice equal to twice your Intelligence modifier and regain primal power equal to the total amount rolled.</p>
+<hr>
+<h3 id="level-1-ways-of-fire">Level 1 - Ways of Fire</h3>
+<p>Your love of fire and how to use it has inspired you to take up artistic crafts. At 1st level you gain proficiency in glassblower's tools.</p>
+<p>Additionally, as an action you can subtly manipulate fire within your area of elemental influence. These effects are always harmless, can only affect a 5-foot cube of area, and cannot interfere with the properties of magical effects, only natural ones. Examples of such effects include lighting a candle, extinguishing a fireplace, or burning a symbol into a piece of wood. The size of the cube you can affect in this manner increases by 5 feet at 6th level, and by another 5 feet again at 10th, 14th, and 18th levels. If you take a hybrid elemental affinity when you reach 10th level, this feature can affect both the elements of fire and your chosen hybrid element.</p>
+<hr>
+<h3 id="level-6-fireproof">Level 6 - Fireproof</h3>
+<p>At 6th level, your constant exposure to flames has granted you resistance to fire damage. At 14th level, you instead have immunity to fire damage.</p>
+<hr>
+<h3 id="level-10-pour-it-on">Level 10 - Pour It On</h3>
+<p>At 10th level when you create a shape that deals damage and augment it, the first time the shape deals damage, it deals extra damage equal to the amount of primal power expended to augment the shape.</p>
+<hr>
+<h3 id="level-14-fury-of-the-flames">Level 14 - Fury of the Flames</h3>
+<p>At 14th level the roaring power of fire is reflected in your personality. You gain proficiency in Charisma saving throws and Intimidation.</p>
+<hr>
+<h3 id="level-18-master-fire">Level 18 - Master Fire</h3>
+<p>At 18th level, you have mastered the element of fire. When you would deal fire damage in an area, you can choose to also damage unattended objects and structures in that area.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="water">
+<details class="feature">
+<summary>Water</summary>
+<p>Proudest and most determined of the elements. Water elementalists reflect this trait in every action they take. As a refined and elegant water elementalist, you understand that no problem can withstand a cunning solution from a brilliant mind. Water elementalists are a flexible lot, able to adapt to any situation. They can aid allies and foil enemies with brilliant elemental creatures while retaining a sense of dignity on the battlefield. Beneath each water elementalist is the overwhelming potential for destruction, unleashed only in the direst straits when there is no time for precision. As you adventure as a water elementalist, your effortless efficiency makes you uniquely valuable and superior to all others, but most especially to those who recklessly wield elemental fire.</p>
+<h3 id="level-1-siphon">Level 1 - Siphon</h3>
+<p>Starting at 1st level, you can draw lifegiving water from enemies and gift it to allies. As an action, you can make a melee spell attack against a creature, dealing 1d4 necrotic damage on a successful hit. When you deal damage to a creature with this feature, you may cause an ally within range of your area of elemental influence to regain a number of hit points equal to the damage dealt.</p>
+<p>This damage increases by 1d4 at 6th level, and again at 10th, 14th, and 18th levels.</p>
+<hr>
+<h3 id="level-1-ways-of-water">Level 1 - Ways of Water</h3>
+<p>The subtleties and beauty of water has inspired you to take up the sciences. At 1st level you gain proficiency in alchemist's supplies.</p>
+<p>Additionally, as an action you can subtly manipulate water in your area of elemental influence. These effects are always harmless, can only affect a 5-foot cube of area, and cannot interfere with the properties of magical effects, only natural ones. Examples of such effects include creating a moving sculpture in a pond, making a stream flow uphill, or providing shelter from the rain. The size of the cube you can affect in this manner increases by 5 feet at 6th level, and by another 5 feet again at 10th, 14th, and 18th levels. If you take a hybrid elemental affinity when you reach 10th level, this feature can affect both the elements of water and your chosen hybrid element.</p>
+<hr>
+<h3 id="level-6-tidewalker">Level 6 - Tidewalker</h3>
+<p>At 6th level, your affinity with water grants you a swimming speed equal to your walking speed, and you can breathe underwater.</p>
+<hr>
+<h3 id="level-10-crushing-tide">Level 10 - Crushing Tide</h3>
+<p>At 10th level, creatures have disadvantage on the first saving throw they make against shapes you have augmented.</p>
+<hr>
+<h3 id="level-14-wisdom-of-the-waves">Level 14 - Wisdom of the Waves</h3>
+<p>At 14th level the flexible nature of water defines your understanding of the world. You gain proficiency in Wisdom saving throws and Insight.</p>
+<hr>
+<h3 id="level-18-master-water">Level 18 - Master Water</h3>
+<p>At 18th level, you have mastered the element of water in your area of elemental influence, granting you the following benefits.</p>
+<ul>
+<li>You have blindsight out to a range equal to your area of elemental influence. However, this sense is based on your ability to detect liquid water, such as blood or other fluids. Creatures that are not at least partially composed of fluids cannot be perceived with this sense.</li>
+<li>When you or an allied creature is affected by one of your shapes in the area, the affected creature can take a reaction to move up to 10 feet without provoking an attack of opportunity.</li>
+</ul>
+</details>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

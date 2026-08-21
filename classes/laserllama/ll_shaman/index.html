@@ -1,0 +1,3849 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../ll_savant/">
+      
+      
+        <link rel="next" href="../ll_vessel/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Shaman - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Shaman
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../ll_bloodhunter/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Laserllama
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-shaman">The Shaman</h1>
+<p>Since time immemorial, Shamans have served as the spiritual intermediaries between the mortal and spirit worlds. Wandering the wilds, or dwelling in the heart of small communities, these spiritual leaders channel the power of primal Spirits to work wonders. Unlike their contemporaries who call on powers from other planes, or channel energy from within, Shamans derive their power from the Spirits present in all living things.</p>
+<p>Shamans bind primal Spirits to sacred Totems, channeling their collective power to wield great spiritual magic. The more Totems they carry, the more versatile and powerful a Shaman becomes. At the heart of their power is the art of Totemic Assault, the ability to set Spirits loose upon their foes and unleash spiritual destruction.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Shaman Features</label><label for="__tabbed_1_3">Totem Spirits</label><label for="__tabbed_1_4">Shaman Spell List</label><label for="__tabbed_1_5">Spiritualities</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Bound Spirits</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">Spell Slots</th>
+<th style="text-align: center;">Slot Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Sacred Focus, Totem Spirits</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Conduit Magic, Spirituality</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Totemic Versatility</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Spirituality Feature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Spirituality Feature</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Elder Spirit (6th-level)</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Elder Spirit (7th-level)</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Spirituality Feature</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Elder Spirit (8th-level)</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Elder Spirit (9th-level)</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Spiritual Ascension</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d8 per Shaman level<br />
+<strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Shaman level after 1st</p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, blow guns, nets<br />
+<strong>Tools:</strong> None  </p>
+<p><strong>Saving Throws:</strong> Wisdom, Charisma<br />
+<strong>Skills:</strong> Choose two from Animal Handling, Arcana, Insight, Medicine, Nature, Performance, or Religion</p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<p>As a Shaman, you start with the following equipment, in addition to the equipment granted by your background:</p>
+<ul>
+<li><em>(a)</em> a quarterstaff or <em>(b)</em> any simple weapon</li>
+<li><em>(a)</em> a shortbow and 20 arrows or <em>(b)</em> 5 javelins</li>
+<li><em>(a)</em> a priest's pack or <em>(b)</em> an explorer's pack</li>
+<li>Leather armor and one object used as a Totem</li>
+</ul>
+<hr>
+<h4 id="quick-build">Quick Build</h4>
+<p>Make Wisdom your highest ability score followed by Constitution. Choose the Hermit background. Take the Body Sacred Focus and choose Totem of the Bear and Totem of the Mountain as your Bound Totems.</p>
+<hr>
+<h4 id="level-1-sacred-focus">Level 1 - Sacred Focus</h4>
+<p>In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. At 1st level, you choose a Sacred Focus from the options listed below. Once it is chosen, your Sacred Focus cannot be changed.</p>
+<p><strong>Body.</strong> You channel spiritual power through your body, bending Spirits to your will with physical might. When you choose this Sacred Focus your hit point maximum increases by 1, and it increases by 1 again each time you gain a level.</p>
+<p><strong>Heart.</strong> You channel spiritual power into your heart and overwhelm Spirits with powerful emotions. You gain proficiency in both Intimidation and Persuasion, and you can use your Wisdom, in place of Charisma, for any ability checks with those skills.</p>
+<p><strong>Mind.</strong> You channel spiritual power through your mind, manipulating the Spirits with your keen wit. Whenever you make an ability check or a saving throw that uses your Intelligence score, you can choose to use your Wisdom score instead.</p>
+<p><strong>Soul.</strong> You channel spiritual power through your soul, your serenity soothes Spirits and wards you from harm. While not wearing armor or wielding a shield, your Armor Class is equal to 10 + your Charisma modifier + your Wisdom modifier.</p>
+<hr>
+<h4 id="level-1-totem-spirits">Level 1 - Totem Spirits</h4>
+<p>At 1st level, you learn to bind primal Totem Spirits to sacred Totems so that you may safely channel their mystical abilities. Any Tiny object of your choice can be a Totem, but most often they are objects reminiscent of the Spirit bound within.</p>
+<p><strong>Bound Spirits.</strong> At 1st level, you bind two Totem Spirits of your choice from the Totem Spirits tab. At certain Shaman levels you bind additional Totem Spirits, as shown in the Bound Spirits column of the Shaman table. If a Spirit has prerequisites, you can bind it at the same time you meet its prerequisites.</p>
+<p>When you gain a Shaman level, you can replace one Totem Spirit you currently have bound with another of your choice.</p>
+<p><strong>Saving Throws.</strong> If a Totem requires a target to make a saving throw, the DC equals 8 + your proficiency bonus + your Wisdom modifier.</p>
+<p><strong>Totemic Assault.</strong> As an action, you can command the Spirits bound within one of your Totems to swarm one creature you can see within 60 feet of you. That creature must succeed on a Charisma saving throw or take 1d8 necrotic damage.</p>
+<p>The Spirits swarm around this creature until it is slain, it moves more than 60 feet away, or you use Totemic Assault on another target. While they swarm, you can use a bonus action on subsequent turns to force it to make this Charisma saving throw again. You can only use Totemic Assault once per turn.</p>
+<p>The damage dealt by your Totemic Assault increases at 5th level (2d8), at 11th level (3d8), and finally at 17th level (4d8).</p>
+<hr>
+<h4 id="level-2-conduit-magic">Level 2 - Conduit Magic</h4>
+<p>At 2nd level, you learn to call on the spiritual energies present in all things to cast spells.</p>
+<p><strong>Cantrips.</strong> At 2nd level, you learn two Cantrips of your choice from the Shaman spell list. You learn an additional Shaman Cantrip of your choice when you reach 4th level, and again at 10th level.</p>
+<p><strong>Spell Slots.</strong> The Shaman table shows the number of spell slots you have to cast your Shaman spells of 1st through 5th-level. The Slot Level column shows the level of all of your spell slots. To cast a Shaman spell of 1st-level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+<p>For example, at 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell <em>cure wounds</em>, you must expend one of your 3rd-level spell slots, and cast <em>cure wounds</em> at 3rd-level.</p>
+<p><strong>Preparing &amp; Casting Spells.</strong> You prepare the list of spells that are available for you to cast, choosing from the Shaman spell list. When you do, choose a number of Shaman spells equal to your Shaman level + your Wisdom modifier (a minimum of 1). Spells you prepare must be of a level equal to your Slot Level or lower.</p>
+<p>Casting a spell doesn't remove it from your list of prepared spells. During a long rest, you can change your list of prepared spells by meditating: 1 minute per spell level for each new spell you are preparing.</p>
+<p><strong>Spellcasting Ability.</strong> Wisdom is your spellcasting ability for your Shaman spells. You use Wisdom if a spell refers to your spellcasting ability, setting a saving throw DC, or making a spell attack roll.</p>
+<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+<p><strong>Ritual Casting.</strong> You can cast the Ritual version of any Shaman spell that you have prepared so long as the spell has the Ritual tag.</p>
+<p><strong>Spellcasting Focus.</strong> You can use any Totem to which you have bound a Spirit as the spellcasting focus for your Shaman spells.</p>
+<hr>
+<h4 id="level-2-spirituality">Level 2 - Spirituality</h4>
+<p>At 2nd level, choose the Spirituality which best represents the disciplines and rites you use to channel spirits. Your Spirituality grants you features at 2nd level, and again when you reach 6th, 10th, and 14th level in this class.</p>
+<p>Each Spirituality has a list of spells you always have prepared once you reach the Shaman levels noted in your Spirituality's description. They count as Shaman spells for you, but they do not count against the number of spells you prepare each day.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.</p>
+<hr>
+<h4 id="level-5-totemic-versatility">Level 5 - Totemic Versatility</h4>
+<p>At 5th level, your ability to connect with and channel the spirit world increases. During a long rest, you can perform a 1-hour ritual to replace one of your current bound Spirit Totems with another of your choice, for which you meet all prerequisites.</p>
+<hr>
+<h4 id="level-11-elder-spirit">Level 11 - Elder Spirit</h4>
+<p>Your ever-deepening connection to the world of Spirits allows you to conjure and bind powerful Elder Spirits to Totems. At 11th level, choose one Elder Spirit to bind to a Totem. It does not count against your total number of Bound Totems.</p>
+<p>Each Elder Spirit includes a list of Elder Spells that you learn at the Shaman levels listed in its description. They do not count against the spells you prepare each day. Once you reach the levels in your Elder Spirit's description, you can cast each of these spells once between each long rest at its lowest level, without expending a spell slot.</p>
+<p>You can use your Totemic Versatility feature to replace your Elder Spirit with another Elder Spirit of your choice. If you replace your Elder Spirit, you only know the Elder Spells of your current Elder Spirit.</p>
+<details class="feature">
+<summary>Elder Spirit of Death</summary>
+<p>Spirits of Death are drawn from the Shadowfell, the Hells, or the Abyss. They lend Shamans their powerful sinister magic.</p>
+<details class="table">
+<summary>Elder Spirit of Death Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>harm</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>finger of death</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>horrid wilting</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>power word: kill</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of Life</summary>
+<p>Spirits of Life come to aid Shamans from the upper planes or the Feywild. They bless Shamans with mystic healing magic.</p>
+<details class="table">
+<summary>Elder Spirit of Life Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>heal</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>regenerate</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>holy aura</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>power word: heal</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Moon</summary>
+<p>Spirits of the Moon can be summoned from the Astral Sea or Ethereal Plane. They grant Shamans their mystical abilities.</p>
+<details class="table">
+<summary>Elder Spirit of the Moon Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>astral projection</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>reverse gravity</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>antimagic field</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>foresight</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Sun</summary>
+<p>Spirits of the Sun are drawn from places of powerful radiant magic. They lend Shamans restorative and purifying power.</p>
+<details class="table">
+<summary>Elder Spirit of the Sun Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>sunbeam</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>resurrection</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>sunburst</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>true resurrection</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Void</summary>
+<p>Spirits of the Void are called from outer realms beyond the known planes. They grant Shamans dark aberrant magick.</p>
+<details class="table">
+<summary>Elder Spirit of the Void Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>soul cage</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>prismatic spray</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>maddening darkness</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>psychic scream</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Fissure</summary>
+<p>Spirits of Fissure are conjured from the realms on the Plane of Earth. They lend Shamans the unyielding power of stone.</p>
+<details class="table">
+<summary>Elder Spirit of the Fissure Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>elemental avatar (earth)</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>symbol</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>earthquake</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>invulnerability</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Inferno</summary>
+<p>Spirits of the Inferno are summoned from the great Plane of Fire. They grant Shamans overwhelming destructive power.</p>
+<details class="table">
+<summary>Elder Spirit of the Inferno Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>elemental avatar (fire)</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>fire storm</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>incendiary cloud</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>meteor swarm</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Mystic</summary>
+<p>Spirits of Mystics are souls of powerful Shamans that come to offer aid. They awaken a Shaman's true spiritual potential.</p>
+<details class="table">
+<summary>Elder Spirit of the Mystic Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>true seeing</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>divine word</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>holy aura</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>foresight</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Sea</summary>
+<p>Spirits of the Sea are called up from the depths of the Plane of Water. They bestow Shamans with frigid ethereal magics.</p>
+<details class="table">
+<summary>Elder Spirit of the Sea Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>elemental avatar (ice)</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>etherealness</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>tsunami</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>invulnerability</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<details class="feature">
+<summary>Elder Spirit of the Storm</summary>
+<p>Spirits of the Storm are drawn from the great tempests of the Plane of Air. They lend Shamans the chaotic magic of storms.</p>
+<details class="table">
+<summary>Elder Spirit of the Storm Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: left;"><em>chain lightning</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>whirlwind</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: left;"><em>control weather</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>storm of vengeance</em> ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+</details>
+<hr>
+<h4 id="level-20-spiritual-ascension">Level 20 - Spiritual Ascension</h4>
+<p>You have transcended the need for a corporeal form. At 20th level, your physical body no longer ages, and you are immune to all disease, the Poisoned condition, and poison damage.</p>
+<p>Also, when you are reduced to 0 hit points, you can release the Spirit bound within one Totem to instead fall to a number of hit points equal to your Shaman level. You then lose access to the abilities of that Totem until you complete a long rest.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Filter by level:</strong></p></p>
+<p><select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="no-level-prereq">No Prerequisite</option>
+  <option value="level-5">5th-level Shaman</option>
+  <option value="level-7">7th-level Shaman</option>
+  <option value="level-9">9th-level Shaman</option>
+  <option value="level-15">15th-level Shaman</option>
+</select></p>
+<div class="level-content" data-level="no-level-prereq">
+<details class="feature">
+<summary>Totem Spirits (No Prerequisite)</summary>
+<p>Totems use your Shaman Spell save DC for saving throws, and your Shaman level for any references to level. If a Totem has a prerequisite, you can bind it at the same time that you meet that prerequisite.</p>
+<h4 id="spirit-of-the-autumn-wind">Spirit of the Autumn Wind</h4>
+<p>You bind a minor Spirit of Death that comes at the changing of the seasons. When you deal damage to a creature with a weapon attack or with Totemic Assault, it cannot regain hit points until the beginning of your next turn.</p>
+<h4 id="spirit-of-the-bear">Spirit of the Bear</h4>
+<p>You bind a minor Bestial Spirit granting you the ferocity of a bear. As a bonus action, you can sprout (or retract) ethereal claws from your fingers. Unarmed strikes with these claws use Wisdom, in place of Strength for the attack and damage rolls. On hit, they deal 1d6 slashing damage.</p>
+<p>Should you have two free hands, this d6 becomes a d8.</p>
+<h4 id="spirit-of-the-bog">Spirit of the Bog</h4>
+<p><em>Prerequisite: Mind Sacred Focus</em></p>
+<p>You bind a minor Spirit of Deception to guard your mind. Any attempt to read your thoughts, emotions, alignment, or target you with an Insight check or a divination spell instantly fails.</p>
+<p>You are aware that you are targeted by such an ability, but not its source, and you can allow them to work on you.</p>
+<h4 id="spirit-of-the-eagle">Spirit of the Eagle</h4>
+<p>You bind a minor Bestial Spirit which grants you the sight of the eagles. You gain proficiency in Perception, and you have advantage on Wisdom (Perception) checks that rely on sight.</p>
+<h4 id="spirit-of-the-earthquake">Spirit of the Earthquake</h4>
+<p>You bind a Spirit of Earth that grants you destructive power. Once per turn when you hit with a melee weapon attack, you deal a bonus 1d6 damage of your weapon's type.</p>
+<p>This damage bonus increases at certain levels: at 5th level (1d8), 11th level (1d10), and 17th level (1d12).</p>
+<h4 id="spirit-of-forest">Spirit of Forest</h4>
+<p><em>Prerequisite: Heart Sacred Focus</em></p>
+<p>You bind a minor Woodland Spirit that allows you to converse with wild creatures in your own tongue. You are always under the effect of <em>speak with animals</em> while you are conscious.</p>
+<p>Starting at 7th level, you are also always under the effects of <em>speak with plants</em> while you are conscious.</p>
+<h4 id="spirit-of-the-harvest">Spirit of the Harvest</h4>
+<p><em>Prerequisite: Soul Sacred Focus</em></p>
+<p>You bind a minor Spirit of wild growth and bounty. Each time you finish a short or long rest, you instantly cast the <em>goodberry</em> ᴸᴸ spell without expending a spell slot or material components.</p>
+<p>The berries from this spell last until the end of your next short or long rest, at which point they dissolve into ash.</p>
+<h4 id="spirit-of-the-hound">Spirit of the Hound</h4>
+<p>You bind a minor Bestial Spirit that grants you the senses of hounds. You gain proficiency in Survival and have advantage on Wisdom (Survival) checks while in natural environments.</p>
+<h4 id="spirit-of-the-mountain">Spirit of the Mountain</h4>
+<p><em>Prerequisite: Body Sacred Focus</em></p>
+<p>You bind a minor Spirit of Earth that hardens your skin like that of solid rock. So long as you are not wearing any armor or wielding a shield, your Armor Class is equal to 13 + your Constitution modifier (minimum of 0).</p>
+<h4 id="spirit-of-the-panther">Spirit of the Panther</h4>
+<p>You bind a minor Bestial Spirit that grants you the steps of a panther. You gain proficiency in Stealth, and have advantage on Dexterity (Stealth) checks to hide in natural environments.</p>
+<h4 id="spirit-of-the-rains">Spirit of the Rains</h4>
+<p>You bind a minor Spirit of Water that washes toxins away like rain. You gain resistance to acid and poison damage, and you have advantage on saving throws to resist being Poisoned.</p>
+<h4 id="spirit-of-the-squall">Spirit of the Squall</h4>
+<p>You bind a minor Spirit of Air to lend deadly speed to your strikes. When you miss with a weapon attack, you can use a bonus action to make a single attack against that creature.</p>
+<h4 id="spirit-of-the-stream">Spirit of the Stream</h4>
+<p>You bind a minor Spirit of Water that grants you a protective aqueous coating. You have advantage on any ability check or saving throw you make to resist being grappled, restrained, or stunned, and you can hold your breath for up to 1 hour.</p>
+<h4 id="spirit-of-twilight">Spirit of Twilight</h4>
+<p>You bind a minor Spirit of Shadow that grants you enhanced sight in the darkness. You gain Darkvision out to a radius of 120 feet, within which you can see in dim light as if it were bright light, and in darkness as if it were dim light.</p>
+<p>At 7th level, you can see in magic dim light and darkness.</p>
+<h4 id="spirit-of-the-waves">Spirit of the Waves</h4>
+<p>You bind a minor Spirit of Water that allows you to shift like the sea. Once between each short or long rest, you can use a reaction to halve one instance of damage you would take.</p>
+<p>You can use this reaction twice between each rest at 9th level, and three times between each rest at 18th level.</p>
+<h4 id="spirit-of-the-winds">Spirit of the Winds</h4>
+<p>You bind a minor Spirit of Air that lends speed to your steps with mighty gusts. Your walking speed increases by 5 feet.</p>
+<p>This bonus to your speed increases at 5th level (10 feet), 11th level (15 feet), and finally at 17th level (20 feet).</p>
+</details>
+<p></div>
+<div class="level-content" data-level="level-5"></p>
+<details class="feature">
+<summary>Totem Spirits (5th-Level Prerequisite)</summary>
+<h4 id="spirit-of-the-bloom">Spirit of the Bloom</h4>
+<p><em>Prerequisite: 5th-level Shaman, Soul Sacred Focus</em></p>
+<p>You bind a Spirit of Verdant Growth that enriches the lands around you. Once between each short or long rest, you can cast the <em>plant growth</em> spell without expending a spell slot.</p>
+<p>Starting at 9th level, the 8-hour version of the <em>plant growth</em> spell takes effect on the land surrounding you each time you take a long rest, unless you wish to withhold this effect.</p>
+<h4 id="spirit-of-destruction">Spirit of Destruction</h4>
+<p><em>Prerequisite: 5th-level Shaman</em></p>
+<p>You bind a Spirit of the Elements to lend you its destructive power. Once per turn, when you hit with a melee attack, you can expend a Conduit Magic spell slot to deal bonus cold, fire, lightning, or thunder damage equal to 1d8 per Slot Level.</p>
+<h4 id="spirit-of-the-grave">Spirit of the Grave</h4>
+<p><em>Prerequisite: 5th-level Shaman</em></p>
+<p>You bind a Spirit of Death which you can summon to your service. Once per long rest, you can expend a Conduit Magic spell slot to cast <em>animate dead</em> ᴸᴸ. This Totem replaces the normal material components of the spell.</p>
+<p>At 15th level, you can use this between each short or long rest.</p>
+<h4 id="spirit-of-growth">Spirit of Growth</h4>
+<p><em>Prerequisite: 5th-level Shaman, Body Sacred Focus</em></p>
+<p>You bind a Spirit of Verdant Growth to temporarily increase your size. Once between each short or long rest, you can cast the 'enlarge' version of the <em>enlarge/reduce</em> spell on yourself without expending a spell slot or requiring concentration.</p>
+<h4 id="spirit-of-light">Spirit of Light</h4>
+<p><em>Prerequisite: 5th-level Shaman</em></p>
+<p>You bind a Spirit of Radiance that restores your spirit when you heal others. Whenever you restore hit points to another creature with a Shaman spell or feature, you gain temporary hit points equal to your Wisdom modifier (minimum of 1).</p>
+<h4 id="spirit-of-mirth">Spirit of Mirth</h4>
+<p><em>Prerequisite: 5th-level Shaman, Heart Sacred Focus</em></p>
+<p>You bind a Spirit of Revelry that grants you its vigor. Once between each short or long rest, you can use a bonus action to gain temporary hit points equal to your Shaman level.</p>
+<p>You can use this feature twice between each rest at 12th level, and three times between each rest at 18th level.</p>
+<h4 id="spirit-of-secrets">Spirit of Secrets</h4>
+<p><em>Prerequisite: 5th-level Shaman, Mind Sacred Focus</em></p>
+<p>You bind a Spirit of Knowledge that lets you peer into the minds of others. Once between each short or long rest, you can cast the <em>detect thoughts</em> spell without expending a spell slot, or the normal verbal or somatic components of the spell.</p>
+<h4 id="spirit-of-the-swamp">Spirit of the Swamp</h4>
+<p><em>Prerequisite: 5th-level Shaman</em></p>
+<p>You bind a Spirit of Disease to poison foes. When a creature fails its saving throw against Totemic Assault, you can reduce the damage by 1d8 and cause the target to be Poisoned until the beginning of your next turn.</p>
+<h4 id="spirit-of-the-wilds">Spirit of the Wilds</h4>
+<p><em>Prerequisite: 5th-level Shaman</em></p>
+<p>You bind a Spirit of the Wilderness which you can call to your aid. Once per long rest, you can expend a Conduit Magic spell slot to cast the <em>conjure beast</em> ᴸᴸ spell. Its Totem replaces the normal material components of this spell.</p>
+<p>At 15th level, you can use this between each short or long rest.</p>
+<h4 id="spirit-of-wrath">Spirit of Wrath</h4>
+<p><em>Prerequisite: 5th-level Shaman</em></p>
+<p>You bind a Spirit of Anger which you unleash upon your foes. You can add your Wisdom modifier (a minimum of +1) to the damage roll of Totemic Assault when a creature fails its save.</p>
+</details>
+<p></div>
+<div class="level-content" data-level="level-7"></p>
+<details class="feature">
+<summary>Totem Spirits (7th-Level Prerequisite)</summary>
+<h4 id="spirit-of-blight">Spirit of Blight</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a minor Spirit of Disease to infect foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal poison damage in place of its normal damage.</p>
+<p>If you deal poison damage with Totemic Assault, you can reduce its damage by 1d8 and force the creature to make a Constitution saving throw instead of Charisma. On a failed save, it is blinded until the beginning of your next turn.</p>
+<h4 id="spirit-of-corrosion">Spirit of Corrosion</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a minor Spirit of Entropy to dissolve foes. When you cast a Shaman spell or use Totemic Assault, you can cause it to deal acid damage in place of its normal damage.</p>
+<p>When you deal acid damage with Totemic Assault, you can reduce the damage by 1d8 to reduce the target's Armor Class by 2 (to a minimum of 10) until the start of your next turn.</p>
+<h4 id="spirit-of-drought">Spirit of Drought</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a minor Spirit of Fire to burn your foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal fire damage in place of its normal damage.</p>
+<p>When you deal fire damage with Totemic Assault, you can reduce the damage by 1d8 to cause all targets within 5 feet of the target to take fire damage equal to your Wisdom modifier.</p>
+<h4 id="spirit-of-frost">Spirit of Frost</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a minor Spirit of Ice to freeze your foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal cold damage in place of its normal damage.</p>
+<p>If you deal cold damage with Totemic Assault, you can reduce its damage by 1d8 and force the creature to make a Strength saving throw instead of Charisma. On a failure, its speed is reduced to 0 until the start of your next turn.</p>
+<h4 id="spirit-of-the-hunt">Spirit of the Hunt</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a Spirit of the Wild Hunt to enhance your ferocity in battle. Once per turn, when you attack a target that is within 5 feet of one of your allies, you have advantage on your roll.</p>
+<h4 id="spirit-of-lightning">Spirit of Lightning</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a minor Spirit of Storms to assault foes. When you cast a Shaman spell or use Totemic Assault, you can cause it to deal lightning damage in place of its normal damage.</p>
+<p>When you deal lightning damage with Totemic Assault, the creature can't take reactions until the start of your next turn.</p>
+<h4 id="spirit-of-the-ooze">Spirit of the Ooze</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a Spirit of Water that allows your body to flow like water. As a bonus action, you can cause your body to become pliable (or return to normal). In this state, you can expend 5 feet of movement to automatically escape from non-magical restraints or grapples, and you can move through spaces as narrow as 1 inch without having to squeeze.</p>
+<h4 id="spirit-of-the-river">Spirit of the River</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a Spirit of Water that allows you to live underwater. You can breathe both air and water, and you gain a swimming speed equal to your walking speed.</p>
+<h4 id="spirit-of-servitude">Spirit of Servitude</h4>
+<p><em>Prerequisite: 7th-level Shaman</em></p>
+<p>You bind a minor Spirit of Loyalty to serve you in all things. The Totem you bind this Spirit to is always under the effects of the <em>tiny servant</em> spell. Should the Totem be reduced to zero hit points, it regenerates at the end of your next rest.</p>
+</details>
+<p></div>
+<div class="level-content" data-level="level-9"></p>
+<details class="feature">
+<summary>Totem Spirits (9th-Level Prerequisite)</summary>
+<h4 id="spirit-of-the-cave">Spirit of the Cave</h4>
+<p><em>Prerequisite: 9th-level Shaman</em></p>
+<p>You bind a Spirit of Earth that lends you its connection to the ground. While you are touching the ground with bare feet or a hand, you gain tremorsense out to a 30-foot radius, allowing you to sense the presence of any creatures or objects that are touching the ground within the area.</p>
+<h4 id="spirit-of-the-dawn">Spirit of the Dawn</h4>
+<p><em>Prerequisite: 9th-level Shaman</em></p>
+<p>You bind a Spirit of Life which can shield mortals from death. At the end of each long rest, you cast the <em>death ward</em> ᴸᴸ spell on one creature you touch, without expending a spell slot.</p>
+<h4 id="spirit-of-dread">Spirit of Dread</h4>
+<p><em>Prerequisite: 9th-level Shaman, Mind Sacred Focus</em></p>
+<p>You bind a sinister Spirit of Fear to unleash upon your foes. When you use Totemic Assault, you can force the creature to make an Intelligence saving throw in place of Charisma. On a failure, you can reduce the damage by 2d8 to cause the target to be Frightened of you until the start of your next turn.</p>
+<h4 id="spirit-of-harmony">Spirit of Harmony</h4>
+<p><em>Prerequisite: 9th-level Shaman, Soul Sacred Focus</em></p>
+<p>You bind a Spirit of Friendship which calms your foes. When a creature fails its saving throw against Totemic Assault, you can choose to deal no damage and instead inflict the effects of the <em>calm emotions</em> spell until the start of your next turn.</p>
+<h4 id="spirit-of-midnight">Spirit of Midnight</h4>
+<p><em>Prerequisite: 9th-level Shaman</em></p>
+<p>You bind a sinister spirit which you can call to you. Once per long rest, you can expend a Conduit Magic spell slot to cast the <em>summon shadowspawn</em> spell. Its Totem replaces the normal material components of this spell.</p>
+<p>At 15th level, you can use this between each short or long rest.</p>
+<h4 id="spirit-of-the-rockslide">Spirit of the Rockslide</h4>
+<p><em>Prerequisite: 9th-level Shaman, Body Sacred Focus</em></p>
+<p>You bind a Spirit of Elemental Destruction to crush your foes. Whenever you use Totemic Assault, you can force the target to make a Strength saving throw in place of Charisma. On a failed save, the target suffers the normal damage of Totemic Assault and is knocked prone.</p>
+<h4 id="spirit-of-serenity">Spirit of Serenity</h4>
+<p><em>Prerequisite: 9th-level Shaman, Heart Sacred Focus</em></p>
+<p>You bind a Spirit of Serenity to still your inner self. Whenever you are forced to make a saving throw to resist being Charmed or Frightened, or to resist the effects of an enchantment spell, you have advantage on your roll.</p>
+<h4 id="spirit-of-sunlight">Spirit of Sunlight</h4>
+<p><em>Prerequisite: 9th-level Shaman</em></p>
+<p>You bind a Spirit of Radiance to help you find success when you fail. Once per long rest when you fail a saving throw, you can choose to re-roll, possibly turning failure into success.</p>
+<p>At 15th level you can do so twice between each long rest.</p>
+<h4 id="spirit-of-vengeance">Spirit of Vengeance</h4>
+<p><em>Prerequisite: 9th-level Shaman</em></p>
+<p>You bind a vengeful Fey Spirit which you can call to your aid. Once per long rest, you can expend one Conduit Magic spell slot to cast the <em>conjure fey</em> ᴸᴸ spell. This Totem replaces the normal material components of this spell.</p>
+<p>At 15th level, you can use this between each short or long rest.</p>
+<h4 id="spirit-of-the-vine">Spirit of the Vine</h4>
+<p><em>Prerequisite: 9th-level Shaman</em></p>
+<p>You bind a Spirit of Growth which lends you its wild power to restrain your foes. You can cast the <em>ensnaring strike</em> ᴸᴸ spell at 1st-level, at will, without expending a spell slot.</p>
+</details>
+<p></div>
+<div class="level-content" data-level="level-15"></p>
+<details class="feature">
+<summary>Totem Spirits (15th-Level Prerequisite)</summary>
+<h4 id="spirit-of-awakening">Spirit of Awakening</h4>
+<p><em>Prerequisite: 15th-level Shaman, Mind Sacred Focus</em></p>
+<p>You bind an ancient Spirit of Ascended Consciousness. You can sense the presence of any creature within 120 feet of you so long as it has an Intelligence of 4 or higher. You can also communicate telepathically with these creatures.</p>
+<h4 id="spirit-of-bedrock">Spirit of Bedrock</h4>
+<p><em>Prerequisite: 15th-level Shaman, Body Sacred Focus</em></p>
+<p>You bind an ancient Spirit of Earth which infuses your body with its resilience. Whenever you take damage, you reduce it by your Wisdom modifier (minimum of 1). Any force, necrotic, psychic, thunder, or radiant damage ignores this feature.</p>
+<h4 id="spirit-of-binding">Spirit of Binding</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You can quickly bind a natural Spirit to regain some of your lost power. Once between each long rest, you can use your action to regain one expended Conduit Magic spell slot.</p>
+<h4 id="spirit-of-the-eclipse">Spirit of the Eclipse</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You bind a powerful Spirit of Darkness that wards you from the arcane. You gain resistance to all damage from spells.</p>
+<h4 id="spirit-of-the-elements">Spirit of the Elements</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You bind a powerful Elemental Spirit to you. Once between each short or long rest, you can expend a Conduit Magic spell slot to cast the <em>conjure elemental</em> ᴸᴸ spell. Its Totem replaces the normal material components of this spell.</p>
+<h4 id="spirit-of-the-guardian">Spirit of the Guardian</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You bind a powerful Guardian Spirit to come to your defense. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the <em>create construct</em> ᴸᴸ spell as an action. This Totem replaces the normal material components of this spell.</p>
+<p>When you cast <em>create construct</em> ᴸᴸ in this way, it crumbles into dust and stone after 1 hour.</p>
+<h4 id="spirit-of-judgment">Spirit of Judgment</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You bind a heavenly spirit which comes to your aid. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the <em>conjure celestial</em> ᴸᴸ spell. Its Totem replaces the normal material components of this spell.</p>
+<h4 id="spirit-of-majesty">Spirit of Majesty</h4>
+<p><em>Prerequisite: 15th-level Shaman, Heart Sacred Focus</em></p>
+<p>You bind an ancient Fey Spirit of royalty that you can unleash to humble your enemies. As an action, you force creatures of your choice within 30 feet that can see or hear you to make a Wisdom saving throw. On a failure, they instantly fall prone. Creatures immune to the Charmed condition have advantage on this Wisdom saving throw.</p>
+<p>You can use this feature once per long rest at no cost, but you can expend a Conduit Magic spell slot to use it again.</p>
+<h4 id="spirit-of-peace">Spirit of Peace</h4>
+<p><em>Prerequisite: 15th-level Shaman, Soul Sacred Focus</em></p>
+<p>You bind an ancient Spirit of Life which deters your enemies. At the end of each short or long rest, you gain the benefits of the <em>sanctuary</em> spell, which last until the end of your next short or long rest, or until you break the spell as normal.</p>
+<h4 id="spirit-of-purgation">Spirit of Purgation</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You bind an infernal spirit to unleash on your foes. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the <em>conjure fiend</em> ᴸᴸ spell, using its Totem in place of the spell's normal material components.</p>
+<h4 id="spirit-of-the-sapling">Spirit of the Sapling</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You bind a powerful Spirit of Verdant Growth which blesses your body with wondrous regeneration. If you begin your turn with less than half your hit points, but at least 1 hit point, you instantly regain hit points equal to your Wisdom modifier.</p>
+<h4 id="spirit-of-the-skies">Spirit of the Skies</h4>
+<p><em>Prerequisite: 15th-level Shaman</em></p>
+<p>You bind a powerful Spirit of Air which propels you through the skies. You gain a flying speed equal to your walking speed. Whenever you take falling damage, you reduce the damage by an amount equal to your Shaman level.</p>
+</details>
+</div>
+</div>
+<div class="tabbed-block">
+<details class="table">
+<summary>Shaman Spell List</summary>
+<p>Spells marked with <em>(r)</em> can be cast as a Ritual.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Cantrips</th>
+<th style="text-align: center;">1st Level</th>
+<th style="text-align: center;">2nd Level</th>
+<th style="text-align: center;">3rd Level</th>
+<th style="text-align: center;">4th Level</th>
+<th style="text-align: center;">5th Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>beckon air</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>absorb elements</em></td>
+<td style="text-align: center;"><em>aid</em></td>
+<td style="text-align: center;"><em>bestow curse</em></td>
+<td style="text-align: center;"><em>accursed touch</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>antilife shell</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>blade ward</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>animal friendship</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>alter self</em></td>
+<td style="text-align: center;"><em>clairvoyance</em></td>
+<td style="text-align: center;"><em>arcane eye</em></td>
+<td style="text-align: center;"><em>awaken</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>chill touch</em></td>
+<td style="text-align: center;"><em>bane</em></td>
+<td style="text-align: center;"><em>augury</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>daylight</em></td>
+<td style="text-align: center;"><em>banishment</em></td>
+<td style="text-align: center;"><em>cloudkill</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>control flame</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>beast bond</em></td>
+<td style="text-align: center;"><em>barkskin</em></td>
+<td style="text-align: center;"><em>dire wail</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>control water</em></td>
+<td style="text-align: center;"><em>commune</em> <em>(r)</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>create bonfire</em></td>
+<td style="text-align: center;"><em>bless</em></td>
+<td style="text-align: center;"><em>blur</em></td>
+<td style="text-align: center;"><em>dispel magic</em></td>
+<td style="text-align: center;"><em>divination</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>commune with nature</em> <em>(r)</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>frostbite</em></td>
+<td style="text-align: center;"><em>cause fear</em></td>
+<td style="text-align: center;"><em>continual flame</em></td>
+<td style="text-align: center;"><em>elemental bane</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>faithful hound</em></td>
+<td style="text-align: center;"><em>dawn</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>guidance</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>ceremony</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>darkness</em></td>
+<td style="text-align: center;"><em>elemental weapon</em></td>
+<td style="text-align: center;"><em>fire shield</em></td>
+<td style="text-align: center;"><em>dispel evil &amp; good</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>magic stone</em></td>
+<td style="text-align: center;"><em>command</em></td>
+<td style="text-align: center;"><em>dust devil</em></td>
+<td style="text-align: center;"><em>feign death</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>freedom of movement</em></td>
+<td style="text-align: center;"><em>dream</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>mold earth</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>conjure familiar</em> <em>(r)</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>earthbind</em></td>
+<td style="text-align: center;"><em>gaseous form</em></td>
+<td style="text-align: center;"><em>giant insect</em></td>
+<td style="text-align: center;"><em>far step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>otherworldly grasp</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>cure wounds</em></td>
+<td style="text-align: center;"><em>enhance ability</em></td>
+<td style="text-align: center;"><em>haste</em></td>
+<td style="text-align: center;"><em>guardian of nature</em></td>
+<td style="text-align: center;"><em>planar binding</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>poison spray</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>detect evil &amp; good</em></td>
+<td style="text-align: center;"><em>gentle repose</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>life transference</em></td>
+<td style="text-align: center;"><em>polymorph</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>reincarnate</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>primal savagery</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>detect magic</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>gust of wind</em></td>
+<td style="text-align: center;"><em>magic circle</em></td>
+<td style="text-align: center;"><em>sickening radiance</em></td>
+<td style="text-align: center;"><em>scrying</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>seance</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>dissonant whispers</em></td>
+<td style="text-align: center;"><em>heat metal</em></td>
+<td style="text-align: center;"><em>nondetection</em></td>
+<td style="text-align: center;"><em>stoneskin</em></td>
+<td style="text-align: center;"><em>skill empowerment</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>shape water</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>entangle</em></td>
+<td style="text-align: center;"><em>locate creature</em> <em>(r)</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>phantom steed</em> <em>(r)</em></td>
+<td style="text-align: center;"><em>watery sphere</em></td>
+<td style="text-align: center;"><em>spiritual sundering</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>shillelagh</em></td>
+<td style="text-align: center;"><em>expeditious retreat</em></td>
+<td style="text-align: center;"><em>misty step</em></td>
+<td style="text-align: center;"><em>plant growth</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>wrath of nature</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>spare the dying</em></td>
+<td style="text-align: center;"><em>false life</em></td>
+<td style="text-align: center;"><em>moonbeam</em></td>
+<td style="text-align: center;"><em>protection from energy</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>thaumaturgy</em></td>
+<td style="text-align: center;"><em>fog cloud</em></td>
+<td style="text-align: center;"><em>pass without trace</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>remove curse</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>thorn whip</em></td>
+<td style="text-align: center;"><em>ghastly flight</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>protection from poison</em></td>
+<td style="text-align: center;"><em>slow</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>thunderclap</em></td>
+<td style="text-align: center;"><em>heroism</em></td>
+<td style="text-align: center;"><em>spike growth</em></td>
+<td style="text-align: center;"><em>speak with dead</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>toll the dead</em></td>
+<td style="text-align: center;"><em>inflict wounds</em></td>
+<td style="text-align: center;"><em>totemic cowl</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>spectral passage</em> ᴸᴸ</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>longstrider</em></td>
+<td style="text-align: center;"><em>warding wind</em></td>
+<td style="text-align: center;"><em>spirit guardians</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>protection from evil &amp; good</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>stinking cloud</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>purify food &amp; drink</em> <em>(r)</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>tiny hut</em> <em>(r)</em> ᴸᴸ</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>sanctuary</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>tongues</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>shield of faith</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>wall of sand</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>sleep</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>wall of water</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>unseen servant</em> <em>(r)</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>wind wall</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>witch bolt</em> ᴸᴸ</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</details>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a spirituality:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="astrologer">Astrologer</option>
+  <option value="blood-priest">Blood Priest</option>
+  <option value="curse-binder">Curse Binder</option>
+  <option value="elementalist">Elementalist</option>
+  <option value="far-seer">Far Seer</option>
+  <option value="idolater">Idolater</option>
+  <option value="spirit-guide">Spirit Guide</option>
+  <option value="spirit-warrior">Spirit Warrior</option>
+  <option value="wild-heart">Wild Heart</option>
+  <option value="witch-doctor">Witch Doctor</option>
+  <option value="wyrmbound">Wyrmbound</option>
+</select></p>
+<div class="subclass-content" data-subclass="astrologer">
+<details class="subclass">
+<summary>Astrologer</summary>
+<p>Since the earliest days of civilization, mortals have looked to the stars for guidance. Drawing upon the Spirits that move these celestial bodies, Astrologer Shamans can channel the radiant power of the great Constellations that guide the mortal world.</p>
+<h3 id="level-2-astrologer-spells">Level 2 - Astrologer Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Astrologer Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>ceremony</em>, <em>guiding bolt</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>augury</em>, <em>moonbeam</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>daylight</em>, <em>hypnotic pattern</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>divination</em>, <em>guardian of faith</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>commune</em>, <em>wall of light</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-celestial-guidance">Level 2 - Celestial Guidance</h3>
+<p>The great Constellations of the night sky guide you and reveal the past. You gain proficiency in History. Whenever you make a History check related to legend or myth, you use Wisdom in place of Intelligence and add double your proficiency bonus.</p>
+<p>Finally, you cannot become lost, even by magical means, so long as you can see the stars of the night sky.</p>
+<h3 id="level-2-totemic-radiance">Level 2 - Totemic Radiance</h3>
+<p>You bind the radiant Spirits of the Heavens to your Totems. Your Totemic Assault now deals radiant damage, and when a creature fails its saving throw, you apply the effects of one of the Constellations below until the start of your next turn:</p>
+<p><strong>Champion.</strong> The creature has disadvantage on all attacks it makes against one creature of your choice within 30 feet of it.</p>
+<p><strong>Leviathan.</strong> Totemic Assault uses d12s for its damage dice.</p>
+<p><strong>Maiden.</strong> The creature emits bright light in a 5-foot radius, and has disadvantage on any ability check it makes to Hide.</p>
+<p><strong>Sage.</strong> The creature must subtract 1d4 from the next ability check or saving throw that it is forced to make.</p>
+<h3 id="level-6-lure-of-the-heavens">Level 6 - Lure of the Heavens</h3>
+<p>Your connection to Celestial Spirits draws you upward from the ground. You walk 1-inch off the ground and therefore do not leave tracks. You can use this ability to walk over liquids and dangerous surfaces without touching the ground.</p>
+<h3 id="level-10-celestial-jaunt">Level 10 - Celestial Jaunt</h3>
+<p>You call on celestial Spirits to twist space. When a Large or smaller creature fails its save against Totemic Assault, you can forgo its normal damage and effects to instead teleport it to an unoccupied, flat space you can see within 30 feet.</p>
+<p>You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), and you regain all of your expended uses when you finish a long rest.</p>
+<h3 id="level-14-radiant-burst">Level 14 - Radiant Burst</h3>
+<p>You can channel the full radiant might of the stars above. You learn the <em>crown of stars</em> spell and it counts as a Shaman spell for you. You can cast it once between each long rest, at 7th-level without expending a spell slot.</p>
+<p>You can also apply two Constellation effects to a creature when it fails its saving throw against Totemic Assault.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="blood-priest"></p>
+<details class="subclass">
+<summary>Blood Priest</summary>
+<p>In ancient days, elder Shamans communed with Spirits that desired mortal blood above all. Over time, the Spirits taught the first Blood Priests the dark secrets of blood magic, and in return, they offered these elder Spirits the blood of their foes.</p>
+<h3 id="level-2-blood-priest-spells">Level 2 - Blood Priest Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Blood Priest Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>false life</em>, <em>ray of sickness</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>hold person</em>, <em>ray of enfeeblement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>bestow curse</em>, <em>slow</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>death ward</em> ᴸᴸ, <em>dominate creature</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>contagion</em>, <em>hold monster</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-blood-totems">Level 2 - Blood Totems</h3>
+<p>Ancient Spirits have taught you to siphon life-blood and bind its spiritual power to Blood Totems using the rules below:</p>
+<p><strong>Bound Totems.</strong> You start with a single Blood Totem that does not count against your total number of Bound Totems. However, at the end of a long rest, you can forgo any number of Bound Totems to instead create that many Blood Totems.</p>
+<p><strong>Harvesting.</strong> When you deal necrotic, piercing, or slashing damage to a creature within 10 feet of you, you can choose to harvest its blood, causing one Blood Totem you are holding to gain hit points equal to half the damage dealt. This ability has no effect on Constructs, Undead, or creatures without blood.</p>
+<p><strong>Hit Points.</strong> Blood Totems can store up to 25 hit points at one time. If a Blood Totem is at its maximum hit points, you can expend all its hit points to cast one of your Blood Priest spells at your Slot Level, without expending a slot or the spell's normal material components.</p>
+<p>When you finish a long rest, unused hit points stored within Blood Totems lose their magic and are dispelled.</p>
+<h3 id="level-2-cruel-implements">Level 2 - Cruel Implements</h3>
+<p>You have learned to use particular weapons to better harvest the life-blood of your foes. You gain proficiency with all melee weapons that deal piercing or slashing damage.</p>
+<h3 id="level-2-sanguine-shield">Level 2 - Sanguine Shield</h3>
+<p>Whenever you take damage while you are holding a Blood Totem, you can use a reaction to cause it to take the damage in your place. Should this reduce a Blood Totem to zero hit points, you take any remaining damage.</p>
+<h3 id="level-6-extra-attack">Level 6 - Extra Attack</h3>
+<p>You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Shaman spell or use Totemic Assault, you can make a single melee weapon attack as a bonus action.</p>
+<p>Attacks with your Cruel Implements also count as magical for overcoming resistances and immunities.</p>
+<h3 id="level-10-sanguine-curse">Level 10 - Sanguine Curse</h3>
+<p>Spirits that hunger for mortal vitality empower your magick. When you expend a Blood Totem to cast a Blood Priest spell, you can force the target to make a Constitution saving throw in place of the normal saving throw for that spell. If you have hit points harvested from the target of the spell in that Blood Totem, it makes this saving throw with disadvantage.</p>
+<p>Also, when a creature takes damage from Totemic Assault, you can harvest hit points regardless of its distance from you.</p>
+<h3 id="level-14-crimson-ascendant">Level 14 - Crimson Ascendant</h3>
+<p>You have stained your soul with the blood of mortals in order to satisfy the hunger of dark Spirits. Whenever you damage a creature with a Cruel Implement, hit points you harvest for your Blood Totems are no longer halved.</p>
+<p>You also start with three Blood Totems before you must forgo Bound Totems to create Blood Totems.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="curse-binder"></p>
+<details class="subclass">
+<summary>Curse Binder</summary>
+<p>While most Shamans use the power of Spirits to work magic and heal the sick, some twist this connection, binding sinister Spirits to enemies. Known as Curse Binders, these Shamans wield the sinister spiritual power present in the world. Often apprentices of hags or entities from the Shadowfell, they use ancient techniques to afflict their foes with hexes and curses.</p>
+<h3 id="level-2-curse-binder-spells">Level 2 - Curse Binder Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Curse Binder Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>bane</em>, <em>cause fear</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>blindness/deafness</em>, <em>ray of enfeeblement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>bestow curse</em>, <em>vampiric touch</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>blight</em>, <em>phantasmal killer</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>contagion</em>, <em>enervation</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-evil-eye">Level 2 - Evil Eye</h3>
+<p>You can curse with a glance. When a creature that you can see within 60 feet hits with an attack roll, or succeeds on an ability check or saving throw, you can use a reaction to roll 1d4 and subtract it from its roll, possibly causing it to fail.</p>
+<p>You can use this reaction a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.</p>
+<h3 id="level-2-totemic-curse">Level 2 - Totemic Curse</h3>
+<p>You bind Spirits of pain, suffering, and despair to inflict upon your foes. Whenever a creature fails its saving throw against Totemic Assault, you inflict one of the following conditions on it until the beginning of your next turn:</p>
+<ul>
+<li>Its speed is halved and it cannot take reactions.</li>
+<li>It cannot regain hit points, and whenever it takes damage it takes an additional 1d4 necrotic damage.</li>
+<li>It is Blinded to anything more than 15 feet away from it.</li>
+</ul>
+<h3 id="level-6-sinister-vitality">Level 6 - Sinister Vitality</h3>
+<p>Sinister spirits drain life from your foes. Whenever you deal necrotic damage to a creature with Totemic Assault, you gain temporary hit points equal to half the necrotic damage dealt.</p>
+<p>This has no effect on Constructs or Undead creatures.</p>
+<h3 id="level-10-occult-ward">Level 10 - Occult Ward</h3>
+<p>Your familiarity with foul magick and sinister curses protect you from similar effects. You gain resistance to both poison and necrotic damage, and have advantage on saving throws to resist the Charmed and Frightened conditions.</p>
+<p>Also, when you succeed on a saving throw to resist being Charmed or Frightened, you can use your reaction to target your attacker with Totemic Assault.</p>
+<h3 id="level-14-foul-conjuration">Level 14 - Foul Conjuration</h3>
+<p>You have reached the apex of sinister shamanism, the ability to create corporeal bodies for vile Spirits you bind. Once per long rest, you can cast <em>create undead</em> ᴸᴸ at 6th-level without expending a spell slot or providing the material components.</p>
+<p>Any Undead creatures that you create with this feature crumble to dust at the end of your next long rest.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="elementalist"></p>
+<details class="subclass">
+<summary>Elementalist</summary>
+<p>Some Shamans gain their abilities while living near places of raw elemental power: active volcanoes, amongst the sands of blazing deserts, atop frigid mountain peaks, or on the stormy coasts of the ocean. Known as Elementalists, these Shamans learn to draw out the most destructive Elemental Spirits and channel them to devastating effect against their enemies.</p>
+<h3 id="level-2-elemental-sage">Level 2 - Elemental Sage</h3>
+<p>The primordial Spirits of nature have taught you the secrets of elemental mastery. During a long rest, you can perform a 1-hour ritual to attune to an Elemental Spirit until the end of your next long rest, choosing Air, Earth, Fire, or Water. This Elemental Spirit grants you resistance to, and affinity with, the type of damage associated with it:</p>
+<details class="table">
+<summary>Elemental Spirit</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Air</th>
+<th style="text-align: center;">Earth</th>
+<th style="text-align: center;">Fire</th>
+<th style="text-align: center;">Water</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Thunder</td>
+<td style="text-align: center;">Bludgeoning</td>
+<td style="text-align: center;">Fire</td>
+<td style="text-align: center;">Cold</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-elementalist-spells">Level 2 - Elementalist Spells</h3>
+<p>You always have spells associated with your current Elemental Spirit prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Elementalist Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: center;">Air Spells</th>
+<th style="text-align: center;">Earth Spells</th>
+<th style="text-align: center;">Fire Spells</th>
+<th style="text-align: center;">Water Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;"><em>thunderwave</em></td>
+<td style="text-align: center;"><em>earth tremor</em></td>
+<td style="text-align: center;"><em>burning hands</em></td>
+<td style="text-align: center;"><em>torrent</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;"><em>shatter</em></td>
+<td style="text-align: center;"><em>earthen grasp</em></td>
+<td style="text-align: center;"><em>flaming sphere</em></td>
+<td style="text-align: center;"><em>snowball swarm</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;"><em>lightning bolt</em></td>
+<td style="text-align: center;"><em>erupting earth</em></td>
+<td style="text-align: center;"><em>fireball</em></td>
+<td style="text-align: center;"><em>tidal wave</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;"><em>storm sphere</em></td>
+<td style="text-align: center;"><em>pillars of earth</em> ᴸᴸ</td>
+<td style="text-align: center;"><em>wall of fire</em></td>
+<td style="text-align: center;"><em>ice storm</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;"><em>control winds</em></td>
+<td style="text-align: center;"><em>wall of stone</em></td>
+<td style="text-align: center;"><em>immolation</em></td>
+<td style="text-align: center;"><em>cone of cold</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-totemic-destruction">Level 2 - Totemic Destruction</h3>
+<p>The Elemental Spirit you are attuned to infuses your Totems with its destructive power. Your Totemic Assault gains all the benefits below associated with your current Elemental Spirit:</p>
+<p><strong>Air.</strong> Totemic Assault deals thunder damage, and on a failed save, the target is moved up to 15 feet in a straight line. This distance is reduced by 5 feet for each size it is over Medium.</p>
+<p><strong>Earth.</strong> Totemic Assault deals bludgeoning damage, and on a failed save, a Large or smaller creature is knocked prone.</p>
+<p><strong>Fire.</strong> Totemic Assault deals fire damage, and the damage dice of Totemic Assault become d12s.</p>
+<p><strong>Water.</strong> Totemic Assault deals cold damage, and on a failed save, until the start of your next turn the creature cannot take reactions and its speed is reduced by 10 feet.</p>
+<h3 id="level-6-elemental-wrath">Level 6 - Elemental Wrath</h3>
+<p>The power you draw from the Elemental Spirits has grown. You bind a Spirit of Wrath, but it does not count against your total number of Bound Spirits. You can also apply the Spirit of Wrath bonus damage to any Shaman spell or feature that deals the damage type of your Elemental Spirit.</p>
+<p>If you already had a Spirit of Wrath as one of your Bound Totems, you can bind another Totem Spirit of your choice so long as you also meet the prerequisites for that Totem Spirit.</p>
+<h3 id="level-6-elemental-empowerment">Level 6 - Elemental Empowerment</h3>
+<p>The Elemental Spirit you attune to infuses your physical body, granting you mystical benefits. You gain the benefits below that correspond to your current Elemental Spirit:</p>
+<p><strong>Air.</strong> You can take the Dash action as a bonus action. Whenever you take the Dash action, opportunity attacks are made with disadvantage against you.</p>
+<p><strong>Earth.</strong> Whenever you are forced to make a Strength ability check or saving throw, you gain a bonus to your roll equal to your Wisdom modifier (a minimum of +1).</p>
+<p><strong>Fire.</strong> When you are forced to make a saving throw to resist being Charmed or Frightened, you can add your Wisdom modifier (a minimum of +1) to your roll.</p>
+<p><strong>Water.</strong> You gain a swimming speed equal to your walking speed. You can also hold your breath underwater for up to 1 hour. If you already have a swimming speed, you can Dash as a bonus action while you are swimming.</p>
+<h3 id="level-10-primordial-conduit">Level 10 - Primordial Conduit</h3>
+<p>Your power rivals native Spirits of the four Elemental Planes. Once between each short or long rest, you can cast one Elementalist Spell at the level of your Conduit Magic spell slots, without expending a spell slot.</p>
+<p>Also, whenever you deal the damage type of your Elemental Spirit, you gain temporary hit points equal to half the damage dealt to a single target.</p>
+<h3 id="level-14-elder-elemental-spirits">Level 14 - Elder Elemental Spirits</h3>
+<p>You wield the primordial elemental power of the most destructive aspects of nature. When attuned to your Elemental Spirit, you also gain the benefits from its corresponding Elder Spirit:</p>
+<details class="table">
+<summary>Elder Spirit</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Attuned Element</th>
+<th style="text-align: center;">Elder Spirit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Air</td>
+<td style="text-align: center;">Spirit of the Storm</td>
+</tr>
+<tr>
+<td style="text-align: center;">Earth</td>
+<td style="text-align: center;">Spirit of the Fissure</td>
+</tr>
+<tr>
+<td style="text-align: center;">Fire</td>
+<td style="text-align: center;">Spirit of the Inferno</td>
+</tr>
+<tr>
+<td style="text-align: center;">Water</td>
+<td style="text-align: center;">Spirit of the Sea</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>You can still only cast a single Elder Spirit spell of each level per long rest, choosing between the spells of each of your Elder Spirits.</p>
+<h3 id="level-14-master-of-the-elements">Level 14 - Master of the Elements</h3>
+<p>As a bonus action, you can draw Spirits of all four elements into yourself, gaining the following benefits for 1 minute:</p>
+<ul>
+<li>You gain a flying speed equal to your walking speed.</li>
+<li>You resist bludgeoning, cold, fire, and thunder damage.</li>
+<li>When a creature moves within 10 feet or hits you with an attack, you can use a reaction to force it to make a Dexterity saving throw or suffer the effects of your Totemic Assault.</li>
+<li>When you use Totemic Assault, you can choose which of the four Elemental effects it imposes on a failed save.</li>
+</ul>
+<p>This transformation ends early if you are incapacitated or use your bonus action to end it. You can use this feature once per long rest at no cost, after that you must spend a Conduit Magic spell slot to use this feature again.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="far-seer"></p>
+<details class="subclass">
+<summary>Far Seer</summary>
+<p>Many Shamans initially discover their connection to the spirit world when they perform rituals to divine the future. Should these amateur spiritualists pursue this connection they learn to channel Spirits as a Far Seer, a Shaman who can glimpse both past and future, and use spiritual power to alter Fate.</p>
+<h3 id="level-2-far-seer-spells">Level 2 - Far Seer Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Far Seer Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>comprehend languages</em>, <em>detect magic</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>augury</em>, <em>detect thoughts</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>clairvoyance</em>, <em>tongues</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>arcane eye</em>, <em>divination</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>contact other plane</em>, <em>scrying</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-spirits-of-fate">Level 2 - Spirits of Fate</h3>
+<p>You have learned to bind minor Spirits of Fate and unleash them to influence the world around you in minor ways. Each time you finish a short or long rest, roll two d4s, your Fate Dice, and record the numbers you rolled.</p>
+<p>When you or a creature you can see within 60 feet makes an ability check, attack roll, or saving throw, you can use your reaction to apply one of these Fate Dice to the roll, adding or subtracting it from the result. You can use this reaction after you know the result of the roll, but before you know if the roll would be a success or failure.</p>
+<p>Each Fate Die can be used only once, and any unused Fate Dice are lost at the end of a short or long rest.</p>
+<p>At certain Shaman levels, your Fate Dice grow: at 6th level (d6), 10th level (d8), and 14th level (d10).</p>
+<h3 id="level-2-totemic-ritualist">Level 2 - Totemic Ritualist</h3>
+<p>The Spirits bound within your Totems enhance your ritual magic. When you cast the Ritual version of a Shaman spell, you can use a Totem in place of any material component that is not consumed. When you do, the Ritual version of that spell only takes 1 additional minute, instead of 10 minutes.</p>
+<p>Also, whenever you cast a divination spell and use a Totem as the spellcasting focus, the Totem can replace any material components with a gold value so long as it is not consumed.</p>
+<h3 id="level-6-ascended-awareness">Level 6 - Ascended Awareness</h3>
+<p>The Spirits of Fate constantly whisper secrets to you, filling your mind with constant glimpses of the near future. So long as you are not incapacitated you cannot be surprised, and you add your Wisdom modifier (minimum of +1) to initiative rolls.</p>
+<h3 id="level-10-certain-fate">Level 10 - Certain Fate</h3>
+<p>The future is fickle and constantly changing, but once you glimpse something, it nearly always comes to pass. When you use your reaction to add a Fate Die to a roll and it does not change the outcome of that roll, the Die is not expended.</p>
+<h3 id="level-14-tip-the-scales">Level 14 - Tip the Scales</h3>
+<p>You can effect Fate in ways that rival elder Spirits, if only in small moments. When a creature you can see within 60 feet finishes its turn, you can use your reaction to expend one of your Fate Dice, and force the creature to repeat that turn.</p>
+<p>Anything that happened during its turn is undone, and the target must repeat its turn exactly, taking the same exact course of action, but any dice rolled on that turn are rolled again, and all creatures use the new results.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="idolater"></p>
+<details class="subclass">
+<summary>Idolater</summary>
+<p>Since the dawn of time mortal Shamans have used the magic of idolatry to force powerful Spirits to carry out their bidding. Using ancient magic, they bind spiritual entities within Idols, and once bound, focus their spiritual power on friend and foe.</p>
+<h3 id="level-2-idolater-spells">Level 2 - Idolater Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Idolater Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>bless</em>, <em>fog cloud</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>healing spirit</em>, <em>spike growth</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>beacon of hope</em>, <em>sleet storm</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>accursed touch</em> ᴸᴸ, <em>aura of life</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>antilife shell</em>, <em>create construct</em> ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-totemic-idol">Level 2 - Totemic Idol</h3>
+<p>You have learned to craft powerful Idols. You gain proficiency in mason's tools, and over the course of 1 hour, which can be during a short or long rest, you can craft an Idol. You can only have one Idol. Crafting another destroys all other Idols.</p>
+<p>The Idol is a Small stone object with an Armor Class equal to your Shaman Spell save DC and hit points equal to 10 + your Shaman level. It is resistant to non-magical bludgeoning, piercing, and slashing damage.</p>
+<p>As an action, you can plant this Idol on a flat, unoccupied surface and cast a Shaman spell with a casting time of one action or bonus action that requires concentration. The effect of the spell occurs as normal, but you do not need to concentrate on it.</p>
+<p>If the spell has a target of self, the effect of the spell is centered on the Idol. The spell is active until that Idol is destroyed, or you use your action to move it. If a target of the spell moves more than 60 feet away from the Idol, the effects of the spell end for it.</p>
+<h3 id="level-6-spiritual-vortex">Level 6 - Spiritual Vortex</h3>
+<p>Your Totemic Idol magnifies your spiritual power. While your stone Idol is planted in the ground, you can target it with your Totemic Assault. In place of its normal effects, all creatures of your choice within 20 feet of the Idol must make a Charisma saving throw or suffer the effects of Totemic Assault.</p>
+<p>In addition, while planted, your Totemic Idol is immune to all non-magical bludgeoning, piercing, and slashing damage.</p>
+<h3 id="level-10-guardian-idol">Level 10 - Guardian Idol</h3>
+<p>In times of great need, the Spirits within your Totemic Idol can be called to your aid. As an action, you can cast the <em>create construct</em> ᴸᴸ spell on your Totemic Idol, giving it life. When you do so, the spell gains the following benefits:</p>
+<ul>
+<li>You do not expend a spell slot, but the spell is cast at the level of your Conduit Magic spell slots.</li>
+<li>The Idol replaces the spell's normal material components.</li>
+<li>The spell does not require your concentration.</li>
+<li>You can use Spiritual Vortex on the Guardian Idol.</li>
+<li>The Guardian Idol gains temporary hit points equal to the hit points your Totemic Idol had when you cast this spell.</li>
+</ul>
+<p>When this spell ends or your Guardian Idol is destroyed, your Totemic Idol is destroyed along with it, and you can only have a single instance of <em>create construct</em> active at a time.</p>
+<h3 id="level-14-high-idolater">Level 14 - High Idolater</h3>
+<p>You have mastered the ancient and powerful magic of Idols. You can have up to two Totemic Idols at once, though each Idol must be crafted individually. They can also both be active at one time, each concentrating on a single spell. You can only have one Guardian Idol.</p>
+<p>Finally, when one of your Idols or a Guardian Idol is destroyed, creatures of your choice within 30 feet of it must succeed on a Dexterity saving throw against your Shaman Spell save DC or suffer the effects of Totemic Assault. On a success, they suffer half damage, but none of the additional effects.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="spirit-guide"></p>
+<details class="subclass">
+<summary>Spirit Guide</summary>
+<p>While most Shamans bind many Spirits, Shamans known as Spirit Guides form a single bond with their Geist Spirit. Often the Spirits of departed Shamans, Geists increase in power alongside the Shaman they are bound to, and can even channel the power bound within Totems.</p>
+<h3 id="level-2-totemic-bond">Level 2 - Totemic Bond</h3>
+<p>You forged a bond with a unique Spirit known as a Geist. Your Geist is friendly to you and your allies, and it obeys your commands. It uses the Geist Spirit stat block, which uses your Shaman Spell save DC and your proficiency bonus (PB) in several places.</p>
+<p><strong>Conjuring the Geist.</strong> During a long rest, you can perform a 1-hour ritual to conjure your Geist Spirit, or restore your current Geist to its full hit points. If the Geist is reduced to 0 hit points it is banished to the Ethereal Plane. As an action, you can expend a Conduit Magic spell slot to conjure your Geist, restoring it to its full hit points in an unoccupied space within 5 feet.</p>
+<p><strong>Combat.</strong> The Geist acts during your turn. It can move and use its reaction on its own, but it only takes the Dodge action unless you use your bonus action to command it to take one of the actions listed in its stat block, or another action.</p>
+<details class="undead">
+<summary>Geist Spirit</summary>
+<p><em>Medium Undead</em></p>
+<ul>
+<li><strong>Armor Class</strong> 13 + PB (natural armor)</li>
+<li><strong>Hit Points</strong> 5 + five times your Shaman level</li>
+<li><strong>Speed</strong> 0 ft., fly 30 ft. (hover)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+<th style="text-align: center;">INT</th>
+<th style="text-align: center;">WIS</th>
+<th style="text-align: center;">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">6 (−2)</td>
+<td style="text-align: center;">14 (+2)</td>
+<td style="text-align: center;">11 (+0)</td>
+<td style="text-align: center;">8 (−1)</td>
+<td style="text-align: center;">16 (+3)</td>
+<td style="text-align: center;">13 (+1)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Languages</strong> Understands any languages its Spirit Guide speaks, but cannot speak itself.</p>
+<p><strong>Conduit.</strong> Whenever you cast a Shaman spell, you can choose for the spell to originate from the Geist.</p>
+<p><strong>Ethereal Bond.</strong> You add your PB to any ability check or saving throw that the Geist is forced to make.</p>
+<p><strong>Ghastly Glide.</strong> Even though the Geist has a fly speed, it can only fly a maximum of 10 feet above a surface.</p>
+<p><strong>Totem Bearer.</strong> When you conjure your Geist, you can transfer any number of your Bound Totems to it. The Geist gains the benefits of the Totems, and you lose their benefits until the end of your next long rest.</p>
+<p><strong><em>Spectral Grasp.</em></strong> <em>Melee Spell Attack:</em> your Spell Attack Modifier to hit, reach 5 ft., one target. <em>Hit:</em> The target suffers the effects of your Totemic Assault.</p>
+</details>
+<h3 id="level-2-spirit-guide-spells">Level 2 - Spirit Guide Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Spirit Guide Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>ghastly flight</em> ᴸᴸ, <em>shield of faith</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>spiritual weapon</em>, <em>warding bond</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>spectral passage</em> ᴸᴸ, <em>spirit guardians</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>death ward</em> ᴸᴸ, <em>guardian of faith</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>arcane hand</em>, <em>wall of light</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-6-spectral-empowerment">Level 6 - Spectral Empowerment</h3>
+<p>As a bonus action, you can touch your Geist to merge with it and gain the benefits of the <em>spectral passage</em> spell. When the spell ends, you and your Geist instantly separate.</p>
+<h3 id="level-10-soul-bound">Level 10 - Soul Bound</h3>
+<p>The bond you share with your Geist allows you to seamlessly change places. As a bonus action, you can switch places with your Geist so long as it is within 120 feet and you can see it.</p>
+<p>You can use this feature as a reaction if you or your Geist takes damage. You switch, and the other takes the damage.</p>
+<h3 id="level-14-ethereal-mastery">Level 14 - Ethereal Mastery</h3>
+<p>You unleash the full power of your Geist. It can fly as normal, and it is always under the effect of the <em>spectral passage</em> spell.</p>
+<p>Lastly, when you use Spectral Empowerment, the effect does not require concentration, and you gain resistance to all damage except for force, psychic, radiant, and thunder.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="spirit-warrior"></p>
+<details class="subclass">
+<summary>Spirit Warrior</summary>
+<p>Serving as the guardians of sacred groves and places of great spiritual power, Spirit Warriors draw on the power of ancient Spirits to enhance their physical form. When they allow these incorporeal beings to walk the world through their physical bodies, they gain increased physical and martial abilities.</p>
+<h3 id="level-2-ancestral-knowledge">Level 2 - Ancestral Knowledge</h3>
+<p>When you adopt this Spirituality, Spirits of ancient warriors grant you their lifetimes' worth of combat experience. You gain proficiency with medium armor and martial weapons.</p>
+<h3 id="level-2-spirit-warrior-spells">Level 2 - Spirit Warrior Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Spirit Warrior Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>heroism</em>, <em>shield of faith</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>compelled duel</em> ᴸᴸ, <em>totemic cowl</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>clairvoyance</em>, <em>spirit shroud</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>guardian of faith</em>, <em>staggering smite</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>contact other plane</em>, <em>steel wind strike</em> ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-totemic-weapon">Level 2 - Totemic Weapon</h3>
+<p>You bind warrior Spirits to your weapons. During the course of a long rest, you can perform a 1-hour ritual to bind one of the Spirits below to a melee weapon you are holding. The weapon gains the benefits of the chosen Spirit until you use this ritual again.</p>
+<p>You can use your Wisdom, in place of Strength, for attack and damage rolls with this Totemic Weapon, and its attacks count as magical for overcoming resistance and immunity.</p>
+<p><strong>Spirit of Challenge.</strong> This Spirit compels foes to fight. When you hit a creature with this weapon, it has disadvantage on attacks it makes against creatures other than you until the start of your next turn.</p>
+<p><strong>Spirit of Draining.</strong> This Spirit siphons life from others to restore you. Once per turn when you hit a creature with this weapon, you can deal necrotic damage, and you gain temporary hit points equal to your Wisdom modifier (minimum of 1).</p>
+<p><strong>Spirit of Might.</strong> This Spirit fortifies your body. When you are wielding this weapon you add your Wisdom modifier (minimum of +1) to any Strength and Constitution based ability checks or saving throws you make.</p>
+<h3 id="level-6-extra-attack_1">Level 6 - Extra Attack</h3>
+<p>You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Shaman spell or use Totemic Assault, you can make an attack with your Totemic Weapon as a bonus action.</p>
+<h3 id="level-10-warrior-of-the-grave">Level 10 - Warrior of the Grave</h3>
+<p>The warrior Spirits that indwell you fortify you against bodily harm. After you take damage, you can use your reaction to gain temporary hit points equal to the damage taken.</p>
+<p>You can use this reaction a number of times equal to your Wisdom modifier (a minimum of once), and you regain all of your expended uses when you complete a long rest.</p>
+<h3 id="level-14-spiritual-champion">Level 14 - Spiritual Champion</h3>
+<p>You can offer the Spirits full control over you, granting you temporary mystical power. As a bonus action, you can enter a possessed state, gaining the following benefits for 1 minute:</p>
+<ul>
+<li>You can take the Dash action as a bonus action.</li>
+<li>You gain resistance to all bludgeoning, piercing, and slashing damage from non-silvered attacks.</li>
+<li>Once per turn when you hit a creature with your Totemic Weapon, you can apply the effects of Totemic Assault.</li>
+</ul>
+<p>Once you use this feature you must finish a short or long rest before you can use it again. If you have no uses left, you can expend a Conduit Magic slot to use this feature again.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="wild-heart"></p>
+<details class="subclass">
+<summary>Wild Heart</summary>
+<p>Often raised by, or closely with, wild beasts, Shamans known as Wild Hearts develop an intense spiritual connection with the wild. This intense devotion, when combined with spiritual power, allows a Wild Heart to transform into the Great Beast, the legendary guardian Spirit of all wild plants and animals.</p>
+<h3 id="level-2-wild-heart-spells">Level 2 - Wild Heart Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Wild Heart Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>animal friendship</em>, <em>jump</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>conjure beast</em> ᴸᴸ, <em>locate creature</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>fear</em>, <em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>dominate creature</em> ᴸᴸ, <em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>hold monster</em>, <em>tree stride</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-bestial-adaptation">Level 2 - Bestial Adaptation</h3>
+<p>Your time spent in the wilds has given you bestial qualities. Your speed increases by 10 feet, and you gain both a climbing speed and a swimming speed equal to your walking speed.</p>
+<h3 id="level-2-totemic-wild-shape">Level 2 - Totemic Wild Shape</h3>
+<p>As a bonus action, you can transform and take on the shape of the Great Beast, the legendary guardian of all wild creatures. The Great Beast uses the rules below:</p>
+<p><strong>Stat Block.</strong> Your game statistics are replaced by those in the Great Beast stat block. It uses your Spell save DC and proficiency bonus (PB). While transformed you retain your alignment, personality, hit points, all skill and saving throw proficiencies, and your Intelligence, Wisdom, and Charisma scores. You also determine its appearance.</p>
+<p><strong>Temporary Hit Points.</strong> When you transform, you gain temporary hit points equal to twice your Shaman level, and they last for the duration of your current transformation.</p>
+<p><strong>Equipment.</strong> Any natural or unrefined equipment you are wearing or carrying, such as objects made of wood, animal parts, or other natural materials, can merge with your Great Beast form. Any metal or other highly processed equipment fall to the ground.</p>
+<p><strong>Features.</strong> You retain the benefits of all features from your class, player race, and other sources, and can still use them if the Beast is physically capable of doing so. However, you lose any special senses, unless the Beast also has that sense. You can still use Totemic Assault and any abilities you gain from your Totems while in Great Beast form.</p>
+<p><strong>Casting Spells.</strong> You cannot cast spells in your Great Beast form. However, you can maintain concentration on spells or other abilities used before you transformed.</p>
+<p><strong>Duration &amp; Uses.</strong> You can remain in Great Beast form for 1 hour. Your transformation ends early if you end it as a bonus action or if you are reduced to 0 hit points. You can transform once between each short or long rest. If you have no uses left, you can expend a Conduit Magic spell slot to transform again.</p>
+<details class="beast">
+<summary>Great Beast</summary>
+<p><em>Medium Beast</em></p>
+<ul>
+<li><strong>Armor Class</strong> 13 + PB (natural armor)</li>
+<li><strong>Speed</strong> 40 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">18 (+4)</td>
+<td style="text-align: center;">14 (+2)</td>
+<td style="text-align: center;">15 (+2)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Senses</strong> darkvision 60 ft.</p>
+<p><strong>Bestial Traits.</strong> Each transformation, the Great Beast gains a number of Bestial Traits from the Bestial Traits list below equal to your Slot Level.</p>
+<p><strong>Primal Fury.</strong> When the Great Beast makes an ability check or saving throw that uses Strength, Dexterity, or Constitution, it adds your PB to its roll.</p>
+<p><strong><em>Bite.</em></strong> <em>Melee Attack:</em> Spell Attack Modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 + WIS modifier piercing.</p>
+<p><strong><em>Claw.</em></strong> <em>Melee Attack:</em> Spell Attack Modifier to hit, reach 5 ft., one target. <em>Hit:</em> 1d10 + WIS modifier slashing.</p>
+</details>
+<details class="feature">
+<summary>Bestial Traits</summary>
+<p>Below is the list of Bestial Traits that Shamans choose from each time they transform into the Great Beast:</p>
+<h4 id="aggressive">Aggressive</h4>
+<p>The Great Beast can take the Dash action as a bonus action, so long as it ends this movement closer to a hostile creature that it can see, hear, smell, or sense.</p>
+<h4 id="amphibious">Amphibious</h4>
+<p>The Great Beast can breathe both air and water, and it gains a swimming speed equal to its walking speed.</p>
+<h4 id="charge">Charge</h4>
+<p>If the Great Beast moves at least 20 ft. in a straight line then hits a creature smaller than it with its Claw, it deals a bonus 1d6 damage and the creature is knocked prone.</p>
+<h4 id="hardened-shell">Hardened Shell</h4>
+<p>The Great Beast gains a +2 bonus to its Armor Class, but its movement speed is reduced by 10 feet.</p>
+<h4 id="keen-senses">Keen Senses</h4>
+<p>If the Great Beast makes a Wisdom ability check that uses its sense of hearing, sight, or smell, it has advantage on the roll.</p>
+<h4 id="large-frame">Large Frame</h4>
+<p>The Great Beast becomes a Large creature. If it is ridden as a mount, the Great Beast can act independently of its rider.</p>
+<h4 id="mighty-leap">Mighty Leap</h4>
+<p>Once per turn, the Great Beast can use a bonus action to expend 5 feet of its movement to do a long jump of 20 feet or a standing jump of 10 feet, without a running start.</p>
+<h4 id="natural-camouflage">Natural Camouflage</h4>
+<p>The Great Beast has advantage on any Dexterity (Stealth) checks it makes to Hide while in natural environments.</p>
+<h4 id="pack-tactics">Pack Tactics</h4>
+<p>The Great Beast has advantage on all attack rolls against creatures if one of the Great Beast's conscious allies is also within 5 feet of the Great Beast's target.</p>
+<h4 id="powerful-build">Powerful Build</h4>
+<p>The Great Beast counts as one size larger when determining creatures it can grapple, and the weight it can move or lift. Its movement is not halved while grappling creatures.</p>
+<h4 id="savage-grip">Savage Grip</h4>
+<p>The Great Beast gains a climbing speed equal to its walking speed, and it can climb sheer surfaces and upside down on ceilings without making an ability check. The Great Beast also has advantage on saving throws to resist being moved against its will, grappled, restrained, or knocked prone.</p>
+<h4 id="strong-jaws">Strong Jaws</h4>
+<p>When the Great Beast hits a creature smaller than it with its Bite attack, it can grapple the creature in its jaws (escape DC equals your Spell save DC). While grappling a creature, the Great Beast cannot use its Bite on other targets, but it deals a bonus 1d6 damage to the grappled creature with its Bite.</p>
+<h4 id="thermal-vision">Thermal Vision</h4>
+<p>The Great Beast is always aware of the exact location of all warm-blooded creatures that are within 60 feet of it.</p>
+<h4 id="thick-hide">Thick Hide</h4>
+<p>Whenever the Great Beast takes damage it reduces it by its Constitution modifier (2). This feature cannot reduce force, psychic, or radiant damage.</p>
+</details>
+<h3 id="level-6-savage-strikes">Level 6 - Savage Strikes</h3>
+<p>The primeval power of the wilds empowers your Great Beast. When you take the Attack action in Great Beast form, you can make two Natural Weapon attacks instead of one.</p>
+<p>Moreover, your Natural Weapon attacks in Great Beast form ignore resistances and immunities to nonmagical attacks and damage.</p>
+<h3 id="level-10-mythic-resilience">Level 10 - Mythic Resilience</h3>
+<p>Spirits of the wild infuse your Great Beast, shielding it from harm. While you are in Great Beast form, you are resistant to all bludgeoning, piercing, and slashing damage.</p>
+<h3 id="level-14-legendary-guardian">Level 14 - Legendary Guardian</h3>
+<p>You have mastered the Great Beast transformation. While in your Great Beast Form, you can use your bonus action to replace one of your Bestial Traits with another.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="witch-doctor"></p>
+<details class="subclass">
+<summary>Witch Doctor</summary>
+<p>Long before celestials took notice of mortals, Witch Doctors wandered the land, providing spiritual healing and medicine. Working in tandem with Spirits of Life, Witch Doctors heal the wounded and grant their allies mystical abilities. These sages are peaceful in nature and can often be found traveling the wilds tending to the spiritual needs of those they meet.</p>
+<h3 id="level-2-witch-doctor-spells">Level 2 - Witch Doctor Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Witch Doctor Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>bless</em>, <em>detect poison &amp; disease</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>restoration</em> ᴸᴸ, <em>warding bond</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>beacon of hope</em>, <em>revivify</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>aura of life</em>, <em>death ward</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>creation</em>, <em>reincarnate</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-2-life-bearer">Level 2 - Life Bearer</h3>
+<p>You can channel spirits of abundance and life to heal others. Your Totemic Assault deals radiant damage to creatures.</p>
+<p>Also, when you use Totemic Assault, you can cause Spirits to heal instead of harm. When you do so, the target does not need to make a saving throw, and instead it regains hit points equal to 2d4 + your Wisdom modifier (a minimum of 1). This feature cannot restore hit points to Constructs or Undead creatures.</p>
+<p>You can use this feature to heal a creature a number of times equal to your Shaman level, and you regain all of your expended uses when you finish a long rest.</p>
+<h3 id="level-2-totemic-blessing">Level 2 - Totemic Blessing</h3>
+<p>Your selfless Spirituality has taught you to bind the Spirits of light and life to others. During a long rest, you can perform a special 1-hour ritual on a willing creature you touch, binding one of your Bound Totems to it. It gains benefits of the Totem and you lose them until the end of your next long rest.</p>
+<p>At certain Shaman levels, the number of Totems you can bind to other creatures during this ritual grows: two Totems at 6th level, three at 10th level, and four at 14th level. You can only bind a maximum of one Totem to a creature at a time.</p>
+<h3 id="level-6-benevolent-bearing">Level 6 - Benevolent Bearing</h3>
+<p>Benevolent Spirits protect you as you perform selfless acts. When you use your action to cast a Witch Doctor Spell, or to restore hit points, you gain the benefits of the Dodge action.</p>
+<h3 id="level-10-selfless-ward">Level 10 - Selfless Ward</h3>
+<p>Your spiritual power grows as you pour yourself out to others. For each Totem that you have bound to a creature other than yourself, you gain a +1 bonus to saving throws and you gain resistance to one damage type of your choice.</p>
+<h3 id="level-14-spiritual-awakening">Level 14 - Spiritual Awakening</h3>
+<p>Your spiritual practice fills you with an overabundance of life. When you cast <em>revivify</em>, it gains a range of 30 feet, and you do not need to provide its material component. Moreover, when you cast <em>revivify</em>, the target regains hit points equal to twice your Shaman level and can immediately stand up.</p>
+<p>Finally, when you would make a death saving throw, you can expend one Conduit Magic spell slot to cast <em>revivify</em> on yourself, gaining the benefits above.</p>
+</details>
+<p></div>
+<div class="subclass-content" data-subclass="wyrmbound"></p>
+<details class="subclass">
+<summary>Wyrmbound</summary>
+<p>Unknown to most, many of the most potent Spirits are those of long-dead dragons. In their undying desire to influence the material plane, for good or ill, these Draconic Spirits attach to worthy Shamans, transforming them into the Wyrmbound.</p>
+<h3 id="level-2-draconic-conduit">Level 2 - Draconic Conduit</h3>
+<p>The Draconic Spirit bound to your soul grants you mystical power. You can speak, read, and write Draconic. Whenever you make a Charisma check to interact with a Dragon, you add your Wisdom modifier (minimum of +1) to your roll.</p>
+<h3 id="level-2-totemic-wyrmshape">Level 2 - Totemic Wyrmshape</h3>
+<p>As a bonus action, you can fuse with your Draconic Spirit to transform into a Spirit Dragon, using the rules below:</p>
+<p><strong>Stat Block.</strong> Your game statistics are replaced by those in the Spirit Dragon stat block. It uses your Spell save DC and proficiency bonus (PB). While transformed you retain your alignment, personality, hit points, all skill and saving throw proficiencies, and your Intelligence, Wisdom, and Charisma scores.</p>
+<p><strong>Temporary Hit Points.</strong> When you transform, you gain temporary hit points equal to your Shaman level, and they last for the duration of your current transformation.</p>
+<p><strong>Equipment.</strong> Any natural or unrefined equipment you are wearing or carrying can merge with your Spirit Dragon form. Metal or other highly processed equipment fall to the ground.</p>
+<p><strong>Features.</strong> You retain the benefits of all features from your class, player race, and other sources, and can still use them if the Spirit Dragon is physically capable of doing so. You can still use Totemic Assault and abilities from your Bound Totems while in Spirit Dragon form.</p>
+<p><strong>Casting Spells.</strong> You can't cast spells in your Spirit Dragon form. However, you can maintain concentration on spells or other abilities used before you transformed.</p>
+<p><strong>Duration &amp; Uses.</strong> You can remain in Spirit Dragon form for 1 minute. Your transformation ends early if you end it as a bonus action or if you are reduced to 0 hit points. You can transform once between each short or long rest. If you have no uses left, you can expend a Conduit Magic spell slot to transform again.</p>
+<details class="dragon">
+<summary>Spirit Dragon</summary>
+<p><em>Large Dragon</em></p>
+<ul>
+<li><strong>Armor Class</strong> 14 + PB (natural armor)</li>
+<li><strong>Speed</strong> 10 ft., fly 30 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">8 (−1)</td>
+<td style="text-align: center;">18 (+4)</td>
+<td style="text-align: center;">12 (+1)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Damage Resistances</strong> necrotic, poison</p>
+<p><strong>Senses</strong> blindsight 10 ft., darkvision 60 ft.</p>
+<p><strong>Languages</strong> Draconic</p>
+<p><strong>Ethereal Agility.</strong> Whenever the Spirit Dragon makes an ability check or saving throw that uses Dexterity, it can add your Wisdom modifier to the result.</p>
+<p><strong>Serpentine.</strong> The thin, serpentine body of the Spirit Dragon counts as Medium for the purposes of its carrying capacity, the spaces it can move through, and all features except for the space it occupies.</p>
+<p><strong><em>Spectral Slash.</em></strong> <em>Melee Attack:</em> Spell Attack Modifier to hit, reach 5 ft., one target. <em>Hit:</em> 2d4 + WIS necrotic.</p>
+<p><strong><em>Spirit Breath.</em></strong> The Spirit Dragon forces creatures in a 30-foot line to make a Dexterity saving throw. They suffer the effects of Totemic Assault on a failure, and take half damage from Totemic Assault on a success but suffer no additional Totemic Assault effects.</p>
+</details>
+<h3 id="level-2-wyrmbound-spells">Level 2 - Wyrmbound Spells</h3>
+<p>You always have certain spells prepared at the Shaman levels in the table below. They count as Shaman spells for you, but do not count against the spells you prepare each day.</p>
+<details class="table">
+<summary>Wyrmbound Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Shaman Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>chromatic orb</em>, <em>command</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>dragon's breath</em>, <em>suggestion</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>fear</em>, <em>spectral passage</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: left;"><em>dominate creature</em> ᴸᴸ, <em>polymorph</em> ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>geas</em>, <em>conjure dragon</em> ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="level-6-ancient-fury">Level 6 - Ancient Fury</h3>
+<p>The ferocity of your Draconic Spirit has grown. Whenever you take the Attack action as a Spirit Dragon, you can make two Spectral Slash attacks instead of one. You can replace one of these attacks with your Spirit Breath.</p>
+<p>Moreover, when you use your action in Spirit Dragon form to use Totemic Assault, you can make a single Spectral Slash attack as a bonus action on that turn.</p>
+<h3 id="level-10-serpentine-speed">Level 10 - Serpentine Speed</h3>
+<p>Your movements are enhanced by the power of your Draconic Spirit. You can take the Dash action as a bonus action. When you do so, opportunity attacks against you have disadvantage.</p>
+<h3 id="level-14-flawless-conduit">Level 14 - Flawless Conduit</h3>
+<p>Your physical form can handle the full might of the Draconic Spirit you commune with. You can transform into your Spirit Dragon form at will. Though, you only gain the temporary hit points once per short or long rest, or if you expend a Conduit Magic spell slot to transform again.</p>
+<h3 id="level-14-exalted-spirit-dragon">Level 14 - Exalted Spirit Dragon</h3>
+<p>You can draw on the full power of your Spirit Dragon, if only briefly. Once per long rest, you can transform into an Exalted Spirit Dragon for 1 minute, using the stat block below. Each time you transform, you choose if you become Large or Huge.</p>
+<p>While you are in your Exalted Spirit Dragon form, you can cast Shaman spells as normal.</p>
+<details class="dragon">
+<summary>Exalted Spirit Dragon</summary>
+<p><em>Large or Huge Dragon</em></p>
+<ul>
+<li><strong>Armor Class</strong> 15 + PB (natural armor)</li>
+<li><strong>Speed</strong> 30 ft., fly 60 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">12 (+1)</td>
+<td style="text-align: center;">20 (+5)</td>
+<td style="text-align: center;">16 (+3)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Damage Resistances</strong> necrotic, poison; bludgeoning, piercing, and slashing from non-magical attacks</p>
+<p><strong>Senses</strong> blindsight 20 ft., darkvision 120 ft.</p>
+<p><strong>Languages</strong> Draconic</p>
+<p><strong>Ethereal Agility.</strong> Whenever the Spirit Dragon makes an ability check or saving throw that uses Dexterity, it can add your Wisdom modifier to the result.</p>
+<p><strong>Serpentine.</strong> The thin, serpentine body of the Spirit Dragon counts as one size smaller for the purposes of carrying capacity, the spaces it can move through, and all features except for the space it occupies.</p>
+<p><strong><em>Spectral Slash.</em></strong> <em>Melee Attack:</em> Spell Attack Modifier to hit, reach 5 ft., one target. <em>Hit:</em> 2d6 + WIS necrotic.</p>
+<p><strong><em>Spirit Breath.</em></strong> The Spirit Dragon forces all creatures in a 60-foot line or a 30-foot cone to make a Dexterity saving throw. On a failed save, they suffer the effects of your Totemic Assault. On a success, targets suffer half the damage of Totemic Assault, but not its effects.</p>
+</details>
+</details>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

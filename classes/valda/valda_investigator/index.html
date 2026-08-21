@@ -1,0 +1,2761 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../valda_craftsman/">
+      
+      
+        <link rel="next" href="../valda_martyr/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Investigator - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Investigator
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../valda_alchemist/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Valda
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-investigator">The Investigator</h1>
+<p>There are forces more ancient than time, foes more sinister than the foulest men, and beings more titanic than gods. The world stands at a precipice of woe and terror, being threatened nightly by dark agents and hordes of monsters. At risk to their own lives and sanities, investigators penetrate the evil that creeps in the shadows and banish it from the world. Their battles are never-ending, for victory only delays doomsday another night.</p>
+<p>Investigators track supernatural threats ranging from incorporeal spirits, to nefarious vampires and lycanthropes, to incursions of demons and devils. Often in their investigations, they uncover secret cults and maligned individuals who bring these supernatural threats to bear. It is always their goal to impede these evildoers by any means necessary, resorting to trickery, guile, magic, and bloodshed when necessary. To an investigator, no tactic is unthinkable when the world is at stake.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Investigator Features</label><label for="__tabbed_1_3">Investigator Spell List</label><label for="__tabbed_1_4">Occult Specializations</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Ritual Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Expertise, Ritualist</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Myths and Legends, Rushed Incantation</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Occult Specialization</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Exploit Weakness</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Expertise, Occult Specialization feature</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Opportunistic Piety</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Supernatural Resolve</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Occult Specialization feature</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Finisher</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Enigma Arcane</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Occult Specialization feature</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Enigma Arcane improvement</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Enigma Arcane improvement</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Exorcist</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">6th</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Spellbinder</td>
+<td style="text-align: center;">6th</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d8 per investigator level<br />
+<strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per investigator level after 1st</p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor<br />
+<strong>Weapons:</strong> Simple weapons, hand crossbows, heavy crossbows, longswords, rapiers, shortswords<br />
+<strong>Tools:</strong> One gaming set  </p>
+<p><strong>Saving Throws:</strong> Dexterity, Intelligence<br />
+<strong>Skills:</strong> Choose three from Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Persuasion, Sleight of Hand, Stealth, and Religion</p>
+<hr>
+<ul>
+<li>Leather armor</li>
+<li>A dagger and (a) a longsword or (b) a rapier</li>
+<li>(a) a heavy crossbow and 20 bolts or (b) a hand crossbow and 20 bolts</li>
+<li>(a) a dungeoneer's pack or (b) one kit you're proficient with</li>
+<li>A grimoire and a material component pouch</li>
+</ul>
+<hr>
+<h4 id="level-1-expertise">Level 1 - Expertise</h4>
+<p>At 1st level, choose two of your skill proficiencies; your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>
+<p>At 6th level, you can choose two more of your proficiencies to gain this benefit.</p>
+<hr>
+<h4 id="level-1-ritualist">Level 1 - Ritualist</h4>
+<p>You maintain a grimoire brimming with magical rituals, your most potent tools to defeat supernatural threats.</p>
+<p><strong>Grimoire.</strong> At 1st level, you have a grimoire containing four 1st-level spells of your choice that have the ritual tag from any class's spell list (the spells needn't be from the same list). You can't cast spells in your grimoire except as rituals, unless you've learned them by some other means.</p>
+<p>Whenever you gain a level in this class, you can add an additional ritual spell from the Investigator Rituals list to your grimoire at no cost. The Ritual Level column on the Investigator table shows the maximum spell level you can add to your grimoire.</p>
+<p>Additionally, whenever you find a ritual spell on your adventures, you can add it to your grimoire if it is on the Investigator Rituals list of a level you can add to your grimoire. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</p>
+<p><strong>Bonus Rituals.</strong> As an investigator, you can treat specific spells as if they had the ritual tag, allowing you to add them to your grimoire and cast them as rituals. These spells are marked with a ✶ in the Investigator Rituals list below.</p>
+<p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your ritual spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, when you cast an investigator ritual or a spell offered to you by a feature in this class, you use your Intelligence modifier when setting the saving throw DC and making an attack roll.</p>
+<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier  </p>
+<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+<hr>
+<h4 id="level-2-myths-and-legends">Level 2 - Myths and Legends</h4>
+<p>At 2nd level, you are extremely adept at uncovering knowledge which pertains to eldritch threats and forgotten legends. You have advantage on Intelligence checks related to researching creatures, spells, and other ancient or secret lore.</p>
+<hr>
+<h4 id="level-2-rushed-incantation">Level 2 - Rushed Incantation</h4>
+<p>Beginning at 2nd level, you can hastily perform any ritual spell in your grimoire that has a casting time of 1 action, completing the ritual as a bonus action. If the ritual requires spell components worth 100 gp or less, you cast it without using spell components. You can use this feature a number of times equal to your Intelligence modifier (minimum once), and regain the ability to do so when you finish a long rest.</p>
+<p>As you gain higher levels in this class, you can use this feature additional times: once more at 5th level (Intelligence modifier + 1), 9th level (Intelligence modifier + 2), 13th level (Intelligence modifier + 3), and 17th level (Intelligence modifier + 4).</p>
+<hr>
+<h4 id="level-3-occult-specialization">Level 3 - Occult Specialization</h4>
+<p>At 3rd level, you choose an occult specialization, an area of expertise in handling eldritch threats. Your specialization choices are detailed in the Occult Specializations tab. Your choice grants you features at 3rd level and then again at 6th, 10th, and 14th level.</p>
+<p><strong>Trinkets.</strong> Investigators of each specialization collect a number of supernatural trinkets. Once you use one of your trinkets, you can't use this feature again until you finish a short or long rest. As you gain higher levels in this class, you can use your trinkets additional times: once more at 5th level (2 uses), 11th level (3 uses), and 17th level (4 uses).</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<hr>
+<h4 id="level-5-exploit-weakness">Level 5 - Exploit Weakness</h4>
+<p>Most supernatural creatures have some form of weakness, a gap in their armor that allows them to be defeated. Starting at 5th level, once on each of your turns when you hit a creature with a weapon attack, it is treated as if it has vulnerability to the weapon's damage. Vulnerability from this feature only doubles your weapon damage dice and your ability modifier; do not double additional sources of damage, such as spells and other class features.</p>
+<p>Additionally, the attack, as well as all other attacks made against the creature until the start of your next turn, are considered magical for the purposes of bypassing damage resistance and immunity.</p>
+<hr>
+<h4 id="level-7-opportunistic-piety">Level 7 - Opportunistic Piety</h4>
+<p>By 7th level, you always keep a wide array of holy symbols and blessed items on your person, even if you aren't particularly pious. When you use your Opportunistic Piety, you choose which effect to create from the list below. You must then finish a short or long rest to use your Opportunistic Piety again.</p>
+<p><strong>Banish.</strong> You cast the spell <em>banishment</em> without using a spell slot. If the target is a fey, fiend, or undead and fails its saving throw against this spell, it also takes radiant damage equal to your level.</p>
+<p><strong>Miracle Healing.</strong> As an action, divine light from your hands knits the wounds of a willing creature you touch. That creature regains a number of hit points equal to twice your investigator level. This ability has no effect on undead or constructs.</p>
+<p><strong>Warding.</strong> As an action, you trace a holy symbol on a creature within 5 feet of you, warding it. Celestials, fey, fiends, and undead which touch the target creature or hit it with a melee attack take 1d12 radiant damage.</p>
+<hr>
+<h4 id="level-9-supernatural-resolve">Level 9 - Supernatural Resolve</h4>
+<p>At 9th level, you gain an extreme resilience to the attacks and effects of the creatures you regularly investigate. You can't be possessed or charmed, and you gain resistance to both psychic and necrotic damage.</p>
+<hr>
+<h4 id="level-11-finisher">Level 11 - Finisher</h4>
+<p>Beginning at 11th level, you know exactly how to bring a monster down. When you take the Attack action and hit a creature with a weapon attack, you can deal an extra 2d8 damage to the creature. If the creature has less than half its hit points remaining, you can instead deal an extra 4d8 damage to the creature.</p>
+<hr>
+<h4 id="level-13-enigma-arcane">Level 13 - Enigma Arcane</h4>
+<p>At 13th level, you uncover a magical secret connected to a wellspring of potent magic. You can cast one of the following spells once without expending a spell slot: <em>mirage arcane</em>, <em>plane shift</em>, <em>reverse gravity</em>, <em>sequester</em>, or <em>teleport</em>. You must finish a long rest before you can do so again.</p>
+<p>At 15th level, you can also cast one of the following spells without expending a spell slot: <em>antimagic field</em>, <em>glibness</em>, <em>maze</em>, or <em>mind blank</em>. You must finish a long rest before you can do so again.</p>
+<p>At 17th level, you can also cast one of the following spells without expending a spell slot: <em>astral projection</em>, <em>gate</em>, or <em>weird</em>. You must finish a long rest before you can do so again.</p>
+<hr>
+<h4 id="level-18-exorcist">Level 18 - Exorcist</h4>
+<p>Beginning at 18th level, you can cast the spell <em>protection from evil and good</em> without using a spell slot or spell components.</p>
+<hr>
+<h4 id="level-20-spellbinder">Level 20 - Spellbinder</h4>
+<p>By 20th level, many rituals you perform have become second nature to you. Select five ritual spells in your grimoire with a casting time of 1 action. You can cast these spells as a bonus action without using a use of Rushed Incantation, and you can do so without your grimoire on hand. If the ritual requires spell components worth 100 gp or less, you cast it without using spell components.</p>
+</div>
+<div class="tabbed-block">
+<h3 id="investigator-spell-list">Investigator Spell List</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">1st Level</th>
+<th style="text-align: center;">2nd Level</th>
+<th style="text-align: center;">3rd Level</th>
+<th style="text-align: center;">4th Level</th>
+<th style="text-align: center;">5th Level</th>
+<th style="text-align: center;">6th Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>Alarm</em></td>
+<td style="text-align: center;"><em>Animal Messenger</em></td>
+<td style="text-align: center;"><em>After Image</em>ᵛ ✶</td>
+<td style="text-align: center;"><em>Dire Warning</em>ᵛ ✶</td>
+<td style="text-align: center;"><em>Commune</em></td>
+<td style="text-align: center;"><em>Find the Path</em> ✶</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Blood Print</em>ᵛ</td>
+<td style="text-align: center;"><em>Arcane Lock</em> ✶</td>
+<td style="text-align: center;"><em>Benign Dismemberment</em>ᵛ</td>
+<td style="text-align: center;"><em>Distort Gravity</em>ᵛ</td>
+<td style="text-align: center;"><em>Commune with Nature</em></td>
+<td style="text-align: center;"><em>Forbiddance</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Clue</em>ᵛ</td>
+<td style="text-align: center;"><em>Arcanist's Magic Aura</em> ✶</td>
+<td style="text-align: center;"><em>Clairvoyance</em> ✶</td>
+<td style="text-align: center;"><em>Divination</em></td>
+<td style="text-align: center;"><em>Dream</em> ✶</td>
+<td style="text-align: center;"><em>Game of Fate</em>ᵛ ✶</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Comprehend Languages</em></td>
+<td style="text-align: center;"><em>Augury</em></td>
+<td style="text-align: center;"><em>Fly</em> ✶</td>
+<td style="text-align: center;"><em>False Vision</em>ᵛ ✶</td>
+<td style="text-align: center;"><em>Legend Lore</em> ✶</td>
+<td style="text-align: center;"><em>Instant Summons</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Conjure Cover</em>ᵛ</td>
+<td style="text-align: center;"><em>Curse Ward</em>ᵛ ✶</td>
+<td style="text-align: center;"><em>Geomantic Discernment</em>ᵛ</td>
+<td style="text-align: center;"><em>Invisibility Purge</em>ᵛ ✶</td>
+<td style="text-align: center;"><em>Scrutinize Foe</em>ᵛ ✶</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Consecrated Armor</em>ᵛ</td>
+<td style="text-align: center;"><em>Gentle Repose</em></td>
+<td style="text-align: center;"><em>Magic Circle</em> ✶</td>
+<td style="text-align: center;"><em>Locate Creature</em> ✶</td>
+<td style="text-align: center;"><em>Telepathic Bond</em></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Detect Evil and Good</em> ✶</td>
+<td style="text-align: center;"><em>Jethro's Instant Reload</em>ᵛ</td>
+<td style="text-align: center;"><em>Meld into Stone</em></td>
+<td style="text-align: center;"><em>Private Sanctum</em> ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Detect Magic</em></td>
+<td style="text-align: center;"><em>Knock</em> ✶</td>
+<td style="text-align: center;"><em>Phantom Steed</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Detect Poison and Disease</em></td>
+<td style="text-align: center;"><em>Locate Animals or Plants</em></td>
+<td style="text-align: center;"><em>Remove Curse</em> ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Disguise Self</em> ✶</td>
+<td style="text-align: center;"><em>Locate Object</em> ✶</td>
+<td style="text-align: center;"><em>Séance</em>ᵛ ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Find Familiar</em></td>
+<td style="text-align: center;"><em>Magic Mouth</em></td>
+<td style="text-align: center;"><em>Sending</em> ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Floating Disk</em></td>
+<td style="text-align: center;"><em>Nondescript</em>ᵛ ✶</td>
+<td style="text-align: center;"><em>Speak with Plants</em> ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Heroism</em> ✶</td>
+<td style="text-align: center;"><em>Protect Threshold</em>ᵛ</td>
+<td style="text-align: center;"><em>Water Breathing</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Identify</em></td>
+<td style="text-align: center;"><em>Recall</em>ᵛ ✶</td>
+<td style="text-align: center;"><em>Water Walk</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Illusory Script</em></td>
+<td style="text-align: center;"><em>See Invisibility</em> ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Memorize</em>ᵛ</td>
+<td style="text-align: center;"><em>Silence</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Purify Food and Drink</em></td>
+<td style="text-align: center;"><em>Spider Climb</em> ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Rumor</em>ᵛ</td>
+<td style="text-align: center;"><em>Unseen Accountant</em>ᵛ</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Speak with Animals</em></td>
+<td style="text-align: center;"><em>Zone of Truth</em> ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Transient Bulwark</em>ᵛ</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Unseen Servant</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Whispering Wind</em>ᵛ ✶</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><em>ᵛ denotes a Valda's Spire of Secrets spell. ✶ denotes a Bonus Ritual (treated as having the ritual tag).</em></p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose an occult specialization:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="antiquarian">Antiquarian</option>
+  <option value="archivist">Archivist</option>
+  <option value="detective">Detective</option>
+  <option value="exterminator">Exterminator</option>
+  <option value="inquisitor">Inquisitor</option>
+  <option value="medium">Medium</option>
+  <option value="occultist">Occultist</option>
+  <option value="spy">Spy</option>
+</select></p>
+<div class="subclass-content" data-subclass="antiquarian">
+<details class="subclass">
+<summary>Antiquarian</summary>
+<p>Festooned with magical trinkets from every corner of the globe, antiquarians have a tool for every occasion: silver arrowheads for lycanthropes, heartwood stakes for vampires, blessed relics for fiends, and so on. As they expand their collections from piles of trinkets to veritable museums, they become adept historians and arcanists, familiar with the story of every magic item in their care, as well as how to use them in dire situations.</p>
+<h3 id="level-3-artifact-historian">Level 3 - Artifact Historian</h3>
+<p>Starting when you choose this specialty at 3rd level, you add the spell <em>identify</em> to your grimoire and never require material components to cast it.</p>
+<hr>
+<h3 id="level-3-trinkets">Level 3 - Trinkets</h3>
+<p>By 3rd level, you've collected a number of magical trinkets to help you collect and unravel profound arcane secrets. You can use the following trinkets:</p>
+<p><strong>Hateful Arrowhead.</strong> You can cast the spell <em>scorching ray</em> or <em>ray of enfeeblement</em> once without using a spell slot or spell components.</p>
+<p><strong>Mirrored Prism.</strong> You can cast the spell <em>blur</em> or <em>mirror image</em>, targeting yourself only, once without using a spell slot or spell components.</p>
+<p><strong>Razortooth Bandages.</strong> You can cast the spell <em>cure wounds</em> or <em>inflict wounds</em> once without using a spell slot or spell components. This spell is cast as if using a spell slot of the level shown in the Ritual Level column of the Investigator table.</p>
+<hr>
+<h3 id="level-6-relics">Level 6 - Relics</h3>
+<p>By 6th level, you've secured a handful of priceless relics with rare and delicate enchantments. You can use one of the following relics, and regain the ability to use this feature when you finish a short or long rest.</p>
+<p><strong>Antediluvian Dynamo.</strong> You can cast the spell <em>fireball</em> or <em>lightning bolt</em> once without using a spell slot or spell components.</p>
+<p><strong>Lich's Deathmask.</strong> You can cast the spell <em>counterspell</em> or <em>dispel magic</em> once without using a spell slot or spell components.</p>
+<p><strong>Mortal Coil.</strong> You can cast the spell <em>animate dead</em> or <em>revivify</em> once without using a spell slot or spell components. Casting <em>animate dead</em> using this trinket causes all undead servants created by previous castings of the spell to revert to lifeless corpses.</p>
+<hr>
+<h3 id="level-10-magic-item-collection">Level 10 - Magic Item Collection</h3>
+<p>Starting at 10th level, you maintain a vault of magic items, secured in an extradimensional space with an elaborate locking mechanism. You can produce one of these items, and change your selection each day when you finish a long rest.</p>
+<p>The item is your choice of the following: a <em>carpet of flying</em>, a <em>cloak of the bat</em>, a <em>flame tongue</em>, <em>gauntlets of ogre power</em>, an <em>instant fortress</em>, a <em>ring of regeneration</em>, a <em>ring of telekinesis</em>, a <em>sun blade</em>, or a <em>wand of wonder</em>.</p>
+<hr>
+<h3 id="level-14-phylactery">Level 14 - Phylactery</h3>
+<p>By 14th level, you've secured the crown jewel of your collection: a lich's phylactery. Though the original owner's soul has been expelled from this accursed artifact, it retains many of its unique properties.</p>
+<p>This magic item is always attuned to you and doesn't count against your total number of attuned magic items. It has 5 charges, and regains 1d4 + 1 expended charges daily at dawn. You can expend one or more of these charges to use the following abilities:</p>
+<p><strong>1 Charge:</strong> You can cast the spell <em>false life</em> as a 2nd-level spell without expending spell slots or spell components.</p>
+<p><strong>1 Charge:</strong> You can use your bonus action to regain an expended use of your Trinkets.</p>
+<p><strong>2 Charges:</strong> As a reaction when you drop to 0 hit points, you can drop to 1 hit point instead.</p>
+<p><strong>3 Charges:</strong> Make a melee spell attack against a creature within your reach. On a hit, the target takes 5d6 necrotic damage and you regain hit points equal to the total amount of necrotic damage dealt.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="archivist">
+<details class="subclass">
+<summary>Archivist</summary>
+<p>Though most investigators fill their grimoires with hard-won knowledge borne from encounters with supernatural threats, some prefer to do bookkeeping instead. Such archivists accrue knowledge, not trinkets, by spending untold hours digging through disparate tomes of occult knowledge and compiling them into encyclopedic texts on the supernatural. Through their research, archivists become academic masters of the arcane, and priceless reservoirs of obscure knowledge.</p>
+<h3 id="level-3-trinket">Level 3 - Trinket</h3>
+<p>Starting when you choose this specialization at 3rd level, you've collected a powerful trinket to enhance your ritual magic:</p>
+<p><strong>Archaic Scroll.</strong> You can perform a ritual spell with your Rushed Incantation feature without expending one of the feature's uses.</p>
+<hr>
+<h3 id="level-3-thesis">Level 3 - Thesis</h3>
+<p>Also at 3rd level, you gain access to certain spells associated with your thesis. Pick one of the following subject areas: Corpus, Ignis, Mortis, or Regis. You gain a list of associated thesis spells. Once you gain access to a thesis spell, it is added to your grimoire. If you gain access to a spell that doesn't appear on the investigator ritual list, the spell is nonetheless an investigator spell for you. You can use your action and expend a use of your Rushed Incantation feature to cast one of your thesis spells.</p>
+<details class="table">
+<summary>Corpus</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Investigator Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: left;"><em>jump</em>, <em>longstrider</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>alter self</em>, <em>heat metal</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>gaseous form</em>, <em>meld into stone</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="table">
+<summary>Ignis</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Investigator Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: left;"><em>burning hands</em>, <em>shatter</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>gust of wind</em>, <em>scorching ray</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>call lightning</em>, <em>wind wall</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="table">
+<summary>Mortis</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Investigator Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: left;"><em>bane</em>, <em>false life</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>blindness/deafness</em>, <em>darkness</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>revivify</em>, <em>vampiric touch</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="table">
+<summary>Regis</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Investigator Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: left;"><em>charm person</em>, <em>hideous laughter</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: left;"><em>enthrall</em>, <em>suggestion</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>dispel magic</em>, <em>hypnotic pattern</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-erudite-spell">Level 6 - Erudite Spell</h3>
+<p>By 6th level, you've mastered the difficult theory behind arcane propagation. When you cast a spell which forces a creature to make a saving throw to resist its effects, you can give one target of the spell disadvantage on its first saving throw against the spell.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-10-encyclopedic-expertise">Level 10 - Encyclopedic Expertise</h3>
+<p>Starting at 10th level, you can identify any arcane effect from memory. Whenever you witness a spell being cast or investigate a magical effect, you can always identify the spell that was cast, the magic item responsible, or the monster which produced the effect. However, this ability fails to identify spells, magic items, and monsters which are utterly unique or are otherwise not recorded in arcane texts.</p>
+<hr>
+<h3 id="level-14-eidetic-memory">Level 14 - Eidetic Memory</h3>
+<p>At 14th level, you can effortlessly duplicate spells you see in the world. You can copy any ritual spell you see being cast into your grimoire.</p>
+<p>Moreover, you can precisely copy the exact motions of a spell's casting to duplicate its effect. When you see a spell of 5th level or lower being cast, you can use your action and spend 1 use of your Rushed Incantation feature to cast the spell yourself without spending a spell slot. The spell must have a casting time of 1 action, must not have expensive spell components, and must have taken place within the last minute to use this ability.</p>
+<p>Once you duplicate a spell in this way, you can't duplicate it again until you finish a long rest.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="detective">
+<details class="subclass">
+<summary>Detective</summary>
+<p>Prowling at the edge of darkness, detectives chase down clues and pull on threads to unravel conspiracies which bring darkness into the world. Sometimes, this requires that you infiltrate a cult's secret meetings; other times it calls on you to reconstruct a man's last moments at a murder scene. But no matter what the mystery, you know that there is always an explanation.</p>
+<h3 id="level-3-investigators-hunch">Level 3 - Investigator's Hunch</h3>
+<p>Starting when you choose this specialization at 3rd level, you can unravel even the toughest of mysteries. If you spend at least 10 minutes combing through documents and arranging clues, you can make an Intelligence check with advantage.</p>
+<hr>
+<h3 id="level-3-trinkets_1">Level 3 - Trinkets</h3>
+<p>By 3rd level, you've collected a number of magical trinkets to aid you in tracking supernatural creatures and unraveling mysteries. You can use the following trinkets:</p>
+<p><strong>Glass Medallion.</strong> As a bonus action, you can cast the spell <em>invisibility</em>, targeting yourself only, once without using a spell slot or spell components.</p>
+<p><strong>Fogstone Periapt.</strong> As a bonus action, you can cast the spell <em>misty step</em> once without using a spell slot or spell components.</p>
+<p><strong>Skeleton's Key.</strong> As a bonus action, you can cast the spell <em>knock</em> once without using a spell slot or spell components.</p>
+<hr>
+<h3 id="level-6-predictive-intuition">Level 6 - Predictive Intuition</h3>
+<p>By 6th level, you can turn your skills at reconstructing events towards anticipating the next likely moment of a fight. As a bonus action, you can examine the movements of a creature you can see within 30 feet. You can choose to add 1d4 to your next attack roll targeting that creature before the start of your next turn, or you can choose to subtract 1d4 from the creature's next attack roll against you before the start of your next turn.</p>
+<hr>
+<h3 id="level-10-interrogators-instinct">Level 10 - Interrogator's Instinct</h3>
+<p>At 10th level, you are so accustomed to uncovering the truth that you can sense the intents behind someone's voice. You can tell if a creature that you can hear speaking is charmed, possessed, or otherwise enchanted to speak against their will, and you have advantage on any ability check you make to determine if you hear a lie.</p>
+<hr>
+<h3 id="level-14-power-of-deduction">Level 14 - Power of Deduction</h3>
+<p>Starting at 14th level, you can use your action to examine a creature you can see within 30 feet, taking note of innumerable details and making a lengthy string of logical deductions. For the next minute, you have advantage on Intelligence and Charisma checks you make to interact with this creature, and you have advantage on attack rolls against them.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="exterminator">
+<details class="subclass">
+<summary>Exterminator</summary>
+<p>An exterminator suffers no monster to live. Trained in the art of slaying aberrations, fiends, and undead, you stand against evil where others falter, and draw your blade before others recognize a threat. Grand schemes and plots are less important than retribution against those monsters which stalk the night, and your thirst for such retribution is unquenchable. There is always another werewolf to be slain, another vampire to be staked, another demon to be banished; people rarely thank you, but you find satisfaction enough in your work.</p>
+<h3 id="level-3-bonus-proficiencies">Level 3 - Bonus Proficiencies</h3>
+<p>Starting when you choose this specialization at 3rd level, you gain proficiency with martial weapons and medium armor.</p>
+<hr>
+<h3 id="level-3-trinkets_2">Level 3 - Trinkets</h3>
+<p>By 3rd level, you've collected a number of magical trinkets to aid you in the elimination of monsters and other fiendish threats. You can use the following trinkets:</p>
+<p><strong>Consecrated Whetstone.</strong> As a bonus action, you can cast the spell <em>magic weapon</em> once without using a spell slot or spell components.</p>
+<p><strong>Gilded Dragon Scale.</strong> As a bonus action, you gain resistance to one damage type of your choice for 1 minute.</p>
+<p><strong>Wyverntooth Necklace.</strong> When you hit a creature with a melee weapon attack, you can use your bonus action to activate this trinket, dealing an additional 2d6 acid damage to the creature.</p>
+<hr>
+<h3 id="level-6-monster-slayer">Level 6 - Monster Slayer</h3>
+<p>Beginning at 6th level, when you use the Attack action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once) and regain all expended uses when you finish a short or long rest.</p>
+<hr>
+<h3 id="level-10-silvered-edge">Level 10 - Silvered Edge</h3>
+<p>Starting at 10th level, whenever you deal damage to a creature with a weapon attack, it can't regain hit points until the start of your next turn. Additionally, when you reduce a creature to 0 hit points, it can't be raised as an undead creature nor be returned to life for 7 days.</p>
+<hr>
+<h3 id="level-14-killer-instinct">Level 14 - Killer Instinct</h3>
+<p>Starting at 14th level, you can use your Exploit Weakness feature twice on your turn, but can't use it against the same target more than once.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="inquisitor">
+<details class="subclass">
+<summary>Inquisitor</summary>
+<p>The church has long been the first line of defense against the tide of impending darkness. Yet, the clergy's stubborn devotion to righteousness impedes them where it counts: you must sometimes be willing to do evil to counter evil. That's where the inquisition comes in.</p>
+<p>As a righteous inquisitor of the faith, you are tasked with rooting out heresy, exorcising demons, and stamping out any sign of the occult, and are offered clemency for any action you take in the defense of the greater good. You may investigate anyone or anything you deem to be in line with the forces of evil, for you alone are a holy blade in the dark, the arbiter of your church.</p>
+<h3 id="level-3-bonus-proficiencies_1">Level 3 - Bonus Proficiencies</h3>
+<p>Starting when you choose this specialization at 3rd level, you gain proficiency with medium armor.</p>
+<hr>
+<h3 id="level-3-exorcists-doctrines">Level 3 - Exorcist's Doctrines</h3>
+<p>Also at 3rd level, you gain proficiency in the Religion skill and add double your proficiency bonus to checks you make with it.</p>
+<hr>
+<h3 id="level-3-trinkets_3">Level 3 - Trinkets</h3>
+<p>By 3rd level, you've collected a number of magical trinkets to help you banish restless spirits and foul demonic forces. You can use the following trinkets:</p>
+<p><strong>Alabaster Balm.</strong> As a bonus action, you can cast the spell <em>lesser restoration</em> once without using a spell slot or spell components.</p>
+<p><strong>Hallowed Chalice.</strong> As a bonus action, you can utter a prayer and produce a volume of holy water from this cup sufficient to fill one flask. After 24 hours, this holy water becomes ordinary water. You can use this trinket 5 times before its power is expended.</p>
+<p><strong>Reliquary of Doubt.</strong> As a bonus action, you can cast the spell <em>detect thoughts</em> once without using a spell slot or spell components. When casting the spell in this way, it can only detect thoughts which are associated with negative emotions, such as guilt, apprehension, regret, or melancholy.</p>
+<hr>
+<h3 id="level-6-divine-strike">Level 6 - Divine Strike</h3>
+<p>At 6th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d6 radiant damage to the target.</p>
+<hr>
+<h3 id="level-10-rote-piety">Level 10 - Rote Piety</h3>
+<p>Starting at 10th level, you command a mastery of divine magic seldom seen among the clergy. You can use your Opportunistic Piety feature three times, and regain all expended uses when you finish a short or long rest.</p>
+<hr>
+<h3 id="level-14-excommunication">Level 14 - Excommunication</h3>
+<p>By 14th level, as an action, you can emblazon a creature you can see within 60 feet with a mark of religious condemnation. The target must succeed on your choice of a Constitution or Wisdom saving throw or be marked for the next minute. While marked, the creature can't regain hit points or have advantage on any attack roll or ability check. Additionally, whenever the creature takes an action, it takes 2d6 radiant damage as the mark burns with radiant light.</p>
+<p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="medium">
+<details class="subclass">
+<summary>Medium</summary>
+<p>As conduits between the living and dead, mediums offer an essential glimpse past the veil of mortality. Using their auguries, séances, and divinations, mediums can retrieve morsels of information from the afterlife to settle debts with the living or assist ongoing investigations. This information, however cryptic, can point an interested party toward clues or evidence which only the deceased might be able to provide.</p>
+<h3 id="level-3-foretelling">Level 3 - Foretelling</h3>
+<p>Starting when you choose this specialization at 3rd level, you can receive glimpses of the future. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretold rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p>
+<p>As an action, you can use a use of your Rushed Incantation ability to make an additional foretelling roll. You can have up to 3 foretold rolls at one time. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</p>
+<hr>
+<h3 id="level-3-trinkets_4">Level 3 - Trinkets</h3>
+<p>By 3rd level, you've collected a number of objects which help you attune to the afterlife. You can use the following trinkets:</p>
+<p><strong>Dead Ringer.</strong> As an action, you can ring this bell to cast the spell <em>speak with dead</em> once without using a spell slot or spell components. When you cast this spell using this trinket, you can ask only one question of the corpse.</p>
+<p><strong>Heptagonal Spectacles.</strong> As a bonus action, you can cast the spell <em>see invisibility</em> once without using a spell slot or spell components.</p>
+<p><strong>Lucent Mirror.</strong> You can use your bonus action to activate this trinket, causing you to phase partially into the Ethereal Plane for up to 1 minute. For the duration, you can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage if you end your movement inside a creature or object. Additionally, you have resistance to all damage. This effect ends early after you take damage.</p>
+<hr>
+<h3 id="level-6-forewarning-presence">Level 6 - Forewarning Presence</h3>
+<p>By 6th level, the spirits of the dead guide your hand when you would falter. You can reroll an attack roll or ability check you make, and must use the new roll.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-10-whispers-from-beyond">Level 10 - Whispers from Beyond</h3>
+<p>Starting at 10th level, you can open your perceptions to receive a hint from beyond the pale. The GM answers with a one-word hint pertaining to your best course of action, a fruitful line of inquiry, or some other useful direction.</p>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+<h3 id="level-14-third-eye">Level 14 - Third Eye</h3>
+<p>By 14th level, your connection to the afterlife allows you to see all. You can use your bonus action to cast the spell <em>true seeing</em> without using a spell slot or spell components.</p>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="occultist">
+<details class="subclass">
+<summary>Occultist</summary>
+<p>Vampires, demons, lycanthropes, and aberrations all have one thing in common: they are all magical threats, best combated through magical means. To meet these foes on a level playing field, occultists indulge in arcana, filling their grimoires with magical secrets and mastering a handful of spells. Occultists are the most likely investigators to cavort with warlocks, borrow tricks from wizards and magicians, and dabble in dark magic to defeat their foes.</p>
+<h3 id="level-3-trinket_1">Level 3 - Trinket</h3>
+<p>Starting when you choose this specialization at 3rd level, you've acquired a trinket to assist in your collection of eldritch lore:</p>
+<p><strong>Rune Keeper Eyeglass.</strong> As a bonus action, for the next hour, you can read all writing.</p>
+<hr>
+<h3 id="level-3-pact-magic">Level 3 - Pact Magic</h3>
+<p>Starting when you choose this specialization at 3rd level, you augment your investigative skills with complex magicks.</p>
+<p><strong>Cantrips.</strong> You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.</p>
+<p><strong>Spell Slots.</strong> The Occultist Spellcasting table shows how many spell slots you have. All of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+<p><strong>Spells Known.</strong> At 3rd level, you know two 1st-level spells of your choice from the warlock spell list. The Spells Known column of the Occultist Spellcasting table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the Slot Level column for your level. Additionally, when you gain a level in this class, you can replace one warlock spell you know with another from the warlock spell list of a level for which you have spell slots.</p>
+<p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your warlock spells. Use your investigator spell save DC and spell attack bonus for your warlock spells.</p>
+<details class="table">
+<summary>Occultist Spellcasting</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Investigator Level</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">Spells Known</th>
+<th style="text-align: center;">Spell Slots</th>
+<th style="text-align: center;">Slot Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4th</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-eldritch-ruin">Level 6 - Eldritch Ruin</h3>
+<p>Starting at 6th level, you can use your magical cunning to rip your foes asunder. You can cast a cantrip as a bonus action instead of dealing additional damage with your Exploit Weakness feature.</p>
+<hr>
+<h3 id="level-10-eyes-of-another-world">Level 10 - Eyes of Another World</h3>
+<p>Starting at 10th level, supernatural creatures can no longer escape your detection. You can see creatures and objects that are invisible or ethereal, and you can see the original form of shapechangers or creatures whose form has been altered by magic. Additionally, you can immediately detect if a creature you can see is possessed.</p>
+<hr>
+<h3 id="level-14-maleficium">Level 14 - Maleficium</h3>
+<p>Starting at 14th level, when you use your Exploit Weakness feature against a creature, you can cast the spell <em>bestow curse</em> on that creature as a bonus action, without using a spell slot or spell components; the targeted creature has disadvantage on its saving throw against this spell.</p>
+<p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="spy">
+<details class="subclass">
+<summary>Spy</summary>
+<p>Infiltration, disguise, and lying through their teeth: these are the principal skills of a spy. A talented spy rarely ever needs to draw a dagger to silence someone, for their honeyed words and agreeable disposition are all that is needed to draw out someone's secrets. Of course, when they do strike, it is decisively and without warning. Such skills are invaluable for governments and organizations of all varieties, for stealing confidential information, sabotage, monitoring persons of interest, and everything in between.</p>
+<h3 id="level-3-bravado">Level 3 - Bravado</h3>
+<p>Starting when you choose this specialization at 3rd level, your knowing smile and infectious confidence inspires trust in most people you meet, even when you're not telling the truth. You gain proficiency in the Deception skill and add double your proficiency bonus to checks you make with it.</p>
+<hr>
+<h3 id="level-3-trinkets_5">Level 3 - Trinkets</h3>
+<p>By 3rd level, you have a collection of trinkets which aid your espionage. You can use the following trinkets:</p>
+<p><strong>Glass Dust.</strong> As a bonus action, you can throw this dust in the air, becoming invisible until the beginning of your next turn. This effect ends early if you take damage.</p>
+<p><strong>Horn-Rimmed Glasses.</strong> As a bonus action, you can cast the spell <em>disguise self</em> once without using a spell slot or spell components.</p>
+<p><strong>Martini Glass.</strong> As a bonus action, you can cast the spell <em>charm person</em> once without using a spell slot or spell components.</p>
+<hr>
+<h3 id="level-6-cloak-and-dagger">Level 6 - Cloak and Dagger</h3>
+<p>By 6th level, you always endeavor to kill your target in one strike. When you make an attack roll against a creature that is surprised or hasn't taken a turn in combat yet, you can maximize your weapon's damage die.</p>
+<hr>
+<h3 id="level-10-shaken-not-stirred">Level 10 - Shaken, Not Stirred</h3>
+<p>Starting at 10th level, your roguish smile grants you incredible leeway. Whenever you fail a Charisma (Deception) or Charisma (Persuasion) check, you can reroll the check, and must use the results of the new roll.</p>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+<hr>
+<h3 id="level-14-body-double">Level 14 - Body Double</h3>
+<p>By 14th level, you can rapidly exchange identities with a corpse. When you reduce a humanoid creature to 0 hit points, you can assume the creature's appearance, as per the <em>disguise self</em> spell. The creature's body, as well as its blood, clothing, and other physical evidence of its death, become invisible for 8 hours. You can also use this ability as an action to touch the corpse of a humanoid creature which has been dead no longer than 1 day, assuming its appearance and causing the body to become invisible.</p>
+<p>Once you use this ability, you can't use it again until you finish a long rest.</p>
+</details>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

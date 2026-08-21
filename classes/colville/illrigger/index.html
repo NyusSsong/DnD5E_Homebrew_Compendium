@@ -1,0 +1,2804 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../../2cgaming/elementalist/">
+      
+      
+        <link rel="next" href="../../kibbles/kt_inventor/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Illrigger - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Illrigger
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laserllama/ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Colville
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-illrigger">The Illrigger</h1>
+<p>Illriggers are knights, assassins, and terror-commandos of Hell who serve archdevils as elite operatives, wielding infernal seals and diabolic contracts to censure their enemies and carry out their master's will.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Illrigger Features</label><label for="__tabbed_1_3">Interdict Boons</label><label for="__tabbed_1_4">New Spells</label><label for="__tabbed_1_5">Diabolic Contracts</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h4 id="illrigger-progression-table">Illrigger Progression Table</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th>Features</th>
+<th style="text-align: center;">Seals</th>
+<th style="text-align: center;">Seal Damage</th>
+<th style="text-align: center;">Interdict Boons</th>
+<th style="text-align: center;">Conduit Dice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td>Baleful Interdict, Forked Tongue</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td>Combat Mastery, Interdiction</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td>Diabolic Contract, Invoke Hell</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td>Extra Attack</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2d6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td>Infernal Conduit</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2d6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td>Diabolic Contract feature</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2d6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2d6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td>Forked Tongue improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2d6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td>Blood Price</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2d6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td>Diabolic Contract feature, Infernal Conduit improvement, Terrorizing Force</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td>—</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td>Superior Interdict</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td>Diabolic Contract feature</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td>Infernal Majesty</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td>—</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3d6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td>Master of Hell</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4d6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p>The archdevils who rule the Seven Cities of Hell scheme endlessly. Each eternally plots to bring the others to heel — to ascend to the Throne of Hell, unite the Seven Cities and every infernal being living there, and lead an inexhaustible army of devils across the timescape until all worlds burn. These archdevils' elite operatives are the illriggers: knights, assassins, mages, and terror-commandos of Hell who command the battlefield, disrupt enemy factions, and carry out their archdevil's infernal will.</p>
+<hr>
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d10 per illrigger level<br />
+<strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per illrigger level after 1st</p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor, medium armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, martial weapons<br />
+<strong>Tools:</strong> None  </p>
+<p><strong>Saving Throws:</strong> Constitution, Charisma<br />
+<strong>Skills:</strong> Choose two from Arcana, Athletics, Deception, Insight, Intimidation, Investigation, Persuasion, Religion, Stealth</p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li>(a) two martial weapons or (b) one martial weapon and a shield</li>
+<li>(a) chain shirt or (b) leather armor, a longbow, and 20 arrows</li>
+<li>(a) a priest's pack or (b) a dungeoneer's pack</li>
+<li>Five javelins</li>
+</ul>
+<hr>
+<h4 id="level-1-baleful-interdict">Level 1 - Baleful Interdict</h4>
+<p>You gain the ability to censure creatures with the power of Hell. Once on your turn, you can place a magical seal on a creature within 30 feet of you. You can either place this seal when you hit that target with a weapon attack (no action required), or you can use a bonus action to place this seal on a target you can see within range. This seal lasts for 1 minute or until burned (see "Burning Seals" below). A creature with one or more of your seals is referred to as an interdicted creature. Seals you place are invisible to other creatures, and when you can see an interdicted creature, the seals appear to you as glowing glyphs on the creature's body.</p>
+<p>You can only place a limited number of seals before resting, and you regain all seals when you finish a short or long rest. The number of seals you can place increases as you gain illrigger levels, as indicated in the Seals column of the Illrigger table.</p>
+<p>If an interdicted creature dies, you can use a bonus action on your turn to move all seals placed on them to a new creature you can see within 30 feet of them. Each seal's duration continues to elapse when an interdicted creature dies and when that seal is moved to a new creature.</p>
+<p><strong>Burning Seals.</strong> When an interdicted creature you can see within 30 feet of you takes damage from any source other than a seal burned by an illrigger, you can burn any number of seals you placed on them to deal 1d6 fire or necrotic damage (your choice) to that creature per seal burned. You deal this damage immediately after the triggering damage. Burning a seal doesn't require an action from you, but you can't do so while incapacitated. Once a seal is burned, it immediately vanishes.</p>
+<p>Once you reach 5th level in this class, your connection to your archdevil strengthens. Each burned seal deals an extra 1d6 damage, for a total of 2d6. The damage of each seal increases again by 1d6 when you reach 11th level (for a total of 3d6) and 20th level (for a total of 4d6) in this class, as indicated in the Seal Damage column of the Illrigger table.</p>
+<p><strong>Interdict Save DC.</strong> Class features you gain later can add additional effects to your Baleful Interdict and require your target to make a saving throw to resist them. The saving throw DC for these effects uses your interdict save DC, which is calculated as follows:</p>
+<p><strong>Interdict save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+<details class="info">
+<summary>Burn vs. Expend</summary>
+<p>Burning a seal is part of the main gameplay loop of this class. The illrigger places a seal by using a bonus action or hitting a creature with an attack, then burns the seal for additional damage (as described in the Baleful Interdict class feature). Many interdict boons activate when you burn a seal; these burned seals deal the normal damage to the interdicted creature in addition to any effects granted by the boon.</p>
+<p>Other interdict boons instead require you to expend a seal. In this case, the illrigger expends an unplaced seal from their pool of available seals. This may require using an action, bonus action, or reaction, but not always (such as in the case of the Hellspeaker's Charm Enemy feature, where you can expend seals to increase the number of targets).</p>
+<p>Each active interdict boon details if any kind of action is required to expend the seal and activate the boon's benefit. Part of the illrigger's resource management is maximizing efficiency between burned seals (and their extra damage) and expended seals (and their unique effects).</p>
+</details>
+<hr>
+<h4 id="level-1-forked-tongue">Level 1 - Forked Tongue</h4>
+<p>You can instinctively speak, read, and write Infernal.</p>
+<p>In addition, you can speak two other languages of your choice, but you can't read or write them. When you finish a long rest, you can draw on your archdevil's knowledge to replace one of these two languages. When you do, choose another language whose name you know; you magically forget the previous language and gain this new one instead. Once you replace a language in this way, you must finish a long rest before you can do so again.</p>
+<p>Starting at 9th level, this feature grants you another language, for a total of three (in addition to Infernal). Furthermore, you gain advantage on Wisdom (Insight) checks made to ascertain the intentions or sincerity of creatures.</p>
+<hr>
+<h4 id="level-2-combat-mastery">Level 2 - Combat Mastery</h4>
+<p>Your archdevil grants you uncanny skill in a certain form of combat. Choose one of the following illrigger combat masteries:</p>
+<p><strong>Bravado.</strong> While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier. You can use a shield and still gain this benefit.</p>
+<p><strong>Brutal.</strong> When you hit a creature who is no more than one size larger than you with an attack you make with a melee weapon you are wielding with two hands, you can move the target 5 feet horizontally. If you choose, you can then spend your movement to move into the space they left.</p>
+<p><strong>Inexorable.</strong> You gain a +1 bonus to saving throws for each hostile creature within 5 feet of you, to a maximum bonus of +5.</p>
+<p><strong>Lies.</strong> You can choose one type of melee weapon, such as a battleaxe, greatsword, or spear. When you attack with that type of weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. You can choose a new weapon type, which replaces your previous choice, when you finish a long rest.</p>
+<p><strong>Lissome.</strong> When you hit a creature with a melee weapon attack, you can spend your movement to move 5 feet without provoking opportunity attacks.</p>
+<p><strong>Unfettered.</strong> When you use your Baleful Interdict to place or burn a seal, its range is 60 feet instead of 30 feet. When you gain the Infernal Conduit feature at 6th level, its range is 30 feet instead of touch. In addition, making a ranged attack while within 5 feet of a hostile creature does not impose disadvantage on the attack roll.</p>
+<hr>
+<h4 id="level-2-interdiction">Level 2 - Interdiction</h4>
+<p>You can infuse your seals with hellish magical power, enhancing their effects.</p>
+<p><strong>Interdict Boons Known.</strong> You learn one interdict boon of your choice from the Interdict Boons tab. As you gain levels in this class, you gain additional boons of your choice, as shown in the Interdict Boons column of the Illrigger table. Each new boon must be of a level you can learn. When you reach 7th level, for example, you learn one new boon of 2nd or 7th level. Whenever you gain an illrigger level, you can choose a boon you know and replace it with another boon you can learn.</p>
+<p><strong>Using Interdict Boons.</strong> Some boons allow you to expend unplaced seals to fuel abilities, while others empower all your seals or grant you benefits against interdicted creatures. The boons that grant passive (or "always on") benefits, such as the 2nd-level Swift Retribution boon, are marked with a "Passive" tag. You don't need to expend a seal or take an action to benefit from the passive boons you know. All other boons, such as the 2nd-level Abating Seal boon, must be activated on a turn (for example, by expending a seal). You can activate only one non-passive boon per turn, regardless of how many you know. </p>
+<hr>
+<h4 id="level-3-diabolic-contract">Level 3 - Diabolic Contract</h4>
+<p>You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. Each of these subclasses is detailed in the Subclasses tab. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>
+<hr>
+<h4 id="level-3-invoke-hell">Level 3 - Invoke Hell</h4>
+<p>Your diabolic connection allows you to channel infernal energy to empower magical effects. Your chosen diabolic contract grants you two Invoke Hell options and describes how to use each.</p>
+<p>When you use your Invoke Hell, you choose which option to use. You must then finish a short or long rest to use your Invoke Hell again.</p>
+<p>Some Invoke Hell effects require a saving throw. When you use such an effect, the DC equals your interdict save DC.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>
+<hr>
+<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
+<p>You can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+<hr>
+<h4 id="level-6-infernal-conduit">Level 6 - Infernal Conduit</h4>
+<p>You can strengthen your allies at the cost of yourself — or drain your enemy's life force for your own gain. You have a pool of Infernal Conduit dice, which are d10s. The number of Infernal Conduit dice in your pool increases as you gain illrigger levels, as shown in the Infernal Conduit Dice column of the Illrigger table.</p>
+<p>As an action, you can touch another creature and spend one or more dice from your pool. The target must make a Constitution saving throw against your interdict save DC. A creature can willingly fail this saving throw. Roll the spent dice and choose one of the following effects:</p>
+<p><strong>Invigorate.</strong> On a failed save, the target regains hit points equal to the total you rolled, and you take necrotic damage equal to that total. On a successful save, the target regains half as many hit points, and you take necrotic damage equal to that total. Save or fail, this necrotic damage can't be reduced in any way, and if this damage reduces you to 0 hit points, you fall unconscious and are stabilized.</p>
+<p><strong>Devour.</strong> On a failed save, the target takes necrotic damage equal to the total you rolled, and you regain hit points equal to that total. On a successful save, the target takes half as much damage, and you regain hit points equal to the damage the target took. Save or fail, or if the target chose to fail their saving throw against this effect, the necrotic damage can't be reduced in any way. When you reach 11th level in this class, the target also gains a level of exhaustion on a failed save against this effect. This level of exhaustion can be reduced as normal, and a creature can't suffer more than three levels of exhaustion combined from all illriggers' Infernal Conduit features.</p>
+<p>You regain any spent Infernal Conduit dice when you finish a long rest.</p>
+<hr>
+<h4 id="level-10-blood-price">Level 10 - Blood Price</h4>
+<p>You can strengthen your defenses at the cost of your vitality. Whenever you fail a saving throw, you can spend one of your Hit Dice, rolling it and adding the number rolled to the result of the save.</p>
+<hr>
+<h4 id="level-11-terrorizing-force">Level 11 - Terrorizing Force</h4>
+<p>Your attacks are empowered with devastating might. When you gain this feature, choose a damage type: cold, fire, necrotic, or poison. When you hit with a weapon attack, you deal an extra 1d8 damage of the chosen type. You can choose a different damage type when you finish a long rest.</p>
+<hr>
+<h4 id="level-14-superior-interdict">Level 14 - Superior Interdict</h4>
+<p>Damage from your seals ignores any damage resistances the target has.</p>
+<p>In addition, you can use a bonus action to regain a seal if you have none remaining. Once you regain a seal in this way, you can't do so again until you finish a long rest.</p>
+<hr>
+<h4 id="level-17-infernal-majesty">Level 17 - Infernal Majesty</h4>
+<p>Your archdevil bestows on you the ability to don a measure of their power. As a bonus action, you channel the might of Hell, gaining the following benefits for 10 minutes:</p>
+<ul>
+<li>You gain resistance to fire, cold, and necrotic damage.</li>
+<li>Wings appear on your back, granting you a flight speed of 60 feet.</li>
+<li>When you use your Blood Price, you can cause an enemy you can see within 10 feet of you to take damage equal to the number rolled on your Hit Die.</li>
+<li>When you hit with a weapon attack, your Terrorizing Force deals an extra 2d8 damage instead of 1d8.</li>
+</ul>
+<p>For the duration, if you die, you can choose to have your body disappear in a burst of flame, leaving behind only your equipment. If you do, your body reforms 1d6 days later somewhere in Hell. Once your body reforms, you return to life and regain all of your hit points.</p>
+<p>Once you channel your Infernal Majesty, you must finish a long rest before you can do so again.</p>
+<hr>
+<h4 id="level-20-master-of-hell">Level 20 - Master of Hell</h4>
+<p>You learn to tear open a rift to Hell and wreak its fury on your enemies. As an action, you can summon a hellstorm centered on a point you can see within 150 feet of you. Choose one of the following effects, which fills a 50-foot-radius sphere centered on that point:</p>
+<p><strong>Inferno.</strong> Hellfire rains down on your foes. Each enemy in that area must make a Dexterity saving throw. On a failed save, a creature takes 5d10 fire damage plus 5d10 necrotic damage, and they burn for 1 minute. On a successful save, a creature takes half as much damage and does not burn. A creature burning in this way must repeat this saving throw at the end of their turn, taking 1d10 fire damage plus 1d10 necrotic damage on a failed save, or ending the effect on themself on a successful one. This hellfire can't be extinguished by nonmagical means.</p>
+<p><strong>Pestilence.</strong> A foul miasma swirls around your foes. Each enemy in that area must make a Constitution saving throw. On a failed save, a creature takes 5d10 poison damage plus 5d10 necrotic damage and becomes poisoned for 1 minute. On a successful save, a creature takes half as much damage and does not become poisoned.</p>
+<p><strong>Darkness.</strong> A bitter storm assails your foes. Each enemy in that area must make a Constitution saving throw, taking 10d10 cold damage on a failed save, or half as much damage on a successful one. Additionally, the storm's gloom persists for 1 minute, and each enemy within that area is blinded for the duration or until they leave the area.</p>
+<p>Once you summon a hellstorm, you must finish a long rest before you can do so again.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Filter by level:</strong></p></p>
+<p><select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="level-2">2nd Level</option>
+    <option value="level-7">7th Level</option>
+    <option value="level-13">13th Level</option>
+</select></p>
+<div class="level-content" data-level="level-2">
+<details class="feature">
+<summary>2nd-Level Boons</summary>
+<h4 id="abating-seal">Abating Seal</h4>
+<p>When a creature you can see damages you or an ally within 30 feet of you, you can expend a seal as a reaction to reduce the damage taken by the target by an amount equal to 1d10 + half of your illrigger level (rounded down).</p>
+<h4 id="bedevil">Bedevil</h4>
+<p>When you burn a seal on an interdicted creature, you can activate this boon (no action required). The target must subtract a number equal to your proficiency bonus from the result of the next saving throw they make before the end of their next turn.</p>
+<h4 id="soul-eater">Soul Eater</h4>
+<p>When you burn a seal on an interdicted creature, you can activate this boon (no action required) to gain temporary hit points equal to your illrigger level.</p>
+<h4 id="styxs-apathy">Styx's Apathy</h4>
+<p>When you burn a seal on an interdicted creature, you can use your reaction to flood the target with an otherworldly chill. Until the end of the target's next turn, they can't take reactions.</p>
+<h4 id="swift-retribution-passive">Swift Retribution (Passive)</h4>
+<p>When an interdicted creature provokes an opportunity attack from you, you can make that attack without using your reaction, provided you're not incapacitated. Once you benefit from this boon, you can't do so again until the start of your next turn.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-7">
+<details class="feature">
+<summary>7th-Level Boons</summary>
+<h4 id="acherons-chain">Acheron's Chain</h4>
+<p>When you use a bonus action to place or move a seal on a Large or smaller creature, you can activate this boon (no action required). You conjure infernal chains to grasp the target, forcing them to make a Strength saving throw. On a failed save, you can either pull the creature 10 feet toward you or cause them to be grappled until the end of your next turn (escape DC equal to your interdict save DC).</p>
+<h4 id="conflagrant-channel">Conflagrant Channel</h4>
+<p>You can expend a seal as a bonus action to teleport up to 60 feet to an unoccupied space you can see.</p>
+<h4 id="eyes-of-the-gate">Eyes of the Gate</h4>
+<p>As an action, you can expend one or more seals to attempt to bind your awareness to a creature you can see within 60 feet of you. The target must make a Wisdom saving throw; they can willingly fail this save. On a failed save, you are bound to the target's awareness for a number of hours equal to the number of seals you expended, or until you use this boon on another creature.</p>
+<p>For the duration, while the target is within 300 feet of you, you can use an action to see and hear through their senses, gaining the benefit of any special senses the target possesses. While perceiving through the target's senses, you are deaf and blind with regard to your own senses.</p>
+<p>Additionally, for the duration, you can place seals, burn them, and use interdict boons as if you were in the creature's space, but doing so makes the creature aware of this bond. An aware creature can use their action to repeat the saving throw, ending the effects of this boon on a success.</p>
+<h4 id="shadow-shroud">Shadow Shroud</h4>
+<p>You can expend a seal as a bonus action to weave a mantle of semisolid shadows around yourself or a creature you touch. The target gains a +2 bonus to AC for 1 minute.</p>
+<h4 id="unleash-hell">Unleash Hell</h4>
+<p>When you burn one or more seals on an interdicted creature, you can use your reaction to unleash an explosion of hellish energy around them. Each creature of your choice within 5 feet of the target must make a Dexterity saving throw. On a failed save, a creature takes the same amount and type of damage as the seals dealt to the interdicted creature. On a successful save, a creature takes half as much damage.</p>
+<h4 id="vengeful-shot">Vengeful Shot</h4>
+<p>When a creature makes a ranged attack against you or an ally you can see within 30 feet of you, you can expend a seal as a reaction to make a ranged weapon attack against the attacker. If your attack hits, it deals extra damage equal to half your illrigger level (rounded down).</p>
+</details>
+</div>
+<div class="level-content" data-level="level-13">
+<details class="feature">
+<summary>13th-Level Boons</summary>
+<h4 id="diss-onslaught-passive">Dis's Onslaught (Passive)</h4>
+<p>Each time you use a bonus action to place or move a seal, you can make one weapon attack as part of the same bonus action.</p>
+<h4 id="flash-of-brimstone">Flash of Brimstone</h4>
+<p>When you place or move a seal, you can activate this boon (no action required) to magically teleport to an unoccupied space you can see within 5 feet of the target.</p>
+<h4 id="hellish-frenzy">Hellish Frenzy</h4>
+<p>When you start your turn within 30 feet of an interdicted creature, you can expend a seal to become frenzied by the power of Hell until the start of your next turn. While frenzied, your movement speed is doubled, you have a +2 bonus to your AC, and you can make an extra weapon attack when you take the Attack action.</p>
+<h4 id="hellsight">Hellsight</h4>
+<p>You can expend a seal as an action to gain truesight out to 60 feet for 1 hour.</p>
+<h4 id="impaling-shot">Impaling Shot</h4>
+<p>When you hit an interdicted creature with a ranged weapon attack, you can expend a seal as a bonus action to create a weak point in their defenses. Until the end of your next turn, the creature takes a penalty to AC equal to your proficiency bonus.</p>
+<h4 id="iron-gaol">Iron Gaol</h4>
+<p>As an action, you can touch a creature and expend four seals to attempt to send that creature to Hell. The target must succeed on a Charisma saving throw or be pulled through a rift into the prisons of your archfiend's infernal city. If the target is native to Hell, or if their level or challenge rating is 4 or lower, they remain there and must find their own way out. Otherwise, the target remains in the prison for 1 minute, after which they reappear in the space they left or in the nearest unoccupied space available; this target can repeat the saving throw at the end of each of their turns, ending the effect early on a success.</p>
+<h4 id="last-word">Last Word</h4>
+<p>When you are reduced to 0 hit points and have unplaced seals remaining, the hellfire in you refuses to die. You can expend up to 3 seals and release an explosion around you (no action required). Roll 3d6 per seal expended. Each creature of your choice within 30 feet of you must make a Dexterity saving throw. On a failed save, a creature takes fire damage equal to the total you rolled. On a successful save, a creature takes half as much damage. If this explosion damages at least one creature, you regain a number of hit points equal to the total you rolled.</p>
+<h4 id="souls-doom">Soul's Doom</h4>
+<p>When you use a bonus action to place or move a seal, you can scorch the seals into the target's soul. For 1 minute, whenever that interdicted creature takes damage, they take extra damage equal to your proficiency bonus.</p>
+</details>
+</div>
+</div>
+<div class="tabbed-block">
+<p>Spells marked with ᶜ in the Architect of Ruin spell list are homebrew spells by Matt Colville, presented here.</p>
+<div class="admonition warning">
+<p class="admonition-title">Placeholder</p>
+<p>This section has not yet been filled in. Add the homebrew spell stat blocks here.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="architect">Architect of Ruin</option>
+    <option value="hellspeaker">Hellspeaker</option>
+    <option value="painkiller">Painkiller</option>
+    <option value="sanguine">Sanguine Knight</option>
+    <option value="shadowmaster">Shadowmaster</option>
+</select></p>
+<div class="subclass-content" data-subclass="architect">
+<details class="subclass">
+<summary>Architect of Ruin</summary>
+<p>Architects of Ruin are cool and calculating arcane knights who serve Asmodeus, deploying spells, steel, and subterfuge to win at any cost.</p>
+<p>Asmodeus rules Acheron, the City of Fear. His illriggers scour the timescape, collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other archdevils is one of deception and information. His Architects of Ruin work to make Hell's enemies seem outnumbered and outmaneuvered. These illriggers are skillful spellblades on the battlefield, though some employ tactics such as research, infiltration, and propaganda to play mind games with their quarry. When an Architect of Ruin finally confronts an enemy, the advantage is theirs — they have studied, prepared, and gripped fate within their gauntlet, forcing it to favor them.</p>
+<details class="info">
+<summary>Precepts of Ruin</summary>
+<p><strong>The Battlefield of the Mind.</strong> By the time my armies meet yours, you'll be filled with terror and doubt your own strength. I won't have to lift a finger to defeat you.</p>
+<p><strong>The Proper Secret.</strong> Once I know your secrets, I know your weakness.</p>
+<p><strong>Knowledge Is Power.</strong> Lore is as powerful as steel. I learn every detail about my enemy and anticipate their every move, checkmating them before the game even begins.</p>
+<p><strong>Magic Is Mine to Command.</strong> Cunning is also as powerful as steel. I wield the dark arcane arts to manipulate your senses, weaken your resolve, and strengthen my blade. Your soldiers will quake for fear of what dark magics may next cloak my blade.</p>
+</details>
+<hr>
+<h3 id="level-3-asmodeuss-blessing">Level 3 - Asmodeus's Blessing</h3>
+<p>When Asmodeus accepts you as an Architect of Ruin, he grants you access to his infernal knowledge. You gain proficiency in one of the following skills of your choice: Arcana, History, Nature, or Religion.</p>
+<p>In addition, you can also read and write the languages granted by your Forked Tongue, instead of only speaking them.</p>
+<hr>
+<h3 id="level-3-spellcasting">Level 3 - Spellcasting</h3>
+<p>As an Architect of Ruin, you access a well of profane magic to cast spells.</p>
+<p><strong>Cantrips.</strong> You know two cantrips of your choice from the Architect of Ruin spell list. You learn an additional cantrip from this list at 10th level.</p>
+<p><strong>Spell Slots.</strong> The Architect of Ruin Spellcasting table shows how many spell slots you have to cast your illrigger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+<p><strong>Spells Known of 1st Level and Higher.</strong> At 3rd level, you know three 1st-level spells of your choice from the Architect of Ruin spell list. The Spells Known column of the Spellcasting table shows when you learn more spells. Each spell must be of a level for which you have spell slots. Whenever you gain a level in this class, you can replace one spell you know with another from the spell list of a level for which you have slots.</p>
+<p><strong>Spellcasting Ability.</strong> Charisma is your spellcasting ability for your spells.</p>
+<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+<p><strong>Spellcasting Focus.</strong> You can use an unholy symbol — such as an amulet symbolizing your archdevil, a fragment of a blasphemous relic, or a glass orb holding a consecrated drop of archdevil blood — as a spellcasting focus for your illrigger spells.</p>
+<details class="table">
+<summary>Architect of Ruin Spellcasting</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Illrigger Level</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">Spells Known</th>
+<th style="text-align: center;">1st</th>
+<th style="text-align: center;">2nd</th>
+<th style="text-align: center;">3rd</th>
+<th style="text-align: center;">4th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h3 id="architect-of-ruin-spell-list">Architect of Ruin Spell List</h3>
+<p>Spells marked with ᶜ are Colville homebrew spells found in the New Spells tab.</p>
+<details class="table">
+<summary>Architect of Ruin Spell List</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Cantrips</th>
+<th style="text-align: center;">1st Level</th>
+<th style="text-align: center;">2nd Level</th>
+<th style="text-align: center;">3rd Level</th>
+<th style="text-align: center;">4th Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>chill touch</em></td>
+<td style="text-align: center;"><em>bane</em></td>
+<td style="text-align: center;"><em>arcanist's magic aura</em></td>
+<td style="text-align: center;"><em>bestow curse</em></td>
+<td style="text-align: center;"><em>aura of desecration</em>ᶜ</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>dancing lights</em></td>
+<td style="text-align: center;"><em>burning hands</em></td>
+<td style="text-align: center;"><em>augury</em></td>
+<td style="text-align: center;"><em>dispel magic</em></td>
+<td style="text-align: center;"><em>banishment</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>fire bolt</em></td>
+<td style="text-align: center;"><em>charm person</em></td>
+<td style="text-align: center;"><em>blur</em></td>
+<td style="text-align: center;"><em>fear</em></td>
+<td style="text-align: center;"><em>blight</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>hellfire</em>ᶜ</td>
+<td style="text-align: center;"><em>color spray</em></td>
+<td style="text-align: center;"><em>darkness</em></td>
+<td style="text-align: center;"><em>fly</em></td>
+<td style="text-align: center;"><em>compulsion</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>message</em></td>
+<td style="text-align: center;"><em>command</em></td>
+<td style="text-align: center;"><em>detect thoughts</em></td>
+<td style="text-align: center;"><em>haste</em></td>
+<td style="text-align: center;"><em>death ward</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>minor illusion</em></td>
+<td style="text-align: center;"><em>detect magic</em></td>
+<td style="text-align: center;"><em>enthrall</em></td>
+<td style="text-align: center;"><em>major image</em></td>
+<td style="text-align: center;"><em>dimension door</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>ray of frost</em></td>
+<td style="text-align: center;"><em>disguise self</em></td>
+<td style="text-align: center;"><em>heat metal</em></td>
+<td style="text-align: center;"><em>mote of Hell</em>ᶜ</td>
+<td style="text-align: center;"><em>dominate beast</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>shocking grasp</em></td>
+<td style="text-align: center;"><em>Hell's lash</em>ᶜ</td>
+<td style="text-align: center;"><em>hold person</em></td>
+<td style="text-align: center;"><em>phantom steed</em></td>
+<td style="text-align: center;"><em>greater invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>thaumaturgy</em></td>
+<td style="text-align: center;"><em>hellish rebuke</em></td>
+<td style="text-align: center;"><em>infernal challenge</em>ᶜ</td>
+<td style="text-align: center;"><em>remove curse</em></td>
+<td style="text-align: center;"><em>hallucinatory terrain</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>vengeful blade</em>ᶜ</td>
+<td style="text-align: center;"><em>shield</em></td>
+<td style="text-align: center;"><em>invisibility</em></td>
+<td style="text-align: center;"><em>revivify</em></td>
+<td style="text-align: center;"><em>locate creature</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>vicious mockery</em></td>
+<td style="text-align: center;"><em>shield of faith</em></td>
+<td style="text-align: center;"><em>lesser restoration</em></td>
+<td style="text-align: center;"><em>slow</em></td>
+<td style="text-align: center;"><em>maligned weapon</em>ᶜ</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>silent image</em></td>
+<td style="text-align: center;"><em>mirror image</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>phantasmal killer</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>ray of enfeeblement</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>wall of death</em>ᶜ</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>scorching ray</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>silence</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>suggestion</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-invoke-hell_1">Level 3 - Invoke Hell</h3>
+<p>You gain the following two Invoke Hell options:</p>
+<p><strong>Enervating Spell.</strong> When you deal damage to a creature with an illrigger spell of 1st level or higher, you can expend a seal (no action required) and imbue the spell with weakening magic. The target has vulnerability to that spell's damage. If they normally have resistance or immunity to the spell's damage, that resistance or immunity is suppressed for this spell, and the target has vulnerability to the damage instead.</p>
+<p><strong>Spellblade.</strong> You can use an action to both make a melee weapon attack and cast an illrigger spell you know that has a casting time of one action.</p>
+<hr>
+<h3 id="level-7-hellish-versatility">Level 7 - Hellish Versatility</h3>
+<p>Once on each of your turns, you can cast one of your illrigger cantrips in place of one of your attacks granted by your Extra Attack feature.</p>
+<hr>
+<h3 id="level-7-asmodeuss-interdiction">Level 7 - Asmodeus's Interdiction</h3>
+<p>You learn the following additional interdict boons at the noted illrigger levels. These boons don't count against the number of interdict boons you know.</p>
+<p><strong>Axiomatic Seals (7th Level; Passive).</strong> When you burn one or more seals to deal damage to a creature, you can activate this boon (no action required) to add your Charisma modifier (minimum of 1) to each seal's damage roll.</p>
+<p><strong>Spellbreaker (13th Level).</strong> When an interdicted creature you can see within 60 feet of you casts a spell, you can use your reaction to burn one or more of the seals on them. When you do, burning the seal deals no damage, and instead you cast <em>counterspell</em> on them without expending a spell slot. Your spell's level increases by 1 for every additional seal you burn after the first.</p>
+<p><strong>Hell Mage (18th Level; Passive).</strong> When you or an ally within 30 feet of you succeed on a saving throw against a spell or other magical effect imposed by an enemy, you can immediately place one or more seals on that enemy, up to a number equal to your proficiency bonus.</p>
+<hr>
+<h3 id="level-11-submit">Level 11 - Submit</h3>
+<p>When you cast an illrigger spell you know, you can burn two seals on an interdicted creature (no action required) to impose disadvantage on their saving throw against the spell.</p>
+<hr>
+<h3 id="level-15-vile-transmogrification">Level 15 - Vile Transmogrification</h3>
+<p>You uncover two new ways to employ Asmodeus's magic:</p>
+<p><strong>Regaining Seals.</strong> As a bonus action on your turn, you can expend one spell slot to regain a number of seals equal to that slot's level.</p>
+<p><strong>Regaining Spell Slots.</strong> As a bonus action on your turn, you can expend any number of seals to regain a spell slot of a level equal to one-third that number (rounded down). For example, you can expend six seals to regain a 2nd-level spell slot.</p>
+<p>Once you use one of these benefits, you can't use that benefit again until you finish a long rest.</p>
+<hr>
+</details>
+</div>
+<div class="subclass-content" data-subclass="hellspeaker">
+<details class="subclass">
+<summary>Hellspeaker</summary>
+<p>The charismatic and manipulative Hellspeakers serve Moloch as they slip about the battlefield, coercing enemies into becoming unwitting allies.</p>
+<p>Moloch rules Styx, the City of Lies, but his reach extends far beyond it. Hell's greatest politicians and diplomats rise to prominence through Moloch's subtle manipulations. They follow him with great loyalty, for they know they are nothing without him — and thus his power echoes through all of Hell. Moloch's illriggers are silver-tongued enchanters, lulling his foes to complacency with sorcery and subterfuge until they wake and find themselves under the command of the Order of Desolation. These Hellspeakers train in the art known as the Red Cant or Hell's Cant. By understanding their enemy and through weaving subtle sorceries into normal speech, Hellspeakers can make their foes feel, think, or do nearly anything to accelerate Hell's victory.</p>
+<details class="info">
+<summary>Precepts of Deception</summary>
+<p><strong>My Voice Is a Weapon.</strong> Even when my enchantments fail, if my enemy can hear me, they are mine.</p>
+<p><strong>Doubt Is Certainty.</strong> I need not convince my enemy, only sow doubt and wait for it to bear fruit.</p>
+<p><strong>Trust Me.</strong> For each lie I utter, I tell the truth tenfold. One who always lies says nothing.</p>
+<p><strong>Never Tell the Same Lie Twice.</strong> An overused skill becomes too predictable. Keep moving, switch targets, keep them guessing.</p>
+</details>
+<hr>
+<h3 id="level-3-molochs-blessing">Level 3 - Moloch's Blessing</h3>
+<p>When Moloch accepts you as his illrigger, you gain proficiency in the Persuasion or Deception skill (your choice). If you already have proficiency in the skill of your choice, your proficiency bonus is doubled for any ability check you make with that skill.</p>
+<p>In addition, your Forked Tongue feature grants you an additional language (for a total of three at 3rd level and four at 9th level). Whenever you speak in a language gained by this feature, your devilish influence is subconsciously felt by creatures who can hear and understand you, granting you advantage on Charisma checks to influence those creatures.</p>
+<hr>
+<h3 id="level-3-charm-enemy">Level 3 - Charm Enemy</h3>
+<p>When you use your bonus action to place a seal on a Humanoid, you can attempt to charm them. The target must succeed on a Charisma saving throw or be charmed by you for 1 hour or until you or your companions do anything harmful to them. While charmed, the target regards you as a friendly acquaintance. When the charmed condition ends, the target knows they were charmed by you.</p>
+<p>When you use this bonus action, you can additionally burn one or more seals on one or more other interdicted Humanoids within 30 feet of you, attempting to charm those targets as well. After taking damage from the burned seals, each of those targets must succeed on a Charisma saving throw or be under the same charmed effect.</p>
+<p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-3-invoke-hell_2">Level 3 - Invoke Hell</h3>
+<p>You gain the following two Invoke Hell options:</p>
+<p><strong>Honey-Sweet Blades.</strong> When you make a weapon attack against an interdicted creature, you can gain advantage on that attack (no action required). If the attack hits, it becomes a critical hit.</p>
+<p><strong>Turncoat.</strong> As an action, you wield your manipulative tongue against your enemies. You choose a number of enemy creatures up to your proficiency bonus within 60 feet of you who can hear you. Each target must succeed on a Charisma saving throw or use their reaction to make a weapon attack against a single target of your choice. A creature affected by this feature can't attack themself.</p>
+<hr>
+<h3 id="level-7-molochs-interdiction">Level 7 - Moloch's Interdiction</h3>
+<p>You learn the following additional interdict boons at the noted illrigger levels. These boons don't count against the number of interdict boons you know.</p>
+<p><strong>Red Cant (7th Level).</strong> When you make a Charisma check, you can expend a seal to treat a d20 roll of 9 or lower as a 10.</p>
+<p><strong>Slippery Ploy (13th Level).</strong> When a creature targets you with an attack, spell, or other magical effect, you can place a seal on them as a reaction and force the creature to make a Charisma saving throw. On a failed save, the creature must choose a new target or lose the attack or effect.</p>
+<p><strong>Incontrovertible (18th Level; Passive).</strong> Interdicted creatures have disadvantage on Wisdom and Charisma saving throws.</p>
+<hr>
+<h3 id="level-11-intransigent">Level 11 - Intransigent</h3>
+<p>You and each creature of your choice within 10 feet of you are immune to the charmed condition while you are conscious.</p>
+<hr>
+<h3 id="level-11-lets-make-a-deal">Level 11 - Let's Make a Deal</h3>
+<p>As a bonus action, you choose one willing ally within 60 feet of you who can hear you. Once within the next 10 minutes, the creature can choose to gain advantage on one attack roll or saving throw they make and can add a bonus equal to your proficiency bonus to the same roll. If this attack hits or this saving throw succeeds, the creature gains temporary hit points equal to your illrigger level. If this attack misses or this saving throw fails, the creature has disadvantage on the next attack roll or saving throw they make. This disadvantage can't be canceled out with advantage in any way. A creature can strike only one deal with you at a time.</p>
+<p>You can use this feature a number of times equal to your proficiency bonus. You regain any expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-15-quid-pro-quo">Level 15 - Quid Pro Quo</h3>
+<p>As an action, you can attempt to banish a creature you can see within 30 feet of you. The target must succeed on a Charisma saving throw. On a failed save, the target is banished to the wastes of Hell for 1 minute, after which they return to the unoccupied space nearest to the one they left. A target banished in this way can repeat the saving throw at the end of each of their turns, ending the effect early on a success. A creature who succeeds on a saving throw against this effect becomes immune to your Quid Pro Quo for 24 hours.</p>
+<p>Additionally, when a target is banished in this way, a devil jurist or a horned devil appears in their place. This devil acts as an ally to you and follows your commands until the banished creature is no longer banished, at which time the devil disappears.</p>
+<p>Once you successfully banish a creature in this way, you can't use this feature again until you finish a long rest.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="painkiller">
+<details class="subclass">
+<summary>Painkiller</summary>
+<p>The heavily armored death troopers of Hell, Painkillers serve Dispater, leading from the front of every major infernal battle.</p>
+<p>Dispater rules Dis, the City of War. When Hell invades another world, Dispater's army does the fighting and dying. His Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. The imperious Painkillers are full of pride and hubris, and they often obsess over their personal appearance. Though among the most chivalrous of the illriggers, a Painkiller's gallantry is twisted. They accept and honor challenges to single combat, and swiftly punish any who try to interfere — but if losing, they don't hesitate to cheat, and if winning, they arrogantly toy with an enemy before finishing them.</p>
+<details class="info">
+<summary>Precepts of Pride</summary>
+<p><strong>Lead from the Front.</strong> I charge in at the front of every battle, inspiring my soldiers and terrifying my enemies.</p>
+<p><strong>Commander.</strong> Wherever I go, I command. I don't take orders from those who don't have the will to lead.</p>
+<p><strong>Victory at Any Cost.</strong> I respect the enemy leader and treat them honorably. But once swords are drawn, I use every trick in my arsenal to win, expecting them to do the same.</p>
+<p><strong>Soldiers Die.</strong> I care not for the lives of my soldiers, for they are resources I spend to secure my victory.</p>
+</details>
+<hr>
+<h3 id="level-3-dispaters-blessing">Level 3 - Dispater's Blessing</h3>
+<p>When Dispater accepts you as his illrigger, you gain proficiency with heavy armor.</p>
+<hr>
+<h3 id="level-3-devastator">Level 3 - Devastator</h3>
+<p>As an action, you invoke the authority of Dispater. You make a weapon attack and choose a number of willing creatures up to your proficiency bonus who you can see within 30 feet of you. Each creature you choose can use a reaction to make a weapon attack or cast a damage-dealing cantrip with a casting time of 1 action.</p>
+<p>Once you use this action, you can't use it again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-3-invoke-hell_3">Level 3 - Invoke Hell</h3>
+<p>You gain the following two Invoke Hell options:</p>
+<p><strong>Grand Strategist.</strong> You can order your allies to follow your formation (no action required). Choose one or more creatures within 60 feet of you who can hear you, up to a number of creatures equal to your proficiency bonus. Each target can immediately move up to half their speed without provoking opportunity attacks.</p>
+<p><strong>Punishment.</strong> When a creature damages you with an attack, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes necrotic damage equal to the damage they dealt you with the triggering attack. On a successful save, the attacker takes half as much damage.</p>
+<hr>
+<h3 id="level-7-dispaters-interdiction">Level 7 - Dispater's Interdiction</h3>
+<p>You learn the following additional interdict boons at the noted illrigger levels. These boons don't count against the number of interdict boons you know.</p>
+<p><strong>Telekinetic Seal (7th Level).</strong> When a creature you can see moves within 5 feet of you, you can use your reaction to place a seal on them. When you do, the target must succeed on a Wisdom saving throw or be either pushed back 15 feet or knocked prone (your choice).</p>
+<p><strong>By the Throat (13th Level).</strong> When you use a bonus action to place or move a seal on a creature who is no more than one size larger than you, they must succeed on a Wisdom saving throw or be restrained until the end of their next turn.</p>
+<p><strong>Dispater's Supremacy (18th Level; Passive).</strong> Your attacks against interdicted creatures score a critical hit on a roll of 18 through 20.</p>
+<hr>
+<h3 id="level-11-you-die-on-my-command">Level 11 - You Die on My Command!</h3>
+<p>When an ally within 30 feet of you who can hear you drops to 0 hit points without being killed outright, you can use your reaction to shout an order at them, causing them to drop to 1 hit point instead. Once you use this reaction, you can't do so again until you finish a short or long rest.</p>
+<hr>
+<h3 id="level-15-deathstrike">Level 15 - Deathstrike</h3>
+<p>When you hit an interdicted creature with a melee weapon attack, you can use your reaction to burn one of the seals on them to turn the hit into a critical hit. When you do, you also double the damage dice you roll for the burned seal.</p>
+<p>You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="sanguine">
+<details class="subclass">
+<summary>Sanguine Knight</summary>
+<p>The blood-knights of Hell, Sanguine Knights serve Sutekh, Lord of Blood. Their sorceries drain their enemies' life force, pouring this stolen vitality into infernal rituals to turn the tide of battle.</p>
+<p>Sutekh rules Naraka, the City of Blood. Recognized as the greatest sorcerer in hell, he carries the title of High Sanguinary and rules from the Temple of Vitality. He is a master of blood magic, and his inner circle of priests and wizards are the Bloodliches, undead spellcasters whose corporeal forms turned to ash centuries ago and whose bodies are crafted from solid blood. Sutekh's illriggers all belong to a cult known as the Chalice of Vitality. Knights of the Chalice drink deeply of their enemies' essence, draining it to power their magics. Other members of the Order of Desolation fear that the Sanguine Knights seek more than Sutekh's mere ascension to the Throne of Hell; some whisper that the Chalice secretly schemes to make Sutekh a god — which would, of course, be treason.</p>
+<details class="info">
+<summary>Precepts of Blood</summary>
+<p><strong>Their Strength Is Their Weakness.</strong> I target the strongest of my foes, for their vitality shall feed my victory.</p>
+<p><strong>Sin Demands Suffering.</strong> Opposing me is heresy. Before my enemies taste defeat, they must pay for their unbelief with agony.</p>
+<p><strong>Loyalty Rewarded.</strong> My boons lead my allies to depend on me — and on the bloodshed that empowers me.</p>
+<p><strong>Mercy Is Power.</strong> In granting succor to my allies, I prove how great my power is. Each time I restore life, it serves as a reminder of how quickly I can strip it away.</p>
+</details>
+<hr>
+<h3 id="level-3-exsanguinate">Level 3 - Exsanguinate</h3>
+<p>You can drain enemies to embolden your allies. Whenever you burn one or more seals on a creature who isn't a Construct or Undead, you can choose an ally you can see within 30 feet of you. That ally gains temporary hit points equal to the damage dealt by the seals to the interdicted creature.</p>
+<hr>
+<h3 id="level-3-sutekhs-blessing">Level 3 - Sutekh's Blessing</h3>
+<p>When Sutekh accepts you as his illrigger, he grants you access to his sacrilegious command of blood and life. You gain proficiency in the Religion skill.</p>
+<p>In addition, as an action, you can expand your awareness of life around you. Until the end of your next turn, you can sense creatures who have blood within 120 feet of you without having to see them. This ability can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You know the distance and direction of each creature, as well as the creature's type. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+<hr>
+<h3 id="level-3-invoke-hell_4">Level 3 - Invoke Hell</h3>
+<p>You gain the following two Invoke Hell options:</p>
+<p><strong>Embolden Allies.</strong> As a bonus action, you restore a total number of hit points equal to five times your illrigger level, divided however you choose between yourself and other creatures within 30 feet of you.</p>
+<p><strong>Vitalize.</strong> You can flood your allies with invigorating vivacity (no action required). For 1 minute, each creature of your choice within 30 feet of you gains a bonus to ability checks equal to your proficiency bonus.</p>
+<hr>
+<h3 id="level-7-sutekhs-interdiction">Level 7 - Sutekh's Interdiction</h3>
+<p>You learn the following additional interdict boons at the noted illrigger levels. These boons don't count against the number of interdict boons you know.</p>
+<p><strong>Foul Interchange (7th Level).</strong> As an action, you choose a creature you can see within 30 feet of you and expend a seal to end one of the following conditions afflicting them: blinded, charmed, dazed, deafened, frightened, paralyzed, or poisoned. Another creature you can see within 60 feet of you must succeed on a Constitution saving throw or suffer that same condition until the end of your next turn. If that creature is immune to the condition, they don't suffer the condition, but the condition ends for the original creature.</p>
+<p><strong>Sanguine Gift (13th Level).</strong> When a creature you can see within 30 feet of you regains hit points, you can expend a seal (no action required) and the creature regains additional hit points equal to your illrigger level.</p>
+<p><strong>Blood for Blood (18th Level; Passive).</strong> Whenever an ally takes damage from an interdicted creature, that interdicted creature takes necrotic damage equal to your proficiency bonus.</p>
+<hr>
+<h3 id="level-11-bloodstroke">Level 11 - Bloodstroke</h3>
+<p>The magic that shields your allies now also saps their enemies' strength. When an ally who has temporary hit points from your Exsanguinate feature is hit by a melee attack, the attacker takes cold, fire, or necrotic damage (your choice) equal to your illrigger level.</p>
+<hr>
+<h3 id="level-15-haemal-exchange">Level 15 - Haemal Exchange</h3>
+<p>When an interdicted creature within 60 feet of you makes an attack roll or saving throw, you can use your reaction to burn one of the seals on them and transfer their power. The target must roll a d8 and subtract the number rolled from the triggering attack roll or saving throw.</p>
+<p>You then empower an ally within 30 feet of you. The next time that ally makes an attack roll or saving throw, they roll a d8 and add the number rolled to the attack roll or saving throw.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="shadowmaster">
+<details class="subclass">
+<summary>Shadowmaster</summary>
+<p>The hidden assassins of Hell, Shadowmasters serve Belial and excel at stealth and disguise.</p>
+<p>Belial rules Gehennom, the City of Darkness. He strives to rule Hell through poison, torture, and assassination. His illriggers strike from the shadows or use deception to earn high-ranking positions close to powerful rulers. Many Shadowmasters run networks of spies and assassins who have no idea of the infernal provenance of their leader. Shadowmasters are sworn not to reveal their true allegiance, and if need be, they must take their own lives to fulfill this oath. Many Shadowmasters prepare elaborate plans for their own assassination so that, should they risk discovery, their assassination obscures the truth. Of course, these killers never learn they were hired by their deceased target.</p>
+<details class="info">
+<summary>Precepts of Shadow</summary>
+<p><strong>Plans Within Plans.</strong> My enemies must never discover my true goals. If needed, I will sacrifice myself to protect my schemes.</p>
+<p><strong>Positions of Power.</strong> I control everything from the shadows by knowing who to deceive and where to hide in plain sight.</p>
+<p><strong>Power in Patience.</strong> I study my enemy and methodically build their trust. My loyalty must be unquestionable so my inevitable betrayal is unthinkable.</p>
+<p><strong>Hesitation Is Failure.</strong> Though I usually rely on agents, when the opportunity presents itself, I can unhesitatingly kill with efficiency and precision.</p>
+</details>
+<hr>
+<h3 id="level-3-marked-for-death">Level 3 - Marked for Death</h3>
+<p>You are particularly skilled against foes you mark for death. You have advantage on your first attack against an interdicted creature on each of your turns.</p>
+<hr>
+<h3 id="level-3-strike-from-the-dark">Level 3 - Strike from the Dark</h3>
+<p>You understand the power of striking from the shadows. Once per turn, when you hit an interdicted creature with a melee weapon attack and you have advantage on the attack roll, you can roll a number of d4s equal to your proficiency bonus and deal extra damage equal to the total you rolled. This damage increases by 1d4 if the target is in dim light or darkness.</p>
+<hr>
+<h3 id="level-3-invoke-hell_5">Level 3 - Invoke Hell</h3>
+<p>You gain the following two Invoke Hell options:</p>
+<p><strong>Master of Disguise.</strong> As an action, you can cast the <em>disguise self</em> spell without expending a spell slot.</p>
+<p><strong>No Escape.</strong> As a bonus action, you can call on the shadows to entrap a creature you can see within 30 feet of you. The target must make a Charisma saving throw, made with disadvantage if they are in dim light or darkness. On a failed save, the target's speed is halved and they can't willingly move more than 30 feet away from you. This effect ends for the target if you are incapacitated or die or if the target is more than 30 feet away from you.</p>
+<hr>
+<h3 id="level-7-belials-interdiction">Level 7 - Belial's Interdiction</h3>
+<p>You learn the following additional interdict boons at the noted illrigger levels. These boons don't count against the number of interdict boons you know.</p>
+<p><strong>Veil of Lies (7th Level).</strong> As a bonus action, you can expend a seal to become invisible for 10 minutes or until you attack or cast a spell.</p>
+<p><strong>Hell's Assassin (13th Level; Passive).</strong> Whenever you roll a 1 or 2 on a die to determine the damage of your seals or your weapon attacks against interdicted creatures, you can reroll the die and must use the new roll.</p>
+<p><strong>Dark Malediction (18th Level; Passive).</strong> Interdicted creatures radiate darkness in a 10-foot radius. Mundane sources of light can't illuminate this darkness, but creatures with darkvision can see through it. If any of this darkness overlaps with an area of light created by magic or psionics, the overlapping area of darkness is illuminated by the light.</p>
+<hr>
+<h3 id="level-11-umbral-killer">Level 11 - Umbral Killer</h3>
+<p>Shadows are your companion, aiding you in your exploits. You gain the following benefits:</p>
+<ul>
+<li>You gain darkvision out to 60 feet. If you already have darkvision, its range increases by 60 feet.</li>
+<li>Your movement speed increases by 10 feet.</li>
+<li>You have advantage on Dexterity (Stealth) checks made to hide.</li>
+<li>Whenever you make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and half damage if you fail.</li>
+</ul>
+<hr>
+<h3 id="level-15-doomed-to-the-shadows">Level 15 - Doomed to the Shadows</h3>
+<p>You have perfected your assassin's strike. The extra damage from your Strike from the Dark feature increases to a number of d8s equal to your proficiency bonus (instead of that number of d4s), and you deal an extra 2d8 damage if the target is in dim light or darkness (instead of an extra 1d4 damage).</p>
+<p>In addition, when you deal damage using Strike from the Dark, you can use your reaction to burn a seal on the creature, causing them to be blinded for 1 minute instead of dealing the seal's damage.</p>
+</details>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

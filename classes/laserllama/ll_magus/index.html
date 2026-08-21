@@ -1,0 +1,3439 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../ll_bloodhunter/">
+      
+      
+        <link rel="next" href="../ll_psion/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Magus - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Magus
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../ll_bloodhunter/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Laserllama
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-magus">The Magus</h1>
+<p>Known by many names throughout the multiverse, those who are able to wield both sword and spell are collectively known as Magi. Rather than dedicate their lives to studying arcane magic or mastering martial techniques, Magi are dedicated to a middle path. Though they may never command the earth-shattering magic of an archmage or go toe to toe with a true master of the blade, a Magus is able to master a unique form of arcane combat only used by the members of their Order.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Magus Features</label><label for="__tabbed_1_3">Magus Spell List</label><label for="__tabbed_1_4">Esoteric Orders</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h4 id="magus-progression-table">Magus Progression Table</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th>Features</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">Spells Known</th>
+<th style="text-align: center;">1st</th>
+<th style="text-align: center;">2nd</th>
+<th style="text-align: center;">3rd</th>
+<th style="text-align: center;">4th</th>
+<th style="text-align: center;">5th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td>Arcane Armory, Fighting Style</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td>Spellcasting, Spellstrike</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td>Arcane Regeneration, Esoteric Order</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td>Extra Attack, Spellsight</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td>Ethereal Step</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td>Esoteric Order Feature</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td>Spellsunder</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td>Mystical Ward</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td>Arcane Conservation, Prismatic Strikes</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td>—</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td>Superior Spellsunder</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td>Esoteric Order Feature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td>—</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td>Improved Arcane Conservation</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td>Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td>Esoteric Order Feature</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="hit-points">Hit Points</h4>
+<p><strong>Hit Dice:</strong> 1d10 per Magus level<br />
+<strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per Magus level after 1st  </p>
+<hr>
+<h4 id="proficiencies">Proficiencies</h4>
+<p><strong>Armor:</strong> Light armor, medium armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, martial weapons<br />
+<strong>Tools:</strong> None  </p>
+<p><strong>Saving Throws:</strong> Constitution, Intelligence<br />
+<strong>Skills:</strong> Choose two from Acrobatics, Arcana, Athletics, History, Investigation, Nature, and Performance  </p>
+<hr>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li><em>(a)</em> a martial weapon and shield or <em>(b)</em> two martial weapons  </li>
+<li><em>(a)</em> scale mail or <em>(b)</em> leather armor  </li>
+<li><em>(a)</em> a light crossbow and 20 bolts or <em>(b)</em> five javelins  </li>
+<li><em>(a)</em> a dungeoneer's pack or <em>(b)</em> an explorer's pack  </li>
+</ul>
+<hr>
+<h4 id="level-1-arcane-armory">Level 1 - Arcane Armory</h4>
+<p>At 1st level, you learn the signature enchantment of the Magi, the creation of your Arcane Armory. It is an extradimensional space accessible only by you, which uses the rules below.</p>
+<p><strong>Enchanting Objects.</strong> To add an object to your Arcane Armory, you must perform a 1-hour ritual on a single weapon, shield, set of armor, or Tiny object. You must hold it for the duration, and when complete, it disappears into your Arcane Armory until you summon it. Your Armory can hold a maximum number of objects equal to 1 + your Magus level. One must always be a melee weapon. If you add an object to your Arcane Armory while it is at its maximum, you must choose one object to remove from your Armory, and it appears on the ground at your feet.</p>
+<p><strong>Accessing your Armory.</strong> As a bonus action, you can access your Armory, summoning any number of objects from it, instantly equipping or donning objects of your choice. As part of the same bonus action, you can also shunt any number of these Armory objects, instantly doffing and storing them within your Arcane Armory.</p>
+<p><strong>Armory Benefits.</strong> If they were not already, Armory weapons, shields, and sets of armor are magical so long as they remain part of your Arcane Armory. When you calculate your Armor Class in light or medium armor that is part of your Arcane Armory, you can use your Intelligence in place of your Dexterity.</p>
+<hr>
+<h4 id="level-1-fighting-style">Level 1 - Fighting Style</h4>
+<p>Also at 1st level, you learn one Fighting Style from the following list. You can't learn the same Fighting Style more than once, even if a feature allows you to learn another. When you gain a level, you can replace this Fighting Style with another Fighting Style available to the Magus class.</p>
+<p><strong>Arcane Warrior.</strong> You learn two cantrips of your choice from the Wizard spell list. These do not count against your total number of Cantrips Known, Intelligence is their spellcasting ability, and when you gain Spellcasting, they count as Magus spells for you.</p>
+<p><strong>Archery.</strong> You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+<p><strong>Brawler.</strong> Your unarmed strikes deal bludgeoning damage equal to 1d6 + your Strength modifier on hit. If you have two free hands and use your action to make only unarmed strikes you can make a single unarmed strike as a bonus action on that turn.</p>
+<p><strong>Classical Swordplay.</strong> While wielding a finesse weapon and no other weapons, you gain a +2 bonus to your attack rolls and a +1 to your Armor Class so long as you are not using heavy armor or a shield.</p>
+<p><strong>Defense.</strong> So long as you are either wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.</p>
+<p><strong>Dueling.</strong> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.</p>
+<p><strong>Featherweight Training.</strong> While you are wielding only light weapons and nothing else, your speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.</p>
+<p><strong>Great Weapon Fighting.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+<p><strong>Heavyweight Training.</strong> You can use your weight, and the weight of your weapon, to land devastating blows. While you are wielding a heavy weapon, you gain a +1 bonus to damage rolls and you have advantage on Strength (Athletics) checks made to Shove.</p>
+<p><strong>Mounted Combatant.</strong> While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on each of your turns to command the mount to take one action from its stat block.</p>
+<p><strong>Pit Fighting.</strong> You have trained to fight with weapons typically associated with gladiators. For you, tridents deal 1d8 (1d10) piercing damage on hit. When making an attack roll with a net against a creature within 5 feet, you do not have disadvantage on the roll. When you take the Attack action on your turn, making an attack with a net only takes the place of one attack.</p>
+<p><strong>Protection.</strong> When a creature you can see hits you, or a target within 5 feet, with a melee attack, you can use a reaction to add your proficiency bonus to the target's Armor Class against that attack. You must be wielding a shield or a melee weapon.</p>
+<p><strong>Shield Warrior.</strong> You gain proficiency with shields as a martial melee weapon, and on hit, your shield deals 2d4 bludgeoning damage. If you are wielding a shield and nothing else, you gain a +1 bonus to your shield attack rolls and to your Armor Class.</p>
+<p><strong>Thrown Weapon Fighting.</strong> You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.</p>
+<p><strong>Two-Weapon Fighting.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the off-hand attack.</p>
+<p><strong>Versatile Fighting.</strong> While wielding a single versatile weapon and no shield, you gain a +1 bonus to your attack rolls with that weapon. While doing so, you can also use your bonus action to make a single grapple or shove attack, or to take the Use an Object action.</p>
+<hr>
+<h4 id="level-2-spellcasting">Level 2 - Spellcasting</h4>
+<p>At 2nd level, you learn to cast arcane spells, which you use to enhance your abilities both on and off the field of battle.</p>
+<p><strong>Cantrips.</strong> You learn two cantrips from the Magus spell list. You learn another Magus cantrip of your choice at 4th and 10th levels, as shown in the Cantrips Known column of the Magus table.</p>
+<p><strong>Spellcasting Focus.</strong> You can use any weapon, shield, or arcane focus within your Arcane Armory as a spellcasting focus for the Magus spells you know. Armory weapons and shields can also be used to perform the somatic components of your Magus spells.</p>
+<p><strong>Spell Slots.</strong> The Magus table shows how many spell slots you have to cast your spells of 1st-level and higher. To cast a Magus spell, you must expend a spell slot of that spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+<p><strong>Spells Known of 1st-Level and Higher.</strong> At 2nd level, you know two 1st-level spells from the Magus spell list. The Spells Known column of the Magus table shows when you learn more Magus spells, all of which must be of a level for which you have spell slots. When you gain a Magus level, you can replace one Magus spell you know with another Magus spell of your choice for which you have spell slots.</p>
+<p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for all Magus spells. You use Intelligence when a spell refers to your spellcasting ability, when you set a saving throw DC, or when you make a spell attack roll.</p>
+<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+<hr>
+<h4 id="level-2-spellstrike">Level 2 - Spellstrike</h4>
+<p>Also at 2nd level, you learn the signature technique of the Magi: Spellstrike. Once on your turn, when you attack with a melee Arcane Armory weapon you can simultaneously cast a Magus spell, expending a spell slot as normal. The spell is channeled through your weapon instead of taking effect normally.</p>
+<p>The spell must have a casting time of one action, and either require one spell attack roll, force at least one saving throw, or affect a number of hit points worth of creatures (like <em>sleep</em>). On a miss, the spell fails and has no effect. On a hit, the spell takes effect instantly after your attack, using the rules below.</p>
+<p><strong>Area of Effect.</strong> If the spell targets an area greater than a 5-foot cube, you choose if the spell only affects your target, or if it takes effect as a 15-foot cone which includes the target, and extends out from your target directly away from you.</p>
+<p><strong>Saving Throws.</strong> The target of your attack makes its initial saving throw against the spell with disadvantage. If you score a critical hit, it automatically fails its initial saving throw.</p>
+<p><strong>Spell Attacks.</strong> If the spell requires a spell attack roll, your weapon attack roll replaces it, and it takes effect on hit.</p>
+<p><strong>Concentration.</strong> If the spell requires your concentration, you begin concentrating on it after it takes effect, on hit.</p>
+<p><strong>Cantrips.</strong> If you cast a cantrip, your attack does not deal bonus damage from the cantrip. Instead, your weapon attack deals the damage type of the cantrip, and the cantrip's non-damaging effects are applied to your target on hit.</p>
+<hr>
+<h4 id="level-3-arcane-regeneration">Level 3 - Arcane Regeneration</h4>
+<p>Starting at 3rd level, you can focus on your knowledge of the arcane to regenerate magic potential. During a short rest, you can recover expended spell slots of a combined level equal to your Intelligence modifier (minimum of a single 1st-level spell slot). Once you recover spell slots this way, you must finish a long rest before you can use this feature again.</p>
+<hr>
+<h4 id="level-3-esoteric-order">Level 3 - Esoteric Order</h4>
+<p>Upon reaching 3rd level, you formally join one of the Magi's Esoteric Orders. Your Esoteric Order grants you features at 3rd level, and again when you reach 7th, 15th, and 20th level. If an Esoteric Order feature requires a target to make a saving throw, it uses your spell save DC.</p>
+<p><strong>Order Spells.</strong> Most Esoteric Orders include a list of Order Spells that you learn at the Magus levels listed in their description. They count as Magus spells for you, but they don't count against your total Spells Known. You cannot replace your Order Spells when you gain a Magus level.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. As normal, you cannot increase one of your ability scores above 20 using this feature.</p>
+<hr>
+<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
+<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a spell, you can make a single weapon attack as a bonus action on that same turn.</p>
+<hr>
+<h4 id="level-5-spellsight">Level 5 - Spellsight</h4>
+<p>Also at 5th level, you can use an action to awaken your senses to magic within 30 feet as if you had cast a <em>detect magic</em> spell. This lasts for 10 minutes and requires your concentration. You can end this sense early to gain knowledge of a single object you touch as if you cast <em>identify</em> on it.</p>
+<p>You can use this feature once per short or long rest at no cost, after which you must spend a spell slot to use it again.</p>
+<hr>
+<h4 id="level-6-ethereal-step">Level 6 - Ethereal Step</h4>
+<p>Beginning at 6th level, you can harness the residual power of your spells to slip through the Ethereal Plane. Once per turn, after you cast a spell or use Spellstrike, you can immediately teleport to an unoccupied space you can see in range. The range of the teleport is determined by the spell slot you spent: 10 feet for a cantrip, plus an additional 10 feet for each level of the spell slot you spent.</p>
+<hr>
+<h4 id="level-9-spellsunder">Level 9 - Spellsunder</h4>
+<p>You can use your magic to cut down hostile spells. Starting at 9th level, when you see a spell being cast that will affect you, you can use your reaction to expend one spell slot and attack the spell with an Arcane Armory weapon. If the spell was cast at a level equal to the level of your spell slot or lower, it fails and has no effect. If it was cast at a level higher than your spell slot, you must make an attack roll with your Armory weapon. If your roll exceeds 12 + twice the level of the hostile spell, the spell fails and has no effect.</p>
+<hr>
+<h4 id="level-10-mystical-ward">Level 10 - Mystical Ward</h4>
+<p>You can cast your spells in battle and avoid their most potent effects. Beginning at 10th level, you are immune to the effects of any Magus spell you cast, unless you wish to be affected.</p>
+<hr>
+<h4 id="level-11-arcane-conservation">Level 11 - Arcane Conservation</h4>
+<p>Beginning at 11th level, when you miss with a Spellstrike, you can regain a single spell slot at least one level lower than the spell slot you expended. However, if you do so, you cannot use Ethereal Step after this Spellstrike.</p>
+<p>At 18th level (Improved Arcane Conservation), you regain the same spell slot you expended instead of one level lower.</p>
+<hr>
+<h4 id="level-11-prismatic-strikes">Level 11 - Prismatic Strikes</h4>
+<p>Starting at 11th level, your every strike flashes with prismatic power. You can Spellstrike a cantrip whenever you make an attack with a melee Arcane Armory weapon. When you do so, your attack deals a bonus 1d8 damage of the cantrip's type.</p>
+<hr>
+<h4 id="level-14-superior-spellsunder">Level 14 - Superior Spellsunder</h4>
+<p>Beginning at 14th level, if a creature within 30 feet is targeted by a spell you can see being cast, you can use your reaction to teleport to an unoccupied space within 5 feet of the target of the spell, then use Spellsunder against the hostile spell.</p>
+<hr>
+</div>
+<div class="tabbed-block">
+<h4 id="magus-spell-list">Magus Spell List</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Cantrips (0-Level)</th>
+<th style="text-align: center;">1st Level</th>
+<th style="text-align: center;">2nd Level</th>
+<th style="text-align: center;">3rd Level</th>
+<th style="text-align: center;">4th Level</th>
+<th style="text-align: center;">5th Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>acid splash</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>absorb elements</em></td>
+<td style="text-align: center;"><em>acid arrow</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>counterspell</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>accursed touch</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>cone of cold</em>⁽ˢ⁾</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>blade ward</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>armor of agathys</em></td>
+<td style="text-align: center;"><em>aura of frost</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>dispel magic</em></td>
+<td style="text-align: center;"><em>arcane eye</em></td>
+<td style="text-align: center;"><em>contact other plane</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>booming blade</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>burning hands</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>blind/deafness</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>elemental bane</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>banishment</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>contagion</em>⁽ˢ⁾</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>dancing lights</em></td>
+<td style="text-align: center;"><em>caustic brew</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>blur</em></td>
+<td style="text-align: center;"><em>elemental weapon</em></td>
+<td style="text-align: center;"><em>dimension door</em></td>
+<td style="text-align: center;"><em>dispel evil &amp; good</em>⁽ˢ⁾</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>firebolt</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>chromatic orb</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>cloud of daggers</em></td>
+<td style="text-align: center;"><em>erupting earth</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>divination</em></td>
+<td style="text-align: center;"><em>far step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>frostbite</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>color spray</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>darkness</em></td>
+<td style="text-align: center;"><em>fireball</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>fire shield</em></td>
+<td style="text-align: center;"><em>hold monster</em>⁽ˢ⁾</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>glitterbeam</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>detect magic</em></td>
+<td style="text-align: center;"><em>darkvision</em></td>
+<td style="text-align: center;"><em>flame arrows</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>freedom of movement</em></td>
+<td style="text-align: center;"><em>immolation</em>⁽ˢ⁾</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>green-flame blade</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>earth tremor</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>earthen grasp</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>fly</em></td>
+<td style="text-align: center;"><em>greater invisibility</em></td>
+<td style="text-align: center;"><em>passwall</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>light</em></td>
+<td style="text-align: center;"><em>expeditious retreat</em></td>
+<td style="text-align: center;"><em>elemental blade</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>haste</em></td>
+<td style="text-align: center;"><em>ice storm</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>scrying</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>lightning lure</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>faerie fire</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>enhance ability</em></td>
+<td style="text-align: center;"><em>lightning bolt</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>polymorph</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>skill empowerment</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>mage hand</em></td>
+<td style="text-align: center;"><em>feather fall</em></td>
+<td style="text-align: center;"><em>enlarge/reduce</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>magic circle</em></td>
+<td style="text-align: center;"><em>resilient sphere</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>steel wind strike</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>minor illusion</em></td>
+<td style="text-align: center;"><em>floating disk</em></td>
+<td style="text-align: center;"><em>gust of wind</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>minute meteors</em></td>
+<td style="text-align: center;"><em>sickening radiance</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>telepathic bond</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>poison spray</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>fog cloud</em></td>
+<td style="text-align: center;"><em>hold person</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>protection from energy</em></td>
+<td style="text-align: center;"><em>stoneskin</em></td>
+<td style="text-align: center;"><em>teleportation circle</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>prestidigitation</em></td>
+<td style="text-align: center;"><em>grease</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>invisibility</em></td>
+<td style="text-align: center;"><em>sleet storm</em></td>
+<td style="text-align: center;"><em>vitriolic sphere</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>vorpal blade</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>ray of frost</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>ice knife</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>levitate</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>slow</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>wall of fire</em></td>
+<td style="text-align: center;"><em>wall of force</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>resistance</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>identify</em></td>
+<td style="text-align: center;"><em>lock/unlock</em></td>
+<td style="text-align: center;"><em>sonic wave</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>wall of ice</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>wall of light</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>shocking grasp</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>jump</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>magic aura</em></td>
+<td style="text-align: center;"><em>tidal wave</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>watery sphere</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>wall of stone</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>sword burst</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>mage armor</em></td>
+<td style="text-align: center;"><em>magic weapon</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>tiny hut</em>ᴸᴸ</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>tempestuous blade</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>magic missile</em></td>
+<td style="text-align: center;"><em>mirror image</em></td>
+<td style="text-align: center;"><em>thunder step</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>true strike</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>ray of sickness</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>misty step</em></td>
+<td style="text-align: center;"><em>wall of sand</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>shield</em>ᴸᴸ</td>
+<td style="text-align: center;"><em>ray of enfeeblement</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>wall of water</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>sleep</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>scorching ray</em></td>
+<td style="text-align: center;"><em>wind wall</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>thunderwave</em>⁽ˢ⁾</td>
+<td style="text-align: center;"><em>shatter</em>⁽ˢ⁾</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>torrent</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"><em>snowball swarm</em>⁽ˢ⁾</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>unseen servant</em></td>
+<td style="text-align: center;"><em>spider climb</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>witch bolt</em>ᴸᴸ⁽ˢ⁾</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>zephyr strike</em></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p>Spells marked ᴸᴸ are found in the laserllama Spell Compendium. Spells marked ⁽ˢ⁾ can be used with Spellstrike.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose an esoteric order:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="arcanists">Order of Arcanists</option>
+  <option value="arcane-archers">Order of Arcane Archers</option>
+  <option value="blades">Order of Blades</option>
+  <option value="dragon-knights">Order of Dragon Knights</option>
+  <option value="spellbreakers">Order of Spellbreakers</option>
+  <option value="warders">Order of Warders</option>
+  <option value="armorers">Order of Armorers</option>
+  <option value="conduits">Order of Conduits</option>
+  <option value="hexblades">Order of Hexblades</option>
+  <option value="shades">Order of Shades</option>
+  <option value="spellswords">Order of Spellswords</option>
+  <option value="travelers">Order of Travelers</option>
+</select></p>
+<div class="subclass-content" data-subclass="arcanists">
+<details class="subclass">
+<summary>Order of Arcanists</summary>
+<p>Magi who join the Order of Arcanists often find themselves in the service of Wizards and practitioners of the arcane. While most Magi only study magic for use in battle, those who join this Order explore its broader uses. They keep a Spellbook and learn rituals that will aid in their quest for knowledge.</p>
+<h3 id="level-3-arcane-spellbook">Level 3 - Arcane Spellbook</h3>
+<p>Unlike other Magi who only memorize spells for use in battle, you maintain a Spellbook from which you can prepare spells:</p>
+<p><strong>Spellbook.</strong> You have crafted a Spellbook for yourself. You decide what it looks like, but it must be a Tiny object capable of storing written information. It contains knowledge of your Magus Spells Known, along with three extra 1st-level spells of your choice from the Magus or Wizard spell lists. This Spellbook and the spells within replace your Spells Known. You now ignore that column of the Magus table.</p>
+<p><strong>Preparing Spells.</strong> Over the course of a long rest, you can spend 1 hour studying your Spellbook to prepare your spells. Choose a number of spells from this Spellbook equal to your Intelligence modifier + half your Magus level, rounded down. While prepared, they count as Magus spells for you.</p>
+<p><strong>Ritual Casting.</strong> You can cast the Ritual version of any spell in your Spellbook, so long as it has the Ritual tag, even if you do not have the spell prepared.</p>
+<p><strong>Adding New Spells.</strong> Each time you gain a Magus level, you add a single Magus or Wizard spell of your choice to your Spellbook. It must be of a level for which you have spell slots, as per your Magus level.</p>
+<hr>
+<h3 id="level-3-arcane-library">Level 3 - Arcane Library</h3>
+<p>Any knowledge stored within your Arcane Armory is always at your fingertips. Whenever you make an Intelligence ability check to recall knowledge from a book, tome, or scroll stored within your Arcane Armory, you treat any d20 roll lower than your Magus level as equal to your Magus level.</p>
+<p>Also, if you add a Spell Scroll to your Arcane Armory that contains a Magus or Wizard spell of a level you have slots for, you can destroy it to add the spell to your Spellbook. You can do the same for a Spellbook, adding one spell from that book to your Spellbook each time you perform your Armory ritual.</p>
+<hr>
+<h3 id="level-7-esoteric-sight">Level 7 - Esoteric Sight</h3>
+<p>Your Spellsight has been enhanced by esoteric secrets you have gathered. When you use Spellsight, it gains a benefit of your choice from the options below within its 30-foot range:</p>
+<ul>
+<li>You gain Darkvision and can see in magical darkness.</li>
+<li>You can read and understand any written language.</li>
+<li>You can see invisible creatures and objects.</li>
+</ul>
+<hr>
+<h3 id="level-15-stored-spells">Level 15 - Stored Spells</h3>
+<p>During a long rest, you can perform a 1-hour ritual where you fill vacant slots in your Arcane Armory with spells from your Spellbook. Each spell takes a number of Armory slots equal to twice its level, and the total level of all the spells you store cannot exceed your Intelligence modifier (minimum of 1).</p>
+<p>You can cast each spell once, with its normal casting time, without expending a spell slot. Once cast, they are lost.</p>
+<hr>
+<h3 id="level-20-grand-arcanist">Level 20 - Grand Arcanist</h3>
+<p>You wield arcane magic that rivals an archmage. You add one 6th-level and one 7th-level Wizard spell of your choice to your Spellbook. You can cast each of these spells once between each long rest without expending a spell slot. These are both considered Magus spells for you.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="arcane-archers">
+<details class="subclass">
+<summary>Order of Arcane Archers</summary>
+<p>Originally founded by a sect of elvish mage hunters, the Magi known as Arcane Archers are masters of both bow and spell. While Magi thrive in close-quarters combat, Arcane Archers strike from afar with potent magic arrows. Most members of this Order are guardians, but some strike out as adventurers.</p>
+<h3 id="level-3-arcane-archer-spells">Level 3 - Arcane Archer Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>ensnaring strike</em>ᴸᴸ, <em>hail of thorns</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>acid arrow</em>, <em>cordon of arrows</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>conjure volley</em>ᴸᴸ, <em>lightning arrow</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>accursed touch</em>ᴸᴸ, <em>arcane eye</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>scrying</em>, <em>swift quiver</em>ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-arcane-quiver">Level 3 - Arcane Quiver</h3>
+<p>You have learned to use the signature enchantments of the Magi with ranged weapons. You gain the following benefits:</p>
+<ul>
+<li>You can add quivers, with ammunition, to your Armory.</li>
+<li>The weapon you must always have in your Armory can be a ranged weapon instead of a melee weapon.</li>
+<li>You can use Spellstrike with ranged weapons that are part of your Arcane Armory. However, any spells that have an area of effect are limited to only affect your target.</li>
+</ul>
+<hr>
+<h3 id="level-3-eagle-eyed">Level 3 - Eagle Eyed</h3>
+<p>Training has honed your sight to near-supernatural levels. You gain proficiency in Perception, and can use Intelligence in place of Wisdom for any Perception check you make.</p>
+<hr>
+<h3 id="level-7-enchanted-shot">Level 7 - Enchanted Shot</h3>
+<p>When you make an attack roll with a ranged Arcane Armory weapon and miss, you can use a reaction to magically curve your shot and re-roll that attack against a different target that you can see within 60 feet of your attack's original target.</p>
+<hr>
+<h3 id="level-15-ranged-transposition">Level 15 - Ranged Transposition</h3>
+<p>As an action, you can imbue a ranged Arcane Armory weapon with conjuration magic, and fire one piece of ammunition at a point or creature you can see within its normal range. On hit, this ranged attack produces the corresponding effect below:</p>
+<ul>
+<li>If fired at a point, you instantly teleport to an unoccupied space within 5 feet of the ammunition when it hits.</li>
+<li>If fired at a creature, the target must make a Charisma saving throw or instantly switch places with you. If there is no room for it to take your place, this feature fails.</li>
+</ul>
+<p>You can use this feature once per short or long rest at no cost, after which, you must expend a spell slot to use it again.</p>
+<hr>
+<h3 id="level-20-mystic-marksman">Level 20 - Mystic Marksman</h3>
+<p>As a bonus action, you can enter a heightened state of arcane focus which grants you the following supernatural benefits:</p>
+<ul>
+<li>For each ranged Armory attack you make, you can either use Enchanted Shot without using your reaction, or use Ethereal Step to teleport up to 10 feet.</li>
+<li>Whenever you hit with a ranged Arcane Armory attack, you can expend a spell slot to deal bonus force damage equal to 2d4 per level of the spell slot spent.</li>
+</ul>
+<p>This heightened state lasts for 1 minute. It ends early if you are Incapacitated or use your bonus action to end it. You can use this feature once per long rest at no cost, after which, you must expend a 5th-level spell slot to transform again.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="blades">
+<details class="subclass">
+<summary>Order of Blades</summary>
+<p>Magi of this Order dedicate their lives to the art of the Blade Dance. This mystical trance allows the Magi to empty their mind of any emotions or distractions and become one with their blade. Masters of this trance are deadly whirlwinds of magic and steel.</p>
+<h3 id="level-3-art-of-the-dance">Level 3 - Art of the Dance</h3>
+<p>Your Order's style of combat is an art. You gain proficiency in Performance, and whenever you make a Performance check, you can use either Strength or Dexterity in place of Charisma.</p>
+<p>Moreover, if you are not wearing any armor, your Armor Class is equal to 10 + your Dexterity modifier + your Intelligence modifier.</p>
+<hr>
+<h3 id="level-3-blade-dance">Level 3 - Blade Dance</h3>
+<p>You are able to enter the legendary combat trance of your Order, the Blade Dance. So long as you are not wearing heavy armor or using a heavy weapon, you can use a bonus action to enter the Blade Dance. It lasts 1 minute, and grants you these benefits:</p>
+<ul>
+<li>Your walking speed increases by 10 feet.</li>
+<li>You gain a +1 bonus to your Armor Class.</li>
+<li>You add your Intelligence modifier (minimum of +1) to all Acrobatics, Athletics, and Performance checks.</li>
+<li>Once per turn, when you deal damage with an Armory weapon, you can roll its damage dice twice (including Spellstrike dice), and use the higher result.</li>
+</ul>
+<p>Your Blade Dance ends early if you are Incapacitated, or if you use a bonus action to end it. You can enter a Blade Dance once between each short or long rest at no cost, after which, you must expend a spell slot to Blade Dance again.</p>
+<hr>
+<h3 id="level-3-blade-spells">Level 3 - Blade Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>compelled duel</em>ᴸᴸ, <em>zephyr strike</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>blur</em>, <em>misty step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>elemental weapon</em>, <em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>fire shield</em>, <em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>steel wind strike</em>ᴸᴸ, <em>vorpal blade</em>ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-7-fluid-steps">Level 7 - Fluid Steps</h3>
+<p>Your Order's emphasis on fluidity and martial skill has honed your reflexes. You gain proficiency in Dexterity saving throws, and you add your Proficiency Bonus to initiative rolls.</p>
+<p>Also, your Blade Dance Armor Class bonus becomes +2.</p>
+<hr>
+<h3 id="level-15-deadly-dance">Level 15 - Deadly Dance</h3>
+<p>You have become an expert of the Blade Dance, and while in this trance, you gain the following additional benefits:</p>
+<p><strong>Evasion.</strong> When you are forced to make a Dexterity saving throw to take half damage, you take no damage on a success, and only half damage on a failed save.</p>
+<p><strong>Greater Spellsunder.</strong> When you use Spellsunder, you add your Intelligence modifier (minimum of +1) to the attack roll.</p>
+<p><strong>Master of the Art.</strong> Your Armor Class bonus becomes +3.</p>
+<hr>
+<h3 id="level-20-master-of-blades">Level 20 - Master of Blades</h3>
+<p>You have reached the apex of your Order and been granted the title of Master of Blades. You are always considered to be under the effects of your Blade Dance so long as you are not wearing heavy armor or wielding a heavy weapon.</p>
+<p>Also, when you take the Attack action while in your Blade Dance, you make one additional attack as part of that action.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="dragon-knights">
+<details class="subclass">
+<summary>Order of Dragon Knights</summary>
+<p>Magi of this legendary Esoteric Order have their souls bound to a Draconic Companion. Using an ancient ritual, they infuse this Companion with draconic might beyond its years. Should their bond grow strong enough, they can ride their Draconic Companion, becoming a Dragon Knight of legend.</p>
+<h3 id="level-3-dragon-knight-spells">Level 3 - Dragon Knight Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>absorb elements</em>, <em>command</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>dragon's breath</em>, <em>warding bond</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>elemental bane</em>ᴸᴸ, <em>fear</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>dominate creature</em>ᴸᴸ, <em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>awaken</em>, <em>conjure dragon</em>ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-draconic-companion">Level 3 - Draconic Companion</h3>
+<p>Your soul has been bound to a powerful Draconic Companion through the rites of your Order. It uses the following rules:</p>
+<p><strong>Draconic Essence.</strong> Choose either acid, cold, fire, lightning, or poison to be the Essence of your Companion. Once chosen it cannot be changed short of an ancient dragon's magic.</p>
+<p><strong>Statistics.</strong> The Draconic Companion is Friendly to you and your allies, and fervently loyal to you. It uses the stat block below, which uses your Magus Spell save DC, Spell Attack Modifier, and Proficiency Bonus (PB) in several places. It is too fragile to bear any creature as a rider, despite its size.</p>
+<p><strong>Combat.</strong> Your Companion obeys your orders (no action required) as best as it can. It has its own initiative as any other creature (unless you are riding it), but otherwise you determine its actions and choices. If you are Incapacitated, your Companion acts on its own and will defend you and itself to the best of its abilities.</p>
+<p><strong>Arcane Stasis.</strong> You can enchant your Companion as you would an object in your Arcane Armory, giving you the ability to summon and shunt it to your Armory.</p>
+<p><strong>Death.</strong> If your Companion is reduced to 0 hit points, it makes Death Saving Throws like a player character would. If your Companion dies, you can perform a 1-hour ritual (which can be during a short or long rest) and restore it to life with 1 hit point. As part of this ritual, you can spend its Hit Dice, as if it were a short rest, adding these hit points to the number of hit points it regains.</p>
+<details class="dragon">
+<summary>Draconic Companion</summary>
+<p><em>Small Dragon, Lawful</em></p>
+<ul>
+<li><strong>Armor Class</strong> 14 + PB (natural armor)</li>
+<li><strong>Hit Points</strong> 5 + five times your Magus level</li>
+<li><strong>Speed</strong> 30 ft., fly 30 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+<th style="text-align: center;">INT</th>
+<th style="text-align: center;">WIS</th>
+<th style="text-align: center;">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">16 (+3)</td>
+<td style="text-align: center;">12 (+1)</td>
+<td style="text-align: center;">15 (+2)</td>
+<td style="text-align: center;">8 (−1)</td>
+<td style="text-align: center;">10 (+0)</td>
+<td style="text-align: center;">14 (+2)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Damage Immunities</strong> Essence damage </p>
+<p><strong>Senses</strong> Darkvision 60 ft.</p>
+<p><strong>Languages</strong> Draconic; understands the languages of the bonded Magus but cannot speak them</p>
+<p><strong>Hit Dice.</strong> Your Companion has Hit Dice equal to d8 × your Magus level and gains all normal benefits from short and long rests.</p>
+<p><strong>Soul Bound.</strong> When the Companion makes an ability check or saving throw, it adds your PB to the roll.</p>
+<p><strong><em>Claw.</em></strong> <em>Melee Weapon Attack:</em> +3 + PB to hit, reach 5 ft., one target. <em>Hit:</em> (1d4 + PB) slashing + 1d4 Essence damage.</p>
+</details>
+<hr>
+<h3 id="level-3-wyrmsoul">Level 3 - Wyrmsoul</h3>
+<p>The esoteric bonding rite of your Order has infused your soul with a measure of draconic power. You learn to speak, read, and write Draconic, the language of dragons.</p>
+<p>Also, when you cast a spell that deals acid, cold, fire, lightning, or poison damage, you can cause it to deal the damage type of your Companion's Essence instead of its damage type.</p>
+<hr>
+<h3 id="level-7-greater-companion">Level 7 - Greater Companion</h3>
+<p>As your power grows, so too does the power of your Companion grow through your bond. Your Draconic Companion becomes Medium in size. It can also bear you as a rider so long as you are Medium or smaller. Though while another creature is riding it, its flying speed is halved.</p>
+<p>Finally, your Draconic Companion's Claw attacks become magical, and they use d6s in place of d4s for their damage.</p>
+<hr>
+<h3 id="level-15-elemental-breath">Level 15 - Elemental Breath</h3>
+<p>Your Companion can channel its Essence into a blast of pure elemental power. As an action, it can exhale a 30-foot cone of elemental breath, forcing all creatures in that area to make a Dexterity saving throw. They take 10d6 Essence damage on a failure, and half as much on a success.</p>
+<p>Your Companion can use Elemental Breath a number of times equal to your Intelligence modifier (minimum of once), and it regains all expended uses when it finishes a long rest. If it has no uses left, it can expend one of your spell slots of 3rd-level or higher to use its Elemental Breath again.</p>
+<hr>
+<h3 id="level-15-mythic-companion">Level 15 - Mythic Companion</h3>
+<p>The power of your draconic bond unlocks your Companion's potential. As an action, your Draconic Companion can change its size, choosing to be Small, Medium, or Large. When it is Large in size, its speed is no longer halved while it bears you, and only you, as a rider.</p>
+<p>Finally, once per turn, when you order your Companion to attack, it can make two Claw attacks instead of one.</p>
+<hr>
+<h3 id="level-20-grand-dragon-knight">Level 20 - Grand Dragon Knight</h3>
+<p>Your legendary power flows through your bond, awakening the true power of your Draconic Companion. Your Draconic Companion uses the Exalted Companion stat block:</p>
+<details class="dragon">
+<summary>Exalted Companion</summary>
+<p><em>Large Dragon, Lawful</em></p>
+<ul>
+<li><strong>Armor Class</strong> 20 (natural armor)</li>
+<li><strong>Hit Points</strong> 125</li>
+<li><strong>Speed</strong> 40 ft., climb 40 ft., fly 60 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+<th style="text-align: center;">INT</th>
+<th style="text-align: center;">WIS</th>
+<th style="text-align: center;">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">20 (+5)</td>
+<td style="text-align: center;">12 (+1)</td>
+<td style="text-align: center;">18 (+4)</td>
+<td style="text-align: center;">14 (+2)</td>
+<td style="text-align: center;">10 (+0)</td>
+<td style="text-align: center;">18 (+4)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Damage Immunities</strong> Essence damage type</p>
+<p><strong>Senses</strong> Blindsight 30 ft., Darkvision 60 ft.</p>
+<p><strong>Languages</strong> Draconic; understands the languages of the bonded Magus but cannot speak them</p>
+<p><strong>Hit Dice.</strong> Your Companion has Hit Dice equal to d10 × your Magus level and gains all normal benefits from short and long rests.</p>
+<p><strong>Soul Bound.</strong> When the Companion makes an ability check or saving throw, it adds your PB to the roll.</p>
+<p><strong><em>Multiattack.</em></strong> Your Companion makes two Claw attacks.</p>
+<p><strong><em>Change Size.</em></strong> Your Companion changes size, becoming Small, Medium, or Large until it uses this feature again.</p>
+<p><strong><em>Claw.</em></strong> <em>Melee Weapon Attack:</em> +11 to hit, reach 5 ft., one target. <em>Hit:</em> 2d6 + 5 slashing + 1d6 Essence damage.</p>
+<p><strong><em>Essence Breath (Recharge 5–6).</em></strong> Your Companion exhales elemental energy in a 30-foot cone, forcing creatures in the area to make a Dexterity saving throw. Creatures take 12d6 Essence damage on a failure, and half as much on a success.</p>
+</details>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="spellbreakers">
+<details class="subclass">
+<summary>Order of Spellbreakers</summary>
+<p>Magi who join the Order of Spellbreakers are known for their ruthless dedication to achieving their goals. This fraternity of arcane warriors and mage hunters use their Order's abilities to slay any who abuse magic power. While most Spellbreakers are discerning as they deliver judgment, some swear an oath to destroy any who utilize the arcane arts.</p>
+<h3 id="level-3-baleful-mark">Level 3 - Baleful Mark</h3>
+<p>As a bonus action on your turn, you can place a Baleful Mark on a creature you can see. It remains until you Mark another creature, the target dies, or it is removed by <em>dispel magic</em>, <em>remove curse</em>, or a similar spell.</p>
+<p>This Mark is only visible to you, and while it is active, you gain the benefits listed below:</p>
+<ul>
+<li>You know the exact direction of your Mark, so long as you both remain on the same plane of existence.</li>
+<li>You learn its spellcasting ability and the level of the highest level spell it can cast, if any.</li>
+<li>If your Mark attempts to cast a spell while it is within your reach, you can use your reaction to make an opportunity attack against it.</li>
+<li>Whenever you damage your Mark, it has disadvantage on its subsequent saving throw to maintain concentration.</li>
+</ul>
+<hr>
+<h3 id="level-3-spellbreaker-spells">Level 3 - Spellbreaker Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>bane</em>, <em>detect evil &amp; good</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>blindness/deafness</em>, <em>silence</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>counterspell</em>ᴸᴸ, <em>magic circle</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>banishment</em>, <em>resilient sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>dispel evil &amp; good</em>, <em>planar binding</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-7-mantle-of-defense">Level 7 - Mantle of Defense</h3>
+<p>You can steel yourself to better resist the magic of your hated foes. Whenever your Mark forces you to make a saving throw to resist a spell or another magical effect, you gain a bonus to your roll equal to your Intelligence modifier (minimum of +1).</p>
+<hr>
+<h3 id="level-7-crippling-mark">Level 7 - Crippling Mark</h3>
+<p>If you see your Mark make an ability check or saving throw while it is within 30 feet of you, you can use your reaction to end your Baleful Mark and impose disadvantage on its roll.</p>
+<p>However, when you end your Baleful Mark in this way, you cannot Mark that creature again until you finish a long rest.</p>
+<hr>
+<h3 id="level-15-reflective-spellsunder">Level 15 - Reflective Spellsunder</h3>
+<p>You can use the magic of your Order to reflect your enemy's magic back upon themselves. When you use Spellsunder and cause the spell to fail, you can force the creature that cast the spell to become the new target of their own spell.</p>
+<p>The spell uses the caster's spell attack roll and Spell save DC. If it requires concentration, you must concentrate on it.</p>
+<hr>
+<h3 id="level-20-master-spellbreaker">Level 20 - Master Spellbreaker</h3>
+<p>You have risen through the ranks of your Order to become an unparalleled hunter of mages. You gain the benefits below:</p>
+<ul>
+<li>When you roll initiative, so long as you are not surprised, you can mark a creature you can see with Baleful Mark.</li>
+<li>You have advantage on any weapon attack rolls you make as part of Spellstrike and Spellsunder against your Mark.</li>
+<li>When you hit your Mark with a Spellstrike attack, you can end your Baleful Mark to cause your attack, including the spell, to deal maximum damage. After you do so, you can't Mark that creature again until you finish a long rest.</li>
+</ul>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="warders">
+<details class="subclass">
+<summary>Order of Warders</summary>
+<p>Magi who join the Order of Warders almost always do so for noble reasons. Combining talent in the arcane arts with their signature style of defensive combat to serve as guardians for mages, nobles, and other important figures. While ultimately loyal to their Order, Warders make for fierce friends and will stand side by side with their allies against any foe.</p>
+<h3 id="level-3-warder-spells">Level 3 - Warder Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>compelled duel</em>ᴸᴸ, <em>sanctuary</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>aid</em>, <em>warding bond</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>beacon of hope</em>, <em>life transference</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>faithful hound</em>, <em>death ward</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>antilife shell</em>, <em>circle of power</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-warders-bond">Level 3 - Warder's Bond</h3>
+<p>You are taught the signature protective abilities of your Order. You gain proficiency in heavy armor. Also, at the end of a long rest, you can touch a willing creature, forging a mystical bond that designates it as your Ward until your next long rest.</p>
+<p>When your Ward is targeted by an attack or forced to make a saving throw and you are within 10 feet of it, you can use a reaction to instantly switch places and become the target of the triggering attack or effect. You must be able to see your Ward to use this reaction.</p>
+<p>At certain Magus levels, the range of this reaction increases: at 7th level (30 feet), at 15th level (60 feet), and finally at 20th level the range is limited only by your line of sight.</p>
+<hr>
+<h3 id="level-7-arcane-aegis">Level 7 - Arcane Aegis</h3>
+<p>You can temporarily infuse your Warder's Bond with arcane power to absorb damage. When you use your Warder's Bond reaction and you take damage, you can expend a spell slot as part of the same reaction to reduce that damage by 2d8 per level of the spell slot you expended.</p>
+<p>Moreover, whenever you start your turn within 10 feet of your Ward, you can grant yourself or your Ward temporary hit points equal to your Intelligence modifier (a minimum of 1).</p>
+<hr>
+<h3 id="level-15-bond-perfected">Level 15 - Bond Perfected</h3>
+<p>The magic of your Bond has reached its apex. When you use your Warder's Bond reaction, you are considered resistant to any damage you take from the triggering attack or effect.</p>
+<p>In addition, while you are within 10 feet of your Ward, you are both immune to the Charmed and Frightened conditions. If either of you is Charmed or Frightened and is within 10 feet of the other, the effects of the condition are temporarily suppressed, so long as you remain within 10 feet.</p>
+<hr>
+<h3 id="level-20-high-warder">Level 20 - High Warder</h3>
+<p>You have risen to the highest rank in the Order of Warders and stand as a stalwart arcane shield for any who are under your protection. At the end of each long rest, you can bond up to five willing creatures as Wards with Warder's Bond. All other rules for your Warder's Bond still apply for you.</p>
+<p>Also, when you use your Warder's Bond reaction because your Ward was targeted by a spell, you can use Spellsunder as part of the same reaction. When you do so, you have advantage on your Spellsunder attack roll. If your Spellsunder fails, you can still use Arcane Aegis to reduce the damage.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="armorers">
+<details class="subclass">
+<summary>Order of Armorers</summary>
+<p>The Magi of the Order of Armorers claim to be disciples of the original Magus, the creator of the enchantment that became the Arcane Armory. They unlock the true potential of their Armory, conjuring the weapons within to levitate around them and strike out at their foes.</p>
+<h3 id="level-3-armorer-spells">Level 3 - Armorer Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>compelled duel</em>ᴸᴸ, <em>hail of thorns</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>cloud of daggers</em>, <em>heat metal</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>conjure volley</em>ᴸᴸ, <em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>fabricate</em>, <em>freedom of movement</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>steel wind strike</em>ᴸᴸ, <em>vorpal blade</em>ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-awakened-armory">Level 3 - Awakened Armory</h3>
+<p>As a bonus action, you can expend a spell slot to awaken your Arcane Armory, and a number of one-handed melee weapons from your Armory equal to 1 + the level of the spell slot spent appear and levitate around you in your space.</p>
+<p>This effect lasts for 1 minute, but it ends early if you use a bonus action to end it or you are Incapacitated. When it ends, all weapons in your space return to your Armory. While your Armory is awakened, you gain these benefits and drawbacks:</p>
+<ul>
+<li>The weapons gain the Thrown (20/60) property, and you use your Intelligence for their attack and damage rolls.</li>
+<li>Levitating weapons do not benefit from your Fighting Styles, but they can be used to make Spellstrikes.</li>
+<li>As an action, you can make one Thrown weapon attack with each weapon that is levitating in your space.</li>
+<li>As a bonus action, you can recall any Armory weapons that were thrown. They return to levitate in your space.</li>
+<li>You have disadvantage on any saving throws you make to maintain your concentration on spells.</li>
+</ul>
+<hr>
+<h3 id="level-3-mythic-swordsmith">Level 3 - Mythic Swordsmith</h3>
+<p>Your mythic founder was known for crafting their own blades for use in battle, and their knowledge has been passed to you. You gain proficiency in Arcana and with smith's tools.</p>
+<p>Whenever you make a smith's tools check you can add your Intelligence modifier (minimum of +1) to your roll. Finally, the time it would take for you to craft any weapon is halved.</p>
+<hr>
+<h3 id="level-7-improved-focus">Level 7 - Improved Focus</h3>
+<p>Your signature Armory technique has become second nature to you. You no longer have disadvantage on saving throws to maintain concentration while using Awakened Armory.</p>
+<p>Also, while your Awakened Armory is active, the normal and long range of your Thrown weapons becomes (40/120).</p>
+<hr>
+<h3 id="level-15-dancing-parry">Level 15 - Dancing Parry</h3>
+<p>When you are hit by an attack while using Awakened Armory, you can use a reaction to deflect the strike. You gain a bonus to your Armor Class against that attack equal to the number of weapons levitating in your space, possibly making it miss.</p>
+<hr>
+<h3 id="level-20-mythic-strike">Level 20 - Mythic Strike</h3>
+<p>You can unleash the ambient magic of your Arcane Armory against your foes. Once per turn when you hit a creature with an Arcane Armory weapon, you can end your Arcane Armory enchantment on that weapon, causing it to erupt outward in an explosion of arcane power.</p>
+<p>Creatures of your choice within 20 feet of your target must make a Dexterity saving throw, taking 8d6 force damage on a failed save, and half as much damage on a success.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="conduits">
+<details class="subclass">
+<summary>Order of Conduits</summary>
+<p>Strange and secretive, even for Magi the Order of Conduits is a sect of warriors who combine their arcane techniques with martial arts. By mastering their physical form, they can infuse themselves with arcane power, channeling the magicks of the Magi through their body. Where other Magi must rely on their Arcane Armory, Conduits rely only on inner arcane power.</p>
+<h3 id="level-3-conduit-spells">Level 3 - Conduit Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>expeditious retreat</em>, <em>thunderous smite</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>blur</em>, <em>branding smite</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>blinding smite</em>ᴸᴸ, <em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>dimension door</em>, <em>staggering smite</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>banishing smite</em>ᴸᴸ, <em>skill empowerment</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-arcane-conduit">Level 3 - Arcane Conduit</h3>
+<p>You have forgone the typical martial techniques of the Magi to hone your physical form. When not wearing armor, wielding a shield, or wielding a weapon, you gain the benefits below:</p>
+<p><strong>Martial Arts.</strong> You gain the Brawling Fighting Style. If you already know it, you gain the Featherweight Fighting Style instead. Moreover, you can use your Dexterity, in place of Strength, for attack and damage rolls of your unarmed strikes.</p>
+<p><strong>Arcane Fists.</strong> Your unarmed strikes are magical, they can be used for your Spellstrike attacks, and they fulfill the material component requirements for your Conduit Spells.</p>
+<p><strong>Unarmored Defense.</strong> Your Armor Class equals 10 + your Dexterity and Intelligence modifiers.</p>
+<hr>
+<h3 id="level-3-ascetic-resilience">Level 3 - Ascetic Resilience</h3>
+<p>You can forgo the traditional power of your Arcane Armory to infuse yourself with arcane fortitude. When you roll initiative, you gain temporary hit points equal to the number of unused slots in your Arcane Armory.</p>
+<p>As a bonus action, you can expend a spell slot of 1st-level or higher to gain these temporary hit points again.</p>
+<hr>
+<h3 id="level-7-ethereal-arts">Level 7 - Ethereal Arts</h3>
+<p>You incorporate ethereal magics into your signature style of martial arts. When you hit a creature with an unarmed strike, you can knock your target back 5 feet in a line (so long as it is your size or smaller), or instantly teleport to an unoccupied space you can see within 5 feet of your target.</p>
+<p>Also, your unarmed strikes now deal 1d8 damage on hit.</p>
+<hr>
+<h3 id="level-15-enchanted-physique">Level 15 - Enchanted Physique</h3>
+<p>Arcane magic suffuses your body. When you have temporary hit points from Ascetic Resilience, you gain resistance to all bludgeoning, piercing, and slashing damage, and you have advantage on saving throws to maintain concentration.</p>
+<hr>
+<h3 id="level-20-ascended-conduit">Level 20 - Ascended Conduit</h3>
+<p>As a bonus action, you can overcharge your body with arcane power, unlocking the true power of your Order. When you do so, you gain the benefits listed below for the next minute:</p>
+<ul>
+<li>When you take the attack action and make only unarmed strikes, you can make two additional unarmed strikes as part of that attack action (for a total of four attacks).</li>
+<li>You gain a flying speed equal to your walking speed.</li>
+<li>Whenever you teleport with a Magus feature or spell, you can touch a creature equal to you in size (or smaller) and teleport it with you. This includes Grappled creatures.</li>
+</ul>
+<p>You can use this feature once per long rest at no cost, after which, you must expend a 5th-level spell slot to use it again.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="hexblades">
+<details class="subclass">
+<summary>Order of Hexblades</summary>
+<p>Magi known as Hexblades augment their skill in combat with sinister curses. Wielding the dark powers of the Shadowfell, these warriors siphon life-essence from foes and monsters to create their own sentient weapon. A true Hexblade will stop at nothing to face another skilled warrior on the battlefield.</p>
+<h3 id="level-3-hexblade-spells">Level 3 - Hexblade Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>hex</em>, <em>wrathful smite</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>blindness/deafness</em>, <em>blur</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>bestow curse</em>, <em>enemies abound</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>accursed touch</em>ᴸᴸ, <em>phantasmal killer</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>enervation</em>, <em>spiritual sundering</em>ᴸᴸ</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-hex-warrior">Level 3 - Hex Warrior</h3>
+<p>You can use the sinister magicks of your Order to awaken a nascent Hexblade. During a long rest, you can perform a dark 1-hour ritual, transforming one melee Arcane Armory weapon into your Hexblade. It remains your Hexblade until you use this ritual again, and gains the following benefits:</p>
+<p><strong>Enchanted Armament.</strong> You can use Intelligence, in place of Strength or Dexterity for its attack and damage rolls, and on hit, you can choose for it to deal necrotic damage.</p>
+<p><strong>Life Drain.</strong> When you deal necrotic damage to a Hostile creature that is not a Construct or Undead, you can siphon its life, gaining temporary hit points equal to half that damage.</p>
+<p><strong>Malevolent Curse.</strong> When you attack a creature under the effects of a Hexblade Spell with your Hexblade, you score a critical hit on a roll of 19 or 20 on the d20.</p>
+<hr>
+<h3 id="level-7-accursed-armory">Level 7 - Accursed Armory</h3>
+<p>You store the life you drain from your foes and use it to fuel your sinister magic. When you use your Hexblade's Life Drain, you can forgo gaining temporary hit points and instead store it as life essence in your Arcane Armory. Each empty slot in your Arcane Armory can hold 10 life essence. It remains until you expend it on these abilities:</p>
+<p><strong>Sinister Spells.</strong> When you cast a Hexblade Spell, you can expend life essence instead of expending a spell slot, 10 per slot level. You can't use Life Drain with spells cast with life essence.</p>
+<p><strong>Vile Resilience.</strong> If a creature under the effects of one of your Hexblade Spells forces you to make a saving throw, you can expend 10 life essence to gain advantage on your saving throw roll.</p>
+<hr>
+<h3 id="level-15-sinister-sentience">Level 15 - Sinister Sentience</h3>
+<p>Your dark magick has awakened a sinister sentience within your Hexblade, granting it the vile benefits listed below:</p>
+<p><strong>Sentience.</strong> Your Hexblade gains an Intelligence, Wisdom, and Charisma score of 10, a personality which begins as a dark mirror of your own, and its own alignment.</p>
+<p><strong>Telepathy.</strong> Your Hexblade understands any languages you speak, and can hear out to a 60-foot radius. It can also speak telepathically with any creature in that same range.</p>
+<p><strong>Mental Bond.</strong> While wielding your Hexblade, it lends you its mental abilities. You can concentrate on two spells at one time, but one must be a Hexblade Spell. However, when you are forced to make a saving throw to maintain concentration, you make one saving throw for both spells at disadvantage.</p>
+<hr>
+<h3 id="level-20-awakened-hexblade">Level 20 - Awakened Hexblade</h3>
+<p>You have reached the apex of your Order and mastered the dark magick to awaken the true potential of your Hexblade. The Hexblade's Intelligence, Wisdom, and Charisma scores become 16, and the range of its hearing and Telepathy also increases to 120 feet. Fully realized, it is highly resistant to moving between weapons, and will only do so willingly if a more powerful host weapon becomes available.</p>
+<p>Finally, your Hexblade gains the benefits below against creatures under the effects of your Hexblade Spells:</p>
+<ul>
+<li>You can choose for Spellstrike damage to be necrotic.</li>
+<li>Its attacks ignore Resistance to necrotic damage, and treat Immunity to necrotic damage as Resistance.</li>
+</ul>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="shades">
+<details class="subclass">
+<summary>Order of Shades</summary>
+<p>The secretive Order of infiltrators, assassins, and spies, these Magi use their clandestine magic to end conflicts before they begin. Known as Shades, these warriors specialize in illusion magic and thrive under the cover of shadow. Shade Magi will only strike when they know their success is assured.</p>
+<h3 id="level-3-shade-spells">Level 3 - Shade Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>disguise self</em>, <em>sleep</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>blindness/deafness</em>, <em>pass without trace</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>hypnotic pattern</em>ᴸᴸ, <em>nondetection</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>divination</em>, <em>greater invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>mislead</em>, <em>modify memory</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-shroud-of-darkness">Level 3 - Shroud of Darkness</h3>
+<p>As an action, you can envelop yourself in a Shroud of illusion magic, which lasts for 1 hour. While this Shroud is active, you can use a bonus action to turn invisible if you are in an area of dim light or darkness. This invisibility lasts for the duration of your Shroud, but it ends early if you attack, touch, or force a creature to make an ability check or saving throw.</p>
+<p>You can use your Shroud of Darkness once between each short or long rest at no cost, after which, you must expend a spell slot to use this feature again.</p>
+<hr>
+<h3 id="level-3-umbral-sight">Level 3 - Umbral Sight</h3>
+<p>You have trained to fight in the dark. You gain Darkvision to a range of 60 feet. If you have Darkvision from another source, the range of your Darkvision increases by 30 feet.</p>
+<hr>
+<h3 id="level-7-from-the-shadows">Level 7 - From the Shadows</h3>
+<p>You are adept at bringing down foes when they are unaware. When you hit a creature that is Surprised with a Spellstrike, it automatically fails its saving throw against your spell.</p>
+<p>In addition, if you use Ethereal Step while you are in dim light or darkness, the distance you can teleport is doubled.</p>
+<hr>
+<h3 id="level-7-improved-shroud">Level 7 - Improved Shroud</h3>
+<p>Your magic conceals you from creatures of shadow. If your Shroud of Darkness is active while you are in darkness, you are invisible to anything that relies on Darkvision to see you.</p>
+<hr>
+<h3 id="level-15-cloud-the-mind">Level 15 - Cloud the Mind</h3>
+<p>You can penetrate the minds of your foes with your potent illusion magic. As an action, you can force one creature you can see within 30 feet to make an Intelligence saving throw. On a failed save, it cannot see, hear, smell, or sense you in any way for 1 minute. On a success, it is immune to this effect for 24 hours. This effect immediately ends if you attack, touch, or force the creature to make an ability check or saving throw.</p>
+<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once), and you regain all uses when you finish a long rest. When you have no uses left, you can expend a spell slot to use this feature again.</p>
+<hr>
+<h3 id="level-20-one-with-the-darkness">Level 20 - One with the Darkness</h3>
+<p>You have ascended to the apex of your Order and can become one with the darkness itself. You can conjure your Shroud of Darkness at will, and at the start of each turn that your Shroud is active you gain the benefits of invisibility and <em>pass without trace</em>, without concentration.</p>
+<p>Finally, you can use a bonus action on each of your turns to teleport up to 60 feet to a space you can see that is in an area of dim light or darkness.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="spellswords">
+<details class="subclass">
+<summary>Order of Spellswords</summary>
+<p>Exceptionally rare, even amongst Magi, Spellswords master swordplay alongside their arcane magic. They dedicate their life to the pursuit of excellence in combat and little else. With the secret magic of their Order and martial techniques, there are few who can match the blade of a Spellsword in combat.</p>
+<h3 id="level-3-martial-exploits">Level 3 - Martial Exploits</h3>
+<p>You have studied various martial exploits to augment your Order's magical abilities. You gain the following features:</p>
+<p><strong>Exploit Dice.</strong> The Spellsword Exploits table shows how many Exploit Dice you have to use your Exploits. To use an Exploit you know, you expend an Exploit Die, and you regain your Exploit Dice when you finish a short or long rest. When you use an Exploit, you always roll the Exploit Die.</p>
+<p><strong>High Degree.</strong> Your Magus level limits the technicality of the Exploits you can learn, as shown in the High Degree column of the Spellsword Exploits table.</p>
+<p><strong>Exploits.</strong> You learn two Martial Exploits of your choice from the Alternate Fighter. You can only use a single Exploit per ability check, attack, or saving throw, and you can't use an Exploit and Spellstrike at the same time. When you gain a Magus level, you can replace one Exploit you know with another Martial Exploit of your choice.</p>
+<p><strong>Saving Throws.</strong> If a Martial Exploit requires a creature to make a saving throw, it uses your Magus Spell save DC.</p>
+<details class="table">
+<summary>Spellsword Exploits</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th style="text-align: center;">Exploits Known</th>
+<th style="text-align: center;">Exploit Die</th>
+<th style="text-align: center;">Exploit Dice</th>
+<th style="text-align: center;">High Degree</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-swift-armory">Level 3 - Swift Armory</h3>
+<p>You wield your Arcane Armory with the same skill that you wield your weapons. You can Access your Armory, conjuring and shunting objects as part of each attack you make.</p>
+<hr>
+<h3 id="level-7-mystic-precision">Level 7 - Mystic Precision</h3>
+<p>You mix magic and martial skill. When you hit a creature with a weapon attack, then make a Spellstrike attack against it on the same turn, you gain a bonus to your Spellstrike attack roll equal to the level of the spell slot spent (+0 for Cantrips).</p>
+<hr>
+<h3 id="level-15-ethereal-warrior">Level 15 - Ethereal Warrior</h3>
+<p>Rather than develop new magics, Spellswords are masters of the fundamentals. Whenever you Access your Arcane Armory, you can use Ethereal Step to teleport up to 10 feet.</p>
+<hr>
+<h3 id="level-20-arcane-blademaster">Level 20 - Arcane Blademaster</h3>
+<p>You are a mythic master of both spell and sword. Once on each of your turns, you can use a Martial Exploit you know without expending an Exploit Die or Spellstrike a 1st-level Magus spell you know without expending a spell slot.</p>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="travelers">
+<details class="subclass">
+<summary>Order of Travelers</summary>
+<p>Practitioners of what many consider a forbidden ninth magic school, Travelers augment their skill with Chronomancy, time magic. As they grow in their understanding of this secret art, Travelers become increasingly detached from their place in time, becoming wanderers who safeguard the flow of time.</p>
+<h3 id="level-3-traveler-spells">Level 3 - Traveler Spells</h3>
+<details class="table">
+<summary>Order Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Magus Level</th>
+<th>Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td><em>expeditious retreat</em>, <em>feather fall</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td><em>blur</em>, <em>hold person</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td><em>haste</em>, <em>slow</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td><em>banishment</em>, <em>dimension door</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td><em>hold monster</em>, <em>modify memory</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-temporal-shift">Level 3 - Temporal Shift</h3>
+<p>You can briefly shift time to undo small mistakes or missteps. When you miss with an attack roll, or fail an ability check or saving throw, you can use your reaction to reroll your d20. If you do so, you must use the new result of your roll.</p>
+<p>You can use this reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all uses when you finish a long rest. If you have no uses left, you can expend a spell slot to use this reaction again.</p>
+<hr>
+<h3 id="level-3-visions-of-the-past">Level 3 - Visions of the Past</h3>
+<p>You have learned to see echoes of past events in the present. You gain proficiency in either History or Investigation.</p>
+<p>Moreover, if you make a History or Investigation check in the location where the subject of your check took place, you are considered proficient if you were not already. If you are proficient, you instead add double your Proficiency Bonus to the result of your ability check.</p>
+<hr>
+<h3 id="level-7-adrift-in-time">Level 7 - Adrift in Time</h3>
+<p>You have become detached from the passage of time. Your age can't be changed by spells or magic, and for every 10 years that pass, your physical body only ages 1 year.</p>
+<hr>
+<h3 id="level-7-greater-shift">Level 7 - Greater Shift</h3>
+<p>Your mastery of Chronomancy allows you to manipulate time for those near you. You can use your Temporal Shift reaction when a creature you can see within 30 feet misses an attack roll, or fails an ability check or saving throw.</p>
+<hr>
+<h3 id="level-15-conjure-self">Level 15 - Conjure Self</h3>
+<p>As an action, you can spend a spell slot of 3rd-level or higher to conjure a version of yourself from the future to aid you. It uses the following rules while it remains with you:</p>
+<p><strong>Statistics.</strong> Your Future Self has the same statistics as you, including ability scores and features from your class, race, or other sources. However, they share your pool of spell slots.</p>
+<p><strong>Combat.</strong> In Combat, your Future Self shares your initiative and acts during your turn. However, they act independently of you, and will aid you to the best of their abilities.</p>
+<p><strong>Knowledge.</strong> You can ask your Future Self a single question concerning the future. They will answer using the guidelines in the <em>commune</em> spell. However, their knowledge is limited to things you may know in the future, determined by the DM.</p>
+<p><strong>Duration.</strong> After 1 hour, or when they are reduced to 0 hit points, your Future Self returns to their own time. There can only ever be one version of your Future Self in your current time at once. Conjuring a second Future Self causes any others to instantly return to their time.</p>
+<hr>
+<h3 id="level-20-untethered-traveler">Level 20 - Untethered Traveler</h3>
+<p>You have mastered the combat applications of Chronomancy magic. Once between each long rest, you can cast the <em>time stop</em>ᴸᴸ spell without expending a spell slot. If your Future Self is within range, they can act during the spell with you.</p>
+<p>When you have no uses of this feature left, you can expend a 5th-level spell slot to cast <em>time stop</em>ᴸᴸ in this way again.</p>
+</details>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

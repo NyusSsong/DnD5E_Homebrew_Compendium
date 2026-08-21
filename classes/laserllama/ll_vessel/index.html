@@ -1,0 +1,3172 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+        <link rel="prev" href="../ll_shaman/">
+      
+      
+        <link rel="next" href="../../valda/valda_alchemist/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Vessel - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Vessel
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../valda/valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../base_classes/barbarian/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Classes
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../ll_bloodhunter/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Laserllama
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-vessel">The Vessel</h1>
+<p>A lucky few mortals are called Vessels — their souls chosen as prisons for great and powerful entities sealed away by the gods themselves. These Spirits, for better or worse, grant their hosts abilities beyond those of normal folk. A Vessel must learn to control the power of the entity bound to their soul, lest they lose themselves to the Spirit within.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:5"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Progression Table</label><label for="__tabbed_1_2">Core Vessel Features</label><label for="__tabbed_1_3">Unsealed Aspects</label><label for="__tabbed_1_4">Vessel Spell List</label><label for="__tabbed_1_5">Sealed Spirits</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h4 id="vessel-progression-table">Vessel Progression Table</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">PB</th>
+<th style="text-align: left;">Features</th>
+<th style="text-align: center;">Unsealed Aspects</th>
+<th style="text-align: center;">Cantrips Known</th>
+<th style="text-align: center;">Spells Known</th>
+<th style="text-align: center;">Spell Slots</th>
+<th style="text-align: center;">Slot Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1st</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Spirit Mantle, Unsealed Aspects</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">2nd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Vessel Magic</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Sealed Spirit, Archon Form</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">4th</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1st</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Extra Attack</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">6th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Sealed Spirit Feature</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">7th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Controlled Transformation</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">8th</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2nd</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">10th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Primeval Will</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">11th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Elder Archon</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">12th</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3rd</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">14th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Dire Preservation</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">15th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Sealed Spirit Feature</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">16th</td>
+<td style="text-align: center;">+5</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4th</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">18th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Unchained Power</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">19th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Ability Score Improvement</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+<tr>
+<td style="text-align: center;">20th</td>
+<td style="text-align: center;">+6</td>
+<td style="text-align: left;">Sealed Spirit Feature</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5th</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<h4 id="level-1-spirit-mantle">Level 1 - Spirit Mantle</h4>
+<p>At 1st level, you can use a bonus action to cloak yourself with (or dismiss) your Spirit Mantle, an ethereal cloak of spiritual power. It marks a dramatic change in your appearance which causes you to resemble the Spirit bound to your soul. While cloaked in your Mantle, you gain the features here:</p>
+<p><strong>Ethereal Armor.</strong> The power of your Mantle wards you from harm. When you are not wearing armor or a shield, your Armor Class is equal to 10 + your Constitution modifier + your Charisma modifier.</p>
+<p><strong>Iridescent Strikes.</strong> Spiritual energies empower you. You can use your Charisma, in place of Strength, for your unarmed strike attack rolls. On hit, these unarmed strikes deal radiant damage equal to 1d6 + your Charisma modifier. Also, whenever you take the Attack action, you can make an unarmed strike as a bonus action. At certain Vessel levels, the damage die of these Iridescent Strikes increases: at 5th (d8), 11th (d10), and 17th level (d12).</p>
+<details class="info">
+<summary>Your Sealed Spirit &amp; You!</summary>
+<p>To some Vessels, the nature of their Sealed Spirit is a mystery, while others are aware of its true nature. Though Vessels do not select their Sealed Spirit until 3rd level, if you know the nature of your Spirit, your Spirit Mantle should be described to reflect it.</p>
+</details>
+<hr>
+<h4 id="level-1-unsealed-aspects">Level 1 - Unsealed Aspects</h4>
+<p>You have learned to channel Aspects of your Spirit's power. At 1st level, you unlock an Unsealed Aspect of your choice from the list at the end of this class. If an Aspect has a prerequisite, like another Unsealed Aspect or a Vessel level, you must meet those prerequisites to unlock it. At certain Vessel levels, you unlock additional Aspects, as shown in the Unsealed Aspects column of the Vessel table. Finally, when you unlock a new Unsealed Aspect, you can replace one of your Unsealed Aspects with another Aspect of your choice, though you can't replace prerequisite Aspects.</p>
+<hr>
+<h4 id="level-2-vessel-magic">Level 2 - Vessel Magic</h4>
+<p>Starting at 2nd level, you can draw upon the immense power of the Sealed Spirit bound within your soul to produce spells:</p>
+<p><strong>Cantrips.</strong> You learn two Cantrips of your choice from the Vessel Spell List. You learn another Vessel Cantrip at 4th and 11th level, as shown in the Cantrips Known column of the Vessel table.</p>
+<p><strong>Spell Slots.</strong> The Vessel table above shows how many spell slots you have to cast your Vessel spells and the level of those spell slots. All of your spell slots are the same level. To cast a Vessel spell of 1st-level or higher, you must expend a spell slot. You regain all of your spell slots when you finish a short or long rest.</p>
+<p><strong>Spells Known of 1st-Level and Higher.</strong> At 2nd level, you learn two 1st-level spells of your choice from the Vessel Spell List. The Spells Known column of the Vessel table shows when you learn additional Vessel spells of 1st-level and up. Vessel spells you learn must all be of a level equal to, or lower than, your Slot Level, as shown on the Vessel table. When you gain a Vessel level, you can replace one Vessel spell you know with a Vessel spell of your choice, which also must be of a level equal to your Slot Level or lower.</p>
+<p><strong>Spellcasting Ability.</strong> Charisma is your spellcasting ability for your Vessel spells, as you are using your willpower to draw on the magic of the Spirit within. You use Charisma when a spell refers to your spellcasting ability, when setting a saving throw DC for a spell, and when making a spell attack roll.</p>
+<p><strong>Spell save DC</strong> = 8 + your Proficiency Bonus + your Charisma modifier</p>
+<p><strong>Spell attack modifier</strong> = your Proficiency Bonus + your Charisma modifier</p>
+<p><strong>Spellcasting Focus.</strong> Your Spirit Mantle is your Spellcasting Focus for your Vessel spells, and you must be cloaked in it to cast these spells. You must have a free hand to cast a spell that requires a somatic or a material component, and you must still provide material components that are consumed or have a gold cost.</p>
+<hr>
+<h4 id="level-3-sealed-spirit">Level 3 - Sealed Spirit</h4>
+<p>You have unlocked the true power of the entity bound to your soul. At 3rd level, choose one Sealed Spirit. Your Sealed Spirit grants you features at 3rd level, and again when you reach 6th, 15th, and 20th level in this class. All Sealed Spirit features use your Vessel Spell save DC.</p>
+<p><strong>Sealed Magic.</strong> Each Sealed Spirit has a list of Sealed Magic spells you learn at the Vessel levels listed in its description. They are Vessel spells for you, but do not count against your number of Spells Known. You can't replace these spells when you gain a level. The magic of your Spirit can also change the damage type dealt by your Iridescent Strikes, and is noted here.</p>
+<hr>
+<h4 id="level-3-archon-form">Level 3 - Archon Form</h4>
+<p>Beginning at 3rd level, when you cloak yourself in your Spirit Mantle, you can draw upon even more of your Spirit's power and transform into your Archon Form, using the stat block in your Sealed Spirit description. This Archon Form uses your Proficiency Bonus (PB) and your Vessel Spell save DC. You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert if you become Unconscious, are reduced to 0 hit points, or you use a bonus action to revert. While in your Archon Form, use the following rules:</p>
+<p><strong>Statistics.</strong> Your statistics are replaced with those in your Archon Form's stat block. You do retain your alignment, personality, ability scores, and hit points. You also retain skill and saving throw proficiencies, and gain those of your Archon Form.</p>
+<p><strong>Spirit Mantle.</strong> In Archon Form, you are considered cloaked in your Spirit Mantle and gain all its benefits and features, such as Ethereal Armor and Iridescent Strikes.</p>
+<p><strong>Armor Class Bonus.</strong> Some Archon Forms grant you a bonus to your Armor Class. This AC Bonus only applies to your Ethereal Armor from your Spirit Mantle.</p>
+<p><strong>Temporary Hit Points.</strong> When you transform, you gain temporary hit points equal to twice your Vessel level. All temporary hit points you gain in Archon Form are lost when you return to your normal form.</p>
+<p><strong>Features.</strong> You retain all features from your class, race, or other sources that your Archon is capable of using. This includes the ability to cast spells with Vessel Magic.</p>
+<p><strong>Equipment.</strong> When you transform, you must decide if your equipment falls to the ground, merges with your Archon, or is worn by it. Worn equipment functions normally, but your DM decides if your Archon can use it. Any equipment that merges with your Archon has no effect during your transformation.</p>
+<p><strong>Uses.</strong> You can transform into Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.</p>
+<hr>
+<h4 id="level-4-ability-score-improvement">Level 4 - Ability Score Improvement</h4>
+<p>When you reach 4th level, you can increase one of your ability scores by 2, or two of your ability scores by 1. You cannot use this feature to increase your ability scores above 20. You gain this feature again at 8th, 12th, 16th, and 19th level.</p>
+<hr>
+<h4 id="level-5-extra-attack">Level 5 - Extra Attack</h4>
+<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Vessel spell, you can make one Iridescent Strike as a bonus action on that turn.</p>
+<hr>
+<h4 id="level-7-controlled-transformation">Level 7 - Controlled Transformation</h4>
+<p>Beginning at 7th level, you can channel and maintain control over more power from your Sealed Spirit. Your Archon Form transformation can now last for up to 1 hour, and it only ends early if you are reduced to 0 hit points or you use your bonus action to end it. You cannot rest in Archon Form. Also, when you roll initiative and are not Incapacitated or Surprised, you can instantly transform into Archon Form.</p>
+<hr>
+<h4 id="level-10-primeval-will">Level 10 - Primeval Will</h4>
+<p>Beginning at 10th level, your Spirit can lend you its willpower. If you fail an Intelligence, Wisdom, or Charisma saving throw, or a saving throw to maintain concentration, you can add your Charisma modifier (minimum of +1) to your roll. You can do so a number of times equal to your Charisma modifier (a minimum of once), and you regain all expended uses of this feature when you complete a long rest.</p>
+<hr>
+<h4 id="level-11-elder-archon">Level 11 - Elder Archon</h4>
+<p>You can unleash a greater amount of your Sealed Spirit's true power. Starting at 11th level, when you transform into Archon Form, you can cast one of your Sealed Magic spells as part of your transformation without expending a spell slot. The spell must have a casting time of one action, or one bonus action.</p>
+<hr>
+<h4 id="level-14-dire-preservation">Level 14 - Dire Preservation</h4>
+<p>At 14th level, the Spirit bound to you will unleash its power to defend its Vessel. When you would be reduced to 0 hit points, but not killed outright, you can transform into Archon Form, expending resources as normal, and fall to 1 hit point instead.</p>
+<hr>
+<h4 id="level-18-unchained-power">Level 18 - Unchained Power</h4>
+<p>You and the Spirit bound to your soul merge and become an entirely new and distinct creature. Upon reaching 18th level, your Archon Form transformation lasts indefinitely and only ends if you are killed or if you use a bonus action to end it.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Filter by level:</strong></p></p>
+<p><select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+  <option value="all">All</option>
+  <option value="no-level-prereq">No Prerequisite</option>
+  <option value="level-2">2nd-Level Vessel</option>
+  <option value="level-7">7th-Level Vessel</option>
+  <option value="level-10">10th-Level Vessel</option>
+  <option value="level-14">14th-Level Vessel</option>
+  <option value="level-18">18th-Level Vessel</option>
+</select></p>
+<div class="level-content" data-level="no-level-prereq">
+<details class="feature">
+<summary>No Prerequisite Aspects</summary>
+<h4 id="ethereal-tendril">Ethereal Tendril</h4>
+<p>As an action, you can protrude (or retract) a single Ethereal Tendril, which resembles your Spirit Mantle, from any point on your body. It has a reach of 10 feet and its Strength score equals your Charisma score. You can only have one Tendril manifested at a time, and it can be attacked as part of you. When cloaked in your Spirit Mantle, its reach is doubled. This Tendril cannot manipulate fine tools or use weapons or shields. However, it can manipulate simple objects, and be used to make Iridescent Strikes, Shoves, or Grapples.</p>
+<h4 id="spirit-sense">Spirit Sense</h4>
+<p>While cloaked in your Spirit Mantle, you can see magic as if by a <em>detect magic</em> spell, but this requires your concentration. While using this sense, you can also sense entities similar to your Spirit. If you see a Celestial, Elemental, Fey, or Fiend with a CR equal to your level or lower, you learn its creature type, its Spellcasting ability, and the level of its highest spell.</p>
+<h4 id="striking-presence">Striking Presence</h4>
+<p>The Spirit within empowers your force of personality. You gain proficiency in Deception, Intimidation, or Persuasion. While cloaked in your Spirit Mantle, you have advantage on ability checks you make with one skill from the list above, which you choose when you unlock this Unsealed Aspect.</p>
+<h4 id="uncanny-strength">Uncanny Strength</h4>
+<p>The entity bound within you increases your might. You gain proficiency in Athletics. While cloaked in your Spirit Mantle, you can use Charisma, in place of Strength, for any Athletics checks you make, including Grapples and Shoves.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-2">
+<details class="feature">
+<summary>2nd-Level Vessel Aspects</summary>
+<h4 id="iridescent-shield">Iridescent Shield</h4>
+<p><em>Prerequisite: 2nd-level Vessel</em></p>
+<p>You can absorb blows with your spiritual energies. While you are cloaked in your Spirit Mantle and you or another creature within your reach takes damage, you can use your reaction to reduce it by your Vessel level + your Charisma modifier.</p>
+<h4 id="opalescent-armor">Opalescent Armor</h4>
+<p><em>Prerequisite: 2nd-level Vessel</em></p>
+<p>When you cloak yourself in your Spirit Mantle, you can fortify it with additional might. For the duration, you are Resistant to bludgeoning, piercing, and slashing damage but your speed is reduced by 10 feet. Silvered weapons ignore this Resistance.</p>
+<h4 id="shimmering-lance">Shimmering Lance</h4>
+<p><em>Prerequisite: 2nd-level Vessel</em></p>
+<p>You can hurl bolts of pure spiritual power. When you make an Iridescent Strike as part of an Attack action, you can choose for it to be a ranged spell attack with a Range of (30/90).</p>
+<h4 id="vexing-strike">Vexing Strike</h4>
+<p><em>Prerequisite: 2nd-level Vessel</em></p>
+<p>The power of the entity within you compels foes to stand and fight. When you hit a creature with a melee Iridescent Strike, it has disadvantage on attacks against targets other than you until the start of your next turn. Creatures with Immunity to the Charmed condition are also immune to this effect.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-7">
+<details class="feature">
+<summary>7th-Level Vessel Aspects</summary>
+<h4 id="dire-stature">Dire Stature</h4>
+<p><em>Prerequisite: 7th-level Vessel</em></p>
+<p>You can tap into the primordial stature of your Spirit. When you transform into Archon Form, you can choose for this new Form to grow by one size category, so long as there is room for you to do so. For each size category the Archon grows above Medium, the reach of its melee attacks increases by 5 feet, these attacks deal a bonus 1d4 damage on hit, and the Armor Class Bonus in its stat block increases by 1.</p>
+<h4 id="ethereal-grasp">Ethereal Grasp</h4>
+<p><em>Prerequisite: 7th-level Vessel, Uncanny Strength</em></p>
+<p>When you seize a creature you hold both physical and spiritual. When you Grapple a creature while cloaked in your Spirit Mantle, the creature must use its Charisma, in place of its Strength, for the ability check or saving throw it makes to escape.</p>
+<h4 id="evoke-spirit">Evoke Spirit</h4>
+<p><em>Prerequisite: 7th-level Vessel</em></p>
+<p>You can release a minor form of the Spirit sealed within you. You learn the <em>conjure familiar</em>ᴸᴸ spell. It is a Vessel spell for you, but it does not count against your total number of Spells Known. You also learn to cast this spell as a Ritual. When you cast it, your Familiar resembles a Tiny version of your Sealed Spirit; it shares the creature type of your Archon, can attack on its turn, and uses the Spirit Familiar stat block.</p>
+<details class="beast">
+<summary>Spirit Familiar</summary>
+<p><em>Tiny [Type of your Archon Form], same alignment as you</em></p>
+<ul>
+<li><strong>Armor Class</strong> 8 + PB (natural armor)</li>
+<li><strong>Hit Points</strong> 5 + five times your Vessel level</li>
+<li><strong>Speed</strong> 20 ft., fly 40 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+<th style="text-align: center;">INT</th>
+<th style="text-align: center;">WIS</th>
+<th style="text-align: center;">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3 (−4)</td>
+<td style="text-align: center;">12 (+2)</td>
+<td style="text-align: center;">7 (−2)</td>
+<td style="text-align: center;">8 (−1)</td>
+<td style="text-align: center;">10 (+0)</td>
+<td style="text-align: center;">16 (+3)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Skills</strong> same skills as your Archon Form
+<strong>Senses</strong> Darkvision 60 ft.
+<strong>Languages</strong> None (understands its Vessel)</p>
+<p><strong>Hit Dice.</strong> The Spirit Familiar has a number of d4 Hit Dice equal to your Vessel level and gains benefits from short and long rests normally.</p>
+<p><strong>Magic Resistance.</strong> The Spirit Familiar has advantage on saving throws against spells and other magical effects.</p>
+<p><strong>Vessel Bond.</strong> The Spirit Familiar adds your PB to any ability check or saving throw it is forced to make.</p>
+<p><strong><em>Invisibility.</em></strong> The Spirit Familiar magically turns invisible until it attacks or forces an ability check or saving throw. Equipment it is wearing or carrying turns invisible with it. This effect requires concentration.</p>
+<p><strong><em>Spirit Strike.</em></strong> <em>Melee Spell Attack:</em> your Spell Attack Modifier to hit, reach 5 ft., one target. <em>Hit:</em> (1d4 + PB) damage of the same type as one of your Iridescent Strikes.</p>
+</details>
+<h4 id="iridescent-aegis">Iridescent Aegis</h4>
+<p><em>Prerequisite: 7th-level Vessel, Iridescent Shield</em></p>
+<p>When you use Iridescent Shield on another creature and it still takes damage, you can choose to take half the remaining damage in its place as part of the same reaction.</p>
+<h4 id="minor-magick">Minor Magick</h4>
+<p><em>Prerequisite: 7th-level Vessel</em></p>
+<p>You gain greater control over the power of your Spirit. Once per long rest, you can cast one of your Sealed Magic spells at its lowest level, without expending a Vessel Magic slot. You can gain this Aspect more than once, but it cannot be used to cast the same Sealed Magic spell more than once.</p>
+<h4 id="otherworldly-maw">Otherworldly Maw</h4>
+<p><em>Prerequisite: 7th-level Vessel</em></p>
+<p>The hunger of your Spirit also fuels your life force. Once per turn while you are in Archon Form, you can forgo one of your attacks to instead force a creature within your reach to make a Charisma saving throw. On a failure, it takes 2d6 necrotic damage and your temporary hit points increase by half the necrotic damage dealt. Your temporary hit points cannot exceed twice your level.</p>
+<h4 id="piercing-gaze">Piercing Gaze</h4>
+<p><em>Prerequisite: 7th-level Vessel, Spirit Sense</em></p>
+<p>Your Spirit enhances your sight to near supernatural levels. Whenever you make an ability check that relies on your sense of sight while cloaked in your Spirit Mantle, you can add your Charisma modifier (minimum of +1) to your roll. When cloaked in your Spirit Mantle, you can see normally in magical dim light and darkness, and you instantly detect the presence of Illusion magic and other Shapeshifters.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-10">
+<details class="feature">
+<summary>10th-Level Vessel Aspects</summary>
+<h4 id="dazzling-lance">Dazzling Lance</h4>
+<p><em>Prerequisite: 10th-level Vessel, Shimmering Lance</em></p>
+<p>You can project overwhelming spiritual power. When you use Shimmering Lance, its range becomes (100/300), it ignores half-cover, and treats three-quarters cover as half. In addition, when you hit with a ranged Iridescent Strike, you can expend a Vessel Magic spell slot to create a spiritual eruption. Creatures within 30 feet of the target must make a Dexterity saving throw. They take 6d8 damage of the type of an Iridescent Strike on a failure, and half on a success. As you gain Vessel levels the damage of this eruption increases: at 13th level (7d8) and 17th level (8d8).</p>
+<h4 id="perilous-visage">Perilous Visage</h4>
+<p><em>Prerequisite: 10th-level Vessel</em></p>
+<p>You reveal a fraction of your Spirit's true power, horrifying all who behold you. When you transform into Archon Form, you can force creatures of your choice that can see you within 60 feet to make a Wisdom saving throw. On a failed save, they are Frightened of you for 1 minute. Creatures can repeat this saving throw at the end of each of their turns, ending the effect on a success. If a creature can still see your Archon Form, it has disadvantage on its saving throw.</p>
+<h4 id="sundering-strike">Sundering Strike</h4>
+<p><em>Prerequisite: 10th-level Vessel</em></p>
+<p>Your strikes assault both body and spirit. Whenever you hit a creature with an Iridescent Strike, you can force it to make a Charisma saving throw. On a failure, it cannot concentrate on or cast spells until the start of your next turn. You can only force a creature to make this saving throw once per turn.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-14">
+<details class="feature">
+<summary>14th-Level Vessel Aspects</summary>
+<h4 id="aether-wings">Aether Wings</h4>
+<p><em>Prerequisite: 14th-level Vessel</em></p>
+<p>When cloaked in your Spirit Mantle, you manifest ethereal wings that resemble the true nature of your Sealed Spirit. They grant you a flying speed of 60 feet and you can hover.</p>
+<h4 id="primeval-thirst">Primeval Thirst</h4>
+<p><em>Prerequisite: 14th-level Vessel, Otherworldly Maw</em></p>
+<p>The primeval Spirit within you can absorb spells to restore its power. When you see a creature within 30 feet cast a spell while you are in Archon Form, you can use a reaction to force the caster to make a saving throw with its Spellcasting ability. On a failure, its spell fails, and if the spell was of a level equal to your Slot Level or higher, you regain one spell slot. You can use this reaction a number of times equal to your Charisma modifier (a minimum of once), and you regain all expended uses when you finish a long rest.</p>
+<h4 id="twilight-steps">Twilight Steps</h4>
+<p><em>Prerequisite: 14th-level Vessel</em></p>
+<p>You can draw on your Spirit's power to phase your physical body into the spirit world. You learn the <em>spectral passage</em>ᴸᴸ spell, but it does not count against your Spells Known. As a bonus action, you can cast <em>spectral passage</em> without expending a spell slot. However, when you do so, it only lasts until the end of your turn, but doesn't require concentration.</p>
+</details>
+</div>
+<div class="level-content" data-level="level-18">
+<details class="feature">
+<summary>18th-Level Vessel Aspects</summary>
+<h4 id="colossal-archon">Colossal Archon</h4>
+<p><em>Prerequisite: 18th-level Vessel, Dire Stature</em></p>
+<p>The appearance of your Archon Form inspires legends and myths. When you use Dire Stature, you can grow to become Huge in size so long as there is room for you to do so. You gain all the benefits of Dire Stature for your increased size.</p>
+<h4 id="lord-of-spirits">Lord of Spirits</h4>
+<p><em>Prerequisite: 18th-level Vessel</em></p>
+<p>You can channel the elder authority of your Spirit to conjure servile entities. As an action, you can conjure one creature of CR 6 or lower that is of the same type as your Archon Form that you can see. It appears in an unoccupied space of your choice within 30 feet and remains for up to 1 hour. For the duration, it is absolutely loyal to you and obeys your orders completely, so long as they do not violate its nature. In combat, it shares your initiative and acts during your turn. Once you use this feature, you must complete a long rest before you can conjure another creature in this way again.</p>
+<h4 id="primordial-bulwark">Primordial Bulwark</h4>
+<p><em>Prerequisite: 18th-level Vessel, Opalescent Armor</em></p>
+<p>You draw out the true primordial fortitude of the Spirit bound within you. Your Archon Form gains Resistance to all damage except for force, psychic, and radiant damage. As a bonus action, you can harden your Archon Form, and until the start of your next turn, whenever you take damage you reduce it by your Charisma modifier (minimum of 1).</p>
+</details>
+</div>
+</div>
+<div class="tabbed-block">
+<h4 id="vessel-spell-list">Vessel Spell List</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Cantrips (0-Level)</th>
+<th style="text-align: left;">1st Level</th>
+<th style="text-align: left;">2nd Level</th>
+<th style="text-align: left;">3rd Level</th>
+<th style="text-align: left;">4th Level</th>
+<th style="text-align: left;">5th Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><em>chill touch</em></td>
+<td style="text-align: left;"><em>absorb elements</em></td>
+<td style="text-align: left;"><em>alter self</em></td>
+<td style="text-align: left;"><em>bestow curse</em></td>
+<td style="text-align: left;"><em>banishment</em></td>
+<td style="text-align: left;"><em>arcane hand</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>create bonfire</em></td>
+<td style="text-align: left;"><em>armor of agathys</em></td>
+<td style="text-align: left;"><em>augury</em></td>
+<td style="text-align: left;"><em>clairvoyance</em></td>
+<td style="text-align: left;"><em>eldritch tentacles</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>circle of power</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>dancing lights</em></td>
+<td style="text-align: left;"><em>arms of hadar</em></td>
+<td style="text-align: left;"><em>blindness/deafness</em></td>
+<td style="text-align: left;"><em>dire wail</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>blight</em></td>
+<td style="text-align: left;"><em>cloudkill</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>friends</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>bane</em></td>
+<td style="text-align: left;"><em>blur</em></td>
+<td style="text-align: left;"><em>dispel magic</em></td>
+<td style="text-align: left;"><em>charm monster</em></td>
+<td style="text-align: left;"><em>contact other plane</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>frostbite</em></td>
+<td style="text-align: left;"><em>cause fear</em></td>
+<td style="text-align: left;"><em>darkness</em></td>
+<td style="text-align: left;"><em>fear</em></td>
+<td style="text-align: left;"><em>death ward</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>destructive wave</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>glitterbeam</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>charm person</em></td>
+<td style="text-align: left;"><em>darkvision</em></td>
+<td style="text-align: left;"><em>fly</em></td>
+<td style="text-align: left;"><em>dimension door</em></td>
+<td style="text-align: left;"><em>dispel evil &amp; good</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>infestation</em></td>
+<td style="text-align: left;"><em>command</em></td>
+<td style="text-align: left;"><em>detect thoughts</em></td>
+<td style="text-align: left;"><em>gaseous form</em></td>
+<td style="text-align: left;"><em>fire shield</em></td>
+<td style="text-align: left;"><em>enervation</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>lightning lure</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>dissonant whispers</em></td>
+<td style="text-align: left;"><em>enhance ability</em></td>
+<td style="text-align: left;"><em>haste</em></td>
+<td style="text-align: left;"><em>freedom of movement</em></td>
+<td style="text-align: left;"><em>far step</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>mage hand</em></td>
+<td style="text-align: left;"><em>ensnaring strike</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>enlarge/reduce</em></td>
+<td style="text-align: left;"><em>hunger of hadar</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>greater invisibility</em></td>
+<td style="text-align: left;"><em>hold monster</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>message</em></td>
+<td style="text-align: left;"><em>ethereal anchor</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>enthrall</em></td>
+<td style="text-align: left;"><em>life transference</em></td>
+<td style="text-align: left;"><em>phantasmal killer</em></td>
+<td style="text-align: left;"><em>spiritual sundering</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>minor illusion</em></td>
+<td style="text-align: left;"><em>faerie fire</em></td>
+<td style="text-align: left;"><em>flame whip</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>nondetection</em></td>
+<td style="text-align: left;"><em>polymorph</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>wall of light</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>otherworldly grasp</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>feather fall</em></td>
+<td style="text-align: left;"><em>hold person</em></td>
+<td style="text-align: left;"><em>protection from energy</em></td>
+<td style="text-align: left;"><em>shadow of moil</em></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>thaumaturgy</em></td>
+<td style="text-align: left;"><em>hellish rebuke</em></td>
+<td style="text-align: left;"><em>invisibility</em></td>
+<td style="text-align: left;"><em>slow</em></td>
+<td style="text-align: left;"><em>sickening radiance</em></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>thunderclap</em></td>
+<td style="text-align: left;"><em>inflict wounds</em></td>
+<td style="text-align: left;"><em>magic aura</em></td>
+<td style="text-align: left;"><em>spectral passage</em>ᴸᴸ</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>jump</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>mind spike</em></td>
+<td style="text-align: left;"><em>spirit shroud</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>longstrider</em></td>
+<td style="text-align: left;"><em>mind whip</em></td>
+<td style="text-align: left;"><em>thunder step</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>protection from evil &amp; good</em></td>
+<td style="text-align: left;"><em>misty step</em></td>
+<td style="text-align: left;"><em>vampiric touch</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>sanctuary</em></td>
+<td style="text-align: left;"><em>see invisibility</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>sleep</em></td>
+<td style="text-align: left;"><em>shadow blade</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>thunderwave</em></td>
+<td style="text-align: left;"><em>silence</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>witch bolt</em>ᴸᴸ</td>
+<td style="text-align: left;"><em>spider climb</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>suggestion</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Spells marked ᴸᴸ are found in the laserllama Spell Compendium.</p>
+</div>
+<div class="tabbed-block">
+<p><p><strong>Choose a sealed spirit:</strong></p></p>
+<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+    <option value="all">All</option>
+    <option value="ascended">The Ascended</option>
+    <option value="cataclysm">The Cataclysm</option>
+    <option value="cursed">The Cursed</option>
+    <option value="fallen">The Fallen</option>
+    <option value="formless">The Formless</option>
+    <option value="trickster">The Trickster</option>
+</select></p>
+<div class="subclass-content" data-subclass="ascended">
+<details class="subclass">
+<summary>The Ascended</summary>
+<p>When mortals attain heights of arcane power that allow them to ascend beyond their physical forms, they make themselves vulnerable to being sealed away. Often, these great sorcerers and archmages are punished by the deities of magic, and are imprisoned where they can no longer violate arcane laws.</p>
+<details class="humanoid">
+<summary>Ascended Archon</summary>
+<p><em>Medium Humanoid (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 30 ft., fly 10 ft. (hover)</li>
+<li><strong>Armor Class Bonus</strong> +0</li>
+<li><strong>Damage Resistances</strong> all damage from spells</li>
+<li><strong>Skills</strong> Arcana, History, Religion</li>
+<li><strong>Languages</strong> Primordial, any languages you know</li>
+</ul>
+<p><strong>Arcane Blast.</strong> Once on its turn, the Archon can forgo one attack to cause a burst of raw magic at a point it can see within 60 ft. All creatures within 5 ft. of that point must succeed on a Dexterity saving throw or take damage as if they were hit by one of your Iridescent Strikes.</p>
+<p><strong>Astral Step.</strong> After the Archon casts a spell, it can teleport a number of feet equal to 10 times the level of that spell (minimum of 10 ft.) to an unoccupied space it can see.</p>
+</details>
+<hr>
+<h3 id="level-3-ancient-knowledge">Level 3 - Ancient Knowledge</h3>
+<p>Your Spirit grants you access to its vast esoteric knowledge. During a long rest, you now prepare a number of spells from the Vessel or Wizard spell list equal to your Spells Known, in place of your Spells Known. The spells you prepare must be equal to your Slot Level or lower. In addition, you can cast the Ritual version of any spell you prepare.</p>
+<hr>
+<h3 id="level-3-ascended-magic">Level 3 - Ascended Magic</h3>
+<p>You learn certain spells at the Vessel levels noted in the table below. They do not count against the spells you prepare each day. Your Iridescent Strikes can also deal the damage type of any spell you have prepared, which you can choose on hit.</p>
+<details class="table">
+<summary>Sealed Magic</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>identify</em>, <em>shield</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>locate creature</em>ᴸᴸ, <em>invisibility</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>counterspell</em>ᴸᴸ, <em>minute meteors</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>divination</em>, <em>resilient sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>arcane hand</em>, <em>commune</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-potent-spellcasting">Level 6 - Potent Spellcasting</h3>
+<p>The mage imprisoned within your soul empowers your spells. When you deal damage with a Vessel or Wizard spell, you add your Charisma modifier (minimum of +1) to one damage roll.</p>
+<hr>
+<h3 id="level-15-ascended-arcanum">Level 15 - Ascended Arcanum</h3>
+<p>You wrest even greater magics from the Ascended within you. You learn a single 5th-level Wizard spell of your choice, which you can cast once per long rest without spending a spell slot. At 20th level, you learn a 6th-level Wizard spell that you can also cast once per long rest without expending a spell slot.</p>
+<hr>
+<h3 id="level-20-archmage-reborn">Level 20 - Archmage Reborn</h3>
+<p>Your soul allows your Ascended Spirit to manifest itself once again. Your Archon Form gains the following benefits:</p>
+<ul>
+<li>You assume the appearance your Ascended had in life.</li>
+<li>Your flying speed increases to 30 feet.</li>
+<li>The distance you can teleport with Astral Step is doubled.</li>
+<li>As a bonus action on each of your turns, you can teleport up to 30 feet to an unoccupied space you can see in range.</li>
+<li>The radius of your Arcane Blast becomes 15 feet.</li>
+</ul>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="cataclysm">
+<details class="subclass">
+<summary>The Cataclysm</summary>
+<p>At the dawn of time, elemental forces ran wild. Elder beings of pure air, earth, fire, and water rampaged across the world, shaping it by their destruction. These primordial elementals and elder genies were banished from the material plane, but always seek to return. When they threaten the mortal realm, great forces bind these elder elemental Cataclysms to hosts.</p>
+<details class="elemental">
+<summary>Air Archon</summary>
+<p><em>Medium Elemental (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 20 ft., fly 30 ft. (hover)</li>
+<li><strong>Armor Class Bonus</strong> +0</li>
+<li><strong>Damage Resistances</strong> thunder, lightning</li>
+<li><strong>Skills</strong> Acrobatics, Stealth</li>
+<li><strong>Languages</strong> Auran, any languages you know</li>
+</ul>
+<p><strong>Bluster.</strong> When the Archon deals thunder damage to a creature with an Iridescent Strike, its target is knocked back 10 feet in a straight line. This distance is halved for each size the target is above the Archon.</p>
+<p><strong>Elder Elemental.</strong> When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance.</p>
+<p><strong>Gaseous.</strong> The Archon can move through gaps as narrow as 1 inch without squeezing, and while using its flying speed, opportunity attacks have disadvantage against it.</p>
+</details>
+<details class="elemental">
+<summary>Earth Archon</summary>
+<p><em>Medium Elemental (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 30 ft., climb 30 ft., burrow 10 ft.</li>
+<li><strong>Armor Class Bonus</strong> +2</li>
+<li><strong>Damage Resistances</strong> acid, poison</li>
+<li><strong>Senses</strong> Tremorsense 10 ft.</li>
+<li><strong>Skills</strong> Athletics, Intimidation</li>
+<li><strong>Languages</strong> Terran, any languages you know</li>
+</ul>
+<p><strong>Elder Elemental.</strong> When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance.</p>
+<p><strong>Rock Solid.</strong> When the Archon deals bludgeoning damage to a creature with an Iridescent Strike, the target's speed is halved until the start of the Archon's following turn.</p>
+<p><strong>Siege Monster.</strong> The Archon deals maximum bludgeoning damage to non-magical objects and structures.</p>
+</details>
+<details class="elemental">
+<summary>Fire Archon</summary>
+<p><em>Medium Elemental (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 40 ft.</li>
+<li><strong>Armor Class Bonus</strong> +0</li>
+<li><strong>Damage Resistances</strong> fire, radiant</li>
+<li><strong>Skills</strong> Acrobatics, Intimidation</li>
+<li><strong>Languages</strong> Ignan, any languages you know</li>
+</ul>
+<p><strong>Elder Elemental.</strong> When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance.</p>
+<p><strong>Illumination.</strong> The Archon sheds bright light in a 30-foot radius and dim light 30 feet beyond that.</p>
+<p><strong>Searing Flame.</strong> Whenever the Archon deals fire damage, it rolls its damage twice and chooses which total to use.</p>
+</details>
+<details class="elemental">
+<summary>Water Archon</summary>
+<p><em>Medium Elemental (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 30 ft., swim 50 ft.</li>
+<li><strong>Armor Class Bonus</strong> +0</li>
+<li><strong>Damage Resistances</strong> acid, cold</li>
+<li><strong>Senses</strong> Darkvision 120 ft.</li>
+<li><strong>Skills</strong> Acrobatics, Stealth</li>
+<li><strong>Languages</strong> Aquan, any languages you know</li>
+</ul>
+<p><strong>Aqueous.</strong> The Archon can breathe normally in both air and water, and it can move through gaps as narrow as 1 inch without squeezing.</p>
+<p><strong>Elder Elemental.</strong> When the Archon deals Affinity damage, it ignores Resistance and treats Immunity as Resistance.</p>
+<p><strong>Fluid Resilience.</strong> When the Archon takes damage, it can use its reaction to reduce that damage by your Charisma modifier, and then move up to 15 ft. without provoking opportunity attacks. It cannot use this reaction when it takes force or psychic damage.</p>
+</details>
+<hr>
+<h3 id="level-3-elemental-affinity">Level 3 - Elemental Affinity</h3>
+<p>Within you is bound an elder elemental Spirit of great power. Choose the element from the list below that best represents that of your Spirit. This choice grants you Affinity with, and Resistance to a certain damage type, and determines your Archon Form:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Element</th>
+<th style="text-align: center;">Affinity Damage</th>
+<th style="text-align: center;">Archon Form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Air</td>
+<td style="text-align: center;">Thunder</td>
+<td style="text-align: center;">Air Archon</td>
+</tr>
+<tr>
+<td style="text-align: center;">Earth</td>
+<td style="text-align: center;">Bludgeoning</td>
+<td style="text-align: center;">Earth Archon</td>
+</tr>
+<tr>
+<td style="text-align: center;">Fire</td>
+<td style="text-align: center;">Fire</td>
+<td style="text-align: center;">Fire Archon</td>
+</tr>
+<tr>
+<td style="text-align: center;">Water</td>
+<td style="text-align: center;">Cold</td>
+<td style="text-align: center;">Water Archon</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="level-3-cataclysm-magic">Level 3 - Cataclysm Magic</h3>
+<p>You learn certain spells at the Vessel levels noted in the tables below. They do not count against your total number of Spells Known and cannot be replaced when you gain a level. You can choose for your Iridescent Strikes to deal your Affinity damage type on hit, which is always magical.</p>
+<details class="table">
+<summary>Cataclysm Magic (All Elements)</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>absorb elements</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>elemental blade</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>elemental bane</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>resilient sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>far step</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="table">
+<summary>Air Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>beckon air</em>ᴸᴸ, <em>thunderwave</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>dust devil</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>sonic wave</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>storm sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>control winds</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="table">
+<summary>Earth Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>mold earth</em>ᴸᴸ, <em>earth tremor</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>spike growth</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>erupting earth</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>pillars of earth</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>wall of stone</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="table">
+<summary>Fire Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>control flame</em>ᴸᴸ, <em>hellish rebuke</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>flaming sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>fireball</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>wall of fire</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>flame strike</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="table">
+<summary>Water Spells</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>shape water</em>ᴸᴸ, <em>torrent</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>misty step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>tidal wave</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>watery sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>maelstrom</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-elder-power">Level 6 - Elder Power</h3>
+<p>Your Spirit infuses you with its elder elemental power. While cloaked in your Spirit Mantle, you gain Immunity to Affinity damage you inflict with Vessel spells and other abilities. Moreover, when you deal Affinity damage in Archon Form, you treat a roll of 1 or 2 on any of your damage dice as a 3.</p>
+<hr>
+<h3 id="level-15-cataclysmic-eruption">Level 15 - Cataclysmic Eruption</h3>
+<p>You can briefly manifest the raw destructive elements of your Spirit. As an action, you can cause a 15-foot diameter, 60-foot high pillar of elemental power to erupt from a surface you can see within 30 feet, forcing creatures to make a Dexterity saving throw, then it disappears. Creatures take 9d6 Affinity damage on a failure, and half as much on a success. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all uses when you finish a long rest. If you have no uses left, you can expend a Vessel Magic spell slot to use this feature again.</p>
+<hr>
+<h3 id="level-20-cataclysm-reborn">Level 20 - Cataclysm Reborn</h3>
+<p>You wield the full power of your primordial Cataclysm. When you are in your Archon Form you gain the following benefits:</p>
+<ul>
+<li>You assume the true appearance of your Cataclysm.</li>
+<li>The weather in a 1-mile radius surrounding you subtly changes to reflect your primordial elemental influence.</li>
+<li>You can use your Cataclysmic Eruption action at will.</li>
+</ul>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="cursed">
+<details class="subclass">
+<summary>The Cursed</summary>
+<p>Condemned by the heavens for transgressions at the dawn of time, Cursed Spirits were wielders of overwhelming sinister power. Counted among these Spirits are demons, devils, and other vile spirits of the lower planes. Cursed Spirits pose a threat to the multiverse, and are sealed to prevent untold calamity.</p>
+<details class="fiend">
+<summary>Cursed Archon</summary>
+<p><em>Medium Fiend (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 40 ft., climb 40 ft.</li>
+<li><strong>Armor Class Bonus</strong> +1</li>
+<li><strong>Damage Resistances</strong> fire, poison</li>
+<li><strong>Senses</strong> Darkvision 60 ft.</li>
+<li><strong>Skills</strong> Intimidation, Stealth</li>
+<li><strong>Languages</strong> Infernal, any languages you know</li>
+</ul>
+<p><strong>Frenzy.</strong> When it takes the Attack action, the Archon can enter a Frenzy which lasts until the start of its next turn. For the duration, all of its attacks, and all attacks targeting the Archon, are made with advantage.</p>
+<p><strong>Infernal Drain.</strong> Once per turn when the Archon deals fire damage with an Iridescent Strike, its temporary hit points increase by your Charisma modifier. Your total temporary hit points cannot exceed twice your Vessel level.</p>
+</details>
+<hr>
+<h3 id="level-3-malignant-aura">Level 3 - Malignant Aura</h3>
+<p>The aura of the Cursed Spirit sealed within your soul bleeds into yours. You gain the Striking Presence Aspect. It does not count against your Unsealed Aspects and cannot be replaced. If you already unlocked this Unsealed Aspect, you unlock another of your choice, or you can unlock Striking Presence again, but must choose a different skill to gain its benefits.</p>
+<hr>
+<h3 id="level-3-cursed-magic">Level 3 - Cursed Magic</h3>
+<p>You learn certain spells at the Vessel levels noted in the table below. They do not count against your total number of Spells Known and cannot be replaced when you gain a level. Your Iridescent Strikes can also deal fire damage on hit.</p>
+<details class="table">
+<summary>Sealed Magic</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>hellish rebuke</em>, <em>jump</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>flame whip</em>ᴸᴸ, <em>scorching ray</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>fireball</em>, <em>haste</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>dominate creature</em>ᴸᴸ, <em>wall of fire</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>destructive wave</em>, <em>insect plague</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-hellfire">Level 6 - Hellfire</h3>
+<p>You can access the true power of the dark Spirit imprisoned within, conjuring cursed infernal flames. Whenever you deal fire damage to a target, you ignore Resistance to fire damage and treat Immunity to fire as Resistance. Also, if you deal fire damage to a creature, it cannot regain hit points until the start of your next turn.</p>
+<hr>
+<h3 id="level-15-dark-sacrifice">Level 15 - Dark Sacrifice</h3>
+<p>You can sacrifice your vitality to your Spirit in return for its power. As a bonus action, you can reduce both your current and maximum hit points by 10 to regain one Vessel Magic spell slot. This reduction cannot be lessened in any way. At the end of your next long rest, any reduction to your hit point maximum from this feature returns to normal.</p>
+<hr>
+<h3 id="level-20-lord-of-darkness">Level 20 - Lord of Darkness</h3>
+<p>Your power allows your Spirit to walk in the material world once again. Your Archon Form gains the following benefits:</p>
+<ul>
+<li>You assume the true appearance of your Cursed Spirit.</li>
+<li>You gain Immunity to the Charmed, Frightened, and Poisoned conditions, and to poison and fire damage.</li>
+<li>When you take the Attack action on your turn, you can make one bonus Iridescent Strike as part of your action.</li>
+<li>Once per turn when you deal fire damage to a creature with an Iridescent Strike, you can cause it to be Frightened of you until the beginning of your next turn.</li>
+</ul>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="fallen">
+<details class="subclass">
+<summary>The Fallen</summary>
+<p>Not all denizens of the upper planes serve the will of those who created them. Some stray from their divinely ordained purpose and draw wrath. These wayward celestial beings are branded as Fallen Spirits and hurled from the heavens to be imprisoned in mortals to atone for their sins. Some swear revenge upon the heavens while others seek reconciliation.</p>
+<details class="celestial">
+<summary>Fallen Archon</summary>
+<p><em>Medium Celestial (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 30 ft.</li>
+<li><strong>Armor Class Bonus</strong> +2</li>
+<li><strong>Damage Resistances</strong> necrotic, radiant</li>
+<li><strong>Senses</strong> Darkvision 60 ft.</li>
+<li><strong>Skills</strong> Intimidation, Religion</li>
+<li><strong>Languages</strong> Celestial, any languages you know</li>
+</ul>
+<p><strong>Divine Ward.</strong> As a bonus action, the Archon can grant a creature it can see within 30 feet temporary hit points equal to your Charisma modifier, which last 1 minute.</p>
+<p><strong>Wings of Wrath.</strong> When the Archon uses Divine Wrath, it gains the Thrown (20/60) property, and after the attack, the weapon instantly returns to the Archon's hand.</p>
+</details>
+<hr>
+<h3 id="level-3-celestial-warrior">Level 3 - Celestial Warrior</h3>
+<p>You are infused with the skills and vigilance of the heavenly host. You gain proficiency in Insight and all martial weapons. Whenever you make an Insight check while cloaked in your Spirit Mantle, you add your Charisma modifier to your roll.</p>
+<hr>
+<h3 id="level-3-divine-wrath">Level 3 - Divine Wrath</h3>
+<p>When you make a melee weapon attack while cloaked in your Spirit Mantle, you can infuse it with Divine Wrath. When you do, you use Charisma for its attack and damage rolls, it deals radiant damage on hit, and it counts as an Iridescent Strike.</p>
+<hr>
+<h3 id="level-3-fallen-magic">Level 3 - Fallen Magic</h3>
+<p>You learn certain spells at the Vessel levels noted in the table below. They do not count against your total number of Spells Known and cannot be replaced when you gain a level.</p>
+<details class="table">
+<summary>Sealed Magic</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>divine favor</em>ᴸᴸ, <em>ethereal anchor</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>branding smite</em>ᴸᴸ, <em>spiritual weapon</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>crusader's mantle</em>, <em>revivify</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>banishment</em>, <em>guardian of faith</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>circle of power</em>, <em>flame strike</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-condemnation">Level 6 - Condemnation</h3>
+<p>When you hit a creature with a Divine Wrath attack while in Archon Form, you can Condemn it. A Condemned creature must spend two feet of movement for every foot it wishes to move away from you, and your Divine Wrath attacks against it score a critical hit on a roll of 19 or 20 on the d20. You can only Condemn a single creature per Archon Form transformation, and it lasts until you revert to normal form.</p>
+<hr>
+<h3 id="level-15-heavenly-zeal">Level 15 - Heavenly Zeal</h3>
+<p>You unlock the Aether Wings Unsealed Aspect, or another if you have already unlocked it. It does not count against your Unsealed Aspects, and Aether Wings cannot be replaced. Your Divine Wrath attacks against Condemned creatures also now score a critical hit on a roll of 18–20 on the d20.</p>
+<hr>
+<h3 id="level-20-divine-avenger">Level 20 - Divine Avenger</h3>
+<p>You can fully channel the divinity of the Spirit bound to your mortal flesh. Your Archon Form gains the following benefits:</p>
+<ul>
+<li>You assume the true appearance of your Fallen Spirit.</li>
+<li>When you miss a target with a weapon attack, the next attack you make against that creature has advantage.</li>
+<li>If you score a critical hit against a creature, it is Blinded, Deafened, and mute until the start of your next turn.</li>
+</ul>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="formless">
+<details class="subclass">
+<summary>The Formless</summary>
+<p>Before the world was shaped, horrible things slithered about the darkness. Formless monsters with only one desire: consume. These shapeless entities of hunger are known as Formless, and even now, they gnaw the roots of the world, trapped below the material plane.</p>
+<details class="ooze">
+<summary>Formless Archon</summary>
+<p><em>Medium Ooze (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 30 ft., climb 30 ft.</li>
+<li><strong>Armor Class Bonus</strong> +1</li>
+<li><strong>Damage Resistances</strong> acid, poison</li>
+<li><strong>Condition Immunities</strong> Grappled, Restrained</li>
+<li><strong>Senses</strong> Blindsight 60 ft. (blind beyond this radius)</li>
+<li><strong>Languages</strong> Primordial, any languages you know</li>
+</ul>
+<p><strong>Pseudopods.</strong> The Archon sprouts a number of additional pseudopod limbs equal to your Charisma modifier. They have a reach of 10 ft., and they can be attacked as part of the Archon. These pseudopods can only be used to make melee Iridescent Strike attacks, Grapple, and Shove.</p>
+<p><strong>Sticky Slime.</strong> When the Archon hits a creature equal to its size or smaller with a melee Iridescent Strike, it can force it to make a Dexterity saving throw or become Grappled. To escape this Grapple, a creature must use its action to make a Strength saving throw, escaping on a success.</p>
+</details>
+<hr>
+<h3 id="level-3-amorphous-shape">Level 3 - Amorphous Shape</h3>
+<p>The oozing Spirit bound to your soul allows you to reshape yourself in unnatural ways. While cloaked in your Spirit Mantle, you can move through gaps as narrow as 1 inch without squeezing. This has no effect on what you are wearing or carrying. You also gain the Ethereal Tendril Aspect. It does not count against your total number of Unsealed Aspects and it cannot be replaced with another Unsealed Aspect. If you already unlocked Ethereal Tendril, you unlock another Unsealed Aspect of your choice.</p>
+<hr>
+<h3 id="level-3-formless-magic">Level 3 - Formless Magic</h3>
+<p>You learn certain spells at the Vessel levels noted in the table below. They do not count against your total number of Spells Known and cannot be replaced when you gain a level. Your Iridescent Strikes can also deal acid damage.</p>
+<details class="table">
+<summary>Sealed Magic</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>caustic brew</em>, <em>entangle</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>hold person</em>, <em>web</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>grasping vine</em>ᴸᴸ, <em>slow</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>eldritch tentacles</em>ᴸᴸ, <em>vitriolic sphere</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>contagion</em>, <em>hold monster</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-6-drain-vitality">Level 6 - Drain Vitality</h3>
+<p>The Spirit bound within you drives you to consume. When in Archon Form, you can use a bonus action to force creatures under the effect of your Formless Magic spells, or Grappled by you, to make a Constitution saving throw. They take 2d8 acid damage on a failed save, and your temporary hit points increase by half the acid damage dealt. Your temporary hit points cannot exceed twice your Vessel level. This acid damage increases at certain Vessel levels: at 9th (3d8), 13th (4d8), 17th (5d8), and 20th level (6d8).</p>
+<hr>
+<h3 id="level-15-consume-strike">Level 15 - Consume Strike</h3>
+<p>You can even consume the techniques of others. When your Archon Form is hit by an attack, you can use your reaction to temporarily consume the memory of that attack. The first Iridescent Strike you make before the end of your next turn morphs into a gelatinous mockery of the attack you consumed. On hit, it applies the damage and effects from the attack you consumed instead of a normal Iridescent Strike.</p>
+<hr>
+<h3 id="level-20-primordial-hunger">Level 20 - Primordial Hunger</h3>
+<p>You and the Formless Spirit bound to you have become one hunger. Your Archon Form gains the following benefits:</p>
+<ul>
+<li>You assume the true appearance of your Formless Spirit.</li>
+<li>You gain Immunity to acid damage, and whenever you deal acid damage, you ignore Resistance to acid damage and treat Immunity to acid damage as Resistance.</li>
+<li>As an action on your turn, you can make one Iridescent Strike with each one of your Archon's Pseudopods.</li>
+</ul>
+</details>
+<hr>
+</div>
+<div class="subclass-content" data-subclass="trickster">
+<details class="subclass">
+<summary>The Trickster</summary>
+<p>The beings of the Feywild are known for their whimsical and ephemeral ways, often unpredictable to mortals. Most of the faerie are content to follow these self-imposed rules and only interfere with mortals when they are approached. However, the Fey known as Tricksters cannot help but spread discord and need to be sealed away to limit the chaos they spread.</p>
+<details class="fae">
+<summary>Trickster Archon</summary>
+<p><em>Medium Fey (Shapechanger)</em></p>
+<ul>
+<li><strong>Speed</strong> 30 ft.</li>
+<li><strong>Armor Class Bonus</strong> +0</li>
+<li><strong>Condition Immunities</strong> Charmed, Frightened</li>
+<li><strong>Senses</strong> Darkvision 60 ft.</li>
+<li><strong>Skills</strong> Deception, Stealth</li>
+<li><strong>Languages</strong> Sylvan, any languages you know</li>
+</ul>
+<p><strong>Juxtapose.</strong> As a bonus action, the Archon can force one creature that it can see within 60 ft. to make a Charisma saving throw. On a failure, the Archon instantly switches places with the creature. The creature can choose to fail.</p>
+<p><strong>Stolen Memory.</strong> Once per turn when the Archon deals psychic damage with an Iridescent Strike, it can force its target to make an Intelligence saving throw. On a failure, it cannot see, hear, smell, sense, or target the Archon in any way until the start of the Archon's next turn.</p>
+</details>
+<hr>
+<h3 id="level-3-trickster-magic">Level 3 - Trickster Magic</h3>
+<p>You learn certain spells at the Vessel levels noted in the table below. They do not count against your total number of Spells Known and cannot be replaced when you gain a level. Your Iridescent Strikes can also deal psychic damage.</p>
+<details class="table">
+<summary>Sealed Magic</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Vessel Level</th>
+<th style="text-align: left;">Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">3rd</td>
+<td style="text-align: left;"><em>charm person</em>, <em>disguise self</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">5th</td>
+<td style="text-align: left;"><em>invisibility</em>, <em>misty step</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">9th</td>
+<td style="text-align: left;"><em>enemies abound</em>, <em>hypnotic pattern</em>ᴸᴸ</td>
+</tr>
+<tr>
+<td style="text-align: center;">13th</td>
+<td style="text-align: left;"><em>charm monster</em>, <em>dimension door</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">17th</td>
+<td style="text-align: left;"><em>dream</em>, <em>mislead</em></td>
+</tr>
+</tbody>
+</table>
+</details>
+<hr>
+<h3 id="level-3-shifting-visage">Level 3 - Shifting Visage</h3>
+<p>You can change your appearance to better sow chaos. When cloaked in your Spirit Mantle, you can cast the <em>disguise self</em> spell without expending a spell slot, and you can unerringly mimic any sounds or voices you have heard before.</p>
+<hr>
+<h3 id="level-6-illusory-strikes">Level 6 - Illusory Strikes</h3>
+<p>Your Spirit projects potent illusions to attack your enemies. Whenever you would make an Iridescent Strike during your turn, you can forgo that attack to conjure one illusory copy of yourself in an unoccupied space you can see within 30 feet of you. This illusory copy of you makes one Iridescent Strike against a target within range and disappears.</p>
+<hr>
+<h3 id="level-15-fey-retribution">Level 15 - Fey Retribution</h3>
+<p>The power of the Trickster can reflect magic back upon foes. If you succeed on a saving throw against a spell, you can use your reaction to force the caster to make a Wisdom saving throw. On a failure, it suffers the effects of either <em>charm person</em> or <em>charm monster</em>. Once a creature is Charmed by you in this way, it can't be Charmed by this feature again until the next dawn.</p>
+<hr>
+<h3 id="level-20-lord-of-mischief">Level 20 - Lord of Mischief</h3>
+<p>You can channel the whimsical and terrifying power of the Trickster. Your Archon Form gains the following benefits:</p>
+<ul>
+<li>You assume the true appearance of your Trickster Spirit.</li>
+<li>When you use Illusory Strikes, the range becomes 60 feet.</li>
+<li>Once per turn when you use Illusory Strikes, you can create two illusory copies of yourself within range.</li>
+<li>When you hit a creature with an Iridescent Strike, it has disadvantage on its next Wisdom saving throw.</li>
+</ul>
+</details>
+<hr>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/filter.js"></script>
+      
+        <script src="../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>
