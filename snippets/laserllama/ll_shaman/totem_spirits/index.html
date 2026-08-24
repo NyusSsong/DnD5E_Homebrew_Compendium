@@ -1,0 +1,2197 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Homebrew classes and subclasses for 5E">
+      
+      
+        <meta name="author" content="Song">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Totem spirits - DnD 5E Homebrew Compendium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/css/custom.css">
+    
+      <link rel="stylesheet" href="../../../../assets/css/magic-items.css">
+    
+      <link rel="stylesheet" href="../../../../assets/css/admonition-combat.css">
+    
+      <link rel="stylesheet" href="../../../../assets/css/admonition-entity.css">
+    
+      <link rel="stylesheet" href="../../../../assets/css/admonition-campaign.css">
+    
+      <link rel="stylesheet" href="../../../../assets/css/admonition-creature.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="DnD 5E Homebrew Compendium" class="md-header__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DnD 5E Homebrew Compendium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Totem spirits
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="DnD 5E Homebrew Compendium" class="md-nav__button md-logo" aria-label="DnD 5E Homebrew Compendium" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DnD 5E Homebrew Compendium
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NyusSsong/DnD5E_Homebrew_Compendium" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Base Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Base Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/barbarian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barbarian
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cleric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/fighter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fighter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/monk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/paladin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Paladin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/ranger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ranger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/rogue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rogue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/sorcerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorcerer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/warlock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlock
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/base_classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2CGaming
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2CGaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/2cgaming/elementalist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementalist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colville
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Colville
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/colville/illrigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illrigger
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kibbles Tasty
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kibbles Tasty
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/kibbles/kt_inventor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/kibbles/kt_occultist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Occultist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/kibbles/kt_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/kibbles/kt_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/kibbles/kt_warlord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warlord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laserllama
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laserllama
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/laserllama/ll_bloodhunter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blood Hunter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/laserllama/ll_magus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/laserllama/ll_psion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Psion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/laserllama/ll_savant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Savant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/laserllama/ll_shaman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shaman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/laserllama/ll_vessel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vessel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Valda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_alchemist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alchemist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_captain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Captain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_craftsman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Craftsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_investigator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Investigator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_martyr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Martyr
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_necromancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Necromancer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_warden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_warmage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Warmage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../classes/valda/valda_witch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Witch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../magic-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magic Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Totem spirits</h1>
+
+<p><strong>Filter by level:</strong></p>
+
+<p><select id="level-select" class="filter-select">
+<br />
+<option value="all">All</option></p>
+<option value="no-level-prereq">No Prerequisite</option>
+<option value="level-5">5th-level Shaman</option>
+<option value="level-7">7th-level Shaman</option>
+<option value="level-9">9th-level Shaman</option>
+<option value="level-15">15th-level Shaman</option>
+<p></select></p>
+<div class="level-content" data-level="no-level-prereq">
+
+??? feature "Totem Spirits (No Prerequisite)"
+
+    Totems use your Shaman Spell save DC for saving throws, and your Shaman level for any references to level. If a Totem has a prerequisite, you can bind it at the same time that you meet that prerequisite.
+
+    #### Spirit of the Autumn Wind
+
+    You bind a minor Spirit of Death that comes at the changing of the seasons. When you deal damage to a creature with a weapon attack or with Totemic Assault, it cannot regain hit points until the beginning of your next turn.
+
+    #### Spirit of the Bear
+
+    You bind a minor Bestial Spirit granting you the ferocity of a bear. As a bonus action, you can sprout (or retract) ethereal claws from your fingers. Unarmed strikes with these claws use Wisdom, in place of Strength for the attack and damage rolls. On hit, they deal 1d6 slashing damage.
+
+    Should you have two free hands, this d6 becomes a d8.
+
+    #### Spirit of the Bog
+
+    *Prerequisite: Mind Sacred Focus*
+
+    You bind a minor Spirit of Deception to guard your mind. Any attempt to read your thoughts, emotions, alignment, or target you with an Insight check or a divination spell instantly fails.
+
+    You are aware that you are targeted by such an ability, but not its source, and you can allow them to work on you.
+
+    #### Spirit of the Eagle
+
+    You bind a minor Bestial Spirit which grants you the sight of the eagles. You gain proficiency in Perception, and you have advantage on Wisdom (Perception) checks that rely on sight.
+
+    #### Spirit of the Earthquake
+
+    You bind a Spirit of Earth that grants you destructive power. Once per turn when you hit with a melee weapon attack, you deal a bonus 1d6 damage of your weapon's type.
+
+    This damage bonus increases at certain levels: at 5th level (1d8), 11th level (1d10), and 17th level (1d12).
+
+    #### Spirit of Forest
+
+    *Prerequisite: Heart Sacred Focus*
+
+    You bind a minor Woodland Spirit that allows you to converse with wild creatures in your own tongue. You are always under the effect of *speak with animals* while you are conscious.
+
+    Starting at 7th level, you are also always under the effects of *speak with plants* while you are conscious.
+
+    #### Spirit of the Harvest
+
+    *Prerequisite: Soul Sacred Focus*
+
+    You bind a minor Spirit of wild growth and bounty. Each time you finish a short or long rest, you instantly cast the *goodberry* ᴸᴸ spell without expending a spell slot or material components.
+
+    The berries from this spell last until the end of your next short or long rest, at which point they dissolve into ash.
+
+    #### Spirit of the Hound
+
+    You bind a minor Bestial Spirit that grants you the senses of hounds. You gain proficiency in Survival and have advantage on Wisdom (Survival) checks while in natural environments.
+
+    #### Spirit of the Mountain
+
+    *Prerequisite: Body Sacred Focus*
+
+    You bind a minor Spirit of Earth that hardens your skin like that of solid rock. So long as you are not wearing any armor or wielding a shield, your Armor Class is equal to 13 + your Constitution modifier (minimum of 0).
+
+    #### Spirit of the Panther
+
+    You bind a minor Bestial Spirit that grants you the steps of a panther. You gain proficiency in Stealth, and have advantage on Dexterity (Stealth) checks to hide in natural environments.
+
+    #### Spirit of the Rains
+
+    You bind a minor Spirit of Water that washes toxins away like rain. You gain resistance to acid and poison damage, and you have advantage on saving throws to resist being Poisoned.
+
+    #### Spirit of the Squall
+
+    You bind a minor Spirit of Air to lend deadly speed to your strikes. When you miss with a weapon attack, you can use a bonus action to make a single attack against that creature.
+
+    #### Spirit of the Stream
+
+    You bind a minor Spirit of Water that grants you a protective aqueous coating. You have advantage on any ability check or saving throw you make to resist being grappled, restrained, or stunned, and you can hold your breath for up to 1 hour.
+
+    #### Spirit of Twilight
+
+    You bind a minor Spirit of Shadow that grants you enhanced sight in the darkness. You gain Darkvision out to a radius of 120 feet, within which you can see in dim light as if it were bright light, and in darkness as if it were dim light.
+
+    At 7th level, you can see in magic dim light and darkness.
+
+    #### Spirit of the Waves
+
+    You bind a minor Spirit of Water that allows you to shift like the sea. Once between each short or long rest, you can use a reaction to halve one instance of damage you would take.
+
+    You can use this reaction twice between each rest at 9th level, and three times between each rest at 18th level.
+
+    #### Spirit of the Winds
+
+    You bind a minor Spirit of Air that lends speed to your steps with mighty gusts. Your walking speed increases by 5 feet.
+
+    This bonus to your speed increases at 5th level (10 feet), 11th level (15 feet), and finally at 17th level (20 feet).
+
+</div>
+<div class="level-content" data-level="level-5">
+
+??? feature "Totem Spirits (5th-Level Prerequisite)"
+
+    #### Spirit of the Bloom
+
+    *Prerequisite: 5th-level Shaman, Soul Sacred Focus*
+
+    You bind a Spirit of Verdant Growth that enriches the lands around you. Once between each short or long rest, you can cast the *plant growth* spell without expending a spell slot.
+
+    Starting at 9th level, the 8-hour version of the *plant growth* spell takes effect on the land surrounding you each time you take a long rest, unless you wish to withhold this effect.
+
+    #### Spirit of Destruction
+
+    *Prerequisite: 5th-level Shaman*
+
+    You bind a Spirit of the Elements to lend you its destructive power. Once per turn, when you hit with a melee attack, you can expend a Conduit Magic spell slot to deal bonus cold, fire, lightning, or thunder damage equal to 1d8 per Slot Level.
+
+    #### Spirit of the Grave
+
+    *Prerequisite: 5th-level Shaman*
+
+    You bind a Spirit of Death which you can summon to your service. Once per long rest, you can expend a Conduit Magic spell slot to cast *animate dead* ᴸᴸ. This Totem replaces the normal material components of the spell.
+
+    At 15th level, you can use this between each short or long rest.
+
+    #### Spirit of Growth
+
+    *Prerequisite: 5th-level Shaman, Body Sacred Focus*
+
+    You bind a Spirit of Verdant Growth to temporarily increase your size. Once between each short or long rest, you can cast the 'enlarge' version of the *enlarge/reduce* spell on yourself without expending a spell slot or requiring concentration.
+
+    #### Spirit of Light
+
+    *Prerequisite: 5th-level Shaman*
+
+    You bind a Spirit of Radiance that restores your spirit when you heal others. Whenever you restore hit points to another creature with a Shaman spell or feature, you gain temporary hit points equal to your Wisdom modifier (minimum of 1).
+
+    #### Spirit of Mirth
+
+    *Prerequisite: 5th-level Shaman, Heart Sacred Focus*
+
+    You bind a Spirit of Revelry that grants you its vigor. Once between each short or long rest, you can use a bonus action to gain temporary hit points equal to your Shaman level.
+
+    You can use this feature twice between each rest at 12th level, and three times between each rest at 18th level.
+
+    #### Spirit of Secrets
+
+    *Prerequisite: 5th-level Shaman, Mind Sacred Focus*
+
+    You bind a Spirit of Knowledge that lets you peer into the minds of others. Once between each short or long rest, you can cast the *detect thoughts* spell without expending a spell slot, or the normal verbal or somatic components of the spell.
+
+    #### Spirit of the Swamp
+
+    *Prerequisite: 5th-level Shaman*
+
+    You bind a Spirit of Disease to poison foes. When a creature fails its saving throw against Totemic Assault, you can reduce the damage by 1d8 and cause the target to be Poisoned until the beginning of your next turn.
+
+    #### Spirit of the Wilds
+
+    *Prerequisite: 5th-level Shaman*
+
+    You bind a Spirit of the Wilderness which you can call to your aid. Once per long rest, you can expend a Conduit Magic spell slot to cast the *conjure beast* ᴸᴸ spell. Its Totem replaces the normal material components of this spell.
+
+    At 15th level, you can use this between each short or long rest.
+
+    #### Spirit of Wrath
+
+    *Prerequisite: 5th-level Shaman*
+
+    You bind a Spirit of Anger which you unleash upon your foes. You can add your Wisdom modifier (a minimum of +1) to the damage roll of Totemic Assault when a creature fails its save.
+
+</div>
+<div class="level-content" data-level="level-7">
+
+??? feature "Totem Spirits (7th-Level Prerequisite)"
+
+    #### Spirit of Blight
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a minor Spirit of Disease to infect foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal poison damage in place of its normal damage.
+
+    If you deal poison damage with Totemic Assault, you can reduce its damage by 1d8 and force the creature to make a Constitution saving throw instead of Charisma. On a failed save, it is blinded until the beginning of your next turn.
+
+    #### Spirit of Corrosion
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a minor Spirit of Entropy to dissolve foes. When you cast a Shaman spell or use Totemic Assault, you can cause it to deal acid damage in place of its normal damage.
+
+    When you deal acid damage with Totemic Assault, you can reduce the damage by 1d8 to reduce the target's Armor Class by 2 (to a minimum of 10) until the start of your next turn.
+
+    #### Spirit of Drought
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a minor Spirit of Fire to burn your foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal fire damage in place of its normal damage.
+
+    When you deal fire damage with Totemic Assault, you can reduce the damage by 1d8 to cause all targets within 5 feet of the target to take fire damage equal to your Wisdom modifier.
+
+    #### Spirit of Frost
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a minor Spirit of Ice to freeze your foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal cold damage in place of its normal damage.
+
+    If you deal cold damage with Totemic Assault, you can reduce its damage by 1d8 and force the creature to make a Strength saving throw instead of Charisma. On a failure, its speed is reduced to 0 until the start of your next turn.
+
+    #### Spirit of the Hunt
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a Spirit of the Wild Hunt to enhance your ferocity in battle. Once per turn, when you attack a target that is within 5 feet of one of your allies, you have advantage on your roll.
+
+    #### Spirit of Lightning
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a minor Spirit of Storms to assault foes. When you cast a Shaman spell or use Totemic Assault, you can cause it to deal lightning damage in place of its normal damage.
+
+    When you deal lightning damage with Totemic Assault, the creature can't take reactions until the start of your next turn.
+
+    #### Spirit of the Ooze
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a Spirit of Water that allows your body to flow like water. As a bonus action, you can cause your body to become pliable (or return to normal). In this state, you can expend 5 feet of movement to automatically escape from non-magical restraints or grapples, and you can move through spaces as narrow as 1 inch without having to squeeze.
+
+    #### Spirit of the River
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a Spirit of Water that allows you to live underwater. You can breathe both air and water, and you gain a swimming speed equal to your walking speed.
+
+    #### Spirit of Servitude
+
+    *Prerequisite: 7th-level Shaman*
+
+    You bind a minor Spirit of Loyalty to serve you in all things. The Totem you bind this Spirit to is always under the effects of the *tiny servant* spell. Should the Totem be reduced to zero hit points, it regenerates at the end of your next rest.
+
+</div>
+<div class="level-content" data-level="level-9">
+
+??? feature "Totem Spirits (9th-Level Prerequisite)"
+
+    #### Spirit of the Cave
+
+    *Prerequisite: 9th-level Shaman*
+
+    You bind a Spirit of Earth that lends you its connection to the ground. While you are touching the ground with bare feet or a hand, you gain tremorsense out to a 30-foot radius, allowing you to sense the presence of any creatures or objects that are touching the ground within the area.
+
+    #### Spirit of the Dawn
+
+    *Prerequisite: 9th-level Shaman*
+
+    You bind a Spirit of Life which can shield mortals from death. At the end of each long rest, you cast the *death ward* ᴸᴸ spell on one creature you touch, without expending a spell slot.
+
+    #### Spirit of Dread
+
+    *Prerequisite: 9th-level Shaman, Mind Sacred Focus*
+
+    You bind a sinister Spirit of Fear to unleash upon your foes. When you use Totemic Assault, you can force the creature to make an Intelligence saving throw in place of Charisma. On a failure, you can reduce the damage by 2d8 to cause the target to be Frightened of you until the start of your next turn.
+
+    #### Spirit of Harmony
+
+    *Prerequisite: 9th-level Shaman, Soul Sacred Focus*
+
+    You bind a Spirit of Friendship which calms your foes. When a creature fails its saving throw against Totemic Assault, you can choose to deal no damage and instead inflict the effects of the *calm emotions* spell until the start of your next turn.
+
+    #### Spirit of Midnight
+
+    *Prerequisite: 9th-level Shaman*
+
+    You bind a sinister spirit which you can call to you. Once per long rest, you can expend a Conduit Magic spell slot to cast the *summon shadowspawn* spell. Its Totem replaces the normal material components of this spell.
+
+    At 15th level, you can use this between each short or long rest.
+
+    #### Spirit of the Rockslide
+
+    *Prerequisite: 9th-level Shaman, Body Sacred Focus*
+
+    You bind a Spirit of Elemental Destruction to crush your foes. Whenever you use Totemic Assault, you can force the target to make a Strength saving throw in place of Charisma. On a failed save, the target suffers the normal damage of Totemic Assault and is knocked prone.
+
+    #### Spirit of Serenity
+
+    *Prerequisite: 9th-level Shaman, Heart Sacred Focus*
+
+    You bind a Spirit of Serenity to still your inner self. Whenever you are forced to make a saving throw to resist being Charmed or Frightened, or to resist the effects of an enchantment spell, you have advantage on your roll.
+
+    #### Spirit of Sunlight
+
+    *Prerequisite: 9th-level Shaman*
+
+    You bind a Spirit of Radiance to help you find success when you fail. Once per long rest when you fail a saving throw, you can choose to re-roll, possibly turning failure into success.
+
+    At 15th level you can do so twice between each long rest.
+
+    #### Spirit of Vengeance
+
+    *Prerequisite: 9th-level Shaman*
+
+    You bind a vengeful Fey Spirit which you can call to your aid. Once per long rest, you can expend one Conduit Magic spell slot to cast the *conjure fey* ᴸᴸ spell. This Totem replaces the normal material components of this spell.
+
+    At 15th level, you can use this between each short or long rest.
+
+    #### Spirit of the Vine
+
+    *Prerequisite: 9th-level Shaman*
+
+    You bind a Spirit of Growth which lends you its wild power to restrain your foes. You can cast the *ensnaring strike* ᴸᴸ spell at 1st-level, at will, without expending a spell slot.
+
+</div>
+<div class="level-content" data-level="level-15">
+
+??? feature "Totem Spirits (15th-Level Prerequisite)"
+
+    #### Spirit of Awakening
+
+    *Prerequisite: 15th-level Shaman, Mind Sacred Focus*
+
+    You bind an ancient Spirit of Ascended Consciousness. You can sense the presence of any creature within 120 feet of you so long as it has an Intelligence of 4 or higher. You can also communicate telepathically with these creatures.
+
+    #### Spirit of Bedrock
+
+    *Prerequisite: 15th-level Shaman, Body Sacred Focus*
+
+    You bind an ancient Spirit of Earth which infuses your body with its resilience. Whenever you take damage, you reduce it by your Wisdom modifier (minimum of 1). Any force, necrotic, psychic, thunder, or radiant damage ignores this feature.
+
+    #### Spirit of Binding
+
+    *Prerequisite: 15th-level Shaman*
+
+    You can quickly bind a natural Spirit to regain some of your lost power. Once between each long rest, you can use your action to regain one expended Conduit Magic spell slot.
+
+    #### Spirit of the Eclipse
+
+    *Prerequisite: 15th-level Shaman*
+
+    You bind a powerful Spirit of Darkness that wards you from the arcane. You gain resistance to all damage from spells.
+
+    #### Spirit of the Elements
+
+    *Prerequisite: 15th-level Shaman*
+
+    You bind a powerful Elemental Spirit to you. Once between each short or long rest, you can expend a Conduit Magic spell slot to cast the *conjure elemental* ᴸᴸ spell. Its Totem replaces the normal material components of this spell.
+
+    #### Spirit of the Guardian
+
+    *Prerequisite: 15th-level Shaman*
+
+    You bind a powerful Guardian Spirit to come to your defense. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the *create construct* ᴸᴸ spell as an action. This Totem replaces the normal material components of this spell.
+
+    When you cast *create construct* ᴸᴸ in this way, it crumbles into dust and stone after 1 hour.
+
+    #### Spirit of Judgment
+
+    *Prerequisite: 15th-level Shaman*
+
+    You bind a heavenly spirit which comes to your aid. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the *conjure celestial* ᴸᴸ spell. Its Totem replaces the normal material components of this spell.
+
+    #### Spirit of Majesty
+
+    *Prerequisite: 15th-level Shaman, Heart Sacred Focus*
+
+    You bind an ancient Fey Spirit of royalty that you can unleash to humble your enemies. As an action, you force creatures of your choice within 30 feet that can see or hear you to make a Wisdom saving throw. On a failure, they instantly fall prone. Creatures immune to the Charmed condition have advantage on this Wisdom saving throw.
+
+    You can use this feature once per long rest at no cost, but you can expend a Conduit Magic spell slot to use it again.
+
+    #### Spirit of Peace
+
+    *Prerequisite: 15th-level Shaman, Soul Sacred Focus*
+
+    You bind an ancient Spirit of Life which deters your enemies. At the end of each short or long rest, you gain the benefits of the *sanctuary* spell, which last until the end of your next short or long rest, or until you break the spell as normal.
+
+    #### Spirit of Purgation
+
+    *Prerequisite: 15th-level Shaman*
+
+    You bind an infernal spirit to unleash on your foes. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the *conjure fiend* ᴸᴸ spell, using its Totem in place of the spell's normal material components.
+
+    #### Spirit of the Sapling
+
+    *Prerequisite: 15th-level Shaman*
+
+    You bind a powerful Spirit of Verdant Growth which blesses your body with wondrous regeneration. If you begin your turn with less than half your hit points, but at least 1 hit point, you instantly regain hit points equal to your Wisdom modifier.
+
+    #### Spirit of the Skies
+
+    *Prerequisite: 15th-level Shaman*
+
+    You bind a powerful Spirit of Air which propels you through the skies. You gain a flying speed equal to your walking speed. Whenever you take falling damage, you reduce the damage by an amount equal to your Shaman level.
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link", "tables.responsive"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../../assets/js/filter.js"></script>
+      
+        <script src="../../../../assets/js/magic-items.js"></script>
+      
+    
+  </body>
+</html>

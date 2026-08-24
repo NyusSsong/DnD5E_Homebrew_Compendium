@@ -144,6 +144,16 @@ p strong {
   font-weight: 700;
   color: var(--md-typeset-color);
 }
+/* ===== FILTER SELECT ===== */
+
+select.filter-select {
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid #888;
+  background: var(--md-default-bg-color);
+  color: var(--md-typeset-color);
+}
+
 /* ===== TABLE FONT SIZES ===== */
 
 /* Table body cells */

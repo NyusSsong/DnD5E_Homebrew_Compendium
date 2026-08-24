@@ -3,153 +3,48 @@
    ============================================================ */
 
 :root {
-  --md-admonition-icon--action: url("../icons/svg/combat/action.svg");
+  --md-admonition-icon--action:       url("../icons/svg/combat/action.svg");
   --md-admonition-icon--bonus_action: url("../icons/svg/combat/bonus_action.svg");
-  --md-admonition-icon--initiative: url("../icons/svg/combat/initiative.svg");
-  --md-admonition-icon--melee: url("../icons/svg/combat/melee.svg");
-  --md-admonition-icon--ranged: url("../icons/svg/combat/ranged.svg");
-  --md-admonition-icon--reach: url("../icons/svg/combat/reach.svg");
-  --md-admonition-icon--reaction: url("../icons/svg/combat/reaction.svg");
-  --md-admonition-icon--round: url("../icons/svg/combat/round.svg");
-  --md-admonition-icon--target: url("../icons/svg/combat/target.svg");
+  --md-admonition-icon--initiative:   url("../icons/svg/combat/initiative.svg");
+  --md-admonition-icon--melee:        url("../icons/svg/combat/melee.svg");
+  --md-admonition-icon--ranged:       url("../icons/svg/combat/ranged.svg");
+  --md-admonition-icon--reach:        url("../icons/svg/combat/reach.svg");
+  --md-admonition-icon--reaction:     url("../icons/svg/combat/reaction.svg");
+  --md-admonition-icon--round:        url("../icons/svg/combat/round.svg");
+  --md-admonition-icon--target:       url("../icons/svg/combat/target.svg");
 }
 
 /* ============================================================
-   ADMONITIONS — COMBAT - TYPESETS
+   SHARED STRUCTURAL RULES
    ============================================================ */
 
-.md-typeset .admonition.action,
-.md-typeset details.action {
-  border-color: rgb(240, 200, 40);
-}
-.md-typeset .action > .admonition-title,
-.md-typeset .action > summary {
-  background-color: rgba(240, 200, 40, 0.1);
-}
-.md-typeset .action > .admonition-title::before,
-.md-typeset .action > summary::before {
-  background-color: rgb(240, 200, 40);
-  -webkit-mask-image: var(--md-admonition-icon--action);
-          mask-image: var(--md-admonition-icon--action);
+.md-typeset .admonition:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target),
+.md-typeset details:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) {
+  border-color: var(--admonition-color);
 }
 
-.md-typeset .admonition.bonus_action,
-.md-typeset details.bonus_action {
-  border-color: rgb(240, 140, 40);
-}
-.md-typeset .bonus_action > .admonition-title,
-.md-typeset .bonus_action > summary {
-  background-color: rgba(240, 140, 40, 0.1);
-}
-.md-typeset .bonus_action > .admonition-title::before,
-.md-typeset .bonus_action > summary::before {
-  background-color: rgb(240, 140, 40);
-  -webkit-mask-image: var(--md-admonition-icon--bonus_action);
-          mask-image: var(--md-admonition-icon--bonus_action);
+.md-typeset .admonition:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > .admonition-title,
+.md-typeset details:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > summary {
+  background-color: color-mix(in srgb, var(--admonition-color) 10%, transparent);
 }
 
-.md-typeset .admonition.reaction,
-.md-typeset details.reaction {
-  border-color: rgb(240, 150, 40);
-}
-.md-typeset .reaction > .admonition-title,
-.md-typeset .reaction > summary {
-  background-color: rgba(240, 150, 40, 0.1);
-}
-.md-typeset .reaction > .admonition-title::before,
-.md-typeset .reaction > summary::before {
-  background-color: rgb(240, 150, 40);
-  -webkit-mask-image: var(--md-admonition-icon--reaction);
-          mask-image: var(--md-admonition-icon--reaction);
+.md-typeset .admonition:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > .admonition-title::before,
+.md-typeset details:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > summary::before {
+  background-color: var(--admonition-color);
+  -webkit-mask-image: var(--admonition-icon);
+          mask-image: var(--admonition-icon);
 }
 
-.md-typeset .admonition.initiative,
-.md-typeset details.initiative {
-  border-color: rgb(140, 200, 80);
-}
-.md-typeset .initiative > .admonition-title,
-.md-typeset .initiative > summary {
-  background-color: rgba(140, 200, 80, 0.1);
-}
-.md-typeset .initiative > .admonition-title::before,
-.md-typeset .initiative > summary::before {
-  background-color: rgb(140, 200, 80);
-  -webkit-mask-image: var(--md-admonition-icon--initiative);
-          mask-image: var(--md-admonition-icon--initiative);
-}
+/* ============================================================
+   PER-TYPE VARIABLES
+   ============================================================ */
 
-.md-typeset .admonition.melee,
-.md-typeset details.melee {
-  border-color: rgb(200, 60, 60);
-}
-.md-typeset .melee > .admonition-title,
-.md-typeset .melee > summary {
-  background-color: rgba(200, 60, 60, 0.1);
-}
-.md-typeset .melee > .admonition-title::before,
-.md-typeset .melee > summary::before {
-  background-color: rgb(200, 60, 60);
-  -webkit-mask-image: var(--md-admonition-icon--melee);
-          mask-image: var(--md-admonition-icon--melee);
-}
-
-.md-typeset .admonition.ranged,
-.md-typeset details.ranged {
-  border-color: rgb(60, 120, 200);
-}
-.md-typeset .ranged > .admonition-title,
-.md-typeset .ranged > summary {
-  background-color: rgba(60, 120, 200, 0.1);
-}
-.md-typeset .ranged > .admonition-title::before,
-.md-typeset .ranged > summary::before {
-  background-color: rgb(60, 120, 200);
-  -webkit-mask-image: var(--md-admonition-icon--ranged);
-          mask-image: var(--md-admonition-icon--ranged);
-}
-
-.md-typeset .admonition.reach,
-.md-typeset details.reach {
-  border-color: rgb(160, 60, 160);
-}
-.md-typeset .reach > .admonition-title,
-.md-typeset .reach > summary {
-  background-color: rgba(160, 60, 160, 0.1);
-}
-.md-typeset .reach > .admonition-title::before,
-.md-typeset .reach > summary::before {
-  background-color: rgb(160, 60, 160);
-  -webkit-mask-image: var(--md-admonition-icon--reach);
-          mask-image: var(--md-admonition-icon--reach);
-}
-
-.md-typeset .admonition.round,
-.md-typeset details.round {
-  border-color: rgb(80, 80, 80);
-}
-.md-typeset .round > .admonition-title,
-.md-typeset .round > summary {
-  background-color: rgba(80, 80, 80, 0.1);
-}
-.md-typeset .round > .admonition-title::before,
-.md-typeset .round > summary::before {
-  background-color: rgb(80, 80, 80);
-  -webkit-mask-image: var(--md-admonition-icon--round);
-          mask-image: var(--md-admonition-icon--round);
-}
-
-.md-typeset .admonition.target,
-.md-typeset details.target {
-  border-color: rgb(220, 40, 40);
-}
-.md-typeset .target > .admonition-title,
-.md-typeset .target > summary {
-  background-color: rgba(220, 40, 40, 0.1);
-}
-.md-typeset .target > .admonition-title::before,
-.md-typeset .target > summary::before {
-  background-color: rgb(220, 40, 40);
-  -webkit-mask-image: var(--md-admonition-icon--target);
-          mask-image: var(--md-admonition-icon--target);
-}
-
+.md-typeset .admonition.action,       .md-typeset details.action       { --admonition-color: rgb(240, 200,  40); --admonition-icon: var(--md-admonition-icon--action); }
+.md-typeset .admonition.bonus_action, .md-typeset details.bonus_action { --admonition-color: rgb(240, 140,  40); --admonition-icon: var(--md-admonition-icon--bonus_action); }
+.md-typeset .admonition.reaction,     .md-typeset details.reaction     { --admonition-color: rgb(240, 150,  40); --admonition-icon: var(--md-admonition-icon--reaction); }
+.md-typeset .admonition.initiative,   .md-typeset details.initiative   { --admonition-color: rgb(140, 200,  80); --admonition-icon: var(--md-admonition-icon--initiative); }
+.md-typeset .admonition.melee,        .md-typeset details.melee        { --admonition-color: rgb(200,  60,  60); --admonition-icon: var(--md-admonition-icon--melee); }
+.md-typeset .admonition.ranged,       .md-typeset details.ranged       { --admonition-color: rgb( 60, 120, 200); --admonition-icon: var(--md-admonition-icon--ranged); }
+.md-typeset .admonition.reach,        .md-typeset details.reach        { --admonition-color: rgb(160,  60, 160); --admonition-icon: var(--md-admonition-icon--reach); }
+.md-typeset .admonition.round,        .md-typeset details.round        { --admonition-color: rgb( 80,  80,  80); --admonition-icon: var(--md-admonition-icon--round); }
+.md-typeset .admonition.target,       .md-typeset details.target       { --admonition-color: rgb(220,  40,  40); --admonition-icon: var(--md-admonition-icon--target); }

@@ -2030,9 +2030,6 @@
 <li>Leather armor and one object used as a Totem</li>
 </ul>
 <hr>
-<h4 id="quick-build">Quick Build</h4>
-<p>Make Wisdom your highest ability score followed by Constitution. Choose the Hermit background. Take the Body Sacred Focus and choose Totem of the Bear and Totem of the Mountain as your Bound Totems.</p>
-<hr>
 <h4 id="level-1-sacred-focus">Level 1 - Sacred Focus</h4>
 <p>In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. At 1st level, you choose a Sacred Focus from the options listed below. Once it is chosen, your Sacred Focus cannot be changed.</p>
 <p><strong>Body.</strong> You channel spiritual power through your body, bending Spirits to your will with physical might. When you choose this Sacred Focus your hit point maximum increases by 1, and it increases by 1 again each time you gain a level.</p>
@@ -2412,8 +2409,8 @@
 <p>Also, when you are reduced to 0 hit points, you can release the Spirit bound within one Totem to instead fall to a number of hit points equal to your Shaman level. You then lose access to the abilities of that Totem until you complete a long rest.</p>
 </div>
 <div class="tabbed-block">
-<p><p><strong>Filter by level:</strong></p></p>
-<p><select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<p>﻿<p><strong>Filter by level:</strong></p></p>
+<p><select id="level-select" class="filter-select">
   <option value="all">All</option>
   <option value="no-level-prereq">No Prerequisite</option>
   <option value="level-5">5th-level Shaman</option>
@@ -2630,9 +2627,7 @@
 </div>
 </div>
 <div class="tabbed-block">
-<details class="table">
-<summary>Shaman Spell List</summary>
-<p>Spells marked with <em>(r)</em> can be cast as a Ritual.</p>
+<h3 id="shaman-spell-list">Shaman Spell List</h3>
 <table>
 <thead>
 <tr>
@@ -2871,11 +2866,13 @@
 </tr>
 </tbody>
 </table>
-</details>
+<ul>
+<li>Spells marked with <em>(r)</em> can be cast as a Ritual.</li>
+</ul>
 </div>
 <div class="tabbed-block">
-<p><p><strong>Choose a spirituality:</strong></p></p>
-<p><select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<p>﻿<p><strong>Choose a spirituality:</strong></p></p>
+<p><select id="subclass-select" class="filter-select">
   <option value="all">All</option>
   <option value="astrologer">Astrologer</option>
   <option value="blood-priest">Blood Priest</option>
