@@ -1,3 +1,31 @@
+#### Hit Points
+
+**Hit Dice:** 1d10 per Vessel level  
+**Hit Points at 1st level:** 10 + your Constitution modifier  
+**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per Vessel level after 1st
+
+<hr>
+
+#### Proficiencies
+
+**Armor:** Light armor  
+**Weapons:** Simple weapons, scimitars, and shortswords  
+**Tools:** None  
+
+**Saving Throws:** Constitution, Charisma  
+**Skills:** Choose two from Acrobatics, Athletics, Insight, Intimidation, Perception, Religion, and Survival
+
+<hr>
+
+#### Equipment
+
+- (a) a scimitar or (b) two daggers
+- (a) a simple weapon or (b) a shortbow and 20 arrows
+- (a) leather armor or (b) hide armor
+- (a) an explorer's pach or (b) a priest's pack
+
+<hr>
+
 #### Level 1 - Spirit Mantle
 
 At 1st level, you can use a bonus action to cloak yourself with (or dismiss) your Spirit Mantle, an ethereal cloak of spiritual power. It marks a dramatic change in your appearance which causes you to resemble the Spirit bound to your soul. While cloaked in your Mantle, you gain the features here:

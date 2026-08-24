@@ -18,6 +18,7 @@
 <hr>
 
 #### Equipment
+
 - *(a)* a martial weapon and a shield or *(b)* two martial weapons
 - *(a)* scale mail or *(b)* chain mail (if proficient)
 - *(a)* a light crossbow and 20 bolts, or *(b)* any simple weapon

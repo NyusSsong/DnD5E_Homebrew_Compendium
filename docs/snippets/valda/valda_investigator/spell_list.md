@@ -25,4 +25,4 @@
 | *Unseen Servant* | | | | | |
 | *Whispering Wind*ᵛ ✶ | | | | | |
 
-*ᵛ denotes a Valda's Spire of Secrets spell. ✶ denotes a Bonus Ritual (treated as having the ritual tag).*
+*ᵛ denotes a Valda's Spire of Secrets spell. ✶ denotes a Bonus Ritual (treated as having the ritual tag).

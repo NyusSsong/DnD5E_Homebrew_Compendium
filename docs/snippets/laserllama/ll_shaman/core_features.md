@@ -28,12 +28,6 @@ As a Shaman, you start with the following equipment, in addition to the equipmen
 
 <hr>
 
-#### Quick Build
-
-Make Wisdom your highest ability score followed by Constitution. Choose the Hermit background. Take the Body Sacred Focus and choose Totem of the Bear and Totem of the Mountain as your Bound Totems.
-
-<hr>
-
 #### Level 1 - Sacred Focus
 
 In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. At 1st level, you choose a Sacred Focus from the options listed below. Once it is chosen, your Sacred Focus cannot be changed.

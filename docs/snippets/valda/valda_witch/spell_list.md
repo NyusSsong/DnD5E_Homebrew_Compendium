@@ -30,3 +30,5 @@
 | | *Unseen Servant* | *Spider Climb* | | | | | | | |
 | | *Whispering Wind*ᵛ | *Suggestion* | | | | | | | |
 | | | *Swift Flight*ᵛ | | | | | | | |
+
+*ᵛ denotes a Valda's Spire of Secrets spell.

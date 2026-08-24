@@ -1,7 +1,3 @@
-The archdevils who rule the Seven Cities of Hell scheme endlessly. Each eternally plots to bring the others to heel — to ascend to the Throne of Hell, unite the Seven Cities and every infernal being living there, and lead an inexhaustible army of devils across the timescape until all worlds burn. These archdevils' elite operatives are the illriggers: knights, assassins, mages, and terror-commandos of Hell who command the battlefield, disrupt enemy factions, and carry out their archdevil's infernal will.
-
-<hr>
-
 #### Hit Points
 
 **Hit Dice:** 1d10 per illrigger level  

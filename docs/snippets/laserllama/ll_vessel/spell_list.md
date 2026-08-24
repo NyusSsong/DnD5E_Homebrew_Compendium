@@ -1,7 +1,7 @@
 #### Vessel Spell List
 
 | Cantrips (0-Level) | 1st Level | 2nd Level | 3rd Level | 4th Level | 5th Level |
-|:---|:---|:---|:---|:---|:---|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | *chill touch* | *absorb elements* | *alter self* | *bestow curse* | *banishment* | *arcane hand* |
 | *create bonfire* | *armor of agathys* | *augury* | *clairvoyance* | *eldritch tentacles*ᴸᴸ | *circle of power* |
 | *dancing lights* | *arms of hadar* | *blindness/deafness* | *dire wail*ᴸᴸ | *blight* | *cloudkill* |
