@@ -1,6 +1,6 @@
-<p><strong>Filter by level:</strong></p>
+﻿<p><strong>Filter by level:</strong></p>
 
-<select id="rite-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="rite-select" class="filter-select">
   <option value="all">All</option>
   <option value="basic">No Prerequisite</option>
   <option value="5th">5th Level</option>

@@ -1,10 +1,10 @@
-A witch's craft is distinct from a school of magic. Whereas magical schools seek to categorize spells, crafts are defined by the use of magic, and seek to capture the essence of spells. There are dozens of varieties, from those practiced by covens in secret, to those plied in marketplace potion shops.
+﻿A witch's craft is distinct from a school of magic. Whereas magical schools seek to categorize spells, crafts are defined by the use of magic, and seek to capture the essence of spells. There are dozens of varieties, from those practiced by covens in secret, to those plied in marketplace potion shops.
 
 Each craft is associated with a number of Craft Spells. Spells that do not belong to the SRD are marked with ᵛ.
 
 <p><strong>Choose a Witch's Craft:</strong></p>
 
-<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="subclass-select" class="filter-select">
   <option value="all">All</option>
   <option value="black-magic">Black Magic</option>
   <option value="blood-magic">Blood Magic</option>

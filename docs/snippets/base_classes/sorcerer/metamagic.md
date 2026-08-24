@@ -1,6 +1,6 @@
-<p><strong>Choose a Metamagic cost:</strong></p>
+﻿<p><strong>Choose a Metamagic cost:</strong></p>
 
-<select id="metamagic-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="metamagic-select" class="filter-select">
 <option value="all">All</option>
 <option value="1-sorcery-point">1 Sorcery Point</option>
 <option value="2-sorcery-points">2 Sorcery Points</option>

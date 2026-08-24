@@ -1,8 +1,8 @@
-Captains adopt emblems that denote their virtues, skills, and command styles, which they fly upon their banners to rally allies to their side. A symbolic statement, this heraldry speaks volumes about what a captain prizes in the world, be it knowledge, allies, or personal gain.
+﻿Captains adopt emblems that denote their virtues, skills, and command styles, which they fly upon their banners to rally allies to their side. A symbolic statement, this heraldry speaks volumes about what a captain prizes in the world, be it knowledge, allies, or personal gain.
 
 <p><strong>Choose a banner:</strong></p>
 
-<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="subclass-select" class="filter-select">
   <option value="all">All</option>
   <option value="dragon">Dragon</option>
   <option value="eagle">Eagle</option>

@@ -1,6 +1,6 @@
-<p><strong>Choose an alternate ranger conclave:</strong></p>
+﻿<p><strong>Choose an alternate ranger conclave:</strong></p>
 
-<select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="alt-subclass-select" class="filter-select">
     <option value="all">All</option>
     <option value="alt-hunter">Alternate Hunter Conclave</option>
     <option value="alt-drakewarden">Alternate Drakewarden Conclave</option>

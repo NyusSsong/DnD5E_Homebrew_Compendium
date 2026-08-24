@@ -1,6 +1,6 @@
-<p><strong>Choose a technique tier:</strong></p>
+﻿<p><strong>Choose a technique tier:</strong></p>
 
-<select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="level-select" class="filter-select">
     <option value="all">All</option>
     <option value="no-level-prereq">Initiate</option>
     <option value="level-5">Disciple</option>

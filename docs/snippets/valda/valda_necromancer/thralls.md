@@ -1,4 +1,4 @@
-Necromancers use the following creatures as their thralls: bonebeasts, gorgers, gravetouched ghouls, skeletons, spirits, visages, and zombies. Unless otherwise stated, no other undead creatures can be animated as thralls. A Small or Medium humanoid corpse can be animated into any of these undead. Other than having a different size, their statistics are unchanged.
+﻿Necromancers use the following creatures as their thralls: bonebeasts, gorgers, gravetouched ghouls, skeletons, spirits, visages, and zombies. Unless otherwise stated, no other undead creatures can be animated as thralls. A Small or Medium humanoid corpse can be animated into any of these undead. Other than having a different size, their statistics are unchanged.
 
 A corpse can become a zombie, gorger, or gravetouched ghoul. A pile of bones can become a skeleton or bonebeast. The corpse of a creature that has been dead for no more than an hour can become a spirit or visage.
 
@@ -16,7 +16,7 @@ A corpse can become a zombie, gorger, or gravetouched ghoul. A pile of bones can
 
 <p><strong>Choose a thrall type:</strong></p>
 
-<select id="type-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="type-select" class="filter-select">
   <option value="all">All</option>
   <option value="bonebeast">Bonebeast</option>
   <option value="gorger">Gorger</option>

@@ -1,5 +1,5 @@
-<p><strong>Choose an Alternate Subclass:</strong></p>
-<select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+﻿<p><strong>Choose an Alternate Subclass:</strong></p>
+<select id="alt-subclass-select" class="filter-select">
     <option value="all">All</option>
     <option value="alt-assassin">Alternate Assassin</option>
     <option value="alt-arcane-trickster">Alternate Arcane Trickster</option>

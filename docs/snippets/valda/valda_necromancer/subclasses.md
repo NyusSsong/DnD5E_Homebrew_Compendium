@@ -1,8 +1,8 @@
-Becoming a necromancer is seldom an accident. Almost all who dive into the secrets of life and death do so with a purpose, a method to the madness. This ambition is what drives them into the tenebrous corners of forgotten libraries, long abandoned tombs, and the graveyards of simple commoners. This ambition drives them further into the dark, with only the light of their goal to lead them through the all-consuming shadows. A necromancer's ambition represents the path to their ultimate goal, the length they'll go to achieve it, and serves to validate their actions, if only to themselves.
+﻿Becoming a necromancer is seldom an accident. Almost all who dive into the secrets of life and death do so with a purpose, a method to the madness. This ambition is what drives them into the tenebrous corners of forgotten libraries, long abandoned tombs, and the graveyards of simple commoners. This ambition drives them further into the dark, with only the light of their goal to lead them through the all-consuming shadows. A necromancer's ambition represents the path to their ultimate goal, the length they'll go to achieve it, and serves to validate their actions, if only to themselves.
 
 <p><strong>Choose a grave ambition:</strong></p>
 
-<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="subclass-select" class="filter-select">
   <option value="all">All</option>
   <option value="blood-ascendant">Blood Ascendant</option>
   <option value="death-knight">Death Knight</option>

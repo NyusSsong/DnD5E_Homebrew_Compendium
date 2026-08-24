@@ -1,6 +1,6 @@
-<p><strong>Choose a psionic discipline:</strong></p>
+﻿<p><strong>Choose a psionic discipline:</strong></p>
 
-<select id="discipline-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="discipline-select" class="filter-select">
     <option value="all">All</option>
     <option value="consumption">Consumption Discipline</option>
     <option value="enhancement">Enhancement Discipline</option>

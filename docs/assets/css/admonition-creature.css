@@ -4,231 +4,57 @@
 
 :root {
   --md-admonition-icon--aberration: url("../icons/svg/creature/aberration.svg");
-  --md-admonition-icon--beast: url("../icons/svg/creature/beast.svg");
-  --md-admonition-icon--celestial: url("../icons/svg/creature/celestial.svg");
-  --md-admonition-icon--construct: url("../icons/svg/creature/construct.svg");
-  --md-admonition-icon--dragon: url("../icons/svg/creature/dragon.svg");
-  --md-admonition-icon--elemental: url("../icons/svg/creature/elemental.svg");
-  --md-admonition-icon--fae: url("../icons/svg/creature/fae.svg");
-  --md-admonition-icon--fiend: url("../icons/svg/creature/fiend.svg");
-  --md-admonition-icon--giant: url("../icons/svg/creature/giant.svg");
-  --md-admonition-icon--humanoid: url("../icons/svg/creature/humanoid.svg");
-  --md-admonition-icon--monstrosity: url("../icons/svg/creature/monstrosity.svg");
-  --md-admonition-icon--ooze: url("../icons/svg/creature/ooze.svg");
-  --md-admonition-icon--plant: url("../icons/svg/creature/plant.svg");
-  --md-admonition-icon--undead: url("../icons/svg/creature/undead.svg");
+  --md-admonition-icon--beast:      url("../icons/svg/creature/beast.svg");
+  --md-admonition-icon--celestial:  url("../icons/svg/creature/celestial.svg");
+  --md-admonition-icon--construct:  url("../icons/svg/creature/construct.svg");
+  --md-admonition-icon--dragon:     url("../icons/svg/creature/dragon.svg");
+  --md-admonition-icon--elemental:  url("../icons/svg/creature/elemental.svg");
+  --md-admonition-icon--fae:        url("../icons/svg/creature/fae.svg");
+  --md-admonition-icon--fiend:      url("../icons/svg/creature/fiend.svg");
+  --md-admonition-icon--giant:      url("../icons/svg/creature/giant.svg");
+  --md-admonition-icon--humanoid:   url("../icons/svg/creature/humanoid.svg");
+  --md-admonition-icon--monstrosity:url("../icons/svg/creature/monstrosity.svg");
+  --md-admonition-icon--ooze:       url("../icons/svg/creature/ooze.svg");
+  --md-admonition-icon--plant:      url("../icons/svg/creature/plant.svg");
+  --md-admonition-icon--undead:     url("../icons/svg/creature/undead.svg");
 }
 
 /* ============================================================
-   ADMONITIONS — CREATURES - TYPESETS
+   SHARED STRUCTURAL RULES
    ============================================================ */
 
-.md-typeset .admonition.aberration,
-.md-typeset details.aberration {
-  border-color: rgb(140, 80, 180);
-}
-.md-typeset .aberration > .admonition-title,
-.md-typeset .aberration > summary {
-  background-color: rgba(140, 80, 180, 0.1);
-}
-.md-typeset .aberration > .admonition-title::before,
-.md-typeset .aberration > summary::before {
-  background-color: rgb(140, 80, 180);
-  -webkit-mask-image: var(--md-admonition-icon--aberration);
-          mask-image: var(--md-admonition-icon--aberration);
+.md-typeset .admonition:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead),
+.md-typeset details:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) {
+  border-color: var(--admonition-color);
 }
 
-.md-typeset .admonition.beast,
-.md-typeset details.beast {
-  border-color: rgb(160, 120, 80);
-}
-.md-typeset .beast > .admonition-title,
-.md-typeset .beast > summary {
-  background-color: rgba(160, 120, 80, 0.1);
-}
-.md-typeset .beast > .admonition-title::before,
-.md-typeset .beast > summary::before {
-  background-color: rgb(160, 120, 80);
-  -webkit-mask-image: var(--md-admonition-icon--beast);
-          mask-image: var(--md-admonition-icon--beast);
+.md-typeset .admonition:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > .admonition-title,
+.md-typeset details:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > summary {
+  background-color: color-mix(in srgb, var(--admonition-color) 10%, transparent);
 }
 
-.md-typeset .admonition.celestial,
-.md-typeset details.celestial {
-  border-color: rgb(220, 180, 80);
-}
-.md-typeset .celestial > .admonition-title,
-.md-typeset .celestial > summary {
-  background-color: rgba(220, 180, 80, 0.1);
-}
-.md-typeset .celestial > .admonition-title::before,
-.md-typeset .celestial > summary::before {
-  background-color: rgb(220, 180, 80);
-  -webkit-mask-image: var(--md-admonition-icon--celestial);
-          mask-image: var(--md-admonition-icon--celestial);
+.md-typeset .admonition:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > .admonition-title::before,
+.md-typeset details:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > summary::before {
+  background-color: var(--admonition-color);
+  -webkit-mask-image: var(--admonition-icon);
+          mask-image: var(--admonition-icon);
 }
 
-.md-typeset .admonition.construct,
-.md-typeset details.construct {
-  border-color: rgb(140, 140, 140);
-}
-.md-typeset .construct > .admonition-title,
-.md-typeset .construct > summary {
-  background-color: rgba(140, 140, 140, 0.1);
-}
-.md-typeset .construct > .admonition-title::before,
-.md-typeset .construct > summary::before {
-  background-color: rgb(140, 140, 140);
-  -webkit-mask-image: var(--md-admonition-icon--construct);
-          mask-image: var(--md-admonition-icon--construct);
-}
+/* ============================================================
+   PER-TYPE VARIABLES
+   ============================================================ */
 
-.md-typeset .admonition.dragon,
-.md-typeset details.dragon {
-  border-color: rgb(200, 60, 60);
-}
-.md-typeset .dragon > .admonition-title,
-.md-typeset .dragon > summary {
-  background-color: rgba(200, 60, 60, 0.1);
-}
-.md-typeset .dragon > .admonition-title::before,
-.md-typeset .dragon > summary::before {
-  background-color: rgb(200, 60, 60);
-  -webkit-mask-image: var(--md-admonition-icon--dragon);
-          mask-image: var(--md-admonition-icon--dragon);
-}
-
-.md-typeset .admonition.elemental,
-.md-typeset details.elemental {
-  border-color: rgb(80, 140, 200);
-}
-.md-typeset .elemental > .admonition-title,
-.md-typeset .elemental > summary {
-  background-color: rgba(80, 140, 200, 0.1);
-}
-.md-typeset .elemental > .admonition-title::before,
-.md-typeset .elemental > summary::before {
-  background-color: rgb(80, 140, 200);
-  -webkit-mask-image: var(--md-admonition-icon--elemental);
-          mask-image: var(--md-admonition-icon--elemental);
-}
-
-.md-typeset .admonition.fae,
-.md-typeset details.fae {
-  border-color: rgb(200, 120, 180);
-}
-.md-typeset .fae > .admonition-title,
-.md-typeset .fae > summary {
-  background-color: rgba(200, 120, 180, 0.1);
-}
-.md-typeset .fae > .admonition-title::before,
-.md-typeset .fae > summary::before {
-  background-color: rgb(200, 120, 180);
-  -webkit-mask-image: var(--md-admonition-icon--fae);
-          mask-image: var(--md-admonition-icon--fae);
-}
-
-.md-typeset .admonition.fiend,
-.md-typeset details.fiend {
-  border-color: rgb(180, 40, 40);
-}
-.md-typeset .fiend > .admonition-title,
-.md-typeset .fiend > summary {
-  background-color: rgba(180, 40, 40, 0.1);
-}
-.md-typeset .fiend > .admonition-title::before,
-.md-typeset .fiend > summary::before {
-  background-color: rgb(180, 40, 40);
-  -webkit-mask-image: var(--md-admonition-icon--fiend);
-          mask-image: var(--md-admonition-icon--fiend);
-}
-
-.md-typeset .admonition.giant,
-.md-typeset details.giant {
-  border-color: rgb(100, 160, 120);
-}
-.md-typeset .giant > .admonition-title,
-.md-typeset .giant > summary {
-  background-color: rgba(100, 160, 120, 0.1);
-}
-.md-typeset .giant > .admonition-title::before,
-.md-typeset .giant > summary::before {
-  background-color: rgb(100, 160, 120);
-  -webkit-mask-image: var(--md-admonition-icon--giant);
-          mask-image: var(--md-admonition-icon--giant);
-}
-
-.md-typeset .admonition.humanoid,
-.md-typeset details.humanoid {
-  border-color: rgb(100, 140, 180);
-}
-.md-typeset .humanoid > .admonition-title,
-.md-typeset .humanoid > summary {
-  background-color: rgba(100, 140, 180, 0.1);
-}
-.md-typeset .humanoid > .admonition-title::before,
-.md-typeset .humanoid > summary::before {
-  background-color: rgb(100, 140, 180);
-  -webkit-mask-image: var(--md-admonition-icon--humanoid);
-          mask-image: var(--md-admonition-icon--humanoid);
-}
-
-.md-typeset .admonition.monstrosity,
-.md-typeset details.monstrosity {
-  border-color: rgb(120, 60, 160);
-}
-.md-typeset .monstrosity > .admonition-title,
-.md-typeset .monstrosity > summary {
-  background-color: rgba(120, 60, 160, 0.1);
-}
-.md-typeset .monstrosity > .admonition-title::before,
-.md-typeset .monstrosity > summary::before {
-  background-color: rgb(120, 60, 160);
-  -webkit-mask-image: var(--md-admonition-icon--monstrosity);
-          mask-image: var(--md-admonition-icon--monstrosity);
-}
-
-.md-typeset .admonition.ooze,
-.md-typeset details.ooze {
-  border-color: rgb(140, 200, 80);
-}
-.md-typeset .ooze > .admonition-title,
-.md-typeset .ooze > summary {
-  background-color: rgba(140, 200, 80, 0.1);
-}
-.md-typeset .ooze > .admonition-title::before,
-.md-typeset .ooze > summary::before {
-  background-color: rgb(140, 200, 80);
-  -webkit-mask-image: var(--md-admonition-icon--ooze);
-          mask-image: var(--md-admonition-icon--ooze);
-}
-
-.md-typeset .admonition.plant,
-.md-typeset details.plant {
-  border-color: rgb(80, 160, 80);
-}
-.md-typeset .plant > .admonition-title,
-.md-typeset .plant > summary {
-  background-color: rgba(80, 160, 80, 0.1);
-}
-.md-typeset .plant > .admonition-title::before,
-.md-typeset .plant > summary::before {
-  background-color: rgb(80, 160, 80);
-  -webkit-mask-image: var(--md-admonition-icon--plant);
-          mask-image: var(--md-admonition-icon--plant);
-}
-
-.md-typeset .admonition.undead,
-.md-typeset details.undead {
-  border-color: rgb(160, 160, 160);
-}
-.md-typeset .undead > .admonition-title,
-.md-typeset .undead > summary {
-  background-color: rgba(160, 160, 160, 0.1);
-}
-.md-typeset .undead > .admonition-title::before,
-.md-typeset .undead > summary::before {
-  background-color: rgb(160, 160, 160);
-  -webkit-mask-image: var(--md-admonition-icon--undead);
-          mask-image: var(--md-admonition-icon--undead);
-}
+.md-typeset .admonition.aberration,  .md-typeset details.aberration  { --admonition-color: rgb(140,  80, 180); --admonition-icon: var(--md-admonition-icon--aberration); }
+.md-typeset .admonition.beast,       .md-typeset details.beast       { --admonition-color: rgb(160, 120,  80); --admonition-icon: var(--md-admonition-icon--beast); }
+.md-typeset .admonition.celestial,   .md-typeset details.celestial   { --admonition-color: rgb(220, 180,  80); --admonition-icon: var(--md-admonition-icon--celestial); }
+.md-typeset .admonition.construct,   .md-typeset details.construct   { --admonition-color: rgb(140, 140, 140); --admonition-icon: var(--md-admonition-icon--construct); }
+.md-typeset .admonition.dragon,      .md-typeset details.dragon      { --admonition-color: rgb(200,  60,  60); --admonition-icon: var(--md-admonition-icon--dragon); }
+.md-typeset .admonition.elemental,   .md-typeset details.elemental   { --admonition-color: rgb( 80, 140, 200); --admonition-icon: var(--md-admonition-icon--elemental); }
+.md-typeset .admonition.fae,         .md-typeset details.fae         { --admonition-color: rgb(200, 120, 180); --admonition-icon: var(--md-admonition-icon--fae); }
+.md-typeset .admonition.fiend,       .md-typeset details.fiend       { --admonition-color: rgb(180,  40,  40); --admonition-icon: var(--md-admonition-icon--fiend); }
+.md-typeset .admonition.giant,       .md-typeset details.giant       { --admonition-color: rgb(100, 160, 120); --admonition-icon: var(--md-admonition-icon--giant); }
+.md-typeset .admonition.humanoid,    .md-typeset details.humanoid    { --admonition-color: rgb(100, 140, 180); --admonition-icon: var(--md-admonition-icon--humanoid); }
+.md-typeset .admonition.monstrosity, .md-typeset details.monstrosity { --admonition-color: rgb(120,  60, 160); --admonition-icon: var(--md-admonition-icon--monstrosity); }
+.md-typeset .admonition.ooze,        .md-typeset details.ooze        { --admonition-color: rgb(140, 200,  80); --admonition-icon: var(--md-admonition-icon--ooze); }
+.md-typeset .admonition.plant,       .md-typeset details.plant       { --admonition-color: rgb( 80, 160,  80); --admonition-icon: var(--md-admonition-icon--plant); }
+.md-typeset .admonition.undead,      .md-typeset details.undead      { --admonition-color: rgb(160, 160, 160); --admonition-icon: var(--md-admonition-icon--undead); }

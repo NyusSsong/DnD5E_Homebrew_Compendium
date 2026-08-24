@@ -1,8 +1,8 @@
-The following tricks are presented in alphabetical order. If a warmage trick has prerequisites, you must meet them to choose it. You can choose the trick at the same time that you meet its prerequisites.
+﻿The following tricks are presented in alphabetical order. If a warmage trick has prerequisites, you must meet them to choose it. You can choose the trick at the same time that you meet its prerequisites.
 
 <p><strong>Filter by level requirement:</strong></p>
 
-<select id="level-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="level-select" class="filter-select">
   <option value="all">All</option>
   <option value="none">No level requirement</option>
   <option value="5">5th level</option>

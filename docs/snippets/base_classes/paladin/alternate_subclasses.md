@@ -1,5 +1,5 @@
-<p><strong>Choose an Alternate Subclass:</strong></p>
-<select id="alt-subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+﻿<p><strong>Choose an Alternate Subclass:</strong></p>
+<select id="alt-subclass-select" class="filter-select">
     <option value="all">All</option>
     <option value="alternate-oath-of-the-ancients">Alternate Oath of the Ancients</option>
     <option value="alternate-oath-of-devotion">Alternate Oath of Devotion</option>

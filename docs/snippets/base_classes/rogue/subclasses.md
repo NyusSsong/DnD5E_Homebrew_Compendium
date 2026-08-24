@@ -1,5 +1,5 @@
-<p><strong>Choose a Subclass:</strong></p>
-<select id="subclass-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+﻿<p><strong>Choose a Subclass:</strong></p>
+<select id="subclass-select" class="filter-select">
     <option value="all">All</option>
     <option value="avenger">Avenger</option>
     <option value="black-knight">Black Knight</option>

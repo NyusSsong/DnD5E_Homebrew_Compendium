@@ -1,8 +1,8 @@
-Elementalists can learn the elemental shapes presented here. If an elemental shape lists an elemental affinity, that prerequisite must be met in order to learn the shape.
+﻿Elementalists can learn the elemental shapes presented here. If an elemental shape lists an elemental affinity, that prerequisite must be met in order to learn the shape.
 
 <p><strong>Filter by tier:</strong></p>
 
-<select id="shape-select" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="shape-select" class="filter-select">
     <option value="all">All</option>
     <option value="basic">Basic</option>
     <option value="advanced">Advanced</option>
