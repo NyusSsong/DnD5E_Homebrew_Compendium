@@ -6,6 +6,10 @@ This homebrew document contains most of the homebrew rules for Song's D&DR Games
 
     --8<-- "compendium/rules/mechanical_changes.md"
 
+=== "Spellcasting Services"
+
+    --8<-- "compendium/rules/spellcasting.md"
+
 === "Race Changes"
 
     --8<-- "compendium/rules/racial_changes.md"

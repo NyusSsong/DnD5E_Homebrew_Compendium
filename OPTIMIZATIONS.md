@@ -36,10 +36,14 @@ Session of 2026-09-03 — items implemented in risk-ascending order:
    from `magic-items.css`, and the duplicate inline `<script>` for `magic-items.js` in
    `docs/magic-items.md` (it is already loaded site-wide via `mkdocs.yml`
    `extra_javascript` — the double load spun up two instances on that page).
+8. **Content decisions** (§7, 2026-09-04): orphaned `spellcasting.md` published as a
+   "Spellcasting Services" tab in `docs/rules.md`; empty `input/` kept and documented
+   via `input/README.md` (AGENTS.md's workflow depends on it); `readme.md` rewritten
+   with a repo intro and local-build instructions (credits notice preserved); duplicate
+   "Psion Spell List" / "Core Warden Features" tab labels left as-is per owner decision.
 
 Still open: §1 (CI + validation script), §5 (filter.js self-registration refactor),
-§6 (CSS consolidation/audit), §7 (orphan `spellcasting.md`, empty `input/`, README,
-nav label collisions).
+§6 (CSS consolidation/audit).
 
 ---
 
@@ -201,20 +205,23 @@ Also: the `// Initialize filters` block mixes generic, base-class, Kibbles, and
 
 ## 7. Structure / content hygiene (small, worthwhile)
 
-- **`input/` is empty** — the ingestion directory from AGENTS.md. Either remove it or
-  keep it and document that it's the drop zone for source text.
-- **`compendium/rules/spellcasting.md` is orphaned** — exists but is never included by
-  `rules.md` (which includes mechanical_changes, racial_changes, glossary, feats,
-  magic_items). Either include it or delete/move it.
-- **`readme.md` is only a credits/legal notice** — it's the repo's front door on GitHub
-  and doesn't explain what the repo is, how to build it locally, or how to contribute
-  (SKILL.md/AGENTS.md are aimed at agents, not humans). A short "Local dev" section
-  (`pip install mkdocs-material && mkdocs serve`) would lower the barrier for
-  contributors.
+- **`input/` was empty** — the ingestion directory from AGENTS.md.
+  **Status: resolved** (2026-09-04) — kept and documented via `input/README.md`;
+  AGENTS.md's standard workflow reads source files from `./input/`.
+- **`compendium/rules/spellcasting.md` was orphaned** — existed but was never included
+  by `rules.md` (which includes mechanical_changes, racial_changes, glossary, feats,
+  magic_items). **Status: resolved** (2026-09-04) — published as a "Spellcasting
+  Services" tab in `rules.md` (real authored content: hireling spellcasting + pricing).
+- **`readme.md` was only a credits/legal notice** — the repo's front door on GitHub
+  with no explanation of what the repo is or how to build it.
+  **Status: resolved** (2026-09-04) — rewritten with a repo intro, repository layout
+  table, local-build instructions, and a brief contributing note; the credits/legal
+  notice was preserved.
 - Nav labels collide for the two Psion/Warden classes ("Psion Spell List", "Core Warden
   Features" appear twice under different sources). Consider disambiguating labels
   ("Kibbles' Psion" vs "Laserllama's Psion") — already partly handled by section
-  headers; worth confirming intent.
+  headers. **Status: decided** (2026-09-04) — left as-is per owner choice; section
+  headers already distinguish the sources.
 - `.gitignore` only contains `.env` — add `.venv/`, `__pycache__/`, `site/` (mkdocs
   build output), `.DS_Store`.
 
