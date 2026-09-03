@@ -1,4 +1,4 @@
-﻿<p><strong>Filter by level:</strong></p>
+<p><strong>Filter by level:</strong></p>
 
 <select id="level-select" class="filter-select">
     <option value="all">All</option>

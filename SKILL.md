@@ -30,7 +30,7 @@ homebrew repository. Always read this skill before creating or editing any file.
             admonition-*.css
         icons/
         js/
-            filter-js          ← global filter registration
+            filter.js          ← global filter registration
             magic-items.js
     classes/
         base_classes/          ← assembled class pages (one per class)
@@ -98,7 +98,7 @@ Use `templates/class.md`. Structure:
 
 <!-- Optional class-specific tabs here, before Alternate Subclasses and Subclasses -->
 
-=== "Subclasses"
+=== "[Thematic subclass tab name]"
 
     --8<-- "[source_folder]/[classname]/subclasses.md"
 ```
@@ -107,8 +107,9 @@ Use `templates/class.md`. Structure:
 1. Progression Table — always first
 2. Core Features — always second
 3. Class-specific tabs (Exploits, Knacks, Talents, etc.) — middle, ordered by relevance
-4. Alternate Subclasses — if present, just before Subclasses
-5. Subclasses — always last
+4. Alternate Subclasses — if present, just before the subclass tab
+5. Subclasses — always last; the tab is thematically named for the class
+   (e.g. "Primal Paths", "Divine Domains", "Witch's Crafts"), never literally "Subclasses"
 
 ---
 
@@ -213,7 +214,7 @@ Add a filter to a snippet when:
 ```html
 <p><strong>Choose a [category type]:</strong></p>
 
-<select id="[filter-id]" style="padding: 0.4em; border-radius: 6px; border: 1px solid #888; background: var(--md-default-bg-color); color: var(--md-typeset-color);">
+<select id="[filter-id]" class="filter-select">
     <option value="all">All</option>
     <option value="[slug]">[Display Name]</option>
 </select>
@@ -235,22 +236,22 @@ Add a filter to a snippet when:
 
 ### Registered filters
 
-Before adding a new filter, read `docs/assets/js/filter-js` to see every `setupFilter()`
+Before adding a new filter, read `docs/assets/js/filter.js` to see every `setupFilter()`
 call already registered. Do not duplicate an existing filter ID.
 
 ### Adding a new class-specific filter
 
-When a new snippet needs a filter ID not already in filter-js:
+When a new snippet needs a filter ID not already in `filter.js`:
 1. Use a descriptive ID: `[category]-select` (e.g. `discipline-select`, `talent-select`)
 2. **Multi-word data attributes:** the HTML attribute uses kebab-case (`data-metamagic-cost`)
    but the `data-attr` argument passed to `setupFilter()` must use camelCase
    (`metamagicCost`). Single-word attributes are the same in both (`data-subclass` →
    `subclass`).
-3. Propose adding this line to `filter-js` under `// Initialize filters`:
+3. Propose adding this line to `filter.js` under `// Initialize filters`:
    ```javascript
    setupFilter('[filter-id]', '[content-class]', '[data-attr]');
    ```
-4. Always inform the user and ask for confirmation before editing `filter-js`
+4. Always inform the user and ask for confirmation before editing `filter.js`
 
 ### Filtered list item format
 
@@ -296,28 +297,6 @@ and register its CSS in the matching `admonition-[category].css` file.
 
 ---
 
-## master-index.yml
-
-`master-index.yml` at the repo root is a machine-readable index of every class page and
-its snippets. **Update it whenever you add a new class or snippet file.**
-
-Schema (add one item block per new class):
-
-```yaml
-- class_name: ClassName       # Display name, Title Case
-  slug: source_classname      # Matches the folder name, e.g. kt_psion, valda_warden
-  page: docs/classes/[source]/[slug].md
-  snippets:
-    - docs/snippets/[source]/[slug]/progression.md
-    - docs/snippets/[source]/[slug]/core_features.md
-    # … one entry per snippet file actually created
-```
-
-Also update `summary.total_class_pages` and the relevant source counter when adding a
-class. Do not update `generated_on` — leave that for the user.
-
----
-
 ## Workflow: Adding a New Class
 
 1. Identify source folder based on publisher (base_classes / kibbles / valda)
@@ -329,7 +308,7 @@ class. Do not update `generated_on` — leave that for the user.
 3. Create snippet files in `docs/snippets/[source_folder]/[classname]/`
 4. Create assembled page in `docs/classes/[source_folder]/[classname].md`
 5. Check if input material brings extra format in tables. Output tables do not use `<div>`, just pure Markdown.
-6. Check `filter-js`: if any new filter IDs are needed, propose the addition to the user
+6. Check `filter.js`: if any new filter IDs are needed, propose the addition to the user
 7. Check in similar files for other classes if some of the bullet points (especially in `core_features.md` files) have a double space at the end to account for the line-break spacing issue.
 
 ## Workflow: Reformatting Existing Content

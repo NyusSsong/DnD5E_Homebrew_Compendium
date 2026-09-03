@@ -1,4 +1,4 @@
-﻿<p><strong>Choose a psionic discipline:</strong></p>
+<p><strong>Choose a psionic discipline:</strong></p>
 
 <select id="discipline-select" class="filter-select">
     <option value="all">All</option>

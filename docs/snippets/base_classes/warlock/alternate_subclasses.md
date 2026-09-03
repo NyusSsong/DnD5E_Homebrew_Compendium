@@ -1,4 +1,4 @@
-﻿<p><strong>Choose an alternate subclass:</strong></p>
+<p><strong>Choose an alternate subclass:</strong></p>
 
 <select id="alt-subclass-select" class="filter-select">
     <option value="all">All</option>

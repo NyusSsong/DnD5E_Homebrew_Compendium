@@ -1,4 +1,4 @@
-﻿Masterwork properties can be applied to any masterwork weapon or suit of armor, provided you can spare the time and gold cost required to apply it. Each property entry details the property's level and the type of equipment it can be applied to.
+Masterwork properties can be applied to any masterwork weapon or suit of armor, provided you can spare the time and gold cost required to apply it. Each property entry details the property's level and the type of equipment it can be applied to.
 
 Unless otherwise noted, a piece of gear cannot have the same property more than once; for example, you cannot apply the Heavy property to a greatsword, or the Martial property to a longbow.
 

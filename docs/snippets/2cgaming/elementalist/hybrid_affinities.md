@@ -1,4 +1,4 @@
-﻿<p><strong>Choose a hybrid element:</strong></p>
+<p><strong>Choose a hybrid element:</strong></p>
 
 <select id="hybrid-select" class="filter-select">
     <option value="all">All</option>

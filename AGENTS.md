@@ -57,39 +57,35 @@ Use `templates/class.md`. Tab order:
 2. Core [ClassName] Features
 3. Class-specific tabs (if any)
 4. Alternate Subclasses (if present)
-5. Subclasses
+5. Subclasses — always last, but thematically named for the class
+   (e.g. "Primal Paths", "Divine Domains", "Witch's Crafts"), never literally "Subclasses"
 
-### 6. Update master-index.yml
+### 6. Review filter.js
 
-Add the new class entry to `master-index.yml` following the schema in `SKILL.md`.
-Update `summary.total_class_pages` and the relevant source counter.
-
-### 7. Review filter-js
-
-Read `docs/assets/js/filter-js` and check that every filter used in the new snippets
+Read `docs/assets/js/filter.js` and check that every filter used in the new snippets
 is already registered.
 
 - If all filters used are generic (already registered), do not touch the file.
-- If a new class-specific filter is needed, **do not edit filter-js**.  
+- If a new class-specific filter is needed, **do not edit filter.js**.  
   Instead, include the exact line to add in your final summary:
   ```javascript
   setupFilter('[filter-id]', '[content-class]', '[data-attr]');
   ```
 
-### 8. Final summary
+### 7. Final summary
 
 When done, write a block with:
 
 - Files created and their paths
 - Snippets and tabs included in the assembled page
-- Filters applied and whether filter-js needs a manual update
+- Filters applied and whether `filter.js` needs a manual update
 - Any ambiguous decisions made (unusual structure, non-standard levels, etc.)
 
 ---
 
 ## What you must never do
 
-- Edit `filter-js` directly
+- Edit `filter.js` directly
 - Invent feature levels that do not appear in the source text
 - Alter mechanical text (damage, distances, conditions, saving throws, etc.)
 - Publish templates from `./templates/` as site pages

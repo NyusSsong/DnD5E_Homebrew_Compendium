@@ -1,4 +1,4 @@
-﻿<p><strong>Choose a subclass:</strong></p>
+<p><strong>Choose a subclass:</strong></p>
 
 <select id="upgrade-select" class="filter-select">
 <option value="all">All</option>

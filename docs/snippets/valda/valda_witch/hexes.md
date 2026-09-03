@@ -1,4 +1,4 @@
-﻿The hexes and grand hexes below are presented in alphabetical order within each category.
+The hexes and grand hexes below are presented in alphabetical order within each category.
 
 ??? info "Hexes and Magic"
     A witch casts their terrible hexes as an extension of their curse. As their curses are magical in nature, their hexes are considered 0th-level spells for the purposes of features and spells, such as *counterspell* or *dispel magic*, which interact with magic. Furthermore, all hexes cease while in the area of an antimagic field or similar effect.

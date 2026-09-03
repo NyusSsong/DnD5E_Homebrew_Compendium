@@ -1,4 +1,4 @@
-﻿Each warmage is defined by their chosen House, which teaches them valuable skills and offers a confederation of allies they will keep for their lives. Named for games of strategy and games of chance, each house emphasizes a unique approach to spellcasting and combat.
+Each warmage is defined by their chosen House, which teaches them valuable skills and offers a confederation of allies they will keep for their lives. Named for games of strategy and games of chance, each house emphasizes a unique approach to spellcasting and combat.
 
 <p><strong>Choose a warmage house:</strong></p>
 

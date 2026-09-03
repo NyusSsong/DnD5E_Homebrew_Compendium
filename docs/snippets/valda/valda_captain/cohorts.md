@@ -1,4 +1,4 @@
-﻿**Initiating a Cohort.** Select a companion from the options below; following an 8-hour initiation period, that creature becomes your cohort. You can have only one cohort at a time.
+**Initiating a Cohort.** Select a companion from the options below; following an 8-hour initiation period, that creature becomes your cohort. You can have only one cohort at a time.
 
 If your cohort is ever slain, you can raise them from the dead by the usual methods, such as the *raise dead* spell, or you can spend 8 hours initiating a new cohort. If you do so, your previous cohort loses all abilities granted by this feature, even if it is later returned to life.
 

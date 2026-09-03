@@ -25,6 +25,9 @@
 
     --8<-- "[source_folder]/[classname]/alternate_subclasses.md" -->
 
-=== "Subclasses"
+<!-- Final tab: subclasses, thematically named for the class (e.g. "Primal Paths",
+     "Divine Domains", "Witch's Crafts") — never literally "Subclasses". -->
+
+=== "[Thematic Subclass Tab Name]"
 
     --8<-- "[source_folder]/[classname]/subclasses.md"

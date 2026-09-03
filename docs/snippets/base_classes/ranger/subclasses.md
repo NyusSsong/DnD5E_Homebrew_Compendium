@@ -1,4 +1,4 @@
-﻿<p><strong>Choose a ranger conclave:</strong></p>
+<p><strong>Choose a ranger conclave:</strong></p>
 
 <select id="subclass-select" class="filter-select">
     <option value="all">All</option>

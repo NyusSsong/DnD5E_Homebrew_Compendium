@@ -1,4 +1,4 @@
-﻿<p><strong>Choose an Alternate Subclass:</strong></p>
+<p><strong>Choose an Alternate Subclass:</strong></p>
 <select id="alt-subclass-select" class="filter-select">
     <option value="all">All</option>
     <option value="alt-assassin">Alternate Assassin</option>

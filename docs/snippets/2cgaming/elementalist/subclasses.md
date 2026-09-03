@@ -1,4 +1,4 @@
-﻿<p><strong>Choose an elemental affinity:</strong></p>
+<p><strong>Choose an elemental affinity:</strong></p>
 
 <select id="subclass-select" class="filter-select">
     <option value="all">All</option>

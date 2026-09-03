@@ -1,4 +1,4 @@
-﻿<p><strong>Choose an esoteric order:</strong></p>
+<p><strong>Choose an esoteric order:</strong></p>
 
 <select id="subclass-select" class="filter-select">
   <option value="all">All</option>

@@ -1,4 +1,4 @@
-﻿Elementalists can learn the elemental shapes presented here. If an elemental shape lists an elemental affinity, that prerequisite must be met in order to learn the shape.
+Elementalists can learn the elemental shapes presented here. If an elemental shape lists an elemental affinity, that prerequisite must be met in order to learn the shape.
 
 <p><strong>Filter by tier:</strong></p>
 

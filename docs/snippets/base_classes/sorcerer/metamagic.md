@@ -1,4 +1,4 @@
-﻿<p><strong>Choose a Metamagic cost:</strong></p>
+<p><strong>Choose a Metamagic cost:</strong></p>
 
 <select id="metamagic-select" class="filter-select">
 <option value="all">All</option>

@@ -1,4 +1,4 @@
-﻿All master craftsmen learn the basics of smithing, leatherworking, woodworking, and other necessary disciplines on the path to mastery, either on their own or under tutelage of another master artisan. However, as they hone their skills, they invariably find themselves drawn to gatherings of other like-minded craftsmen. These groups, formalized as Guilds, provide a means for craftsmen to compare notes and schematics, acquire resources, and upgrade their trade.
+All master craftsmen learn the basics of smithing, leatherworking, woodworking, and other necessary disciplines on the path to mastery, either on their own or under tutelage of another master artisan. However, as they hone their skills, they invariably find themselves drawn to gatherings of other like-minded craftsmen. These groups, formalized as Guilds, provide a means for craftsmen to compare notes and schematics, acquire resources, and upgrade their trade.
 
 <p><strong>Choose an artisans' guild:</strong></p>
 

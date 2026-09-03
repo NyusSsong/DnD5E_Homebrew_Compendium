@@ -248,10 +248,13 @@ class MagicItemsDB {
         `;
         
         const descriptionElement = this.container.querySelector('#mi-modal-description');
-        if (window.marked) {
-            descriptionElement.innerHTML = marked.parse(item.description || "");
+        const rawDescription = item.description || "";
+        if (window.marked && window.DOMPurify) {
+            // Sanitize the rendered HTML: item descriptions are user-contributed.
+            descriptionElement.innerHTML = DOMPurify.sanitize(marked.parse(rawDescription));
         } else {
-            descriptionElement.textContent = item.description || "";
+            // Without DOMPurify, fall back to plain text rather than unsanitized HTML.
+            descriptionElement.textContent = rawDescription;
         }
         
         this.container.querySelector('#mi-modal').style.display = "flex";

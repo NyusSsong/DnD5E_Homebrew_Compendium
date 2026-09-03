@@ -1,4 +1,4 @@
-﻿<p><strong>Choose an Alternate Sorcerer Origin:</strong></p>
+<p><strong>Choose an Alternate Sorcerer Origin:</strong></p>
 
 <select id="alt-subclass-select" class="filter-select">
     <option value="all">All</option>

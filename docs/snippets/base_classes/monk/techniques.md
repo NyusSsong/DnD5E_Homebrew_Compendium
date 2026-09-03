@@ -1,4 +1,4 @@
-﻿<p><strong>Choose a technique tier:</strong></p>
+<p><strong>Choose a technique tier:</strong></p>
 
 <select id="level-select" class="filter-select">
     <option value="all">All</option>

@@ -1,4 +1,4 @@
-﻿The following tricks are presented in alphabetical order. If a warmage trick has prerequisites, you must meet them to choose it. You can choose the trick at the same time that you meet its prerequisites.
+The following tricks are presented in alphabetical order. If a warmage trick has prerequisites, you must meet them to choose it. You can choose the trick at the same time that you meet its prerequisites.
 
 <p><strong>Filter by level requirement:</strong></p>
 

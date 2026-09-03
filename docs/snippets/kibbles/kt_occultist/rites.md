@@ -1,4 +1,4 @@
-﻿<p><strong>Choose a tradition for rites:</strong></p>
+<p><strong>Choose a tradition for rites:</strong></p>
 
 <select id="rite-select" class="filter-select">
   <option value="all">All</option>

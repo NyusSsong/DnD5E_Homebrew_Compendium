@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', function() {
     setupFilter('type-select', 'type-content', 'type');
 
     //// Base classes filters
-    setupFilter('metamagic-select', 'metamagic-content', 'metamagicCost')
+    setupFilter('metamagic-select', 'metamagic-content', 'metamagicCost');
 
     //// Kibbles Psion filters
     setupFilter('discipline-select', 'discipline-content', 'discipline');
     setupFilter('talent-select', 'talent-content', 'talent');
-    setupFilter('upgrade-select', 'upgrade-content', 'upgrade')
+    setupFilter('upgrade-select', 'upgrade-content', 'upgrade');
 
     //// 2CGaming Elementalist filters
     setupFilter('shape-select', 'shape-content', 'shape');

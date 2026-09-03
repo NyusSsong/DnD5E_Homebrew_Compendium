@@ -1,4 +1,4 @@
-﻿<p><strong>Choose an academic discipline:</strong></p>
+<p><strong>Choose an academic discipline:</strong></p>
 
 <select id="subclass-select" class="filter-select">
     <option value="all">All</option>

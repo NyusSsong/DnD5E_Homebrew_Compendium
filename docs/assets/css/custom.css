@@ -181,11 +181,11 @@ select.filter-select {
   font-weight: 700;
 }
 
-/* Override específico para headings dentro de admonitions/details */
+/* Override for headings inside admonitions/details */
 .md-typeset .admonition h4,
 .md-typeset details.admonition h4,
 .md-typeset details h4 {
-  font-size: 1rem;   /* antes: 1.1em */
+  font-size: 1rem;   /* was 1.1em */
   font-weight: 700;
   line-height: 1.4;
   margin: 0.5em 0 -0.5em;
