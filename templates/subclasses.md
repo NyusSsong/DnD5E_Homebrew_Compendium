@@ -1,6 +1,6 @@
 <p><strong>Choose a subclass:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
 <option value="all">All</option>
 <option value="[subclass-slug]">[Subclass Full Name]</option>
 <!-- Add one <option> per subclass, value must match data-subclass below -->

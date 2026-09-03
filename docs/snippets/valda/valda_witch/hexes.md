@@ -5,7 +5,7 @@ The hexes and grand hexes below are presented in alphabetical order within each 
 
 <p><strong>Filter by type:</strong></p>
 
-<select id="type-select" class="filter-select">
+<select id="type-select" class="filter-select" data-filter-content="type-content" data-filter-attr="type">
   <option value="all">All</option>
   <option value="hex">Hexes</option>
   <option value="grand-hex">Grand Hexes</option>

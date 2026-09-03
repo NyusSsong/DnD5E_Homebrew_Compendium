@@ -1,6 +1,6 @@
 <p><strong>Choose a manifestation tier:</strong></p>
 
-<select id="level-select" class="filter-select">
+<select id="level-select" class="filter-select" data-filter-content="level-content" data-filter-attr="level">
 <option value="all">All</option>
 <option value="no-level-prereq">Initiate (No Prerequisite)</option>
 <option value="level-6">6th Level</option>

@@ -4,7 +4,7 @@ Unless otherwise noted, a piece of gear cannot have the same property more than 
 
 <p><strong>Choose a property type:</strong></p>
 
-<select id="type-select" class="filter-select">
+<select id="type-select" class="filter-select" data-filter-content="type-content" data-filter-attr="type">
   <option value="all">All</option>
   <option value="weapon">Weapon</option>
   <option value="armor">Armor</option>

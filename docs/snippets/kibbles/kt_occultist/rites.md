@@ -1,6 +1,6 @@
 <p><strong>Choose a tradition for rites:</strong></p>
 
-<select id="rite-select" class="filter-select">
+<select id="rite-select" class="filter-select" data-filter-content="rite-content" data-filter-attr="rite">
   <option value="all">All</option>
   <option value="general">General</option>
   <option value="witch">Witch</option>

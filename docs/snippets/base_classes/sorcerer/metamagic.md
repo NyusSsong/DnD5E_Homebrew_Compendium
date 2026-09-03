@@ -1,6 +1,6 @@
 <p><strong>Choose a Metamagic cost:</strong></p>
 
-<select id="metamagic-select" class="filter-select">
+<select id="metamagic-select" class="filter-select" data-filter-content="metamagic-content" data-filter-attr="metamagicCost">
 <option value="all">All</option>
 <option value="1-sorcery-point">1 Sorcery Point</option>
 <option value="2-sorcery-points">2 Sorcery Points</option>

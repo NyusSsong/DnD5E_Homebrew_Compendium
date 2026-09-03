@@ -2,7 +2,7 @@ The following tricks are presented in alphabetical order. If a warmage trick has
 
 <p><strong>Filter by level requirement:</strong></p>
 
-<select id="level-select" class="filter-select">
+<select id="level-select" class="filter-select" data-filter-content="level-content" data-filter-attr="level">
   <option value="all">All</option>
   <option value="none">No level requirement</option>
   <option value="5">5th level</option>

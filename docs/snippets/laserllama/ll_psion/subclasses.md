@@ -1,6 +1,6 @@
 <p><strong>Choose a psionic awakening:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="empath">Empath</option>
   <option value="enlightened">Enlightened</option>

@@ -1,5 +1,5 @@
 <p><strong>Choose an Alternate Subclass:</strong></p>
-<select id="alt-subclass-select" class="filter-select">
+<select id="alt-subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="alternate-oath-of-the-ancients">Alternate Oath of the Ancients</option>
     <option value="alternate-oath-of-devotion">Alternate Oath of Devotion</option>

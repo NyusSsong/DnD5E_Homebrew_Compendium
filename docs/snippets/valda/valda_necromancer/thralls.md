@@ -16,7 +16,7 @@ A corpse can become a zombie, gorger, or gravetouched ghoul. A pile of bones can
 
 <p><strong>Choose a thrall type:</strong></p>
 
-<select id="type-select" class="filter-select">
+<select id="type-select" class="filter-select" data-filter-content="type-content" data-filter-attr="type">
   <option value="all">All</option>
   <option value="bonebeast">Bonebeast</option>
   <option value="gorger">Gorger</option>

@@ -1,6 +1,6 @@
 <p><strong>Choose an Alternate Sorcerer Origin:</strong></p>
 
-<select id="alt-subclass-select" class="filter-select">
+<select id="alt-subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="alternate-aberrant-mind">Alternate Aberrant Mind</option>
     <option value="alternate-draconic-bloodline">Alternate Draconic Bloodline</option>

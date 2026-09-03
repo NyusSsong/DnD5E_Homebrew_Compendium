@@ -1,6 +1,6 @@
 <p><strong>Choose a subclass:</strong></p>
 
-<select id="alt-subclass-select" class="filter-select">
+<select id="alt-subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
 <option value="all">All</option>
 <option value="alt-circle-of-the-moon">Alternate Circle of the Moon</option>
 </select>

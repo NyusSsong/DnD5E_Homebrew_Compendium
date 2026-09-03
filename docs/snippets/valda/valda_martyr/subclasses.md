@@ -1,6 +1,6 @@
 <p><strong>Choose a subclass:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="atonement">Burden of Atonement</option>
     <option value="discord">Burden of Discord</option>

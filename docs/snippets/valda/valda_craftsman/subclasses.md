@@ -2,7 +2,7 @@ All master craftsmen learn the basics of smithing, leatherworking, woodworking, 
 
 <p><strong>Choose an artisans' guild:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="arcane-maesters">Arcane Maesters</option>
   <option value="armigers">Armigers</option>

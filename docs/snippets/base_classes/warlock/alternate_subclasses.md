@@ -1,6 +1,6 @@
 <p><strong>Choose an alternate subclass:</strong></p>
 
-<select id="alt-subclass-select" class="filter-select">
+<select id="alt-subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="alternate-archfey">Alternate Archfey</option>
     <option value="alternate-celestial">Alternate Celestial</option>

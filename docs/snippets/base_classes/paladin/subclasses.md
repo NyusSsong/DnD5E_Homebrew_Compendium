@@ -1,5 +1,5 @@
 <p><strong>Choose a Subclass:</strong></p>
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="oath-of-anarchy">Oath of Anarchy</option>
     <option value="oath-of-the-ascetic">Oath of the Ascetic</option>

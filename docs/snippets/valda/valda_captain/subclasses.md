@@ -2,7 +2,7 @@ Captains adopt emblems that denote their virtues, skills, and command styles, wh
 
 <p><strong>Choose a banner:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="dragon">Dragon</option>
   <option value="eagle">Eagle</option>

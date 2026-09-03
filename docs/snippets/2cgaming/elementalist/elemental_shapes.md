@@ -2,7 +2,7 @@ Elementalists can learn the elemental shapes presented here. If an elemental sha
 
 <p><strong>Filter by tier:</strong></p>
 
-<select id="shape-select" class="filter-select">
+<select id="shape-select" class="filter-select" data-filter-content="shape-content" data-filter-attr="shape">
     <option value="all">All</option>
     <option value="basic">Basic</option>
     <option value="advanced">Advanced</option>

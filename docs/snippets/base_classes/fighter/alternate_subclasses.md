@@ -1,6 +1,6 @@
 <p><strong>Choose a subclass:</strong></p>
 
-<select id="alt-subclass-select" class="filter-select">
+<select id="alt-subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="alt-banneret">Alternate Banneret</option>
     <option value="alt-cavalier">Alternate Cavalier</option>

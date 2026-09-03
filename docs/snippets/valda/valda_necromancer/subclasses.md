@@ -2,7 +2,7 @@ Becoming a necromancer is seldom an accident. Almost all who dive into the secre
 
 <p><strong>Choose a grave ambition:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="blood-ascendant">Blood Ascendant</option>
   <option value="death-knight">Death Knight</option>

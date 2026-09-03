@@ -60,17 +60,13 @@ Use `templates/class.md`. Tab order:
 5. Subclasses — always last, but thematically named for the class
    (e.g. "Primal Paths", "Divine Domains", "Witch's Crafts"), never literally "Subclasses"
 
-### 6. Review filter.js
+### 6. Review filters
 
-Read `docs/assets/js/filter.js` and check that every filter used in the new snippets
-is already registered.
-
-- If all filters used are generic (already registered), do not touch the file.
-- If a new class-specific filter is needed, **do not edit filter.js**.  
-  Instead, include the exact line to add in your final summary:
-  ```javascript
-  setupFilter('[filter-id]', '[content-class]', '[data-attr]');
-  ```
+Filters self-register from the snippet markup — `filter.js` is a single delegated
+listener and is never edited. Check that every new `<select class="filter-select">`
+carries both `data-filter-content` (matching the content `<div>`'s class) and
+`data-filter-attr` (matching its `data-*` attribute — camelCase for multi-word names,
+e.g. `metamagicCost` for `data-metamagic-cost`).
 
 ### 7. Final summary
 
@@ -78,14 +74,14 @@ When done, write a block with:
 
 - Files created and their paths
 - Snippets and tabs included in the assembled page
-- Filters applied and whether `filter.js` needs a manual update
+- Filters applied (each select's `data-filter-content` / `data-filter-attr` wiring)
 - Any ambiguous decisions made (unusual structure, non-standard levels, etc.)
 
 ---
 
 ## What you must never do
 
-- Edit `filter.js` directly
+- Edit `filter.js` directly (filters self-register from the snippet's `data-filter-*` attributes)
 - Invent feature levels that do not appear in the source text
 - Alter mechanical text (damage, distances, conditions, saving throws, etc.)
 - Publish templates from `./templates/` as site pages

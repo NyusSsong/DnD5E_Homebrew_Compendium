@@ -1,6 +1,6 @@
 <p><strong>Filter by level:</strong></p>
 
-<select id="level-select" class="filter-select">
+<select id="level-select" class="filter-select" data-filter-content="level-content" data-filter-attr="level">
     <option value="all">All</option>
     <option value="level-2">2nd Level</option>
     <option value="level-7">7th Level</option>

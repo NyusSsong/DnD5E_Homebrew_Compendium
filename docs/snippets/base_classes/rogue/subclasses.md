@@ -1,5 +1,5 @@
 <p><strong>Choose a Subclass:</strong></p>
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="avenger">Avenger</option>
     <option value="black-knight">Black Knight</option>

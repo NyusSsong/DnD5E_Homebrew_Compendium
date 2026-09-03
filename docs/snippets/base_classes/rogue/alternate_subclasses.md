@@ -1,5 +1,5 @@
 <p><strong>Choose an Alternate Subclass:</strong></p>
-<select id="alt-subclass-select" class="filter-select">
+<select id="alt-subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="alt-assassin">Alternate Assassin</option>
     <option value="alt-arcane-trickster">Alternate Arcane Trickster</option>

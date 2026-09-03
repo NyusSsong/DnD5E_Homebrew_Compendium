@@ -30,7 +30,7 @@ homebrew repository. Always read this skill before creating or editing any file.
             admonition-*.css
         icons/
         js/
-            filter.js          ← global filter registration
+            filter.js          ← delegated filter wiring (no per-filter registration)
             magic-items.js
     classes/
         base_classes/          ← assembled class pages (one per class)
@@ -214,7 +214,7 @@ Add a filter to a snippet when:
 ```html
 <p><strong>Choose a [category type]:</strong></p>
 
-<select id="[filter-id]" class="filter-select">
+<select id="[filter-id]" class="filter-select" data-filter-content="[content-class]" data-filter-attr="[data-attr]">
     <option value="all">All</option>
     <option value="[slug]">[Display Name]</option>
 </select>
@@ -234,24 +234,21 @@ Add a filter to a snippet when:
 > convention. If a given content class still uses a different header style, follow
 > that snippet's own formatting rules instead.
 
-### Registered filters
+### How filters self-register
 
-Before adding a new filter, read `docs/assets/js/filter.js` to see every `setupFilter()`
-call already registered. Do not duplicate an existing filter ID.
+Filters need **no JavaScript**: `docs/assets/js/filter.js` is a single delegated
+`change` listener that wires up every `<select class="filter-select">` carrying
+`data-filter-content` and `data-filter-attr`. Adding a filter to a snippet is pure
+markup — never edit `filter.js`.
 
-### Adding a new class-specific filter
-
-When a new snippet needs a filter ID not already in `filter.js`:
-1. Use a descriptive ID: `[category]-select` (e.g. `discipline-select`, `talent-select`)
-2. **Multi-word data attributes:** the HTML attribute uses kebab-case (`data-metamagic-cost`)
-   but the `data-attr` argument passed to `setupFilter()` must use camelCase
-   (`metamagicCost`). Single-word attributes are the same in both (`data-subclass` →
-   `subclass`).
-3. Propose adding this line to `filter.js` under `// Initialize filters`:
-   ```javascript
-   setupFilter('[filter-id]', '[content-class]', '[data-attr]');
-   ```
-4. Always inform the user and ask for confirmation before editing `filter.js`
+1. Give the select a descriptive ID ending in `-select` (e.g. `discipline-select`,
+   `talent-select`). Do not duplicate an existing filter ID.
+2. `data-filter-content` must match the `class` of the content `<div>`s it filters.
+3. `data-filter-attr` must match the `data-*` attribute on those `<div>`s, in
+   **camelCase**: `data-metamagic-cost` → `metamagicCost`. Single-word attributes are
+   the same in both forms (`data-subclass` → `subclass`).
+4. For subclass lists, reuse the generic `subclass-select` / `alt-subclass-select`
+   pattern (both target `subclass-content` / `data-subclass`).
 
 ### Filtered list item format
 
@@ -308,7 +305,8 @@ and register its CSS in the matching `admonition-[category].css` file.
 3. Create snippet files in `docs/snippets/[source_folder]/[classname]/`
 4. Create assembled page in `docs/classes/[source_folder]/[classname].md`
 5. Check if input material brings extra format in tables. Output tables do not use `<div>`, just pure Markdown.
-6. Check `filter.js`: if any new filter IDs are needed, propose the addition to the user
+6. Check every new filter select carries `data-filter-content` and `data-filter-attr`
+   (see "How filters self-register") — `filter.js` never needs editing
 7. Check in similar files for other classes if some of the bullet points (especially in `core_features.md` files) have a double space at the end to account for the line-break spacing issue.
 
 ## Workflow: Reformatting Existing Content

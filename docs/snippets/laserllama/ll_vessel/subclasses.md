@@ -1,6 +1,6 @@
 <p><strong>Choose a sealed spirit:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="ascended">The Ascended</option>
     <option value="cataclysm">The Cataclysm</option>

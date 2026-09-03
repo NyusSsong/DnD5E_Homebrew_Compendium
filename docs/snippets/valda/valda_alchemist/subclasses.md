@@ -1,6 +1,6 @@
 <p><strong>Choose a field of study:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="amorist">Amorist</option>
   <option value="apothecary">Apothecary</option>

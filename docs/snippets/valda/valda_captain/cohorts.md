@@ -22,7 +22,7 @@ Your cohort is the most steadfast of allies, loyal to a fault, and will likely b
 
 <p><strong>Choose a cohort:</strong></p>
 
-<select id="type-select" class="filter-select">
+<select id="type-select" class="filter-select" data-filter-content="type-content" data-filter-attr="type">
   <option value="all">All</option>
   <option value="abbot">Abbot</option>
   <option value="berserker">Berserker</option>

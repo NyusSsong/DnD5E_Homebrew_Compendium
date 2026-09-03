@@ -1,6 +1,6 @@
 <p><strong>Choose a psionic discipline:</strong></p>
 
-<select id="discipline-select" class="filter-select">
+<select id="discipline-select" class="filter-select" data-filter-content="discipline-content" data-filter-attr="discipline">
     <option value="all">All</option>
     <option value="consumption">Consumption Discipline</option>
     <option value="enhancement">Enhancement Discipline</option>

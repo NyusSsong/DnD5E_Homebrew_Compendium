@@ -1,6 +1,6 @@
 <p><strong>Filter by level:</strong></p>
 
-<select id="rite-select" class="filter-select">
+<select id="rite-select" class="filter-select" data-filter-content="rite-content" data-filter-attr="rite">
   <option value="all">All</option>
   <option value="basic">No Prerequisite</option>
   <option value="5th">5th Level</option>

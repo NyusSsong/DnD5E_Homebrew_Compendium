@@ -1,6 +1,6 @@
 <p><strong>Choose a subclass:</strong></p>
 
-<select id="upgrade-select" class="filter-select">
+<select id="upgrade-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
 <option value="all">All</option>
 <option value="cursesmith">Cursesmith Upgrades</option>
 <option value="fleshsmith">Fleshsmith Upgrades</option>

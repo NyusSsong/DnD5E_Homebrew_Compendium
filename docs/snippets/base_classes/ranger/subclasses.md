@@ -1,6 +1,6 @@
 <p><strong>Choose a ranger conclave:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="amazon">Amazon Conclave</option>
     <option value="apex-predator">Apex Predator Conclave</option>

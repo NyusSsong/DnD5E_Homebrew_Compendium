@@ -41,9 +41,18 @@ Session of 2026-09-03 — items implemented in risk-ascending order:
    via `input/README.md` (AGENTS.md's workflow depends on it); `readme.md` rewritten
    with a repo intro and local-build instructions (credits notice preserved); duplicate
    "Psion Spell List" / "Core Warden Features" tab labels left as-is per owner decision.
+9. **filter.js self-registration** (§5, 2026-09-04): replaced the 11 `setupFilter(...)`
+   registrations with one delegated `change` listener driven by `data-filter-content` /
+   `data-filter-attr` on each select; added the attributes to all 69 selects (67
+   snippets + 2 templates) and updated SKILL.md/AGENTS.md (the "edit filter.js" step
+   and its user-confirmation guard are gone). **Bonus fix:** the Kibbles Inventor
+   "Upgrades" filter was registered as `upgrade-content`/`upgrade` but its content
+   divs are `subclass-content`/`data-subclass` — it never worked; rewired to
+   `subclass-content`/`subclass`. The delegated listener also survives MkDocs
+   Material's `navigation.instant` soft page swaps, which the old
+   `DOMContentLoaded`-captured listeners did not.
 
-Still open: §1 (CI + validation script), §5 (filter.js self-registration refactor),
-§6 (CSS consolidation/audit).
+Still open: §1 (CI + validation script), §6 (CSS consolidation/audit).
 
 ---
 
@@ -62,8 +71,9 @@ against `docs/` and fails on:
 - Single-dash `-8<--` includes (silently render as literal text).
 - `&nbsp;` entities, `<div class='classTable'>` wrappers.
 - `---` used as horizontal rules instead of `<hr>` (see §2).
-- Filter `<select id>`s used in snippets that aren't registered in
-  `docs/assets/js/filter.js`.
+- Filter `<select class="filter-select">`s missing `data-filter-content` /
+  `data-filter-attr`, or whose declared content class / data attribute doesn't exist
+  in the same file.
 - Nav entries in `mkdocs.yml` vs. actual class pages (currently in sync).
 
 **Why:** turns the documented conventions into automated guardrails; catches regressions
@@ -176,12 +186,15 @@ error-prone manual step in the whole workflow:
    `DOMContentLoaded` (or a MutationObserver for tabbed content). New filters in
    snippets then work with **zero JS changes**, which also eliminates the
    "did I register the right id/data-attr?" failure mode.
+   **Status: resolved** (2026-09-04) — one delegated `change` listener in `filter.js`
+   (10 lines); all 69 selects now carry `data-filter-content` + `data-filter-attr`;
+   SKILL.md/AGENTS.md updated. Also fixed the pre-existing dead Kibbles Inventor
+   "Upgrades" filter (`upgrade-content`/`upgrade` never matched its
+   `subclass-content`/`data-subclass` divs). See execution log #9.
 2. `setupFilter` toggles `style.display` directly; a `.is-hidden` class (defined in
    CSS, respecting the site's dark/light scheme) would be cleaner and consistent with
-   how `custom.css` is organized.
-
-Also: the `// Initialize filters` block mixes generic, base-class, Kibbles, and
-2CGaming filters without grouping by source in the comment — re-group for maintainability.
+   how `custom.css` is organized. **Status: not done** — behavior identical to the
+   old code; optional polish if CSS consolidation (§6) happens.
 
 ---
 

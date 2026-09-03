@@ -2,7 +2,7 @@ Each warmage is defined by their chosen House, which teaches them valuable skill
 
 <p><strong>Choose a warmage house:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="bishops">House of Bishops</option>
   <option value="cards">House of Cards</option>

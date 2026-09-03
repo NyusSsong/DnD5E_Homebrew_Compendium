@@ -1,6 +1,6 @@
 <p><strong>Choose a technique tier:</strong></p>
 
-<select id="level-select" class="filter-select">
+<select id="level-select" class="filter-select" data-filter-content="level-content" data-filter-attr="level">
     <option value="all">All</option>
     <option value="no-level-prereq">Initiate</option>
     <option value="level-5">Disciple</option>

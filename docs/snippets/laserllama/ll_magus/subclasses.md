@@ -1,6 +1,6 @@
 <p><strong>Choose an esoteric order:</strong></p>
 
-<select id="subclass-select" class="filter-select">
+<select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="arcanists">Order of Arcanists</option>
   <option value="arcane-archers">Order of Arcane Archers</option>

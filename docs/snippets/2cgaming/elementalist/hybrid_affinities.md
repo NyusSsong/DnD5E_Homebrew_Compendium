@@ -1,6 +1,6 @@
 <p><strong>Choose a hybrid element:</strong></p>
 
-<select id="hybrid-select" class="filter-select">
+<select id="hybrid-select" class="filter-select" data-filter-content="hybrid-content" data-filter-attr="hybrid">
     <option value="all">All</option>
     <option value="ice">Ice</option>
     <option value="life">Life</option>
