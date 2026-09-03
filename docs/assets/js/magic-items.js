@@ -1,16 +1,20 @@
 // Magic Items Database Standalone Component
+
+// Supabase project settings. The anon key is safe to expose client-side by design
+// — row-level security (RLS) on the "items" table is what protects the data.
+const SUPABASE_CONFIG = {
+    URL: "https://mcsyppddpfdwszjujvdb.supabase.co",
+    ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1jc3lwcGRkcGZkd3N6anVqdmRiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjAwODEwMDQsImV4cCI6MjA3NTY1NzAwNH0.baTeknh36nwbn3PFV_CNGt-3aTD7QYo12mI1cxn6iZw"
+};
+
 class MagicItemsDB {
     constructor(containerElement) {
         this.container = containerElement;
-        this.SUPABASE_URL = "https://mcsyppddpfdwszjujvdb.supabase.co";
-        this.SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1jc3lwcGRkcGZkd3N6anVqdmRiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjAwODEwMDQsImV4cCI6MjA3NTY1NzAwNH0.baTeknh36nwbn3PFV_CNGt-3aTD7QYo12mI1cxn6iZw";
-        
-        this.supabaseClient = supabase.createClient(this.SUPABASE_URL, this.SUPABASE_ANON_KEY);
+        this.supabaseClient = supabase.createClient(SUPABASE_CONFIG.URL, SUPABASE_CONFIG.ANON_KEY);
         this.items = [];
         this.filteredItems = [];
         this.sortAscending = true;
-        this.user = null;
-        
+
         this.init();
     }
 
@@ -45,11 +49,6 @@ class MagicItemsDB {
                             <option value="No">No</option>
                         </select>
                         <button id="mi-sort-alpha" class="magic-items-button">Sort A–Z</button>
-                        <div class="magic-items-auth" style="display: none;">
-                            <button id="mi-login-btn" class="magic-items-button">Login</button>
-                            <button id="mi-logout-btn" class="magic-items-button" style="display:none;">Logout</button>
-                            <button id="mi-open-add-card" class="magic-items-button" style="display:none;">Add Item</button>
-                        </div>
                     </div>
                 </header>
 
@@ -78,55 +77,19 @@ class MagicItemsDB {
                         <div id="mi-modal-description" class="magic-items-description"></div>
                     </div>
                 </div>
-
-                <!-- Add Item Card -->
-                <div id="mi-add-item-card" class="magic-items-modal">
-                    <div class="magic-items-card-content">
-                        <h2>Add New Item</h2>
-                        <input type="text" id="mi-add-name" placeholder="Name" required class="magic-items-input" />
-                        <input type="text" id="mi-add-type" placeholder="Type" required class="magic-items-input" />
-                        <select id="mi-add-rarity" required class="magic-items-select">
-                            <option value="">Select Rarity</option>
-                            <option value="Common">Common</option>
-                            <option value="Uncommon">Uncommon</option>
-                            <option value="Rare">Rare</option>
-                            <option value="Very Rare">Very Rare</option>
-                            <option value="Legendary">Legendary</option>
-                            <option value="Unique">Unique</option>
-                        </select>
-                        <select id="mi-add-attunement" required class="magic-items-select">
-                            <option value="">Requires Attunement?</option>
-                            <option value="Yes">Yes</option>
-                            <option value="No">No</option>
-                        </select>
-                        <textarea id="mi-add-description" placeholder="Description (supports * for bullet points)" class="magic-items-textarea"></textarea>
-                        <div class="magic-items-card-buttons">
-                            <button class="magic-items-submit-btn" id="mi-submit-item">Add Item</button>
-                            <button class="magic-items-cancel-btn" id="mi-cancel-item">Cancel</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Login Modal -->
-                <div id="mi-login-modal" class="magic-items-modal">
-                    <div class="magic-items-card-content">
-                        <h2>Login</h2>
-                        <input type="email" id="mi-login-email" placeholder="Email" required class="magic-items-input" />
-                        <input type="password" id="mi-login-password" placeholder="Password" required class="magic-items-input" />
-                        <div class="magic-items-card-buttons">
-                            <button id="mi-login-submit" class="magic-items-submit-btn">Login</button>
-                            <button id="mi-login-cancel" class="magic-items-cancel-btn">Cancel</button>
-                        </div>
-                        <p id="mi-login-error" class="magic-items-error"></p>
-                    </div>
-                </div>
             </div>
         `;
     }
 
     setupEventListeners() {
-        // Search and filters
-        this.container.querySelector('#mi-search').addEventListener('input', () => this.applyFilters());
+        // Search and filters — the search box is debounced because each input
+        // event rebuilds the entire results table.
+        const searchInput = this.container.querySelector('#mi-search');
+        let searchTimer = null;
+        searchInput.addEventListener('input', () => {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => this.applyFilters(), 150);
+        });
         this.container.querySelector('#mi-filter-type').addEventListener('change', () => this.applyFilters());
         this.container.querySelector('#mi-filter-rarity').addEventListener('change', () => this.applyFilters());
         this.container.querySelector('#mi-filter-attunement').addEventListener('change', () => this.applyFilters());
@@ -137,23 +100,6 @@ class MagicItemsDB {
         this.container.querySelector('#mi-modal').addEventListener('click', (e) => {
             if (e.target === this.container.querySelector('#mi-modal')) this.closeModal();
         });
-
-        // Add item card
-        this.container.querySelector('#mi-open-add-card')?.addEventListener('click', () => this.openAddCard());
-        this.container.querySelector('#mi-cancel-item').addEventListener('click', () => this.closeAddCard());
-        this.container.querySelector('#mi-add-item-card').addEventListener('click', (e) => {
-            if (e.target === this.container.querySelector('#mi-add-item-card')) this.closeAddCard();
-        });
-        this.container.querySelector('#mi-submit-item').addEventListener('click', () => this.submitItem());
-
-        // Login
-        this.container.querySelector('#mi-login-btn')?.addEventListener('click', () => this.openLogin());
-        this.container.querySelector('#mi-login-cancel').addEventListener('click', () => this.closeLogin());
-        this.container.querySelector('#mi-login-modal').addEventListener('click', (e) => {
-            if (e.target === this.container.querySelector('#mi-login-modal')) this.closeLogin();
-        });
-        this.container.querySelector('#mi-login-submit').addEventListener('click', () => this.submitLogin());
-        this.container.querySelector('#mi-logout-btn')?.addEventListener('click', () => this.logout());
     }
 
     async loadItems() {
@@ -262,110 +208,6 @@ class MagicItemsDB {
 
     closeModal() {
         this.container.querySelector('#mi-modal').style.display = "none";
-    }
-
-    openAddCard() {
-        this.container.querySelector('#mi-add-item-card').style.display = "flex";
-    }
-
-    closeAddCard() {
-        this.container.querySelector('#mi-add-item-card').style.display = "none";
-    }
-
-    openLogin() {
-        this.container.querySelector('#mi-login-modal').style.display = "flex";
-    }
-
-    closeLogin() {
-        this.container.querySelector('#mi-login-modal').style.display = "none";
-        this.container.querySelector('#mi-login-error').textContent = "";
-    }
-
-    async submitLogin() {
-        const email = this.container.querySelector('#mi-login-email').value;
-        const password = this.container.querySelector('#mi-login-password').value;
-        const errorElement = this.container.querySelector('#mi-login-error');
-
-        errorElement.textContent = "";
-
-        try {
-            const { data, error } = await this.supabaseClient.auth.signInWithPassword({ email, password });
-            if (error) throw error;
-            
-            this.user = data.user;
-            this.closeLogin();
-            this.updateAuthUI();
-        } catch (err) {
-            console.error(err);
-            errorElement.textContent = "Login failed. Check your credentials.";
-        }
-    }
-
-    async logout() {
-        await this.supabaseClient.auth.signOut();
-        this.user = null;
-        this.updateAuthUI();
-    }
-
-    updateAuthUI() {
-        const loginBtn = this.container.querySelector('#mi-login-btn');
-        const logoutBtn = this.container.querySelector('#mi-logout-btn');
-        const addBtn = this.container.querySelector('#mi-open-add-card');
-        const authContainer = this.container.querySelector('.magic-items-auth');
-
-        if (this.user) {
-            if (loginBtn) loginBtn.style.display = "none";
-            if (logoutBtn) logoutBtn.style.display = "inline-block";
-            if (addBtn) addBtn.style.display = "inline-block";
-        } else {
-            if (loginBtn) loginBtn.style.display = "inline-block";
-            if (logoutBtn) logoutBtn.style.display = "none";
-            if (addBtn) addBtn.style.display = "none";
-        }
-
-        // Show auth controls only if needed
-        if (authContainer) {
-            authContainer.style.display = "block";
-        }
-    }
-
-    async submitItem() {
-        if (!this.user) {
-            alert("You must be logged in to add items.");
-            return;
-        }
-
-        const newItem = {
-            name: this.container.querySelector('#mi-add-name').value.trim(),
-            type: this.container.querySelector('#mi-add-type').value.trim(),
-            rarity: this.container.querySelector('#mi-add-rarity').value,
-            attunement: this.container.querySelector('#mi-add-attunement').value,
-            description: this.container.querySelector('#mi-add-description').value.trim()
-        };
-
-        if (!newItem.name || !newItem.type || !newItem.rarity || !newItem.attunement) {
-            alert("Please fill all required fields.");
-            return;
-        }
-
-        try {
-            const { error } = await this.supabaseClient.from("items").insert([newItem]);
-            if (error) throw error;
-
-            // Reset form
-            this.container.querySelector('#mi-add-name').value = "";
-            this.container.querySelector('#mi-add-type').value = "";
-            this.container.querySelector('#mi-add-rarity').value = "";
-            this.container.querySelector('#mi-add-attunement').value = "";
-            this.container.querySelector('#mi-add-description').value = "";
-            
-            this.closeAddCard();
-            await this.loadItems();
-            this.applyFilters();
-        } catch (err) {
-            console.error("Failed to add item:", err);
-            alert("Failed to add item.");
-        }
     }
 
     escapeHtml(str) {

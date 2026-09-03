@@ -25,11 +25,21 @@ Session of 2026-09-03 — items implemented in risk-ascending order:
 5. **XSS fix** (§4.1): `magic-items.js` now sanitizes `marked.parse()` output with
    DOMPurify 3.4.14 (pinned; versions 3.1.3–3.2.6 are vulnerable to CVE-2026-0540);
    without DOMPurify it degrades to plain text, never unsanitized HTML.
+6. **JS hardening** (§4.2–4.5): Supabase URL/anon key hoisted into a `SUPABASE_CONFIG`
+   constant; 150 ms debounce on the search box; marked 18.0.11 and supabase-js 2.114.0
+   pinned (DOMPurify 3.4.14 added with the XSS fix). §4.4 investigated — no change needed.
+7. **Dead auth UI removed from the Magic Items page** (§4.6, 2026-09-04): after RLS
+   was verified in the Supabase dashboard and web write policies were dropped in favor
+   of DBeaver edits (dedicated `db_editor` role), the site is anonymous read-only.
+   Removed the login/add-item modals, auth buttons, and all auth methods (`submitLogin`,
+   `logout`, `updateAuthUI`, `submitItem`, …) from `magic-items.js`, the card/login CSS
+   from `magic-items.css`, and the duplicate inline `<script>` for `magic-items.js` in
+   `docs/magic-items.md` (it is already loaded site-wide via `mkdocs.yml`
+   `extra_javascript` — the double load spun up two instances on that page).
 
-Still open: §1 (CI + validation script), §3 item 3 note (templates now aligned), §4.2–4.5
-(hardcoded credentials note, debounce, marked pinned / supabase-js still major-pinned),
-§5 (filter.js self-registration refactor), §6 (CSS consolidation/audit), §7 (orphan
-`spellcasting.md`, empty `input/`, README, nav label collisions).
+Still open: §1 (CI + validation script), §5 (filter.js self-registration refactor),
+§6 (CSS consolidation/audit), §7 (orphan `spellcasting.md`, empty `input/`, README,
+nav label collisions).
 
 ---
 
@@ -68,9 +78,9 @@ no CI, no dependency pinning** — the site cannot be verified or deployed repro
 |---|---------|----------|
 | a | `docs/snippets/valda/valda_alchemist/bomb_formulae.md` uses `---` as separators (lines 38–64+); every other snippet uses `<hr>` | Convert to `<hr>` |
 | b | 67 of 223 Markdown files have a UTF-8 **BOM** (e.g. `docs/snippets/base_classes/barbarian/subclasses.md`); the rest don't. **Status: resolved** (2026-09-03) — BOMs stripped from all 67 files; `.editorconfig` added (`charset = utf-8`, `end_of_line = lf`) |
-| c | `docs/assets/js/filter.js` has inconsistent semicolons (`setupFilter(...)` calls sometimes lack `;`) and mixes quote styles | Format with Prettier/StandardJS |
-| d | `docs/assets/css/custom.css` mixes English and Portuguese comments (e.g. "Override específico para headings dentro de admonitions/details") | Translate to English for consistency |
-| e | `docs/magic-items.md` loads `assets/css/magic-items.css` via `<link>` **and** the file is already in `mkdocs.yml` `extra_css` (loaded on every page) | Remove the duplicate `<link>`; consider moving the CDN `<script>`s to `extra_javascript` with version pins |
+| c | `docs/assets/js/filter.js` has inconsistent semicolons (`setupFilter(...)` calls sometimes lack `;`) and mixes quote styles | Format with Prettier/StandardJS. **Status: resolved** (2026-09-03) — missing semicolons added |
+| d | `docs/assets/css/custom.css` mixes English and Portuguese comments (e.g. "Override específico para headings dentro de admonitions/details") | Translate to English for consistency. **Status: resolved** (2026-09-03) |
+| e | `docs/magic-items.md` loads `assets/css/magic-items.css` via `<link>` **and** the file is already in `mkdocs.yml` `extra_css` (loaded on every page) | Remove the duplicate `<link>`; pin CDN versions. **Status: resolved** (2026-09-03) — duplicate `<link>` removed; marked/supabase-js pinned exactly |
 
 ---
 
@@ -92,20 +102,22 @@ These three discrepancies will mislead any agent or contributor:
    `class="filter-select"` (defined in `custom.css`), but `templates/subclasses.md` and
    the SKILL.md filter pattern still show the old inline `style="padding: 0.4em; …"`
    markup. Align templates + SKILL.md with the CSS-class approach; the inline-style
-   pattern in the template is dead convention. **Status: still open.**
+   pattern in the template is dead convention. **Status: resolved** (2026-09-03) —
+   `templates/subclasses.md`, `templates/alternate_subclass.md`, and the SKILL.md filter
+   pattern now use `class="filter-select"`.
 
 **Bonus:** the assembled-page template says the last tab is `"Subclasses"`, but **no**
 class page uses that label — every page uses a thematic name ("Primal Paths", "Witch's
 Crafts", "Divine Domains", "Occult Traditions", …). This is a deliberate and consistent
-deviation. **Status: partially resolved** (2026-09-03) — the convention is now documented
-in SKILL.md (§ Assembled Class Page) and AGENTS.md (step 5); `templates/class.md` still
-shows `=== "Subclasses"` and can be updated to match.
+deviation. **Status: resolved** (2026-09-03) — documented in SKILL.md (§ Assembled Class
+Page), AGENTS.md (step 5), and `templates/class.md` now shows a `[Thematic Subclass Tab
+Name]` placeholder.
 
 ---
 
 ## 4. JS quality: `magic-items.js`
 
-The Magic Items database component (`docs/assets/js/magic-items.js`, ~380 lines) is the
+The Magic Items database component (`docs/assets/js/magic-items.js`, ~220 lines) is the
 largest piece of hand-written code. Findings, in order of importance:
 
 1. **Unsanitized markdown → stored XSS risk.** `openModal()` renders
@@ -114,18 +126,38 @@ largest piece of hand-written code. Findings, in order of importance:
    an authenticated "Add Item" flow, any user with write access to the Supabase table can
    inject script. Fix: sanitize with DOMPurify before/after `marked.parse`, or render
    with `textContent` and a tiny safe markdown subset (bullets are the advertised
-   feature).
+   feature). **Status: resolved** (2026-09-03) — `DOMPurify.sanitize(marked.parse(...))`
+   with DOMPurify 3.4.14 pinned; falls back to plain text (never unsanitized HTML)
+   when DOMPurify is unavailable. (2026-09-04: the authenticated add-item flow was
+   removed entirely — see execution log #7 — so descriptions are now DBeaver-administered;
+   DOMPurify is kept as defense-in-depth.)
 2. **Credentials are hardcoded.** The Supabase URL + anon key live in the constructor.
    Anon keys are public by design, so this is acceptable for a static site **only if**
    Row Level Security (RLS) is enabled server-side — verify that the `items` table
    enforces RLS so the key can't read/insert beyond policy. Consider hoisting them into
    a single `CONFIG` constant at the top of the file for reviewability.
+   **Status: resolved** (2026-09-03/04) — hoisted into a `SUPABASE_CONFIG` constant
+   with a comment; RLS was then verified in the Supabase dashboard (anonymous reads
+   work, anonymous writes rejected with `42501`, write policies were gated by
+   `auth.uid() IS NOT NULL`) and the web write policies were dropped entirely in
+   favor of DBeaver edits — see execution log #7.
 3. **`renderItems()` rebuilds the whole table on every keystroke** in the search box.
    Fine for small datasets; add a ~150 ms debounce if the table grows.
+   **Status: resolved** (2026-09-03) — 150 ms debounce added to the search input.
 4. **Redundant double render** — `init()` calls `loadItems()` → `populateFilters()`,
    then `applyFilters()` (which re-renders). Harmless; just noting.
+   **Status: no action needed** — `populateFilters()` only rebuilds the type `<select>`
+   options; the table renders exactly once per data change.
 5. **CDN deps are floating:** `marked.min.js` is unpinned (any version); pin exact
    versions in the `<script>` tags for reproducibility.
+   **Status: resolved** (2026-09-03) — marked 18.0.11 and supabase-js 2.114.0 pinned
+   in `docs/magic-items.md` (DOMPurify 3.4.14 added with the XSS fix).
+6. **Dead auth/add-item flow** — after the web write policies were dropped (site is
+   anonymous read-only; writes happen via DBeaver), the login buttons, modals, and
+   `submitItem` path promised web inserts that RLS now rejects.
+   **Status: resolved** (2026-09-04) — auth UI and all related methods/CSS removed;
+   also removed the duplicate inline `<script>` for `magic-items.js` (double load
+   spawned two instances on the page). See execution log #7.
 
 ---
 
@@ -158,9 +190,9 @@ Also: the `// Initialize filters` block mixes generic, base-class, Kibbles, and
 - The four `admonition-*.css` files repeat the same "shared structural rules" block
   (border-color + title styles per category). They could share one base file with
   per-category icon variables; low priority, purely cosmetic consolidation.
-- `magic-items.css` (414 lines) has heavy repetition in the modal/card button styles
-  (`.magic-items-submit-btn`, `.magic-items-cancel-btn`, inputs, selects) — could be
-  compressed, but it works; lowest priority.
+- `magic-items.css` had heavy repetition in the modal/card button styles; the card/
+  login styles were removed wholesale with the dead auth UI (execution log #7) — the
+  remaining file is leaner; any residual repetition is lowest priority.
 - Some rules in `custom.css` look stale after the table refactor (duplicate
   `.tabbed-content table` border declarations with `!important`); a quick audit with a
   CSS linter (stylelint) would surface dead rules.
