@@ -1,0 +1,32 @@
+/* ============================================================
+   ADMONITIONS — SHARED STRUCTURAL RULES
+   ============================================================
+
+   One home for the structural styling shared by every custom
+   admonition type across the category files (combat, entity,
+   campaign, creature). The per-type --admonition-color and
+   --admonition-icon variables are defined in each
+   admonition-[category].css; the rules below apply only to the
+   type classes listed here.
+
+   When adding a new icon type:
+     1. add its SVG to the appropriate category folder,
+     2. add its --md-admonition-icon--* variable to that
+        category file's :root block,
+     3. add its per-type color/icon variable line in that file,
+     4. add the type keyword to the :is(...) lists below.
+   ============================================================ */
+
+.md-typeset :is(.admonition, details):is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target, .archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world, .character, .explore, .feature, .hazard, .lock, .monster, .party, .puzzle, .rest, .social, .source-book, .spell, .subclass, .table, .trap, .aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) {
+  border-color: var(--admonition-color);
+}
+
+.md-typeset :is(.admonition, details):is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target, .archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world, .character, .explore, .feature, .hazard, .lock, .monster, .party, .puzzle, .rest, .social, .source-book, .spell, .subclass, .table, .trap, .aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > :is(.admonition-title, summary) {
+  background-color: color-mix(in srgb, var(--admonition-color) 10%, transparent);
+}
+
+.md-typeset :is(.admonition, details):is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target, .archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world, .character, .explore, .feature, .hazard, .lock, .monster, .party, .puzzle, .rest, .social, .source-book, .spell, .subclass, .table, .trap, .aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > :is(.admonition-title, summary)::before {
+  background-color: var(--admonition-color);
+  -webkit-mask-image: var(--admonition-icon);
+          mask-image: var(--admonition-icon);
+}

@@ -131,8 +131,10 @@
   margin: 0.4em 0 0.2em;
 }
 
-/* Ensure normal paragraphs look smaller than headers */
-p {
+/* Ensure normal paragraphs look smaller than headers.
+   Scoped to .md-typeset so the sizing never leaks outside the
+   main content area (headers, nav, embedded components). */
+.md-typeset p {
   font-size: 0.75rem;   /* slightly smaller than h4 */
   line-height: 1.6;     /* keep it readable */
   margin-bottom: 0.8em;
@@ -140,7 +142,7 @@ p {
 }
 
 /* Optional: make strong text within paragraphs stand out */
-p strong {
+.md-typeset p strong {
   font-weight: 700;
   color: var(--md-typeset-color);
 }

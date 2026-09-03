@@ -289,8 +289,10 @@ Available types by category:
 * `??? spell "Name"` — individual spell or power stat block
 * `??? feature "Name"` — optional feature callout
 
-When adding a new icon type to the repo, add the SVG to the appropriate category folder
-and register its CSS in the matching `admonition-[category].css` file.
+When adding a new icon type to the repo: add the SVG to the appropriate category folder,
+add its `--md-admonition-icon--*` variable and per-type color/icon line to the matching
+`admonition-[category].css` file, **and** add the type keyword to the `:is(...)` lists in
+`admonition-base.css` (which holds the shared structural rules for all custom types).
 
 ---
 

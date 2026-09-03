@@ -1,7 +1,7 @@
 # Repository Analysis & Optimization Proposals
 
 Analysis of the DnD 5E Homebrew Compendium repo (MkDocs Material site, ~209 Markdown
-files / ~52k lines, 34 assembled class pages, 172 snippets, 2 JS files, 6 CSS files).
+files / ~52k lines, 34 assembled class pages, 172 snippets, 2 JS files, 7 CSS files).
 
 Findings are grouped by impact. Each item lists the concrete change, the reason, and
 rough effort.
@@ -50,9 +50,18 @@ Session of 2026-09-03 — items implemented in risk-ascending order:
    divs are `subclass-content`/`data-subclass` — it never worked; rewired to
    `subclass-content`/`subclass`. The delegated listener also survives MkDocs
    Material's `navigation.instant` soft page swaps, which the old
-   `DOMContentLoaded`-captured listeners did not.
+   `DOMContentLoaded`-captured listeners did not. QA on localhost: all filter families
+   confirmed working (including the resurrected Inventor filter).
+10. **CSS consolidation** (§6, 2026-09-04): global `p { font-size }` rule scoped to
+    `.md-typeset p` so it can't leak outside the content area; new
+    `admonition-base.css` holds the shared admonition structural rules once (all 63
+    custom types) and the four `admonition-[category].css` files now keep only their
+    `:root` icon URLs + per-type color/icon variables; `mkdocs.yml` extra_css updated;
+    SKILL.md's "add an icon type" instructions now mention the base-file type list.
+    Dead-rule audit: no stale rules found worth removing — the remaining
+    `.tabbed-content table` border override is intentional.
 
-Still open: §1 (CI + validation script), §6 (CSS consolidation/audit).
+Still open: §1 (CI + validation script).
 
 ---
 
@@ -204,15 +213,21 @@ error-prone manual step in the whole workflow:
   everywhere, including inside admonitions/details and any future embedded component
   (magic-items has its own font rules that fight it). Scope it to `.md-content`/
   `.md-typeset` paragraphs instead of bare `p`.
+  **Status: resolved** (2026-09-04) — now `.md-typeset p` / `.md-typeset p strong`.
 - The four `admonition-*.css` files repeat the same "shared structural rules" block
   (border-color + title styles per category). They could share one base file with
   per-category icon variables; low priority, purely cosmetic consolidation.
+  **Status: resolved** (2026-09-04) — new `admonition-base.css` holds the structural
+  rules once (all 63 custom types); the category files keep only icon URLs and
+  per-type variables; SKILL.md updated. See execution log #10.
 - `magic-items.css` had heavy repetition in the modal/card button styles; the card/
   login styles were removed wholesale with the dead auth UI (execution log #7) — the
   remaining file is leaner; any residual repetition is lowest priority.
 - Some rules in `custom.css` look stale after the table refactor (duplicate
   `.tabbed-content table` border declarations with `!important`); a quick audit with a
   CSS linter (stylelint) would surface dead rules.
+  **Status: audited** (2026-09-04) — only one such declaration remains and it is
+  intentional; nothing stale found worth removing.
 
 ---
 
