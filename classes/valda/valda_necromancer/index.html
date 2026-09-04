@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="../../../assets/css/magic-items.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition-base.css">
+    
       <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
     
       <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
@@ -2254,7 +2256,7 @@
 </details>
 </div>
 <div class="tabbed-block">
-<p>﻿Necromancers use the following creatures as their thralls: bonebeasts, gorgers, gravetouched ghouls, skeletons, spirits, visages, and zombies. Unless otherwise stated, no other undead creatures can be animated as thralls. A Small or Medium humanoid corpse can be animated into any of these undead. Other than having a different size, their statistics are unchanged.</p>
+<p>Necromancers use the following creatures as their thralls: bonebeasts, gorgers, gravetouched ghouls, skeletons, spirits, visages, and zombies. Unless otherwise stated, no other undead creatures can be animated as thralls. A Small or Medium humanoid corpse can be animated into any of these undead. Other than having a different size, their statistics are unchanged.</p>
 <p>A corpse can become a zombie, gorger, or gravetouched ghoul. A pile of bones can become a skeleton or bonebeast. The corpse of a creature that has been dead for no more than an hour can become a spirit or visage.</p>
 <details class="table">
 <summary>Undead Thralls</summary>
@@ -2330,7 +2332,7 @@
 </table>
 </details>
 <p><p><strong>Choose a thrall type:</strong></p></p>
-<p><select id="type-select" class="filter-select">
+<p><select id="type-select" class="filter-select" data-filter-content="type-content" data-filter-attr="type">
   <option value="all">All</option>
   <option value="bonebeast">Bonebeast</option>
   <option value="gorger">Gorger</option>
@@ -2377,10 +2379,8 @@
 <strong>Senses</strong> darkvision 60 ft., passive Perception 10<br />
 <strong>Languages</strong> understands all languages it knew in life, as well as the languages of its creator, but can't speak<br />
 <strong>Challenge</strong> 1 (200 XP)</p>
-<hr />
 <p><strong>Keen Smell.</strong> The bonebeast has advantage on Wisdom (Perception) checks that rely on smell.</p>
 <p><strong>Pack Tactics.</strong> The bonebeast has advantage on attack rolls against a creature if at least one of the bonebeast's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
-<hr />
 <p><strong><em>Bite.</em></strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (2d6 + 2) piercing damage.</p>
 </details>
 </div>
@@ -2421,9 +2421,7 @@
 <strong>Senses</strong> blindsight 10 ft., darkvision 60 ft., passive Perception 10<br />
 <strong>Languages</strong> understands all languages it knew in life, as well as the languages of its creator, but can't speak<br />
 <strong>Challenge</strong> 1 (200 XP)</p>
-<hr />
 <p><strong>Echolocation.</strong> The gorger can't use its blindsight while deafened.</p>
-<hr />
 <p><strong><em>Bite.</em></strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) piercing damage.</p>
 </details>
 </div>
@@ -2464,9 +2462,7 @@
 <strong>Senses</strong> blindsight 60 ft., passive Perception 10<br />
 <strong>Languages</strong> understands all languages it knew in life, as well as the languages of its creator, but can't speak<br />
 <strong>Challenge</strong> 2 (450 XP)</p>
-<hr />
 <p><strong>Regeneration.</strong> The gravetouched ghoul regains 5 hit points at the start of its turn. If the gravetouched ghoul takes fire or radiant damage, this trait doesn't function at the start of the gravetouched ghoul's next turn. The gravetouched ghoul dies only if it starts its turn with 0 hit points and doesn't regenerate.</p>
-<hr />
 <p><strong><em>Claws.</em></strong> <em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 18 (4d6 + 4) slashing damage.</p>
 </details>
 </div>
@@ -2508,7 +2504,6 @@
 <strong>Senses</strong> darkvision 60 ft., passive Perception 9<br />
 <strong>Languages</strong> understands all languages it knew in life, as well as the languages of its creator, but can't speak<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong><em>Shortsword.</em></strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
 <p><strong><em>Shortbow.</em></strong> <em>Ranged Weapon Attack:</em> +4 to hit, range 80/320 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
 </details>
@@ -2551,9 +2546,7 @@
 <strong>Senses</strong> darkvision 120 ft., passive Perception 10<br />
 <strong>Languages</strong> understands all languages it knew in life, as well as the languages of its creator, but can't speak<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Incorporeal Movement.</strong> The spirit can move through other creatures and objects as if they were difficult terrain. The spirit takes 5 (1d10) force damage if it ends its turn inside an object.</p>
-<hr />
 <p><strong><em>Grave Touch.</em></strong> <em>Melee Spell Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 4 (1d4 + 2) necrotic damage and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>
 </details>
 </div>
@@ -2594,10 +2587,8 @@
 <strong>Senses</strong> darkvision 120 ft., passive Perception 10<br />
 <strong>Languages</strong> understands all languages it knew in life, as well as the languages of its creator, but can't speak<br />
 <strong>Challenge</strong> 2 (450 XP)</p>
-<hr />
 <p><strong>Incorporeal Movement.</strong> The visage can move through other creatures and objects as if they were difficult terrain. The visage takes 5 (1d10) force damage if it ends its turn inside an object.</p>
 <p><strong>Magic Resistance.</strong> The visage has advantage on saving throws against spells and other magical effects.</p>
-<hr />
 <p><strong><em>Horrify.</em></strong> <em>Melee Spell Attack:</em> +5 to hit, reach 5 ft., one creature. <em>Hit:</em> 15 (5d4 + 3) psychic damage.</p>
 <p><strong><em>Invisibility.</em></strong> The visage magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the visage wears or carries is invisible with it.</p>
 </details>
@@ -2639,9 +2630,7 @@
 <strong>Senses</strong> darkvision 60 ft., passive Perception 8<br />
 <strong>Languages</strong> understands all languages it knew in life, as well as the languages of its creator, but can't speak<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Undead Fortitude.</strong> If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</p>
-<hr />
 <p><strong><em>Slam.</em></strong> <em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) bludgeoning damage.</p>
 </details>
 </div>
@@ -2969,9 +2958,9 @@
 <p>*ᵛ denotes a Valda's Spire of Secrets spell.</p>
 </div>
 <div class="tabbed-block">
-<p>﻿Becoming a necromancer is seldom an accident. Almost all who dive into the secrets of life and death do so with a purpose, a method to the madness. This ambition is what drives them into the tenebrous corners of forgotten libraries, long abandoned tombs, and the graveyards of simple commoners. This ambition drives them further into the dark, with only the light of their goal to lead them through the all-consuming shadows. A necromancer's ambition represents the path to their ultimate goal, the length they'll go to achieve it, and serves to validate their actions, if only to themselves.</p>
+<p>Becoming a necromancer is seldom an accident. Almost all who dive into the secrets of life and death do so with a purpose, a method to the madness. This ambition is what drives them into the tenebrous corners of forgotten libraries, long abandoned tombs, and the graveyards of simple commoners. This ambition drives them further into the dark, with only the light of their goal to lead them through the all-consuming shadows. A necromancer's ambition represents the path to their ultimate goal, the length they'll go to achieve it, and serves to validate their actions, if only to themselves.</p>
 <p><p><strong>Choose a grave ambition:</strong></p></p>
-<p><select id="subclass-select" class="filter-select">
+<p><select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="blood-ascendant">Blood Ascendant</option>
   <option value="death-knight">Death Knight</option>

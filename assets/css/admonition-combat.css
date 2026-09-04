@@ -1,5 +1,8 @@
 /* ============================================================
    ADMONITIONS — COMBAT
+   Per-type icon URLs and color/icon variables only — the shared
+   structural rules (border, title, icon) live in
+   admonition-base.css.
    ============================================================ */
 
 :root {
@@ -12,27 +15,6 @@
   --md-admonition-icon--reaction:     url("../icons/svg/combat/reaction.svg");
   --md-admonition-icon--round:        url("../icons/svg/combat/round.svg");
   --md-admonition-icon--target:       url("../icons/svg/combat/target.svg");
-}
-
-/* ============================================================
-   SHARED STRUCTURAL RULES
-   ============================================================ */
-
-.md-typeset .admonition:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target),
-.md-typeset details:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) {
-  border-color: var(--admonition-color);
-}
-
-.md-typeset .admonition:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > .admonition-title,
-.md-typeset details:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > summary {
-  background-color: color-mix(in srgb, var(--admonition-color) 10%, transparent);
-}
-
-.md-typeset .admonition:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > .admonition-title::before,
-.md-typeset details:is(.action, .bonus_action, .reaction, .initiative, .melee, .ranged, .reach, .round, .target) > summary::before {
-  background-color: var(--admonition-color);
-  -webkit-mask-image: var(--admonition-icon);
-          mask-image: var(--admonition-icon);
 }
 
 /* ============================================================

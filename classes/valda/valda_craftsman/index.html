@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="../../../assets/css/magic-items.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition-base.css">
+    
       <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
     
       <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
@@ -2061,10 +2063,10 @@
 <p>At 20th level, you complete an object of unparalleled majesty. You work feverishly for a period of 30 days to create a single magic item of very rare or legendary rarity. This item is tied to your very soul: regardless of type, you are always considered attuned to it, and no other creature can attune to it while you are alive. This item does not count against your maximum number of attuned items, and you ignore all attunement requirements for the item. As long as you are on the same plane of existence as your item, you can call it to your hand or onto your body (as appropriate). You can only craft a Magnum Opus once.</p>
 </div>
 <div class="tabbed-block">
-<p>﻿Masterwork properties can be applied to any masterwork weapon or suit of armor, provided you can spare the time and gold cost required to apply it. Each property entry details the property's level and the type of equipment it can be applied to.</p>
+<p>Masterwork properties can be applied to any masterwork weapon or suit of armor, provided you can spare the time and gold cost required to apply it. Each property entry details the property's level and the type of equipment it can be applied to.</p>
 <p>Unless otherwise noted, a piece of gear cannot have the same property more than once; for example, you cannot apply the Heavy property to a greatsword, or the Martial property to a longbow.</p>
 <p><p><strong>Choose a property type:</strong></p></p>
-<p><select id="type-select" class="filter-select">
+<p><select id="type-select" class="filter-select" data-filter-content="type-content" data-filter-attr="type">
   <option value="all">All</option>
   <option value="weapon">Weapon</option>
   <option value="armor">Armor</option>
@@ -2419,9 +2421,9 @@
 </div>
 </div>
 <div class="tabbed-block">
-<p>﻿All master craftsmen learn the basics of smithing, leatherworking, woodworking, and other necessary disciplines on the path to mastery, either on their own or under tutelage of another master artisan. However, as they hone their skills, they invariably find themselves drawn to gatherings of other like-minded craftsmen. These groups, formalized as Guilds, provide a means for craftsmen to compare notes and schematics, acquire resources, and upgrade their trade.</p>
+<p>All master craftsmen learn the basics of smithing, leatherworking, woodworking, and other necessary disciplines on the path to mastery, either on their own or under tutelage of another master artisan. However, as they hone their skills, they invariably find themselves drawn to gatherings of other like-minded craftsmen. These groups, formalized as Guilds, provide a means for craftsmen to compare notes and schematics, acquire resources, and upgrade their trade.</p>
 <p><p><strong>Choose an artisans' guild:</strong></p></p>
-<p><select id="subclass-select" class="filter-select">
+<p><select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="arcane-maesters">Arcane Maesters</option>
   <option value="armigers">Armigers</option>
@@ -2653,10 +2655,8 @@
 <strong>Condition Immunities</strong> blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned<br />
 <strong>Senses</strong> blindsight 120 ft. (blind beyond this radius), passive Perception 6<br />
 <strong>Languages</strong> —  </p>
-<hr />
 <p><strong>Cockpit Cover.</strong> Any creature inside the apparatus is granted total cover from outside effects, but takes half the damage taken by the apparatus.</p>
 <p><strong>Double Two-Handed.</strong> The apparatus has two mechanical arms, each of which can hold one installed weapon. Each mechanical arm is powerful enough to wield weapons as if with two hands. The apparatus can only use melee weapons.</p>
-<hr />
 <p><strong>Maul (right hand).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) bludgeoning damage.</p>
 <p><strong>Maul (left hand).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) bludgeoning damage.</p>
 </details>

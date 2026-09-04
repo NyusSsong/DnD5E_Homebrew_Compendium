@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="../../../assets/css/magic-items.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition-base.css">
+    
       <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
     
       <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
@@ -2114,8 +2116,8 @@
 <p>Once you summon a hellstorm, you must finish a long rest before you can do so again.</p>
 </div>
 <div class="tabbed-block">
-<p>﻿<p><strong>Filter by level:</strong></p></p>
-<p><select id="level-select" class="filter-select">
+<p><p><strong>Filter by level:</strong></p></p>
+<p><select id="level-select" class="filter-select" data-filter-content="level-content" data-filter-attr="level">
     <option value="all">All</option>
     <option value="level-2">2nd Level</option>
     <option value="level-7">7th Level</option>
@@ -2185,8 +2187,8 @@
 </div>
 </div>
 <div class="tabbed-block">
-<p>﻿<p><strong>Choose a subclass:</strong></p></p>
-<p><select id="subclass-select" class="filter-select">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="architect">Architect of Ruin</option>
     <option value="hellspeaker">Hellspeaker</option>

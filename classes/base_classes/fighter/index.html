@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="../../../assets/css/magic-items.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition-base.css">
+    
       <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
     
       <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
@@ -2144,8 +2146,8 @@
 <p>Exposed to all kinds of weather over your life, you are inured to all but the most deadly effects. You gain advantage on saving throws against cold and hot weather, as well as any adverse effects from wind or precipitation.</p>
 </div>
 <div class="tabbed-block">
-<p>﻿<p><strong>Choose a degree:</strong></p></p>
-<p><select id="level-select" class="filter-select">
+<p><p><strong>Choose a degree:</strong></p></p>
+<p><select id="level-select" class="filter-select" data-filter-content="level-content" data-filter-attr="level">
     <option value="all">All</option>
     <option value="no-level-prereq">1st-Degree</option>
     <option value="level-5">2nd-Degree</option>
@@ -2429,43 +2431,52 @@
 <p>You choose to recruit a Brute or Scout, which determines certain traits in their stat block. They use the Mercenary stat block below and roll their own initiative in combat. On their turn, they do their best to follow any orders you have given. If not, they will defend themselves to the best of their ability.</p>
 <p>The Mercenary remains in your service until you dismiss them, they abandon you, or they die. You cannot regain this Exploit Die until the Mercenary leaves your service.</p>
 <p>You can only have one Mercenary in your service at a time. Recruiting another causes others to abandon you.</p>
-<pre><code>??? humanoid "Mercenary"
-*Medium Humanoid, any Non-Lawful Alignment*
-
-- **Armor Class:** 18 (Brute), 15 (Scout)
-- **Hit Points:** 6 + five times your Fighter level
-- **Speed:** 30 ft.
-
-|   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA  |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :----: |
-| 16 (+3) | 16 (+3) | 13 (+1) | 10 (+0) | 12 (+1) | 8 (-1) |
-
-- **Saving Throws:** Str 3 + your PB, Dex 3 + your PB
-- **Skills:** Athletics 3 + your PB (Brute), Stealth 3 + your PB (Scout)
-- **Senses:** passive Perception 12
-- **Languages:** common and one other language
-- **Proficiency Bonus:** your PB
-
-**Hit Dice.** The Mercenary has a number of d10 Hit Dice equal to your level. It also gains all the normal benefits of both short and long rests.
-
-**Morale.** If you fall to 0 hit points the Mercenary does everything in its power to flee and return home.
-
-**Rough and Tumble (Brute).** The Mercenary can use a bonus action to attempt a Shove or Grapple.
-
-**Cunning Strike (Scout).** If the Mercenary makes an attack with advantage, it deals 2d6 bonus damage.
-
-**Slippery (Scout).** The Mercenary can use a bonus action to take the Disengage or Hide action.
-
-**Actions**
-
-**Battleaxe (Brute).** *Melee Weapon Attack:* 3 + your PB to hit, reach 5 ft., one target. *Hit:* 1d8 + 3 + your PB slashing damage
-
-**Javelin (Brute).** *Melee/Ranged Weapon Attack:* 3 + your PB to hit, reach 5 ft./range 30/120 ft., one target. *Hit:* 1d6 + 3 + your PB piercing damage
-
-**Shortsword (Scout).** *Melee Weapon Attack:* 3 + your PB to hit, reach 5 ft., one target. *Hit:* 1d6 + 3 + your PB piercing damage
-
-**Shortbow (Scout).** *Ranged Weapon Attack:* 3 + your PB to hit, range 80/320 ft., one target. *Hit:* 1d6 + 3 + your PB piercing damage
-</code></pre>
+<details class="humanoid">
+<summary>Mercenary</summary>
+<p><em>Medium Humanoid, any Non-Lawful Alignment</em></p>
+<ul>
+<li><strong>Armor Class:</strong> 18 (Brute), 15 (Scout)</li>
+<li><strong>Hit Points:</strong> 6 + five times your Fighter level</li>
+<li><strong>Speed:</strong> 30 ft.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">STR</th>
+<th style="text-align: center;">DEX</th>
+<th style="text-align: center;">CON</th>
+<th style="text-align: center;">INT</th>
+<th style="text-align: center;">WIS</th>
+<th style="text-align: center;">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">16 (+3)</td>
+<td style="text-align: center;">16 (+3)</td>
+<td style="text-align: center;">13 (+1)</td>
+<td style="text-align: center;">10 (+0)</td>
+<td style="text-align: center;">12 (+1)</td>
+<td style="text-align: center;">8 (-1)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Saving Throws:</strong> Str 3 + your PB, Dex 3 + your PB<br />
+<strong>Skills:</strong> Athletics 3 + your PB (Brute), Stealth 3 + your PB (Scout)<br />
+<strong>Senses:</strong> passive Perception 12<br />
+<strong>Languages:</strong> common and one other language<br />
+<strong>Proficiency Bonus:</strong> your PB</p>
+<p><strong>Hit Dice.</strong> The Mercenary has a number of d10 Hit Dice equal to your level. It also gains all the normal benefits of both short and long rests.</p>
+<p><strong>Morale.</strong> If you fall to 0 hit points the Mercenary does everything in its power to flee and return home.</p>
+<p><strong>Rough and Tumble (Brute).</strong> The Mercenary can use a bonus action to attempt a Shove or Grapple.</p>
+<p><strong>Cunning Strike (Scout).</strong> If the Mercenary makes an attack with advantage, it deals 2d6 bonus damage.</p>
+<p><strong>Slippery (Scout).</strong> The Mercenary can use a bonus action to take the Disengage or Hide action.</p>
+<p><strong>Actions</strong></p>
+<p><strong>Battleaxe (Brute).</strong> <em>Melee Weapon Attack:</em> 3 + your PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d8 + 3 + your PB slashing damage</p>
+<p><strong>Javelin (Brute).</strong> <em>Melee/Ranged Weapon Attack:</em> 3 + your PB to hit, reach 5 ft./range 30/120 ft., one target. <em>Hit:</em> 1d6 + 3 + your PB piercing damage</p>
+<p><strong>Shortsword (Scout).</strong> <em>Melee Weapon Attack:</em> 3 + your PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 + 3 + your PB piercing damage</p>
+<p><strong>Shortbow (Scout).</strong> <em>Ranged Weapon Attack:</em> 3 + your PB to hit, range 80/320 ft., one target. <em>Hit:</em> 1d6 + 3 + your PB piercing damage</p>
+</details>
 <h4 id="resilient-body">Resilient Body</h4>
 <p><em>Prerequisites: 9th level, Constitution of 15</em></p>
 <p>When you take damage from a source you can see, you can expend an Exploit Die to reduce the damage by twice your Exploit Die + your Constitution modifier. Any hit points not consumed by the attack become temporary hit points.</p>
@@ -2585,8 +2596,8 @@
 </div>
 </div>
 <div class="tabbed-block">
-<p>﻿<p><strong>Choose a subclass:</strong></p></p>
-<p><select id="alt-subclass-select" class="filter-select">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="alt-subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="alt-banneret">Alternate Banneret</option>
     <option value="alt-cavalier">Alternate Cavalier</option>
@@ -2876,8 +2887,8 @@
 </div>
 </div>
 <div class="tabbed-block">
-<p>﻿<p><strong>Choose a subclass:</strong></p></p>
-<p><select id="subclass-select" class="filter-select">
+<p><p><strong>Choose a subclass:</strong></p></p>
+<p><select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
     <option value="all">All</option>
     <option value="brawler">Brawler</option>
     <option value="combat-medic">Combat Medic</option>

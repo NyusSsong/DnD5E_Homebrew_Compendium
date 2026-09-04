@@ -1,5 +1,8 @@
 /* ============================================================
    ADMONITIONS — CREATURES
+   Per-type icon URLs and color/icon variables only — the shared
+   structural rules (border, title, icon) live in
+   admonition-base.css.
    ============================================================ */
 
 :root {
@@ -17,27 +20,6 @@
   --md-admonition-icon--ooze:       url("../icons/svg/creature/ooze.svg");
   --md-admonition-icon--plant:      url("../icons/svg/creature/plant.svg");
   --md-admonition-icon--undead:     url("../icons/svg/creature/undead.svg");
-}
-
-/* ============================================================
-   SHARED STRUCTURAL RULES
-   ============================================================ */
-
-.md-typeset .admonition:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead),
-.md-typeset details:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) {
-  border-color: var(--admonition-color);
-}
-
-.md-typeset .admonition:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > .admonition-title,
-.md-typeset details:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > summary {
-  background-color: color-mix(in srgb, var(--admonition-color) 10%, transparent);
-}
-
-.md-typeset .admonition:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > .admonition-title::before,
-.md-typeset details:is(.aberration, .beast, .celestial, .construct, .dragon, .elemental, .fae, .fiend, .giant, .humanoid, .monstrosity, .ooze, .plant, .undead) > summary::before {
-  background-color: var(--admonition-color);
-  -webkit-mask-image: var(--admonition-icon);
-          mask-image: var(--admonition-icon);
 }
 
 /* ============================================================

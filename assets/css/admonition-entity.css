@@ -1,5 +1,8 @@
 /* ============================================================
    ADMONITIONS — ENTITY
+   Per-type icon URLs and color/icon variables only — the shared
+   structural rules (border, title, icon) live in
+   admonition-base.css.
    ============================================================ */
 
 :root {
@@ -29,27 +32,6 @@
   --md-admonition-icon--wand:         url("../icons/svg/entity/wand.svg");
   --md-admonition-icon--weapon:       url("../icons/svg/entity/weapon.svg");
   --md-admonition-icon--world:        url("../icons/svg/entity/world.svg");
-}
-
-/* ============================================================
-   SHARED STRUCTURAL RULES
-   ============================================================ */
-
-.md-typeset .admonition:is(.archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world),
-.md-typeset details:is(.archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world) {
-  border-color: var(--admonition-color);
-}
-
-.md-typeset .admonition:is(.archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world) > .admonition-title,
-.md-typeset details:is(.archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world) > summary {
-  background-color: color-mix(in srgb, var(--admonition-color) 10%, transparent);
-}
-
-.md-typeset .admonition:is(.archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world) > .admonition-title::before,
-.md-typeset details:is(.archive, .armor, .book, .location, .loot, .magic_item, .map, .mount, .object, .organization, .pack, .person, .pet, .potion, .ring, .scroll, .ship, .spellbook, .summon, .time, .tool, .trinket, .vehicle, .wand, .weapon, .world) > summary::before {
-  background-color: var(--admonition-color);
-  -webkit-mask-image: var(--admonition-icon);
-          mask-image: var(--admonition-icon);
 }
 
 /* ============================================================

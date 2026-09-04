@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="../../../assets/css/magic-items.css">
     
+      <link rel="stylesheet" href="../../../assets/css/admonition-base.css">
+    
       <link rel="stylesheet" href="../../../assets/css/admonition-combat.css">
     
       <link rel="stylesheet" href="../../../assets/css/admonition-entity.css">
@@ -2035,7 +2037,7 @@
 <p>Once you use this ability, you can't use it again until you finish a short or long rest.</p>
 </div>
 <div class="tabbed-block">
-<p>﻿<strong>Initiating a Cohort.</strong> Select a companion from the options below; following an 8-hour initiation period, that creature becomes your cohort. You can have only one cohort at a time.</p>
+<p><strong>Initiating a Cohort.</strong> Select a companion from the options below; following an 8-hour initiation period, that creature becomes your cohort. You can have only one cohort at a time.</p>
 <p>If your cohort is ever slain, you can raise them from the dead by the usual methods, such as the <em>raise dead</em> spell, or you can spend 8 hours initiating a new cohort. If you do so, your previous cohort loses all abilities granted by this feature, even if it is later returned to life.</p>
 <p>Your cohort obeys your commands as best it can. Your cohort takes its turn immediately before or after your turn each round (your choice), and you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own.</p>
 <p><strong>Cohort Features.</strong> At 2nd, 6th, 10th, 14th, and 18th levels, your cohort gains new abilities based on its archetype.</p>
@@ -2049,7 +2051,7 @@
 </details>
 <p>Your cohort is the most steadfast of allies, loyal to a fault, and will likely be a lifelong companion. Choose from the following when you enlist a new cohort.</p>
 <p><p><strong>Choose a cohort:</strong></p></p>
-<p><select id="type-select" class="filter-select">
+<p><select id="type-select" class="filter-select" data-filter-content="type-content" data-filter-attr="type">
   <option value="all">All</option>
   <option value="abbot">Abbot</option>
   <option value="berserker">Berserker</option>
@@ -2099,11 +2101,9 @@
 <strong>Senses</strong> passive Perception 12<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Spellcasting.</strong> The abbot is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The abbot has the following cleric spells prepared:</p>
 <p>Cantrips (at will): <em>light</em>, <em>sacred flame</em>, <em>thaumaturgy</em><br />
 1st level (2 slots): <em>cure wounds</em>, <em>guiding bolt</em>, <em>sanctuary</em></p>
-<hr />
 <p><strong>Mace.</strong> <em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) bludgeoning damage.</p>
 <p><strong>Light Crossbow.</strong> <em>Ranged Weapon Attack:</em> +2 to hit, range 80/320 ft., one target. <em>Hit:</em> 4 (1d8) piercing damage.</p>
 </details>
@@ -2179,9 +2179,7 @@
 <strong>Senses</strong> passive Perception 10<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Unarmored Defense.</strong> While not wearing armor, the berserker's AC is equal to 10 + its Dexterity modifier + its Constitution modifier.</p>
-<hr />
 <p><strong>Greataxe.</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d12 + 2) slashing damage.</p>
 <p><strong>Handaxe.</strong> <em>Ranged Weapon Attack:</em> +4 to hit, reach 20/60 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage.</p>
 </details>
@@ -2244,9 +2242,7 @@
 <strong>Senses</strong> passive Perception 11<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Martial Prowess.</strong> The champion deals an additional 2 damage on melee weapon damage rolls (included in the damage rolls).</p>
-<hr />
 <p><strong>Longsword.</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used in two hands.</p>
 <p><strong>Javelin.</strong> <em>Ranged Weapon Attack:</em> +4 to hit, reach 30/120 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
 </details>
@@ -2304,9 +2300,7 @@
 <strong>Senses</strong> darkvision 60 ft., passive Perception 10<br />
 <strong>Languages</strong> understands the languages of its creator (usually Common) but can't speak<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Death Burst.</strong> The construct explodes when it drops to 0 hit points. Each creature within 5 feet of it must make a DC 12 Constitution saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.</p>
-<hr />
 <p><strong>Slam.</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d8 + 2) bludgeoning damage.</p>
 </details>
 <h4 id="level-2-surveillance-protocol">Level 2 - Surveillance Protocol</h4>
@@ -2368,11 +2362,9 @@
 <strong>Senses</strong> passive Perception 9<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Spellcasting.</strong> The cultist is a 1st-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. The cultist knows the following warlock spells:</p>
 <p>Cantrips (at will): <em>eldritch blast</em>, <em>minor illusion</em><br />
 1st level (1 slot): <em>charm person</em>, <em>hellish rebuke</em></p>
-<hr />
 <p><strong>Dagger.</strong> <em>Melee or Ranged Weapon Attack:</em> +3 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 3 (1d4 + 1) piercing damage.</p>
 </details>
 <h4 id="level-2-agonizing-blast">Level 2 - Agonizing Blast</h4>
@@ -2439,9 +2431,7 @@
 <strong>Senses</strong> passive Perception 12<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Keen Hearing and Sight.</strong> The hunter has advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>
-<hr />
 <p><strong>Scimitar.</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage.</p>
 <p><strong>Longbow.</strong> <em>Ranged Weapon Attack:</em> +4 to hit, reach 150/600 ft., one target. <em>Hit:</em> 6 (1d8 + 2) piercing damage.</p>
 </details>
@@ -2512,11 +2502,9 @@
 <strong>Senses</strong> passive Perception 11<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Spellcasting.</strong> The mage is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The mage has the following wizard spells prepared:</p>
 <p>Cantrips (at will): <em>fire bolt</em>, <em>light</em>, <em>mage hand</em>, <em>prestidigitation</em><br />
 1st level (2 slots): <em>mage armor</em>, <em>magic missile</em>, <em>shield</em></p>
-<hr />
 <p><strong>Dagger.</strong> <em>Melee or Ranged Weapon Attack:</em> +3 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 3 (1d4 + 1) piercing damage.</p>
 </details>
 <h4 id="level-2-magic-resistance">Level 2 - Magic Resistance</h4>
@@ -2590,9 +2578,7 @@
 <strong>Senses</strong> passive Perception 11<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Sneak Attack (1/Turn).</strong> The stalker deals an extra 3 (1d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the stalker that isn't incapacitated and the stalker doesn't have disadvantage on the attack roll.</p>
-<hr />
 <p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
 <p><strong>Shortbow.</strong> <em>Ranged Weapon Attack:</em> +4 to hit, reach 80/320 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
 </details>
@@ -2655,9 +2641,7 @@
 <strong>Senses</strong> passive Perception 10<br />
 <strong>Languages</strong> any one language (usually Common)<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Brave.</strong> The templar has advantage on saving throws against being frightened.</p>
-<hr />
 <p><strong>Longsword.</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d8 + 2) slashing damage, or 9 (1d10 + 4) slashing damage if used in two hands.</p>
 <p><strong>Javelin.</strong> <em>Ranged Weapon Attack:</em> +4 to hit, reach 30/120 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
 </details>
@@ -2729,9 +2713,7 @@
 <strong>Senses</strong> darkvision 60 ft., passive Perception 9<br />
 <strong>Languages</strong> understands any one language (usually Common), but can't speak<br />
 <strong>Challenge</strong> 1/4 (50 XP)</p>
-<hr />
 <p><strong>Undead Fortitude.</strong> If damage reduces the undead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the undead drops to 1 hit point instead.</p>
-<hr />
 <p><strong>Bite.</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
 </details>
 <h4 id="level-2-turn-resistance">Level 2 - Turn Resistance</h4>
@@ -2752,9 +2734,9 @@
 </div>
 </div>
 <div class="tabbed-block">
-<p>﻿Captains adopt emblems that denote their virtues, skills, and command styles, which they fly upon their banners to rally allies to their side. A symbolic statement, this heraldry speaks volumes about what a captain prizes in the world, be it knowledge, allies, or personal gain.</p>
+<p>Captains adopt emblems that denote their virtues, skills, and command styles, which they fly upon their banners to rally allies to their side. A symbolic statement, this heraldry speaks volumes about what a captain prizes in the world, be it knowledge, allies, or personal gain.</p>
 <p><p><strong>Choose a banner:</strong></p></p>
-<p><select id="subclass-select" class="filter-select">
+<p><select id="subclass-select" class="filter-select" data-filter-content="subclass-content" data-filter-attr="subclass">
   <option value="all">All</option>
   <option value="dragon">Dragon</option>
   <option value="eagle">Eagle</option>

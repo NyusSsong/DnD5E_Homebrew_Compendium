@@ -1,44 +1,20 @@
-document.addEventListener('DOMContentLoaded', function() {
+// Delegated filter wiring: every <select class="filter-select"> that carries
+// data-filter-content + data-filter-attr self-registers on change — no per-filter
+// code is ever needed here.
+//
+// The data-filter-attr value must be the camelCase form of the content's data-*
+// attribute (e.g. "metamagicCost" for data-metamagic-cost; single words match
+// as-is, e.g. "subclass" for data-subclass).
+document.addEventListener('change', function (e) {
+    const select = e.target.closest('select.filter-select[data-filter-content]');
+    if (!select) return;
 
-    function setupFilter(selectId, contentClass, dataAttribute) {
-        const select = document.getElementById(selectId);
-        if (!select) return;
-
-        select.addEventListener('change', function() {
-            const selectedValue = this.value;
-            const contents = document.querySelectorAll(`.${contentClass}`);
-
-            contents.forEach(content => {
-                if (selectedValue === 'all' || content.dataset[dataAttribute] === selectedValue) {
-                    content.style.display = 'block';
-                } else {
-                    content.style.display = 'none';
-                }
-            });
-        });
-    }
-
-    // Initialize filters
-    //// Beware that content.dataset in dataAttribute uses camelCase
-
-    //// Generic filters
-    setupFilter('alt-subclass-select', 'subclass-content', 'subclass');
-    setupFilter('subclass-select', 'subclass-content', 'subclass');
-    setupFilter('level-select', 'level-content', 'level');
-    setupFilter('type-select', 'type-content', 'type');
-
-    //// Base classes filters
-    setupFilter('metamagic-select', 'metamagic-content', 'metamagicCost')
-
-    //// Kibbles Psion filters
-    setupFilter('discipline-select', 'discipline-content', 'discipline');
-    setupFilter('talent-select', 'talent-content', 'talent');
-    setupFilter('upgrade-select', 'upgrade-content', 'upgrade')
-
-    //// 2CGaming Elementalist filters
-    setupFilter('shape-select', 'shape-content', 'shape');
-    setupFilter('hybrid-select', 'hybrid-content', 'hybrid');
-
-    //// Kibbles Occultist & Laserllama Bloodhunter filters
-    setupFilter('rite-select', 'rite-content', 'rite');
-});
+    const contents = document.querySelectorAll('.' + select.dataset.filterContent);
+    contents.forEach(content => {
+        if (select.value === 'all' || content.dataset[select.dataset.filterAttr] === select.value) {
+            content.style.display = 'block';
+        } else {
+            content.style.display = 'none';
+        }
+    });
+});

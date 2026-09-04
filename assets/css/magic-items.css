@@ -162,72 +162,6 @@
     margin: 5px 0;
 }
 
-/* Card Content Styles */
-.magic-items-card-content {
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-    max-width: 500px;
-    width: 90%;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.magic-items-card-content h2 {
-    margin: 0 0 20px 0;
-    color: #2c3e50;
-}
-
-.magic-items-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
-    font-family: inherit;
-    resize: vertical;
-    min-height: 100px;
-}
-
-.magic-items-card-buttons {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.magic-items-submit-btn {
-    padding: 10px 20px;
-    background: #27ae60;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.magic-items-submit-btn:hover {
-    background: #219a52;
-}
-
-.magic-items-cancel-btn {
-    padding: 10px 20px;
-    background: #95a5a6;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.magic-items-cancel-btn:hover {
-    background: #7f8c8d;
-}
-
-.magic-items-error {
-    color: #e74c3c;
-    margin: 10px 0 0 0;
-    font-size: 14px;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .magic-items-controls {
@@ -312,11 +246,6 @@
     max-width: none !important;
 }
 
-.magic-items-card-content {
-    width: 95% !important;
-    max-width: none !important;
-}
-
 /* Ensure inputs and selects expand properly */
 .magic-items-input {
     flex: 1 !important;
@@ -364,8 +293,7 @@
 }
 
 /* Modal backgrounds */
-[data-md-color-scheme="slate"] .magic-items-modal-content,
-[data-md-color-scheme="slate"] .magic-items-card-content {
+[data-md-color-scheme="slate"] .magic-items-modal-content {
     background: var(--md-default-bg-color, #1e1e1e);
     color: var(--md-typeset-color, #e8e8e8);
 }
@@ -377,8 +305,7 @@
 
 /* Input backgrounds */
 [data-md-color-scheme="slate"] .magic-items-input,
-[data-md-color-scheme="slate"] .magic-items-select,
-[data-md-color-scheme="slate"] .magic-items-textarea {
+[data-md-color-scheme="slate"] .magic-items-select {
     background: var(--md-default-bg-color, #1e1e1e);
     border-color: var(--md-default-fg-color--light, #444);
     color: var(--md-typeset-color, #e8e8e8);
