@@ -318,13 +318,11 @@ All master craftsmen learn the basics of smithing, leatherworking, woodworking, 
         **Senses** blindsight 120 ft. (blind beyond this radius), passive Perception 6  
         **Languages** —  
 
-        ---
 
         **Cockpit Cover.** Any creature inside the apparatus is granted total cover from outside effects, but takes half the damage taken by the apparatus.
 
         **Double Two-Handed.** The apparatus has two mechanical arms, each of which can hold one installed weapon. Each mechanical arm is powerful enough to wield weapons as if with two hands. The apparatus can only use melee weapons.
 
-        ---
 
         **Maul (right hand).** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage.
 

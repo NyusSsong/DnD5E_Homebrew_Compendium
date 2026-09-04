@@ -58,14 +58,12 @@ A devout adherent to the faith, an abbot can work minor divine miracles with the
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Spellcasting.** The abbot is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The abbot has the following cleric spells prepared:
 
     Cantrips (at will): *light*, *sacred flame*, *thaumaturgy*  
     1st level (2 slots): *cure wounds*, *guiding bolt*, *sanctuary*
 
-    ---
 
     **Mace.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage.
 
@@ -149,11 +147,9 @@ Vicious and wild, the Berserker tears across the battlefield in a wild frenzy, d
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Unarmored Defense.** While not wearing armor, the berserker's AC is equal to 10 + its Dexterity modifier + its Constitution modifier.
 
-    ---
 
     **Greataxe.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 8 (1d12 + 2) slashing damage.
 
@@ -219,11 +215,9 @@ A Champion is a skilled, tactical fighter, just as comfortable in the saddle dur
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Martial Prowess.** The champion deals an additional 2 damage on melee weapon damage rolls (included in the damage rolls).
 
-    ---
 
     **Longsword.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used in two hands.
 
@@ -285,11 +279,9 @@ With the help of a tinkerer or a mage, you gain the unwavering, mechanical loyal
     **Languages** understands the languages of its creator (usually Common) but can't speak  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Death Burst.** The construct explodes when it drops to 0 hit points. Each creature within 5 feet of it must make a DC 12 Constitution saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
 
-    ---
 
     **Slam.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage.
 
@@ -359,14 +351,12 @@ Dogmatic and often unhinged, cultists draw upon forbidden, eldritch allies for a
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Spellcasting.** The cultist is a 1st-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. The cultist knows the following warlock spells:
 
     Cantrips (at will): *eldritch blast*, *minor illusion*  
     1st level (1 slot): *charm person*, *hellish rebuke*
 
-    ---
 
     **Dagger.** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage.
 
@@ -442,11 +432,9 @@ A Hunter is a naturally skilled tracker and outlander, as comfortable in the dep
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Keen Hearing and Sight.** The hunter has advantage on Wisdom (Perception) checks that rely on hearing or sight.
 
-    ---
 
     **Scimitar.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
 
@@ -530,14 +518,12 @@ A mage is a brilliant and studious spellcaster, well-versed in the study of all 
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Spellcasting.** The mage is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The mage has the following wizard spells prepared:
 
     Cantrips (at will): *fire bolt*, *light*, *mage hand*, *prestidigitation*  
     1st level (2 slots): *mage armor*, *magic missile*, *shield*
 
-    ---
 
     **Dagger.** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage.
 
@@ -617,11 +603,9 @@ Stealthy and subversive, the Stalker is just as adept an assassin as a burglar o
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Sneak Attack (1/Turn).** The stalker deals an extra 3 (1d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the stalker that isn't incapacitated and the stalker doesn't have disadvantage on the attack roll.
 
-    ---
 
     **Shortsword.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 
@@ -693,11 +677,9 @@ A daring knight, sworn to virtue and station, a templar knows no fear in their h
     **Languages** any one language (usually Common)  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Brave.** The templar has advantage on saving throws against being frightened.
 
-    ---
 
     **Longsword.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage, or 9 (1d10 + 4) slashing damage if used in two hands.
 
@@ -783,11 +765,9 @@ With the help of necromancy, a commander can enlist the most loyal minion possib
     **Languages** understands any one language (usually Common), but can't speak  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Undead Fortitude.** If damage reduces the undead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the undead drops to 1 hit point instead.
 
-    ---
 
     **Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
 

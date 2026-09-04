@@ -380,7 +380,6 @@
         **Languages** understands the languages of its creator but can't speak  
         **Challenge** 5 (1,800 XP)
 
-        ---
 
         **Aversion to Fire.** Whenever the alchemy golem takes fire damage, it has disadvantage on ability checks and attack rolls until the end of its next turn.
 
@@ -392,7 +391,6 @@
 
         **Monstrous Grafts.** The alchemy golem's weapon attacks, including monstrous grafts added by its creator, are magical. Monstrous grafts have a +6 attack bonus, deal twice the normal number of damage dice, and add 5 to damage rolls. The alchemy golem can only have 1 graft in each slot.
 
-        ---
 
         **Multiattack.** The alchemy golem makes two melee weapon attacks.
 

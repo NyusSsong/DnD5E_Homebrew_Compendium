@@ -1,0 +1,68 @@
+# CI for the DnD 5E Homebrew Compendium.
+#
+# What this workflow does:
+#   - Every push and every pull request: run the convention validator
+#     (node validate.mjs), then build the site with `mkdocs build --strict`.
+#     These steps only CHECK — they never publish.
+#   - A push to `master` that passes both checks: publish the built site
+#     to the `gh-pages` branch (the branch GitHub Pages already serves).
+#     This mirrors what `mkdocs gh-deploy` did manually — same branch, same
+#     force-push style — so no Pages setting needs to change.
+#
+# Requires (one-time, in repo Settings → Actions → General):
+#   Workflow permissions = "Read and write repository permissions", so the
+#   built-in GITHUB_TOKEN may push to the gh-pages branch.
+
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-build-deploy:
+    name: Validate, build, and deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # used only by the deploy step; only ever runs on master pushes
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node (for the validator)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run convention validator
+        run: node validate.mjs
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install pinned dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site (strict — warnings fail the build)
+        run: mkdocs build --strict
+
+      - name: Publish to gh-pages (master pushes only)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          force_orphan: false # keep gh-pages history, like mkdocs gh-deploy
+          commit_message: "Deploy site (${{ github.sha }})"

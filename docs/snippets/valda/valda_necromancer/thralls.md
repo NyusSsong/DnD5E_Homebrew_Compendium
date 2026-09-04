@@ -49,13 +49,11 @@ Constructed of haphazardly-assembled humanoid bones, a bonebeast looks nothing l
     **Languages** understands all languages it knew in life, as well as the languages of its creator, but can't speak  
     **Challenge** 1 (200 XP)
 
-    ---
 
     **Keen Smell.** The bonebeast has advantage on Wisdom (Perception) checks that rely on smell.
 
     **Pack Tactics.** The bonebeast has advantage on attack rolls against a creature if at least one of the bonebeast's allies is within 5 feet of the creature and the ally isn't incapacitated.
 
-    ---
 
     ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) piercing damage.
 
@@ -83,11 +81,9 @@ An unholy tangling of flesh, the gorger still vaguely resembles a humanoid in pr
     **Languages** understands all languages it knew in life, as well as the languages of its creator, but can't speak  
     **Challenge** 1 (200 XP)
 
-    ---
 
     **Echolocation.** The gorger can't use its blindsight while deafened.
 
-    ---
 
     ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage.
 
@@ -115,11 +111,9 @@ Gravetouched ghouls, which are suffused with terrible necromantic energies, mani
     **Languages** understands all languages it knew in life, as well as the languages of its creator, but can't speak  
     **Challenge** 2 (450 XP)
 
-    ---
 
     **Regeneration.** The gravetouched ghoul regains 5 hit points at the start of its turn. If the gravetouched ghoul takes fire or radiant damage, this trait doesn't function at the start of the gravetouched ghoul's next turn. The gravetouched ghoul dies only if it starts its turn with 0 hit points and doesn't regenerate.
 
-    ---
 
     ***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 18 (4d6 + 4) slashing damage.
 
@@ -148,7 +142,6 @@ The reanimated remains of humanoids long since dead, skeletons are puppets of bo
     **Languages** understands all languages it knew in life, as well as the languages of its creator, but can't speak  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     ***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 
@@ -179,11 +172,9 @@ A spirit is the scarcely tangible echo of a humanoid, a soul bound to the mortal
     **Languages** understands all languages it knew in life, as well as the languages of its creator, but can't speak  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Incorporeal Movement.** The spirit can move through other creatures and objects as if they were difficult terrain. The spirit takes 5 (1d10) force damage if it ends its turn inside an object.
 
-    ---
 
     ***Grave Touch.*** *Melee Spell Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 4 (1d4 + 2) necrotic damage and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
 
@@ -211,13 +202,11 @@ Mournfully longing for the world of the living, a visage is the lingering soul o
     **Languages** understands all languages it knew in life, as well as the languages of its creator, but can't speak  
     **Challenge** 2 (450 XP)
 
-    ---
 
     **Incorporeal Movement.** The visage can move through other creatures and objects as if they were difficult terrain. The visage takes 5 (1d10) force damage if it ends its turn inside an object.
 
     **Magic Resistance.** The visage has advantage on saving throws against spells and other magical effects.
 
-    ---
 
     ***Horrify.*** *Melee Spell Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 15 (5d4 + 3) psychic damage.
 
@@ -247,11 +236,9 @@ A zombie is the rotting remains of the once-living, held together and driven by 
     **Languages** understands all languages it knew in life, as well as the languages of its creator, but can't speak  
     **Challenge** 1/4 (50 XP)
 
-    ---
 
     **Undead Fortitude.** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 
-    ---
 
     ***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage.
 
