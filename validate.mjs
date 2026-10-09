@@ -137,7 +137,44 @@ function checkNav() {
 }
 
 /* ------------------------------------------------------------------ */
-/* 5. Encoding: UTF-8 BOM                                              */
+/* 5. Mechanical markdown pattern checks                                */
+/* ------------------------------------------------------------------ */
+
+function checkPatternViolations() {
+    const files = [
+        ...mdFilesUnder(DOCS),
+        ...mdFilesUnder(TEMPLATES),
+        ...mdFilesUnder(path.join(ROOT, 'input')),
+    ];
+
+    const rootReadme = path.join(ROOT, 'readme.md');
+    if (fs.existsSync(rootReadme)) files.push(rootReadme);
+
+    for (const file of files) {
+        const lines = readLines(file);
+        lines.forEach((line, i) => {
+            if (/(^|[^-])-8<--/.test(line)) {
+                report('single-dash-include', file, i + 1,
+                    'single-dash include detected — use --8<-- instead');
+            }
+            if (/\s*#{2,3}\s+\^\^[^\n]*\^\^/.test(line)) {
+                report('legacy-subclass-heading', file, i + 1,
+                    'legacy subclass heading detected — use ??? subclass "Name" instead');
+            }
+            if (line.includes('&nbsp;')) {
+                report('forbidden-html', file, i + 1,
+                    'HTML spacing entity &nbsp; is forbidden');
+            }
+            if (/<div\b[^>]*class=(?:"[^"]*\bclassTable\b[^"]*"|'[^']*\bclassTable\b[^']*')[^>]*>/i.test(line)) {
+                report('forbidden-html', file, i + 1,
+                    'table wrapper <div class="classTable"> is forbidden');
+            }
+        });
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/* 6. Encoding: UTF-8 BOM                                              */
 /* ------------------------------------------------------------------ */
 
 function checkBom() {
@@ -163,6 +200,7 @@ function checkBom() {
 checkIncludes();
 checkFilters();
 checkNav();
+checkPatternViolations();
 checkBom();
 
 const byGroup = new Map();
