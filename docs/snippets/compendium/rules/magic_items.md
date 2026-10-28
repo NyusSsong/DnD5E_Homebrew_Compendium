@@ -23,13 +23,10 @@ To prevent players from jumping ahead of the curve through aggressive saving or 
 
 This generates the following progression:
 
-**Levels 1-4 (PB +2):** access to items between levels 1 and 6.
-
-**Levels 5-8 (PB +3):** access to items between levels 8 and 11.
-
-**Levels 9-12 (PB +4):** access to items between levels 13 and 16.
-
-**Levels 13-16 (PB +5):** access to items between levels 17 and 20.
+- **Levels 1-4 (PB +2):** access to items between levels 1 and 6.  
+- **Levels 5-8 (PB +3):** access to items between levels 8 and 11.  
+- **Levels 9-12 (PB +4):** access to items between levels 13 and 16.  
+- **Levels 13-16 (PB +5):** access to items between levels 17 and 20.
 
 This way, players can aspire to items slightly above their character level without excessively breaking the progression, rewarding planning without disproportionate power jumps.
 
@@ -60,67 +57,93 @@ This way, players can aspire to items slightly above their character level witho
 
 ### Item Level Modifiers
 
-The following guidelines establish a series of modifiers that can be applied to determine how certain effects change an item's level.
+The following guidelines establish a series of modifiers that can be applied to determine how certain effects change an item's level. Determine each axis in order, starting from 0 and adding each axis's value. The result is the sum of the item's effects modifiers, which is then applied to the item's base level.
 
-First, determine if the item has passive or active functionalities (or both). For items with **passive functionalities**, establish the power axis (2-6), where the accessibility axis (how easy it is to exploit) is absorbed by the power axis (what the item does):
+#### Per-Effect Valuation
 
-**Minimal:** +1d4 damage, +1 to a roll -> +2
+Typically, choose up to three effects to be evaluated and order them from strongest to weakest. Score each effect separately instead of collapsing the whole item into a single power rating. The axes are checked against each effect individually, using the same axis tables as the rest of this section. For each relevant effect, determine:
 
-**Low:** +1d6 damage, specific resistance, +1 AC -> +3
+- **Power axis.** Use the passive power axis if that effect is at least partly passive; use the active power axis if that effect is only active. This choice is made per effect, so one item can have an active dominant effect and a passive secondary effect, or any other combination. If using the passive power axis, classify the effect while taking the accesibility axis into consideration as well.
+- **Accessibility axis.** Establish how easy that effect is to use.
+- **Range axis.** Establish who that effect affects.
+- **Attunement.** Determine whether using that effect requires attunement.
+- **Consumable.** Determine whether that effect is a consumable.
 
-**Medium:** +1d8 or +1d10 damage, broad resistance, situational advantage -> +4
+Add the axis values for the effect to get its raw total. If that effect does not fit cleanly on any axis, use the DM judgment band for that effect.
 
-**High:** +2d6 damage, control effects, resource recovery, consistent advantage -> +5
+Once each relevant effect has a raw total, combine them with diminishing returns:
 
-**Very High:** permanent unconditional advantage, immunities, area of effect -> +6
+- **Dominant effect.** The strongest relevant effect keeps its raw total.
+- **Secondary effect.** The next relevant effect is divided by 2 with a minimum raw total of +1.
+- **Tertiary effect.** A further relevant effect is divided by 3 with a minimum raw total of +1.
 
-For items with **only active functionalities**, establish the power axis (what the item does):
+The item's temporary level modifier is the sum of the dominant effect, the secondary effect divided by 2, and the tertiary effect divided by 3. Add the temporary modifier to the item-level adjustments below:
 
-**Minimal:** +1d4 damage, +1 to a roll -> +1
+- **Attunement.** Whether the item requires attunement.
+- **Consumable.** Whether the item is a consumable.
+- **DM judgment.** Any effect that does not fit the existing axes.
 
-**Low:** +1d6 damage, specific resistance, +1 AC -> +2
+The additions in this step can produce decimals. When you reach the final item modifier, round it down to the nearest whole number to determine the item's level.
 
-**Medium:** +2dX damage, broad resistance, situational advantage -> +3
+Not every quirk is a relevant effect. Flavor-only, cosmetic, or purely nominal details do not automatically earn a slot in the sum. If an item has more than three relevant effects, use common sense: the weaker ones may not add enough to count, and the DM's ±2 judgment covers anything the math undersells or oversells.
 
-**High:** control effects, resource recovery, consistent advantage -> +4
+??? table "Passive Power Axis"
 
-**Very High:** permanent unconditional advantage, immunities, area of effect -> +5
+    | Tier | Typical effects | Modifier |
+    |---|---|---|
+    | **Minimal** | +1d4 damage, +1 to a roll | +2 |
+    | **Low** | +1d6 damage, specific resistance, +1 AC | +3 |
+    | **Medium** | +1d8 or +1d10 damage, broad resistance, situational advantage | +4 |
+    | **High** | +2d6 damage, control effects, resource recovery, consistent advantage | +5 |
+    | **Very High** | Permanent unconditional advantage, immunities, area of effect | +6 |
 
-Second, establish the **accessibility axis** (how easy it is to use):
+??? table "Active Power Axis"
 
-**Very Limited:** 1/long rest, full action -> +1
+    | Tier | Typical effects | Modifier |
+    |---|---|---|
+    | **Minimal** | +1d4 damage, +1 to a roll | +1 |
+    | **Low** | +1d6 damage, specific resistance, +1 AC | +2 |
+    | **Medium** | +2dX damage, broad resistance, situational advantage | +3 |
+    | **High** | Control effects, resource recovery, consistent advantage | +4 |
+    | **Very High** | Permanent unconditional advantage, immunities, area of effect | +5 |
 
-**Limited:** fixed uses, bonus action, reactions with conditions -> +2
+??? table "Accessibility Axis"
 
-**Moderate:** charges with recharge, unconditional reaction -> +3
+    | Tier | Typical usage | Modifier |
+    |---|---|---|
+    | **Very Limited** | 1/long rest, full action | +1 |
+    | **Limited** | Fixed uses, bonus action, reactions with conditions | +2 |
+    | **Moderate** | Charges with recharge, unconditional reaction | +3 |
+    | **High** | Unlimited with an activation condition | +4 |
+    | **Total** | Permanent passive with no condition or activation | +5 |
 
-**High:** unlimited with an activation condition -> +4
+??? table "Range Axis"
 
-**Total:** permanent passive with no condition or activation -> +5
+    | Tier | Reach | Modifier |
+    |---|---|---|
+    | **Personal** | Only the wielder | +0 |
+    | **Short** | Nearby creatures or an ally within 30 ft | +1 |
+    | **Broad** | Area, multiple creatures, or allies at 60 ft or more | +2 |
 
-Third, establish the **range axis** (who it affects):
+??? table "Attunement"
 
-**Personal:** only the wielder -> +0
+    | Condition | Modifier |
+    |---|---|
+    | **No attunement required** | +0 |
+    | **Requires attunement** | -1 |
 
-**Short:** affects nearby creatures or an ally within 30 ft -> +1
+??? table "Consumable"
 
-**Broad:** area, multiple creatures, or allies at 60 ft or more -> +2
+    | Condition | Modifier |
+    |---|---|
+    | **Not a consumable** | +0 |
+    | **Is a consumable** | -3 |
 
-Fourth, determine if the item requires **attunement**:
-
-**No attunement required** -> +0
-
-**Requires attunement** -> -1
-
-Fifth, determine if the item is a **consumable**:
-
-**Not a consumable** -> +0
-
-**Is a consumable** -> -3
+#### DM Judgment
 
 Lastly, the DM uses their judgment to apply any power modification that cannot be contemplated in the existing axes. This modification can reduce or increase the item's level by up to -2/+2 levels.
 
-### Minimum Level Differentiation
+#### Minimum Level Differentiation
 
 When a magic item shares a base characteristic with a previously cataloged default item (such as a +1 bonus to attack and damage from a +1 weapon), there must be a minimum level differentiation to reflect that it is a distinct item with additional capabilities, regardless of whether the calculated modifier for those capabilities is +0.
 
