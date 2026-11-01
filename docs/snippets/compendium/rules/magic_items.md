@@ -63,7 +63,7 @@ The following guidelines establish a series of modifiers that can be applied to 
 
 Typically, choose up to three effects to be evaluated and order them from strongest to weakest. Score each effect separately instead of collapsing the whole item into a single power rating. The axes are checked against each effect individually, using the same axis tables as the rest of this section. For each relevant effect, determine:
 
-- **Power axis.** Use the passive power axis if that effect is at least partly passive; use the active power axis if that effect is only active. This choice is made per effect, so one item can have an active dominant effect and a passive secondary effect, or any other combination. If using the passive power axis, classify the effect while taking the accesibility axis into consideration as well.
+- **Power axis.** Use the passive power axis if that effect is at least partly passive; use the active power axis if that effect is only active. This choice is made per effect, so one item can have an active dominant effect and a passive secondary effect, or any other combination. If using the passive power axis, classify the effect while taking the accessibility axis into consideration as well.
 - **Accessibility axis.** Establish how easy that effect is to use.
 - **Range axis.** Establish who that effect affects.
 - **Attunement.** Determine whether using that effect requires attunement.
