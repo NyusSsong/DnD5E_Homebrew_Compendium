@@ -74,7 +74,6 @@ nav:
         - Warden: classes/valda/valda_warden.md
         - Warmage: classes/valda/valda_warmage.md
         - Witch: classes/valda/valda_witch.md
-  - Magic Items: magic-items.md
 
 markdown_extensions:
   - admonition
@@ -93,7 +92,6 @@ markdown_extensions:
 
 extra_css:
   - assets/css/custom.css
-  - assets/css/magic-items.css
   - assets/css/admonition-base.css
   - assets/css/admonition-combat.css
   - assets/css/admonition-entity.css
@@ -101,4 +99,3 @@ extra_css:
   - assets/css/admonition-creature.css
 extra_javascript:
   - assets/js/filter.js
-  - assets/js/magic-items.js

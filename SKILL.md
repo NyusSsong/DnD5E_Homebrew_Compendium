@@ -21,17 +21,14 @@ homebrew repository. Always read this skill before creating or editing any file.
 ```
 ./docs/
     index.md
-    magic-items.md
     rules.md
     assets/
         css/
             custom.css
-            magic-items.css
             admonition-*.css
         icons/
         js/
             filter.js          ← delegated filter wiring (no per-filter registration)
-            magic-items.js
     classes/
         base_classes/          ← assembled class pages (one per class)
         kibbles/               ← Kibbles' Tasty class pages

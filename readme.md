@@ -3,15 +3,13 @@
 A personal, homebrew-focused Dungeons & Dragons 5th Edition compendium, published as a
 static site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
-It contains homebrew classes, subclasses, and rules used in Song's D&DR games, plus a
-searchable Magic Items database backed by [Supabase](https://supabase.com/).
+It contains homebrew classes, subclasses, and rules used in Song's D&DR games.
 
 ## Repository layout
 
 | Path | Purpose |
 |------|---------|
 | `docs/` | Site content — class pages in `docs/classes/`, shared snippets in `docs/snippets/`, rules in `docs/rules.md` |
-| `docs/assets/` | Site JavaScript (`filter.js`, `magic-items.js`) and CSS |
 | `templates/` | Base templates for assembling new class pages |
 | `input/` | Drop zone for source class/subclass text awaiting processing |
 | `SKILL.md`, `AGENTS.md` | Conventions and workflow for AI agents working in this repo |

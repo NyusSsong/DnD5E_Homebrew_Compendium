@@ -103,8 +103,6 @@ may instead pin `click==8.2.1` (`pip install click==8.2.1`) and drop the flag.
 
 | Path | Purpose |
 |------|---------|
-| `docs/` | Site content — assembled class pages in `docs/classes/`, reusable snippets in `docs/snippets/`, `rules.md`, `magic-items.md` |
-| `docs/assets/` | JavaScript (`filter.js`, `magic-items.js`) and CSS (`custom.css`, `admonition-*.css`) |
 | `templates/` | Skeletons for assembling new class pages and snippets |
 | `input/` | Drop zone for raw source text awaiting processing (never published) |
 | `validate.mjs` | Convention validator — run before every commit |
@@ -224,21 +222,12 @@ To publish your fork as its own live site, in addition to steps 1–3:
    edit_uri: edit/master/docs
    ```
 
-2. **Decide what to do with the Magic Items page.** The page
-   (`docs/magic-items.md` + `docs/assets/js/magic-items.js`) reads from the
-   *original project's* Supabase database — the `SUPABASE_CONFIG` constant at
-   the top of `magic-items.js` holds the project URL and anon key (the anon
    key is public by design; row-level security keeps the site anonymous
    read-only). Your options:
    - **Keep it** — the page is read-only and public, so pointing at the
      original database works as-is.
-   - **Remove it** — delete `docs/magic-items.md` and its `nav:` entry, and
-     remove `magic-items.css` / `magic-items.js` from `extra_css` /
      `extra_javascript` in `mkdocs.yml`.
-   - **Host your own** — create a Supabase project with an `items` table
      (`id`, `name`, `type`, `rarity`, `attunement`, `description`), enable RLS
-     with a public `SELECT` policy only, and replace `SUPABASE_CONFIG` in
-     `magic-items.js`.
 
 3. **Enable Pages + workflow permissions** on your fork (same two settings as
    §8), then push to your `master`. CI publishes to your fork's `gh-pages`,
