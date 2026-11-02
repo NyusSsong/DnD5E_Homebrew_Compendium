@@ -4,7 +4,7 @@ Welcome! This is the compendium of homebrew content for our D&D 5E games: **34 c
 
 ## What to know before you build
 
-- [Rules](rules.md) holds the house rules for the table, split into tabs: [Mechanical Changes](rules.md), [Feats](rules.md), [Race Changes](rules.md), [Spellcasting Services](rules.md), [Glossary](rules.md), and [Magic Items](rules.md). Read **Mechanical Changes** and **Feats** first — they affect every character you build.
+- [Rules](rules.md) holds the house rules for the table, split into tabs: [Mechanical Changes](rules.md), [Feats](rules.md), [Race Changes](rules.md), [Spellcasting Services](rules.md), and [Glossary](rules.md). Read **Mechanical Changes** and **Feats** first — they affect every character you build.
 - Class pages are **tabbed**: subclasses, progression, features, and build options (specializations, upgrades, shapes) each live in their own tab — click through them all.
 - **Feats and magic items may be rebalanced** for our table. When in doubt, your DM's call wins.
 
